@@ -1,0 +1,8 @@
+data/TrentinGrana/
+data/images_flat/
+
+__pycache__/
+*.py[cod]
+.DS_Store
+.venv/
+.env
