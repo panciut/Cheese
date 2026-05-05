@@ -231,12 +231,117 @@ trivial — one input row, one output row, easy to diff.
   vocabulary for that attribute.
 - Length sanity: flag rewrites with token count > 20 or < 3.
 
-## 6. What this report does NOT yet cover
+## 6. Reconciliation with the official project scope
 
-- The official project scope (PDF in repo root) — not yet read at the time
-  of writing this section. Sections above may need to be reconciled with
-  the official deliverables, evaluation criteria, and constraints once
-  that PDF is reviewed.
+Source: `AI4FQC-Project Description Template_07_GRANA_Captioning.docx (2).pdf`.
+
+### 6.1 Project framing
+
+- **Project 07 — GRANA_Captioning**, part of the AI4FQC programme.
+- **Dataset** as described by the brief: images of grana cheese wheel
+  sections, acquired with the **IRIS electronic visual analyzer** under
+  controlled lighting and imaging conditions. This matches what we have on
+  disk (1024×768 BMPs across 2018-2022). Because acquisition is controlled,
+  cross-session lighting normalization is likely a minor concern compared
+  with content-level cleaning.
+- **Two-step task**:
+  1. Clean and pre-process the textual descriptions from tasters.
+  2. Apply and compare **three different basic encoder-decoder captioning
+     methods**, chosen to be conceptually as different as possible.
+- The brief explicitly stresses that Step 1 quality drives Step 2 success.
+
+### 6.2 Step 1 requirements — what the brief asks for
+
+Verbatim cleaning examples from the brief:
+
+- **Substitute quantitative descriptions with qualitative ones.**
+  Example in our data: `"Spigoli sopra 20mm Piatto 10mm circa Media 12mm"`
+  → a qualitative paraphrase such as
+  `"Crosta di spessore irregolare, mediamente sottile."`. Numbers, ranges,
+  and units (`mm`, `cm`, `%`) should disappear in favour of qualitative
+  Italian descriptors.
+- **Rephrase dialect sentences.** Some panelist notes use regional or
+  colloquial Italian. These need to be brought to a neutral standard
+  Italian register.
+- **Enrich telegraphic comments** into elegant, full sentences. This is
+  exactly the single-token-fragment problem ("Crauti", "Forte", "Yogurt")
+  observed in §4.3.
+- **Reduce synonyms** to a controlled vocabulary, so different panelists'
+  near-synonymous wording converges on the same surface form.
+
+### 6.3 Step 2 requirements — captioning methods
+
+- Three encoder-decoder captioning methods, conceptually different.
+  Out of scope for the current preparation phase, but the captions we
+  produce must be suitable training data for all three. Practical
+  implications for Step 1:
+  - **Stable vocabulary** is doubly important — three different decoders
+    will all benefit from a small, controlled output lexicon.
+  - **Per-attribute style consistency** keeps the comparison between the
+    three methods honest (style variance does not bleed into the
+    architecture comparison).
+  - **Multiple captions per image are explicitly allowed** by our task
+    framing and useful for training; this is consistent with the brief.
+
+### 6.4 Image-side caveat from the brief
+
+> *"In some images, colored spots may be found. They were used to refer
+> left/right sides of the form. They may thus need to be removed in order
+> not to influence the encoder block."*
+
+These are reference colour stickers/markers placed on the wheel section to
+distinguish left from right. They are an **image-side preprocessing concern
+for Step 2**, not a captioning concern, but we should plan for it:
+
+- Locate examples in the dataset and confirm what the markers look like.
+- Add an image-cleaning pass before encoder training (mask or inpaint).
+- Not blocking for the current caption preparation work, but listed here so
+  it is not forgotten.
+
+### 6.5 Adjustments to the Step 1 plan from §5
+
+The strategy in §5 stands, with these explicit additions driven by the
+brief:
+
+1. **Quantitative → qualitative conversion is a hard requirement, not a
+   stylistic choice.** The faithfulness rule from §5.2.4 must therefore be
+   *amended*: removing measurement values is **expected** (it does not
+   count as information loss). The qualitative term used must remain
+   faithful to the magnitude implied by the source (e.g. "20mm" in a crust
+   context is "spessa", not "sottile").
+2. **Dialect/register normalization** added to the prompt: rewrite into
+   neutral standard Italian without changing the descriptor content.
+3. **Synonym reduction** is upgraded from "consistency lever" to "explicit
+   deliverable". The controlled vocabulary in §5.2.2 should be derived
+   from the data per attribute, frozen as a list, and the prompt must
+   require the rewrite to use *only* terms from the union of (vocabulary,
+   exact source words). A vocabulary-conformance check should be part of
+   §5.5 validation.
+4. **Few-shot examples** in the prompt should be drawn from the *real
+   data*, not invented, so the rewrites stay in distribution.
+5. **Output deliverable** for Step 1 should include not just the cleaned
+   captions but also: the controlled vocabulary per attribute, the prompt
+   used, and a quality report (vocabulary conformance rate, length
+   distribution, hallucination flags).
+
+### 6.6 Revised execution plan
+
+1. Build the **per-attribute controlled vocabulary** from
+   `captions_prepared.csv` (top-N tokens after stopword removal, plus
+   manual review to merge obvious synonyms — *cotto/cotta/cotti*,
+   *occhio/occhiatura/occhiature*, etc.).
+2. Draft the **rewrite prompt** with: per-attribute template, vocabulary
+   constraint, quantitative→qualitative rule, dialect→standard rule, length
+   target, few-shot examples sampled from the data per attribute.
+3. **Pilot 100 rows** stratified across attributes through Haiku 4.5;
+   inspect for hallucination, vocabulary conformance, and naturalness;
+   iterate prompt.
+4. Submit full ~39k rows as a single Anthropic **Batch API** job.
+5. Write `data/captions.csv` with `caption_raw`, `caption_norm`,
+   `caption_clean`, plus metadata.
+6. Generate Step 1 deliverable bundle: vocabulary, prompt, quality report.
+7. *(Step 2, later)* Plan colored-spot removal on the image side, then
+   train and compare three encoder-decoder captioning methods.
 
 ## 7. Repo state
 
