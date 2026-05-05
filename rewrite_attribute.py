@@ -36,7 +36,8 @@ MODEL = "claude-haiku-4-5"
 def main() -> None:
     p = argparse.ArgumentParser()
     p.add_argument("attribute", help="exact attribute name, e.g. 'Spessore della Crosta'")
-    p.add_argument("--workers", type=int, default=3)
+    p.add_argument("--workers", type=int, default=1,
+                   help="parallelism. 1 = sequential, safe; 3 = faster but may hit 429")
     p.add_argument("--max-retries", type=int, default=6)
     p.add_argument("--limit", type=int, default=None,
                    help="cap number of captions (for a smaller run)")
@@ -69,26 +70,6 @@ def main() -> None:
     results: list[dict] = []
     t0 = time.monotonic()
 
-    def task(row: dict) -> dict:
-        out, err = rewrite_one(client, row["attribute"], row["caption_pre"])
-        return {**row, "caption_clean": out or "", "error": err or ""}
-
-    with ThreadPoolExecutor(max_workers=args.workers) as exe:
-        futs = [exe.submit(task, r) for r in captions]
-        for i, fut in enumerate(as_completed(futs), 1):
-            r = fut.result()
-            results.append(r)
-            if r["error"]:
-                n_err += 1
-            else:
-                n_ok += 1
-            if i % 25 == 0 or i == len(captions):
-                dt = time.monotonic() - t0
-                rate = i / dt if dt else 0
-                eta = (len(captions) - i) / rate if rate else 0
-                print(f"  {i}/{len(captions)}  ok={n_ok} err={n_err}  "
-                      f"({rate:.1f} req/s, eta {eta:.0f}s)")
-
     slug = args.attribute.replace(" ", "_")
     out_csv = ROOT / "data" / f"rewrites_{slug}.csv"
     out_review = ROOT / "data" / f"review_{slug}.txt"
@@ -97,11 +78,35 @@ def main() -> None:
         "dedup_key", "attribute", "caption_pre", "caption_clean",
         "frequency", "sample_row_id", "error",
     ]
+
+    def task(row: dict) -> dict:
+        out, err = rewrite_one(client, row["attribute"], row["caption_pre"])
+        return {**row, "caption_clean": out or "", "error": err or ""}
+
+    # Stream CSV — write each result as it arrives so partial progress
+    # survives a crash or interrupt.
     with out_csv.open("w", newline="") as fh:
         w = csv.DictWriter(fh, fieldnames=cols)
         w.writeheader()
-        for r in results:
-            w.writerow({k: r.get(k, "") for k in cols})
+        fh.flush()
+
+        with ThreadPoolExecutor(max_workers=args.workers) as exe:
+            futs = [exe.submit(task, r) for r in captions]
+            for i, fut in enumerate(as_completed(futs), 1):
+                r = fut.result()
+                results.append(r)
+                w.writerow({k: r.get(k, "") for k in cols})
+                fh.flush()
+                if r["error"]:
+                    n_err += 1
+                else:
+                    n_ok += 1
+                if i % 10 == 0 or i == len(captions):
+                    dt = time.monotonic() - t0
+                    rate = i / dt if dt else 0
+                    eta = (len(captions) - i) / rate if rate else 0
+                    print(f"  {i}/{len(captions)}  ok={n_ok} err={n_err}  "
+                          f"({rate:.1f} req/s, eta {eta:.0f}s)", flush=True)
 
     results.sort(key=lambda r: -int(r["frequency"]))
     lines = [
