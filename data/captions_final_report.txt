@@ -1,0 +1,15 @@
+input rows                : 39280
+output rows               : 38437  (97.9%)
+dropped NON_DESCRITTO     : 843
+missing-lookup (skipped)  : 0
+
+per-attribute training rows (cleaned):
+  attribute                        kept  dropped   images
+  ------------------------------------------------------------
+  Aroma                            4019      184     1215
+  Colore della Pasta               5844       87     1274
+  Profumo                          5660      134     1622
+  Sapore                           6244      106     1494
+  Spessore della Crosta            3961      102     1021
+  Struttura della Pasta            7400      124     1626
+  Texture                          5309      106     1299
