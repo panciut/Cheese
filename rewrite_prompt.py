@@ -92,12 +92,24 @@ ATTRIBUTE_CONFIG: dict[str, dict] = {
     "Spessore della Crosta": {
         "intro": "Spessore e regolarità della crosta (zone piatte, scalzo, spigoli, sottocrosta).",
         "template": "Una frase che inizia con \"Crosta …\" o \"La crosta presenta …\".",
+        "extra_rules": (
+            "TABELLA DI CONVERSIONE MISURA → QUALITATIVO (applicare quando "
+            "l'annotazione contiene misurazioni di spessore della crosta):\n"
+            "  • < 8 mm  o < 0,8 cm   → \"molto sottile\"\n"
+            "  • 8-9 mm  o 0,8-0,9 cm → \"sottile\"\n"
+            "  • 10-13 mm o 1,0-1,3 cm → \"mediamente spessa\" / \"spessore medio\"\n"
+            "  • 14-17 mm o 1,4-1,7 cm → \"spessa\"\n"
+            "  • ≥ 18 mm o ≥ 1,8 cm    → \"molto spessa\"\n"
+            "Nota: \"1 cm\" = \"10 mm\" = \"mediamente spessa\". Mantieni la "
+            "stessa qualifica per valori equivalenti espressi in mm o cm."
+        ),
         "examples": [
             ("Sottile", "Crosta sottile."),
             ("Spigoli sopra 20mm Piatto 10mm circa Media 12mm",
-             "Crosta con spigoli pronunciati, parte piatta sottile e spessore medio."),
+             "Crosta con spigoli pronunciati, parte piatta mediamente spessa e spessore medio."),
+            ("1 cm ma di colore molto contrastato",
+             "Crosta mediamente spessa, di colore molto contrastato."),
             ("Alto spessore", "Crosta spessa."),
-            ("Però crosta fine", "Crosta fine."),
             ("Non regolare", "Crosta irregolare."),
             ("Sottocrosta confonde", "Crosta con sottocrosta poco distinguibile."),
         ],
@@ -246,10 +258,12 @@ REGOLE OBBLIGATORIE:
 5.  RIDUCI i sinonimi al lessico tipico dell'attributo (vedi sotto):
     quando una parola del testo originale ha un equivalente nel lessico,
     preferisci quest'ultimo.
-6.  NON INTRODURRE descrittori sensoriali non presenti nell'annotazione
-    originale. Non aggiungere giudizi, intensità o sensazioni mai
-    menzionate. È ammesso riformulare l'esistente, mai inventarne di
-    nuovo.
+6.  ZERO INVENZIONE. Vietato introdurre descrittori sensoriali assenti
+    dall'annotazione originale: niente giudizi, niente intensità, niente
+    aggettivi di tipicità ("tipico", "caratteristico"), niente
+    qualificatori ("presente", "evidente") che non compaiano nella
+    sorgente. È ammesso solo riformulare ciò che è già presente. Se non
+    c'è alcun descrittore valido, applica la regola 11.
 7.  RIMUOVI tutto ciò che non descrive il formaggio: giudizi di
     gradimento puri ("buono", "brutto", "ottimo"), riferimenti al voto o
     al punteggio, commenti meta sul panelista o sulla seduta. Mantieni
@@ -262,7 +276,15 @@ REGOLE OBBLIGATORIE:
     sola parola → didascalie di 2-4 parole; annotazioni più ricche →
     fino a circa 18 parole). Inizia con maiuscola, termina con punto.
 10. NON aggiungere virgolette, prefissi, suffissi né spiegazioni: l'output
-    è SOLO la frase riscritta.
+    è SOLO la frase riscritta (oppure il singolo token NON_DESCRITTO,
+    vedi regola 11).
+11. ESCAPE PER ANNOTAZIONI VUOTE. Se l'annotazione, dopo le regole 1 e
+    7, non contiene ALCUNA informazione sensoriale pertinente
+    all'attributo dichiarato — perché riguarda esclusivamente un altro
+    attributo, è un commento meta sul panelista/sul test, una frase
+    incompleta priva di descrittori, o un glitch — output ESATTAMENTE la
+    stringa "NON_DESCRITTO" (tutta maiuscola, senza punto, senza
+    virgolette, senza altro testo). Non scrivere spiegazioni del perché.
 """
 
 
@@ -270,11 +292,14 @@ def build_system_prompt(attribute: str) -> str:
     cfg = ATTRIBUTE_CONFIG[attribute]
     vocab = _load_vocab(attribute)
     bigrams = _load_bigrams(attribute)
+    extra = cfg.get("extra_rules")
 
     examples_block = "\n".join(
         f'  Annotazione: "{src}"\n  Didascalia : "{tgt}"'
         for src, tgt in cfg["examples"]
     )
+
+    extra_block = f"\n{extra}\n" if extra else ""
 
     return f"""\
 Sei un esperto di analisi sensoriale del Trentingrana, formaggio grana
@@ -286,7 +311,7 @@ ATTRIBUTO: {attribute} — {cfg['intro']}
 
 STILE: {cfg['template']}
 
-{RULES_BLOCK}
+{RULES_BLOCK}{extra_block}
 LESSICO TIPICO PER QUESTO ATTRIBUTO (preferisci questi termini quando
 applicabili, ma non forzarli se l'annotazione non li suggerisce):
   {", ".join(vocab)}
