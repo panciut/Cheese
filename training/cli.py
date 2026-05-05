@@ -39,22 +39,32 @@ DEFAULTS = {
     "m1": dict(epochs=50, batch_size=32, lr=3e-4, patience=7, scheduler="steplr"),
     "m2": dict(epochs=50, batch_size=32, lr=3e-4, patience=7, scheduler="steplr"),
     "m3": dict(epochs=30, batch_size=16, lr=1e-4, patience=5, scheduler="cosine"),
+    "m4": dict(epochs=30, batch_size=16, lr=1e-4, patience=7, scheduler="cosine"),
+    "m5": dict(epochs=30, batch_size=16, lr=1e-4, patience=7, scheduler="cosine"),
+    "m6": dict(epochs=20, batch_size=8,  lr=5e-5, patience=5, scheduler="cosine"),
 }
 DEFAULTS_FT = {
     "m1": dict(epochs=30, batch_size=8, lr=1e-4, patience=7, scheduler="cosine"),
     "m2": dict(epochs=30, batch_size=8, lr=1e-4, patience=7, scheduler="cosine"),
     "m3": dict(epochs=20, batch_size=4, lr=5e-5, patience=5, scheduler="cosine"),
+    "m4": dict(epochs=20, batch_size=8, lr=5e-5, patience=7, scheduler="cosine"),
+    "m5": dict(epochs=20, batch_size=4, lr=5e-5, patience=7, scheduler="cosine"),
+    "m6": dict(epochs=15, batch_size=4, lr=2e-5, patience=5, scheduler="cosine"),
 }
 MODEL_DIR_NAMES = {
     "m1": "m1_cnn_lstm",
     "m2": "m2_cnn_transformer",
     "m3": "m3_vit_transformer",
+    "m4": "m4_cnn_gpt",
+    "m5": "m5_cnnspatial_gpt",
+    "m6": "m6_vit_gpt",
 }
 
 
 def parse_args():
     p = argparse.ArgumentParser(description="Trentingrana captioning")
-    p.add_argument("--model", required=True, choices=["m1", "m2", "m3"])
+    p.add_argument("--model", required=True,
+                   choices=["m1", "m2", "m3", "m4", "m5", "m6"])
     p.add_argument(
         "--attributo", required=True,
         help="Attribute name with underscores ('Struttura_della_Pasta', 'Texture', etc.) or 'all'",
@@ -176,8 +186,25 @@ def main():
     print(f"Train: {len(train_loader.dataset)}  |  Val: {len(val_loader.dataset)}")
 
     # Optimizer + scheduler with optional differential LR
-    use_diff_lr = args.finetune or args.model == "m3"
-    if use_diff_lr:
+    use_diff_lr = args.finetune or args.model in ("m3", "m4", "m5", "m6")
+    if use_diff_lr and args.model in ("m4", "m5", "m6"):
+        # GePpeTto variants: 3 LR groups — encoder, gpt2 backbone, projection
+        encoder_params = [p for n, p in model.named_parameters()
+                          if p.requires_grad and "encoder" in n and "proj" not in n]
+        gpt2_params = [p for n, p in model.named_parameters()
+                       if p.requires_grad and "decoder.gpt2" in n]
+        proj_params = [p for n, p in model.named_parameters()
+                       if p.requires_grad and "decoder.proj" in n]
+        groups = []
+        if encoder_params:
+            groups.append({"params": encoder_params, "lr": lr * 0.1})
+        if gpt2_params:
+            groups.append({"params": gpt2_params, "lr": lr * 0.1})
+        if proj_params:
+            groups.append({"params": proj_params, "lr": lr})
+        optimizer = torch.optim.AdamW(groups)
+        scheduler = torch.optim.lr_scheduler.CosineAnnealingLR(optimizer, T_max=epochs)
+    elif use_diff_lr:
         encoder_params = [p for n, p in model.named_parameters()
                           if p.requires_grad and "encoder" in n and "proj" not in n]
         other_params = [p for n, p in model.named_parameters()

@@ -89,16 +89,32 @@ def run_one_model(here: Path, model: str, attributo: str, **overrides) -> None:
     subprocess.run(cmd, cwd=here, check=False)
 
 
+ALL_MODELS = ["m1", "m2", "m3", "m4", "m5", "m6"]
+ALL_BASELINES = ["random", "most_frequent", "freq_weighted", "retrieval"]
+
+
 def main() -> None:
     p = argparse.ArgumentParser()
-    p.add_argument("--models", nargs="+", default=["m1", "m2", "m3"])
+    p.add_argument(
+        "--models", nargs="+", default=ALL_MODELS,
+        choices=ALL_MODELS + ["none"],
+        help="Models to train (default: all 6). 'none' to skip training.",
+    )
+    p.add_argument(
+        "--baselines", nargs="*", default=ALL_BASELINES,
+        choices=ALL_BASELINES + ["none"],
+        help="Baselines to evaluate (default: all 4). 'none' to skip.",
+    )
+    p.add_argument(
+        "--matrix", choices=["frozen", "ft", "both"], default="both",
+        help="Train frozen-encoder, fine-tuned, or both passes.",
+    )
     p.add_argument("--attributo", default="all")
     p.add_argument("--caption-column", default="caption_sentence",
                    choices=["caption", "caption_sentence"])
     p.add_argument("--epochs", type=int, default=None)
     p.add_argument("--batch-size", type=int, default=None)
     p.add_argument("--lr", type=float, default=None)
-    p.add_argument("--finetune", action="store_true")
     args = p.parse_args()
 
     here, data_root = detect_paths()
@@ -115,22 +131,48 @@ def main() -> None:
 
     ensure_dataset(here)
 
-    overrides = {
+    base_overrides = {
         "caption_column": args.caption_column,
         "epochs": args.epochs,
         "batch_size": args.batch_size,
         "lr": args.lr,
-        "finetune": "" if args.finetune else None,  # flag — empty string means present
     }
-    overrides = {k: v for k, v in overrides.items() if v is not None}
+    base_overrides = {k: v for k, v in base_overrides.items() if v is not None}
 
-    for model in args.models:
-        try:
-            run_one_model(here, model, args.attributo, **overrides)
-        except Exception as e:
-            import traceback
-            traceback.print_exc()
-            print(f"ERROR in {model}: {e}")
+    # Determine which passes to run (frozen / fine-tuned / both)
+    if args.matrix == "frozen":
+        ft_modes = [False]
+    elif args.matrix == "ft":
+        ft_modes = [True]
+    else:
+        ft_modes = [False, True]
+
+    if args.models != ["none"]:
+        print(f"\n=== TRAINED MODELS — {len(args.models)} arch × {len(ft_modes)} mode(s) "
+              f"= {len(args.models) * len(ft_modes)} runs ===")
+        for ft in ft_modes:
+            for model in args.models:
+                kwargs = dict(base_overrides)
+                if ft:
+                    kwargs["finetune"] = ""
+                try:
+                    run_one_model(here, model, args.attributo, **kwargs)
+                except Exception as e:
+                    import traceback
+                    traceback.print_exc()
+                    print(f"ERROR in {model}{'-ft' if ft else ''}: {e}")
+
+    if args.baselines and args.baselines != ["none"]:
+        print(f"\n=== BASELINES — {len(args.baselines)} ===")
+        cmd = [
+            sys.executable, "-m", "training.run_baselines",
+            "--attributo", args.attributo,
+            "--caption-column", args.caption_column,
+            "--baselines", *args.baselines,
+        ]
+        print("  ".join(cmd))
+        sys.stdout.flush()
+        subprocess.run(cmd, cwd=here, check=False)
 
 
 if __name__ == "__main__":

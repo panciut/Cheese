@@ -3,17 +3,50 @@
 Three encoder-decoder architectures for image→caption on the
 Trentingrana dataset, conceptually as different as the brief asks for.
 
-## Models
+## Models — six architectures × frozen/fine-tuned + four baselines
 
-| ID | encoder | decoder | output style |
-|---|---|---|---|
-| **m1** | ResNet-50 (global pooled, 1 token × 2 = 2 tokens) | LSTM | classical RNN baseline |
-| **m2** | ResNet-50 (spatial 7×7, 49 tokens × 2 = 98 tokens) | Transformer | spatial attention decoder |
-| **m3** | ViT-B/16 (196 patches × 2 = 392 tokens) | Transformer | transformer-everywhere |
+The brief asks for **three different methods conceptually as different
+as possible**. We run six architectures in two paradigm families, each
+in frozen-encoder and fine-tuned-encoder mode, plus four non-trained
+baselines. **12 trained model runs + 4 baseline runs = 16 comparison
+points.**
 
-All three take **paired Fetta + Grana** views per sample (98.5% of
-our wheel-photo positions have both). For the 1.5% missing one view,
-the dataset substitutes a zero tensor.
+### Trained models
+
+**Family A — decoder trained from scratch:**
+
+| ID | encoder | decoder |
+|---|---|---|
+| **m1** | ResNet-50 (global, 1 token × 2 = 2) | LSTM |
+| **m2** | ResNet-50 (spatial 7×7, 49 × 2 = 98) | Transformer |
+| **m3** | ViT-B/16 (196 patches × 2 = 392) | Transformer |
+
+**Family B — decoder is pretrained Italian GPT-2 (GePpeTto), prefix-tuned:**
+
+| ID | encoder | decoder |
+|---|---|---|
+| **m4** | ResNet-50 (global) | GePpeTto |
+| **m5** | ResNet-50 (spatial) | GePpeTto |
+| **m6** | ViT-B/16 | GePpeTto |
+
+Each architecture in two modes:
+- **frozen** (default): only decoder + projection train
+- **fine-tune** (`--finetune`): encoder unfrozen with differential LR
+
+So 6 architectures × 2 modes = **12 trained model runs**.
+
+### Baselines (no training)
+
+| name | what it does |
+|---|---|
+| **random** | random training caption per test row |
+| **most_frequent** | always the most common training caption |
+| **freq_weighted** | sample training captions weighted by frequency |
+| **retrieval** | nearest-neighbor by ResNet-50 visual features (excludes same `sample_id` to avoid panelist leak) |
+
+All take **paired Fetta + Grana** views per sample (98.5% of our
+wheel-photo positions have both). For the 1.5% missing one view, the
+dataset substitutes a zero tensor.
 
 ## Where this trains
 
@@ -41,26 +74,44 @@ Reads `data/final/captions_final.csv` and produces:
 - `data/final/splits.json` — train/val/test by `sample_id`,
   stratified by year (70/15/15).
 
-### 2. Train
+### 2. Train (one model at a time)
 
 ```bash
-# Train M1 on a single attribute
+# Train one model — m1 frozen on a single attribute
 python -m training.cli --model m1 --attributo Texture
 
-# Train a global model across all attributes (uses [Attributo] token)
-python -m training.cli --model m2 --attributo all
+# Train globally across all attributes (uses [Attributo] token)
+python -m training.cli --model m3 --attributo all
 
-# Use the compact caption form instead of full sentence
+# Compact caption form instead of full sentence
 python -m training.cli --model m3 --attributo Profumo --caption-column caption
 
-# Fine-tune the encoder end-to-end (slower, higher quality)
+# Fine-tune (unfreeze encoder)
 python -m training.cli --model m2 --attributo all --finetune
 
-# Resume an interrupted run
+# Resume / eval-only
 python -m training.cli --model m1 --attributo Texture --resume
-
-# Eval an already-trained model
 python -m training.cli --model m1 --attributo Texture --eval-only
+```
+
+### 2b. Run baselines
+
+```bash
+python -m training.run_baselines --attributo all
+python -m training.run_baselines --attributo Texture --baselines retrieval
+```
+
+### 2c. Run the full matrix at once (recommended on Kaggle)
+
+```bash
+# 12 models (6 archs × frozen/ft) + 4 baselines, attributo=all
+python -m training.kaggle_run --matrix both --attributo all
+
+# Just the frozen pass (6 models + 4 baselines)
+python -m training.kaggle_run --matrix frozen
+
+# Subset
+python -m training.kaggle_run --models m3 m6 --matrix both --baselines retrieval
 ```
 
 Output goes to `training/runs/<model_dir>/<attribute>/`:
@@ -100,13 +151,20 @@ class.
 
 ## Defaults
 
-| | from-scratch | fine-tune (`--finetune`) |
+| | frozen | fine-tune (`--finetune`) |
 |---|---|---|
 | m1 | 50 epochs, batch 32, lr 3e-4 | 30 epochs, batch 8, lr 1e-4 |
 | m2 | 50 epochs, batch 32, lr 3e-4 | 30 epochs, batch 8, lr 1e-4 |
 | m3 | 30 epochs, batch 16, lr 1e-4 | 20 epochs, batch 4, lr 5e-5 |
+| m4 | 30 epochs, batch 16, lr 1e-4 | 20 epochs, batch 8, lr 5e-5 |
+| m5 | 30 epochs, batch 16, lr 1e-4 | 20 epochs, batch 4, lr 5e-5 |
+| m6 | 20 epochs, batch 8,  lr 5e-5 | 15 epochs, batch 4, lr 2e-5 |
 
 All defaults can be overridden via `--epochs`, `--batch-size`, `--lr`.
+
+m4-m6 (GePpeTto variants) use **3 LR groups** (encoder slow,
+GPT-2 backbone slow, projection full LR). m3 and all fine-tunes use
+**2 LR groups** (encoder slow, decoder full).
 
 ## Kaggle workflow
 
