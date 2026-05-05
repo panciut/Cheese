@@ -1,7 +1,6 @@
 ## Sapore
 unique captions: 1127
-model: claude-haiku-4-5
-batch_id: msgbatch_01Bv99Z88dFdZ6PJ6FdjRxoA
+model: claude-haiku-4-5  (with manual salvage pass)
 
 (sorted by descending broadcast frequency)
 
@@ -30,7 +29,7 @@ batch_id: msgbatch_01Bv99Z88dFdZ6PJ6FdjRxoA
   freq=  32  raw : dolce
              clean: Sapore dolce.
   freq=  32  raw : Nostrano
-             clean: NON_DESCRITTO
+             clean: Sapore nostrano.
   freq=  32  raw : Allappante
              clean: Sapore allappante.
   freq=  28  raw : Bruciante
@@ -48,7 +47,7 @@ batch_id: msgbatch_01Bv99Z88dFdZ6PJ6FdjRxoA
   freq=  24  raw : salato e leggermente piccante.
              clean: Sapore salato e leggermente piccante.
   freq=  22  raw : Grasso
-             clean: NON_DESCRITTO
+             clean: Sapore grasso.
   freq=  22  raw : Medio
              clean: Sapore medio.
   freq=  20  raw : leggermente acido e piccante
@@ -86,7 +85,7 @@ batch_id: msgbatch_01Bv99Z88dFdZ6PJ6FdjRxoA
   freq=  14  raw : Incompleto, scarno
              clean: Sapore scarno e incompleto.
   freq=  14  raw : Anonimo però!
-             clean: NON_DESCRITTO
+             clean: Sapore anonimo.
   freq=  14  raw : Nessuna prevalenza ma acido amaro dolce e piccanti accentuati
              clean: Sapore equilibrato con note acide, amare, dolci e piccanti accentuate.
   freq=  12  raw : Troppo salato
@@ -110,7 +109,7 @@ batch_id: msgbatch_01Bv99Z88dFdZ6PJ6FdjRxoA
   freq=  12  raw : Pungente
              clean: Sapore pungente.
   freq=  12  raw : Non grana
-             clean: NON_DESCRITTO
+             clean: Sapore non tipico del grana.
   freq=  12  raw : leggero amaro
              clean: Sapore leggermente amaro.
   freq=  12  raw : Scarno, non pieno
@@ -164,7 +163,7 @@ batch_id: msgbatch_01Bv99Z88dFdZ6PJ6FdjRxoA
   freq=   8  raw : pizzica salato
              clean: Sapore salato e pungente.
   freq=   8  raw : crosta di formaggio
-             clean: NON_DESCRITTO
+             clean: Sapore di crosta di formaggio.
   freq=   8  raw : piccante, un poco bruciante. salato
              clean: Sapore piccante e leggermente bruciante con nota salata.
   freq=   8  raw : pungente per sale
@@ -176,7 +175,7 @@ batch_id: msgbatch_01Bv99Z88dFdZ6PJ6FdjRxoA
   freq=   8  raw : Equilibrato con note anche dolci
              clean: Sapore equilibrato con note dolci.
   freq=   8  raw : Non da grana di 18 20 mesi
-             clean: NON_DESCRITTO
+             clean: Sapore non tipico di un grana stagionato.
   freq=   8  raw : un poco' piccante
              clean: Sapore leggermente piccante.
   freq=   8  raw : tendente all'amaro acido piccante
@@ -308,7 +307,7 @@ batch_id: msgbatch_01Bv99Z88dFdZ6PJ6FdjRxoA
   freq=   4  raw : dolce;leggermente piccante;umami;
              clean: Sapore dolce, leggermente piccante e umami.
   freq=   4  raw : Non da grana
-             clean: NON_DESCRITTO
+             clean: Sapore non tipico del grana.
   freq=   4  raw : leggerissimo amaro
              clean: Sapore leggerissimamente amaro.
   freq=   4  raw : sapidità' un poco elevata
@@ -354,7 +353,7 @@ batch_id: msgbatch_01Bv99Z88dFdZ6PJ6FdjRxoA
   freq=   4  raw : Anche leggere note dolci
              clean: Sapore con leggere note dolci.
   freq=   4  raw : crosta, formaggio cotto
-             clean: NON_DESCRITTO
+             clean: Sapore di crosta e formaggio cotto.
   freq=   4  raw : Troppo sale. Pungente
              clean: Sapore eccessivamente salato e pungente.
   freq=   4  raw : umami, salato, leggero piccante
@@ -366,7 +365,7 @@ batch_id: msgbatch_01Bv99Z88dFdZ6PJ6FdjRxoA
   freq=   4  raw : Poco umami, Gusto poco pieno
              clean: Sapore poco umami e poco pieno.
   freq=   4  raw : Leggermente Miami!!
-             clean: NON_DESCRITTO
+             clean: Sapore leggermente umami.
   freq=   4  raw : salato, dolce assente
              clean: Sapore salato con assenza di dolcezza.
   freq=   4  raw : Pieno, non dolce. piccante. umami ghe ne
@@ -434,7 +433,7 @@ batch_id: msgbatch_01Bv99Z88dFdZ6PJ6FdjRxoA
   freq=   4  raw : Acido e amaro più spiccati
              clean: Sapore acido e amaro marcato.
   freq=   4  raw : Il sapore anomalo. Atipico del grana
-             clean: NON_DESCRITTO
+             clean: Sapore anomalo, atipico del grana.
   freq=   4  raw : leggermente piccante e nota amara ma non fastidiosi
              clean: Sapore leggermente piccante con nota amara, non fastidiosi.
   freq=   4  raw : sapidità e leggera piccantezza prevaleti
@@ -470,7 +469,7 @@ batch_id: msgbatch_01Bv99Z88dFdZ6PJ6FdjRxoA
   freq=   4  raw : non piccante. poco umami . salino e acido
              clean: Sapore non piccante, poco umami, salino e acido.
   freq=   4  raw : Anonimo come sapore, poco espresso con...
-             clean: NON_DESCRITTO
+             clean: Sapore anonimo, poco espresso.
   freq=   4  raw : piccante, dolciastra, acida
              clean: Sapore piccante, dolciastro e acido.
   freq=   4  raw : Appena troppo salato
@@ -516,7 +515,7 @@ batch_id: msgbatch_01Bv99Z88dFdZ6PJ6FdjRxoA
   freq=   4  raw : Amati prevale un poco
              clean: Sapore leggermente amaro prevalente.
   freq=   4  raw : Non sa da grana
-             clean: NON_DESCRITTO
+             clean: Sapore non tipico del grana.
   freq=   4  raw : Non dolce. Salato e amaro spiccano un poco
              clean: Sapore non dolce, salato e amaro che spiccano leggermente.
   freq=   4  raw : una porzione tende all amaro acido
@@ -564,7 +563,7 @@ batch_id: msgbatch_01Bv99Z88dFdZ6PJ6FdjRxoA
   freq=   4  raw : equilibrio di sapori non tipico del grana
              clean: Sapore con equilibrio di sapori non tipico del grana.
   freq=   4  raw : equilibrio tra le diverse nte
-             clean: NON_DESCRITTO
+             clean: Sapore equilibrato.
   freq=   4  raw : Pieno. tutti idescrittori presenti. Niente sovrasta. non dolce
              clean: Sapore pieno e equilibrato, non dolce.
   freq=   4  raw : dolce sapido, mediamente piccante, umami moderato
@@ -604,7 +603,7 @@ batch_id: msgbatch_01Bv99Z88dFdZ6PJ6FdjRxoA
   freq=   4  raw : acidi;piccante;umami
              clean: Sapore acido, piccante e umami.
   freq=   4  raw : Non sgradevole, ma non lo riconosco come grana. troppo forti odori e consistenze
-             clean: NON_DESCRITTO
+             clean: Sapore non tipico del grana.
   freq=   4  raw : piccante fastidioso
              clean: Sapore piccante fastidioso.
   freq=   4  raw : sapidità' quasi elevata e note di amaro in finale
@@ -640,7 +639,7 @@ batch_id: msgbatch_01Bv99Z88dFdZ6PJ6FdjRxoA
   freq=   4  raw : non equilib picc e salato
              clean: Sapore non equilibrato, piccante e salato.
   freq=   4  raw : Anonimo poco intenso
-             clean: NON_DESCRITTO
+             clean: Sapore anonimo, poco intenso.
   freq=   4  raw : escuilibrato poco persistente
              clean: Sapore non equilibrato e poco persistente.
   freq=   4  raw : medio equilibrio con amarognolo finale...
@@ -678,7 +677,7 @@ batch_id: msgbatch_01Bv99Z88dFdZ6PJ6FdjRxoA
   freq=   4  raw : lieve piccantezza finale
              clean: Sapore con lieve piccantezza finale.
   freq=   4  raw : panna
-             clean: NON_DESCRITTO
+             clean: Sapore di panna.
   freq=   4  raw : dolce sapido, umami medio, poco piccante, abbastanza equilibrato
              clean: Sapore dolce sapido con umami medio, poco piccante e abbastanza equilibrato.
   freq=   4  raw : acido piccante persistente
@@ -778,7 +777,7 @@ batch_id: msgbatch_01Bv99Z88dFdZ6PJ6FdjRxoA
   freq=   4  raw : quasi carente di sale, ma piccante. squilibrio totale
              clean: Sapore quasi carente di sale e piccante, con squilibrio complessivo.
   freq=   4  raw : Sapore di nostrano
-             clean: NON_DESCRITTO
+             clean: Sapore nostrano.
   freq=   4  raw : Equilibrio strano, poco carattere
              clean: Sapore poco caratterizzato e non equilibrato.
   freq=   4  raw : pungente sulla lingua. Amaro e acido presenti
@@ -788,7 +787,7 @@ batch_id: msgbatch_01Bv99Z88dFdZ6PJ6FdjRxoA
   freq=   4  raw : leggermente piccante, un poco' salato
              clean: Sapore leggermente piccante e poco salato.
   freq=   4  raw : molto cotto
-             clean: NON_DESCRITTO
+             clean: Sapore molto cotto.
   freq=   4  raw : deciso umami, un poco salato e leggero piccantino finale
              clean: Sapore deciso umami, leggermente salato con lieve piccantezza al finale.
   freq=   4  raw : senza salinit' e piccante, un p; di umami
@@ -828,7 +827,7 @@ batch_id: msgbatch_01Bv99Z88dFdZ6PJ6FdjRxoA
   freq=   4  raw : abbastanza equilibrato, il finale leggermente acido
              clean: Sapore abbastanza equilibrato con finale leggermente acido.
   freq=   4  raw : cotto
-             clean: NON_DESCRITTO
+             clean: Sapore di cotto.
   freq=   4  raw : panna e burro
              clean: Sapore di panna e burro.
   freq=   4  raw : leggera piccantezza e il resto è ecquilivrato
@@ -836,7 +835,7 @@ batch_id: msgbatch_01Bv99Z88dFdZ6PJ6FdjRxoA
   freq=   4  raw : Piatto al palato. Una punta di piccante alla fine
              clean: Sapore piatto con una punta di piccante al finale.
   freq=   4  raw : Nonostante la percezione di descrittori positivi e negativi lo valuto nel complesso positivo perché non vere ricettività ma caratteristiche attese in un formaggio stagionato
-             clean: NON_DESCRITTO
+             clean: Sapore tipico di formaggio stagionato.
   freq=   4  raw : dolce, scarsa sapidità', scarsa piccantezza, basso umami
              clean: Sapore dolce con scarsa sapidità, scarsa piccantezza e basso umami.
   freq=   4  raw : tendende all'acido
@@ -986,7 +985,7 @@ batch_id: msgbatch_01Bv99Z88dFdZ6PJ6FdjRxoA
   freq=   4  raw : acido leggermente
              clean: Sapore leggermente acido.
   freq=   4  raw : Molto leggere le sensazioni segnate sul sapore
-             clean: NON_DESCRITTO
+             clean: Sapore molto leggero.
   freq=   4  raw : dolce sapido con lieve piccantezza, umami equilibrato
              clean: Sapore dolce sapido con lieve piccantezza e umami equilibrato.
   freq=   4  raw : piccante e amarognolo
@@ -1050,7 +1049,7 @@ batch_id: msgbatch_01Bv99Z88dFdZ6PJ6FdjRxoA
   freq=   4  raw : leggermente saporito e piccante, ma nel complesso equilibrio...
              clean: Sapore leggermente saporito e piccante, nel complesso equilibrato.
   freq=   4  raw : formaggio cotto
-             clean: NON_DESCRITTO
+             clean: Sapore di formaggio cotto.
   freq=   4  raw : salato, dolce, un poco- piccante
              clean: Sapore salato e dolce con una lieve piccantezza.
   freq=   4  raw : acido;damaro
@@ -1236,7 +1235,7 @@ batch_id: msgbatch_01Bv99Z88dFdZ6PJ6FdjRxoA
   freq=   4  raw : Tropo sapido e cremoso!!
              clean: Sapore eccessivamente sapido.
   freq=   4  raw : Tanto umano, troppo
-             clean: NON_DESCRITTO
+             clean: Sapore molto umami.
   freq=   4  raw : dolce sapido, leggera acidità', umami presente abbastanza intenso, abbastanza equilibrato
              clean: Sapore dolce sapido con leggera acidità, umami abbastanza intenso e abbastanza equilibrato.
   freq=   4  raw : dolce e un poco' salato, leggermente piccante alla fine, untuosità
@@ -1622,7 +1621,7 @@ batch_id: msgbatch_01Bv99Z88dFdZ6PJ6FdjRxoA
   freq=   4  raw : Molto equilibrio e complessità delle note
              clean: Sapore molto equilibrato e complesso.
   freq=   4  raw : Piatto
-             clean: NON_DESCRITTO
+             clean: Sapore piatto.
   freq=   4  raw : prevale la pungenza e la sapidità
              clean: Sapore con prevalente pungenza e sapidità.
   freq=   4  raw : Punge la lingua. Penso sale
@@ -1640,7 +1639,7 @@ batch_id: msgbatch_01Bv99Z88dFdZ6PJ6FdjRxoA
   freq=   4  raw : leggermente salato e dolce
              clean: Sapore leggermente salato e dolce.
   freq=   4  raw : Non male, ma poco caratteristico
-             clean: NON_DESCRITTO
+             clean: Sapore poco caratteristico.
   freq=   4  raw : sapido e dolce
              clean: Sapore sapido e dolce.
   freq=   4  raw : nella media, sensazione rinfrescante
@@ -1656,7 +1655,7 @@ batch_id: msgbatch_01Bv99Z88dFdZ6PJ6FdjRxoA
   freq=   4  raw : sapidità pesistente ma non elevata
              clean: Sapore con sapidità persistente ma non elevata.
   freq=   4  raw : Anonimo è debole
-             clean: NON_DESCRITTO
+             clean: Sapore anonimo e debole.
   freq=   4  raw : gusti abbasrtana equilibrati e piccante praticamente assente
              clean: Sapore abbastanza equilibrato con piccantezza praticamente assente.
   freq=   4  raw : dolce sapido, sapidità' contenuta, carente di piccantezza, umami ok
@@ -1706,13 +1705,13 @@ batch_id: msgbatch_01Bv99Z88dFdZ6PJ6FdjRxoA
   freq=   4  raw : tendenzialmente dolce con sapadit' media, umami contenuto, poco piccante
              clean: Sapore tendente al dolce con sapidità media, umami contenuto e poco piccante.
   freq=   4  raw : anonimo con amaro...
-             clean: NON_DESCRITTO
+             clean: Sapore anonimo con amaro.
   freq=   4  raw : MOLTO PICCANTE E DOLCIASTRO
              clean: Sapore molto piccante e dolciastro.
   freq=   4  raw : Pungente sulla lingua più che piccante
              clean: Sapore pungente sulla lingua più che piccante.
   freq=   4  raw : Poco carattere
-             clean: NON_DESCRITTO
+             clean: Sapore poco caratterizzato.
   freq=   4  raw : troppo salato, rovina la percezione del resto del formaggio
              clean: Sapore eccessivamente salato.
   freq=   4  raw : scarso di sale, formaggio cotto
@@ -1796,13 +1795,13 @@ batch_id: msgbatch_01Bv99Z88dFdZ6PJ6FdjRxoA
   freq=   4  raw : Amaro leggero
              clean: Sapore leggermente amaro.
   freq=   4  raw : Ambivalenza dove:-amaro...
-             clean: NON_DESCRITTO
+             clean: Sapore amaro.
   freq=   4  raw : abbastanza equilibrato, dolce sapido con umami medio basso e piccantezza contenuta
              clean: Sapore abbastanza equilibrato, dolce sapido con umami medio-basso e piccantezza contenuta.
   freq=   4  raw : Insipido!
              clean: Sapore insipido.
   freq=   4  raw : Poco Miami,
-             clean: NON_DESCRITTO
+             clean: Sapore poco umami.
   freq=   4  raw : umami accentuato ma non fastidioso
              clean: Sapore umami accentuato ma non fastidioso.
   freq=   4  raw : piccante, non docle
@@ -1844,7 +1843,7 @@ batch_id: msgbatch_01Bv99Z88dFdZ6PJ6FdjRxoA
   freq=   4  raw : molto sapido, un poco- piccante ma altri sapori si percepiscono
              clean: Sapore molto sapido, leggermente piccante con altri sapori percettibili.
   freq=   4  raw : crosta di formaggio, pane tostato
-             clean: NON_DESCRITTO
+             clean: Sapore di crosta di formaggio e pane tostato.
   freq=   4  raw : Nota leggermente amara
              clean: Sapore leggermente amaro.
   freq=   4  raw : equilibrato con leggera sapidità
@@ -1882,7 +1881,7 @@ batch_id: msgbatch_01Bv99Z88dFdZ6PJ6FdjRxoA
   freq=   4  raw : Lievemente piccante
              clean: Sapore leggermente piccante.
   freq=   4  raw : Equilibrio travi gusti
-             clean: NON_DESCRITTO
+             clean: Sapore equilibrato tra i gusti.
   freq=   4  raw : PICCANTE PERCEPITO MA NON SOVRASTA IL RESTO
              clean: Sapore piccante percepito ma non eccessivo.
   freq=   4  raw : Molto strano...anche se non prevalenti le note acido-amare
@@ -2116,7 +2115,7 @@ batch_id: msgbatch_01Bv99Z88dFdZ6PJ6FdjRxoA
   freq=   4  raw : un poco- sbilanciato il salato
              clean: Sapore poco equilibrato e salato.
   freq=   4  raw : crosta, sa di vecchio
-             clean: NON_DESCRITTO
+             clean: Sapore di crosta e vecchio.
   freq=   4  raw : molto umami e leggermente piccante
              clean: Sapore molto umami e leggermente piccante.
   freq=   4  raw : acido che spicca, ma anche dolce, salato basso
@@ -2192,7 +2191,7 @@ batch_id: msgbatch_01Bv99Z88dFdZ6PJ6FdjRxoA
   freq=   2  raw : punta di amaro, leggermente piccante
              clean: Sapore con punta di amaro e leggermente piccante.
   freq=   2  raw : scarso in tutto
-             clean: NON_DESCRITTO
+             clean: Sapore scarso.
   freq=   2  raw : un poco tropposalato, m aequi;librio in bocca
              clean: Sapore poco troppo salato ma equilibrato in bocca.
   freq=   2  raw : pizzica in gola, leggermente amaro, sapido

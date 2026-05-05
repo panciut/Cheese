@@ -1,7 +1,6 @@
 ## Aroma
 unique captions: 805
-model: claude-haiku-4-5
-batch_id: msgbatch_01Bv99Z88dFdZ6PJ6FdjRxoA
+model: claude-haiku-4-5  (with manual salvage pass)
 
 (sorted by descending broadcast frequency)
 
@@ -76,7 +75,7 @@ batch_id: msgbatch_01Bv99Z88dFdZ6PJ6FdjRxoA
   freq=  12  raw : bruciato
              clean: Aroma bruciato.
   freq=  10  raw : A proposito della fessure aggiungo : grasso, intuisco e abbasso di mezzo punto il voto
-             clean: NON_DESCRITTO
+             clean: Aroma grasso.
   freq=   8  raw : Maggiore stagionatura
              clean: NON_DESCRITTO
   freq=   8  raw : cotto vegetale
@@ -88,7 +87,7 @@ batch_id: msgbatch_01Bv99Z88dFdZ6PJ6FdjRxoA
   freq=   8  raw : atipico come al naso
              clean: Aroma atipico.
   freq=   8  raw : difettoso
-             clean: NON_DESCRITTO
+             clean: Aroma difettoso.
   freq=   8  raw : tostato
              clean: Aroma tostato.
   freq=   8  raw : latte cotto intensità leggera
@@ -174,7 +173,7 @@ batch_id: msgbatch_01Bv99Z88dFdZ6PJ6FdjRxoA
   freq=   8  raw : Cipolla
              clean: Aroma di cipolla.
   freq=   8  raw : Sangue,,,
-             clean: NON_DESCRITTO
+             clean: Aroma di sangue.
   freq=   8  raw : leggero affumicato
              clean: Aroma leggero affumicato.
   freq=   8  raw : latte poco da grana
@@ -238,7 +237,7 @@ batch_id: msgbatch_01Bv99Z88dFdZ6PJ6FdjRxoA
   freq=   4  raw : crosta di formaggio, formaggio bruciato
              clean: Aroma di crosta di formaggio e formaggio bruciato.
   freq=   4  raw : Immangiabile Fermentazione da Clostridium sporogenes
-             clean: NON_DESCRITTO
+             clean: Aroma di fermentazione da Clostridium sporogenes.
   freq=   4  raw : floreale,burro
              clean: Aroma floreale e di burro.
   freq=   4  raw : panna, latte cotto, burro fuso e fruttato
@@ -408,11 +407,11 @@ batch_id: msgbatch_01Bv99Z88dFdZ6PJ6FdjRxoA
   freq=   4  raw : prevalentemente lattico di burro fuso e burro cotto, gradevole nota animale di glutammato
              clean: Aroma prevalentemente lattico di burro fuso e burro cotto, con gradevole nota animale di glutammato.
   freq=   4  raw : Più povero che all' olfatto
-             clean: NON_DESCRITTO
+             clean: Aroma povero.
   freq=   4  raw : noce come retrogusto...
              clean: Aroma di noce.
   freq=   4  raw : mi torna una puzza non definita
-             clean: NON_DESCRITTO
+             clean: Aroma con puzza indefinita.
   freq=   4  raw : brodo animale, tostati
              clean: Aroma di brodo animale con note tostate.
   freq=   4  raw : crosta di grana, brodo di carne
@@ -456,7 +455,7 @@ batch_id: msgbatch_01Bv99Z88dFdZ6PJ6FdjRxoA
   freq=   4  raw : brodo animale, tostato, crosta di grana
              clean: Aroma di brodo animale, tostato, con note di crosta di grana.
   freq=   4  raw : povero rispetto a lnaso
-             clean: NON_DESCRITTO
+             clean: Aroma povero.
   freq=   4  raw : Discreta intensità, lattici cotti,
              clean: Aroma di intensità discreta con note lattiche cotte.
   freq=   4  raw : stalla e crosta
@@ -596,7 +595,7 @@ batch_id: msgbatch_01Bv99Z88dFdZ6PJ6FdjRxoA
   freq=   4  raw : cotto latte
              clean: Aroma di latte cotto.
   freq=   4  raw : Sangue…
-             clean: NON_DESCRITTO
+             clean: Aroma di sangue.
   freq=   4  raw : piacevole ma poco tipico del grana
              clean: Aroma piacevole ma poco tipico del grana.
   freq=   4  raw : Emerge molto il burro e il latte cotto. ;In bocca non percepisco la crosta di formaggio e le verdure cotte sentite all'olfatto
@@ -676,7 +675,7 @@ batch_id: msgbatch_01Bv99Z88dFdZ6PJ6FdjRxoA
   freq=   4  raw : brodo carne, latte cotto
              clean: Aroma di brodo di carne e latte cotto.
   freq=   4  raw : Passato…
-             clean: NON_DESCRITTO
+             clean: Aroma di passato.
   freq=   4  raw : Sia per profumo che per aroma tanto burro fuso
              clean: Aroma di burro fuso.
   freq=   4  raw : speziato intensità alta
@@ -826,7 +825,7 @@ batch_id: msgbatch_01Bv99Z88dFdZ6PJ6FdjRxoA
   freq=   4  raw : latte e brodo
              clean: Aroma di latte e brodo.
   freq=   4  raw : formaggio erborinato,
-             clean: NON_DESCRITTO
+             clean: Aroma di formaggio erborinato.
   freq=   4  raw : Persistenza elevata
              clean: Aroma persistente.
   freq=   4  raw : Sabbioso
@@ -848,7 +847,7 @@ batch_id: msgbatch_01Bv99Z88dFdZ6PJ6FdjRxoA
   freq=   4  raw : panna&burro
              clean: Aroma di panna e burro.
   freq=   4  raw : Formaggio non grana... Ma non so dare definizione esatta
-             clean: NON_DESCRITTO
+             clean: Aroma non tipico del grana.
   freq=   4  raw : plastica ?
              clean: NON_DESCRITTO
   freq=   4  raw : Bitter
@@ -856,7 +855,7 @@ batch_id: msgbatch_01Bv99Z88dFdZ6PJ6FdjRxoA
   freq=   4  raw : accanto ai lattici cotti, anche marcio, putrido
              clean: Aroma di lattico cotto con note di marcio e putrido.
   freq=   4  raw : Manca di carattere
-             clean: NON_DESCRITTO
+             clean: Aroma povero di carattere.
   freq=   4  raw : burro fuso e formaggio cotto
              clean: Aroma di burro fuso e formaggio cotto.
   freq=   4  raw : latte acido e leggera fermentazione
@@ -866,7 +865,7 @@ batch_id: msgbatch_01Bv99Z88dFdZ6PJ6FdjRxoA
   freq=   4  raw : stantio, ossidato
              clean: Aroma stantio e ossidato.
   freq=   4  raw : Anonimo
-             clean: NON_DESCRITTO
+             clean: Aroma anonimo.
   freq=   4  raw : Burro fuso, latte cotto
              clean: Aroma di burro fuso e latte cotto.
   freq=   4  raw : Pepe?
@@ -1058,7 +1057,7 @@ batch_id: msgbatch_01Bv99Z88dFdZ6PJ6FdjRxoA
   freq=   4  raw : latte cotto, cipolla, dado di carne
              clean: Aroma di latte cotto, cipolla e dado di carne.
   freq=   4  raw : Particolare sensibilità mia al fermentato
-             clean: NON_DESCRITTO
+             clean: Aroma fermentato.
   freq=   4  raw : breve e iniziale sentore animale, poi crosta di grana, lattici cotti
              clean: Aroma con breve sentore animale iniziale, seguito da note di crosta di grana e lattici cotti.
   freq=   4  raw : Acciuga e salamoia leggere
@@ -1330,13 +1329,13 @@ batch_id: msgbatch_01Bv99Z88dFdZ6PJ6FdjRxoA
   freq=   4  raw : ossidato
              clean: Aroma ossidato.
   freq=   4  raw : Piuttosto anonimo rispetto al naso...
-             clean: NON_DESCRITTO
+             clean: Aroma piuttosto anonimo.
   freq=   4  raw : latte cotto e note di fermentato
              clean: Aroma di latte cotto con note di fermentato.
   freq=   4  raw : leggermente affumicato
              clean: Aroma leggermente affumicato.
   freq=   4  raw : formaggio rimasto in frigo troppo tempo
-             clean: NON_DESCRITTO
+             clean: Aroma di formaggio invecchiato.
   freq=   4  raw : Ho con piccante nel Cata
              clean: NON_DESCRITTO
   freq=   4  raw : lsentori lattici
@@ -1364,7 +1363,7 @@ batch_id: msgbatch_01Bv99Z88dFdZ6PJ6FdjRxoA
   freq=   4  raw : Si, vi avevo detto che sono raffreddato. Nel mangiarlo e nel sentire l'aroma mi è arrivata un sentore non tipico di formaggio grana, chiamo gorgonzola
              clean: Aroma con sentore non tipico del grana, simile a gorgonzola.
   freq=   4  raw : nota lattea non sentita all-olfatto
-             clean: NON_DESCRITTO
+             clean: Aroma con assenza di nota lattea.
   freq=   4  raw : poco intenso ma non difetti
              clean: Aroma poco intenso, senza difetti.
   freq=   4  raw : note di frutta e brodo
@@ -1374,7 +1373,7 @@ batch_id: msgbatch_01Bv99Z88dFdZ6PJ6FdjRxoA
   freq=   4  raw : minestrone
              clean: Aroma di minestrone.
   freq=   4  raw : legge crosta
-             clean: NON_DESCRITTO
+             clean: Aroma di leggera crosta.
   freq=   4  raw : odore non tipico
              clean: Aroma non tipico.
   freq=   4  raw : leggera crosta di formaggio
@@ -1522,7 +1521,7 @@ batch_id: msgbatch_01Bv99Z88dFdZ6PJ6FdjRxoA
   freq=   4  raw : leggero sentore di cotto, quasi bruciato
              clean: Aroma leggero di cotto con sentore quasi bruciato.
   freq=   4  raw : ricorda un formaggio per; non tipico da grana
-             clean: NON_DESCRITTO
+             clean: Aroma non tipico del grana, ricorda un altro formaggio.
   freq=   4  raw : bruciato e stalla, insieme abbastanza digustoso
              clean: Aroma di bruciato e stalla, abbastanza intenso.
   freq=   4  raw : lattico cotto tostato e leggero fruttato
@@ -1534,7 +1533,7 @@ batch_id: msgbatch_01Bv99Z88dFdZ6PJ6FdjRxoA
   freq=   4  raw : tostato e lattico cotto
              clean: Aroma tostato e lattico cotto.
   freq=   4  raw : Il voto inerente a stalla sono stati due momenti e poi sparisce subito, per il salato ne manca un poco’
-             clean: NON_DESCRITTO
+             clean: Aroma di stalla momentaneo.
   freq=   4  raw : Cioccolata
              clean: Aroma di cioccolata.
   freq=   4  raw : cotto crosta
@@ -1564,7 +1563,7 @@ batch_id: msgbatch_01Bv99Z88dFdZ6PJ6FdjRxoA
   freq=   4  raw : animale intensità medio alta
              clean: Aroma animale di intensità medio-alta.
   freq=   4  raw : note amare e
-             clean: NON_DESCRITTO
+             clean: Aroma con note amare.
   freq=   4  raw : sentore di brodo di carne e leggemrente di crosta
              clean: Aroma di brodo animale e leggermente di crosta.
   freq=   4  raw : Castagne

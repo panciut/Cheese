@@ -1,7 +1,6 @@
 ## Struttura della Pasta
 unique captions: 1674
-model: claude-haiku-4-5
-batch_id: msgbatch_01Bv99Z88dFdZ6PJ6FdjRxoA
+model: claude-haiku-4-5  (with manual salvage pass)
 
 (sorted by descending broadcast frequency)
 
@@ -22,7 +21,7 @@ batch_id: msgbatch_01Bv99Z88dFdZ6PJ6FdjRxoA
   freq=  20  raw : Frattura irregolare
              clean: Pasta con frattura irregolare.
   freq=  20  raw : Grassa...
-             clean: NON_DESCRITTO
+             clean: Pasta grassa.
   freq=  20  raw : In parte stirata
              clean: Pasta parzialmente stirata.
   freq=  20  raw : Leggermente stirata
@@ -170,7 +169,7 @@ batch_id: msgbatch_01Bv99Z88dFdZ6PJ6FdjRxoA
   freq=   8  raw : Frattura non regolare ma struttura abbastanza omogenea
              clean: Pasta con frattura irregolare e struttura abbastanza omogenea.
   freq=   8  raw : Peccato per occhi ...
-             clean: NON_DESCRITTO
+             clean: Pasta con occhi visibili.
   freq=   8  raw : Occhio da 8 mm e 3 mm
              clean: Pasta con occhiature di media e piccola dimensione.
   freq=   8  raw : Frattura regolare grana fine
@@ -592,7 +591,7 @@ batch_id: msgbatch_01Bv99Z88dFdZ6PJ6FdjRxoA
   freq=   4  raw : Occhiatura nel terzo centrale. Buona frattura. Grana non omogenea per una certa discrezionalità centrale. Non fine comunque il rimanente
              clean: Pasta con occhiatura nel terzo centrale, buona frattura e grana non omogenea per discrezionalità al centro; il rimanente non è fine.
   freq=   4  raw : Macchie
-             clean: NON_DESCRITTO
+             clean: Pasta con macchie.
   freq=   4  raw : Frattura molto pronunciate grana vs un piatto molto poco formata striature bocciatura
              clean: Pasta con frattura pronunciata, grana versus un piatto poco formato e striature con aspetto di bocciatura.
   freq=   4  raw : Struttura non omogenea, presente Microocchiatura in una parte
@@ -622,11 +621,11 @@ batch_id: msgbatch_01Bv99Z88dFdZ6PJ6FdjRxoA
   freq=   4  raw : Granulosa più fine al centro
              clean: Pasta granulosa, più fine al centro.
   freq=   4  raw : Umido
-             clean: NON_DESCRITTO
+             clean: Pasta umida.
   freq=   4  raw : Due grosse fessure grana tende al fine
              clean: Pasta con due grosse fessure e grana tendente al fine.
   freq=   4  raw : Struttura non riuscita
-             clean: NON_DESCRITTO
+             clean: Pasta con struttura non riuscita.
   freq=   4  raw : Qualche microocchio e uno spacco della pasta. La struttura è media e regolare
              clean: Pasta con qualche microocchiatura e uno spacco, struttura media e regolare.
   freq=   4  raw : Disomogenea, leggermente stirata al centro dove si è formata una vasca
@@ -644,7 +643,7 @@ batch_id: msgbatch_01Bv99Z88dFdZ6PJ6FdjRxoA
   freq=   4  raw : Occhio di 3 mm e gruppo di occhi a grappolo centrale, molt strappi , chi dimenticato le PERLE
              clean: Pasta con occhiatura centrale a grappolo e numerosi strappi.
   freq=   4  raw : pastoso
-             clean: NON_DESCRITTO
+             clean: Pasta pastosa.
   freq=   4  raw : Frattura molto irregolare, zone stirate
              clean: Pasta con frattura molto irregolare e zone stirate.
   freq=   4  raw : Grana fine presente! Circa omogenea la frattura.
@@ -964,7 +963,7 @@ batch_id: msgbatch_01Bv99Z88dFdZ6PJ6FdjRxoA
   freq=   4  raw : Zona sotto un piatto con frattura grana media
              clean: Pasta con frattura a grana media nella zona sottostante il piatto.
   freq=   4  raw : 1 punto in meno per lo spacco enorme. Una forma così Non dovrebbe arrivare al panel
-             clean: NON_DESCRITTO
+             clean: Pasta con spacco enorme.
   freq=   4  raw : Peccato per irregolarità di frattura
              clean: Pasta con irregolarità di frattura.
   freq=   4  raw : Grandiosa regolare
@@ -1024,13 +1023,13 @@ batch_id: msgbatch_01Bv99Z88dFdZ6PJ6FdjRxoA
   freq=   4  raw : Grana fine con zona spagnola centrale abbastanza diffusa,
              clean: Pasta a grana fine con zona centrale abbastanza diffusa.
   freq=   4  raw : Difettosa
-             clean: NON_DESCRITTO
+             clean: Pasta difettosa.
   freq=   4  raw : Frattura irregolare Struttura irregolare!are disomogenea con aree tendenti allo stirato
              clean: Pasta con frattura irregolare, struttura disomogenea e aree tendenti allo stirato.
   freq=   4  raw : Disomogenea perché stirata al centro. In alcuni punti struttura assente
              clean: Pasta disomogenea con stiratura al centro e struttura assente in alcuni punti.
   freq=   4  raw : macchie rosa
-             clean: NON_DESCRITTO
+             clean: Pasta con macchie rosa.
   freq=   4  raw : Presenza di grana grossa e fine anche! Frattura non regolare, microocchiature presenti....sebbene piccole
              clean: Pasta con grana grossa e fine, frattura irregolare e microocchiature piccole.
   freq=   4  raw : Grana di diversa granulosita
@@ -1060,7 +1059,7 @@ batch_id: msgbatch_01Bv99Z88dFdZ6PJ6FdjRxoA
   freq=   4  raw : poca grana, poco solubile
              clean: Pasta con poca grana.
   freq=   4  raw : Tipo sbrinz
-             clean: NON_DESCRITTO
+             clean: Pasta tipo sbrinz.
   freq=   4  raw : Ideologizzata diffusa con mancanza di struttura
              clean: NON_DESCRITTO
   freq=   4  raw : Molto presente la grana...Frattura media.
@@ -1148,7 +1147,7 @@ batch_id: msgbatch_01Bv99Z88dFdZ6PJ6FdjRxoA
   freq=   4  raw : Frattura e grana regolari evidenti cristalli
              clean: Pasta con frattura e grana regolari, cristalli evidenti.
   freq=   4  raw : Macchia bianca come fosse muffa
-             clean: NON_DESCRITTO
+             clean: Pasta con macchia bianca simile a muffa.
   freq=   4  raw : Nel cuore si evidenziano nervature, direzioni. Non stirato, ma tende allo. Quindi disomogenea la grana. Frattura scomposta
              clean: Pasta con nervature e direzioni nel cuore, non stirata ma tendente alla stiratura, disomogenea nella grana e frattura irregolare.
   freq=   4  raw : Microocc, ampie zone stirate
@@ -1186,7 +1185,7 @@ batch_id: msgbatch_01Bv99Z88dFdZ6PJ6FdjRxoA
   freq=   4  raw : Pasta stirata. In alcune zone presenta microocchiatura. Anche uno spacco.
              clean: Pasta stirata con microocchiatura in alcune zone e uno spacco.
   freq=   4  raw : Strana anomalia tipo tara/muffa su uno scalzo
-             clean: NON_DESCRITTO
+             clean: Pasta con anomalia di muffa sullo scalzo.
   freq=   4  raw : Regole grossolana
              clean: La pasta presenta grana grossolana.
   freq=   4  raw : Mo leggera
@@ -1442,7 +1441,7 @@ batch_id: msgbatch_01Bv99Z88dFdZ6PJ6FdjRxoA
   freq=   4  raw : A tratti stirata, compatta e poco granulosa
              clean: Pasta a tratti stirata, compatta e poco granulosa.
   freq=   4  raw : Voto positivo non considerando una vistosa spaccatura
-             clean: NON_DESCRITTO
+             clean: Pasta con vistosa spaccatura.
   freq=   4  raw : Frattura irregolare e grana visibile ma che firma stiature
              clean: Pasta con frattura irregolare e grana visibile ma tendente alle stirature.
   freq=   4  raw : Grana fine tendente allo stirato microocchiatura fine inf 1 mm
@@ -1544,7 +1543,7 @@ batch_id: msgbatch_01Bv99Z88dFdZ6PJ6FdjRxoA
   freq=   4  raw : Occhiatura grossa. Stirato a tratti macchie rosa
              clean: Pasta con occhiatura grossa e stiratura a tratti, con macchie rosate.
   freq=   4  raw : In un angolo sembra molto più umida
-             clean: NON_DESCRITTO
+             clean: Pasta più umida in un angolo.
   freq=   4  raw : Grana grossa ma uniforme crist visibili
              clean: Pasta a grana grossa ma uniforme, con cristalli visibili.
   freq=   4  raw : Molte microocchiatura
@@ -1616,7 +1615,7 @@ batch_id: msgbatch_01Bv99Z88dFdZ6PJ6FdjRxoA
   freq=   4  raw : Molto sottile su i piatti
              clean: Pasta sottile sui piatti.
   freq=   4  raw : Leggera impugnatura in zona centrale
-             clean: NON_DESCRITTO
+             clean: Pasta con leggera impugnatura in zona centrale.
   freq=   4  raw : Frattura regolare, pasta granulare
              clean: Pasta con frattura regolare e granulosa.
   freq=   4  raw : Frattura leggermente irregolare ma grana fine,microocchiatura diffusa
@@ -1750,7 +1749,7 @@ batch_id: msgbatch_01Bv99Z88dFdZ6PJ6FdjRxoA
   freq=   4  raw : Liscia poca grana occhi anche grandi c'era anche un pelo dentro
              clean: Pasta liscia con poca grana e occhiature anche grandi.
   freq=   4  raw : Muffa sotto scalzo
-             clean: NON_DESCRITTO
+             clean: Pasta con muffa sotto lo scalzo.
   freq=   4  raw : Frattura irregolare con presenza di grana fine distribuita omogeneamente
              clean: Pasta con frattura irregolare e grana fine distribuita omogeneamente.
   freq=   4  raw : Frattura irregolare,stirato al centro
@@ -1974,7 +1973,7 @@ batch_id: msgbatch_01Bv99Z88dFdZ6PJ6FdjRxoA
   freq=   4  raw : Microocchiatura molto fitta on piccole fratture e grana che forma striature evidenti cristalli
              clean: Pasta con microocchiatura fitta, piccole fratture, grana che forma striature con cristalli.
   freq=   4  raw : Presenza di ossidazione interna
-             clean: NON_DESCRITTO
+             clean: Pasta con ossidazione interna.
   freq=   4  raw : Ovunque Microocchiatura fine è rada, Struttura buona, fine, Pare che verso un piatto la pasta sia più asciutta,
              clean: Pasta con microocchiatura fine e rada, struttura fine, tendente a essere più asciutta verso una zona.
   freq=   4  raw : molto cedevole, molti microcristalli, solubile, leggera sabbiosit
@@ -2016,7 +2015,7 @@ batch_id: msgbatch_01Bv99Z88dFdZ6PJ6FdjRxoA
   freq=   4  raw : Struttura in parte stirata, non omogenea.
              clean: Pasta in parte stirata e non omogenea.
   freq=   4  raw : Sbrinz
-             clean: NON_DESCRITTO
+             clean: Pasta tipo sbrinz.
   freq=   4  raw : Scarsa la grana
              clean: Pasta con grana scarsa.
   freq=   4  raw : Qualche piccola frattura e zona più granulosa
@@ -2456,7 +2455,7 @@ batch_id: msgbatch_01Bv99Z88dFdZ6PJ6FdjRxoA
   freq=   4  raw : Frattura irregolare ma grana fine, cristalli visibili
              clean: Pasta con frattura irregolare, grana fine e cristalli visibili.
   freq=   4  raw : Struttura "GRASSA
-             clean: NON_DESCRITTO
+             clean: Pasta grassa.
   freq=   4  raw : Grana mt brutta con sfoglia e micro occhiature centrali, tende a sfogliare
              clean: Pasta con grana media brutta, sfogliature e microocchiature centrali, tendente a sfogliare.
   freq=   4  raw : Microocch, zone leggermente stirate
@@ -2478,7 +2477,7 @@ batch_id: msgbatch_01Bv99Z88dFdZ6PJ6FdjRxoA
   freq=   4  raw : Ampia area spugnosa
              clean: Pasta con ampia area spugnosa.
   freq=   4  raw : Nel commento sottoscala disidratato intendo disidratazione però più nei piatti
-             clean: NON_DESCRITTO
+             clean: Pasta con disidratazione più presente nei piatti.
   freq=   4  raw : Le zone a grana grossolana sono molto limitate
              clean: Pasta con zone a grana grossolana molto limitate.
   freq=   4  raw : Parte centrale spugnosa per microocchiatura molto fitta, esterno grana fine con perle
@@ -2676,7 +2675,7 @@ batch_id: msgbatch_01Bv99Z88dFdZ6PJ6FdjRxoA
   freq=   4  raw : Presenza di fine microocchiatura trascurabile
              clean: Pasta con fine microocchiatura trascurabile.
   freq=   4  raw : Non considero lo spacco
-             clean: NON_DESCRITTO
+             clean: Pasta con spacco.
   freq=   4  raw : Stirata, piatta e microocchiature
              clean: Pasta stirata, piatta con microocchiature.
   freq=   4  raw : STRUTTURA liscia, frammentazione regolare ma presenza di molte scaglie
@@ -2722,7 +2721,7 @@ batch_id: msgbatch_01Bv99Z88dFdZ6PJ6FdjRxoA
   freq=   4  raw : Leggermente poco regolare....
              clean: Pasta leggermente poco regolare.
   freq=   4  raw : Molto umida
-             clean: NON_DESCRITTO
+             clean: Pasta molto umida.
   freq=   4  raw : duro, friabile, grana grossolana, con cristalli ben percepibili, abbastanza solubile
              clean: Pasta friabile con grana grossolana e cristalli ben percepibili.
   freq=   4  raw : Rada microocchiatura
@@ -2760,7 +2759,7 @@ batch_id: msgbatch_01Bv99Z88dFdZ6PJ6FdjRxoA
   freq=   4  raw : Frattura un Poco irregolare grana ok ma sotto un piatto tende a sgretolarsi con qualche strappo evidenti perle e cristalli
              clean: Pasta con frattura poco irregolare, grana nella norma, tendenza allo sgretolamento verso lo scalzo con qualche strappo, perle e cristalli evidenti.
   freq=   4  raw : Tantissimi punti di tirosina
-             clean: NON_DESCRITTO
+             clean: Pasta con tantissimi punti di tirosina.
   freq=   4  raw : Pare asciutta
              clean: Pasta dall'aspetto asciutto.
   freq=   4  raw : Vedo microocchiatura, ma in zone molto limitate
@@ -3144,7 +3143,7 @@ batch_id: msgbatch_01Bv99Z88dFdZ6PJ6FdjRxoA
   freq=   4  raw : Stirata, Microocch. , una "bolla
              clean: Pasta stirata con microocchiatura e una piccola occhiatura.
   freq=   4  raw : Sporca bruciata in parte
-             clean: NON_DESCRITTO
+             clean: Pasta sporca e in parte bruciata.
   freq=   4  raw : Micro occhiatina diffusa ma non spagnola
              clean: Pasta con microocchiatura diffusa, non spagnola.
   freq=   4  raw : Area con microocch, frattura irregolare, zone stirate

@@ -47,13 +47,26 @@ REGOLE OBBLIGATORIE:
 10. NON aggiungere virgolette, prefissi, suffissi né spiegazioni: l'output
     è SOLO la frase riscritta (oppure il singolo token NON_DESCRITTO,
     vedi regola 11).
-11. ESCAPE PER ANNOTAZIONI VUOTE. Se l'annotazione, dopo le regole 1 e
-    7, non contiene ALCUNA informazione sensoriale pertinente
-    all'attributo dichiarato — perché riguarda esclusivamente un altro
-    attributo, è un commento meta sul panelista/sul test, una frase
-    incompleta priva di descrittori, o un glitch — output ESATTAMENTE la
-    stringa "NON_DESCRITTO" (tutta maiuscola, senza punto, senza
-    virgolette, senza altro testo). Non scrivere spiegazioni del perché.
+11. ESCAPE PER ANNOTAZIONI VUOTE. Output ESATTAMENTE la stringa
+    "NON_DESCRITTO" (tutta maiuscola, senza punto, senza virgolette)
+    SOLO se l'annotazione, dopo le regole 1 e 7, non contiene ALCUN
+    descrittore sensoriale: nessun aggettivo qualitativo (es. marcio,
+    putrido, anonimo, elegante, scarno, difettoso, complesso, piacevole,
+    sgradevole, intenso, leggero, debole, persistente, aromatico,
+    fruttato, vegetale, ecc.), nessun riferimento a una sostanza/nota
+    olfattivo-gustativa (es. sangue, polvere, plastica, fieno, carne,
+    formaggio, latte, ecc.), nessuna intensità, nessun cenno di posizione.
+    REGOLA OPERATIVA: se anche UNA sola parola della sorgente è un
+    descrittore valido — anche mescolata con giudizi puri o meta —
+    NON usare l'escape: estrai quel descrittore e scrivi la didascalia
+    su quello, ignorando il resto. Esempi:
+      "marcio, putrido,"           → "Profumo marcio e putrido."
+      "Strano. Sentiva di pesce."  → "Profumo strano, di pesce."
+      "Sangue,,,"                  → "Aroma di sangue."
+      "Anonimo"                    → "Aroma anonimo."
+    Usa NON_DESCRITTO solo per: commenti puri sulla seduta/sistema,
+    note di scoring senza descrittori, frasi incomplete senza alcuna
+    parola sensoriale, o annotazioni interamente su un altro attributo.
 
 LESSICO TIPICO PER QUESTO ATTRIBUTO (preferisci questi termini quando
 applicabili, ma non forzarli se l'annotazione non li suggerisce):

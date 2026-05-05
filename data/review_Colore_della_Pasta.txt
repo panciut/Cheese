@@ -1,7 +1,6 @@
 ## Colore della Pasta
 unique captions: 1180
-model: claude-haiku-4-5
-batch_id: msgbatch_01Bv99Z88dFdZ6PJ6FdjRxoA
+model: claude-haiku-4-5  (with manual salvage pass)
 
 (sorted by descending broadcast frequency)
 
@@ -182,7 +181,7 @@ batch_id: msgbatch_01Bv99Z88dFdZ6PJ6FdjRxoA
   freq=   8  raw : Carico con lieve alone centrale
              clean: Pasta di colore carico con lieve alone centrale.
   freq=   8  raw : Difetto so
-             clean: NON_DESCRITTO
+             clean: Pasta di colore difettoso.
   freq=   8  raw : Colore più carico al centro
              clean: Pasta di colore più carico al centro.
   freq=   8  raw : Irregolare
@@ -302,7 +301,7 @@ batch_id: msgbatch_01Bv99Z88dFdZ6PJ6FdjRxoA
   freq=   6  raw : Aranciato
              clean: Pasta di colore aranciato.
   freq=   5  raw : Voto basso per colpa della frattura con evidente colore rosa, altrimenti voto alto
-             clean: NON_DESCRITTO
+             clean: Pasta con frattura di colore rosa.
   freq=   4  raw : Colore aranciata uniforme
              clean: Pasta di colore aranciato uniforme.
   freq=   4  raw : Più chiara sotto un piatto, ma generalmente abbastanza chiara
@@ -344,7 +343,7 @@ batch_id: msgbatch_01Bv99Z88dFdZ6PJ6FdjRxoA
   freq=   4  raw : Colore carico con qualche leggera zona rosata
              clean: Pasta di colore carico con qualche leggera zona rosata.
   freq=   4  raw : Grossa macchia di muffa
-             clean: NON_DESCRITTO
+             clean: Pasta con grossa macchia di muffa.
   freq=   4  raw : Un poco' eterogeneo, più carico al centro con qualche alone che tende al rosa
              clean: Pasta leggermente eterogenea, più carico al centro con qualche alone tendente al rosa.
   freq=   4  raw : Colore chiaro ma centro rosato
@@ -416,7 +415,7 @@ batch_id: msgbatch_01Bv99Z88dFdZ6PJ6FdjRxoA
   freq=   4  raw : Paglierino carico con alone più scuro al centro
              clean: Pasta di colore paglierino carico con alone più scuro al centro.
   freq=   4  raw : Presenza di una potenziale macchia al centro NON CONSIDERATA NEL VOTO perché nascosta dal taglio a coltello
-             clean: NON_DESCRITTO
+             clean: Pasta con potenziale macchia al centro.
   freq=   4  raw : Non uniforme grosso alone scuro
              clean: Pasta con grosso alone scuro e colore non uniforme.
   freq=   4  raw : Abbastanza omogenea con giallo tendente al carico. Verso la crosta aree nocciola arancio
@@ -446,7 +445,7 @@ batch_id: msgbatch_01Bv99Z88dFdZ6PJ6FdjRxoA
   freq=   4  raw : Colore molto marcato mogeneo
              clean: Pasta di colore molto marcato e omogeneo.
   freq=   4  raw : Gessato
-             clean: NON_DESCRITTO
+             clean: Pasta dal colore gessato.
   freq=   4  raw : Non molto carico, abbastanza Omogeneo
              clean: Pasta di colore non molto carico, abbastanza omogenea.
   freq=   4  raw : Colore paglierino abbastanza carico con zone più scure
@@ -684,9 +683,9 @@ batch_id: msgbatch_01Bv99Z88dFdZ6PJ6FdjRxoA
   freq=   4  raw : Paglierino omogeneo, con alone grigio verdognolo
              clean: Pasta di colore paglierino omogeneo con alone grigio verdognolo.
   freq=   4  raw : Regolare
-             clean: NON_DESCRITTO
+             clean: Pasta di colore regolare.
   freq=   4  raw : Non ho tenuto conto della macchia dovuta ad una "correzione" dello scalzo Se va considerato il difetto il voto è 5,0
-             clean: NON_DESCRITTO
+             clean: Pasta con macchia presente sullo scalzo.
   freq=   4  raw : Sotto un piatto zona di pasta disidratata
              clean: Pasta con zona di disidratazione nella parte sottocrostale.
   freq=   4  raw : Abbastanza omogeneo leggermente carico
@@ -838,7 +837,7 @@ batch_id: msgbatch_01Bv99Z88dFdZ6PJ6FdjRxoA
   freq=   4  raw : Relativamente omogeneo ma carico
              clean: Pasta di colore omogeneo ma carico.
   freq=   4  raw : Immatricolata conferisce quasi un colore rosato, ma solo pochi cm dopo la crosta. L'amore è spostato verso uno dei due piatti
-             clean: NON_DESCRITTO
+             clean: Pasta con leggero colore rosato vicino alla crosta.
   freq=   4  raw : Disomogenea, a fasce più chiara, centro quasi rosato
              clean: Pasta disomogenea con fasce più chiare e centro quasi rosato.
   freq=   4  raw : Fascia bianca sotto un piatto centro con aloni rosati
@@ -1102,7 +1101,7 @@ batch_id: msgbatch_01Bv99Z88dFdZ6PJ6FdjRxoA
   freq=   4  raw : Chiaro, paglierino, omogeneo
              clean: Pasta di colore paglierino chiaro e omogeneo.
   freq=   4  raw : In corrispondenza dell'occhio con siero
-             clean: NON_DESCRITTO
+             clean: Pasta con siero in corrispondenza degli occhi.
   freq=   4  raw : Due fasce, più scura su un piatto
              clean: Pasta con due fasce di colore, una più scura sul piatto.
   freq=   4  raw : Alcune zone grigiastro, zona molto chiara e parte interna più scura
@@ -1302,7 +1301,7 @@ batch_id: msgbatch_01Bv99Z88dFdZ6PJ6FdjRxoA
   freq=   4  raw : Centro più carico
              clean: Pasta con centro più carico.
   freq=   4  raw : Ad aree...
-             clean: NON_DESCRITTO
+             clean: Pasta a colori distribuiti per aree.
   freq=   4  raw : Più scuro al centro, presenza di un alone rosa
              clean: Pasta più scura al centro con presenza di alone rosato.
   freq=   4  raw : Intensa con alone
@@ -1420,7 +1419,7 @@ batch_id: msgbatch_01Bv99Z88dFdZ6PJ6FdjRxoA
   freq=   4  raw : Gialla con alone
              clean: Pasta di colore gialla con alone.
   freq=   4  raw : Presenza di ingresso di muffa laterale
-             clean: NON_DESCRITTO
+             clean: Pasta con muffa laterale.
   freq=   4  raw : Leggero alone verso un piatto
              clean: Pasta con leggero alone verso il piatto.
   freq=   4  raw : Fascia più scura su un piatto
@@ -1452,7 +1451,7 @@ batch_id: msgbatch_01Bv99Z88dFdZ6PJ6FdjRxoA
   freq=   4  raw : Zona scura al centro
              clean: Pasta con zona scura al centro.
   freq=   4  raw : Diversa fra i piatti
-             clean: NON_DESCRITTO
+             clean: Pasta di colore diverso tra i piatti.
   freq=   4  raw : Troppo carico
              clean: Pasta di colore troppo carico.
   freq=   4  raw : Non molto chiaro ma abbastanza omogeneo
@@ -2146,7 +2145,7 @@ batch_id: msgbatch_01Bv99Z88dFdZ6PJ6FdjRxoA
   freq=   4  raw : Alone centrale in qualche sfumatura risata in corrispondenza delle bocciature più importanti
              clean: Pasta con alone centrale e sfumature rosate in corrispondenza delle bocciature più importanti.
   freq=   4  raw : Disidratata solo da una parte
-             clean: NON_DESCRITTO
+             clean: Pasta disidratata in una parte.
   freq=   4  raw : Tendente al rosato ma unif
              clean: Pasta tendente al rosato e di colore uniforme.
   freq=   4  raw : Area centrale rossastra...

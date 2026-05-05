@@ -1,7 +1,6 @@
 ## Texture
 unique captions: 1088
-model: claude-haiku-4-5
-batch_id: msgbatch_01Bv99Z88dFdZ6PJ6FdjRxoA
+model: claude-haiku-4-5  (with manual salvage pass)
 
 (sorted by descending broadcast frequency)
 
@@ -88,7 +87,7 @@ batch_id: msgbatch_01Bv99Z88dFdZ6PJ6FdjRxoA
   freq=  10  raw : un poco-asciutto
              clean: Texture leggermente asciutta.
   freq=  10  raw : Strano!
-             clean: NON_DESCRITTO
+             clean: Texture strana.
   freq=  10  raw : Anche poca solubilità!
              clean: Texture con poca solubilità.
   freq=   8  raw : grana presente, compatto,
@@ -196,7 +195,7 @@ batch_id: msgbatch_01Bv99Z88dFdZ6PJ6FdjRxoA
   freq=   8  raw : sabbioso
              clean: Texture sabbiosa.
   freq=   8  raw : Astringente
-             clean: NON_DESCRITTO
+             clean: Texture astringente.
   freq=   8  raw : con cristalli
              clean: Texture con cristalli.
   freq=   8  raw : leggera sabbiosità finale
@@ -526,7 +525,7 @@ batch_id: msgbatch_01Bv99Z88dFdZ6PJ6FdjRxoA
   freq=   4  raw : cedevole al dente. si frattura in microstruttura grossolana. cristalli presneti. impasta la bocca
              clean: Texture cedevole al dente, si frattura in microstruttura grossolana con cristalli presenti e impasta la bocca.
   freq=   4  raw : Ho segnato durezza positiva perché ritengo abbia una bella espressione,
-             clean: NON_DESCRITTO
+             clean: Texture dura.
   freq=   4  raw : Non molto friabile, tendente all'umido
              clean: Texture poco friabile e tendente all'umido.
   freq=   4  raw : un poco pastoso e poco solubile
@@ -668,7 +667,7 @@ batch_id: msgbatch_01Bv99Z88dFdZ6PJ6FdjRxoA
   freq=   4  raw : friabilità e solubilità MODERATE;TIROSINA leggera
              clean: Texture moderatamente friabile e solubile, con tirosina leggera.
   freq=   4  raw : Fastidioso in bocca
-             clean: NON_DESCRITTO
+             clean: Texture fastidiosa in bocca.
   freq=   4  raw : tendente al compatto,
              clean: Texture tendente al compatto.
   freq=   4  raw : Impasta la bocca
@@ -1578,7 +1577,7 @@ batch_id: msgbatch_01Bv99Z88dFdZ6PJ6FdjRxoA
   freq=   4  raw : tendenzialmente umida, solubilità' medio bassa, leggermente cedevole
              clean: Texture tendenzialmente umida, solubilità medio-bassa e leggermente cedevole.
   freq=   4  raw : Consistenza strana
-             clean: NON_DESCRITTO
+             clean: Texture dalla consistenza strana.
   freq=   4  raw : pastoso e un poco farinoso
              clean: Texture pastosa e leggermente farinosa.
   freq=   4  raw : tirosina solubilità e friabilità moderata
@@ -1980,7 +1979,7 @@ batch_id: msgbatch_01Bv99Z88dFdZ6PJ6FdjRxoA
   freq=   4  raw : troppo umido;pochi cristialli...
              clean: Texture troppo umida e pochi cristalli.
   freq=   4  raw : Strana consistenza
-             clean: NON_DESCRITTO
+             clean: Texture dalla consistenza strana.
   freq=   4  raw : Troppo friabile
              clean: Texture molto friabile.
   freq=   4  raw : tanti cristalli, friabile finemente senza essere asciutto. lascia bocca farinosa ma pulita
@@ -2152,7 +2151,7 @@ batch_id: msgbatch_01Bv99Z88dFdZ6PJ6FdjRxoA
   freq=   2  raw : poca durezza, ma discreta pastosita e farinosita, umidità a posto
              clean: Texture poco dura, con discreta pastosità e farinosità, umidità adeguata.
   freq=   2  raw : pochissima tirosina, a
-             clean: NON_DESCRITTO
+             clean: Texture con pochissima tirosina.
   freq=   2  raw : cristalli tirosina percepibili e grana persistente
              clean: Texture con cristalli di tirosina percepibili e grana persistente.
   freq=   2  raw : bella presenza di grabuli, pastosita e umidità OK

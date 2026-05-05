@@ -1,28 +1,20 @@
+# Captions tagged NON_DESCRITTO (after manual salvage pass)
+# These are filtered out of the final training set.
+
 attribute                 freq  caption_pre
 ----------------------------------------------------------------------------------------------------
 Aroma                       36  Non piacevole!!!
-Aroma                       10  A proposito della fessure aggiungo : grasso, intuisco e abbasso di mezzo punto i…
 Aroma                        8  scarno
 Aroma                        8  non del tutto positivo
-Aroma                        8  difettoso
-Aroma                        8  Sangue,,,
 Aroma                        8  Maggiore stagionatura
 Aroma                        4  tende a zero
-Aroma                        4  ricorda un formaggio per; non tipico da grana
-Aroma                        4  povero rispetto a lnaso
 Aroma                        4  plastica ?
-Aroma                        4  note amare e
-Aroma                        4  nota lattea non sentita all-olfatto
 Aroma                        4  molto negativo
 Aroma                        4  miseria
-Aroma                        4  mi torna una puzza non definita
 Aroma                        4  meglio dell-olfattiva
 Aroma                        4  megilo del naso
 Aroma                        4  leggermente percebilie
-Aroma                        4  legge crosta
-Aroma                        4  formaggio rimasto in frigo troppo tempo
 Aroma                        4  formaggio pronto
-Aroma                        4  formaggio erborinato,
 Aroma                        4  diffettoso
 Aroma                        4  Vomitevole
 Aroma                        4  Valutato durante foto …,
@@ -30,324 +22,162 @@ Aroma                        4  Untuoso, dimenticavo...
 Aroma                        4  Trovato molti cristalli nei pezzi in cui non valutano la texture
 Aroma                        4  Texture da modificare, troppo friabile.
 Aroma                        4  Sovrastato da sapore
-Aroma                        4  Sangue…
 Aroma                        4  Sabbioso
-Aroma                        4  Più povero che all' olfatto
 Aroma                        4  Piuttostoanonimo
-Aroma                        4  Piuttosto anonimo rispetto al naso...
-Aroma                        4  Passato…
-Aroma                        4  Particolare sensibilità mia al fermentato
 Aroma                        4  Ok ti sentiti tutti molto leggeri di profumo. Forse perché le mie vie nasali non…
 Aroma                        4  Oggi sono raffreddato
 Aroma                        4  Non me lo fa salvare!
 Aroma                        4  Non gradevole
 Aroma                        4  Non apprezzabile
-Aroma                        4  Manca di carattere
 Aroma                        4  Inesistente
 Aroma                        4  Inconsistente
-Aroma                        4  Immangiabile Fermentazione da Clostridium sporogenes
-Aroma                        4  Il voto inerente a stalla sono stati due momenti e poi sparisce subito, per il s…
 Aroma                        4  I 4 campioni sono legge4mente diversi, uno è più umido, gli altri molto più asci…
 Aroma                        4  Ho con piccante nel Cata
-Aroma                        4  Formaggio non grana... Ma non so dare definizione esatta
 Aroma                        4  Formaggio con presunta struttura stirata
 Aroma                        4  Desaparecido
 Aroma                        4  Crosta meno fastidiosa che al profumo
-Aroma                        4  Anonimo
 Aroma                        4  All’aroma non sento più il provolone…
 Aroma                        4  A proposito del profumo: intensità notevole, ma troppo strano per essere trentun…
-Aroma                      ---  (56 unique, 282 broadcast rows)
+Aroma                      ---  (35 unique, 184 broadcast rows)
 
 Colore della Pasta          10  Bel colore!
 Colore della Pasta           8  Molto bello
-Colore della Pasta           8  Difetto so
 Colore della Pasta           7  Tante e vistose fessure da 1 e 2 cm, soprattutto in corrispondenza di un piatto …
-Colore della Pasta           5  Voto basso per colpa della frattura con evidente colore rosa, altrimenti voto al…
 Colore della Pasta           4  Un piccolo strappo
 Colore della Pasta           4  Taglio molto inregolare
 Colore della Pasta           4  Struttura regolare
 Colore della Pasta           4  Stirata
 Colore della Pasta           4  Sicura sotto piatto
-Colore della Pasta           4  Regolare
-Colore della Pasta           4  Presenza di una potenziale macchia al centro NON CONSIDERATA NEL VOTO perché nas…
-Colore della Pasta           4  Presenza di ingresso di muffa laterale
 Colore della Pasta           4  Poi scusa al centro trend è a chuaro
 Colore della Pasta           4  Piccola rottura
 Colore della Pasta           4  Piatto staccato
 Colore della Pasta           4  Pessima!
 Colore della Pasta           4  Occhiatura da 1 a 2,5mm nella parte centrale della forma Ma frattura di 4 cm
-Colore della Pasta           4  Non ho tenuto conto della macchia dovuta ad una "correzione" dello scalzo Se va …
-Colore della Pasta           4  In corrispondenza dell'occhio con siero
-Colore della Pasta           4  Immatricolata conferisce quasi un colore rosato, ma solo pochi cm dopo la crosta…
-Colore della Pasta           4  Grossa macchia di muffa
 Colore della Pasta           4  Grana fine frattura regolare
-Colore della Pasta           4  Gessato
 Colore della Pasta           4  Frattura di 3,5cm
-Colore della Pasta           4  Diversa fra i piatti
-Colore della Pasta           4  Disidratata solo da una parte
 Colore della Pasta           4  Ampio
-Colore della Pasta           4  Ad aree...
 Colore della Pasta           4  Acconciatura presente solo su un lato della forma circa 1mm
 Colore della Pasta           4  A causa della frattura e del la pasta al centro con un aspetto bagnato pastoso n…
 Colore della Pasta           2  Struttura a tratti difettosa con stiratura
-Colore della Pasta         ---  (32 unique, 144 broadcast rows)
+Colore della Pasta         ---  (19 unique, 87 broadcast rows)
 
-Profumo                     14  Difettato? Odori strani...
-Profumo                     12  chiuso
-Profumo                     12  Molto elegante
-Profumo                     10  Profumo anomalo alla prima occasione fa diminuire i voto
-Profumo                      8  leggermente difettoso
 Profumo                      8  Y0gurth
-Profumo                      8  Solo all'apertura poi no l'ho sento
 Profumo                      8  Molto interessante
 Profumo                      6  salato
 Profumo                      4  tendenzialmente positivo difetti assenti
-Profumo                      4  solvente ___(
 Profumo                      4  quasi imperteccibile...
-Profumo                      4  non tipico da altro formaggio cotto
-Profumo                      4  non percettibile. senza odore
-Profumo                      4  non percesco particolari odori
 Profumo                      4  no difetti ma non tipico
 Profumo                      4  niente di particolare
 Profumo                      4  nessu aroma particoare
-Profumo                      4  marcio, putrido,
 Profumo                      4  lievissimo, quasi inesistente, come un presidente di Fondazione
-Profumo                      4  leggermente odore anomalo che non riconsoco
 Profumo                      4  forse uno dei più\ interessanti della batteria...
 Profumo                      4  formaggio pronto
-Profumo                      4  equilibrato, piacevole
-Profumo                      4  difettoso
 Profumo                      4  difetti e pregi che si annullano
-Profumo                      4  dicreto buono in 3 pezzi su 4, ma in 1 c'è del marcio, putrido
 Profumo                      4  dddddddddd
 Profumo                      4  Un solo pezzo aveva un pessimo odore
 Profumo                      4  Un campione con odore positivo, 3 con odore negativo
-Profumo                      4  Troppo debole per valutare con sicurezza
-Profumo                      4  Troppa crosta
-Profumo                      4  Strano. A tratti sentiva di pesce. Perplesso
 Profumo                      4  Soprattutto all'apertura
 Profumo                      4  Solo una porzione su 4 è fortemente negativa
-Profumo                      4  Sento poco. Non so se perché raffreddato o perché povero il fromage
 Profumo                      4  Sembra più vecchio
 Profumo                      4  Quasi disturba!
 Profumo                      4  Qualcosa di non ottimale che non so definire
-Profumo                      4  Putrido, trremendo
-Profumo                      4  Proprio aggressivo non piacevole
-Profumo                      4  Prima olfazione non gradita. La definisco nostrano
-Profumo                      4  Polvere anche,,,
-Profumo                      4  Poco intenso manca tra i commenti?
 Profumo                      4  Piacevole
-Profumo                      4  Peccato per sfumatura bruciata!
 Profumo                      4  Oggi sono raffreddato
 Profumo                      4  Non so se ho scritto che son raffreddato
-Profumo                      4  Non sa di grana
 Profumo                      4  Non molto buono come impatto iniziale
-Profumo                      4  Non equilibrato nell' espressione
 Profumo                      4  Non buono
 Profumo                      4  Molto diversi i 4 pezzi e all'apertura
 Profumo                      4  Molto buono!
 Profumo                      4  Intrigante
-Profumo                      4  Intensità messa negativa perché non piacevole, puzza,,,,
-Profumo                      4  Il sentore di nostrano é un dubbio
-Profumo                      4  Crosta solo accennata
 Profumo                      4  Crosta in senso positivo (in precedenza poteva essere positivo o negativo)
 Profumo                      4  Correggi fieno non meno 1 ma più 0.2
-Profumo                      4  Complesso e piacevole
 Profumo                      4  Al primo impatto non buono
-Profumo                      2  solo spezzando i pezzi e al momento della frattura si avverte puzza di marcio pu…
-Profumo                      2  note poco tipiche e caratteristiche
-Profumo                    ---  (64 unique, 302 broadcast rows)
+Profumo                    ---  (31 unique, 134 broadcast rows)
 
-Sapore                      32  Nostrano
-Sapore                      22  Grasso
-Sapore                      14  Anonimo però!
-Sapore                      12  Non grana
 Sapore                      10  Anche qua contrasto ma piacevole
-Sapore                       8  crosta di formaggio
-Sapore                       8  Non da grana di 18 20 mesi
 Sapore                       8  Giovane
-Sapore                       4  panna
 Sapore                       4  nulla domina
-Sapore                       4  molto cotto
-Sapore                       4  formaggio cotto
-Sapore                       4  equilibrio tra le diverse nte
 Sapore                       4  ecqulibrato
 Sapore                       4  difforme, positivo a zone meno in altre
 Sapore                       4  ddpiccante
-Sapore                       4  crosta, sa di vecchio
-Sapore                       4  crosta, formaggio cotto
-Sapore                       4  crosta di formaggio, pane tostato
-Sapore                       4  cotto
-Sapore                       4  anonimo con amaro...
 Sapore                       4  Un poco’ disturba…,
 Sapore                       4  Troppo rispetto le altre note
 Sapore                       4  Troppo più fante rispetto alle altre sensazioni
-Sapore                       4  Tanto umano, troppo
 Sapore                       4  Solo leggermente
 Sapore                       4  Solo leggeri...
-Sapore                       4  Sapore di nostrano
 Sapore                       4  Polvere
 Sapore                       4  Poco espressivo
-Sapore                       4  Poco carattere
-Sapore                       4  Poco Miami,
-Sapore                       4  Piatto
-Sapore                       4  Nonostante la percezione di descrittori positivi e negativi lo valuto nel comple…
 Sapore                       4  Non sono sicuro di percepire dolcezza
-Sapore                       4  Non sgradevole, ma non lo riconosco come grana. troppo forti odori e consistenze
 Sapore                       4  Non sembra grana
-Sapore                       4  Non sa da grana
 Sapore                       4  Non me lo ricordavo e mi sono dimenticato di scriverlo su carta
-Sapore                       4  Non male, ma poco caratteristico
-Sapore                       4  Non da grana
 Sapore                       4  Non ci siamo
-Sapore                       4  Molto leggere le sensazioni segnate sul sapore
 Sapore                       4  Leggermente prevalenti
 Sapore                       4  Leggermente contrastante
-Sapore                       4  Leggermente Miami!!
 Sapore                       4  Leggermente
 Sapore                       4  Imperfezioni leggere
-Sapore                       4  Il sapore anomalo. Atipico del grana
 Sapore                       4  Ha quella nota in più
 Sapore                       4  Forse voto troppo alto
-Sapore                       4  Equilibrio travi gusti
 Sapore                       4  Difficile da giudicare perché immangiabile
-Sapore                       4  Anonimo è debole
-Sapore                       4  Anonimo poco intenso
-Sapore                       4  Anonimo come sapore, poco espresso con...
-Sapore                       4  Ambivalenza dove:-amaro...
-Sapore                       2  scarso in tutto
-Sapore                     ---  (58 unique, 312 broadcast rows)
+Sapore                     ---  (24 unique, 106 broadcast rows)
 
-Spessore della Crosta       24  Colore Sottocrosta grigiastro
-Spessore della Crosta       20  Chiaro
-Spessore della Crosta       12  Colore di fondo carico
 Spessore della Crosta       10  Te poi sottocrosta
 Spessore della Crosta       10  Difficile da misurare...Comunque c e crosta
-Spessore della Crosta        8  Pulita
-Spessore della Crosta        8  Nella norma
-Spessore della Crosta        8  Colore tenue della crosta
 Spessore della Crosta        8  Colore sottocrosta
 Spessore della Crosta        8  10 km
-Spessore della Crosta        5  Un sottopiatto tende al verde
-Spessore della Crosta        4  Un sottocrosta tendente al verde
-Spessore della Crosta        4  Sottocrosta rosa
-Spessore della Crosta        4  Sotto scalzo zona disidratata e ammuffita
 Spessore della Crosta        4  Sotto ac1
 Spessore della Crosta        4  Rosure
 Spessore della Crosta        4  Poco contrasto per colore scuro della pasta
-Spessore della Crosta        4  Poco contrasto dato l'ok colore di fondo carico
-Spessore della Crosta        4  Poco contrasto dato il colore di fondo molto carico
 Spessore della Crosta        4  Non sono riuscito a inserire il dato comp!Messico , dare7,5
 Spessore della Crosta        4  Non considero la muffa
-Spessore della Crosta        4  Molto chiaro
-Spessore della Crosta        4  Modellatura nel sotto crosta
-Spessore della Crosta        4  Microocchiatura, occhio, disidratazione, colore quasi verde sotto un piatto
-Spessore della Crosta        4  Intenso, difetto che dall'esterno entra nellunghia
 Spessore della Crosta        4  Grana fine, regolare, piccole occhiature al centro
 Spessore della Crosta        4  Frattura regolare molto granuloso
-Spessore della Crosta        4  Evidente parte nera
 Spessore della Crosta        4  Egli angoli
 Spessore della Crosta        4  Difficile vedere lo spessore a causa della disidratazione della pasta
 Spessore della Crosta        4  Comunque fine!
-Spessore della Crosta        4  Colori diversi fra i piatti
-Spessore della Crosta        4  Colori diversi
-Spessore della Crosta        4  Colore sottocrosta sganciato sfuma verso linterno
-Spessore della Crosta        4  Colore sottocrosta molto sfumato
-Spessore della Crosta        4  Colore sottocrosta grigiastro su sfondo molto carico
-Spessore della Crosta        4  Colore sottocrosta diverso da tutto il resto, rosellino
-Spessore della Crosta        4  Colore sottocrosta di colore diverso tra piatti
-Spessore della Crosta        4  Colore sottocrosta aranciato
-Spessore della Crosta        4  Colore sotto crosta grigio da un lato rossastra dall'altro
-Spessore della Crosta        4  Colore sfumato su base scura difficile vedere dove finisce
-Spessore della Crosta        4  Colore sfondo molto carico
-Spessore della Crosta        4  Colore rossastra da un lato e grigio dall'altro
-Spessore della Crosta        4  Colore rosato sottocrosta
-Spessore della Crosta        4  Colore rosa sottocrosta
-Spessore della Crosta        4  Colore pasta molto carico lo stacco tra crosta e pasta si vede poco
-Spessore della Crosta        4  Colore moltosfumato
-Spessore della Crosta        4  Colore grigiastro
-Spessore della Crosta        4  Colore fondo carico
-Spessore della Crosta        4  Colore di fondo scuro
-Spessore della Crosta        4  Colore di fondo carico contrasta meno il colore dello spessore
-Spessore della Crosta        4  Colore che sfuma su base di colore molto carico
-Spessore della Crosta        4  Colore carico solo su un piatto
 Spessore della Crosta        4  Colore carico della pasta
-Spessore della Crosta        4  Colore aranciato molto carico
-Spessore della Crosta        4  Colore Sottocrosta sfumato
 Spessore della Crosta        4  Christine sugli scalzi
-Spessore della Crosta        4  Chiara
 Spessore della Crosta        4  Almeno la crosta non é male
 Spessore della Crosta        4  6km
-Spessore della Crosta        4  12 km più netta su 1 piatto
 Spessore della Crosta        4  10km
-Spessore della Crosta        2  Superiore ai 14 km, sempre
-Spessore della Crosta        2  Piatti senza crosta
 Spessore della Crosta        2  Micro occhiatura nella zona centrale, anche grossa, 2,3 km. Frattura discreta, g…
-Spessore della Crosta        2  Intorno ai 10 km
 Spessore della Crosta        2  8 km
 Spessore della Crosta        2  8 9 km
-Spessore della Crosta      ---  (68 unique, 337 broadcast rows)
+Spessore della Crosta      ---  (22 unique, 102 broadcast rows)
 
-Struttura della Pasta       20  Grassa...
 Struttura della Pasta        8  Pessima
-Struttura della Pasta        8  Peccato per occhi ...
 Struttura della Pasta        8  Modellatura inferiore 2.5 cm
 Struttura della Pasta        4  tirosina ASSENTE;friabilità e solubilità MODERATA
 Struttura della Pasta        4  solubilità e friabilità MODERATO
 Struttura della Pasta        4  poco solubile, tende a essere pastoso
 Struttura della Pasta        4  poco friabile e solubile
-Struttura della Pasta        4  pastoso
 Struttura della Pasta        4  molto morbido
 Struttura della Pasta        4  molle e pastoso e asciutto
-Struttura della Pasta        4  macchie rosa
 Struttura della Pasta        4  friabilità, solubilità e tirosina FORTE
 Struttura della Pasta        4  friabilità e solubilità MODERATE;TIROSINA leggera
 Struttura della Pasta        4  friabilità e solubilità FORTE;tirosina MODERATA
 Struttura della Pasta        4  buona solibulit
-Struttura della Pasta        4  Voto positivo non considerando una vistosa spaccatura
 Struttura della Pasta        4  Un terzo della forma invece è da 8
-Struttura della Pasta        4  Umido
-Struttura della Pasta        4  Tipo sbrinz
-Struttura della Pasta        4  Tantissimi punti di tirosina
-Struttura della Pasta        4  Struttura non riuscita
-Struttura della Pasta        4  Struttura "GRASSA
 Struttura della Pasta        4  Strano effetto
-Struttura della Pasta        4  Strana anomalia tipo tara/muffa su uno scalzo
-Struttura della Pasta        4  Sporca bruciata in parte
-Struttura della Pasta        4  Sbrinz
 Struttura della Pasta        4  Prova di grana
-Struttura della Pasta        4  Presenza di ossidazione interna
-Struttura della Pasta        4  Non considero lo spacco
 Struttura della Pasta        4  Non considero le due fessurette
 Struttura della Pasta        4  Niente di particolare
 Struttura della Pasta        4  Nel complesso bene
 Struttura della Pasta        4  Nel complesso bella!
-Struttura della Pasta        4  Nel commento sottoscala disidratato intendo disidratazione però più nei piatti
 Struttura della Pasta        4  Nel centro soprattutto
-Struttura della Pasta        4  Muffa sotto scalzo
-Struttura della Pasta        4  Molto umida
 Struttura della Pasta        4  Molto bella
 Struttura della Pasta        4  Mezza forma anche bellina. L'altra metà un disastro
 Struttura della Pasta        4  Manca ne commentii cristalli
-Struttura della Pasta        4  Macchie
-Struttura della Pasta        4  Macchia bianca come fosse muffa
-Struttura della Pasta        4  Leggera impugnatura in zona centrale
 Struttura della Pasta        4  La parte centrale sembra appartenere ad un'altra forma. La parte esterna sarebbe…
 Struttura della Pasta        4  L'occhio di Sauron
-Struttura della Pasta        4  In un angolo sembra molto più umida
 Struttura della Pasta        4  Ideologizzata diffusa con mancanza di struttura
 Struttura della Pasta        4  Friabile ma morbido al morso. troppo plastico. incolla ai denti
 Struttura della Pasta        4  Forse il voto dato va diminuito di 1!
-Struttura della Pasta        4  Difettosa
-Struttura della Pasta        4  1 punto in meno per lo spacco enorme. Una forma così Non dovrebbe arrivare al pa…
 Struttura della Pasta        2  Bel giallo omogeneo quasi nocciola forse troppo carico
 Struttura della Pasta        2  10-12 mm
-Struttura della Pasta      ---  (54 unique, 240 broadcast rows)
+Struttura della Pasta      ---  (30 unique, 124 broadcast rows)
 
 Texture                     14  Non ok
-Texture                     10  Strano!
 Texture                      8  Nel complesso non male però
-Texture                      8  Astringente
 Texture                      4  tro
 Texture                      4  nella media
 Texture                      4  media...
@@ -358,22 +188,17 @@ Texture                      4  da sbrinz;
 Texture                      4  come atteso
 Texture                      4  attesa per un formaggio stagionato
 Texture                      4  Un disastro!
-Texture                      4  Strana consistenza
 Texture                      4  Sembra più giovane
 Texture                      4  Piacevole però
 Texture                      4  Pessima
 Texture                      4  Non ottimale, anzi non bella!
 Texture                      4  Molto intressante
 Texture                      4  Molto equilibrato
-Texture                      4  Ho segnato durezza positiva perché ritengo abbia una bella espressione,
 Texture                      4  Gestire mediocre
-Texture                      4  Fastidioso in bocca
 Texture                      4  Equilibrato
 Texture                      4  Difficile da giudicare perché immagiabile
 Texture                      4  Controverso
-Texture                      4  Consistenza strana
 Texture                      4  ABBASTANZA BUONA
-Texture                      2  pochissima tirosina, a
-Texture                    ---  (30 unique, 142 broadcast rows)
+Texture                    ---  (23 unique, 106 broadcast rows)
 
-TOTAL: 362 unique captions, 1759 broadcast rows
+TOTAL: 184 unique captions, 843 broadcast rows

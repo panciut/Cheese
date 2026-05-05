@@ -1,7 +1,6 @@
 ## Profumo
 unique captions: 1178
-model: claude-haiku-4-5
-batch_id: msgbatch_01Bv99Z88dFdZ6PJ6FdjRxoA
+model: claude-haiku-4-5  (with manual salvage pass)
 
 (sorted by descending broadcast frequency)
 
@@ -72,17 +71,17 @@ batch_id: msgbatch_01Bv99Z88dFdZ6PJ6FdjRxoA
   freq=  14  raw : Burro cotto
              clean: Profumo di burro cotto.
   freq=  14  raw : Difettato? Odori strani...
-             clean: NON_DESCRITTO
+             clean: Profumo difettoso e strano.
   freq=  14  raw : Nota da nostrano
              clean: Profumo di nostrano.
   freq=  12  raw : Erbe Balsamiche
              clean: Profumo di erbe balsamiche.
   freq=  12  raw : Molto elegante
-             clean: NON_DESCRITTO
+             clean: Profumo molto elegante.
   freq=  12  raw : burro, burro fuso
              clean: Profumo di burro fuso.
   freq=  12  raw : chiuso
-             clean: NON_DESCRITTO
+             clean: Profumo chiuso.
   freq=  12  raw : leggermente cotto
              clean: Profumo leggermente cotto.
   freq=  12  raw : debole
@@ -116,7 +115,7 @@ batch_id: msgbatch_01Bv99Z88dFdZ6PJ6FdjRxoA
   freq=  10  raw : fruttato ananas
              clean: Profumo fruttato di ananas.
   freq=  10  raw : Profumo anomalo alla prima occasione fa diminuire i voto
-             clean: NON_DESCRITTO
+             clean: Profumo anomalo all'apertura.
   freq=  10  raw : Molto complesso!
              clean: Profumo molto complesso.
   freq=  10  raw : Kiwi e mela
@@ -138,7 +137,7 @@ batch_id: msgbatch_01Bv99Z88dFdZ6PJ6FdjRxoA
   freq=   8  raw : insilato
              clean: Profumo di insilato.
   freq=   8  raw : leggermente difettoso
-             clean: NON_DESCRITTO
+             clean: Profumo leggermente difettoso.
   freq=   8  raw : Molto interessante
              clean: NON_DESCRITTO
   freq=   8  raw : leggerissimo
@@ -166,7 +165,7 @@ batch_id: msgbatch_01Bv99Z88dFdZ6PJ6FdjRxoA
   freq=   8  raw : vegetale fieno?
              clean: Note olfattive di vegetale e fieno.
   freq=   8  raw : Solo all'apertura poi no l'ho sento
-             clean: NON_DESCRITTO
+             clean: Profumo percepibile solo all'apertura.
   freq=   8  raw : erba
              clean: Profumo di erba.
   freq=   8  raw : burro sciolto
@@ -322,7 +321,7 @@ batch_id: msgbatch_01Bv99Z88dFdZ6PJ6FdjRxoA
   freq=   4  raw : note fermentative, insilato e kiwi stramaturo, non piacevole
              clean: Profumo di note fermentative, insilato e kiwi maturo.
   freq=   4  raw : marcio, putrido,
-             clean: NON_DESCRITTO
+             clean: Profumo marcio e putrido.
   freq=   4  raw : molto intenso e positivo
              clean: Profumo molto intenso e positivo.
   freq=   4  raw : assoluntamente non caratteristico, a tratti putrido, frutta fermentata
@@ -332,7 +331,7 @@ batch_id: msgbatch_01Bv99Z88dFdZ6PJ6FdjRxoA
   freq=   4  raw : burro cotto, crosta, latte cotto o uht
              clean: Profumo di burro cotto, crosta e latte cotto.
   freq=   4  raw : Sento poco. Non so se perché raffreddato o perché povero il fromage
-             clean: NON_DESCRITTO
+             clean: Profumo poco percepibile.
   freq=   4  raw : burro fresco e formaggio cotto...
              clean: Profumo di burro fresco e formaggio cotto.
   freq=   4  raw : Un campione con odore positivo, 3 con odore negativo
@@ -372,7 +371,7 @@ batch_id: msgbatch_01Bv99Z88dFdZ6PJ6FdjRxoA
   freq=   4  raw : Plastica
              clean: Profumo di plastica.
   freq=   4  raw : Non sa di grana
-             clean: NON_DESCRITTO
+             clean: Profumo non tipico del grana.
   freq=   4  raw : positivo ma poco intenso
              clean: Profumo positivo ma poco intenso.
   freq=   4  raw : All'apertura ottimi lattici freschi, poi anche cotti
@@ -432,7 +431,7 @@ batch_id: msgbatch_01Bv99Z88dFdZ6PJ6FdjRxoA
   freq=   4  raw : Alito al Caffè ...
              clean: Profumo di caffè.
   freq=   4  raw : Intensità messa negativa perché non piacevole, puzza,,,,
-             clean: NON_DESCRITTO
+             clean: Profumo sgradevole con puzza.
   freq=   4  raw : burro fuso, burro cotto,brodo, mediamente intenso, equilibrato
              clean: Profumo di burro fuso e burro cotto con brodo, mediamente intenso ed equilibrato.
   freq=   4  raw : latte cotto o bruciato
@@ -442,7 +441,7 @@ batch_id: msgbatch_01Bv99Z88dFdZ6PJ6FdjRxoA
   freq=   4  raw : Molta panna
              clean: Profumo di panna intensa.
   freq=   4  raw : difettoso
-             clean: NON_DESCRITTO
+             clean: Profumo difettoso.
   freq=   4  raw : lattici cotti, tostati, liquirizia, cacao, caffè, mou
              clean: Profumo di lattici cotti e tostati con note di liquirizia, cacao e caffè.
   freq=   4  raw : all'apertura anche frutta e fiori, poi panna
@@ -456,7 +455,7 @@ batch_id: msgbatch_01Bv99Z88dFdZ6PJ6FdjRxoA
   freq=   4  raw : Su un plateau di sensazioni mature spicca una forte nota floreale, addirittura fruttata. anomalo, gradevole
              clean: Profumo maturo con forte nota floreale e fruttata.
   freq=   4  raw : Non equilibrato nell' espressione
-             clean: NON_DESCRITTO
+             clean: Profumo non equilibrato.
   freq=   4  raw : Profumo fresco
              clean: Profumo fresco.
   freq=   4  raw : Intensità medio-forte. Note vegetali e floreali su latte. Particolare
@@ -518,7 +517,7 @@ batch_id: msgbatch_01Bv99Z88dFdZ6PJ6FdjRxoA
   freq=   4  raw : Animale più che stalla
              clean: Profumo animale più che di stalla.
   freq=   4  raw : equilibrato, piacevole
-             clean: NON_DESCRITTO
+             clean: Profumo equilibrato e piacevole.
   freq=   4  raw : profumo leggero. nessun difetto o sentore strano. evanescente. tostato
              clean: Profumo leggero, evanescente, con note di tostato.
   freq=   4  raw : brodo di carne burro fuso e panna
@@ -564,7 +563,7 @@ batch_id: msgbatch_01Bv99Z88dFdZ6PJ6FdjRxoA
   freq=   4  raw : Leggerissimo, scompare dopo 2 secondi
              clean: Profumo molto leggero e fugace.
   freq=   4  raw : Prima olfazione non gradita. La definisco nostrano
-             clean: NON_DESCRITTO
+             clean: Profumo nostrano.
   freq=   4  raw : latte fresco
              clean: Profumo di latte fresco.
   freq=   4  raw : debole, leggero sentore di fermentato
@@ -692,7 +691,7 @@ batch_id: msgbatch_01Bv99Z88dFdZ6PJ6FdjRxoA
   freq=   4  raw : leggermente fruttato
              clean: Profumo leggermente fruttato.
   freq=   4  raw : Il sentore di nostrano é un dubbio
-             clean: NON_DESCRITTO
+             clean: Profumo con sentore di nostrano.
   freq=   4  raw : Salsa al caramello mou bruciacchiata
              clean: Profumo di caramello bruciacchiato con note di mou.
   freq=   4  raw : Lievito pane?
@@ -710,7 +709,7 @@ batch_id: msgbatch_01Bv99Z88dFdZ6PJ6FdjRxoA
   freq=   4  raw : pochi pregi, lieve
              clean: Profumo lieve.
   freq=   4  raw : non percesco particolari odori
-             clean: NON_DESCRITTO
+             clean: Profumo poco percepibile.
   freq=   4  raw : frutta matura intensità medio alta
              clean: Profumo di frutta matura, intensità medio-alta.
   freq=   4  raw : vegetale floreale all'apertura, 1 pezzo negativo, gli altri discreti buoni
@@ -842,13 +841,13 @@ batch_id: msgbatch_01Bv99Z88dFdZ6PJ6FdjRxoA
   freq=   4  raw : mediamente intenso, panna, burro fuso, brodo, congetto, lieve nota ossidata e pungente
              clean: Profumo mediamente intenso di panna, burro fuso e brodo, con lieve nota ossidata e pungente.
   freq=   4  raw : leggermente odore anomalo che non riconsoco
-             clean: NON_DESCRITTO
+             clean: Profumo leggermente anomalo.
   freq=   4  raw : odore pungente all'apertura, ma che poi non trovo nei pezzi
              clean: Profumo pungente all'apertura, non rilevabile nei pezzi.
   freq=   4  raw : tende negativo forte sedano
              clean: Profumo tendente al negativo, forte, di sedano.
   freq=   4  raw : Peccato per sfumatura bruciata!
-             clean: NON_DESCRITTO
+             clean: Profumo con sfumatura bruciata.
   freq=   4  raw : Peccato per leggero sentore di alcool
              clean: Profumo con leggero sentore di alcol.
   freq=   4  raw : All'apertura, ottimo panna e lattici; alla rottura di un pezzo odore un poco' sgradevole, tendente allo stantio
@@ -998,7 +997,7 @@ batch_id: msgbatch_01Bv99Z88dFdZ6PJ6FdjRxoA
   freq=   4  raw : leggermente fermentato, frutta matura
              clean: Profumo leggermente fermentato con nota di frutta matura.
   freq=   4  raw : Putrido, trremendo
-             clean: NON_DESCRITTO
+             clean: Profumo putrido.
   freq=   4  raw : grana, tostato, fieno, panna
              clean: Profumo di grana, tostato, fieno e panna.
   freq=   4  raw : latte cotto, burro fuso brodo di carne e leggero tostato e fruttato
@@ -1034,7 +1033,7 @@ batch_id: msgbatch_01Bv99Z88dFdZ6PJ6FdjRxoA
   freq=   4  raw : ossidato, fermentato. non piacevole
              clean: Profumo ossidato e fermentato.
   freq=   4  raw : Proprio aggressivo non piacevole
-             clean: NON_DESCRITTO
+             clean: Profumo aggressivo.
   freq=   4  raw : latte acido panna yogurt
              clean: Profumo di latte acido, panna e yogurt.
   freq=   4  raw : buona intensità. Burro, latte cotto, panna. crosta
@@ -1042,7 +1041,7 @@ batch_id: msgbatch_01Bv99Z88dFdZ6PJ6FdjRxoA
   freq=   4  raw : Leggero sentore di bruciato e stalla all'inizio!
              clean: Profumo leggero di bruciato e stalla all'inizio.
   freq=   4  raw : Strano. A tratti sentiva di pesce. Perplesso
-             clean: NON_DESCRITTO
+             clean: Profumo strano, di pesce a tratti.
   freq=   4  raw : positivo molto intenso
              clean: Profumo molto intenso.
   freq=   4  raw : predominante il lattico cotto e il brodo
@@ -1186,7 +1185,7 @@ batch_id: msgbatch_01Bv99Z88dFdZ6PJ6FdjRxoA
   freq=   4  raw : Molto diverso alle apertura e spezzando i pezzi. Fresco prima, più stagionato poi
              clean: Profumo fresco all'apertura, più stagionato spezzando i pezzi.
   freq=   4  raw : solvente ___(
-             clean: NON_DESCRITTO
+             clean: Profumo di solvente.
   freq=   4  raw : delicato, leggero sentore di cotto
              clean: Profumo delicato con leggero sentore di cotto.
   freq=   4  raw : Intensità buona. burro cotto. panna leggero. tostato
@@ -1314,7 +1313,7 @@ batch_id: msgbatch_01Bv99Z88dFdZ6PJ6FdjRxoA
   freq=   4  raw : Ananas e pompelmo
              clean: Profumo di ananas e pompelmo.
   freq=   4  raw : Troppo debole per valutare con sicurezza
-             clean: NON_DESCRITTO
+             clean: Profumo molto debole.
   freq=   4  raw : Prevale il probumo di formaggio grigliato e tostato, segue panna, latte cotto e burro fuso
              clean: Profumo di formaggio tostato con note di panna, latte cotto e burro fuso.
   freq=   4  raw : fungo;muffa
@@ -1328,7 +1327,7 @@ batch_id: msgbatch_01Bv99Z88dFdZ6PJ6FdjRxoA
   freq=   4  raw : all apertura del barattolino profumo fruttato e vanigliato, molto particolare, poi alla rottura dei pezzi più panna e lattici freschi, uno non cosi buono
              clean: Profumo fruttato e vanigliato all'apertura, con note di panna e lattico fresco alla rottura dei pezzi.
   freq=   4  raw : Polvere anche,,,
-             clean: NON_DESCRITTO
+             clean: Profumo di polvere.
   freq=   4  raw : Intrigante
              clean: NON_DESCRITTO
   freq=   4  raw : trovo del brodo vegetale, su note cotte
@@ -1374,7 +1373,7 @@ batch_id: msgbatch_01Bv99Z88dFdZ6PJ6FdjRxoA
   freq=   4  raw : Molto variegati all'apertura e nei singoli pezzi. Frutta matura e panna, ma anche negativi e volatili, tipo ammoniaca e fermentato, quasi marcio
              clean: Profumo variegato all'apertura e nei singoli pezzi, con frutta matura e panna, ma anche note di ammoniaca e fermentato.
   freq=   4  raw : dicreto buono in 3 pezzi su 4, ma in 1 c'è del marcio, putrido
-             clean: NON_DESCRITTO
+             clean: Profumo marcio e putrido in alcune porzioni.
   freq=   4  raw : frutta matura
              clean: Profumo di frutta matura.
   freq=   4  raw : panna burro fuso brodo di carne e fruttato
@@ -1438,7 +1437,7 @@ batch_id: msgbatch_01Bv99Z88dFdZ6PJ6FdjRxoA
   freq=   4  raw : Pane tostato potentissimo
              clean: Profumo intenso di pane tostato.
   freq=   4  raw : non percettibile. senza odore
-             clean: NON_DESCRITTO
+             clean: Profumo impercettibile, senza odore.
   freq=   4  raw : intensità leggero-moderata. Bouquet floreale per lopiù, anche vegetale. Molto delicato e elegante. Particolare
              clean: Profumo leggermente moderato con bouquet floreale e vegetale, molto delicato ed elegante.
   freq=   4  raw : latte crudo;panna;
@@ -1522,7 +1521,7 @@ batch_id: msgbatch_01Bv99Z88dFdZ6PJ6FdjRxoA
   freq=   4  raw : All' apertura plastica bruciata
              clean: Profumo di plastica bruciata all'apertura.
   freq=   4  raw : Complesso e piacevole
-             clean: NON_DESCRITTO
+             clean: Profumo complesso e piacevole.
   freq=   4  raw : panna alto
              clean: Profumo di panna intensa.
   freq=   4  raw : poco intenso e complesso, a tratti note di formaggio nostrano, scarico
@@ -1592,7 +1591,7 @@ batch_id: msgbatch_01Bv99Z88dFdZ6PJ6FdjRxoA
   freq=   4  raw : alcuni pezzi con tostati molto decisi quasi troppo, speziati,
              clean: Profumo di tostato deciso con note speziate.
   freq=   4  raw : Troppa crosta
-             clean: NON_DESCRITTO
+             clean: Profumo con prevalenza di crosta.
   freq=   4  raw : chiuso leggermente ammoniaca
              clean: Profumo chiuso con leggermente ammoniaca.
   freq=   4  raw : Media intensità. Profumi tipici. Abbastanza complesso
@@ -1732,7 +1731,7 @@ batch_id: msgbatch_01Bv99Z88dFdZ6PJ6FdjRxoA
   freq=   4  raw : moderata intensità. panna, cotto. frutta secca. anche note vegetali di brodo
              clean: Profumo di moderata intensità con panna e cotto, note di frutta secca e vegetali di brodo.
   freq=   4  raw : Poco intenso manca tra i commenti?
-             clean: NON_DESCRITTO
+             clean: Profumo poco intenso.
   freq=   4  raw : lattici cotti e verdura lessa leggera
              clean: Profumo di lattici cotti e verdura lessa leggermente presente.
   freq=   4  raw : ossidato e crosta, leggeri
@@ -1836,7 +1835,7 @@ batch_id: msgbatch_01Bv99Z88dFdZ6PJ6FdjRxoA
   freq=   4  raw : cacao, caffè, tostato, cuoio, caramello - soprattutto all'apertura del barattolo, poi tostati più semplici e lattico cotto, leggermente speziato
              clean: Profumo di cacao, caffè, tostato, cuoio e caramello all'apertura, seguiti da note più semplici di tostato e lattico cotto, leggermente speziato.
   freq=   4  raw : Crosta solo accennata
-             clean: NON_DESCRITTO
+             clean: Profumo con leggero accenno di crosta.
   freq=   4  raw : fungo
              clean: Profumo di fungo.
   freq=   4  raw : Intensità più che moderata
@@ -1920,7 +1919,7 @@ batch_id: msgbatch_01Bv99Z88dFdZ6PJ6FdjRxoA
   freq=   4  raw : nota inizialmente nota fermentata, frutta fermentata, crosta di formaggio, formaggio vecchio, comunque presente la nota lattica e di glutammato
              clean: Profumo con note fermentate di frutta fermentata, crosta di formaggio e formaggio vecchio, con nota lattica e di glutammato.
   freq=   4  raw : non tipico da altro formaggio cotto
-             clean: NON_DESCRITTO
+             clean: Profumo non tipico, di altro formaggio cotto.
   freq=   4  raw : intensità moderata. latte. sentore cotto. poco cuoio
              clean: Profumo di latte con sentore cotto, intensità moderata e poco cuoio.
   freq=   4  raw : Stalla al primo impatto poi si apre!!!
@@ -2292,7 +2291,7 @@ batch_id: msgbatch_01Bv99Z88dFdZ6PJ6FdjRxoA
   freq=   2  raw : intensità' elevata, di burro fuso, burro,
              clean: Profumo intenso di burro fuso.
   freq=   2  raw : solo spezzando i pezzi e al momento della frattura si avverte puzza di marcio putrido, che x lo più se ne va asciugamdosi
-             clean: NON_DESCRITTO
+             clean: Profumo di marcio e putrido alla frattura, attenuato all'asciugatura.
   freq=   2  raw : strinato
              clean: Profumo strinato.
   freq=   2  raw : note positive da grana tipico, latte, ma con tostatura anche forte... sebbene molto piacevole
@@ -2310,7 +2309,7 @@ batch_id: msgbatch_01Bv99Z88dFdZ6PJ6FdjRxoA
   freq=   2  raw : poco complesso ma pulito, panna, latte cotto, burro fuso, mancano le note evolute
              clean: Profumo poco complesso ma pulito, di panna, latte cotto e burro fuso.
   freq=   2  raw : note poco tipiche e caratteristiche
-             clean: NON_DESCRITTO
+             clean: Profumo poco tipico.
   freq=   2  raw : Buona intensità', non grande la complessita'. tostato
              clean: Profumo tostato con buona intensità, poco complesso.
   freq=   2  raw : note positive ma tostatura leggerm invadente
