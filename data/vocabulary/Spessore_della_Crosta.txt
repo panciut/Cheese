@@ -1,0 +1,205 @@
+# Controlled vocabulary — Spessore della Crosta
+# total tokens (incl stopwords): 14737
+# unique lemmas (>= 3): 291
+# format: <count>	<canonical>	<surface forms (most frequent first)>
+
+1198	mm	mm
+750	piatto	piatto, piatti
+530	cm	cm
+492	scalzo	scalzo, scalzi
+362	spessa	spessa
+342	colore	colore, colori
+330	crosta	crosta
+310	spigoli	spigoli, spigolo
+294	sottile	sottile, sottili
+268	sfumata	sfumata, sfumato, sfumati
+230	sottocrosta	sottocrosta
+196	evidente	evidente, evidenti
+190	angoli	angoli, angolo
+150	lato	lato
+132	spessore	spessore, spessori
+132	unghia	unghia
+130	marcata	marcata, marcato, marcati
+120	regolare	regolare
+108	grossa	grossa, grosso, grossi
+100	carico	carico
+98	mediae	mediamente
+92	negli	negli
+86	medio	medio
+82	chiaro	chiaro, chiara
+76	diverso	diverso, diversi, diversa, diverse
+68	pronunciati	pronunciati, pronunciato
+66	omogeneo	omogenea, omogeneo
+60	disomogenea	disomogenea, disomogeneo
+60	superiore	superiore
+56	belli	belli, bello, bella
+54	meno	meno
+48	buoni	buoni, buono, buona
+48	tratti	tratti
+48	km	km
+44	faccia	faccia
+44	limite	limite
+42	netto	netto, netta, netti
+40	fondo	fondo
+40	sull'altro	sull'altro
+40	scuro	scuro, scura
+40	intenso	intenso
+36	pasta	pasta
+36	grigiastro	grigiastro
+34	sottoscritta	sottoscritta
+34	accentuati	accentuati
+32	brutti	brutti, brutto
+32	oltre	oltre
+32	uniforme	uniforme
+30	inferiore	inferiore
+28	l'altro	l'altro
+28	deciso	deciso, decisi
+26	difficile	difficile
+26	comunque	comunque
+24	spessi	spessi
+24	variabile	variabile
+24	irregolare	irregolare
+22	po	po
+22	maggiore	maggiore, maggiori, maggiormente
+20	alto	alto
+20	dato	dato
+20	ben	ben
+20	dispari	dispari
+20	minimo	minimo
+20	aranciato	aranciato
+18	due	due
+16	tendente	tendente
+16	rossastra	rossastra, rossastro
+16	grigio	grigio
+16	importante	importante
+16	sfuma	sfuma
+16	minore	minore
+16	punti	punti, punte
+16	complesso	complesso
+16	contrasto	contrasto, contrasta
+15	verde	verde, verdi
+14	ampio	ampio, ampia
+14	microcchiatura	microcchiatura
+14	basso	basso, bassa
+14	occhiatura	occhiatura, occhiature
+14	lati	lati
+14	intorno	intorno
+13	tende	tende
+12	disidratato	disidratato, disidratata
+12	marrone	marrone
+12	resto	resto
+12	base	base
+12	attorno	attorno
+12	almeno	almeno
+12	ovunque	ovunque
+12	alta	alta
+12	sganciato	sganciato
+12	pronunciate	pronunciate, pronunciata
+12	facce	facce
+12	fini	fini
+12	particolare	particolare, particolarmente
+12	centro	centro
+12	decisae	decisamente
+12	sfondo	sfondo
+12	entra	entra, entro
+12	tanta	tanta
+12	allaltro	allaltro
+12	ocra	ocra
+12	ok	ok
+10	misurare	misurare
+10	crosts	crosts
+10	nettae	nettamente
+10	grana	grana
+10	laterale	lateralmente
+10	altro	altro, altri
+8	eccessivo	eccessivo
+8	rossiccio	rossiccio
+8	bei	bei
+8	disidratazione	disidratazione
+8	tenue	tenue
+8	leggero	leggero
+8	ottimi	ottimi, ottimo
+8	difformi	difformi, difforme
+8	contrastato	contrastato
+8	regolaee	regolaee
+8	valori	valori, valore
+8	norma	norma
+8	finissima	finissima
+8	definita	definita
+8	parte	parte
+8	nera	nera
+8	macchia	macchia
+8	indefinita	indefinita, indefinito
+8	aree	aree
+8	peccato	peccato
+8	perimetro	perimetro
+8	pi	pi
+8	bruno	bruno
+8	visibile	visibile
+8	differenti	differenti
+8	distinta	distinta
+8	piccole	piccole, piccola
+8	crostone	crostone
+8	abbondante	abbondante
+8	sei	sei
+8	grossolano	grossolana, grossolani
+8	dell'altro	dell'altro
+8	dove	dove
+8	colorazione	colorazione
+8	risulta	risulta
+8	rosato	rosato
+8	rosa	rosa
+8	dall'altro	dall'altro
+8	pulita	pulita
+8	vedere	vedere
+8	divero	divero
+6	nota	nota, note
+6	discreto	discreto, discreta
+6	elevate	elevate, elevata
+6	zone	zone
+6	frattura	frattura
+6	zona	zona
+6	centrale	centrale
+6	presente	presente
+6	entrambi	entrambi
+5	sottopiatto	sottopiatto
+4	però	però
+4	alone	alone
+4	confonde	confonde
+4	ali	ali
+4	problemi	problemi
+4	confrontando	confrontando
+4	pallida	pallida
+4	rosellino	rosellino
+4	enorme	enorme
+4	modellatura	modellatura
+4	riuscito	riuscito
+4	inserire	inserire
+4	comp	comp
+4	messico	messico
+4	dare	dare
+4	microocchiatura	microocchiatura
+4	occhio	occhio
+4	definiti	definiti
+4	inoltre	inoltre
+4	complessivae	complessivamente
+4	male	male
+4	egli	egli
+4	arancio	arancio
+4	indicativa	indicativa
+4	estremae	estremamente
+4	disomogeneità	disomogeneità
+4	cavallo	cavallo
+4	patti	patti
+4	mn	mn
+4	complessoh	complessoh
+4	sottil	sottil
+4	spogli	spogli
+4	definisca	definisca
+4	pressoché	pressoché
+4	scarso	scarso
+4	superficie	superficie
+4	intensità	intensità
+4	secchezza	secchezza
+4	christine	christine
+4	ilcm	ilcm

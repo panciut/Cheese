@@ -1,0 +1,1401 @@
+attribute,lemma,count,surfaces
+Aroma,cotto,1136,"cotto, cotti, cotta, cotte"
+Aroma,burro,546,burro
+Aroma,formaggio,532,formaggio
+Aroma,crosta,490,crosta
+Aroma,nota,472,"note, nota"
+Aroma,latte,426,latte
+Aroma,lattico,412,"lattico, lattici, lattiche, lattica"
+Aroma,panna,372,panna
+Aroma,brodo,354,"brodo, brodi"
+Aroma,grana,310,grana
+Aroma,leggero,290,"leggero, leggera, leggeri, leggere"
+Aroma,tostato,240,"tostato, tostati, tostate"
+Aroma,fermentato,206,"fermentato, fermentata, fermentate"
+Aroma,fuso,188,fuso
+Aroma,animale,178,"animale, animali"
+Aroma,vegetale,168,"vegetale, vegetali"
+Aroma,aroma,148,"aroma, aromi"
+Aroma,bruciato,138,"bruciato, bruciata"
+Aroma,piacevole,137,"piacevole, piacevoli"
+Aroma,sentore,132,"sentore, sentori"
+Aroma,intensità,130,intensità
+Aroma,frutta,128,frutta
+Aroma,tipico,124,"tipico, tipici, tipica"
+Aroma,caratteristico,116,"caratteristico, caratteristici"
+Aroma,ossidato,114,"ossidato, ossidata, ossidate"
+Aroma,carne,110,carne
+Aroma,complesso,108,complesso
+Aroma,intenso,96,"intenso, intensa"
+Aroma,naso,90,naso
+Aroma,acido,80,"acido, acida, acide"
+Aroma,stantio,80,stantio
+Aroma,nostrano,76,nostrano
+Aroma,amaro,72,"amare, amara, amari, amaro"
+Aroma,stalla,68,stalla
+Aroma,po,62,po
+Aroma,fresco,60,"fresco, fresca, freschi"
+Aroma,lieve,60,"lieve, lievi"
+Aroma,vecchio,60,"vecchio, vecchia"
+Aroma,forte,58,"forte, forti"
+Aroma,fieno,52,fieno
+Aroma,gradevole,50,"gradevole, gradevoli"
+Aroma,secco,50,"secca, secco"
+Aroma,verdura,48,"verdura, verdure"
+Aroma,fruttato,48,fruttato
+Aroma,erbe,48,erbe
+Aroma,persistente,47,"persistente, persistenti"
+Aroma,sapone,44,sapone
+Aroma,equilibrato,42,equilibrato
+Aroma,moderato,40,"moderato, moderata, moderati"
+Aroma,bocca,40,bocca
+Aroma,medio,38,medio
+Aroma,grasso,38,grasso
+Aroma,positivo,38,"positivo, positivi"
+Aroma,prevalenti,36,"prevalenti, prevalente"
+Aroma,neutro,36,neutro
+Aroma,alta,36,alta
+Aroma,lessa,36,"lessa, lesso, lesse"
+Aroma,glutammato,34,glutammato
+Aroma,strano,34,"strano, strana"
+Aroma,propionico,34,"propionico, propionica"
+Aroma,pane,34,pane
+Aroma,leggerissimo,32,"leggerissimo, leggerissima"
+Aroma,torna,32,torna
+Aroma,passato,32,passato
+Aroma,fruttate,32,"fruttate, fruttata"
+Aroma,provolone,32,provolone
+Aroma,metallico,32,metallico
+Aroma,matura,32,"matura, maturo"
+Aroma,dado,28,dado
+Aroma,meno,28,meno
+Aroma,buona,28,"buona, buono, buone"
+Aroma,caramello,28,"caramello, caramella"
+Aroma,piccante,28,piccante
+Aroma,comunque,28,comunque
+Aroma,legg,28,legg
+Aroma,erbaceo,28,"erbaceo, erbacei"
+Aroma,resta,28,"resta, resto"
+Aroma,nocciola,26,nocciola
+Aroma,ricorda,26,ricorda
+Aroma,emmental,26,emmental
+Aroma,presente,26,"presente, presenti"
+Aroma,muffa,26,muffa
+Aroma,caratteristiche,26,caratteristiche
+Aroma,yogurt,24,yogurt
+Aroma,dominante,24,dominante
+Aroma,po',24,po'
+Aroma,minestrone,24,minestrone
+Aroma,pi,24,pi
+Aroma,scarico,22,scarico
+Aroma,prima,20,"prima, primo"
+Aroma,finale,20,"finale, finali"
+Aroma,profumo,20,profumo
+Aroma,polvere,20,polvere
+Aroma,gorgonzola,20,gorgonzola
+Aroma,marcio,20,marcio
+Aroma,trentingrana,20,trentingrana
+Aroma,debole,20,debole
+Aroma,rancido,20,rancido
+Aroma,principale,20,principalmente
+Aroma,rispetto,20,rispetto
+Aroma,punta,20,"punta, punte"
+Aroma,sedano,20,sedano
+Aroma,cipolla,20,cipolla
+Aroma,voto,18,voto
+Aroma,svizzero,18,"svizzero, svizzeri"
+Aroma,tipiche,18,tipiche
+Aroma,persistenza,16,persistenza
+Aroma,fastidiose,16,"fastidiose, fastidiosi, fastidiosa, fastidioso"
+Aroma,mandorla,16,"mandorla, mandorle"
+Aroma,ananas,16,ananas
+Aroma,tanta,16,"tanta, tanto"
+Aroma,fumo,16,fumo
+Aroma,evoluto,16,evoluto
+Aroma,decisi,16,"decisi, deciso"
+Aroma,tropicale,16,tropicale
+Aroma,sento,16,sento
+Aroma,altri,16,"altri, altro"
+Aroma,tratti,16,tratti
+Aroma,iniziale,16,"inizialmente, iniziale"
+Aroma,pasta,16,pasta
+Aroma,odore,16,"odore, odori"
+Aroma,putrido,16,putrido
+Aroma,piatto,16,piatto
+Aroma,affumicato,16,affumicato
+Aroma,fermentazione,16,fermentazione
+Aroma,ritorna,16,ritorna
+Aroma,tostatura,16,tostatura
+Aroma,alto,16,alto
+Aroma,all,16,all
+Aroma,olfatto,16,olfatto
+Aroma,subito,16,subito
+Aroma,proposito,14,proposito
+Aroma,bella,14,bella
+Aroma,difettoso,14,difettoso
+Aroma,piu,14,piu
+Aroma,tornano,14,tornano
+Aroma,fungo,14,fungo
+Aroma,legna,14,"legna, legno"
+Aroma,pepe,14,pepe
+Aroma,malga,12,malga
+Aroma,aromatica,12,aromatica
+Aroma,emerge,12,emerge
+Aroma,espressivo,12,espressivo
+Aroma,percepibile,12,percepibile
+Aroma,pezzi,12,"pezzi, pezzo"
+Aroma,salato,12,salato
+Aroma,cacao,12,cacao
+Aroma,biscotto,12,biscotto
+Aroma,letame,12,letame
+Aroma,cavolfiore,12,cavolfiore
+Aroma,olfazione,12,olfazione
+Aroma,sciolto,12,sciolto
+Aroma,mediae,12,mediamente
+Aroma,meglio,12,meglio
+Aroma,stagionato,12,stagionato
+Aroma,povero,12,povero
+Aroma,diverso,12,"diverso, diversi"
+Aroma,latticini,12,"latticini, latticino"
+Aroma,aromatiche,12,aromatiche
+Aroma,emmenthal,12,emmenthal
+Aroma,umami,12,umami
+Aroma,particolare,12,"particolarmente, particolare"
+Aroma,confermo,12,"confermo, conferma"
+Aroma,proprionica,12,proprionica
+Aroma,mentolato,12,mentolato
+Aroma,polveroso,12,polveroso
+Aroma,sangue,12,sangue
+Aroma,fessura,10,fessure
+Aroma,aggiungo,10,aggiungo
+Aroma,intuisco,10,intuisco
+Aroma,abbasso,10,abbasso
+Aroma,mezzo,10,mezzo
+Aroma,retrogusto,10,retrogusto
+Aroma,cuoio,10,cuoio
+Aroma,giovane,8,giovane
+Aroma,elevata,8,elevata
+Aroma,bassa,8,bassa
+Aroma,causa,8,causa
+Aroma,campioni,8,campioni
+Aroma,vanno,8,vanno
+Aroma,ossidazione,8,ossidazione
+Aroma,lievissimo,8,lievissimo
+Aroma,raffreddato,8,raffreddato
+Aroma,sgradevole,8,sgradevole
+Aroma,riuscita,8,riuscita
+Aroma,dolciastro,8,dolciastro
+Aroma,dare,8,dare
+Aroma,all',8,all'
+Aroma,anonimo,8,anonimo
+Aroma,cristallo,8,cristalli
+Aroma,texture,8,texture
+Aroma,sente,8,sente
+Aroma,flebile,8,flebile
+Aroma,pessimo,8,pessimo
+Aroma,all'aroma,8,all'aroma
+Aroma,paglia,8,paglia
+Aroma,liquirizia,8,liquirizia
+Aroma,leggemrente,8,leggemrente
+Aroma,balsamico,8,balsamico
+Aroma,tipo,8,tipo
+Colore della Pasta,carico,1968,"carico, carica"
+Colore della Pasta,chiaro,1468,"chiaro, chiara, chiare, chiari"
+Colore della Pasta,alone,1445,"alone, aloni"
+Colore della Pasta,omogeneo,1228,"omogeneo, omogenea, omogenee"
+Colore della Pasta,giallo,1038,"giallo, gialla, gialle"
+Colore della Pasta,centrale,952,"centrale, centrali, centralmente"
+Colore della Pasta,centro,764,centro
+Colore della Pasta,colore,623,"colore, colori"
+Colore della Pasta,scuro,606,"scuro, scura, scure, scuri"
+Colore della Pasta,rosa,541,rosa
+Colore della Pasta,piatto,531,"piatto, piatti"
+Colore della Pasta,paglierino,520,"paglierino, paglierina"
+Colore della Pasta,macchia,510,"macchia, macchie"
+Colore della Pasta,rosato,439,"rosato, rosata, rosate, rosati"
+Colore della Pasta,leggero,336,"leggero, leggera, leggere, leggeri"
+Colore della Pasta,uniforme,318,uniforme
+Colore della Pasta,tendente,278,"tendente, tendenti"
+Colore della Pasta,scalzi,189,"scalzi, scalzo"
+Colore della Pasta,fascia,188,"fascia, fascie"
+Colore della Pasta,zona,162,zona
+Colore della Pasta,grigio,158,"grigio, grigia, grigie"
+Colore della Pasta,zone,156,zone
+Colore della Pasta,intenso,152,"intenso, intensa"
+Colore della Pasta,evidente,149,"evidente, evidenti"
+Colore della Pasta,saturo,142,"saturo, satura, sature"
+Colore della Pasta,po',138,po'
+Colore della Pasta,tende,120,tende
+Colore della Pasta,nocciola,112,nocciola
+Colore della Pasta,aree,96,aree
+Colore della Pasta,grigiastro,96,"grigiastro, grigiastre, grigiastra"
+Colore della Pasta,verde,94,"verde, verdi"
+Colore della Pasta,qualche,90,qualche
+Colore della Pasta,crosta,88,crosta
+Colore della Pasta,lieve,88,"lieve, lievi"
+Colore della Pasta,parte,84,parte
+Colore della Pasta,disomogeneo,84,"disomogeneo, disomogenea"
+Colore della Pasta,presenza,80,presenza
+Colore della Pasta,bianco,80,"bianco, bianca"
+Colore della Pasta,pasta,78,pasta
+Colore della Pasta,sfumatura,76,"sfumatura, sfumature"
+Colore della Pasta,bello,70,bello
+Colore della Pasta,colorazione,70,colorazione
+Colore della Pasta,arancio,68,arancio
+Colore della Pasta,marcato,64,"marcato, marcata"
+Colore della Pasta,piccola,58,"piccola, piccolo, piccole, piccoli"
+Colore della Pasta,aranciato,56,"aranciato, aranciata"
+Colore della Pasta,vicino,52,vicino
+Colore della Pasta,frattura,51,frattura
+Colore della Pasta,unif,48,unif
+Colore della Pasta,bordi,46,"bordi, bordo"
+Colore della Pasta,due,46,due
+Colore della Pasta,abb,46,abb
+Colore della Pasta,grande,45,grande
+Colore della Pasta,sottocrosta,44,sottocrosta
+Colore della Pasta,medio,44,medio
+Colore della Pasta,striscia,42,striscia
+Colore della Pasta,cm,42,cm
+Colore della Pasta,riflessi,40,"riflessi, riflesso"
+Colore della Pasta,verdastra,40,"verdastra, verdastro, verdastri, verdastre"
+Colore della Pasta,leggerissima,40,"leggerissima, leggerissimo"
+Colore della Pasta,omogeneae,40,omogeneamente
+Colore della Pasta,tonalità,40,tonalità
+Colore della Pasta,tendenziale,40,tendenzialmente
+Colore della Pasta,bel,38,bel
+Colore della Pasta,chiazza,38,"chiazza, chiazze"
+Colore della Pasta,resto,38,resto
+Colore della Pasta,scarico,36,scarico
+Colore della Pasta,po,36,po
+Colore della Pasta,comunque,34,comunque
+Colore della Pasta,bruno,32,"bruno, bruna"
+Colore della Pasta,accentuato,32,"accentuato, accentuata, accentuate"
+Colore della Pasta,marrone,32,"marrone, marroni"
+Colore della Pasta,l'esterno,32,l'esterno
+Colore della Pasta,sfumato,32,"sfumato, sfumata, sfumate"
+Colore della Pasta,base,32,base
+Colore della Pasta,angoli,30,"angoli, angolo"
+Colore della Pasta,netto,28,netto
+Colore della Pasta,area,28,area
+Colore della Pasta,verdognole,28,"verdognole, verdognola"
+Colore della Pasta,pallido,28,pallido
+Colore della Pasta,vs,28,vs
+Colore della Pasta,anello,28,anello
+Colore della Pasta,visibile,26,"visibile, visibili"
+Colore della Pasta,presente,26,"presente, presenta"
+Colore della Pasta,lievee,24,lievemente
+Colore della Pasta,interna,24,"interna, interno"
+Colore della Pasta,risata,24,"risata, risate"
+Colore della Pasta,fasce,24,fasce
+Colore della Pasta,banda,24,banda
+Colore della Pasta,voto,22,voto
+Colore della Pasta,lato,22,lato
+Colore della Pasta,mediae,22,mediamente
+Colore della Pasta,corrispondenza,21,corrispondenza
+Colore della Pasta,certe,20,certe
+Colore della Pasta,proprio,20,proprio
+Colore della Pasta,disidratata,20,"disidratata, disidratato"
+Colore della Pasta,laterale,20,"laterale, lateralmente"
+Colore della Pasta,color,20,color
+Colore della Pasta,biancastra,20,"biancastra, biancastro"
+Colore della Pasta,diverse,20,"diverse, diversa"
+Colore della Pasta,distribuito,20,distribuito
+Colore della Pasta,degradante,20,degradante
+Colore della Pasta,cristallo,20,cristalli
+Colore della Pasta,strisce,20,"strisce, strisca"
+Colore della Pasta,deciso,20,"deciso, decisa"
+Colore della Pasta,difetto,20,"difetto, difetti"
+Colore della Pasta,regolare,20,regolare
+Colore della Pasta,ossidato,18,ossidato
+Colore della Pasta,tratti,18,tratti
+Colore della Pasta,verdognolo,16,"verdognolo, verdognoli"
+Colore della Pasta,lievissimo,16,lievissimo
+Colore della Pasta,grossa,16,"grossa, grosso, grosse"
+Colore della Pasta,lati,16,lati
+Colore della Pasta,sganciato,16,sganciato
+Colore della Pasta,eccessivae,16,eccessivamente
+Colore della Pasta,dove,16,dove
+Colore della Pasta,generale,16,"generalmente, generale"
+Colore della Pasta,macchioline,16,"macchioline, macchiolina"
+Colore della Pasta,tendenza,16,tendenza
+Colore della Pasta,vedere,16,vedere
+Colore della Pasta,esterna,16,"esterna, esterno"
+Colore della Pasta,taglio,16,taglio
+Colore della Pasta,bianchi,16,bianchi
+Colore della Pasta,decisae,16,decisamente
+Colore della Pasta,sottoposta,16,"sottoposta, sottoposto"
+Colore della Pasta,porzione,16,porzione
+Colore della Pasta,forma,16,forma
+Colore della Pasta,prossimità,16,prossimità
+Colore della Pasta,vistose,15,vistose
+Colore della Pasta,dato,14,dato
+Colore della Pasta,rossa,14,rossa
+Colore della Pasta,struttura,14,struttura
+Colore della Pasta,nettae,14,nettamente
+Colore della Pasta,fessura,14,"fessure, fessura"
+Colore della Pasta,arancione,12,"arancione, arancioni"
+Colore della Pasta,dubbio,12,"dubbio, dubbia"
+Colore della Pasta,all,12,all
+Colore della Pasta,ampio,12,"ampio, ampia"
+Colore della Pasta,disomogeneità,12,disomogeneità
+Colore della Pasta,irregolare,12,irregolare
+Colore della Pasta,on,12,on
+Colore della Pasta,alcune,12,alcune
+Colore della Pasta,avv,12,avv
+Colore della Pasta,superficie,12,superficie
+Colore della Pasta,faccia,12,faccia
+Colore della Pasta,pi,12,pi
+Colore della Pasta,velature,12,"velature, velatura"
+Colore della Pasta,numerose,12,"numerose, numerosi"
+Colore della Pasta,nota,12,"note, nota"
+Colore della Pasta,spugnosa,12,"spugnosa, spugnose"
+Colore della Pasta,legg,12,legg
+Colore della Pasta,effetto,12,effetto
+Colore della Pasta,mm,12,mm
+Colore della Pasta,rossastra,12,"rossastra, rossastre"
+Colore della Pasta,sicura,12,"sicura, sicuro"
+Colore della Pasta,piu,12,piu
+Colore della Pasta,enorme,12,enorme
+Colore della Pasta,intensità,12,intensità
+Colore della Pasta,alonato,12,"alonato, alonata"
+Colore della Pasta,diffusa,12,diffusa
+Colore della Pasta,rossiccio,12,rossiccio
+Colore della Pasta,grigi,12,"grigi, grige"
+Colore della Pasta,considerate,12,"considerate, considerata, considerato"
+Colore della Pasta,muffa,12,muffa
+Colore della Pasta,longitudinale,11,"longitudinale, longitudinali"
+Colore della Pasta,lunga,11,"lunga, lungo"
+Colore della Pasta,concezione,10,concezione
+Colore della Pasta,sembrano,10,sembrano
+Colore della Pasta,meno,10,meno
+Colore della Pasta,fondo,10,fondo
+Colore della Pasta,buono,10,"buono, buona"
+Colore della Pasta,belle,8,"belle, bella"
+Colore della Pasta,cuore,8,cuore
+Colore della Pasta,neri,8,neri
+Colore della Pasta,cipria,8,cipria
+Colore della Pasta,particolare,8,particolarmente
+Colore della Pasta,spostato,8,spostato
+Colore della Pasta,accennati,8,"accennati, accennato"
+Colore della Pasta,pochi,8,"pochi, poche"
+Colore della Pasta,microocchitura,8,microocchitura
+Colore della Pasta,c'è,8,c'è
+Colore della Pasta,tono,8,tono
+Colore della Pasta,allungata,8,allungata
+Colore della Pasta,rodata,8,rodata
+Colore della Pasta,tipica,8,"tipica, tipico"
+Colore della Pasta,ambrata,8,"ambrata, ambrato"
+Colore della Pasta,giallina,8,giallina
+Colore della Pasta,positiva,8,"positiva, positivo"
+Colore della Pasta,rottura,8,rottura
+Colore della Pasta,degli,8,degli
+Colore della Pasta,estremae,8,estremamente
+Colore della Pasta,maggiore,8,"maggiore, maggiormente"
+Colore della Pasta,occhiatura,8,occhiatura
+Colore della Pasta,strappo,8,strappo
+Colore della Pasta,differenze,8,"differenze, differenza"
+Colore della Pasta,ombre,8,ombre
+Colore della Pasta,difficili,8,"difficili, difficile"
+Colore della Pasta,sfondo,8,sfondo
+Colore della Pasta,importanti,8,"importanti, importante"
+Colore della Pasta,occhio,8,occhio
+Profumo,cotto,1156,"cotto, cotti, cotta, cotte"
+Profumo,burro,968,burro
+Profumo,latte,844,latte
+Profumo,nota,778,"note, nota"
+Profumo,leggero,738,"leggero, leggera, leggeri, leggere"
+Profumo,panna,670,"panna, panne"
+Profumo,intenso,600,"intenso, intensi, intensa, intense"
+Profumo,vegetale,508,"vegetale, vegetali"
+Profumo,brodo,468,brodo
+Profumo,intensità,440,intensità
+Profumo,crosta,390,"crosta, croste"
+Profumo,fermentato,372,"fermentato, fermentata, fermentate, fermentati"
+Profumo,tostato,356,"tostato, tostati, tostata, tostate"
+Profumo,fuso,350,fuso
+Profumo,formaggio,348,formaggio
+Profumo,sentore,300,"sentore, sentori"
+Profumo,frutta,274,frutta
+Profumo,fresco,250,"fresco, freschi, fresca, fresche"
+Profumo,lattico,250,"lattico, lattici, lattiche, lattica"
+Profumo,moderata,244,"moderata, moderato"
+Profumo,fruttato,238,"fruttato, fruttata, fruttate"
+Profumo,odore,210,"odore, odori"
+Profumo,bruciato,198,"bruciato, bruciata, bruciate"
+Profumo,animale,196,"animale, animali"
+Profumo,grana,194,grana
+Profumo,ossidato,170,"ossidato, ossidata"
+Profumo,all'apertura,168,all'apertura
+Profumo,buona,158,"buona, buono, buoni"
+Profumo,complesso,152,complesso
+Profumo,verdura,144,"verdura, verdure"
+Profumo,fieno,142,fieno
+Profumo,pungente,142,"pungente, pungenti"
+Profumo,pezzi,134,"pezzi, pezzo"
+Profumo,lieve,132,"lieve, lievi"
+Profumo,acido,130,"acido, acida, acidi"
+Profumo,matura,120,"matura, mature, maturi, maturo"
+Profumo,profumo,116,"profumo, profumi"
+Profumo,stalla,114,stalla
+Profumo,pane,108,pane
+Profumo,positivo,108,"positivo, positivi"
+Profumo,prima,102,"prima, primo, prime"
+Profumo,tostatura,102,tostatura
+Profumo,lessa,96,"lessa, lesse, lesso"
+Profumo,forte,94,"forte, forti"
+Profumo,nocciola,94,nocciola
+Profumo,floreale,88,"floreale, floreali"
+Profumo,legg,84,legg
+Profumo,sciolto,82,sciolto
+Profumo,debole,80,"debole, deboli"
+Profumo,secco,80,"secca, secco"
+Profumo,stantio,78,stantio
+Profumo,negativo,76,"negativo, negativi"
+Profumo,caramello,76,"caramello, caramella"
+Profumo,delicato,76,delicato
+Profumo,po,74,po
+Profumo,carne,72,"carne, carna"
+Profumo,caratteristico,70,caratteristico
+Profumo,tipico,70,"tipico, tipici, tipica"
+Profumo,equilibrato,68,equilibrato
+Profumo,intensita',68,intensita'
+Profumo,insilato,68,"insilato, insilati"
+Profumo,nostrano,66,nostrano
+Profumo,difetti,64,"difetti, difetto"
+Profumo,florale,64,"florale, florali"
+Profumo,alta,64,alta
+Profumo,balsamico,64,balsamico
+Profumo,apertura,62,apertura
+Profumo,peccato,56,peccato
+Profumo,cipolla,56,cipolla
+Profumo,medio,56,medio
+Profumo,po',56,po'
+Profumo,marcio,54,marcio
+Profumo,mela,52,mela
+Profumo,prevalente,52,"prevalente, prevalenti"
+Profumo,all,52,all
+Profumo,kiwi,50,kiwi
+Profumo,fermentazione,50,fermentazione
+Profumo,ananas,50,ananas
+Profumo,putrido,50,putrido
+Profumo,iniziale,48,"iniziale, inizialmente"
+Profumo,crudo,48,"crudo, crudi"
+Profumo,crauti,46,crauti
+Profumo,dominante,46,"dominante, dominanti"
+Profumo,lattee,46,"lattee, lattea"
+Profumo,bassa,44,bassa
+Profumo,piacevole,44,"piacevole, piacevoli"
+Profumo,altro,44,"altro, altri"
+Profumo,yogurt,44,yogurt
+Profumo,cacao,44,cacao
+Profumo,caffè,44,caffè
+Profumo,leg,42,leg
+Profumo,olfazione,40,olfazione
+Profumo,liquirizia,40,liquirizia
+Profumo,difettoso,40,difettoso
+Profumo,tropicale,40,tropicale
+Profumo,percettibile,40,percettibile
+Profumo,cuoio,40,cuoio
+Profumo,particolare,38,"particolare, particolari, particolarmente"
+Profumo,elegante,36,elegante
+Profumo,mou,36,mou
+Profumo,no,36,no
+Profumo,sgradevole,36,sgradevole
+Profumo,gradevole,36,gradevole
+Profumo,decisi,36,"decisi, deciso, decisa, decismente"
+Profumo,erbaceo,36,"erbaceo, erbacei, erbacea"
+Profumo,all'inizio,34,all'inizio
+Profumo,strano,34,"strano, strani"
+Profumo,segue,34,segue
+Profumo,presenti,34,"presenti, presente"
+Profumo,alcool,32,alcool
+Profumo,stagnante,32,stagnante
+Profumo,chiuso,32,chiuso
+Profumo,sporchi,32,"sporchi, sporche"
+Profumo,mediae,32,mediamente
+Profumo,pozzo,32,pozzo
+Profumo,dolce,32,"dolce, dolci"
+Profumo,evidente,32,"evidente, evidenti"
+Profumo,stagionato,30,"stagionato, stagionati"
+Profumo,intensit',30,intensit'
+Profumo,porzione,30,"porzione, porzioni"
+Profumo,comunque,28,comunque
+Profumo,tanto,28,"tanto, tanta, tanti"
+Profumo,vaniglia,28,vaniglia
+Profumo,poca,28,poca
+Profumo,fritto,28,fritto
+Profumo,acqua,28,acqua
+Profumo,resto,28,"resto, resta"
+Profumo,caratteristiche,28,caratteristiche
+Profumo,piatto,28,piatto
+Profumo,scarico,28,scarico
+Profumo,anomalo,26,anomalo
+Profumo,sedano,26,sedano
+Profumo,lettiera,26,lettiera
+Profumo,tratti,26,tratti
+Profumo,propionico,26,"propionico, propionica"
+Profumo,polvere,24,polvere
+Profumo,paglia,24,paglia
+Profumo,gomma,24,gomma
+Profumo,pochi,24,"pochi, poche"
+Profumo,cavolfiore,24,cavolfiore
+Profumo,lattei,24,"lattei, latteo"
+Profumo,speziato,24,"speziato, speziati"
+Profumo,base,24,base
+Profumo,impercettibile,24,impercettibile
+Profumo,oltre,24,oltre
+Profumo,uht,24,uht
+Profumo,rottura,24,rottura
+Profumo,negative,24,"negative, negativa"
+Profumo,vecchio,22,"vecchio, vecchia"
+Profumo,sporco,22,"sporco, sporca"
+Profumo,muffa,22,muffa
+Profumo,puzza,22,puzza
+Profumo,impatto,20,impatto
+Profumo,ricorda,20,"ricorda, ricordo"
+Profumo,sento,20,sento
+Profumo,grasso,20,"grasso, grassi"
+Profumo,pannoso,20,"pannoso, pannosi"
+Profumo,voto,20,voto
+Profumo,lievito,20,lievito
+Profumo,leggerissimo,20,"leggerissimo, leggerissima"
+Profumo,fiori,20,"fiori, fiore"
+Profumo,fungo,20,fungo
+Profumo,qualche,20,qualche
+Profumo,tendente,20,"tendente, tendenti"
+Profumo,teli,20,teli
+Profumo,latticini,20,latticini
+Profumo,intero,20,intero
+Profumo,erba,20,erba
+Profumo,passata,20,"passata, passato"
+Profumo,fumo,20,fumo
+Profumo,alcol,18,alcol
+Profumo,pesca,18,"pesca, pesce"
+Profumo,discreta,18,discreta
+Profumo,emmental,18,emmental
+Profumo,aroma,18,"aroma, aromi"
+Profumo,ottimo,16,"ottimo, ottima, ottimi"
+Profumo,sente,16,sente
+Profumo,povero,16,povero
+Profumo,sfumatura,16,sfumatura
+Profumo,solvente,16,solvente
+Profumo,diversi,16,"diversi, diverso"
+Profumo,olfatto,16,olfatto
+Profumo,ammoniaca,16,ammoniaca
+Profumo,affumicato,16,affumicato
+Profumo,pregi,16,pregi
+Profumo,siero,16,siero
+Profumo,bouquet,16,bouquet
+Profumo,sensazioni,16,"sensazioni, sensazione"
+Profumo,eucalipto,16,eucalipto
+Profumo,yogurth,16,yogurth
+Profumo,punte,16,"punte, punta"
+Profumo,intensita,16,intensita
+Profumo,letame,16,letame
+Profumo,burroso,16,burroso
+Profumo,tipo,14,tipo
+Profumo,occasione,14,occasione
+Profumo,fa,14,fa
+Profumo,difettato,14,difettato
+Profumo,confetteria,14,confetteria
+Profumo,spezzando,14,spezzando
+Sapore,piccante,1773,"piccante, piccanti"
+Sapore,salato,1697,"salato, salata, salate, salati"
+Sapore,amaro,1287,"amaro, amara, amare"
+Sapore,dolce,1021,"dolce, dolci"
+Sapore,umami,910,umami
+Sapore,acido,863,"acido, acida, acide, acidi"
+Sapore,equilibrato,764,"equilibrato, equilibrati, equilibrata, equilibrate"
+Sapore,sapido,346,sapido
+Sapore,nota,332,"nota, note"
+Sapore,leggero,324,"leggero, leggera, leggere, leggeri"
+Sapore,piccantezza,242,piccantezza
+Sapore,sale,232,sale
+Sapore,medio,218,medio
+Sapore,po,204,po
+Sapore,finale,188,"finale, finali"
+Sapore,leg,186,leg
+Sapore,legg,182,legg
+Sapore,po',170,po'
+Sapore,sapidit',162,sapidit'
+Sapore,equilibrio,154,equilibrio
+Sapore,pungente,146,pungente
+Sapore,sapore,144,"sapore, sapori"
+Sapore,intensità,136,intensità
+Sapore,punta,129,"punta, punte"
+Sapore,prevalente,122,"prevalente, prevalenti"
+Sapore,dolcezza,108,dolcezza
+Sapore,manca,104,manca
+Sapore,complesso,102,complesso
+Sapore,pieno,98,pieno
+Sapore,marcato,98,"marcato, marcata"
+Sapore,lieve,96,lieve
+Sapore,buon,94,buon
+Sapore,persistente,92,"persistente, persistenti"
+Sapore,bassa,92,"bassa, basso, bassi"
+Sapore,gusti,86,"gusti, gusto"
+Sapore,tendente,85,tendente
+Sapore,forte,84,"forte, forti"
+Sapore,alta,80,alta
+Sapore,amarognolo,76,amarognolo
+Sapore,scarno,72,scarno
+Sapore,bruciante,72,bruciante
+Sapore,contenuta,72,"contenuta, contenuto, contenuti"
+Sapore,intenso,68,"intenso, intensi"
+Sapore,saporito,67,saporito
+Sapore,sapidità,66,sapidità
+Sapore,percepibile,64,"percepibile, percepibili"
+Sapore,evidente,64,"evidente, evidenti"
+Sapore,presente,62,"presente, presenti"
+Sapore,elevata,58,elevata
+Sapore,pizzica,58,pizzica
+Sapore,eccessivo,56,"eccessivo, eccessiva, eccessivi"
+Sapore,iniziale,56,"iniziale, inizialmente"
+Sapore,ok,54,ok
+Sapore,gola,52,gola
+Sapore,grana,52,grana
+Sapore,resto,52,resto
+Sapore,acre,50,acre
+Sapore,lingua,50,lingua
+Sapore,formaggio,50,formaggio
+Sapore,umani,44,"umani, umano"
+Sapore,eccesso,44,"eccesso, eccessi"
+Sapore,prevale,44,prevale
+Sapore,acidulo,44,acidulo
+Sapore,neutro,44,neutro
+Sapore,moderato,44,"moderato, moderata"
+Sapore,nessuna,42,nessuna
+Sapore,accentuati,42,"accentuati, accentuato"
+Sapore,dolciastro,42,dolciastro
+Sapore,percepito,40,"percepito, percepiti, percepita"
+Sapore,ecquilibrato,40,ecquilibrato
+Sapore,nulla,38,"nulla, nullo"
+Sapore,pochetto,36,pochetto
+Sapore,peccato,36,peccato
+Sapore,nostrano,36,nostrano
+Sapore,ben,36,ben
+Sapore,sbilanciato,36,"sbilanciato, sbilanciati"
+Sapore,prevalenza,34,prevalenza
+Sapore,piacevole,34,"piacevole, piacevoli"
+Sapore,allappante,32,allappante
+Sapore,grasso,32,"grasso, grassa"
+Sapore,all'acido,32,all'acido
+Sapore,crosta,32,crosta
+Sapore,buona,32,"buona, buono"
+Sapore,lievee,32,lievemente
+Sapore,assente,32,assente
+Sapore,squilibrato,32,squilibrato
+Sapore,subito,32,subito
+Sapore,rinfrescante,32,rinfrescante
+Sapore,insapore,32,insapore
+Sapore,assenza,32,assenza
+Sapore,anonimo,30,anonimo
+Sapore,astringente,30,astringente
+Sapore,bocca,28,bocca
+Sapore,retrogusto,28,retrogusto
+Sapore,leggerissimo,28,"leggerissimo, leggerissima"
+Sapore,delicato,28,delicato
+Sapore,cotto,28,cotto
+Sapore,dolciastre,28,"dolciastre, dolciastra"
+Sapore,negativo,28,"negativo, negativi, negativa"
+Sapore,però,26,però
+Sapore,piccantino,26,"piccantino, piccantina"
+Sapore,pienezza,24,pienezza
+Sapore,debole,24,debole
+Sapore,netto,24,netto
+Sapore,scarsa,24,"scarsa, scarso"
+Sapore,positivo,24,"positivo, positiva, positivi"
+Sapore,segue,24,segue
+Sapore,sapidita,24,sapidita
+Sapore,deciso,23,deciso
+Sapore,no,21,no
+Sapore,sensazioni,20,"sensazioni, sensazione"
+Sapore,piatto,20,piatto
+Sapore,domina,20,domina
+Sapore,pungenza,20,pungenza
+Sapore,prevalgono,20,prevalgono
+Sapore,percettibile,20,"percettibile, percettibili"
+Sapore,tendenza,20,tendenza
+Sapore,acidit',20,acidit'
+Sapore,abb,20,abb
+Sapore,niente,20,niente
+Sapore,armonico,20,"armonico, armonici"
+Sapore,spicca,20,spicca
+Sapore,all'amaro,20,all'amaro
+Sapore,acidita,20,acidita
+Sapore,bilanciato,20,bilanciato
+Sapore,carico,20,carico
+Sapore,alto,20,alto
+Sapore,equilib,20,equilib
+Sapore,contrasto,18,contrasto
+Sapore,tanto,18,tanto
+Sapore,incompleto,18,incompleto
+Sapore,altri,18,"altri, altro"
+Sapore,sgradevole,16,"sgradevole, sgradevoli"
+Sapore,leggermete,16,leggermete
+Sapore,praticae,16,praticamente
+Sapore,equlibrato,16,equlibrato
+Sapore,acidità,16,acidità
+Sapore,inizia,16,"inizia, inizio"
+Sapore,sovrasta,16,sovrasta
+Sapore,nessun,16,nessun
+Sapore,acidit,16,acidit
+Sapore,percepisco,16,percepisco
+Sapore,altre,16,altre
+Sapore,rispetto,16,rispetto
+Sapore,carattere,14,carattere
+Sapore,persiste,14,persiste
+Sapore,poca,14,poca
+Sapore,armonia,14,armonia
+Sapore,sento,14,sento
+Sapore,all,14,all
+Sapore,vecchio,14,vecchio
+Sapore,piu',14,piu'
+Sapore,bella,12,"bella, bello"
+Sapore,persistenza,12,persistenza
+Sapore,piccola,12,"piccola, piccole"
+Sapore,pronto,12,pronto
+Sapore,dominano,12,dominano
+Sapore,importante,12,importante
+Sapore,spiccata,12,"spiccata, spiccati, spiccato"
+Sapore,dopo,12,dopo
+Sapore,stagionato,12,stagionato
+Sapore,palato,12,palato
+Sapore,insipido,12,insipido
+Sapore,sovrastante,12,"sovrastante, sovrastanti"
+Sapore,squilibrio,12,squilibrio
+Sapore,blando,12,blando
+Sapore,porzione,12,"porzione, porzioni"
+Sapore,tende,12,tende
+Sapore,carente,12,carente
+Sapore,legere,12,legermente
+Sapore,equi,12,equi
+Sapore,esagerato,12,"esagerato, esagerati"
+Sapore,povero,12,povero
+Sapore,fin,12,fin
+Sapore,salatissimo,12,salatissimo
+Sapore,tollerabile,12,tollerabile
+Sapore,eccede,12,eccede
+Sapore,accento,12,accento
+Sapore,sapidita',12,sapidita'
+Sapore,picante,12,picante
+Sapore,latte,12,latte
+Sapore,bruciato,12,bruciato
+Sapore,c'è,12,c'è
+Sapore,percezione,12,percezione
+Sapore,diverse,12,diverse
+Sapore,fastidioso,12,"fastidioso, fastidiosi"
+Sapore,salatino,12,salatino
+Sapore,seguita,12,seguita
+Sapore,esaltato,10,esaltato
+Sapore,comunque,10,comunque
+Sapore,strano,8,strano
+Sapore,spiccano,8,spiccano
+Sapore,brucia,8,brucia
+Sapore,punge,8,punge
+Sapore,penso,8,penso
+Sapore,percepire,8,percepire
+Sapore,amati,8,amati
+Sapore,acerbo,8,acerbo
+Sapore,vero,8,vero
+Sapore,accennati,8,accennati
+Spessore della Crosta,mm,1198,mm
+Spessore della Crosta,piatto,750,"piatto, piatti"
+Spessore della Crosta,cm,530,cm
+Spessore della Crosta,scalzo,492,"scalzo, scalzi"
+Spessore della Crosta,spessa,362,spessa
+Spessore della Crosta,colore,342,"colore, colori"
+Spessore della Crosta,crosta,330,crosta
+Spessore della Crosta,spigoli,310,"spigoli, spigolo"
+Spessore della Crosta,sottile,294,"sottile, sottili"
+Spessore della Crosta,sfumata,268,"sfumata, sfumato, sfumati"
+Spessore della Crosta,sottocrosta,230,sottocrosta
+Spessore della Crosta,evidente,196,"evidente, evidenti"
+Spessore della Crosta,angoli,190,"angoli, angolo"
+Spessore della Crosta,lato,150,lato
+Spessore della Crosta,spessore,132,"spessore, spessori"
+Spessore della Crosta,unghia,132,unghia
+Spessore della Crosta,marcata,130,"marcata, marcato, marcati"
+Spessore della Crosta,regolare,120,regolare
+Spessore della Crosta,grossa,108,"grossa, grosso, grossi"
+Spessore della Crosta,carico,100,carico
+Spessore della Crosta,mediae,98,mediamente
+Spessore della Crosta,negli,92,negli
+Spessore della Crosta,medio,86,medio
+Spessore della Crosta,chiaro,82,"chiaro, chiara"
+Spessore della Crosta,diverso,76,"diverso, diversi, diversa, diverse"
+Spessore della Crosta,pronunciati,68,"pronunciati, pronunciato"
+Spessore della Crosta,omogeneo,66,"omogenea, omogeneo"
+Spessore della Crosta,disomogenea,60,"disomogenea, disomogeneo"
+Spessore della Crosta,superiore,60,superiore
+Spessore della Crosta,belli,56,"belli, bello, bella"
+Spessore della Crosta,meno,54,meno
+Spessore della Crosta,buoni,48,"buoni, buono, buona"
+Spessore della Crosta,tratti,48,tratti
+Spessore della Crosta,km,48,km
+Spessore della Crosta,faccia,44,faccia
+Spessore della Crosta,limite,44,limite
+Spessore della Crosta,netto,42,"netto, netta, netti"
+Spessore della Crosta,fondo,40,fondo
+Spessore della Crosta,sull'altro,40,sull'altro
+Spessore della Crosta,scuro,40,"scuro, scura"
+Spessore della Crosta,intenso,40,intenso
+Spessore della Crosta,pasta,36,pasta
+Spessore della Crosta,grigiastro,36,grigiastro
+Spessore della Crosta,sottoscritta,34,sottoscritta
+Spessore della Crosta,accentuati,34,accentuati
+Spessore della Crosta,brutti,32,"brutti, brutto"
+Spessore della Crosta,oltre,32,oltre
+Spessore della Crosta,uniforme,32,uniforme
+Spessore della Crosta,inferiore,30,inferiore
+Spessore della Crosta,l'altro,28,l'altro
+Spessore della Crosta,deciso,28,"deciso, decisi"
+Spessore della Crosta,difficile,26,difficile
+Spessore della Crosta,comunque,26,comunque
+Spessore della Crosta,spessi,24,spessi
+Spessore della Crosta,variabile,24,variabile
+Spessore della Crosta,irregolare,24,irregolare
+Spessore della Crosta,po,22,po
+Spessore della Crosta,maggiore,22,"maggiore, maggiori, maggiormente"
+Spessore della Crosta,alto,20,alto
+Spessore della Crosta,dato,20,dato
+Spessore della Crosta,ben,20,ben
+Spessore della Crosta,dispari,20,dispari
+Spessore della Crosta,minimo,20,minimo
+Spessore della Crosta,aranciato,20,aranciato
+Spessore della Crosta,due,18,due
+Spessore della Crosta,tendente,16,tendente
+Spessore della Crosta,rossastra,16,"rossastra, rossastro"
+Spessore della Crosta,grigio,16,grigio
+Spessore della Crosta,importante,16,importante
+Spessore della Crosta,sfuma,16,sfuma
+Spessore della Crosta,minore,16,minore
+Spessore della Crosta,punti,16,"punti, punte"
+Spessore della Crosta,complesso,16,complesso
+Spessore della Crosta,contrasto,16,"contrasto, contrasta"
+Spessore della Crosta,verde,15,"verde, verdi"
+Spessore della Crosta,ampio,14,"ampio, ampia"
+Spessore della Crosta,microcchiatura,14,microcchiatura
+Spessore della Crosta,basso,14,"basso, bassa"
+Spessore della Crosta,occhiatura,14,"occhiatura, occhiature"
+Spessore della Crosta,lati,14,lati
+Spessore della Crosta,intorno,14,intorno
+Spessore della Crosta,tende,13,tende
+Spessore della Crosta,disidratato,12,"disidratato, disidratata"
+Spessore della Crosta,marrone,12,marrone
+Spessore della Crosta,resto,12,resto
+Spessore della Crosta,base,12,base
+Spessore della Crosta,attorno,12,attorno
+Spessore della Crosta,almeno,12,almeno
+Spessore della Crosta,ovunque,12,ovunque
+Spessore della Crosta,alta,12,alta
+Spessore della Crosta,sganciato,12,sganciato
+Spessore della Crosta,pronunciate,12,"pronunciate, pronunciata"
+Spessore della Crosta,facce,12,facce
+Spessore della Crosta,fini,12,fini
+Spessore della Crosta,particolare,12,"particolare, particolarmente"
+Spessore della Crosta,centro,12,centro
+Spessore della Crosta,decisae,12,decisamente
+Spessore della Crosta,sfondo,12,sfondo
+Spessore della Crosta,entra,12,"entra, entro"
+Spessore della Crosta,tanta,12,tanta
+Spessore della Crosta,allaltro,12,allaltro
+Spessore della Crosta,ocra,12,ocra
+Spessore della Crosta,ok,12,ok
+Spessore della Crosta,misurare,10,misurare
+Spessore della Crosta,crosts,10,crosts
+Spessore della Crosta,nettae,10,nettamente
+Spessore della Crosta,grana,10,grana
+Spessore della Crosta,laterale,10,lateralmente
+Spessore della Crosta,altro,10,"altro, altri"
+Spessore della Crosta,eccessivo,8,eccessivo
+Spessore della Crosta,rossiccio,8,rossiccio
+Spessore della Crosta,bei,8,bei
+Spessore della Crosta,disidratazione,8,disidratazione
+Spessore della Crosta,tenue,8,tenue
+Spessore della Crosta,leggero,8,leggero
+Spessore della Crosta,ottimi,8,"ottimi, ottimo"
+Spessore della Crosta,difformi,8,"difformi, difforme"
+Spessore della Crosta,contrastato,8,contrastato
+Spessore della Crosta,regolaee,8,regolaee
+Spessore della Crosta,valori,8,"valori, valore"
+Spessore della Crosta,norma,8,norma
+Spessore della Crosta,finissima,8,finissima
+Spessore della Crosta,definita,8,definita
+Spessore della Crosta,parte,8,parte
+Spessore della Crosta,nera,8,nera
+Spessore della Crosta,macchia,8,macchia
+Spessore della Crosta,indefinita,8,"indefinita, indefinito"
+Spessore della Crosta,aree,8,aree
+Spessore della Crosta,peccato,8,peccato
+Spessore della Crosta,perimetro,8,perimetro
+Spessore della Crosta,pi,8,pi
+Spessore della Crosta,bruno,8,bruno
+Spessore della Crosta,visibile,8,visibile
+Spessore della Crosta,differenti,8,differenti
+Spessore della Crosta,distinta,8,distinta
+Spessore della Crosta,piccole,8,"piccole, piccola"
+Spessore della Crosta,crostone,8,crostone
+Spessore della Crosta,abbondante,8,abbondante
+Spessore della Crosta,sei,8,sei
+Spessore della Crosta,grossolano,8,"grossolana, grossolani"
+Spessore della Crosta,dell'altro,8,dell'altro
+Spessore della Crosta,dove,8,dove
+Spessore della Crosta,colorazione,8,colorazione
+Spessore della Crosta,risulta,8,risulta
+Spessore della Crosta,rosato,8,rosato
+Spessore della Crosta,rosa,8,rosa
+Spessore della Crosta,dall'altro,8,dall'altro
+Spessore della Crosta,pulita,8,pulita
+Spessore della Crosta,vedere,8,vedere
+Spessore della Crosta,divero,8,divero
+Spessore della Crosta,nota,6,"nota, note"
+Spessore della Crosta,discreto,6,"discreto, discreta"
+Spessore della Crosta,elevate,6,"elevate, elevata"
+Spessore della Crosta,zone,6,zone
+Spessore della Crosta,frattura,6,frattura
+Spessore della Crosta,zona,6,zona
+Spessore della Crosta,centrale,6,centrale
+Spessore della Crosta,presente,6,presente
+Spessore della Crosta,entrambi,6,entrambi
+Spessore della Crosta,sottopiatto,5,sottopiatto
+Spessore della Crosta,però,4,però
+Spessore della Crosta,alone,4,alone
+Spessore della Crosta,confonde,4,confonde
+Spessore della Crosta,ali,4,ali
+Spessore della Crosta,problemi,4,problemi
+Spessore della Crosta,confrontando,4,confrontando
+Spessore della Crosta,pallida,4,pallida
+Spessore della Crosta,rosellino,4,rosellino
+Spessore della Crosta,enorme,4,enorme
+Spessore della Crosta,modellatura,4,modellatura
+Spessore della Crosta,riuscito,4,riuscito
+Spessore della Crosta,inserire,4,inserire
+Spessore della Crosta,comp,4,comp
+Spessore della Crosta,messico,4,messico
+Spessore della Crosta,dare,4,dare
+Spessore della Crosta,microocchiatura,4,microocchiatura
+Spessore della Crosta,occhio,4,occhio
+Spessore della Crosta,definiti,4,definiti
+Spessore della Crosta,inoltre,4,inoltre
+Spessore della Crosta,complessivae,4,complessivamente
+Spessore della Crosta,male,4,male
+Spessore della Crosta,egli,4,egli
+Spessore della Crosta,arancio,4,arancio
+Spessore della Crosta,indicativa,4,indicativa
+Spessore della Crosta,estremae,4,estremamente
+Spessore della Crosta,disomogeneità,4,disomogeneità
+Spessore della Crosta,cavallo,4,cavallo
+Spessore della Crosta,patti,4,patti
+Spessore della Crosta,mn,4,mn
+Spessore della Crosta,complessoh,4,complessoh
+Spessore della Crosta,sottil,4,sottil
+Spessore della Crosta,spogli,4,spogli
+Spessore della Crosta,definisca,4,definisca
+Spessore della Crosta,pressoché,4,pressoché
+Spessore della Crosta,scarso,4,scarso
+Spessore della Crosta,superficie,4,superficie
+Spessore della Crosta,intensità,4,intensità
+Spessore della Crosta,secchezza,4,secchezza
+Spessore della Crosta,christine,4,christine
+Spessore della Crosta,ilcm,4,ilcm
+Struttura della Pasta,frattura,2265,"frattura, fratture"
+Struttura della Pasta,grana,1920,"grana, grani, grane, grano"
+Struttura della Pasta,stirata,1486,"stirata, stirato, stirate, stirati"
+Struttura della Pasta,regolare,1004,"regolare, regolari"
+Struttura della Pasta,centrale,968,"centrale, centrali, centralmente"
+Struttura della Pasta,microocchiatura,923,"microocchiatura, microocchiature"
+Struttura della Pasta,omogeneo,752,"omogenea, omogeneo, omogenee"
+Struttura della Pasta,struttura,735,"struttura, strutture"
+Struttura della Pasta,occhiatura,706,"occhiatura, occhiature"
+Struttura della Pasta,grossolano,602,"grossolana, grossolano, grossolani"
+Struttura della Pasta,bella,576,"bella, bello, belli, belle"
+Struttura della Pasta,occhio,548,"occhio, occhi"
+Struttura della Pasta,granuloso,534,"granulosa, granuloso, granulose"
+Struttura della Pasta,centro,532,centro
+Struttura della Pasta,diffusa,514,"diffusa, diffuse, diffusi"
+Struttura della Pasta,fessura,479,"fessura, fessure"
+Struttura della Pasta,irregolare,438,irregolare
+Struttura della Pasta,grossa,432,"grossa, grosse, grossi, grosso"
+Struttura della Pasta,presenza,424,presenza
+Struttura della Pasta,mm,392,mm
+Struttura della Pasta,qualche,384,qualche
+Struttura della Pasta,piccole,382,"piccole, piccola"
+Struttura della Pasta,cm,352,cm
+Struttura della Pasta,presente,348,"presente, presenti, presenta"
+Struttura della Pasta,pasta,335,pasta
+Struttura della Pasta,micro,334,micro
+Struttura della Pasta,piatto,327,"piatto, piatta, piatti"
+Struttura della Pasta,zona,326,zona
+Struttura della Pasta,zone,325,zone
+Struttura della Pasta,striature,308,"striature, striatura"
+Struttura della Pasta,cristallo,273,"cristalli, cristallo"
+Struttura della Pasta,strappo,258,"strappo, strappi"
+Struttura della Pasta,parte,256,"parte, parti"
+Struttura della Pasta,evidente,255,"evidente, evidenti"
+Struttura della Pasta,disomogenea,252,"disomogenea, disomogeneo"
+Struttura della Pasta,leggero,242,"leggera, leggero, leggere, leggeri"
+Struttura della Pasta,grande,228,"grande, grandi"
+Struttura della Pasta,buona,216,"buona, buono, buoni"
+Struttura della Pasta,tratti,201,tratti
+Struttura della Pasta,piccoli,198,"piccoli, piccolo"
+Struttura della Pasta,spugnosa,192,"spugnosa, spugnoso, spugnose"
+Struttura della Pasta,microcchiatura,182,"microcchiatura, microcchiature"
+Struttura della Pasta,forma,182,"forma, forme"
+Struttura della Pasta,microocchitura,180,"microocchitura, microocchiture"
+Struttura della Pasta,area,174,area
+Struttura della Pasta,grandiosa,170,"grandiosa, grandioso"
+Struttura della Pasta,taglio,164,taglio
+Struttura della Pasta,spacco,141,spacco
+Struttura della Pasta,tendente,136,"tendente, tendenti"
+Struttura della Pasta,po',134,po'
+Struttura della Pasta,diversa,130,"diversa, diverse, diversi, diverso"
+Struttura della Pasta,ruvida,122,"ruvida, ruvido, ruvide"
+Struttura della Pasta,po,120,po
+Struttura della Pasta,lato,118,lato
+Struttura della Pasta,peccato,112,peccato
+Struttura della Pasta,fitta,110,fitta
+Struttura della Pasta,tende,106,tende
+Struttura della Pasta,stiratura,106,"stiratura, stirature"
+Struttura della Pasta,metà,104,metà
+Struttura della Pasta,superficie,102,superficie
+Struttura della Pasta,spacchi,102,spacchi
+Struttura della Pasta,crepa,101,"crepa, crepe"
+Struttura della Pasta,scaglia,98,"scaglie, scaglia"
+Struttura della Pasta,compatta,98,"compatta, compatto, compatte"
+Struttura della Pasta,spaccatura,98,"spaccatura, spaccature"
+Struttura della Pasta,microocch,98,microocch
+Struttura della Pasta,ben,96,ben
+Struttura della Pasta,disidratata,94,"disidratata, disidratato, disidratate"
+Struttura della Pasta,molte,92,"molte, molti, molta"
+Struttura della Pasta,discreta,90,"discreta, discreto"
+Struttura della Pasta,striato,84,"striato, striata, striati"
+Struttura della Pasta,sfoglia,84,"sfoglia, sfoglie"
+Struttura della Pasta,scalzo,82,"scalzo, scalzi"
+Struttura della Pasta,due,82,due
+Struttura della Pasta,ok,82,ok
+Struttura della Pasta,formata,76,formata
+Struttura della Pasta,ampia,76,"ampia, ampie"
+Struttura della Pasta,enorme,74,"enorme, enormi"
+Struttura della Pasta,spugna,72,spugna
+Struttura della Pasta,alcune,68,"alcune, alcuni"
+Struttura della Pasta,avvallamenti,68,"avvallamenti, avvallamento"
+Struttura della Pasta,punti,66,punti
+Struttura della Pasta,profilata,66,"profilata, profilate"
+Struttura della Pasta,asciutta,64,"asciutta, asciutto"
+Struttura della Pasta,altre,64,"altre, altra"
+Struttura della Pasta,effetto,62,effetto
+Struttura della Pasta,spagnola,62,"spagnola, spagnole"
+Struttura della Pasta,pochi,62,"pochi, poche"
+Struttura della Pasta,aree,60,aree
+Struttura della Pasta,friabile,60,friabile
+Struttura della Pasta,profonde,59,"profonde, profonda"
+Struttura della Pasta,meno,58,meno
+Struttura della Pasta,dimensioni,58,"dimensioni, dimensione"
+Struttura della Pasta,poca,56,poca
+Struttura della Pasta,brutta,56,brutta
+Struttura della Pasta,gessata,56,"gessata, gessato, gessate"
+Struttura della Pasta,solubile,56,solubile
+Struttura della Pasta,visibili,54,"visibili, visibile, visibilmente"
+Struttura della Pasta,tante,54,"tante, tanti, tanta"
+Struttura della Pasta,lieve,54,"lieve, lievi"
+Struttura della Pasta,bocciatura,54,"bocciatura, bocciature"
+Struttura della Pasta,interna,53,"interna, interne, interno"
+Struttura della Pasta,impugnatura,52,impugnatura
+Struttura della Pasta,umido,50,"umido, umida, umide"
+Struttura della Pasta,aspetto,49,aspetto
+Struttura della Pasta,difetti,48,"difetti, difetto"
+Struttura della Pasta,oltre,48,oltre
+Struttura della Pasta,bellissima,48,bellissima
+Struttura della Pasta,fascia,46,fascia
+Struttura della Pasta,spugnatura,44,spugnatura
+Struttura della Pasta,spinosa,44,"spinosa, spinoso"
+Struttura della Pasta,altri,44,"altri, altro"
+Struttura della Pasta,assenza,44,assenza
+Struttura della Pasta,macchia,42,"macchie, macchia"
+Struttura della Pasta,uniforme,42,uniforme
+Struttura della Pasta,esterno,41,"esterno, esterna"
+Struttura della Pasta,sottile,40,"sottile, sottili"
+Struttura della Pasta,fessurazioni,40,"fessurazioni, fessurazione"
+Struttura della Pasta,perle,40,"perle, perla"
+Struttura della Pasta,resto,40,resto
+Struttura della Pasta,granulare,40,granulare
+Struttura della Pasta,dittatura,40,dittatura
+Struttura della Pasta,sottocrosta,38,sottocrosta
+Struttura della Pasta,bolla,38,"bolla, bolle"
+Struttura della Pasta,grassa,36,grassa
+Struttura della Pasta,rada,36,rada
+Struttura della Pasta,forte,36,"forte, forti"
+Struttura della Pasta,angolo,36,"angolo, angoli"
+Struttura della Pasta,troppe,36,"troppe, troppa"
+Struttura della Pasta,localizzata,36,"localizzata, localizzate"
+Struttura della Pasta,assente,36,assente
+Struttura della Pasta,definita,36,definita
+Struttura della Pasta,disomogeneità,36,disomogeneità
+Struttura della Pasta,complesso,34,complesso
+Struttura della Pasta,comunque,34,comunque
+Struttura della Pasta,numerosi,34,"numerosi, numerose"
+Struttura della Pasta,ottima,32,"ottima, ottimo"
+Struttura della Pasta,mista,32,mista
+Struttura della Pasta,mezza,28,"mezza, mezzo"
+Struttura della Pasta,scarsa,28,"scarsa, scarso"
+Struttura della Pasta,slegata,28,slegata
+Struttura della Pasta,siero,28,siero
+Struttura della Pasta,limitate,28,"limitate, limitata, limitati"
+Struttura della Pasta,diametro,28,"diametro, diametri"
+Struttura della Pasta,occhiatina,28,occhiatina
+Struttura della Pasta,arrotondata,28,arrotondata
+Struttura della Pasta,difettosa,28,difettosa
+Struttura della Pasta,tirosina,28,tirosina
+Struttura della Pasta,trascurabile,26,trascurabile
+Struttura della Pasta,sbrinz,26,sbrinz
+Struttura della Pasta,piccolissime,26,"piccolissime, piccolissima"
+Struttura della Pasta,sviluppata,25,sviluppata
+Struttura della Pasta,strana,24,"strana, strano, strani"
+Struttura della Pasta,crosta,24,crosta
+Struttura della Pasta,grappoli,24,"grappoli, grappolo"
+Struttura della Pasta,particolare,24,"particolare, particolari, particolarmente"
+Struttura della Pasta,spigolo,24,"spigolo, spigoli"
+Struttura della Pasta,bel,24,bel
+Struttura della Pasta,on,24,on
+Struttura della Pasta,secco,24,"secca, secco"
+Struttura della Pasta,profondi,24,"profondi, profondo"
+Struttura della Pasta,vicino,24,vicino
+Struttura della Pasta,direzione,24,"direzione, direzioni"
+Struttura della Pasta,scagliosa,24,"scagliosa, scaglioso"
+Struttura della Pasta,decisa,24,"decisa, deciso"
+Struttura della Pasta,inf,24,inf
+Struttura della Pasta,pronunciata,24,"pronunciata, pronunciate"
+Struttura della Pasta,buon,24,buon
+Struttura della Pasta,finissima,24,finissima
+Struttura della Pasta,andamenti,24,"andamenti, andamento"
+Struttura della Pasta,morbido,24,morbido
+Struttura della Pasta,proprio,23,proprio
+Struttura della Pasta,perfettae,22,perfettamente
+Struttura della Pasta,cuore,22,cuore
+Struttura della Pasta,periferia,22,periferia
+Struttura della Pasta,importante,22,"importante, importanti"
+Struttura della Pasta,radiale,22,"radiale, radiali"
+Struttura della Pasta,bianchi,22,"bianchi, bianche"
+Struttura della Pasta,distribuita,22,distribuita
+Struttura della Pasta,l'altra,20,"l'altra, l'altro"
+Struttura della Pasta,pare,20,pare
+Struttura della Pasta,pessima,20,pessima
+Struttura della Pasta,bagnata,20,"bagnata, bagnato, bagnati, bagnate"
+Struttura della Pasta,singolo,20,"singolo, singola"
+Struttura della Pasta,strutturata,20,strutturata
+Struttura della Pasta,disidratazione,20,disidratazione
+Struttura della Pasta,estesa,20,"estesa, estese"
+Struttura della Pasta,fenditure,20,"fenditure, fenditura"
+Struttura della Pasta,concentrati,20,"concentrati, concentrate"
+Struttura della Pasta,netta,20,netta
+Struttura della Pasta,c'è,20,c'è
+Struttura della Pasta,tagli,20,tagli
+Struttura della Pasta,certa,20,certa
+Struttura della Pasta,inregolare,20,inregolare
+Struttura della Pasta,rosa,20,rosa
+Struttura della Pasta,tendenza,20,tendenza
+Struttura della Pasta,occhiato,20,occhiata
+Struttura della Pasta,perfetto,20,"perfetto, perfetta"
+Struttura della Pasta,microocchio,20,microocchio
+Struttura della Pasta,liscia,20,liscia
+Texture,cristallo,1598,"cristalli, cristallo"
+Texture,solubile,1096,"solubile, solubili"
+Texture,asciutto,1084,"asciutto, asciutta"
+Texture,granuloso,826,"granuloso, granulosa"
+Texture,friabile,778,friabile
+Texture,morbido,714,"morbido, morbida, morbidi"
+Texture,pastoso,626,"pastoso, pastosa, pastose"
+Texture,grana,472,grana
+Texture,umido,463,"umido, umida, umidi"
+Texture,pochi,398,pochi
+Texture,bocca,370,bocca
+Texture,compatto,334,"compatto, compatta"
+Texture,microstruttura,276,"microstruttura, microstrutture"
+Texture,duro,268,"duro, dura, dure"
+Texture,buona,260,"buona, buoni, buone, buono"
+Texture,cedevole,254,cedevole
+Texture,tirosina,240,tirosina
+Texture,lascia,216,lascia
+Texture,poca,212,poca
+Texture,struttura,198,struttura
+Texture,po,183,po
+Texture,presenti,182,"presenti, presente"
+Texture,sol,180,sol
+Texture,sabbioso,176,"sabbioso, sabbiosa, sabbiosi"
+Texture,friabilità,176,friabilità
+Texture,impasta,174,"impasta, impasto"
+Texture,adesivo,172,"adesivo, adesiva"
+Texture,granuli,168,"granuli, granulo"
+Texture,solubilità,168,solubilità
+Texture,presenza,158,presenza
+Texture,residuo,140,"residuo, residui"
+Texture,tende,132,tende
+Texture,molti,118,"molti, molta, molte"
+Texture,qualche,118,qualche
+Texture,microcristalli,110,"microcristalli, microcristallo"
+Texture,mediae,108,mediamente
+Texture,finale,102,finale
+Texture,grossi,102,grossi
+Texture,assente,100,"assente, assenti"
+Texture,molle,100,molle
+Texture,ben,96,ben
+Texture,no,96,no
+Texture,pulita,88,pulita
+Texture,percepibili,86,"percepibili, percepibile"
+Texture,scarsa,84,scarsa
+Texture,gommoso,82,"gommoso, gommosa"
+Texture,ingozza,78,ingozza
+Texture,legg,78,legg
+Texture,tenero,76,tenero
+Texture,scioglie,74,scioglie
+Texture,bella,72,bella
+Texture,solub,72,solub
+Texture,bene,70,bene
+Texture,grossolano,70,"grossolana, grossolano"
+Texture,ok,68,ok
+Texture,secco,68,secco
+Texture,evidenti,68,"evidenti, evidente"
+Texture,impastare,68,impastare
+Texture,medio,68,"medio, medii"
+Texture,farinoso,66,"farinoso, farinosa"
+Texture,leggero,64,"leggera, leggero"
+Texture,intensità,64,intensità
+Texture,durezza,62,durezza
+Texture,alta,60,alta
+Texture,deformabile,60,"deformabile, deformabili"
+Texture,assenza,56,assenza
+Texture,solubilit,52,solubilit
+Texture,friabilit',52,friabilit'
+Texture,bassa,52,bassa
+Texture,consistenza,50,consistenza
+Texture,pasta,50,pasta
+Texture,piccoli,48,"piccoli, piccolo"
+Texture,morso,48,morso
+Texture,umidit',48,umidit'
+Texture,formaggio,44,formaggio
+Texture,manca,42,manca
+Texture,denti,40,"denti, dente"
+Texture,moderata,40,"moderata, moderato, moderati, moderate"
+Texture,granoloso,40,granoloso
+Texture,rimane,40,rimane
+Texture,peccato,36,peccato
+Texture,giovane,36,giovane
+Texture,complesso,36,complesso
+Texture,solubilit',36,solubilit'
+Texture,tanti,36,tanti
+Texture,solubilita,34,solubilita
+Texture,stirata,32,stirata
+Texture,discretae,32,discretamente
+Texture,percepiti,32,"percepiti, percepito, percepita"
+Texture,po',32,po'
+Texture,finissima,32,"finissima, finissimo"
+Texture,potrebbe,32,potrebbe
+Texture,gradevole,32,gradevole
+Texture,sottile,32,sottile
+Texture,strano,30,"strano, strana, strane"
+Texture,umidità,30,umidità
+Texture,perle,28,perle
+Texture,comunque,28,comunque
+Texture,frammenti,28,frammenti
+Texture,tendente,28,tendente
+Texture,molare,28,molare
+Texture,equilibrio,28,equilibrio
+Texture,granulosità,28,granulosità
+Texture,asciuga,26,asciuga
+Texture,fauci,26,fauci
+Texture,equilibrato,26,"equilibrato, equilibrata, equilibrate"
+Texture,discreta,26,"discreta, discreto"
+Texture,elastico,26,"elastico, elastica"
+Texture,troppi,24,troppi
+Texture,piacevole,24,"piacevole, piacevoli"
+Texture,pi,24,pi
+Texture,fini,24,fini
+Texture,fondente,24,fondente
+Texture,pezzi,24,"pezzi, pezzo"
+Texture,plastico,24,plastico
+Texture,forte,24,forte
+Texture,porzioni,24,"porzioni, porzione"
+Texture,potrrebbe,24,potrrebbe
+Texture,pochetto,22,pochetto
+Texture,sensazione,22,sensazione
+Texture,tenerissimo,20,tenerissimo
+Texture,diversi,20,"diversi, diverse"
+Texture,numerosi,20,numerosi
+Texture,sabbia,20,sabbia
+Texture,farina,20,"farina, farino"
+Texture,pochissimi,20,pochissimi
+Texture,scarsi,20,"scarsi, scarse"
+Texture,tratti,20,tratti
+Texture,critalli,20,critalli
+Texture,moderatae,20,moderatamente
+Texture,consistente,20,"consistente, consistenti"
+Texture,friabilita',20,friabilita'
+Texture,legata,20,legata
+Texture,crist,20,crist
+Texture,persistente,18,persistente
+Texture,mancanza,18,mancanza
+Texture,friabilita,16,friabilita
+Texture,astringente,16,astringente
+Texture,però,16,però
+Texture,stagionato,16,stagionato
+Texture,nessun,16,nessun
+Texture,friabilit,16,friabilit
+Texture,cristali,16,cristali
+Texture,ottima,16,"ottima, ottimo"
+Texture,sentono,16,sentono
+Texture,tendenziale,16,tendenzialmente
+Texture,inconsistente,16,inconsistente
+Texture,definita,16,definita
+Texture,faticoso,14,faticoso
+Texture,ciononostante,14,ciononostante
+Texture,lega,12,lega
+Texture,male,12,male
+Texture,granelli,12,"granelli, granello"
+Texture,percettibile,12,"percettibile, percettibili"
+Texture,rari,12,rari
+Texture,deglutizione,12,deglutizione
+Texture,asciugare,12,asciugare
+Texture,né,12,né
+Texture,medi,12,medi
+Texture,perfetta,12,perfetta
+Texture,pastosità,12,pastosità
+Texture,sfalda,12,sfalda
+Texture,impastata,12,impastata
+Texture,percepiscono,12,percepiscono
+Texture,firabile,12,firabile
+Texture,granulare,12,granulare
+Texture,strutturato,12,strutturato
+Texture,sabbiosità,12,sabbiosità
+Texture,privo,12,privo
+Texture,umidit,12,umidit
+Texture,positiva,12,positiva
+Texture,bei,12,bei
+Texture,velocee,12,velocemente
+Texture,fresco,12,fresco
+Texture,elevata,12,"elevata, elevate"
+Texture,estremae,12,estremamente
+Texture,incolla,12,incolla
+Texture,all'inizio,12,all'inizio
+Texture,grasso,12,grasso
+Texture,sento,12,sento
+Texture,scagliette,12,scagliette
+Texture,contrasto,10,contrasto
+Texture,untuosita,10,untuosita
+Texture,all,10,all
+Texture,pastosita,10,pastosita
+Texture,granulometria,10,granulometria
+Texture,fastidioso,8,fastidioso
+Texture,interessante,8,interessante
+Texture,schioccante,8,schioccante
+Texture,difetta,8,"difetta, difetto"
+Texture,ottimali,8,"ottimali, ottimale"
+Texture,altri,8,altri
+Texture,texture,8,texture
+Texture,corpo,8,corpo
+Texture,praticae,8,praticamente
+Texture,nostrano,8,nostrano
+Texture,inesistente,8,inesistente
+Texture,subito,8,subito
+Texture,restano,8,restano
+Texture,dimensioni,8,dimensioni

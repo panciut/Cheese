@@ -1,0 +1,205 @@
+# Controlled vocabulary — Struttura della Pasta
+# total tokens (incl stopwords): 47480
+# unique lemmas (>= 3): 834
+# format: <count>	<canonical>	<surface forms (most frequent first)>
+
+2265	frattura	frattura, fratture
+1920	grana	grana, grani, grane, grano
+1486	stirata	stirata, stirato, stirate, stirati
+1004	regolare	regolare, regolari
+968	centrale	centrale, centrali, centralmente
+923	microocchiatura	microocchiatura, microocchiature
+752	omogeneo	omogenea, omogeneo, omogenee
+735	struttura	struttura, strutture
+706	occhiatura	occhiatura, occhiature
+602	grossolano	grossolana, grossolano, grossolani
+576	bella	bella, bello, belli, belle
+548	occhio	occhio, occhi
+534	granuloso	granulosa, granuloso, granulose
+532	centro	centro
+514	diffusa	diffusa, diffuse, diffusi
+479	fessura	fessura, fessure
+438	irregolare	irregolare
+432	grossa	grossa, grosse, grossi, grosso
+424	presenza	presenza
+392	mm	mm
+384	qualche	qualche
+382	piccole	piccole, piccola
+352	cm	cm
+348	presente	presente, presenti, presenta
+335	pasta	pasta
+334	micro	micro
+327	piatto	piatto, piatta, piatti
+326	zona	zona
+325	zone	zone
+308	striature	striature, striatura
+273	cristallo	cristalli, cristallo
+258	strappo	strappo, strappi
+256	parte	parte, parti
+255	evidente	evidente, evidenti
+252	disomogenea	disomogenea, disomogeneo
+242	leggero	leggera, leggero, leggere, leggeri
+228	grande	grande, grandi
+216	buona	buona, buono, buoni
+201	tratti	tratti
+198	piccoli	piccoli, piccolo
+192	spugnosa	spugnosa, spugnoso, spugnose
+182	microcchiatura	microcchiatura, microcchiature
+182	forma	forma, forme
+180	microocchitura	microocchitura, microocchiture
+174	area	area
+170	grandiosa	grandiosa, grandioso
+164	taglio	taglio
+141	spacco	spacco
+136	tendente	tendente, tendenti
+134	po'	po'
+130	diversa	diversa, diverse, diversi, diverso
+122	ruvida	ruvida, ruvido, ruvide
+120	po	po
+118	lato	lato
+112	peccato	peccato
+110	fitta	fitta
+106	tende	tende
+106	stiratura	stiratura, stirature
+104	metà	metà
+102	superficie	superficie
+102	spacchi	spacchi
+101	crepa	crepa, crepe
+98	scaglia	scaglie, scaglia
+98	compatta	compatta, compatto, compatte
+98	spaccatura	spaccatura, spaccature
+98	microocch	microocch
+96	ben	ben
+94	disidratata	disidratata, disidratato, disidratate
+92	molte	molte, molti, molta
+90	discreta	discreta, discreto
+84	striato	striato, striata, striati
+84	sfoglia	sfoglia, sfoglie
+82	scalzo	scalzo, scalzi
+82	due	due
+82	ok	ok
+76	formata	formata
+76	ampia	ampia, ampie
+74	enorme	enorme, enormi
+72	spugna	spugna
+68	alcune	alcune, alcuni
+68	avvallamenti	avvallamenti, avvallamento
+66	punti	punti
+66	profilata	profilata, profilate
+64	asciutta	asciutta, asciutto
+64	altre	altre, altra
+62	effetto	effetto
+62	spagnola	spagnola, spagnole
+62	pochi	pochi, poche
+60	aree	aree
+60	friabile	friabile
+59	profonde	profonde, profonda
+58	meno	meno
+58	dimensioni	dimensioni, dimensione
+56	poca	poca
+56	brutta	brutta
+56	gessata	gessata, gessato, gessate
+56	solubile	solubile
+54	visibili	visibili, visibile, visibilmente
+54	tante	tante, tanti, tanta
+54	lieve	lieve, lievi
+54	bocciatura	bocciatura, bocciature
+53	interna	interna, interne, interno
+52	impugnatura	impugnatura
+50	umido	umido, umida, umide
+49	aspetto	aspetto
+48	difetti	difetti, difetto
+48	oltre	oltre
+48	bellissima	bellissima
+46	fascia	fascia
+44	spugnatura	spugnatura
+44	spinosa	spinosa, spinoso
+44	altri	altri, altro
+44	assenza	assenza
+42	macchia	macchie, macchia
+42	uniforme	uniforme
+41	esterno	esterno, esterna
+40	sottile	sottile, sottili
+40	fessurazioni	fessurazioni, fessurazione
+40	perle	perle, perla
+40	resto	resto
+40	granulare	granulare
+40	dittatura	dittatura
+38	sottocrosta	sottocrosta
+38	bolla	bolla, bolle
+36	grassa	grassa
+36	rada	rada
+36	forte	forte, forti
+36	angolo	angolo, angoli
+36	troppe	troppe, troppa
+36	localizzata	localizzata, localizzate
+36	assente	assente
+36	definita	definita
+36	disomogeneità	disomogeneità
+34	complesso	complesso
+34	comunque	comunque
+34	numerosi	numerosi, numerose
+32	ottima	ottima, ottimo
+32	mista	mista
+28	mezza	mezza, mezzo
+28	scarsa	scarsa, scarso
+28	slegata	slegata
+28	siero	siero
+28	limitate	limitate, limitata, limitati
+28	diametro	diametro, diametri
+28	occhiatina	occhiatina
+28	arrotondata	arrotondata
+28	difettosa	difettosa
+28	tirosina	tirosina
+26	trascurabile	trascurabile
+26	sbrinz	sbrinz
+26	piccolissime	piccolissime, piccolissima
+25	sviluppata	sviluppata
+24	strana	strana, strano, strani
+24	crosta	crosta
+24	grappoli	grappoli, grappolo
+24	particolare	particolare, particolari, particolarmente
+24	spigolo	spigolo, spigoli
+24	bel	bel
+24	on	on
+24	secco	secca, secco
+24	profondi	profondi, profondo
+24	vicino	vicino
+24	direzione	direzione, direzioni
+24	scagliosa	scagliosa, scaglioso
+24	decisa	decisa, deciso
+24	inf	inf
+24	pronunciata	pronunciata, pronunciate
+24	buon	buon
+24	finissima	finissima
+24	andamenti	andamenti, andamento
+24	morbido	morbido
+23	proprio	proprio
+22	perfettae	perfettamente
+22	cuore	cuore
+22	periferia	periferia
+22	importante	importante, importanti
+22	radiale	radiale, radiali
+22	bianchi	bianchi, bianche
+22	distribuita	distribuita
+20	l'altra	l'altra, l'altro
+20	pare	pare
+20	pessima	pessima
+20	bagnata	bagnata, bagnato, bagnati, bagnate
+20	singolo	singolo, singola
+20	strutturata	strutturata
+20	disidratazione	disidratazione
+20	estesa	estesa, estese
+20	fenditure	fenditure, fenditura
+20	concentrati	concentrati, concentrate
+20	netta	netta
+20	c'è	c'è
+20	tagli	tagli
+20	certa	certa
+20	inregolare	inregolare
+20	rosa	rosa
+20	tendenza	tendenza
+20	occhiato	occhiata
+20	perfetto	perfetto, perfetta
+20	microocchio	microocchio
+20	liscia	liscia

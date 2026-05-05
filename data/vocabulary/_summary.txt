@@ -1,0 +1,7 @@
+Aroma                           tokens=  17154  unique-lemmas>=3:   541  top: ['cotto', 'burro', 'formaggio', 'crosta', 'nota', 'latte', 'lattico', 'panna']
+Colore della Pasta              tokens=  29696  unique-lemmas>=3:   438  top: ['carico', 'chiaro', 'alone', 'omogeneo', 'giallo', 'centrale', 'centro', 'colore']
+Profumo                         tokens=  27068  unique-lemmas>=3:   681  top: ['cotto', 'burro', 'latte', 'nota', 'leggero', 'panna', 'intenso', 'vegetale']
+Sapore                          tokens=  25526  unique-lemmas>=3:   510  top: ['piccante', 'salato', 'amaro', 'dolce', 'umami', 'acido', 'equilibrato', 'sapido']
+Spessore della Crosta           tokens=  14737  unique-lemmas>=3:   291  top: ['mm', 'piatto', 'cm', 'scalzo', 'spessa', 'colore', 'crosta', 'spigoli']
+Struttura della Pasta           tokens=  47480  unique-lemmas>=3:   834  top: ['frattura', 'grana', 'stirata', 'regolare', 'centrale', 'microocchiatura', 'omogeneo', 'struttura']
+Texture                         tokens=  27189  unique-lemmas>=3:   561  top: ['cristallo', 'solubile', 'asciutto', 'granuloso', 'friabile', 'morbido', 'pastoso', 'grana']

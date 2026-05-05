@@ -1,0 +1,205 @@
+# Controlled vocabulary — Texture
+# total tokens (incl stopwords): 27189
+# unique lemmas (>= 3): 561
+# format: <count>	<canonical>	<surface forms (most frequent first)>
+
+1598	cristallo	cristalli, cristallo
+1096	solubile	solubile, solubili
+1084	asciutto	asciutto, asciutta
+826	granuloso	granuloso, granulosa
+778	friabile	friabile
+714	morbido	morbido, morbida, morbidi
+626	pastoso	pastoso, pastosa, pastose
+472	grana	grana
+463	umido	umido, umida, umidi
+398	pochi	pochi
+370	bocca	bocca
+334	compatto	compatto, compatta
+276	microstruttura	microstruttura, microstrutture
+268	duro	duro, dura, dure
+260	buona	buona, buoni, buone, buono
+254	cedevole	cedevole
+240	tirosina	tirosina
+216	lascia	lascia
+212	poca	poca
+198	struttura	struttura
+183	po	po
+182	presenti	presenti, presente
+180	sol	sol
+176	sabbioso	sabbioso, sabbiosa, sabbiosi
+176	friabilità	friabilità
+174	impasta	impasta, impasto
+172	adesivo	adesivo, adesiva
+168	granuli	granuli, granulo
+168	solubilità	solubilità
+158	presenza	presenza
+140	residuo	residuo, residui
+132	tende	tende
+118	molti	molti, molta, molte
+118	qualche	qualche
+110	microcristalli	microcristalli, microcristallo
+108	mediae	mediamente
+102	finale	finale
+102	grossi	grossi
+100	assente	assente, assenti
+100	molle	molle
+96	ben	ben
+96	no	no
+88	pulita	pulita
+86	percepibili	percepibili, percepibile
+84	scarsa	scarsa
+82	gommoso	gommoso, gommosa
+78	ingozza	ingozza
+78	legg	legg
+76	tenero	tenero
+74	scioglie	scioglie
+72	bella	bella
+72	solub	solub
+70	bene	bene
+70	grossolano	grossolana, grossolano
+68	ok	ok
+68	secco	secco
+68	evidenti	evidenti, evidente
+68	impastare	impastare
+68	medio	medio, medii
+66	farinoso	farinoso, farinosa
+64	leggero	leggera, leggero
+64	intensità	intensità
+62	durezza	durezza
+60	alta	alta
+60	deformabile	deformabile, deformabili
+56	assenza	assenza
+52	solubilit	solubilit
+52	friabilit'	friabilit'
+52	bassa	bassa
+50	consistenza	consistenza
+50	pasta	pasta
+48	piccoli	piccoli, piccolo
+48	morso	morso
+48	umidit'	umidit'
+44	formaggio	formaggio
+42	manca	manca
+40	denti	denti, dente
+40	moderata	moderata, moderato, moderati, moderate
+40	granoloso	granoloso
+40	rimane	rimane
+36	peccato	peccato
+36	giovane	giovane
+36	complesso	complesso
+36	solubilit'	solubilit'
+36	tanti	tanti
+34	solubilita	solubilita
+32	stirata	stirata
+32	discretae	discretamente
+32	percepiti	percepiti, percepito, percepita
+32	po'	po'
+32	finissima	finissima, finissimo
+32	potrebbe	potrebbe
+32	gradevole	gradevole
+32	sottile	sottile
+30	strano	strano, strana, strane
+30	umidità	umidità
+28	perle	perle
+28	comunque	comunque
+28	frammenti	frammenti
+28	tendente	tendente
+28	molare	molare
+28	equilibrio	equilibrio
+28	granulosità	granulosità
+26	asciuga	asciuga
+26	fauci	fauci
+26	equilibrato	equilibrato, equilibrata, equilibrate
+26	discreta	discreta, discreto
+26	elastico	elastico, elastica
+24	troppi	troppi
+24	piacevole	piacevole, piacevoli
+24	pi	pi
+24	fini	fini
+24	fondente	fondente
+24	pezzi	pezzi, pezzo
+24	plastico	plastico
+24	forte	forte
+24	porzioni	porzioni, porzione
+24	potrrebbe	potrrebbe
+22	pochetto	pochetto
+22	sensazione	sensazione
+20	tenerissimo	tenerissimo
+20	diversi	diversi, diverse
+20	numerosi	numerosi
+20	sabbia	sabbia
+20	farina	farina, farino
+20	pochissimi	pochissimi
+20	scarsi	scarsi, scarse
+20	tratti	tratti
+20	critalli	critalli
+20	moderatae	moderatamente
+20	consistente	consistente, consistenti
+20	friabilita'	friabilita'
+20	legata	legata
+20	crist	crist
+18	persistente	persistente
+18	mancanza	mancanza
+16	friabilita	friabilita
+16	astringente	astringente
+16	però	però
+16	stagionato	stagionato
+16	nessun	nessun
+16	friabilit	friabilit
+16	cristali	cristali
+16	ottima	ottima, ottimo
+16	sentono	sentono
+16	tendenziale	tendenzialmente
+16	inconsistente	inconsistente
+16	definita	definita
+14	faticoso	faticoso
+14	ciononostante	ciononostante
+12	lega	lega
+12	male	male
+12	granelli	granelli, granello
+12	percettibile	percettibile, percettibili
+12	rari	rari
+12	deglutizione	deglutizione
+12	asciugare	asciugare
+12	né	né
+12	medi	medi
+12	perfetta	perfetta
+12	pastosità	pastosità
+12	sfalda	sfalda
+12	impastata	impastata
+12	percepiscono	percepiscono
+12	firabile	firabile
+12	granulare	granulare
+12	strutturato	strutturato
+12	sabbiosità	sabbiosità
+12	privo	privo
+12	umidit	umidit
+12	positiva	positiva
+12	bei	bei
+12	velocee	velocemente
+12	fresco	fresco
+12	elevata	elevata, elevate
+12	estremae	estremamente
+12	incolla	incolla
+12	all'inizio	all'inizio
+12	grasso	grasso
+12	sento	sento
+12	scagliette	scagliette
+10	contrasto	contrasto
+10	untuosita	untuosita
+10	all	all
+10	pastosita	pastosita
+10	granulometria	granulometria
+8	fastidioso	fastidioso
+8	interessante	interessante
+8	schioccante	schioccante
+8	difetta	difetta, difetto
+8	ottimali	ottimali, ottimale
+8	altri	altri
+8	texture	texture
+8	corpo	corpo
+8	praticae	praticamente
+8	nostrano	nostrano
+8	inesistente	inesistente
+8	subito	subito
+8	restano	restano
+8	dimensioni	dimensioni
