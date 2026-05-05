@@ -46,6 +46,22 @@ TRAIL_PUNCT_RE = re.compile(r"^[\s\.\,;:\-\*`\"']+|[\s\*`\"']+$")
 BARE_NUM_TOKEN = re.compile(r"^\d+(?:[,.]\d+)?$")
 NUM_TOKEN_RE = re.compile(r"\d+(?:[,.]\d+)?")
 
+# Measurement-only Spessore captions: numbers ± mm/cm units with optional
+# qualifier prefixes (Mediamente, Media, Più di, Quasi, Circa, Sotto/Sopra,
+# Tra, Da, A) and connectors. We qualitatise these deterministically so the
+# LLM doesn't see inconsistent mm vs cm values.
+SPESSORE_FILLER_PREFIX = re.compile(
+    r"^\s*(?:mediamente|media|circa|quasi|sotto|sopra|sopra a|sotto a|"
+    r"più di|piu di|meno di|tra|da|a|fino a|oltre|attorno a|intorno a)\b\s*",
+    re.IGNORECASE,
+)
+SPESSORE_NUM_UNIT_RE = re.compile(
+    r"\d+(?:[,.]\d+)?\s*(?:mm|cm)?\b", re.IGNORECASE
+)
+SPESSORE_CONNECTOR_RE = re.compile(
+    r"\s*(?:[\-/–—]|e|o|a|fino a|oltre)\s*", re.IGNORECASE
+)
+
 
 def _to_mm(value: float) -> float:
     """Heuristic: tiny decimals are cm (0,8 cm = 8 mm); the rest are mm."""
@@ -65,15 +81,59 @@ def _bucket(mm: float) -> str:
 
 
 def qualitatise_spessore_bare(text: str) -> str | None:
-    """If `text` is only numbers (bare crust thickness), return a qualitative
-    token; otherwise return None to leave the caption untouched."""
-    tokens = text.split()
-    if not tokens or len(tokens) > 3:
+    """Qualitatise Spessore captions that are pure measurements.
+
+    Handles bare numbers ("10", "0,8", "9 10"), unit-suffixed numbers
+    ("10 mm", "1 cm", "1,1cm"), and these forms preceded by short
+    qualifiers ("Mediamente 9 mm", "Più di 1 cm", "Sotto 10mm",
+    "8-10 mm"). Returns the qualitative bucket label, or None when
+    the caption has any non-measurement descriptor that the LLM should
+    rewrite.
+    """
+    if not text:
         return None
-    if not all(BARE_NUM_TOKEN.match(t) for t in tokens):
+    s = text.strip()
+    # strip a leading qualifier prefix (we keep the bucket label only —
+    # "Mediamente 10 mm" → "Media", since that's the same information)
+    s = SPESSORE_FILLER_PREFIX.sub("", s)
+
+    # walk through, expecting alternating number(unit) and connectors.
+    # if anything other than these tokens remains, bail out.
+    pos = 0
+    values_mm: list[float] = []
+    while pos < len(s):
+        # eat optional connector
+        m = SPESSORE_CONNECTOR_RE.match(s, pos)
+        if m and m.end() > pos:
+            pos = m.end()
+            if pos >= len(s):
+                break
+        # try a number
+        m = SPESSORE_NUM_UNIT_RE.match(s, pos)
+        if not m or m.end() == pos:
+            return None  # found something that isn't a number
+        token = m.group(0)
+        # parse number + unit
+        num_match = re.match(r"^(\d+(?:[,.]\d+)?)\s*(mm|cm)?", token, re.IGNORECASE)
+        if not num_match:
+            return None
+        val = float(num_match.group(1).replace(",", "."))
+        unit = (num_match.group(2) or "").lower()
+        if unit == "cm":
+            mm = val * 10
+        elif unit == "mm":
+            mm = val
+        else:
+            mm = _to_mm(val)
+        values_mm.append(mm)
+        pos = m.end()
+        # eat trailing whitespace
+        while pos < len(s) and s[pos] in " \t":
+            pos += 1
+
+    if not values_mm:
         return None
-    mm_values = [_to_mm(float(t.replace(",", "."))) for t in tokens]
-    avg = sum(mm_values) / len(mm_values)
+    avg = sum(values_mm) / len(values_mm)
     return _bucket(avg).capitalize()
 
 

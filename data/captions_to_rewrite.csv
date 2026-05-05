@@ -999,10 +999,9 @@ Texture::grana assente molto tenero,Texture,grana assente molto tenero,4,5499
 Texture::poco umido,Texture,poco umido,4,5500
 Spessore della Crosta::0 8 su un lato e o 6 sull'altro,Spessore della Crosta,"0,8 su un lato e o,6 sull'altro",4,5502
 Spessore della Crosta::piatti difformi uno molto fine è netto l'altro con crosta sfumata e grossa,Spessore della Crosta,"Piatti difformi, uno molto fine è netto. L'altro con crosta sfumata e grossa",4,5503
-Spessore della Crosta::media,Spessore della Crosta,Media,194,5507
-Spessore della Crosta::sottile,Spessore della Crosta,Sottile,160,5509
+Spessore della Crosta::media,Spessore della Crosta,Media,596,5507
+Spessore della Crosta::sottile,Spessore della Crosta,Sottile,396,5509
 Spessore della Crosta::sottile su una faccia,Spessore della Crosta,Sottile su una faccia,4,5510
-Spessore della Crosta::media 0 8,Spessore della Crosta,"Media 0,8",6,5511
 Spessore della Crosta::sottili,Spessore della Crosta,Sottili,4,5512
 Struttura della Pasta::grana abbastanza fine ma con striature1 strappo di 5 cm cristalli ben visibili e qualche perla di roma 5 mm,Struttura della Pasta,Grana abbastanza fine ma con Striature1 strappo di 5 cm cristalli ben visibili e qualche perla di Roma 5 mm,4,5513
 Struttura della Pasta::1 spacco 3 cm buona grana dotata di finezza una certa discrezionalità delle fibre centrale,Struttura della Pasta,"1 spacco 3 cm. Buona grana, dotata di finezza. Una certa discrezionalità delle fibre centrale",4,5514
@@ -1119,7 +1118,6 @@ Texture::pastoso,Texture,pastoso,74,5809
 Spessore della Crosta::1 cm ma di colore molto contrastato,Spessore della Crosta,1 cm ma di colore molto contrastato,4,5810
 Spessore della Crosta::1 piatto sul 12 mm o più l'altro più sottile,Spessore della Crosta,"1 piatto sul 12 mm o più, l'altro più sottile",4,5811
 Spessore della Crosta::omogenea,Spessore della Crosta,Omogenea,12,5812
-Spessore della Crosta::1 1 cm,Spessore della Crosta,"1,1 cm",24,5815
 Spessore della Crosta::dal colore marcato meno spessa su un lato,Spessore della Crosta,"Dal colore marcato, meno spessa su un lato",4,5818
 Spessore della Crosta::molto evidente,Spessore della Crosta,Molto evidente,4,5819
 Struttura della Pasta::frattura con profondo avvallamento e striature che si dipartono da un piatto,Struttura della Pasta,Frattura con profondo avvallamento e striature che si dipartono da un piatto,4,5821
@@ -1171,7 +1169,7 @@ Texture::poco solubile farinoso,Texture,poco solubile. farinoso,4,5881
 Texture::friabile ma non asciutto microstruttura fine nessun cristallo percepito,Texture,friabile ma non asciutto. microstruttura fine. nessun cristallo percepito,4,5882
 Texture::non molto solubile,Texture,non molto solubile,4,5883
 Texture::scarsa solubilità,Texture,scarsa solubilità,4,5885
-Spessore della Crosta::10 o 22mm,Spessore della Crosta,10 o 22mm,4,5887
+Spessore della Crosta::spessa,Spessore della Crosta,Spessa,44,5887
 Spessore della Crosta::1 piatto sottile ~8mm l'altro piatto oltre il cm,Spessore della Crosta,"1 piatto sottile, ~8mm. L'altro piatto oltre il cm",4,5888
 Spessore della Crosta::crosta disomogenea media 1 cm,Spessore della Crosta,Crosta disomogenea. Media 1 cm,4,5892
 Spessore della Crosta::più spessa su una faccia,Spessore della Crosta,Più spessa su una faccia,16,5895
@@ -1226,7 +1224,6 @@ Texture::friabile microstruttura non fine cristalli presenti numerosi di diverse
 Texture::non troppo friabile né solubile,Texture,non troppo friabile né solubile,4,5960
 Texture::poca grana,Texture,poca grana,8,5961
 Texture::microstruttura assente,Texture,microstruttura assente,4,5962
-Spessore della Crosta::1 o 1 2,Spessore della Crosta,"1 o 1,2",4,5964
 Spessore della Crosta::spessa agli angoli,Spessore della Crosta,Spessa agli angoli,4,5966
 Spessore della Crosta::sottocrosta molto marcato 1 4cm,Spessore della Crosta,"Sottocrosta molto marcato. 1,4cm",4,5969
 Spessore della Crosta::spessa oltre 1cm,Spessore della Crosta,Spessa oltre 1cm,4,5974
@@ -1342,9 +1339,7 @@ Texture::umida morbida solubile,Texture,"umida , morbida, solubile",4,7349
 Spessore della Crosta::piatti e scalzo ben definiti media 8mm spigoli 11mm circa,Spessore della Crosta,Piatti e scalzo ben definiti media 8mm Spigoli 11mm circa,4,7350
 Spessore della Crosta::12 m,Spessore della Crosta,12 m,4,7351
 Spessore della Crosta::mediamente superiore al cm,Spessore della Crosta,Mediamente superiore al cm,4,7352
-Spessore della Crosta::8 mm,Spessore della Crosta,8 mm,32,7357
 Spessore della Crosta::9 10 chiaro,Spessore della Crosta,9 10 chiaro,4,7358
-Spessore della Crosta::10 mm,Spessore della Crosta,10 mm,72,7360
 Struttura della Pasta::irregolare gessata ma non per le macchie di umidità,Struttura della Pasta,Irregolare gessata ma non per le macchie di umidità,4,7361
 Struttura della Pasta::pasta irregolare con zona centrale con fitti strappi piccoli sembra quasi realizzata,Struttura della Pasta,Pasta irregolare con zona centrale con Fitti strappi piccoli sembra quasi realizzata,4,7362
 Struttura della Pasta::grandiosa un poco' grossolana lieve struttura centrale frattura ottima presenza di punti biancastro bagnati che attribuisco al cellophane e non castigo,Struttura della Pasta,"Grandiosa, un poco' grossolana. Lieve struttura centrale. Frattura ottima. Presenza di punti biancastro bagnati che attribuisco al cellophane e non castigo",4,7363
@@ -1395,7 +1390,6 @@ Spessore della Crosta::piatti e scalzo media 11mm spigoli media 20mm,Spessore de
 Spessore della Crosta::colore sottocrosta,Spessore della Crosta,Colore sottocrosta,8,7428
 Spessore della Crosta::spessa inoltre il cm,Spessore della Crosta,Spessa inoltre il cm,4,7429
 Spessore della Crosta::crosta fine con unghia,Spessore della Crosta,Crosta fine con unghia,4,7432
-Spessore della Crosta::9 10 mm,Spessore della Crosta,9 10 mm,22,7435
 Spessore della Crosta::più spessa su un lato,Spessore della Crosta,Più spessa su un lato,4,7436
 Spessore della Crosta::complessivamente minore di 8 mm,Spessore della Crosta,Complessivamente minore di 8 mm,4,7437
 Struttura della Pasta::microocchiatura centrale tendente allo stirato,Struttura della Pasta,Microocchiatura centrale Tendente allo stirato,4,7438
@@ -1434,7 +1428,6 @@ Texture::morbido e umido ma gia' friabile cristalli anche grossi,Texture,"morbid
 Spessore della Crosta::piatti e scalzo media 12mm spigoli circa 15mm,Spessore della Crosta,Piatti e scalzo media 12mm Spigoli circa 15mm,4,7504
 Spessore della Crosta::12 14 mm evidente negli angoli,Spessore della Crosta,12 14 mm evidente negli angoli,4,7505
 Spessore della Crosta::sottocrosta marcato,Spessore della Crosta,Sottocrosta marcato,4,7509
-Spessore della Crosta::più di 10 mm,Spessore della Crosta,Più di 10 mm,4,7511
 Spessore della Crosta::su un piatto spessa,Spessore della Crosta,Su un piatto spessa,4,7513
 Spessore della Crosta::12 mm mediamente con punte elevate negli angoli,Spessore della Crosta,12 mm mediamente con punte elevate negli angoli,4,7514
 Struttura della Pasta::omogenea grossa,Struttura della Pasta,Omogenea grossa,4,7515
@@ -1534,7 +1527,6 @@ Spessore della Crosta::ben definita spigoli 15mm circa piatti e scalzo 7mm,Spess
 Spessore della Crosta::più evidente sullo scalzo e angoli,Spessore della Crosta,Più evidente sullo scalzo e angoli,4,7890
 Spessore della Crosta::almeno la crosta non é male,Spessore della Crosta,Almeno la crosta non é male,4,7891
 Spessore della Crosta::minore di 10 mm,Spessore della Crosta,Minore di 10 mm,4,7896
-Spessore della Crosta::8 9 mm,Spessore della Crosta,8 9 mm,8,7897
 Spessore della Crosta::molto fine nel complesso,Spessore della Crosta,Molto fine nel complesso,4,7899
 Struttura della Pasta::sottopiatto demineralizzato con strappi non omogenea leggermente stirata,Struttura della Pasta,Sottopiatto demineralizzato con strappi Non omogenea Leggermente stirata,4,7900
 Struttura della Pasta::zone grassete sotto 1 piatto con piccole frattura e microocchiatura 1 o 2 mm,Struttura della Pasta,Zone grassete sotto 1 piatto con piccole frattura e Microocchiatura 1 o 2 mm,4,7901
@@ -1587,7 +1579,6 @@ Spessore della Crosta::piatti e scalzo circa 10mm spigoli circa 20mm,Spessore de
 Spessore della Crosta::egli angoli,Spessore della Crosta,Egli angoli,4,7967
 Spessore della Crosta::unghia marcata sugli scalzi,Spessore della Crosta,Unghia marcata sugli scalzi,4,7971
 Spessore della Crosta::9 mm chiaro,Spessore della Crosta,9 mm chiaro,4,7974
-Spessore della Crosta::mediamente 9 mm,Spessore della Crosta,Mediamente 9 mm,4,7976
 Struttura della Pasta::non omogenea con aree strirate,Struttura della Pasta,Non omogenea con aree strirate,4,7977
 Struttura della Pasta::stirata con frattura circolare e microocchiatura fine,Struttura della Pasta,Stirata con frattura circolare e Microocchiatura fine,4,7978
 Struttura della Pasta::a tratti poco evoluta e un poco' stirata invecchiato frattura buona,Struttura della Pasta,A tratti poco evoluta e un poco' stirata. Invecchiato. Frattura buona,4,7979
@@ -1647,7 +1638,6 @@ Spessore della Crosta::spessore medio 8mm,Spessore della Crosta,Spessore medio 8
 Spessore della Crosta::unghia marcata anche se non spessa,Spessore della Crosta,Unghia marcata anche se non spessa,4,9207
 Spessore della Crosta::9 e omogeneo,Spessore della Crosta,9 e omogeneo,4,9210
 Spessore della Crosta::molto fine 7 mm,Spessore della Crosta,Molto fine.. 7 mm,4,9211
-Spessore della Crosta::spessa,Spessore della Crosta,Spessa,36,9213
 Struttura della Pasta::microocchiatura diffusa non regolare,Struttura della Pasta,Microocchiatura diffusa Non regolare,4,9214
 Struttura della Pasta::leggermente disomogenea con fitta microocchiatura dia inf 1 mm nella parte centrale,Struttura della Pasta,Leggermente disomogenea con fitta Microocchiatura dia inf 1 mm nella parte centrale,4,9215
 Struttura della Pasta::buona grana fine microocchiatura di scarso rilievo bel taglio,Struttura della Pasta,Buona grana fine. Microocchiatura di scarso rilievo. Bel taglio,4,9216
@@ -1710,8 +1700,6 @@ Texture::bella pastosità cristalli presenti umidità giusta e solubilità ok,Te
 Texture::cristallisi sente una grana leggera comunque pastoso,Texture,cristallisi sente una grana leggera comunque pastoso,4,9284
 Texture::presenza di molti cristalli con frammenti insolubili,Texture,"presenza di molti cristalli, con frammenti insolubili",4,9285
 Spessore della Crosta::spessore scalzo e piatto media 8mm,Spessore della Crosta,Spessore scalzo e piatto media 8mm,4,9286
-Spessore della Crosta::1 cm,Spessore della Crosta,1 cm,64,9291
-Spessore della Crosta::12 mm,Spessore della Crosta,12 mm,72,9293
 Spessore della Crosta::medio basso 8 mm,Spessore della Crosta,Medio basso.. 8 mm,8,9295
 Spessore della Crosta::abbastanza sottile,Spessore della Crosta,Abbastanza sottile,12,9297
 Struttura della Pasta::non omogenea ma granulosa,Struttura della Pasta,Non omogenea ma granulosa,8,9298
@@ -1778,7 +1766,6 @@ Spessore della Crosta::unghia spessa poco marcata,Spessore della Crosta,Unghia s
 Spessore della Crosta::spessa e con macchia scura,Spessore della Crosta,Spessa e con macchia scura,4,9376
 Spessore della Crosta::11 12 macchia nera sotto un piatto,Spessore della Crosta,"11 12, macchia nera sotto un piatto",4,9378
 Spessore della Crosta::medio alto,Spessore della Crosta,Medio alto,4,9379
-Spessore della Crosta::media 0 9,Spessore della Crosta,"Media 0,9",4,9380
 Struttura della Pasta::non omogenea granulosa,Struttura della Pasta,Non omogenea granulosa,8,9382
 Struttura della Pasta::grana fine ma su un lato strappo cristalli piccoli evidenti,Struttura della Pasta,Grana fine ma su un lato strappo cristalli piccoli evidenti,4,9383
 Struttura della Pasta::rosa ai piatti,Struttura della Pasta,Rosa ai piatti,4,9385
@@ -1832,11 +1819,9 @@ Texture::compatto non molto friabile deformabile,Texture,"compatto, non molto fr
 Texture::asciutto poco solubile e pochi cristalli,Texture,"asciutto, poco solubile e pochi cristalli",4,9451
 Texture::assenza di grana si impasta in bocca,Texture,assenza di grana si impasta in bocca,4,9452
 Texture::sabbioso finissimo,Texture,sabbioso finissimo,4,9453
-Spessore della Crosta::0 5 cm,Spessore della Crosta,"0,5 cm",8,9459
-Spessore della Crosta::8mm,Spessore della Crosta,8mm,4,9461
+Spessore della Crosta::molto sottile,Spessore della Crosta,Molto sottile,74,9459
 Spessore della Crosta::disomogeneo fra i 2 piatti in media anche meno di 8,Spessore della Crosta,"Disomogeneo fra i 2 piatti, in media anche meno di 8",4,9462
 Spessore della Crosta::tende al fine ma con zone diverse,Spessore della Crosta,"Tende al fine, ma con zone diverse",4,9463
-Spessore della Crosta::molto sottile,Spessore della Crosta,Molto sottile,30,9465
 Struttura della Pasta::sbrinz,Struttura della Pasta,Sbrinz,4,9468
 Struttura della Pasta::grana molto fine frammentazione buona con scaglie grosse striature presenti,Struttura della Pasta,"Grana molto fine, frammentazione buona con scaglie grosse, striature presenti",4,9470
 Struttura della Pasta::tendente allo stirato,Struttura della Pasta,Tendente allo stirato,4,9471
@@ -1889,7 +1874,6 @@ Texture::ottima la microstruttura crtistalli presenti pastosità e umidità medi
 Texture::bocca poco pulita con frammenti insolubili,Texture,bocca poco pulita con frammenti insolubili,4,9873
 Spessore della Crosta::crosta piatto e scalzo sfumata spessore indefinito media indicativa 9mm spigoli accentuati,Spessore della Crosta,Crosta piatto e scalzo sfumata spessore indefinito media indicativa 9mm Spigoli accentuati,4,9874
 Spessore della Crosta::sui piatti a tratti estremamente sottile,Spessore della Crosta,Sui piatti a tratti estremamente sottile,4,9876
-Spessore della Crosta::0 6 cm,Spessore della Crosta,"0,6 cm",12,9879
 Spessore della Crosta::molto più spessa sugli scalzi 1 5 mm che qui piatti 0 9,Spessore della Crosta,"Molto più spessa sugli scalzi 1,5 mm che qui piatti 0.9",4,9880
 Spessore della Crosta::molto sfumata,Spessore della Crosta,Molto sfumata,4,9882
 Spessore della Crosta::alta con disomogeneità verso le aree,Spessore della Crosta,Alta con disomogeneità verso le aree..,4,9883
@@ -1948,10 +1932,7 @@ Texture::manca un pò di umidità ma nel complesso ok,Texture,"manca un pò di u
 Texture::no grana,Texture,no grana,8,9956
 Texture::la bocca rimane abbastanza pulita i cristalli sono pochi ma abbastanza grossi,Texture,"la bocca rimane abbastanza pulita, i cristalli sono pochi, ma abbastanza grossi",4,9957
 Spessore della Crosta::spessore medio 10mm,Spessore della Crosta,Spessore medio 10mm,4,9958
-Spessore della Crosta::0 7cm,Spessore della Crosta,"0,7cm",8,9963
 Spessore della Crosta::8_10 mm,Spessore della Crosta,8_10 mm,4,9965
-Spessore della Crosta::mediamente 10 mm,Spessore della Crosta,Mediamente 10 mm,16,9967
-Spessore della Crosta::media 0 8 1,Spessore della Crosta,"Media 0,8 1",4,9968
 Struttura della Pasta::stirata e leggera microocchiatura,Struttura della Pasta,Stirata e leggera microocchiatura,4,9970
 Struttura della Pasta::stirata ma niforme,Struttura della Pasta,Stirata ma niforme,4,9971
 Struttura della Pasta::bella la frattura microocchiatura rada e fine nella porzione centrale disomogenea per dittatura al centro tende a sfogliare,Struttura della Pasta,Bella la frattura. Microocchiatura rada e fine nella porzione centrale. Disomogenea per dittatura al centro. Tende a sfogliare,4,9972
@@ -2100,7 +2081,6 @@ Texture::buona friabilità' poco solubile,Texture,"buona friabilità', poco solu
 Texture::abbastanza duro pastoso asciutto con struttura abbastanza grossolana e poco solubile,Texture,"abbastanza duro, pastoso, asciutto, con struttura abbastanza grossolana e poco solubile.",4,11416
 Texture::leggera sabbiosità finale ma friabile mediamente umido pochi cristalli presenti,Texture,"Leggera sabbiosità finale, ma friabile, mediamente umido, pochi cristalli presenti",4,11417
 Texture::bella solubilità ma durezza bassa,Texture,"bella solubilità, ma durezza bassa",4,11418
-Spessore della Crosta::10mm,Spessore della Crosta,10mm,10,11420
 Spessore della Crosta::colore sganciato del sotto crosta più evidente su 1 lato,Spessore della Crosta,Colore sganciato del sotto crosta più evidente su 1 lato,4,11421
 Spessore della Crosta::limite molto netto,Spessore della Crosta,Limite molto netto,4,11422
 Spessore della Crosta::fine sui piatti spessa sugli scalzi 0 9cm media,Spessore della Crosta,"Fine sui piatti, spessa sugli scalzi 0,9cm media",4,11425
@@ -2189,7 +2169,6 @@ Texture::abbastanza dura e compatta ma firabile con grana percepibile e cristall
 Texture::pastoso poco rfiabile,Texture,"pastoso, poco rfiabile",4,11557
 Texture::asciutto pastoso poco solubile e mancano cristalli,Texture,"asciutto, pastoso, poco solubile e mancano cristalli....",4,11558
 Spessore della Crosta::spessore medio 7mm crosta sfumata,Spessore della Crosta,Spessore medio 7mm Crosta sfumata,4,11560
-Spessore della Crosta::0 8 cm,Spessore della Crosta,"0,8 cm",48,11565
 Spessore della Crosta::molto diverso tra piatti e scalzi ma mediamente fine,Spessore della Crosta,Molto diverso tra piatti e scalzi ma mediamente fine,4,11568
 Struttura della Pasta::microocchiatura non regolare non omogenea,Struttura della Pasta,Microocchiatura Non regolare Non omogenea,4,11570
 Struttura della Pasta::fitta microocchiatura e grana che forma striature sotto un piatto tende al gessato,Struttura della Pasta,Fitta microocchiatura e grana che forma striature sotto un piatto tende al gessato,4,11571
@@ -2272,7 +2251,6 @@ Texture::asciutto granuloso solubile a tratti sabbioso ma gradevole,Texture,"asc
 Texture::forse troppi cristalli,Texture,forse troppi cristalli,4,12888
 Spessore della Crosta::crosta sfumata spigoli accentuati media 10mm,Spessore della Crosta,Crosta sfumata Spigoli accentuati Media 10mm,8,12890
 Spessore della Crosta::su un lato 6 mm sull'altro 8 sullo scalzo 12,Spessore della Crosta,Su un lato 6 mm sull'altro 8 sullo scalzo 12,4,12891
-Spessore della Crosta::0 8cm,Spessore della Crosta,"0,8cm",8,12894
 Struttura della Pasta::frattura irregolare micro occhiatura più grossa allo esterno e fine al centro con grande da alla stiratura,Struttura della Pasta,Frattura irregolare Micro occhiatura Più grossa allo esterno e fine al centro con grande da alla stiratura,4,12900
 Struttura della Pasta::grana un poco grossolana con frattura con gobbe e avvallamenti evidenti microocchiature 1 mm diffuse in un punto sotto 1 piatto grappolo con qualche occhiatura più grande piccoli cristalli non frequenti,Struttura della Pasta,Grana un Poco grossolana con Frattura con gobbe e avvallamenti evidenti microocchiature 1 mm diffuse in un punto sotto 1 piatto grappolo con qualche occhiatura più grande piccoli cristalli non frequenti,4,12901
 Struttura della Pasta::microocchiatura centrale estesa non tutta ma ampia per il resto struttura granulosa omogenea frattura nn regolare,Struttura della Pasta,"Microocchiatura centrale estesa, non tutta, ma ampia. Per il resto struttura Granulosa omogenea. Frattura nn regolare",4,12902
@@ -2318,7 +2296,7 @@ Spessore della Crosta::crosta sfumata spigoli accentuati media 12mm,Spessore del
 Spessore della Crosta::crosta più evidente negli angoli e sullo scalzo,Spessore della Crosta,Crosta più evidente negli angoli e sullo scalzo,4,12961
 Spessore della Crosta::sempre superiore al cm,Spessore della Crosta,Sempre superiore al cm,12,12962
 Spessore della Crosta::1 cm con unghia evidente soprattutto agli spigoli,Spessore della Crosta,1 cm con unghia evidente soprattutto agli spigoli.,4,12964
-Spessore della Crosta::molto spessa,Spessore della Crosta,Molto spessa,4,12968
+Spessore della Crosta::molto spessa,Spessore della Crosta,Molto spessa,8,12968
 Struttura della Pasta::qualche occhiolino da 1mm area centrale stirata,Struttura della Pasta,Qualche occhiolino da 1mm Area centrale stirata,4,12970
 Struttura della Pasta::microocchiatura centrale non fitta 1_2 mm frattura centrale radiale visibili i cristalli piccoli,Struttura della Pasta,Microocchiatura centrale non fitta 1_2 mm frattura centrale radiale visibili i cristalli piccoli,4,12971
 Struttura della Pasta::fascia di microocchiatura pure grossetta frattura buona struttura abbastanza omogenea non fine,Struttura della Pasta,"Fascia di microocchiatura pure grossetta. Frattura buona. Struttura abbastanza omogenea, non fine",4,12972
@@ -2517,7 +2495,6 @@ Aroma::lattici cotti in prevalenza,Aroma,"lattici cotti in prevalenza,",4,14138
 Texture::morbido bella presenza di granuli friabile e equilibrato come umidità,Texture,"morbido, bella presenza di granuli, friabile e equilibrato come umidità",4,14141
 Texture::moderatamente duro grana fine solubile molti cristalli asciutto,Texture,"moderatamente duro, grana fine, solubile, molti cristalli , asciutto",4,14142
 Texture::pastoso e tanti cristalli,Texture,pastoso e tanti cristalli,4,14146
-Spessore della Crosta::11mm,Spessore della Crosta,11mm,4,14156
 Spessore della Crosta::9 colore più intenso sotto un piatto,Spessore della Crosta,9 colore più intenso sotto un piatto,4,14157
 Spessore della Crosta::piuttosto variabile tra piatti e scalzi,Spessore della Crosta,Piuttosto variabile tra piatti e scalzi,4,14158
 Spessore della Crosta::sottile sul piatti un poco più spessa negli scalzi,Spessore della Crosta,Sottile sul piatti un Poco più spessa negli scalzi,4,14159
@@ -2546,7 +2523,6 @@ Texture::morbido granulometria media umido solubile,Texture,"morbido, granulomet
 Texture::cedevole,Texture,cedevole,4,14213
 Texture::differente solubilità tra le 4 porzioni una da struttura stirata,Texture,"differente solubilità tra le 4 porzioni, una da struttura stirata.",4,14215
 Texture::come atteso,Texture,come atteso,4,14218
-Spessore della Crosta::media 9mm,Spessore della Crosta,Media 9mm,24,14220
 Spessore della Crosta::mediamente minore di 10,Spessore della Crosta,Mediamente minore di 10,4,14228
 Spessore della Crosta::crosta grossa,Spessore della Crosta,Crosta grossa,4,14229
 Struttura della Pasta::microocchiatura diffusa mista ruvida,Struttura della Pasta,Microocchiatura Diffusa Mista ruvida,4,14230
@@ -2580,8 +2556,6 @@ Texture::un poco granulosa ma abbastanza solubile,Texture,un poco- granulosa ma 
 Texture::deformabile pastoso non molto friabile,Texture,"deformabile, pastoso, non molto friabile",4,14288
 Texture::si scioglie,Texture,si scioglie,8,14289
 Spessore della Crosta::crosta sfumata media 9mm,Spessore della Crosta,Crosta sfumata Media 9mm,4,14290
-Spessore della Crosta::9 mm,Spessore della Crosta,9 mm,12,14296
-Spessore della Crosta::11 mm,Spessore della Crosta,11 mm,24,14298
 Spessore della Crosta::spogli e crosta pronunciate,Spessore della Crosta,Spogli e crosta pronunciate,4,14299
 Struttura della Pasta::mista parte centrale stirata,Struttura della Pasta,Mista Parte centrale stirata,4,14300
 Struttura della Pasta::frattura irregolare,Struttura della Pasta,Frattura irregolare,20,14302
@@ -2730,7 +2704,6 @@ Aroma::tostati prevalenti,Aroma,tostati prevalenti,4,15617
 Texture::si sentono bene i cristalli,Texture,si sentono bene i cristalli,8,15619
 Texture::friabile lascia la bocca impastata,Texture,"Friabile, lascia la bocca impastata",8,15621
 Texture::granulosa con pochi cristalli,Texture,granulosa con pochi cristalli,8,15622
-Spessore della Crosta::media 10mm,Spessore della Crosta,Media 10mm,12,15626
 Spessore della Crosta::1 cm ma è disomogenea più marcata su un piatto con sottocrosta evidente,Spessore della Crosta,1 cm ma è disomogenea. Più marcata su un piatto con sottocrosta evidente,4,15631
 Spessore della Crosta::9 10 mm poco deciso,Spessore della Crosta,9 10 mm poco deciso,4,15632
 Struttura della Pasta::qualche piccola frattura e zona più granulosa,Struttura della Pasta,Qualche piccola frattura e zona più granulosa,4,15635
@@ -3003,7 +2976,6 @@ Texture::pastoso e un poco farinoso,Texture,pastoso e un poco farinoso,4,17369
 Texture::compatto ma friabile microstruttura abbastanza sottile non molto solubile,Texture,"compatto ma friabile, microstruttura, abbastanza sottile, non molto solubile,",4,17370
 Texture::compatto non molto friabile granuloso non molto solubile e leggermente sabbioso alla fine,Texture,"compatto, non molto friabile, granuloso, non molto solubile e leggermente sabbioso alla fine",4,17372
 Texture::molto sabbioso granuloso con pochi cristalli molto fini,Texture,molto sabbioso granuloso con pochi cristalli molto fini,4,17373
-Spessore della Crosta::media 8 mm,Spessore della Crosta,Media 8 mm,4,17374
 Spessore della Crosta::a tratti molto fine,Spessore della Crosta,A tratti molto fine,4,17376
 Spessore della Crosta::6 7 molto chiaro,Spessore della Crosta,6 7 molto chiaro,4,17383
 Struttura della Pasta::disomogenea,Struttura della Pasta,Disomogenea,20,17385
@@ -3264,8 +3236,6 @@ Texture::bei cristalli asciutto friabile,Texture,"bei cristalli..., asciutto, fr
 Texture::troppo tenero no grana,Texture,troppo tenero no grana,4,18835
 Texture::si scioglie bene e velocemente,Texture,si scioglie bene e velocemente,4,18836
 Spessore della Crosta::1 2 cm spessa sugli scalzi e fine su i piatti ma con unghia marcata,Spessore della Crosta,"1,2 cm spessa sugli scalzi e fine su i piatti ma con unghia marcata",4,18842
-Spessore della Crosta::mediamente 8 mm,Spessore della Crosta,Mediamente 8 mm,4,18845
-Spessore della Crosta::media 1,Spessore della Crosta,Media 1,16,18846
 Spessore della Crosta::molto spessa soprattutto sugli scalzi quasi 2cm,Spessore della Crosta,Molto spessa soprattutto sugli scalzi quasi 2cm,4,18847
 Struttura della Pasta::frattura regolare con grana fine che forma striature,Struttura della Pasta,Frattura regolare con grana fine che forma striature,4,18848
 Struttura della Pasta::bella frattura omogenea la grana tendente al fine,Struttura della Pasta,"Bella frattura, omogenea la grana, tendente al fine.",4,18849
@@ -3348,7 +3318,6 @@ Sapore::salato immangiabile,Sapore,salato immangiabile,4,20119
 Aroma::brodo fieno animale,Aroma,"brodo, fieno, animale",4,20127
 Texture::pastoso asciutto poco solub no cristalli,Texture,pastoso asciutto poco solub no cristalli,4,20130
 Texture::polveroso poco solubile alla fine granellini di tirosina rimangono a lungo,Texture,"polveroso poco solubile alla fine, granellini di tirosina rimangono a lungo",4,20136
-Spessore della Crosta::media 5mm,Spessore della Crosta,Media 5mm,4,20138
 Struttura della Pasta::2 fratture 1 di 2 cm e una dib5 cm frattura e regolare microocchiatura molto piccola e cristalli visibili ma di dimensioni molto piccole,Struttura della Pasta,2 fratture 1 di 2 cm e una dib5 cm frattura e regolare microocchiatura molto piccola e cristalli visibili ma di dimensioni molto piccole,4,20148
 Struttura della Pasta::la struttura é tra il fine e inesistente,Struttura della Pasta,La struttura é tra il fine e inesistente.,4,20150
 Struttura della Pasta::crepa striature e spugnatura,Struttura della Pasta,"Crepa,striature e spugnatura",4,20152
@@ -3400,7 +3369,6 @@ Texture::si sfalda,Texture,si sfalda,4,20386
 Texture::compatto adesivo,Texture,"compatto, adesivo",4,20388
 Spessore della Crosta::difficile da distinguere circa 12mm spigoli mo ti accentuati,Spessore della Crosta,Difficile da distinguere Circa 12mm Spigoli mo!ti accentuati,4,20390
 Spessore della Crosta::ottimi piatti,Spessore della Crosta,Ottimi piatti,4,20393
-Spessore della Crosta::0 7 cm,Spessore della Crosta,"0,7 cm",12,20396
 Struttura della Pasta::mista grandiosa con aree stirate,Struttura della Pasta,Mista grandiosa con aree stirate,4,20399
 Struttura della Pasta::frattura su un lato irregolare e zona stirata,Struttura della Pasta,Frattura su un lato irregolare e zona stirata,4,20400
 Struttura della Pasta::grossolana con frattura a roccia,Struttura della Pasta,Grossolana con frattura a roccia,4,20401
@@ -3561,7 +3529,6 @@ Spessore della Crosta::12 14 su 1 particolare sittocrosta aranciato,Spessore del
 Spessore della Crosta::tutta abbastanza spessa,Spessore della Crosta,Tutta abbastanza spessa,4,21760
 Spessore della Crosta::evidente diff di spessore tra le due facce,Spessore della Crosta,Evidente diff di spessore tra le due facce,4,21764
 Spessore della Crosta::9 10 più deciso su un piatto,Spessore della Crosta,9 10 più deciso su un piatto,4,21766
-Spessore della Crosta::media 10 mm,Spessore della Crosta,Media 10 mm,16,21768
 Struttura della Pasta::ruvida uno strappo e un occhio da 7mm,Struttura della Pasta,Ruvida Uno strappo e un occhio da 7mm,4,21770
 Struttura della Pasta::grana grossolana 1 frattura 2 cm e un occhio 8 mm diametro,Struttura della Pasta,Grana grossolana 1 frattura 2 cm e un occhio 8 mm diametro,4,21771
 Struttura della Pasta::ignoro spaccatura ed un occhio grana grossa ma abbastanza omogenea frattura buona,Struttura della Pasta,Ignoro spaccatura ed un occhio. Grana grossa ma abbastanza omogenea. Frattura buona,4,21773
@@ -3824,7 +3791,6 @@ Texture::sabbioso e granuloso pochi cristalli,Texture,"sabbioso e granuloso, poc
 Spessore della Crosta::dispari media 11mm,Spessore della Crosta,Dispari Media 11mm,4,23909
 Spessore della Crosta::crostone,Spessore della Crosta,Crostone,4,23911
 Spessore della Crosta::crosta fine ma con molta unghia (media 1 2 cm),Spessore della Crosta,"Crosta fine ma con molta unghia (media 1,2 cm)",4,23914
-Spessore della Crosta::oltre 1,Spessore della Crosta,Oltre 1,4,23917
 Struttura della Pasta::microocchiatura diffusa frattura non regolare disomogenea,Struttura della Pasta,Microocchiatura diffusa Frattura non regolare Disomogenea,4,23918
 Struttura della Pasta::microocchiatura effetto spugna con occhiob15 mm,Struttura della Pasta,Microocchiatura effetto spugna con occhiob15 mm,4,23919
 Struttura della Pasta::granulosa ma un poco' di venature centrali non stirato frattura buona microocchiatura finissima e diffusa,Struttura della Pasta,"Granulosa, ma un poco' di venature centrali, non stirato. Frattura buona. Microocchiatura finissima e diffusa",4,23920
@@ -3871,7 +3837,6 @@ Texture::inizialmente sabbioso fine in fine pero la bocca rimane abbastanza puli
 Spessore della Crosta::spessore dispari media 9mm,Spessore della Crosta,Spessore dispari Media 9mm,4,24118
 Spessore della Crosta::più evidente sotto 1 piatto e angoli,Spessore della Crosta,Più evidente sotto 1 piatto e angoli,4,24119
 Spessore della Crosta::1 piatto particolarmente fine,Spessore della Crosta,1 piatto particolarmente fine,4,24120
-Spessore della Crosta::0 9 cm,Spessore della Crosta,"0,9 cm",20,24123
 Spessore della Crosta::irregolare anche nel colore,Spessore della Crosta,Irregolare anche nel colore,4,24125
 Struttura della Pasta::frattura non omogenea disomogenea e granulosa,Struttura della Pasta,Frattura non omogenea Disomogenea e granulosa,4,24128
 Struttura della Pasta::frattura con gobbe e grana un poco grossolana,Struttura della Pasta,Frattura con gobbe e grana un Poco grossolana,4,24129
@@ -3919,8 +3884,6 @@ Texture::compattp e poco strutturato grana molto fine e solubile cristalli prese
 Texture::friabile granuloso discretamente solubile,Texture,"friabile, granuloso, discretamente solubile",4,24185
 Texture::cristalli alta solubilità' poca struttura,Texture,cristalli alta solubilità' poca struttura,4,24186
 Texture::grossi cristalli di tirosina il formaggio scioglie bene in bocca e sparisce in breve tempo,Texture,"Grossi cristalli di tirosina, il formaggio scioglie bene in bocca e sparisce in breve tempo",4,24187
-Spessore della Crosta::media 11mm,Spessore della Crosta,Media 11mm,8,24188
-Spessore della Crosta::1cm,Spessore della Crosta,1cm,16,24193
 Struttura della Pasta::regolare granulosa presenza microocchiatura,Struttura della Pasta,Regolare granulosa Presenza Microocchiatura,4,24198
 Struttura della Pasta::frattura molto regolare e grandiosa con cristalli piccoli e frequenti e microocchiatura p fitta in centro e su un lato,Struttura della Pasta,Frattura molto regolare e grandiosa con cristalli piccoli e frequenti e microocchiatura p fitta in centro e su un lato,4,24199
 Struttura della Pasta::buona frattura microocchiatura diffusa anche diametri superiori al mm grana omogenea e fine,Struttura della Pasta,"Buona frattura. Microocchiatura diffusa, anche diametri superiori al mm. Grana omogenea e fine",4,24200
@@ -3965,7 +3928,6 @@ Texture::poca grana pastoso poco solubile,Texture,"poca grana, pastoso, poco sol
 Texture::morbido e pastoso asciutto sembra grana giovane,Texture,"morbido e pastoso, asciutto, sembra grana giovane",4,24254
 Texture::pastoso deformabile poco friabile poca grana cedevole,Texture,"pastoso, deformabile, poco friabile, poca grana, cedevole",4,24255
 Texture::la bocca non rimane pulita,Texture,la bocca non rimane pulita,4,24257
-Spessore della Crosta::media 8mm,Spessore della Crosta,Media 8mm,16,24258
 Spessore della Crosta::più evidente su 1 lato angoli e scalzo,Spessore della Crosta,Più evidente su 1 lato angoli e scalzo,4,24259
 Spessore della Crosta::limite sfumato scalzi spessi,Spessore della Crosta,Limite sfumato. Scalzi spessi,4,24260
 Spessore della Crosta::crosta fine 08 cm ma con unghia marcata agli spigoli,Spessore della Crosta,Crosta fine 08 cm ma con unghia marcata agli spigoli,4,24263
@@ -4017,7 +3979,6 @@ Texture::abbastanza durto e cpompatto grana molto fine cristalli non percepiti u
 Texture::piuttosto compatto e poco friabile pastoso poco solubile,Texture,"piuttosto compatto e poco friabile, pastoso, poco solubile",4,24325
 Texture::inizialmente granuloso poi si scioglie bree e lascia la bocca abbastanza pulita,Texture,inizialmente granuloso poi si scioglie bree e lascia la bocca abbastanza pulita,4,24327
 Spessore della Crosta::non cosi evidente dato lo sfondo molto carico,Spessore della Crosta,Non cosi evidente dato lo sfondo molto carico,4,24329
-Spessore della Crosta::1 2 cm,Spessore della Crosta,"1,2 cm",8,24333
 Spessore della Crosta::media 1 spigoli pronunciati,Spessore della Crosta,Media 1 spigoli pronunciati,4,24336
 Struttura della Pasta::non omogenea aree stirate,Struttura della Pasta,Non omogenea aree stirate,4,24338
 Struttura della Pasta::stirata con profonde fratture,Struttura della Pasta,Stirata con profonde fratture,4,24339
@@ -4538,7 +4499,6 @@ Texture::microstruttura scarsa ma nel complesso solubile,Texture,microstruttura 
 Spessore della Crosta::scalzo e piatto media 11mm spigoli 20mm,Spessore della Crosta,Scalzo e piatto media 11mm Spigoli 20mm,4,27810
 Spessore della Crosta::12 mm ahfumata,Spessore della Crosta,12 mm ahfumata,4,27811
 Spessore della Crosta::spessa ai lati,Spessore della Crosta,Spessa ai lati,4,27813
-Spessore della Crosta::15 mm,Spessore della Crosta,15 mm,4,27815
 Spessore della Crosta::molto spessa sugli scalzi,Spessore della Crosta,"Molto spessa sugli scalzi,",4,27816
 Spessore della Crosta::grossa,Spessore della Crosta,Grossa,8,27819
 Struttura della Pasta::cedevole poco granulosa pochi microcristalli,Struttura della Pasta,"cedevole, poco granulosa, pochi microcristalli",4,27820
@@ -5141,7 +5101,6 @@ Texture::cedevole ancora umida poco granulosa,Texture,"cedevole, ancora umida, p
 Texture::manca umidità' e solubilità,Texture,manca umidità' e solubilità,4,32324
 Spessore della Crosta::colore sottocrosta sganciato sfuma verso linterno,Spessore della Crosta,Colore sottocrosta sganciato sfuma verso linterno,4,32327
 Spessore della Crosta::more superiore al cm,Spessore della Crosta,More superiore al cm,4,32328
-Spessore della Crosta::mediamente 11 mm,Spessore della Crosta,Mediamente 11 mm,4,32335
 Spessore della Crosta::spigoli pronunciati media 1,Spessore della Crosta,Spigoli pronunciati media 1,4,32336
 Struttura della Pasta::grossolana un lato stirato frattura gravemente irregolare,Struttura della Pasta,Grossolana Un lato stirato Frattura gravemente irregolare,4,32337
 Struttura della Pasta::profondi avvallamenti per frattura molto irregolare,Struttura della Pasta,Profondi avvallamenti per frattura molto irregolare,4,32338
@@ -5300,7 +5259,6 @@ Texture::asciutto asciuga e impasta la bocca ingozza,Texture,"asciutto, asciuga 
 Texture::pastoso umido poco granuloso,Texture,"pastoso, umido, poco granuloso",4,33786
 Texture::abbastanza adesivo,Texture,abbastanza adesivo,8,33788
 Spessore della Crosta::media 10mm crosta sfumata,Spessore della Crosta,Media 10mm Crosta sfumata,4,33789
-Spessore della Crosta::13 mm,Spessore della Crosta,13 mm,4,33796
 Spessore della Crosta::scalzi crosta molto spessa sopra 1 5 piatti 1spigoli molto pronunciati,Spessore della Crosta,Scalzi crosta molto spessa sopra 1.5 piatti 1spigoli molto pronunciati,4,33798
 Struttura della Pasta::irregolare parte centrale stirata,Struttura della Pasta,Irregolare Parte centrale stirata,4,33800
 Struttura della Pasta::in parte stirata e in parte spinosa per grana e microocchiature,Struttura della Pasta,In parte stirata e in parte spinosa per grana e microocchiature,4,33801
@@ -5516,7 +5474,6 @@ Sapore::sapido dolce,Sapore,"sapido, dolce.",4,35692
 Sapore::molto salato,Sapore,molto salato,4,35693
 Sapore::al palato piccante abbastanza persistente con note di amaro,Sapore,al palato piccante abbastanza persistente con note di amaro,4,35697
 Spessore della Crosta::piatto circa 10mm scalzo e spigoli circa 15mm la colorazione mattoncino imputabile alla crosta è molto sfumata e per un piatto va verso i 20mm media 11mm,Spessore della Crosta,Piatto circa 10mm Scalzo e spigoli circa 15mm La colorazione mattoncino imputabile alla crosta è molto sfumata e per un Piatto va verso i 20mm Media 11mm,4,35709
-Spessore della Crosta::mediamente 0 9,Spessore della Crosta,"Mediamente 0,9",8,35711
 Spessore della Crosta::1 1 con sottocrosta marcato,Spessore della Crosta,"1,1 con sottocrosta marcato",4,35713
 Struttura della Pasta::microocchiatura centrale diffusa struttura non omogenea,Struttura della Pasta,Microocchiatura centrale diffusa Struttura non omogenea,4,35719
 Struttura della Pasta::fitta microocchiatura inf 1 mm,Struttura della Pasta,Fitta microocchiatura inf 1 mm,4,35720
@@ -5544,7 +5501,6 @@ Sapore::amaro piuttosto evidente piccante leggero,Sapore,"amaro piuttosto eviden
 Spessore della Crosta::piatto circa 12mm scalzo circa 15mm spigoli circa 22mm media 13mm,Spessore della Crosta,Piatto circa 12mm Scalzo circa 15mm Spigoli circa 22mm Media 13mm,4,35769
 Spessore della Crosta::crosta piuttosto spessa,Spessore della Crosta,Crosta piuttosto spessa,4,35774
 Spessore della Crosta::10 km,Spessore della Crosta,10 km,8,35775
-Spessore della Crosta::11 12 mm,Spessore della Crosta,11 12 mm,4,35776
 Spessore della Crosta::piuttosto marcata,Spessore della Crosta,Piuttosto marcata,4,35777
 Spessore della Crosta::11 valore medio,Spessore della Crosta,11 valore medio,4,35778
 Struttura della Pasta::spugna centrale,Struttura della Pasta,Spugna centrale,4,35779
@@ -5577,6 +5533,7 @@ Sapore::piccante leggero ma persistente e un poco salato ma non troppo penalizza
 Spessore della Crosta::crosta molto sfumata media 12mm,Spessore della Crosta,Crosta molto sfumata Media 12mm,4,35829
 Spessore della Crosta::poco regolare,Spessore della Crosta,Poco regolare,4,35831
 Spessore della Crosta::spessore non uniforme maggiore degli scalzi nella media 10 con vistosi ingrossamento nella giunzione tra scalzo e piatto,Spessore della Crosta,"Spessore non uniforme, maggiore degli scalzi, nella media 10 con vistosi ingrossamento nella giunzione tra scalzo e piatto",4,35834
+Spessore della Crosta::10 mm,Spessore della Crosta,10 mm..,4,35838
 Struttura della Pasta::non omogenea e stirata,Struttura della Pasta,Non omogenea e stirata,4,35839
 Struttura della Pasta::stirata con occhio centrale 10 km,Struttura della Pasta,Stirata con occhio centrale 10 km,4,35840
 Struttura della Pasta::struttura granulosa omogenea,Struttura della Pasta,Struttura Granulosa omogenea,4,35844
@@ -5661,7 +5618,6 @@ Texture::morbido umido ma friabile pastoso a fine bocca,Texture,"morbido, umido 
 Texture::bella ma molto asciutto ottima presenza di granuli,Texture,"bella, ma molto asciutto...ottima presenza di granuli",4,37008
 Spessore della Crosta::0 6 su 1 lato 1 2 sull'altro,Spessore della Crosta,"0,6 su 1 lato 1,2 sull'altro",4,37011
 Spessore della Crosta::sempre sul a 1 cm,Spessore della Crosta,Sempre sul a 1 cm,4,37013
-Spessore della Crosta::circa 8 mm,Spessore della Crosta,Circa 8 mm,4,37018
 Spessore della Crosta::8 9 e chiaro,Spessore della Crosta,8 9 e chiaro,4,37019
 Spessore della Crosta::non molto spessa,Spessore della Crosta,Non molto spessa,4,37020
 Spessore della Crosta::intorno a 8 nella media,Spessore della Crosta,Intorno a 8 nella media,4,37021
@@ -5713,7 +5669,6 @@ Texture::pochi granuli consistenza e pasta media,Texture,"pochi granuli, consist
 Texture::umida anche se presenti qualche cristallo peccato l odore era buono,Texture,"umida anche se presenti qualche cristallo, peccato, l-odore era buono",4,37261
 Spessore della Crosta::12 km sottoscritta aranciato,Spessore della Crosta,12 km sottoscritta aranciato,4,37263
 Spessore della Crosta::crosta fine ma con unghia evidente di colore bruno,Spessore della Crosta,Crosta fine ma con unghia evidente di colore bruno,4,37269
-Spessore della Crosta::mediamente 11,Spessore della Crosta,Mediamente 11,4,37273
 Spessore della Crosta::fine ok spigoli,Spessore della Crosta,Fine ok spigoli,4,37274
 Struttura della Pasta::frattura abbastanza regolare e grana media su 1 lato più grossa e un poco spugnosa,Struttura della Pasta,Frattura abbastanza regolare e grana media su 1 lato più grossa e un Poco spugnosa,4,37275
 Struttura della Pasta::frattura non proprio regolare grana pronunciata e ben distribuita,Struttura della Pasta,"Frattura non proprio regolare, grana pronunciata e ben distribuita",4,37276
@@ -5928,7 +5883,6 @@ Spessore della Crosta::molto sfumato spessore minimo 11mm,Spessore della Crosta,
 Spessore della Crosta::1 colorazione che sfuma gradualmente più evidenti angoli e scalzo,Spessore della Crosta,1 colorazione che sfuma gradualmente più evidenti angoli e scalzo,4,40350
 Spessore della Crosta::limite sfumato ma crosta sempre spessa oltre il cm,Spessore della Crosta,Limite sfumato ma crosta sempre spessa oltre il cm,4,40351
 Spessore della Crosta::non regolare superiore a 1 su un piatto,Spessore della Crosta,Non regolare superiore a 1 su un piatto,4,40353
-Spessore della Crosta::11 12 cm,Spessore della Crosta,11 12 cm,4,40355
 Spessore della Crosta::molto diverso nelle differenti aree piuttosto alto comunque,Spessore della Crosta,Molto diverso nelle differenti aree...piuttosto alto comunque,4,40357
 Spessore della Crosta::scalzi un poco grossa nei fini i piatti spigoli ok,Spessore della Crosta,Scalzi Un Poco grossa nei fini i piatti spigoli ok,4,40358
 Struttura della Pasta::non omogenea con piccole aree stirate presenza microocchiatura su u a parte limitata frattura non omogenea,Struttura della Pasta,Non omogenea con piccole aree stirate Presenza microocchiatura su u a parte limitata Frattura non omogenea,4,40359
@@ -6544,7 +6498,6 @@ Texture::poco solubile molto granuloso,Texture,"poco solubile, molto granuloso",
 Spessore della Crosta::media 10mm spigoli da 18mm,Spessore della Crosta,Media 10mm Spigoli da 18mm,4,44319
 Spessore della Crosta::colore sottocrosta aranciato,Spessore della Crosta,Colore sottocrosta aranciato,4,44320
 Spessore della Crosta::non omogeneo 11 mm,Spessore della Crosta,Non omogeneo.. 11 mm,4,44329
-Spessore della Crosta::sopra 1,Spessore della Crosta,Sopra 1,4,44330
 Struttura della Pasta::occhiatura centrale granulosa tendente allo stirato,Struttura della Pasta,Occhiatura centrale Granulosa tendente allo stirato,4,44331
 Struttura della Pasta::microocchiatura centrale 1 o mm frattura regolare ma pasta con zone compatte stirata,Struttura della Pasta,"Microocchiatura centrale 1 o mm, frattura regolare ma pasta con zone compatte stirata",4,44332
 Struttura della Pasta::occhiatura che tende al grande diametro una parte della pasta è lievemente stirata altra parte grandiosa di media finezza taglio perfetto,Struttura della Pasta,"Occhiatura che tende al grande diametro. Una parte della pasta è lievemente stirata, altra parte grandiosa di media finezza. Taglio perfetto",4,44333
@@ -6714,8 +6667,6 @@ Spessore della Crosta::1 2 su 1 lato 1 4 sull'altro netto colore sottocrosta,Spe
 Spessore della Crosta::superiore ai 14 km sempre,Spessore della Crosta,"Superiore ai 14 km, sempre",2,46170
 Spessore della Crosta::disomogeneo e superiore a 10 mm,Spessore della Crosta,Disomogeneo e superiore a 10 mm,2,46171
 Spessore della Crosta::piatti sottili,Spessore della Crosta,Piatti sottili,2,46172
-Spessore della Crosta::12mm,Spessore della Crosta,12mm,2,46174
-Spessore della Crosta::10 11 mm,Spessore della Crosta,10 11 mm,2,46175
 Spessore della Crosta::crosta evidente per colore ma sottile 10mm,Spessore della Crosta,"Crosta evidente per colore, ma sottile, 10mm",2,46176
 Spessore della Crosta::non omogenea suk lati media maggiore di 1 2 cm,Spessore della Crosta,Non omogenea suk lati media maggiore di 1.2 cm,2,46177
 Struttura della Pasta::trans evidenti te ma non omogenea area con microocchiatura regolare struttura leggermente simili stirata,Struttura della Pasta,Trans evidenti te ma non omogenea Area con microocchiatura regolare Struttura leggermente simili stirata,2,46179
@@ -6758,7 +6709,6 @@ Texture::asciutto friabile grana fine,Texture,"asciutto, friabile, grana fine",2
 Spessore della Crosta::spigoli dai 15 ai 22mm piatti dai 8 ai 11mm crosta di spessore non omogeneo media 12mm il colore della crosta è evidente e con note verdi,Spessore della Crosta,Spigoli dai 15 ai 22mm Piatti dai 8 ai 11mm Crosta di spessore non omogeneo Media 12mm Il colore della crosta è evidente e con note verdi,2,46251
 Spessore della Crosta::3 lati su 4 molto spessa,Spessore della Crosta,3 lati su 4 molto spessa.,2,46254
 Spessore della Crosta::crosta di 0 5,Spessore della Crosta,"Crosta di 0,5",2,46255
-Spessore della Crosta::1 1cm,Spessore della Crosta,"1,1cm",2,46258
 Spessore della Crosta::un poco spessa 11mm,Spessore della Crosta,"Un Poco spessa, 11mm",2,46260
 Spessore della Crosta::abbastanza irregolare con media maggiore di 1 1 cm,Spessore della Crosta,Abbastanza irregolare con media maggiore di 1.1 cm,2,46261
 Struttura della Pasta::non regolare grossolana presenza di aree tendenti allo stirato,Struttura della Pasta,Non regolare Grossolana Presenza di aree tendenti allo stirato,2,46263
@@ -6903,7 +6853,6 @@ Texture::pastoso&morbido,Texture,pastoso&morbido,2,46835
 Texture::pastoso e sabbioso alla fine senza grana,Texture,"pastoso e sabbioso alla fine, senza grana",2,46838
 Spessore della Crosta::spigoli dai 15 ai 20mm piatto 9mm circa media 10mm,Spessore della Crosta,Spigoli dai 15 ai 20mm Piatto 9mm circa Media 10mm,2,46839
 Spessore della Crosta::0 7 piatti 1 5 angoli,Spessore della Crosta,"0,7 piatti 1,5 angoli",2,46840
-Spessore della Crosta::media 1cm,Spessore della Crosta,Media 1cm,2,46843
 Spessore della Crosta::abbastanza regolare,Spessore della Crosta,Abbastanza regolare,2,46844
 Spessore della Crosta::piuttosto marcata soprattutto su un lato fino a 12mm,Spessore della Crosta,"Piuttosto marcata soprattutto su un lato, fino a 12mm",2,46848
 Spessore della Crosta::su due lati ella ma sugli altri e negli angoli elevata media pari a 1,Spessore della Crosta,Su due lati ella ma sugli altri e negli angoli elevata media pari a 1,2,46849
@@ -7054,7 +7003,6 @@ Texture::poco solubile no tirosina,Texture,"poco solubile, no tirosina",4,47381
 Texture::morbito si liquefa velocemente e lascia la bocca pulitissima,Texture,"morbito, si liquefa velocemente e lascia la bocca pulitissima",4,47382
 Spessore della Crosta::1 piatto molto sottile l'altro più spesso nella parte centrale,Spessore della Crosta,"1 piatto molto sottile, l'altro più spesso nella parte centrale",4,47384
 Spessore della Crosta::1 cm di media su un piatto unghia accentuata,Spessore della Crosta,"1 cm di media, su un piatto unghia accentuata",4,47388
-Spessore della Crosta::10 12 mm,Spessore della Crosta,10-12 mm,4,47389
 Struttura della Pasta::frattura irregolare e grana non omogenea,Struttura della Pasta,Frattura irregolare e grana non omogenea,4,47391
 Struttura della Pasta::taglio irregolare lieve striature centrale,Struttura della Pasta,Taglio irregolare. Lieve striature centrale,4,47392
 Struttura della Pasta::leggermente stirata in alcuni punti,Struttura della Pasta,Leggermente stirata in alcuni punti,4,47393
@@ -7125,7 +7073,6 @@ Texture::media adesivita tirosia percepita,Texture,"media adesivita-, tirosia pe
 Texture::lascia la bocca abbastanza pulita,Texture,lascia la bocca abbastanza pulita,4,47494
 Spessore della Crosta::limite sfumato crostone,Spessore della Crosta,Limite sfumato. Crostone,4,47496
 Spessore della Crosta::unghia marcata,Spessore della Crosta,Unghia marcata,4,47500
-Spessore della Crosta::0 8 1cm,Spessore della Crosta,"0,8 - 1cm",4,47501
 Spessore della Crosta::non è sottile,Spessore della Crosta,Non è sottile,4,47502
 Struttura della Pasta::microocchiatura molto fitta on piccole fratture e grana che forma striature evidenti cristalli,Struttura della Pasta,Microocchiatura molto fitta on piccole fratture e grana che forma striature evidenti cristalli,4,47503
 Struttura della Pasta::struttura microocchiatura tagli,Struttura della Pasta,"Struttura, microocchiatura, tagli",4,47504

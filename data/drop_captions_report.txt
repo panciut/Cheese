@@ -1,4 +1,4 @@
-unique captions  : input=7758, kept=7742, dropped=16
+unique captions  : input=7705, kept=7689, dropped=16
 full rows        : input=39356, kept=39280, dropped=76 (0.19%)
 
 drops by category (full rows):
