@@ -14,7 +14,7 @@ from __future__ import annotations
 import csv
 from pathlib import Path
 
-ROOT = Path("/Users/marcopanciera/vsworkspace/Cheese/data")
+ROOT = Path(__file__).resolve().parent / "data/rewrites"
 
 # ---------------------------------------------------------------------------
 # Manual salvage map.

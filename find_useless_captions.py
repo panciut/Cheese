@@ -23,9 +23,9 @@ import re
 from collections import defaultdict
 from pathlib import Path
 
-ROOT = Path("/Users/marcopanciera/vsworkspace/Cheese")
-SRC = ROOT / "data" / "captions_unique.csv"
-OUT = ROOT / "data" / "useless_caption_candidates.txt"
+ROOT = Path(__file__).resolve().parent
+SRC = ROOT / "data" / "intermediate" / "captions_unique.csv"
+OUT = ROOT / "data" / "reports" / "useless_caption_candidates.txt"
 
 META_PATTERNS = [
     # panelist refers to scoring/themselves, not the cheese

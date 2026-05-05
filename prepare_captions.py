@@ -23,10 +23,10 @@ import unicodedata
 from collections import Counter, defaultdict
 from pathlib import Path
 
-ROOT = Path("/Users/marcopanciera/vsworkspace/Cheese")
-SRC = ROOT / "data" / "unified_dataset.csv"
-OUT_CSV = ROOT / "data" / "captions_prepared.csv"
-OUT_REPORT = ROOT / "data" / "captions_prep_report.txt"
+ROOT = Path(__file__).resolve().parent
+SRC = ROOT / "data" / "intermediate" / "unified_dataset.csv"
+OUT_CSV = ROOT / "data" / "intermediate" / "captions_prepared.csv"
+OUT_REPORT = ROOT / "data" / "reports" / "captions_prep_report.txt"
 
 # Meta-comment patterns: phrases panelists used to talk about *grading*
 # rather than describing the cheese. Tune as we inspect output.

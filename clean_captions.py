@@ -27,11 +27,11 @@ from pathlib import Path
 
 from build_vocabulary import ABBREV_MAP, TYPO_MAP
 
-ROOT = Path("/Users/marcopanciera/vsworkspace/Cheese")
-SRC = ROOT / "data" / "captions_prepared.csv"
-OUT_FULL = ROOT / "data" / "captions_pre.csv"
-OUT_UNIQUE = ROOT / "data" / "captions_unique.csv"
-OUT_REPORT = ROOT / "data" / "clean_captions_report.txt"
+ROOT = Path(__file__).resolve().parent
+SRC = ROOT / "data" / "intermediate" / "captions_prepared.csv"
+OUT_FULL = ROOT / "data" / "intermediate" / "captions_pre.csv"
+OUT_UNIQUE = ROOT / "data" / "intermediate" / "captions_unique.csv"
+OUT_REPORT = ROOT / "data" / "reports" / "clean_captions_report.txt"
 
 # Strip stray markup like *fermentate*, leading/trailing punctuation noise.
 ASTERISK_RE = re.compile(r"\*+")

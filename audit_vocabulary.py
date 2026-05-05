@@ -22,7 +22,7 @@ import re
 from collections import defaultdict
 from pathlib import Path
 
-ROOT = Path("/Users/marcopanciera/vsworkspace/Cheese")
+ROOT = Path(__file__).resolve().parent
 SRC = ROOT / "data" / "vocabulary" / "vocabulary.csv"
 OUT = ROOT / "data" / "vocabulary" / "_audit.txt"
 

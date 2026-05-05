@@ -23,7 +23,7 @@ import unicodedata
 from collections import Counter, defaultdict
 from pathlib import Path
 
-ROOT = Path("/Users/marcopanciera/vsworkspace/Cheese")
+ROOT = Path(__file__).resolve().parent
 SRC = ROOT / "data" / "captions_prepared.csv"
 OUT_DIR = ROOT / "data" / "vocabulary"
 TOP_N = 200          # top lemmas per attribute

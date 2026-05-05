@@ -27,13 +27,13 @@ import re
 from collections import Counter
 from pathlib import Path
 
-ROOT = Path("/Users/marcopanciera/vsworkspace/Cheese")
-SRC_PRE = ROOT / "data" / "captions_pre.csv"
-SRC_UNIQUE = ROOT / "data" / "captions_unique.csv"
-OUT_REWRITE = ROOT / "data" / "captions_to_rewrite.csv"
-OUT_FULL = ROOT / "data" / "captions_pre_filtered.csv"
-OUT_DROPPED = ROOT / "data" / "dropped_captions.csv"
-OUT_REPORT = ROOT / "data" / "drop_captions_report.txt"
+ROOT = Path(__file__).resolve().parent
+SRC_PRE = ROOT / "data" / "intermediate" / "captions_pre.csv"
+SRC_UNIQUE = ROOT / "data" / "intermediate" / "captions_unique.csv"
+OUT_REWRITE = ROOT / "data" / "intermediate" / "captions_to_rewrite.csv"
+OUT_FULL = ROOT / "data" / "intermediate" / "captions_pre_filtered.csv"
+OUT_DROPPED = ROOT / "data" / "intermediate" / "dropped_captions.csv"
+OUT_REPORT = ROOT / "data" / "reports" / "drop_captions_report.txt"
 
 # (a) pure evaluatives — judgment without descriptor
 PURE_EVAL = {

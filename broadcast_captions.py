@@ -20,10 +20,11 @@ import csv
 from collections import Counter
 from pathlib import Path
 
-ROOT = Path("/Users/marcopanciera/vsworkspace/Cheese")
-SRC_FULL = ROOT / "data" / "captions_pre_filtered.csv"
-OUT_CSV = ROOT / "data" / "captions_final.csv"
-OUT_REPORT = ROOT / "data" / "captions_final_report.txt"
+ROOT = Path(__file__).resolve().parent
+SRC_FULL = ROOT / "data" / "intermediate" / "captions_pre_filtered.csv"
+REWRITES_DIR = ROOT / "data" / "rewrites"
+OUT_CSV = ROOT / "data" / "final" / "captions_final.csv"
+OUT_REPORT = ROOT / "data" / "reports" / "captions_final_report.txt"
 
 ATTR_FILES = {
     "Profumo": "rewrites_Profumo.csv",
@@ -40,7 +41,7 @@ def main() -> None:
     # 1. Build dedup_key -> caption_clean lookup from per-attribute rewrites
     lookup: dict[str, str] = {}
     for attr, fname in ATTR_FILES.items():
-        path = ROOT / "data" / fname
+        path = REWRITES_DIR / fname
         for r in csv.DictReader(path.open()):
             lookup[r["dedup_key"]] = r["caption_clean"]
     print(f"loaded {len(lookup)} cleaned captions across {len(ATTR_FILES)} attributes")

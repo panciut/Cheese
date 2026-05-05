@@ -38,8 +38,9 @@ from pilot_rewrite import load_api_key
 from rewrite_prompt import ATTRIBUTE_CONFIG, build_system_prompt, build_user_prompt
 
 MODEL = "claude-haiku-4-5"
-ROOT = Path("/Users/marcopanciera/vsworkspace/Cheese")
-SRC = ROOT / "data" / "captions_to_rewrite.csv"
+ROOT = Path(__file__).resolve().parent
+SRC = ROOT / "data" / "intermediate" / "captions_to_rewrite.csv"
+REWRITES_DIR = ROOT / "data" / "rewrites"
 BATCH_DIR = ROOT / "data" / "batches"
 
 
@@ -165,8 +166,8 @@ def fetch_and_write(client: anthropic.Anthropic, batch_id: str) -> None:
     ]
     for attr, rows in by_attr_rows.items():
         slug = attr.replace(" ", "_")
-        out_csv = ROOT / "data" / f"rewrites_{slug}.csv"
-        out_review = ROOT / "data" / f"review_{slug}.txt"
+        out_csv = REWRITES_DIR / f"rewrites_{slug}.csv"
+        out_review = REWRITES_DIR / f"review_{slug}.txt"
 
         with out_csv.open("w", newline="") as fh:
             w = csv.DictWriter(fh, fieldnames=cols)

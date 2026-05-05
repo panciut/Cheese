@@ -27,8 +27,9 @@ import anthropic
 from pilot_rewrite import load_api_key, rewrite_one
 from rewrite_prompt import ATTRIBUTE_CONFIG
 
-ROOT = Path("/Users/marcopanciera/vsworkspace/Cheese")
-SRC = ROOT / "data" / "captions_to_rewrite.csv"
+ROOT = Path(__file__).resolve().parent
+SRC = ROOT / "data" / "intermediate" / "captions_to_rewrite.csv"
+REWRITES_DIR = ROOT / "data" / "rewrites"
 
 MODEL = "claude-haiku-4-5"
 
@@ -71,8 +72,8 @@ def main() -> None:
     t0 = time.monotonic()
 
     slug = args.attribute.replace(" ", "_")
-    out_csv = ROOT / "data" / f"rewrites_{slug}.csv"
-    out_review = ROOT / "data" / f"review_{slug}.txt"
+    out_csv = REWRITES_DIR / f"rewrites_{slug}.csv"
+    out_review = REWRITES_DIR / f"review_{slug}.txt"
 
     cols = [
         "dedup_key", "attribute", "caption_pre", "caption_clean",

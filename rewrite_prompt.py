@@ -24,7 +24,7 @@ from __future__ import annotations
 import csv
 from pathlib import Path
 
-ROOT = Path("/Users/marcopanciera/vsworkspace/Cheese")
+ROOT = Path(__file__).resolve().parent
 VOCAB_DIR = ROOT / "data" / "vocabulary"
 
 # ---------------------------------------------------------------------------

@@ -50,10 +50,10 @@ def load_api_key() -> str:
         )
     return key
 
-ROOT = Path("/Users/marcopanciera/vsworkspace/Cheese")
-SRC = ROOT / "data" / "captions_to_rewrite.csv"
-OUT_CSV = ROOT / "data" / "pilot_rewrites.csv"
-OUT_REVIEW = ROOT / "data" / "pilot_review.txt"
+ROOT = Path(__file__).resolve().parent
+SRC = ROOT / "data" / "intermediate" / "captions_to_rewrite.csv"
+OUT_CSV = ROOT / "data" / "reports" / "pilot_rewrites.csv"
+OUT_REVIEW = ROOT / "data" / "reports" / "pilot_review.txt"
 
 MODEL = "claude-haiku-4-5"
 MAX_WORKERS = 3

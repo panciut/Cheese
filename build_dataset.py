@@ -19,12 +19,12 @@ from pathlib import Path
 
 import openpyxl
 
-ROOT = Path("/Users/marcopanciera/vsworkspace/Cheese/data")
+ROOT = Path(__file__).resolve().parent / "data"
 IMG_ROOT = ROOT / "TrentinGrana"
 COMM_DIR = ROOT / "GT commenti liberi"
 CODIF_DIR = COMM_DIR / "codifiche"
 FLAT_DIR = ROOT / "images_flat"
-OUT = ROOT / "unified_dataset.csv"
+OUT = ROOT / "intermediate" / "unified_dataset.csv"
 
 
 def flat_name(rel_under_imgroot: Path) -> str:
