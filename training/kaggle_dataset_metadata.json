@@ -1,0 +1,10 @@
+{
+  "title": "Trentingrana Captioning",
+  "id": "panciut/cheese-trentingrana",
+  "licenses": [
+    {
+      "name": "CC0-1.0"
+    }
+  ],
+  "description": "Cleaned image-caption training data for Trentingrana cheese (AI4FQC project 07). Step 1 deliverables from github.com/panciut/Cheese."
+}

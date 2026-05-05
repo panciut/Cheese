@@ -15,13 +15,16 @@ All three take **paired Fetta + Grana** views per sample (98.5% of
 our wheel-photo positions have both). For the 1.5% missing one view,
 the dataset substitutes a zero tensor.
 
-## Setup
+## Where this trains
 
-```bash
-python -m venv .venv
-source .venv/bin/activate
-pip install -r training/requirements.txt
-```
+**Training runs on Kaggle, not locally.** Local install is not needed.
+
+The training code is fully relative-pathed so the same scripts work on
+any machine. On Kaggle, the typical setup is to clone this repo into
+`/kaggle/working/cheese/` and symlink `/kaggle/input/<dataset>/data`
+to `/kaggle/working/cheese/data`.
+
+`training/kaggle_run.py` automates that — see below.
 
 ## Pipeline
 
@@ -104,6 +107,46 @@ class.
 | m3 | 30 epochs, batch 16, lr 1e-4 | 20 epochs, batch 4, lr 5e-5 |
 
 All defaults can be overridden via `--epochs`, `--batch-size`, `--lr`.
+
+## Kaggle workflow
+
+Quick recipe for running on a Kaggle GPU kernel (T4 or better):
+
+1. **Upload the dataset.** Treat `data/final/` and `data/images_flat/`
+   as the Kaggle dataset payload. The JSON metadata is in
+   `training/kaggle_dataset_metadata.json` (slug:
+   `panciut/cheese-trentingrana`).
+
+   ```bash
+   # Locally, from the repo root:
+   kaggle datasets create -p data/ -m "initial release"
+   # or for updates:
+   kaggle datasets version -p data/ -m "rerun"
+   ```
+
+2. **Add the dataset and a copy of this repo** to the Kaggle notebook.
+   Either clone via `git clone https://github.com/panciut/Cheese`
+   or upload the repo as a second utility dataset.
+
+3. **In the Kaggle notebook**:
+
+   ```python
+   !cp -r /kaggle/working/Cheese /kaggle/working/cheese
+   !python /kaggle/working/cheese/training/kaggle_run.py \
+       --models m1 m2 m3 \
+       --attributo all \
+       --caption-column caption_sentence
+   ```
+
+   `kaggle_run.py` will:
+   - Auto-detect the dataset under `/kaggle/input/`
+   - Symlink `data/` into the project so paths resolve
+   - Run `prepare_data` if the dataset CSV / splits aren't there yet
+   - Train each model in turn
+
+4. **Output**: `training/runs/<model>/<attribute>/` is written to
+   `/kaggle/working/`, so it ends up in the kernel output zip
+   automatically.
 
 ## Notes on the data
 
