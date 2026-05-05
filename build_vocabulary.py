@@ -47,7 +47,62 @@ oppure piuttosto soprattutto solo solamente assai certamente forse magari
 sempre mai talvolta spesso raramente
 sa è era erano stato stata stati state
 ce ne lì già senza ovviamente ovvio quindi cioè dunque allora
+comunque però quindi tuttavia però perciò pertanto inoltre infine invece
+all bel ben mc no vs avv inf ali sol mn sei due fa fin ce
+on ok bei però c'è all'
 """.split())
+
+# units / quantitative — never enter vocabulary (must be qualitatised)
+UNIT_TOKENS = {"mm", "cm", "m", "kg", "g", "%", "ml", "km", "mt", "mts", "cms"}
+
+# Common abbreviation / dialect → canonical Italian. Applied before tokenising
+# so the vocabulary reflects the canonical surface form.
+ABBREV_MAP = {
+    "po'": "poco", "po": "poco",
+    "legg.": "leggermente", "leg.": "leggermente",
+    "legg": "leggermente", "leg": "leggermente",
+    "abb.": "abbastanza", "abb": "abbastanza",
+    "comunq": "comunque", "qualc": "qualche",
+    "perch'": "perché", "perche'": "perché", "perchè": "perché", "perche": "perché",
+    "piu'": "più", "piu": "più", "pi": "più",
+    "tend.": "tendente",
+}
+
+# Hand-curated typo corrections found in the audit pass.
+TYPO_MAP = {
+    "microcchiatura": "microocchiatura",
+    "microocchitura": "microocchiatura",
+    "granoloso": "granuloso",
+    "granolosa": "granulosa",
+    "ecquilibrato": "equilibrato",
+    "ecquilibrata": "equilibrata",
+    "umani": "umami",          # only on the Sapore axis is this safe
+    "potrrebbe": "potrebbe",
+    "florale": "floreale",
+    "lievee": "lieve",
+    "moderatae": "moderata",
+    "discretae": "discreta",
+    "regolaree": "regolare",
+    "regolaee": "regolare",
+    "crosts": "crosta",
+    "color": "colore",
+    "intensit": "intensità",
+    "sapidit": "sapidità",
+    "solubilit": "solubilità",
+    "friabilit": "friabilità",
+    "umidit": "umidità",
+    "acidit": "acidità",
+    "intensita": "intensità",
+    "sapidita": "sapidità",
+    "solubilita": "solubilità",
+    "friabilita": "friabilità",
+    "umidita": "umidità",
+    "acidita": "acidità",
+}
+
+# Accent-restoration: surface forms missing the final accent or using an
+# apostrophe instead. Applied if the accented form is attested in the corpus.
+ACCENT_RESTORE_SUFFIXES = ("ita", "ita'", "it'", "ità")  # canonical = -ità
 
 # extra noise / single-letter / digits handled by min length filter
 WORD_RE = re.compile(r"[a-zàèéìòù']+", re.IGNORECASE)
@@ -57,8 +112,39 @@ def normalize(s: str) -> str:
     return unicodedata.normalize("NFC", s).lower()
 
 
+def expand_abbrev(tok: str) -> str:
+    return ABBREV_MAP.get(tok, TYPO_MAP.get(tok, tok))
+
+
 def tokenize(s: str) -> list[str]:
-    return [t for t in WORD_RE.findall(normalize(s)) if len(t) > 1]
+    raw = WORD_RE.findall(normalize(s))
+    out: list[str] = []
+    for t in raw:
+        # strip stray apostrophes used as accent: "intensit'" -> "intensit"
+        t_clean = t.strip("'")
+        # canonicalize via abbreviation/typo maps
+        t_clean = expand_abbrev(t_clean)
+        # drop pure-numeric / digit-bearing tokens
+        if any(ch.isdigit() for ch in t_clean):
+            continue
+        # drop unit-only tokens — must be qualitatised at LLM step
+        if t_clean.lower() in UNIT_TOKENS:
+            continue
+        # drop ultra-short noise (kept length>2 to lose "po", "no", "ok", "ce")
+        if len(t_clean) <= 2:
+            continue
+        out.append(t_clean)
+    return out
+
+
+def restore_accent(tok: str, attested: set[str]) -> str:
+    """Map e.g. 'intensita' / 'intensit' / 'intensita\\'' to 'intensità'
+    when 'intensità' is in the corpus."""
+    if tok.endswith("ita") and (tok[:-3] + "ità") in attested:
+        return tok[:-3] + "ità"
+    if tok.endswith("it") and (tok + "à") in attested:
+        return tok + "à"
+    return tok
 
 
 # ---------- Italian suffix-based lemmatizer (deliberately simple) ----------
@@ -133,17 +219,14 @@ SPECIAL = {
 
 
 def base_stem(tok: str) -> str:
-    """First-pass stem: only SPECIAL + adverb -mente. Conservative.
+    """First-pass stem: SPECIAL only.
 
-    Italian generic suffix stripping is unreliable (panna→panno, latte→latto)
-    so we leave non-SPECIAL tokens as-is here. The merge_inflections step
-    below joins plural↔singular only when both surface forms are attested.
+    Generic Italian suffix stripping is unreliable (panna→panno, latte→latto,
+    leggermente→legger?) so we lean on the SPECIAL dict + corpus-driven
+    plural/singular merging in `merge_inflections`. Adverbs in -mente are
+    left as their own surface form.
     """
-    if tok in SPECIAL:
-        return SPECIAL[tok]
-    if tok.endswith("mente") and len(tok) > 6:
-        return tok[:-5] + "e"
-    return tok
+    return SPECIAL.get(tok, tok)
 
 
 def merge_inflections(counts: Counter[str]) -> tuple[Counter[str], dict[str, list[str]]]:
@@ -177,16 +260,51 @@ def merge_inflections(counts: Counter[str]) -> tuple[Counter[str], dict[str, lis
         if tok in SPECIAL or tok != canon[tok]:
             continue
         candidates: list[str] = []
-        if tok.endswith("i") and len(tok) > 4:
-            candidates += [tok[:-1] + "o", tok[:-1] + "e"]
-        if tok.endswith("e") and len(tok) > 4:
-            candidates += [tok[:-1] + "a"]
-        if tok.endswith("a") and len(tok) > 4:
-            candidates += [tok[:-1] + "o"]
+        # 1) participle group -ato/-ata/-ati/-ate (and -uto/-ito families)
+        for plural, singular in (
+            ("ata", "ato"), ("ati", "ato"), ("ate", "ato"),
+            ("uta", "uto"), ("uti", "uto"), ("ute", "uto"),
+            ("ita", "ito"), ("iti", "ito"), ("ite", "ito"),
+        ):
+            if tok.endswith(plural) and len(tok) - len(plural) >= 3:
+                candidates.append(tok[: -len(plural)] + singular)
+        # 2) generic -o/-a/-i/-e adjective family → -o canonical
+        if len(tok) >= 4 and tok[-1] in "aie":
+            candidates.append(tok[:-1] + "o")
+        # 3) -io masculine nouns: plural in -i drops final -o
+        if tok.endswith("i") and len(tok) >= 4:
+            candidates.append(tok + "o")          # tagli -> taglio
+            candidates.append(tok[:-1] + "e")     # latti -> latte (kept from before)
+        # 4) -e plural feminine: try -a singular
+        if tok.endswith("e") and len(tok) >= 4:
+            candidates.append(tok[:-1] + "a")     # zone -> zona
+        # 5) apocopated forms: buon -> buono, sottil -> sottile, nessun -> nessuna
+        if tok.endswith(("an", "in", "on", "un", "il", "el", "al", "er", "ar")):
+            for v in "oea":
+                candidates.append(tok + v)
+
         for cand in candidates:
-            if cand in canon and cand != tok:
+            if cand in canon and cand != tok and canon[cand] != canon[tok]:
                 union(canon[tok], canon[cand])
                 break
+
+    # Second pass: cluster by shared stem (final vowel removed) for tokens
+    # that share an inflection family even when the masculine-singular
+    # canonical form isn't attested (e.g. spessa/spessi without spesso).
+    by_stem: dict[str, list[str]] = defaultdict(list)
+    for tok in counts:
+        if tok in SPECIAL:
+            continue
+        if len(tok) >= 4 and tok[-1] in "oaie":
+            by_stem[tok[:-1]].append(tok)
+    for _stem, members in by_stem.items():
+        members = sorted(set(members), key=lambda m: -counts[canon[m]])
+        if len(members) < 2:
+            continue
+        winner = members[0]
+        for m in members[1:]:
+            if canon[m] != canon[winner]:
+                union(canon[m], canon[winner])
 
     new_counts: Counter[str] = Counter()
     for surf, c in counts.items():
@@ -211,7 +329,11 @@ def main():
 
     for attr in sorted(by_attr_uni):
         toks = by_attr_uni[attr]
-        # surface counts after SPECIAL/-mente normalization
+        attested = set(toks)
+        # accent restoration uses the attested set
+        toks = [restore_accent(t, attested) for t in toks]
+        attested = set(toks)
+        # surface counts after SPECIAL/abbrev/typo/accent normalization
         surface_count: Counter[str] = Counter()
         original_for: dict[str, Counter[str]] = defaultdict(Counter)
         for t in toks:
@@ -234,7 +356,8 @@ def main():
         # bigrams: use post-normalization stems for both tokens
         bigram_count: Counter[tuple[str, str]] = Counter()
         for caption_toks in by_attr_cap[attr]:
-            stems = [base_stem(t) for t in caption_toks]
+            normed = [restore_accent(t, attested) for t in caption_toks]
+            stems = [base_stem(t) for t in normed]
             for a, b in zip(stems, stems[1:]):
                 if a in STOP or b in STOP:
                     continue

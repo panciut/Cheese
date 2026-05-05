@@ -1,92 +1,84 @@
 # Controlled vocabulary — Sapore
-# total tokens (incl stopwords): 25526
-# unique lemmas (>= 3): 510
+# total tokens (incl stopwords): 23296
+# unique lemmas (>= 3): 469
 # format: <count>	<canonical>	<surface forms (most frequent first)>
 
 1773	piccante	piccante, piccanti
 1697	salato	salato, salata, salate, salati
 1287	amaro	amaro, amara, amare
 1021	dolce	dolce, dolci
-910	umami	umami
+946	umami	umami
 863	acido	acido, acida, acide, acidi
-764	equilibrato	equilibrato, equilibrati, equilibrata, equilibrate
-346	sapido	sapido
+804	equilibrato	equilibrato, equilibrati, equilibrata, equilibrate
+354	sapido	sapido, sapide, sapida
 332	nota	nota, note
 324	leggero	leggero, leggera, leggere, leggeri
+272	sapidità	sapidità
 242	piccantezza	piccantezza
-232	sale	sale
-218	medio	medio
-204	po	po
+234	sale	sale, sal
+222	medio	medio, medi
 188	finale	finale, finali
-186	leg	leg
-182	legg	legg
-170	po'	po'
-162	sapidit'	sapidit'
 154	equilibrio	equilibrio
 146	pungente	pungente
 144	sapore	sapore, sapori
-136	intensità	intensità
+140	intensità	intensità
 129	punta	punta, punte
+126	buon	buon, buona, buono
 122	prevalente	prevalente, prevalenti
 108	dolcezza	dolcezza
 104	manca	manca
 102	complesso	complesso
+100	alta	alta, alto
 98	pieno	pieno
 98	marcato	marcato, marcata
 96	lieve	lieve
-94	buon	buon
 92	persistente	persistente, persistenti
 92	bassa	bassa, basso, bassi
 86	gusti	gusti, gusto
 85	tendente	tendente
+84	amarognolo	amarognolo, amarognole, amarognola
 84	forte	forte, forti
-80	alta	alta
-76	amarognolo	amarognolo
+80	acidità	acidità
 72	scarno	scarno
 72	bruciante	bruciante
 72	contenuta	contenuta, contenuto, contenuti
+70	dolciastro	dolciastro, dolciastre, dolciastra
 68	intenso	intenso, intensi
 67	saporito	saporito
-66	sapidità	sapidità
+66	elevata	elevata, elevati
 64	percepibile	percepibile, percepibili
 64	evidente	evidente, evidenti
 62	presente	presente, presenti
-58	elevata	elevata
+58	nessuna	nessuna, nessun
 58	pizzica	pizzica
 56	eccessivo	eccessivo, eccessiva, eccessivi
-56	iniziale	iniziale, inizialmente
-54	ok	ok
 52	gola	gola
 52	grana	grana
 52	resto	resto
 50	acre	acre
 50	lingua	lingua
 50	formaggio	formaggio
-44	umani	umani, umano
 44	eccesso	eccesso, eccessi
 44	prevale	prevale
 44	acidulo	acidulo
 44	neutro	neutro
 44	moderato	moderato, moderata
-42	nessuna	nessuna
 42	accentuati	accentuati, accentuato
-42	dolciastro	dolciastro
 40	percepito	percepito, percepiti, percepita
-40	ecquilibrato	ecquilibrato
 38	nulla	nulla, nullo
 36	pochetto	pochetto
 36	peccato	peccato
 36	nostrano	nostrano
-36	ben	ben
+36	iniziale	iniziale
 36	sbilanciato	sbilanciato, sbilanciati
 34	prevalenza	prevalenza
 34	piacevole	piacevole, piacevoli
+34	altre	altre, altri, altro
 32	allappante	allappante
 32	grasso	grasso, grassa
 32	all'acido	all'acido
 32	crosta	crosta
-32	buona	buona, buono
-32	lievee	lievemente
+32	lievemente	lievemente
 32	assente	assente
 32	squilibrato	squilibrato
 32	subito	subito
@@ -100,9 +92,7 @@
 28	leggerissimo	leggerissimo, leggerissima
 28	delicato	delicato
 28	cotto	cotto
-28	dolciastre	dolciastre, dolciastra
 28	negativo	negativo, negativi, negativa
-26	però	però
 26	piccantino	piccantino, piccantina
 24	pienezza	pienezza
 24	debole	debole
@@ -110,9 +100,8 @@
 24	scarsa	scarsa, scarso
 24	positivo	positivo, positiva, positivi
 24	segue	segue
-24	sapidita	sapidita
+24	percepisco	percepisco, percepisce
 23	deciso	deciso
-21	no	no
 20	sensazioni	sensazioni, sensazione
 20	piatto	piatto
 20	domina	domina
@@ -120,44 +109,35 @@
 20	prevalgono	prevalgono
 20	percettibile	percettibile, percettibili
 20	tendenza	tendenza
-20	acidit'	acidit'
-20	abb	abb
 20	niente	niente
 20	armonico	armonico, armonici
+20	inizialmente	inizialmente
 20	spicca	spicca
 20	all'amaro	all'amaro
-20	acidita	acidita
 20	bilanciato	bilanciato
 20	carico	carico
-20	alto	alto
 20	equilib	equilib
 18	contrasto	contrasto
 18	tanto	tanto
 18	incompleto	incompleto
-18	altri	altri, altro
 16	sgradevole	sgradevole, sgradevoli
 16	leggermete	leggermete
-16	praticae	praticamente
+16	praticamente	praticamente
 16	equlibrato	equlibrato
-16	acidità	acidità
 16	inizia	inizia, inizio
+16	perché	perché
 16	sovrasta	sovrasta
-16	nessun	nessun
-16	acidit	acidit
-16	percepisco	percepisco
-16	altre	altre
 16	rispetto	rispetto
 14	carattere	carattere
 14	persiste	persiste
 14	poca	poca
 14	armonia	armonia
 14	sento	sento
-14	all	all
 14	vecchio	vecchio
-14	piu'	piu'
 12	bella	bella, bello
 12	persistenza	persistenza
 12	piccola	piccola, piccole
+12	vero	vero, vere
 12	pronto	pronto
 12	dominano	dominano
 12	importante	importante
@@ -172,34 +152,54 @@
 12	porzione	porzione, porzioni
 12	tende	tende
 12	carente	carente
-12	legere	legermente
+12	legermente	legermente
 12	equi	equi
 12	esagerato	esagerato, esagerati
 12	povero	povero
-12	fin	fin
 12	salatissimo	salatissimo
 12	tollerabile	tollerabile
 12	eccede	eccede
 12	accento	accento
-12	sapidita'	sapidita'
 12	picante	picante
 12	latte	latte
 12	bruciato	bruciato
-12	c'è	c'è
 12	percezione	percezione
 12	diverse	diverse
 12	fastidioso	fastidioso, fastidiosi
 12	salatino	salatino
 12	seguita	seguita
 10	esaltato	esaltato
-10	comunque	comunque
 8	strano	strano
+8	umano	umano
 8	spiccano	spiccano
 8	brucia	brucia
 8	punge	punge
 8	penso	penso
+8	par	par, pare
 8	percepire	percepire
 8	amati	amati
 8	acerbo	acerbo
-8	vero	vero
 8	accennati	accennati
+8	miami	miami
+8	emerge	emerge
+8	scriverlo	scriverlo
+8	fresco	fresco
+8	mesi	mesi
+8	sciapo	sciapo
+8	nettamente	nettamente
+8	bene	bene
+8	esce	esce
+8	coda	coda
+8	consistenze	consistenze, consistenza
+8	bilanciamento	bilanciamento
+8	adeguati	adeguati, adeguato
+8	norma	norma
+8	panna	panna
+8	burro	burro
+8	male	male
+8	motlo	motlo
+8	salatura	salatura
+8	pezzi	pezzi, pezzo
+8	leggerm	leggerm
+8	legggermente	legggermente
+8	presenza	presenza

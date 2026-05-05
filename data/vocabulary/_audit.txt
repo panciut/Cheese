@@ -1,0 +1,138 @@
+# Vocabulary audit
+
+## 1. Quantitative / unit tokens (must be stripped or qualitatised)
+
+
+## 2. Very short tokens (≤3 chars) — likely abbreviations
+
+### Profumo
+      36  mou                                            surfaces: mou
+      24  uht                                            surfaces: uht
+
+### Sapore
+       8  par                                            surfaces: par, pare
+
+### Spessore della Crosta
+       4  tre                                            surfaces: tre
+
+
+## 3. Probable un-merged inflection pairs (same attribute)
+    suggests the corpus-merge heuristic missed them.
+
+### Profumo
+     918  latte                <-> lattee              
+
+
+## 4. Near-duplicate lemmas (edit distance 1) — typos or sg/pl missed
+
+### Aroma
+     204  fuso                 ≈ fumo                
+
+### Colore della Pasta
+    2004  carico               ≈ scarico             
+     555  rosa                 ≈ rossa               
+      56  lato                 ≈ dato                
+      30  grossa               ≈ rossa               
+
+### Profumo
+     918  latte                ≈ lattee              
+      72  sgradevole           ≈ gradevole           
+
+### Sapore
+     836  equilibrato          ≈ squilibrato         
+      56  sbilanciato          ≈ bilanciato          
+
+### Spessore della Crosta
+     184  lato                 ≈ dato                
+      52  fondo                ≈ sfondo              
+      44  alto                 ≈ altro               
+      21  tende                ≈ tenue               
+
+### Struttura della Pasta
+     614  bella                ≈ bolla               
+     468  grossa               ≈ grassa              
+     156  altre                ≈ oltre               
+
+### Texture
+      50  elastico             ≈ plastico            
+
+
+## 5. Lemmas appearing in many attributes (informational)
+
+  7× leggero              attrs: Aroma, Colore della Pasta, Profumo, Sapore, Spessore della Crosta, Struttura della Pasta, Texture
+  7× grana                attrs: Aroma, Colore della Pasta, Profumo, Sapore, Spessore della Crosta, Struttura della Pasta, Texture
+  7× complesso            attrs: Aroma, Colore della Pasta, Profumo, Sapore, Spessore della Crosta, Struttura della Pasta, Texture
+  6× tratti               attrs: Aroma, Colore della Pasta, Profumo, Spessore della Crosta, Struttura della Pasta, Texture
+  6× tendente             attrs: Colore della Pasta, Profumo, Sapore, Spessore della Crosta, Struttura della Pasta, Texture
+  6× piatto               attrs: Aroma, Colore della Pasta, Profumo, Sapore, Spessore della Crosta, Struttura della Pasta
+  6× medio                attrs: Aroma, Colore della Pasta, Profumo, Sapore, Spessore della Crosta, Texture
+  6× intensità            attrs: Aroma, Colore della Pasta, Profumo, Sapore, Spessore della Crosta, Texture
+  6× crosta               attrs: Aroma, Colore della Pasta, Profumo, Sapore, Spessore della Crosta, Struttura della Pasta
+  5× tende                attrs: Colore della Pasta, Sapore, Spessore della Crosta, Struttura della Pasta, Texture
+  5× resto                attrs: Colore della Pasta, Profumo, Sapore, Spessore della Crosta, Struttura della Pasta
+  5× presenza             attrs: Colore della Pasta, Profumo, Sapore, Struttura della Pasta, Texture
+  5× presente             attrs: Aroma, Colore della Pasta, Sapore, Spessore della Crosta, Struttura della Pasta
+  5× peccato              attrs: Profumo, Sapore, Spessore della Crosta, Struttura della Pasta, Texture
+  5× pasta                attrs: Aroma, Colore della Pasta, Spessore della Crosta, Struttura della Pasta, Texture
+  5× nota                 attrs: Aroma, Colore della Pasta, Profumo, Sapore, Spessore della Crosta
+  5× mediamente           attrs: Aroma, Colore della Pasta, Profumo, Spessore della Crosta, Texture
+  5× lieve                attrs: Aroma, Colore della Pasta, Profumo, Sapore, Struttura della Pasta
+  5× intenso              attrs: Aroma, Colore della Pasta, Profumo, Sapore, Spessore della Crosta
+  5× forte                attrs: Aroma, Profumo, Sapore, Struttura della Pasta, Texture
+  5× evidente             attrs: Colore della Pasta, Profumo, Sapore, Spessore della Crosta, Struttura della Pasta
+  4× strano               attrs: Aroma, Profumo, Sapore, Texture
+  4× stagionato           attrs: Aroma, Profumo, Sapore, Texture
+  4× sento                attrs: Aroma, Profumo, Sapore, Texture
+  4× secco                attrs: Aroma, Profumo, Struttura della Pasta, Texture
+  4× qualche              attrs: Colore della Pasta, Profumo, Struttura della Pasta, Texture
+  4× pochi                attrs: Colore della Pasta, Profumo, Struttura della Pasta, Texture
+  4× poca                 attrs: Profumo, Sapore, Struttura della Pasta, Texture
+  4× piacevole            attrs: Aroma, Profumo, Sapore, Texture
+  4× pezzi                attrs: Aroma, Profumo, Sapore, Texture
+  4× perché               attrs: Colore della Pasta, Profumo, Sapore, Spessore della Crosta
+  4× nostrano             attrs: Aroma, Profumo, Sapore, Texture
+  4× meno                 attrs: Aroma, Colore della Pasta, Spessore della Crosta, Struttura della Pasta
+  4× grasso               attrs: Aroma, Profumo, Sapore, Texture
+  4× fresco               attrs: Aroma, Profumo, Sapore, Texture
+  4× frattura             attrs: Colore della Pasta, Spessore della Crosta, Struttura della Pasta, Texture
+  4× formaggio            attrs: Aroma, Profumo, Sapore, Texture
+  4× equilibrato          attrs: Aroma, Profumo, Sapore, Texture
+  4× discreta             attrs: Aroma, Profumo, Struttura della Pasta, Texture
+  4× cristallo            attrs: Aroma, Colore della Pasta, Struttura della Pasta, Texture
+
+
+## 6. Top 30 lemmas per attribute (style snapshot)
+
+Aroma               | Colore della Pasta | Profumo           | Sapore           | Spessore della Crosta | Struttura della Pasta | Texture            
+--------------------+--------------------+-------------------+------------------+-----------------------+-----------------------+--------------------
+cotto(1136)         | carico(1968)       | cotto(1156)       | piccante(1773)   | piatto(750)           | frattura(2265)        | cristallo(1598)    
+burro(546)          | chiaro(1468)       | burro(968)        | salato(1697)     | scalzo(492)           | grana(1924)           | solubile(1100)     
+formaggio(538)      | alone(1445)        | latte(848)        | amaro(1287)      | spessa(386)           | stirata(1486)         | asciutto(1084)     
+crosta(490)         | omogeneo(1228)     | nota(778)         | dolce(1021)      | colore(342)           | microocchiatura(1221) | granuloso(866)     
+nota(472)           | giallo(1038)       | leggero(742)      | umami(946)       | crosta(340)           | regolare(1004)        | friabile(778)      
+latte(430)          | centrale(936)      | panna(670)        | acido(863)       | spigoli(310)          | centrale(934)         | morbido(714)       
+lattico(412)        | centro(764)        | intenso(600)      | equilibrato(804) | sottile(298)          | omogeneo(752)         | pastoso(626)       
+panna(372)          | colore(643)        | intensità(554)    | sapido(354)      | sfumata(268)          | struttura(735)        | grana(480)         
+brodo(354)          | scuro(606)         | vegetale(508)     | nota(332)        | sottocrosta(230)      | occhiatura(706)       | umido(463)         
+grana(314)          | rosa(541)          | brodo(468)        | leggero(324)     | evidente(196)         | zona(651)             | pochi(398)         
+leggero(294)        | piatto(531)        | crosta(390)       | sapidità(272)    | angoli(190)           | grossolano(602)       | bocca(370)         
+tostato(240)        | paglierino(520)    | fermentato(372)   | piccantezza(242) | lato(164)             | piccole(580)          | compatto(334)      
+fermentato(206)     | macchia(510)       | tostato(356)      | sale(234)        | spessore(132)         | bella(576)            | solubilità(290)    
+fuso(188)           | rosato(439)        | formaggio(352)    | medio(222)       | unghia(132)           | occhio(548)           | friabilità(280)    
+animale(178)        | leggero(336)       | fuso(350)         | finale(188)      | marcata(130)          | granuloso(538)        | microstruttura(276)
+vegetale(168)       | zona(318)          | sentore(300)      | equilibrio(154)  | regolare(128)         | centro(532)           | duro(268)          
+aroma(148)          | uniforme(318)      | frutta(274)       | pungente(146)    | grossa(108)           | diffusa(514)          | buona(264)         
+intensità(138)      | tendente(278)      | fresco(250)       | sapore(144)      | carico(100)           | fessura(479)          | cedevole(254)      
+bruciato(138)       | scalzi(189)        | lattico(250)      | intensità(140)   | mediamente(98)        | irregolare(438)       | tirosina(240)      
+piacevole(137)      | fascia(188)        | moderata(244)     | punta(129)       | negli(92)             | grossa(432)           | lascia(216)        
+sentore(132)        | grigio(170)        | fruttato(238)     | buon(126)        | medio(86)             | presenza(424)         | poca(212)          
+frutta(128)         | intenso(152)       | odore(210)        | prevalente(122)  | chiaro(82)            | qualche(384)          | struttura(198)     
+tipico(124)         | evidente(149)      | bruciato(198)     | dolcezza(108)    | pronunciati(80)       | presente(348)         | presenti(182)      
+caratteristico(116) | saturo(142)        | animale(196)      | manca(104)       | diverso(76)           | pasta(335)            | sabbioso(176)      
+ossidato(114)       | aree(124)          | grana(194)        | complesso(102)   | omogeneo(66)          | micro(334)            | impasta(174)       
+carne(110)          | tende(120)         | ossidato(170)     | alta(100)        | disomogenea(60)       | piatto(327)           | adesivo(172)       
+complesso(108)      | nocciola(112)      | all'apertura(168) | pieno(98)        | superiore(60)         | striature(308)        | granuli(168)       
+intenso(96)         | grigiastro(96)     | buona(158)        | marcato(98)      | belli(56)             | cristallo(273)        | presenza(158)      
+naso(90)            | verde(94)          | complesso(152)    | lieve(96)        | meno(54)              | strappo(258)          | residuo(140)       
+acido(80)           | qualche(90)        | verdura(144)      | persistente(92)  | buoni(48)             | parte(256)            | tende(132)         
+

@@ -1,6 +1,6 @@
 # Controlled vocabulary — Colore della Pasta
-# total tokens (incl stopwords): 29696
-# unique lemmas (>= 3): 438
+# total tokens (incl stopwords): 26285
+# unique lemmas (>= 3): 402
 # format: <count>	<canonical>	<surface forms (most frequent first)>
 
 1968	carico	carico, carica
@@ -8,9 +8,9 @@
 1445	alone	alone, aloni
 1228	omogeneo	omogeneo, omogenea, omogenee
 1038	giallo	giallo, gialla, gialle
-952	centrale	centrale, centrali, centralmente
+936	centrale	centrale, centrali
 764	centro	centro
-623	colore	colore, colori
+643	colore	colore, colori
 606	scuro	scuro, scura, scure, scuri
 541	rosa	rosa
 531	piatto	piatto, piatti
@@ -18,20 +18,18 @@
 510	macchia	macchia, macchie
 439	rosato	rosato, rosata, rosate, rosati
 336	leggero	leggero, leggera, leggere, leggeri
+318	zona	zona, zone
 318	uniforme	uniforme
 278	tendente	tendente, tendenti
 189	scalzi	scalzi, scalzo
 188	fascia	fascia, fascie
-162	zona	zona
-158	grigio	grigio, grigia, grigie
-156	zone	zone
+170	grigio	grigio, grigia, grigie, grigi, grige
 152	intenso	intenso, intensa
 149	evidente	evidente, evidenti
 142	saturo	saturo, satura, sature
-138	po'	po'
+124	aree	aree, area
 120	tende	tende
 112	nocciola	nocciola
-96	aree	aree
 96	grigiastro	grigiastro, grigiastre, grigiastra
 94	verde	verde, verdi
 90	qualche	qualche
@@ -41,11 +39,11 @@
 84	disomogeneo	disomogeneo, disomogenea
 80	presenza	presenza
 80	bianco	bianco, bianca
+78	bello	bello, belle, bella
 78	pasta	pasta
 76	sfumatura	sfumatura, sfumature
-70	bello	bello
+72	arancio	arancio
 70	colorazione	colorazione
-68	arancio	arancio
 64	marcato	marcato, marcata
 58	piccola	piccola, piccolo, piccole, piccoli
 56	aranciato	aranciato, aranciata
@@ -53,56 +51,47 @@
 51	frattura	frattura
 48	unif	unif
 46	bordi	bordi, bordo
-46	due	due
-46	abb	abb
 45	grande	grande
+44	verdognole	verdognole, verdognolo, verdognoli, verdognola
 44	sottocrosta	sottocrosta
 44	medio	medio
 42	striscia	striscia
-42	cm	cm
 40	riflessi	riflessi, riflesso
 40	verdastra	verdastra, verdastro, verdastri, verdastre
 40	leggerissima	leggerissima, leggerissimo
-40	omogeneae	omogeneamente
+40	omogeneamente	omogeneamente
 40	tonalità	tonalità
-40	tendenziale	tendenzialmente
-38	bel	bel
+40	tendenzialmente	tendenzialmente
 38	chiazza	chiazza, chiazze
+38	lato	lato, lati
 38	resto	resto
+36	marrone	marrone, marroni, marron
 36	scarico	scarico
-36	po	po
-34	comunque	comunque
+32	netto	netto, nette
 32	bruno	bruno, bruna
 32	accentuato	accentuato, accentuata, accentuate
-32	marrone	marrone, marroni
 32	l'esterno	l'esterno
 32	sfumato	sfumato, sfumata, sfumate
 32	base	base
 30	angoli	angoli, angolo
-28	netto	netto
-28	area	area
-28	verdognole	verdognole, verdognola
 28	pallido	pallido
-28	vs	vs
+28	diverse	diverse, diverso, diversa
 28	anello	anello
 26	visibile	visibile, visibili
 26	presente	presente, presenta
-24	lievee	lievemente
+24	lievemente	lievemente
 24	interna	interna, interno
 24	risata	risata, risate
 24	fasce	fasce
 24	banda	banda
+23	vistose	vistose, vistoso
 22	voto	voto
-22	lato	lato
-22	mediae	mediamente
+22	mediamente	mediamente
 21	corrispondenza	corrispondenza
 20	certe	certe
 20	proprio	proprio
 20	disidratata	disidratata, disidratato
-20	laterale	laterale, lateralmente
-20	color	color
 20	biancastra	biancastra, biancastro
-20	diverse	diverse, diversa
 20	distribuito	distribuito
 20	degradante	degradante
 20	cristallo	cristalli
@@ -110,61 +99,55 @@
 20	deciso	deciso, decisa
 20	difetto	difetto, difetti
 20	regolare	regolare
+18	dato	dato, dati
 18	ossidato	ossidato
 18	tratti	tratti
-16	verdognolo	verdognolo, verdognoli
 16	lievissimo	lievissimo
 16	grossa	grossa, grosso, grosse
-16	lati	lati
 16	sganciato	sganciato
-16	eccessivae	eccessivamente
+16	eccessivamente	eccessivamente
 16	dove	dove
-16	generale	generalmente, generale
 16	macchioline	macchioline, macchiolina
 16	tendenza	tendenza
 16	vedere	vedere
 16	esterna	esterna, esterno
 16	taglio	taglio
 16	bianchi	bianchi
-16	decisae	decisamente
+16	decisamente	decisamente
 16	sottoposta	sottoposta, sottoposto
+16	centralmente	centralmente
 16	porzione	porzione
 16	forma	forma
+16	diffusa	diffusa, diffusi
 16	prossimità	prossimità
-15	vistose	vistose
-14	dato	dato
 14	rossa	rossa
 14	struttura	struttura
-14	nettae	nettamente
+14	nettamente	nettamente
 14	fessura	fessure, fessura
+12	laterale	laterale
 12	arancione	arancione, arancioni
 12	dubbio	dubbio, dubbia
-12	all	all
 12	ampio	ampio, ampia
 12	disomogeneità	disomogeneità
+12	microocchiatura	microocchiatura
 12	irregolare	irregolare
-12	on	on
 12	alcune	alcune
-12	avv	avv
+12	generalmente	generalmente
 12	superficie	superficie
 12	faccia	faccia
-12	pi	pi
 12	velature	velature, velatura
 12	numerose	numerose, numerosi
 12	nota	note, nota
 12	spugnosa	spugnosa, spugnose
-12	legg	legg
 12	effetto	effetto
-12	mm	mm
 12	rossastra	rossastra, rossastre
 12	sicura	sicura, sicuro
-12	piu	piu
+12	grana	grana, grani
 12	enorme	enorme
 12	intensità	intensità
 12	alonato	alonato, alonata
-12	diffusa	diffusa
 12	rossiccio	rossiccio
-12	grigi	grigi, grige
+12	fitta	fitta, fitti
 12	considerate	considerate, considerata, considerato
 12	muffa	muffa
 11	longitudinale	longitudinale, longitudinali
@@ -174,16 +157,14 @@
 10	meno	meno
 10	fondo	fondo
 10	buono	buono, buona
-8	belle	belle, bella
 8	cuore	cuore
 8	neri	neri
 8	cipria	cipria
-8	particolare	particolarmente
+8	particolarmente	particolarmente
 8	spostato	spostato
+8	colorata	colorata, colorati
 8	accennati	accennati, accennato
 8	pochi	pochi, poche
-8	microocchitura	microocchitura
-8	c'è	c'è
 8	tono	tono
 8	allungata	allungata
 8	rodata	rodata
@@ -193,9 +174,9 @@
 8	positiva	positiva, positivo
 8	rottura	rottura
 8	degli	degli
-8	estremae	estremamente
-8	maggiore	maggiore, maggiormente
+8	estremamente	estremamente
 8	occhiatura	occhiatura
+8	gessate	gessate, gessato
 8	strappo	strappo
 8	differenze	differenze, differenza
 8	ombre	ombre
@@ -203,3 +184,22 @@
 8	sfondo	sfondo
 8	importanti	importanti, importante
 8	occhio	occhio
+8	sottopiatto	sottopiatto
+8	parallela	parallela
+8	perché	perché
+8	segno	segno
+8	coltello	coltello
+8	metà	metà
+8	lateralmente	lateralmente
+8	complesso	complesso
+8	rosacea	rosacea, rosaceo
+8	alterata	alterata
+8	vistosamente	vistosamente
+8	fittà	fittà
+8	microcch	microcch
+8	abbiamo	abbiamo
+8	allaltro	allaltro
+8	perfettamente	perfettamente
+8	arrangiato	arrangiato
+8	sfuma	sfuma
+8	potenziale	potenziale

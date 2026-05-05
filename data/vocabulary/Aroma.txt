@@ -1,29 +1,29 @@
 # Controlled vocabulary — Aroma
-# total tokens (incl stopwords): 17154
-# unique lemmas (>= 3): 541
+# total tokens (incl stopwords): 15186
+# unique lemmas (>= 3): 506
 # format: <count>	<canonical>	<surface forms (most frequent first)>
 
 1136	cotto	cotto, cotti, cotta, cotte
 546	burro	burro
-532	formaggio	formaggio
+538	formaggio	formaggio, formaggi
 490	crosta	crosta
 472	nota	note, nota
-426	latte	latte
+430	latte	latte, latto
 412	lattico	lattico, lattici, lattiche, lattica
 372	panna	panna
 354	brodo	brodo, brodi
-310	grana	grana
-290	leggero	leggero, leggera, leggeri, leggere
+314	grana	grana, gran
+294	leggero	leggero, leggera, leggeri, leggere, legger
 240	tostato	tostato, tostati, tostate
 206	fermentato	fermentato, fermentata, fermentate
 188	fuso	fuso
 178	animale	animale, animali
 168	vegetale	vegetale, vegetali
 148	aroma	aroma, aromi
+138	intensità	intensità
 138	bruciato	bruciato, bruciata
 137	piacevole	piacevole, piacevoli
 132	sentore	sentore, sentori
-130	intensità	intensità
 128	frutta	frutta
 124	tipico	tipico, tipici, tipica
 116	caratteristico	caratteristico, caratteristici
@@ -34,20 +34,20 @@
 90	naso	naso
 80	acido	acido, acida, acide
 80	stantio	stantio
+80	fruttato	fruttato, fruttate, fruttata
 76	nostrano	nostrano
 72	amaro	amare, amara, amari, amaro
 68	stalla	stalla
-62	po	po
 60	fresco	fresco, fresca, freschi
 60	lieve	lieve, lievi
 60	vecchio	vecchio, vecchia
 58	forte	forte, forti
 52	fieno	fieno
+52	alta	alta, alto
+52	erbe	erbe, erba
 50	gradevole	gradevole, gradevoli
 50	secco	secca, secco
 48	verdura	verdura, verdure
-48	fruttato	fruttato
-48	erbe	erbe
 47	persistente	persistente, persistenti
 44	sapone	sapone
 42	equilibrato	equilibrato
@@ -57,8 +57,8 @@
 38	grasso	grasso
 38	positivo	positivo, positivi
 36	prevalenti	prevalenti, prevalente
+36	buona	buona, buono, buon, buone
 36	neutro	neutro
-36	alta	alta
 36	lessa	lessa, lesso, lesse
 34	glutammato	glutammato
 34	strano	strano, strana
@@ -67,17 +67,13 @@
 32	leggerissimo	leggerissimo, leggerissima
 32	torna	torna
 32	passato	passato
-32	fruttate	fruttate, fruttata
 32	provolone	provolone
 32	metallico	metallico
 32	matura	matura, maturo
 28	dado	dado
 28	meno	meno
-28	buona	buona, buono, buone
 28	caramello	caramello, caramella
 28	piccante	piccante
-28	comunque	comunque
-28	legg	legg
 28	erbaceo	erbaceo, erbacei
 28	resta	resta, resto
 26	nocciola	nocciola
@@ -88,9 +84,9 @@
 26	caratteristiche	caratteristiche
 24	yogurt	yogurt
 24	dominante	dominante
-24	po'	po'
+24	sento	sento, sente
 24	minestrone	minestrone
-24	pi	pi
+22	evoluto	evoluto, evolute
 22	scarico	scarico
 20	prima	prima, primo
 20	finale	finale, finali
@@ -99,9 +95,10 @@
 20	gorgonzola	gorgonzola
 20	marcio	marcio
 20	trentingrana	trentingrana
+20	altri	altri, altro, altre
 20	debole	debole
 20	rancido	rancido
-20	principale	principalmente
+20	principalmente	principalmente
 20	rispetto	rispetto
 20	punta	punta, punte
 20	sedano	sedano
@@ -115,29 +112,23 @@
 16	ananas	ananas
 16	tanta	tanta, tanto
 16	fumo	fumo
-16	evoluto	evoluto
 16	decisi	decisi, deciso
 16	tropicale	tropicale
-16	sento	sento
-16	altri	altri, altro
 16	tratti	tratti
-16	iniziale	inizialmente, iniziale
 16	pasta	pasta
 16	odore	odore, odori
 16	putrido	putrido
+16	sentiti	sentiti, sentita, sentite, sentito
 16	piatto	piatto
 16	affumicato	affumicato
 16	fermentazione	fermentazione
 16	ritorna	ritorna
 16	tostatura	tostatura
-16	alto	alto
-16	all	all
 16	olfatto	olfatto
 16	subito	subito
 14	proposito	proposito
 14	bella	bella
 14	difettoso	difettoso
-14	piu	piu
 14	tornano	tornano
 14	fungo	fungo
 14	legna	legna, legno
@@ -155,7 +146,8 @@
 12	cavolfiore	cavolfiore
 12	olfazione	olfazione
 12	sciolto	sciolto
-12	mediae	mediamente
+12	mediamente	mediamente
+12	inizialmente	inizialmente
 12	meglio	meglio
 12	stagionato	stagionato
 12	povero	povero
@@ -164,7 +156,6 @@
 12	aromatiche	aromatiche
 12	emmenthal	emmenthal
 12	umami	umami
-12	particolare	particolarmente, particolare
 12	confermo	confermo, conferma
 12	proprionica	proprionica
 12	mentolato	mentolato
@@ -190,11 +181,9 @@
 8	riuscita	riuscita
 8	dolciastro	dolciastro
 8	dare	dare
-8	all'	all'
 8	anonimo	anonimo
 8	cristallo	cristalli
 8	texture	texture
-8	sente	sente
 8	flebile	flebile
 8	pessimo	pessimo
 8	all'aroma	all'aroma
@@ -203,3 +192,14 @@
 8	leggemrente	leggemrente
 8	balsamico	balsamico
 8	tipo	tipo
+8	propioniche	propioniche
+8	pulita	pulita, pulito
+8	negativa	negativa, negativo
+8	legge	legge
+8	acqua	acqua
+8	nasali	nasali, nasale
+8	manca	manca
+8	cantina	cantina
+8	discreta	discreta
+8	lascia	lascia
+8	coda	coda

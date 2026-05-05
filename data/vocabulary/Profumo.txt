@@ -1,23 +1,23 @@
 # Controlled vocabulary — Profumo
-# total tokens (incl stopwords): 27068
-# unique lemmas (>= 3): 681
+# total tokens (incl stopwords): 24600
+# unique lemmas (>= 3): 637
 # format: <count>	<canonical>	<surface forms (most frequent first)>
 
 1156	cotto	cotto, cotti, cotta, cotte
 968	burro	burro
-844	latte	latte
+848	latte	latte, latto
 778	nota	note, nota
-738	leggero	leggero, leggera, leggeri, leggere
+742	leggero	leggero, leggera, leggeri, leggere, legger
 670	panna	panna, panne
 600	intenso	intenso, intensi, intensa, intense
+554	intensità	intensità
 508	vegetale	vegetale, vegetali
 468	brodo	brodo
-440	intensità	intensità
 390	crosta	crosta, croste
 372	fermentato	fermentato, fermentata, fermentate, fermentati
 356	tostato	tostato, tostati, tostata, tostate
+352	formaggio	formaggio, formaggi
 350	fuso	fuso
-348	formaggio	formaggio
 300	sentore	sentore, sentori
 274	frutta	frutta
 250	fresco	fresco, freschi, fresca, fresche
@@ -35,78 +35,69 @@
 144	verdura	verdura, verdure
 142	fieno	fieno
 142	pungente	pungente, pungenti
-134	pezzi	pezzi, pezzo
+138	pezzi	pezzi, pezzo, pezze
 132	lieve	lieve, lievi
+132	floreale	floreale, floreali
 130	acido	acido, acida, acidi
 120	matura	matura, mature, maturi, maturo
 116	profumo	profumo, profumi
+116	positivo	positivo, positivi, positive
 114	stalla	stalla
 108	pane	pane
-108	positivo	positivo, positivi
 102	prima	prima, primo, prime
 102	tostatura	tostatura
+100	negativo	negativo, negative, negativi, negativa
 96	lessa	lessa, lesse, lesso
 94	forte	forte, forti
 94	nocciola	nocciola
-88	floreale	floreale, floreali
-84	legg	legg
+84	delicato	delicato, delicate, delicata
 82	sciolto	sciolto
 80	debole	debole, deboli
 80	secco	secca, secco
 78	stantio	stantio
-76	negativo	negativo, negativi
 76	caramello	caramello, caramella
-76	delicato	delicato
-74	po	po
 72	carne	carne, carna
 70	caratteristico	caratteristico
+70	lattee	lattee, lattei, lattea, latteo
 70	tipico	tipico, tipici, tipica
 68	equilibrato	equilibrato
-68	intensita'	intensita'
+68	alta	alta, alto
 68	insilato	insilato, insilati
 66	nostrano	nostrano
 64	difetti	difetti, difetto
-64	florale	florale, florali
-64	alta	alta
 64	balsamico	balsamico
 62	apertura	apertura
 56	peccato	peccato
 56	cipolla	cipolla
 56	medio	medio
-56	po'	po'
 54	marcio	marcio
 52	mela	mela
 52	prevalente	prevalente, prevalenti
-52	all	all
 50	kiwi	kiwi
 50	fermentazione	fermentazione
 50	ananas	ananas
 50	putrido	putrido
-48	iniziale	iniziale, inizialmente
 48	crudo	crudo, crudi
 46	crauti	crauti
+46	altro	altro, altri, altre
 46	dominante	dominante, dominanti
-46	lattee	lattee, lattea
 44	bassa	bassa
 44	piacevole	piacevole, piacevoli
-44	altro	altro, altri
 44	yogurt	yogurt
 44	cacao	cacao
 44	caffè	caffè
-42	leg	leg
 40	olfazione	olfazione
 40	liquirizia	liquirizia
 40	difettoso	difettoso
 40	tropicale	tropicale
 40	percettibile	percettibile
 40	cuoio	cuoio
-38	particolare	particolare, particolari, particolarmente
+36	sento	sento, sente
 36	elegante	elegante
+36	iniziale	iniziale
 36	mou	mou
-36	no	no
 36	sgradevole	sgradevole
 36	gradevole	gradevole
-36	decisi	decisi, deciso, decisa, decismente
 36	erbaceo	erbaceo, erbacei, erbacea
 34	all'inizio	all'inizio
 34	strano	strano, strani
@@ -116,14 +107,14 @@
 32	stagnante	stagnante
 32	chiuso	chiuso
 32	sporchi	sporchi, sporche
-32	mediae	mediamente
+32	decisi	decisi, deciso, decisa
+32	mediamente	mediamente
 32	pozzo	pozzo
 32	dolce	dolce, dolci
+32	erba	erba, erbe
 32	evidente	evidente, evidenti
 30	stagionato	stagionato, stagionati
-30	intensit'	intensit'
 30	porzione	porzione, porzioni
-28	comunque	comunque
 28	tanto	tanto, tanta, tanti
 28	vaniglia	vaniglia
 28	poca	poca
@@ -132,32 +123,34 @@
 28	resto	resto, resta
 28	caratteristiche	caratteristiche
 28	piatto	piatto
+28	teli	teli, tele, tela
+28	particolare	particolare, particolari
 28	scarico	scarico
 26	anomalo	anomalo
 26	sedano	sedano
 26	lettiera	lettiera
 26	tratti	tratti
 26	propionico	propionico, propionica
+26	dolciastro	dolciastro, dolciastre, dolciastra
 24	polvere	polvere
 24	paglia	paglia
 24	gomma	gomma
 24	pochi	pochi, poche
 24	cavolfiore	cavolfiore
-24	lattei	lattei, latteo
 24	speziato	speziato, speziati
 24	base	base
 24	impercettibile	impercettibile
 24	oltre	oltre
 24	uht	uht
 24	rottura	rottura
-24	negative	negative, negativa
+22	discreta	discreta, discreti
 22	vecchio	vecchio, vecchia
 22	sporco	sporco, sporca
 22	muffa	muffa
 22	puzza	puzza
 20	impatto	impatto
 20	ricorda	ricorda, ricordo
-20	sento	sento
+20	perché	perché
 20	grasso	grasso, grassi
 20	pannoso	pannoso, pannosi
 20	voto	voto
@@ -167,19 +160,16 @@
 20	fungo	fungo
 20	qualche	qualche
 20	tendente	tendente, tendenti
-20	teli	teli
+20	florali	florali
 20	latticini	latticini
 20	intero	intero
-20	erba	erba
 20	passata	passata, passato
 20	fumo	fumo
 18	alcol	alcol
 18	pesca	pesca, pesce
-18	discreta	discreta
 18	emmental	emmental
 18	aroma	aroma, aromi
 16	ottimo	ottimo, ottima, ottimi
-16	sente	sente
 16	povero	povero
 16	sfumatura	sfumatura
 16	solvente	solvente
@@ -194,12 +184,22 @@
 16	eucalipto	eucalipto
 16	yogurth	yogurth
 16	punte	punte, punta
-16	intensita	intensita
 16	letame	letame
 16	burroso	burroso
 14	tipo	tipo
 14	occasione	occasione
-14	fa	fa
 14	difettato	difettato
 14	confetteria	confetteria
 14	spezzando	spezzando
+14	pulito	pulito
+14	miele	miele
+12	banana	banana
+12	presenza	presenza
+12	qualcosa	qualcosa
+12	funghi	funghi
+12	muschio	muschio
+12	raffreddato	raffreddato
+12	trentingrana	trentingrana
+12	spiacevole	spiacevole
+12	plastica	plastica
+12	legno	legno

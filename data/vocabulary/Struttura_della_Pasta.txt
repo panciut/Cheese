@@ -1,37 +1,34 @@
 # Controlled vocabulary — Struttura della Pasta
-# total tokens (incl stopwords): 47480
-# unique lemmas (>= 3): 834
+# total tokens (incl stopwords): 41676
+# unique lemmas (>= 3): 778
 # format: <count>	<canonical>	<surface forms (most frequent first)>
 
 2265	frattura	frattura, fratture
-1920	grana	grana, grani, grane, grano
+1924	grana	grana, grani, grane, grano, gran
 1486	stirata	stirata, stirato, stirate, stirati
+1221	microocchiatura	microocchiatura, microocchiature
 1004	regolare	regolare, regolari
-968	centrale	centrale, centrali, centralmente
-923	microocchiatura	microocchiatura, microocchiature
+934	centrale	centrale, centrali, central
 752	omogeneo	omogenea, omogeneo, omogenee
 735	struttura	struttura, strutture
 706	occhiatura	occhiatura, occhiature
+651	zona	zona, zone
 602	grossolano	grossolana, grossolano, grossolani
+580	piccole	piccole, piccola, piccoli, piccolo
 576	bella	bella, bello, belli, belle
 548	occhio	occhio, occhi
-534	granuloso	granulosa, granuloso, granulose
+538	granuloso	granulosa, granuloso, granulose
 532	centro	centro
 514	diffusa	diffusa, diffuse, diffusi
 479	fessura	fessura, fessure
 438	irregolare	irregolare
 432	grossa	grossa, grosse, grossi, grosso
 424	presenza	presenza
-392	mm	mm
 384	qualche	qualche
-382	piccole	piccole, piccola
-352	cm	cm
 348	presente	presente, presenti, presenta
 335	pasta	pasta
 334	micro	micro
 327	piatto	piatto, piatta, piatti
-326	zona	zona
-325	zone	zone
 308	striature	striature, striatura
 273	cristallo	cristalli, cristallo
 258	strappo	strappo, strappi
@@ -39,26 +36,22 @@
 255	evidente	evidente, evidenti
 252	disomogenea	disomogenea, disomogeneo
 242	leggero	leggera, leggero, leggere, leggeri
+240	buona	buona, buon, buono, buoni
+234	area	area, aree
 228	grande	grande, grandi
-216	buona	buona, buono, buoni
 201	tratti	tratti
-198	piccoli	piccoli, piccolo
 192	spugnosa	spugnosa, spugnoso, spugnose
-182	microcchiatura	microcchiatura, microcchiature
+184	taglio	taglio, tagli
 182	forma	forma, forme
-180	microocchitura	microocchitura, microocchiture
-174	area	area
 170	grandiosa	grandiosa, grandioso
-164	taglio	taglio
 141	spacco	spacco
 136	tendente	tendente, tendenti
-134	po'	po'
 130	diversa	diversa, diverse, diversi, diverso
 122	ruvida	ruvida, ruvido, ruvide
-120	po	po
 118	lato	lato
+114	fitta	fitta, fitti
 112	peccato	peccato
-110	fitta	fitta
+108	altre	altre, altri, altra, altro
 106	tende	tende
 106	stiratura	stiratura, stirature
 104	metà	metà
@@ -69,15 +62,13 @@
 98	compatta	compatta, compatto, compatte
 98	spaccatura	spaccatura, spaccature
 98	microocch	microocch
-96	ben	ben
 94	disidratata	disidratata, disidratato, disidratate
 92	molte	molte, molti, molta
 90	discreta	discreta, discreto
 84	striato	striato, striata, striati
 84	sfoglia	sfoglia, sfoglie
+83	profonde	profonde, profonda, profondi, profondo
 82	scalzo	scalzo, scalzi
-82	due	due
-82	ok	ok
 76	formata	formata
 76	ampia	ampia, ampie
 74	enorme	enorme, enormi
@@ -87,34 +78,32 @@
 66	punti	punti
 66	profilata	profilata, profilate
 64	asciutta	asciutta, asciutto
-64	altre	altre, altra
 62	effetto	effetto
 62	spagnola	spagnola, spagnole
 62	pochi	pochi, poche
-60	aree	aree
+60	microcchiature	microcchiature
 60	friabile	friabile
-59	profonde	profonde, profonda
 58	meno	meno
 58	dimensioni	dimensioni, dimensione
 56	poca	poca
 56	brutta	brutta
 56	gessata	gessata, gessato, gessate
 56	solubile	solubile
-54	visibili	visibili, visibile, visibilmente
 54	tante	tante, tanti, tanta
 54	lieve	lieve, lievi
 54	bocciatura	bocciatura, bocciature
 53	interna	interna, interne, interno
 52	impugnatura	impugnatura
+50	visibili	visibili, visibile
 50	umido	umido, umida, umide
 49	aspetto	aspetto
+48	rada	rada, rade
 48	difetti	difetti, difetto
 48	oltre	oltre
 48	bellissima	bellissima
 46	fascia	fascia
 44	spugnatura	spugnatura
 44	spinosa	spinosa, spinoso
-44	altri	altri, altro
 44	assenza	assenza
 42	macchia	macchie, macchia
 42	uniforme	uniforme
@@ -126,21 +115,25 @@
 40	granulare	granulare
 40	dittatura	dittatura
 38	sottocrosta	sottocrosta
+38	centralmente	centralmente
 38	bolla	bolla, bolle
+36	mista	mista, misti
 36	grassa	grassa
-36	rada	rada
 36	forte	forte, forti
 36	angolo	angolo, angoli
+36	concentrata	concentrata, concentrati, concentrate
 36	troppe	troppe, troppa
 36	localizzata	localizzata, localizzate
 36	assente	assente
 36	definita	definita
 36	disomogeneità	disomogeneità
 34	complesso	complesso
-34	comunque	comunque
 34	numerosi	numerosi, numerose
+34	certa	certa, certi, certe
 32	ottima	ottima, ottimo
-32	mista	mista
+32	sparse	sparse, sparso, sparsi, sparsa
+31	proprio	proprio, proprie, propria
+30	piccolissime	piccolissime, piccolissima, piccolissimo
 28	mezza	mezza, mezzo
 28	scarsa	scarsa, scarso
 28	slegata	slegata
@@ -151,31 +144,27 @@
 28	arrotondata	arrotondata
 28	difettosa	difettosa
 28	tirosina	tirosina
+28	friabilità	friabilità
+28	solubilità	solubilità
 26	trascurabile	trascurabile
 26	sbrinz	sbrinz
-26	piccolissime	piccolissime, piccolissima
 25	sviluppata	sviluppata
+24	granulosità	granulosità
 24	strana	strana, strano, strani
 24	crosta	crosta
 24	grappoli	grappoli, grappolo
-24	particolare	particolare, particolari, particolarmente
 24	spigolo	spigolo, spigoli
-24	bel	bel
-24	on	on
+24	netta	netta, netti
 24	secco	secca, secco
-24	profondi	profondi, profondo
 24	vicino	vicino
 24	direzione	direzione, direzioni
 24	scagliosa	scagliosa, scaglioso
 24	decisa	decisa, deciso
-24	inf	inf
 24	pronunciata	pronunciata, pronunciate
-24	buon	buon
 24	finissima	finissima
 24	andamenti	andamenti, andamento
 24	morbido	morbido
-23	proprio	proprio
-22	perfettae	perfettamente
+22	perfettamente	perfettamente
 22	cuore	cuore
 22	periferia	periferia
 22	importante	importante, importanti
@@ -191,11 +180,7 @@
 20	disidratazione	disidratazione
 20	estesa	estesa, estese
 20	fenditure	fenditure, fenditura
-20	concentrati	concentrati, concentrate
-20	netta	netta
-20	c'è	c'è
-20	tagli	tagli
-20	certa	certa
+20	particolare	particolare, particolari
 20	inregolare	inregolare
 20	rosa	rosa
 20	tendenza	tendenza
@@ -203,3 +188,18 @@
 20	perfetto	perfetto, perfetta
 20	microocchio	microocchio
 20	liscia	liscia
+20	variabile	variabile
+20	positiva	positiva, positivo
+20	lunga	lunga
+20	cedevole	cedevole
+20	duro	duro, dura
+20	moderata	moderata, moderati, moderato, moderate
+20	microcristalli	microcristalli
+20	pastoso	pastoso
+18	copre	copre
+17	segno	segno
+17	compromessa	compromessa
+16	tipo	tipo
+16	meta	meta
+16	evoluta	evoluta
+16	linea	linea, linee
