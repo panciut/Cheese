@@ -592,19 +592,359 @@ The LLM (Haiku 4.5) will be called once per unique caption, then the
 output is broadcast back to all matching rows in
 `captions_pre_filtered.csv` via the `dedup_key`.
 
-## 8. Repo state
+## 8. LLM rewrite phase — `rewrite_prompt.py`, `rewrite_batch.py`
+
+The cleaned 7,742 unique captions from §7 were rewritten by Claude Haiku 4.5
+through the Anthropic Batch API, producing per-attribute training tables.
+
+### 8.1 Prompt design — `rewrite_prompt.py`
+
+One system prompt is generated per attribute, combining:
+
+1. **Role + dataset framing** — "esperto di analisi sensoriale del
+   Trentingrana".
+2. **ATTRIBUTE label** with a one-line description of what the attribute
+   covers.
+3. **STYLE template** anchoring output shape: `Profumo …`, `Aroma …`,
+   `Sapore …`, `Texture …` / `In bocca …`, `Crosta …`, `Pasta …`,
+   `Pasta di colore …`.
+4. **11 numbered cleaning rules** (see below).
+5. **Optional per-attribute extra rules** (e.g. the mm/cm thickness
+   table for Spessore della Crosta).
+6. **Top-60 controlled vocabulary** lemmas from `data/vocabulary/`,
+   presented as "preferisci questi termini quando applicabili".
+7. **Hand-curated multi-word idioms** (`CURATED_BIGRAMS` in
+   `rewrite_prompt.py`) — replaces the auto-extracted bigram files
+   which contained co-occurrence artifacts (e.g. `panna burro` from
+   comma-separated panelist lists).
+8. **6 few-shot examples per attribute**, drawn from real captions in
+   the dataset, deliberately covering: single-word fragments,
+   telegraphic notes, negations, interrogatives, mixed
+   meta+descriptor, abbreviations, embedded measurements (Spessore
+   only).
+
+The 11 rules:
+
+1. Conserve all sensory information **pertinent to the declared
+   attribute**; ignore observations about other attributes.
+2. Convert quantitative descriptions (mm, cm, %, numeric ranges) to
+   qualitative descriptors. The output must contain no digits or
+   units.
+3. Expand abbreviations: `leg./legg.` → `leggermente`, `po'/po` →
+   `poco`, `abb.` → `abbastanza`, `tend.` → `tendente`.
+4. Reformulate dialect/colloquial/telegraphic phrasing into neutral
+   standard Italian.
+5. Reduce synonyms to the controlled vocabulary when the source has
+   an equivalent term.
+6. **Zero invention.** Never introduce sensory descriptors absent
+   from the source — including qualifiers like *tipico*,
+   *caratteristico*, *presente*, *evidente*. Reformulate the
+   existing; do not invent new content.
+7. Strip judgments of pleasantness (*buono*, *brutto*, *ottimo*),
+   scoring/voto references, and meta-comments about the panelist or
+   the test session. **Keep descriptive negations** (*Non
+   paglierino* → *non paglierina*).
+8. Transform questions into descriptive affirmations (*Eucalipto?*
+   → *Note di eucalipto.*); flatten exclamations.
+9. Length: a single Italian sentence, calibrated to the source —
+   single-word inputs → 2-4 word captions, richer inputs → up to
+   ~18 words.
+10. Output is **only the rewritten sentence** — no quotes, no
+    prefixes, no explanations.
+11. **NON_DESCRITTO escape.** When the source has no sensory
+    descriptor at all — pure scoring meta, system glitch report,
+    incomplete fragment, or content entirely about another
+    attribute — output the literal token `NON_DESCRITTO` (no
+    sentence, no explanation). The post-processing step filters
+    these out.
+
+For Spessore della Crosta, an `extra_rules` block adds an explicit
+mm/cm conversion table aligned with the deterministic preprocessing
+buckets (§7.4), so the ~195 measurement+descriptor captions get
+consistent qualitative output (`1 cm` = `10 mm` = "mediamente
+spessa").
+
+`render_prompts_for_review.py` writes the fully resolved system prompt
+for each attribute under `data/prompts/<attribute>.md` so the prompt
+can be inspected without making any API calls.
+
+### 8.2 Pilot — `pilot_rewrite.py`
+
+Stratified pilot (15 captions per attribute = 105 total) run through
+Haiku 4.5 to validate the prompt before launching the full batch.
+Mixes top-frequency captions (high broadcast value) with a random
+tail (style-diversity probe). Output: `data/pilot_rewrites.csv` and
+`data/pilot_review.txt`.
+
+Key findings from the pilot:
+
+- 0 errors after concurrency was reduced to 3 workers (8 workers
+  caused 429 rate-limit storms on the user's tier).
+- ~95% of captions cleanly rewritten on first pass.
+- One systematic issue: the LLM bucketed `1 cm` as "Crosta spessa"
+  inconsistently with `10 mm` → "Crosta sottile". Resolved by
+  introducing the mm/cm table in §8.1 + extending the deterministic
+  qualitatise function in §7.4 to handle unit-suffixed forms.
+- Six format violations in the first Aroma-only run: when the input
+  was off-attribute or content-free, the LLM panicked and emitted
+  multi-line explanations. Resolved by adding rule 11
+  (`NON_DESCRITTO` escape).
+
+### 8.3 Full Batch run — `rewrite_batch.py`
+
+All 7 attributes submitted as a single Anthropic Batch API job
+(`msgbatch_01Bv99Z88dFdZ6PJ6FdjRxoA`):
+
+- **7,689 / 7,689 succeeded, 0 errors**.
+- Wall time: ~25-30 minutes.
+- Cost: ~$4.50 (Haiku 4.5 with 50% Batch discount).
+- 360 captions tagged `NON_DESCRITTO` on first pass (4.7% of unique).
+- 2 multi-line outputs that *contained* `NON_DESCRITTO` after
+  reasoning — collapsed to the bare token in post-processing.
+
+`rewrite_batch.py` saves the request-id → caption mapping locally
+under `data/batches/<batch_id>.json` before submission, so the script
+can be re-run with `--resume <batch_id>` to fetch results later if
+needed.
+
+Per-attribute outputs:
+
+| attribute | unique | NON_DESCRITTO | usable |
+|---|---:|---:|---:|
+| Profumo | 1,178 | 64 (5.4%) | 1,114 |
+| Aroma | 805 | 56 (7.0%) | 749 |
+| Sapore | 1,127 | 58 (5.1%) | 1,069 |
+| Texture | 1,088 | 30 (2.8%) | 1,058 |
+| Spessore della Crosta | 637 | 66 (10.4%) | 571 |
+| Struttura della Pasta | 1,674 | 54 (3.2%) | 1,620 |
+| Colore della Pasta | 1,180 | 32 (2.7%) | 1,148 |
+| **total** | **7,689** | **360 (4.7%)** | **7,329** |
+
+Outputs: `data/rewrites_<attribute>.csv` (machine-readable) and
+`data/review_<attribute>.txt` (human-readable, sorted by descending
+broadcast frequency).
+
+### 8.4 Manual salvage — `manual_salvage.py`
+
+A heuristic scan flagged 291 of the 362 `NON_DESCRITTO` captions
+(80%) as having at least one controlled-vocabulary lemma in the
+source — i.e., the LLM may have over-applied rule 11 on borderline
+captions where a real descriptor was buried under judgment or meta.
+
+Hand-curated salvage of 178 of these candidates was committed in
+`manual_salvage.py`'s `SALVAGE` dict — an in-place update to the
+`rewrites_<attribute>.csv` files. Captions absent from the salvage
+map kept the `NON_DESCRITTO` tag.
+
+Examples of salvageable cases:
+
+- `"marcio, putrido,"` → `"Profumo marcio e putrido."`
+- `"Strano. A tratti sentiva di pesce. Perplesso"` →
+  `"Profumo strano, di pesce a tratti."`
+- `"Sangue,,,"` → `"Aroma di sangue."`
+- `"Anonimo"` → `"Aroma anonimo."`
+- `"Nostrano"` → `"Sapore nostrano."`
+- `"12 km più netta su 1 piatto"` → `"Crosta più netta su un piatto."`
+
+Per-attribute salvage counts:
+
+| attribute | salvaged | remaining NON_DESCRITTO |
+|---|---:|---:|
+| Profumo | 33 | 31 |
+| Aroma | 21 | 35 |
+| Sapore | 34 | 24 |
+| Texture | 7 | 23 |
+| Spessore della Crosta | 46 | 22 |
+| Struttura della Pasta | 24 | 30 |
+| Colore della Pasta | 13 | 19 |
+| **total** | **178** | **184** |
+
+Net effect:
+
+- `NON_DESCRITTO` unique captions: **362 → 184** (4.7% → 2.4%).
+- `NON_DESCRITTO` broadcast rows: **1,759 → 843** (4.5% → 2.1% of
+  the 39,280-row training set).
+- 916 training rows recovered.
+
+The remaining 184 `NON_DESCRITTO` captions are genuinely info-free:
+pure judgments (*Pessima*, *Non piacevole!!!*), incomprehensible
+fragments (*dd*, *tro*), pure system meta (*Valutato durante foto…*,
+*Oggi sono raffreddato*), and observations entirely off-attribute.
+These are filtered out at the broadcast step.
+
+`data/non_descritto_table.txt` — full inventory of the 184 captions
+that survive as `NON_DESCRITTO` after salvage, sorted by attribute
+and descending frequency, for downstream review.
+
+### 8.5 Validation scan
+
+Programmatic checks across all 7,689 rewritten captions:
+
+| check | violations |
+|---|---:|
+| Output starts with the expected attribute prefix | 1 (`Pepe?` → `Note di pepe.`, accepted) |
+| Output contains digits | **0** |
+| Output contains units (mm/cm/%) | **0** |
+| Output longer than 25 words | **0** |
+| Empty output | **0** |
+| Multi-line output | **0** (after post-processing) |
+| Multi-paragraph or markup-bearing output | **0** |
+
+Quality assessment per attribute:
+
+| attribute | top-frequency outputs | observations |
+|---|---|---|
+| Sapore | `Sapore salato.`, `Sapore equilibrato.`, `Sapore leggermente salato.` | clean |
+| Texture | `Texture asciutta.`, `Texture compatta.`, `Texture pastosa.` | gender-agreement correct (*asciutto* → *asciutta* with feminine *Texture*) |
+| Profumo / Aroma | `Profumo di panna.`, `Aroma di crauti.` | natural; ~20 mild stilted-bare-participle cases (*Aroma cotto.*) — grammatically valid, slightly less idiomatic than *Aroma di X* |
+| Struttura della Pasta | `Pasta stirata.`, `Pasta con microocchiatura diffusa.` | `microocchiatura` canonicalized correctly (typos `microcchiatura`, `microocchitura` already mapped to canonical form via the TYPO_MAP in §7.1) |
+| Colore della Pasta | `Pasta con alone centrale.`, `Pasta di colore omogeneo.` | dual templates used contextually: `Pasta di colore X` for color qualifiers, `Pasta con X` for distribution features |
+| Spessore della Crosta | `Crosta mediamente spessa.`, `Crosta sottile.` | mm/cm consistency holds: `1 cm = 10 mm = mediamente spessa` |
+
+## 9. Final training table — `data/captions_final.csv`
+
+`broadcast_captions.py` joins `captions_pre_filtered.csv` (39,280
+image-attribute-panelist rows) with the per-attribute
+`rewrites_<attribute>.csv` files via the `dedup_key` column and drops
+rows where the cleaned caption is `NON_DESCRITTO`.
+
+### 9.1 Output stats
+
+- **38,437 training rows** (97.9% retention from
+  `captions_pre_filtered.csv`).
+- **1,497 unique images** covered (Fetta + Grana views, a/b
+  replicates).
+- 843 rows dropped as `NON_DESCRITTO` (2.1%).
+
+Per-attribute breakdown:
+
+| attribute | training rows | unique images |
+|---|---:|---:|
+| Profumo | 5,660 | 1,622 |
+| Aroma | 4,019 | 1,215 |
+| Sapore | 6,244 | 1,494 |
+| Texture | 5,309 | 1,299 |
+| Spessore della Crosta | 3,961 | 1,021 |
+| Struttura della Pasta | 7,400 | 1,626 |
+| Colore della Pasta | 5,844 | 1,274 |
+| **total** | **38,437** | — |
+
+### 9.2 Schema
+
+```
+row_id, image_path_flat, image_path,
+year_folder, session_date, session_num, bimester,
+view, panel_slot, panel_replicate, dairy_id, product_code,
+panelist, attribute,
+caption_raw,    # original panelist text
+caption_pre,    # after deterministic preprocessing
+caption,        # final cleaned Italian caption (LLM + manual salvage)
+```
+
+`caption_raw` and `caption_pre` are kept alongside `caption` for
+traceability — any cleaned caption can be diffed against its
+original source for audit.
+
+### 9.3 End-to-end pipeline
+
+```
+data/unified_dataset.csv (51,988)
+  │ prepare_captions.py
+  ▼
+data/captions_prepared.csv (39,356)
+  │ clean_captions.py
+  │   • abbreviation/typo expansion
+  │   • stray-markup strip
+  │   • Spessore bare-number → qualitative bucket
+  │   • Spessore unit-suffixed measurement → qualitative bucket
+  │   • dedup by (caption_pre, attribute)
+  ▼
+data/captions_pre.csv (39,356) + data/captions_unique.csv (7,758)
+  │ drop_useless_captions.py
+  ▼
+data/captions_pre_filtered.csv (39,280) +
+data/captions_to_rewrite.csv (7,742)
+  │ rewrite_batch.py (Anthropic Batch API, Haiku 4.5)
+  ▼
+data/rewrites_<attribute>.csv × 7
+  │ manual_salvage.py (178 hand-curated NON_DESCRITTO recoveries)
+  ▼
+data/rewrites_<attribute>.csv × 7  (updated in place)
+  │ broadcast_captions.py
+  ▼
+data/captions_final.csv (38,437 training rows)
+```
+
+### 9.4 Cost summary
+
+| step | cost |
+|---|---:|
+| Pilot (105 captions, sync) | ~$0.20 |
+| Aroma + Spessore batch (1,495 captions, batch) | ~$0.87 |
+| Full all-7 batch (7,689 captions, batch) | ~$4.50 |
+| Manual salvage | $0 (offline) |
+| **total** | **~$5.60** |
+
+Wall time: ~30 min for the largest batch; the rest fits inside
+single-iteration sessions.
+
+## 10. Repo state
 
 - Pushed to `panciut/Cheese` (private GitHub repo).
-- Tracked scripts: `build_dataset.py`, `prepare_captions.py`,
-  `build_vocabulary.py`, `audit_vocabulary.py`, `clean_captions.py`,
-  `find_useless_captions.py`, `drop_useless_captions.py`.
-- Tracked data: `data/GT commenti liberi/` (raw workbooks + codebook),
-  `data/unified_dataset.csv`, `data/captions_prepared.csv`,
-  `data/captions_prep_report.txt`, `data/vocabulary/` (per-attribute
-  vocabularies + bigrams + audit), `data/captions_pre.csv`,
-  `data/captions_unique.csv`, `data/captions_pre_filtered.csv`,
-  `data/captions_to_rewrite.csv`, `data/dropped_captions.csv`,
-  `data/clean_captions_report.txt`, `data/drop_captions_report.txt`,
-  `data/useless_caption_candidates.txt`, this report.
+- Tracked scripts:
+  - `build_dataset.py` — unified table builder (§2)
+  - `prepare_captions.py` — caption preparation (§4)
+  - `build_vocabulary.py`, `audit_vocabulary.py` — vocabulary (§7.1-7.2)
+  - `clean_captions.py` — abbrev/typo/Spessore qualitatisation + dedup (§7.3-7.5)
+  - `find_useless_captions.py`, `drop_useless_captions.py` — drop step (§7.6)
+  - `rewrite_prompt.py`, `render_prompts_for_review.py` — LLM prompt builder (§8.1)
+  - `pilot_rewrite.py` — pilot run (§8.2)
+  - `rewrite_batch.py` — Batch API runner (§8.3)
+  - `rewrite_attribute.py` — sync per-attribute runner (alternative)
+  - `manual_salvage.py` — NON_DESCRITTO salvage (§8.4)
+  - `broadcast_captions.py` — final training table (§9)
+- Tracked data:
+  - `data/GT commenti liberi/` (raw workbooks + codebook)
+  - `data/unified_dataset.csv` (joined image+caption rows)
+  - `data/captions_prepared.csv`, `data/captions_pre.csv`,
+    `data/captions_unique.csv`, `data/captions_pre_filtered.csv`,
+    `data/captions_to_rewrite.csv` (intermediate cleaning stages)
+  - `data/dropped_captions.csv` (audit of dropped captions)
+  - `data/vocabulary/` (per-attribute vocabularies + bigrams + audit)
+  - `data/prompts/` (rendered system prompts per attribute)
+  - `data/batches/` (Batch API request-id mappings)
+  - `data/rewrites_<attribute>.csv` × 7 (LLM-rewritten + salvaged captions)
+  - `data/review_<attribute>.txt` × 7 (side-by-side raw → clean review)
+  - `data/captions_final.csv` (**Step 1 deliverable** — 38,437 training rows)
+  - `data/captions_final_report.txt`, `data/non_descritto_table.txt`,
+    `data/non_descritto_salvage.txt`, `data/captions_prep_report.txt`,
+    `data/clean_captions_report.txt`, `data/drop_captions_report.txt`,
+    `data/useless_caption_candidates.txt`
+  - This report
 - Gitignored: `data/TrentinGrana/`, `data/images_flat/`, `__pycache__/`,
-  `.DS_Store`.
+  `.DS_Store`, `.env`.
+
+## 11. Step 2 outlook (not yet started)
+
+The brief asks for **three different encoder-decoder captioning
+methods, conceptually as different as possible**. Step 1 of this
+report has produced the training data. Step 2 is downstream work,
+not yet started. Expected components:
+
+- **Image preprocessing** — colored-spot removal mentioned in §6.4.
+  The IRIS analyzer markers used to indicate left/right need to be
+  masked or inpainted so they don't drive encoder learning.
+- **Train/val/test split** — stratified by dairy and session date so
+  no wheel appears in two splits. Current dataset has 1,497 unique
+  images, which is small for deep encoders without strong
+  augmentation.
+- **Encoder-decoder candidates** that satisfy the
+  "conceptually-different" requirement, e.g.:
+  - CNN encoder + RNN/LSTM decoder (classical)
+  - Vision Transformer (ViT) encoder + Transformer decoder
+  - CLIP-style contrastive image embedding + retrieval-based or
+    autoregressive decoder
+- **Evaluation** — BLEU / METEOR / CIDEr against the cleaned
+  captions, plus the controlled-vocabulary conformance check
+  pioneered in §7.1 (does the output use only attested sensory
+  terms?).
