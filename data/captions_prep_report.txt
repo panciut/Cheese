@@ -1,0 +1,337 @@
+input rows  : 51988
+output rows : 39356  (75.7%)
+dropped empty/null  : 12478
+dropped meta-notes  : 86
+dropped too-short   : 68
+
+per-attribute counts:
+  Struttura della Pasta            7546
+  Sapore                           6350
+  Colore della Pasta               5947
+  Profumo                          5798
+  Texture                          5431
+  Aroma                            4213
+  Spessore della Crosta            4071
+
+length stats (chars) per attribute:
+  Aroma                          n=4213 min=3 p25=12 med=20 p75=36 max=229 mean=27.7
+  Colore della Pasta             n=5947 min=4 p25=20 med=29 p75=42 max=170 mean=32.8
+  Profumo                        n=5798 min=3 p25=14 med=26 p75=44 max=154 mean=32.9
+  Sapore                         n=6350 min=4 p25=13 med=23 p75=38 max=173 mean=28.5
+  Spessore della Crosta          n=4071 min=2 p25=7 med=19 p75=34 max=153 mean=23.6
+  Struttura della Pasta          n=7546 min=5 p25=26 med=42 p75=62 max=200 mean=46.7
+  Texture                        n=5431 min=2 p25=19 med=33 p75=55 max=141 mean=38.1
+
+length stats (tokens) per attribute:
+  Aroma                          n=4213 min=1 p25=2 med=3 p75=5 max=42 mean=4.2
+  Colore della Pasta             n=5947 min=1 p25=3 med=4 p75=7 max=28 mean=5.2
+  Profumo                        n=5798 min=1 p25=2 med=4 p75=7 max=24 mean=4.9
+  Sapore                         n=6350 min=1 p25=2 med=3 p75=6 max=24 mean=4.1
+  Spessore della Crosta          n=4071 min=1 p25=2 med=3 p75=6 max=27 mean=4.3
+  Struttura della Pasta          n=7546 min=1 p25=3 med=6 p75=9 max=31 mean=6.7
+  Texture                        n=5431 min=1 p25=2 med=5 p75=7 max=20 mean=5.2
+
+top 25 tokens per attribute (lowercased, alpha-only):
+  Aroma:
+      924  cotto
+      530  burro
+      528  formaggio
+      478  crosta
+      426  latte
+      368  panna
+      344  brodo
+      310  grana
+      284  note
+      200  lattico
+      190  leggero
+      188  nota
+      188  fuso
+      184  tostato
+      148  vegetale
+      146  animale
+      133  piacevole
+      132  fermentato
+      130  intensità
+      126  lattici
+      124  cotti
+      120  frutta
+      116  aroma
+      114  bruciato
+      112  sentore
+  Colore della Pasta:
+     1878  carico
+     1401  alone
+     1090  chiaro
+     1046  omogeneo
+     1018  giallo
+      910  centrale
+      764  centro
+      619  colore
+      541  rosa
+      500  paglierino
+      441  piatto
+      412  scuro
+      360  abbastanza
+      354  verso
+      330  chiara
+      318  uniforme
+      274  macchia
+      272  tendente
+      248  sotto
+      240  leggero
+      236  macchie
+      235  rosato
+      214  leggermente
+      184  fascia
+      174  omogenea
+  Profumo:
+      928  burro
+      916  cotto
+      782  latte
+      622  panna
+      556  intenso
+      518  leggero
+      456  brodo
+      440  intensità
+      424  note
+      398  vegetale
+      370  crosta
+      354  nota
+      340  formaggio
+      338  fuso
+      292  tostato
+      262  frutta
+      230  fermentato
+      216  sentore
+      208  fruttato
+      200  allapertura
+      186  grana
+      178  poi
+      176  odore
+      152  complesso
+      146  fresco
+  Sapore:
+     1639  piccante
+     1577  salato
+     1061  amaro
+      923  dolce
+      820  umami
+      692  equilibrato
+      611  leggermente
+      607  acido
+      374  po
+      334  sapido
+      256  troppo
+      242  piccantezza
+      232  sale
+      210  medio
+      210  nota
+      198  abbastanza
+      186  finale
+      186  leg
+      182  legg
+      170  sapidit
+      166  leggero
+      154  equilibrio
+      146  pungente
+      136  intensità
+      125  punta
+  Spessore della Crosta:
+      536  media
+      524  mm
+      450  piatto
+      446  cm
+      436  10
+      372  1
+      362  spessa
+      334  colore
+      326  crosta
+      296  piatti
+      286  spigoli
+      274  12
+      266  sottile
+      254  scalzo
+      236  11
+      234  scalzi
+      230  sottocrosta
+      196  sfumata
+      192  evidente
+      188  fine
+      186  angoli
+      186  9
+      164  sotto
+      156  8
+      154  10mm
+  Struttura della Pasta:
+     2101  frattura
+     1844  grana
+     1094  stirata
+      952  regolare
+      820  centrale
+      735  microocchiatura
+      715  struttura
+      712  omogenea
+      678  fine
+      634  occhiatura
+      586  grossolana
+      560  bella
+      532  centro
+      486  granulosa
+      436  diffusa
+      420  presenza
+      406  abbastanza
+      398  irregolare
+      384  qualche
+      331  pasta
+      330  micro
+      328  occhio
+      321  zone
+      318  zona
+      312  grossa
+  Texture:
+     1476  cristalli
+     1076  solubile
+      960  asciutto
+      778  friabile
+      680  morbido
+      558  pastoso
+      486  granuloso
+      472  grana
+      378  pochi
+      370  bocca
+      348  fine
+      332  granulosa
+      322  abbastanza
+      302  compatto
+      293  umido
+      272  microstruttura
+      254  cedevole
+      220  leggermente
+      216  lascia
+      212  tirosina
+      208  duro
+      208  poca
+      207  po
+      206  troppo
+      204  buona
+
+samples per attribute (raw -> normalized):
+  --- Aroma ---
+    raw : 'Yogurt'
+    norm: 'Yogurt'
+    raw : 'Burro fresco, note lattiche prevalenti, poco complesso'
+    norm: 'Burro fresco, note lattiche prevalenti, poco complesso'
+    raw : 'Sembra grana abbastanza giovane'
+    norm: 'Sembra grana abbastanza giovane'
+    raw : 'Sa di malga'
+    norm: 'Sa di malga'
+    raw : 'Non piacevole con persistenza elevata'
+    norm: 'Non piacevole con persistenza elevata'
+    raw : 'Burro fresco, note lattiche prevalenti, poco complesso'
+    norm: 'Burro fresco, note lattiche prevalenti, poco complesso'
+    raw : 'Yogurt'
+    norm: 'Yogurt'
+    raw : 'Sembra grana abbastanza giovane'
+    norm: 'Sembra grana abbastanza giovane'
+  --- Colore della Pasta ---
+    raw : 'Macchia alone centrale rosato'
+    norm: 'Macchia alone centrale rosato'
+    raw : 'Più che macchie è striscia rosata'
+    norm: 'Più che macchie è striscia rosata'
+    raw : 'Brutta'
+    norm: 'Brutta'
+    raw : 'Solo leggero alone...'
+    norm: 'Solo leggero alone...'
+    raw : 'Aree non belle come colore'
+    norm: 'Aree non belle come colore'
+    raw : 'Leggero alone centrale'
+    norm: 'Leggero alone centrale'
+    raw : 'Leggero alone centrale'
+    norm: 'Leggero alone centrale'
+    raw : 'Alone molto grande'
+    norm: 'Alone molto grande'
+  --- Profumo ---
+    raw : 'Crauti'
+    norm: 'Crauti'
+    raw : 'Al primo impatto non buono'
+    norm: 'Al primo impatto non buono'
+    raw : 'Forte'
+    norm: 'Forte'
+    raw : 'Odore chimico tipo colpa o simili'
+    norm: 'Odore chimico tipo colpa o simili'
+    raw : 'Polvere'
+    norm: 'Polvere'
+    raw : 'Banana verde'
+    norm: 'Banana verde'
+    raw : 'Al primo impatto non buono'
+    norm: 'Al primo impatto non buono'
+    raw : 'Crauti'
+    norm: 'Crauti'
+  --- Sapore ---
+    raw : 'Leggermente  Acido amaro'
+    norm: 'Leggermente Acido amaro'
+    raw : 'Leggermente acido'
+    norm: 'Leggermente acido'
+    raw : 'Anonimo poco intenso'
+    norm: 'Anonimo poco intenso'
+    raw : 'Poco espressivo'
+    norm: 'Poco espressivo'
+    raw : 'Bella persistenza'
+    norm: 'Bella persistenza'
+    raw : 'Leggermente acido'
+    norm: 'Leggermente acido'
+    raw : 'Poco espressivo'
+    norm: 'Poco espressivo'
+    raw : 'Anonimo poco intenso'
+    norm: 'Anonimo poco intenso'
+  --- Spessore della Crosta ---
+    raw : 'Colore di fondo carico si nota meno il sottocrosta'
+    norm: 'Colore di fondo carico si nota meno il sottocrosta'
+    raw : 'Alto spessore'
+    norm: 'Alto spessore'
+    raw : 'Omogeneo'
+    norm: 'Omogeneo'
+    raw : 'Però  crosta fine'
+    norm: 'Però crosta fine'
+    raw : 'Alone disidratato Sotto crosta confonde'
+    norm: 'Alone disidratato Sotto crosta confonde'
+    raw : 'Colore di fondo carico si nota meno il sottocrosta'
+    norm: 'Colore di fondo carico si nota meno il sottocrosta'
+    raw : 'Alto spessore'
+    norm: 'Alto spessore'
+    raw : 'Omogeneo'
+    norm: 'Omogeneo'
+  --- Struttura della Pasta ---
+    raw : 'Fine è stirata in centro grossolana verso scalzo'
+    norm: 'Fine è stirata in centro grossolana verso scalzo'
+    raw : 'Effetto a scaglie in alcune zone'
+    norm: 'Effetto a scaglie in alcune zone'
+    raw : 'Impercettibile micro Occhiatura centrale'
+    norm: 'Impercettibile micro Occhiatura centrale'
+    raw : "Profonde fratture sotto 1piattone una grande da Sotto l'altro"
+    norm: "Profonde fratture sotto 1piattone una grande da Sotto l'altro"
+    raw : 'Fessure enormi'
+    norm: 'Fessure enormi'
+    raw : 'Tutta spaccata'
+    norm: 'Tutta spaccata'
+    raw : 'Fessure profonde!'
+    norm: 'Fessure profonde!'
+    raw : 'Lunghe e profonde fessure longitudinali'
+    norm: 'Lunghe e profonde fessure longitudinali'
+  --- Texture ---
+    raw : 'Impasta la bocca'
+    norm: 'Impasta la bocca'
+    raw : 'Fastidioso in bocca'
+    norm: 'Fastidioso in bocca'
+    raw : 'Quasi troppi cristalli...'
+    norm: 'Quasi troppi cristalli...'
+    raw : 'Consistenza strana'
+    norm: 'Consistenza strana'
+    raw : 'Quasi troppi cristalli...'
+    norm: 'Quasi troppi cristalli...'
+    raw : 'Fastidioso in bocca'
+    norm: 'Fastidioso in bocca'
+    raw : 'Impasta la bocca'
+    norm: 'Impasta la bocca'
+    raw : 'Consistenza strana'
+    norm: 'Consistenza strana'
