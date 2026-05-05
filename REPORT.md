@@ -343,12 +343,268 @@ brief:
 7. *(Step 2, later)* Plan colored-spot removal on the image side, then
    train and compare three encoder-decoder captioning methods.
 
-## 7. Repo state
+## 7. Pre-LLM cleanup pipeline
+
+This section documents the *deterministic* cleanup step that runs between
+the prep stage (§4) and the LLM rewrite step (§5). Goal: feed the LLM
+clean, deduplicated, attribute-labeled inputs while keeping every
+transformation auditable and reversible. The LLM is *not* used in this
+phase — it is reserved for the genuinely hard work (rephrasing, dialect
+correction, fragment expansion) where regex-style rules cannot give a
+faithful answer.
+
+### 7.1 Controlled vocabulary
+
+`build_vocabulary.py` reads `captions_prepared.csv` and emits, per
+sensory attribute:
+
+- `data/vocabulary/{attribute}.txt` — top lemmas with their attested
+  surface forms and frequencies.
+- `data/vocabulary/bigrams_{attribute}.txt` — top multi-word sensory
+  expressions (`latte cotto`, `panna cotta`, `frattura regolare`,
+  `micro occhiatura`, `bella grana`, …).
+- `data/vocabulary/vocabulary.csv` — combined flat list.
+- `data/vocabulary/_summary.txt` — overview: tokens per attribute, top-8
+  lemmas snapshot.
+
+Italian inflectional collapsing is corpus-driven: a SPECIAL hand-curated
+dictionary handles the most ambiguous adjective/noun families
+(`cotto/cotta/cotti/cotte` → `cotto`), and a generic merge step joins
+plural↔singular pairs when both forms are attested in the data. This
+avoids over-collapsing distinct words (`latte` ≠ `lattei`, `carico` ≠
+`scarico`).
+
+Tokenization also expands a small map of source-data abbreviations and
+typos (`legg./leg.` → `leggermente`, `po'/po` → `poco`,
+`microcchiatura` → `microocchiatura`, `granoloso` → `granuloso`,
+`equilibrato` typos, `intensita` → `intensità`, …). Pure-numeric and
+unit-only tokens (`mm`, `cm`, `km`) are dropped from the vocabulary —
+they carry no qualitative signal.
+
+### 7.2 Audit pass
+
+`audit_vocabulary.py` reads the generated vocabulary and flags:
+
+- Quantitative / unit tokens that slipped through.
+- Very short tokens that look like abbreviations.
+- Probable un-merged inflection pairs in the same attribute.
+- Near-duplicate lemmas at edit distance 1.
+- Lemmas appearing in many attributes (informational).
+- A side-by-side top-30 lemmas table per attribute (style snapshot).
+
+Output: `data/vocabulary/_audit.txt`. The audit drove three rounds of
+fixes (broken `-mente` adverb stripping, missing accent restoration,
+participle-pattern merging, `-io` masculine nouns, apocopated forms,
+preposition+article stopwords). After convergence the audit's
+"un-merged inflections" section contains a single false positive
+(`latte/lattee` — milk vs the adjective *latteo*, correctly *not*
+merged); near-duplicates are all genuine antonym/distinct-word pairs
+(`carico/scarico`, `equilibrato/squilibrato`, `gradevole/sgradevole`,
+`bella/bolla`, …).
+
+The vocabulary is intended as a *style anchor* for the LLM rewrite
+prompt, not a perfect lemmatization — the LLM speaks Italian and
+handles morphology naturally. What it needs from the vocabulary is:
+
+1. The grana-specific sensory lexicon (`microocchiatura, paglierino,
+   sottocrosta, scalzo, unghia, tirosina, mou, uht, sapidità,
+   piccantezza, friabilità, solubilità, cedevole, sabbioso`).
+2. The idiomatic multi-word expressions (bigrams).
+3. A forbidden-pattern list (units, abbreviations, meta-comments) that
+   the prompt will pin separately.
+
+### 7.3 Caption-level deterministic cleanup
+
+`clean_captions.py` reads `captions_prepared.csv` and applies the same
+abbreviation/typo expansion used by the vocabulary builder, plus stray
+markup removal (`*fermentate*` → `fermentate`, multiple spaces, leading
+backticks). Output: `caption_pre` column added alongside `caption_raw`
+and `caption_norm` so the source text remains accessible at every
+stage.
+
+About 9% of rows are touched by the cleanup (typo/abbreviation
+expansion or markup strip).
+
+### 7.4 Bare-number qualitatisation for `Spessore della Crosta`
+
+The brief explicitly requires substituting quantitative descriptions
+with qualitative ones. For `Spessore della Crosta`, many captions are
+bare numbers without units (`"10"`, `"11 12"`, `"0,8"`, `"1,1"`).
+Without context the LLM cannot reliably qualitatise these, so the
+cleanup step does it deterministically:
+
+1. Tokens are parsed as numbers; values < 5 are interpreted as cm,
+   the rest as mm.
+2. The mean mm value is bucketed:
+   - < 8 mm → `Molto sottile`
+   - 8 – < 10 mm → `Sottile`
+   - 10 – < 14 mm → `Media`
+   - 14 – < 18 mm → `Spessa`
+   - ≥ 18 mm → `Molto spessa`
+3. The bare-number caption is replaced with the bucket label.
+
+This applies *only* when the caption is purely numeric. Mixed captions
+like `"Spigoli sopra 20mm Piatto 10mm circa Media 12mm"` are left for
+the LLM, which can rephrase them in context.
+
+Result: 424 rows that would otherwise be dropped as ambiguous noise
+become valid qualitative training data.
+
+| qualitative bucket | broadcast rows |
+|---|---:|
+| Molto sottile | 30 |
+| Sottile | 160 |
+| Media | 194 |
+| Spessa | 36 |
+| Molto spessa | 4 |
+
+### 7.5 Deduplication for the LLM
+
+`clean_captions.py` also computes a `dedup_key = attribute :: text`
+(lower-cased, punctuation-folded) and groups rows by key. The dairy-
+level join broadcasts the same panelist comment across `a/b` photo
+replicates and `Fetta`/`Grana` views, so the same caption text appears
+multiple times across rows. Deduplicating before the LLM step is a
+cost optimization only — the cleaned caption is broadcast back to
+*every* matching row afterwards, so each `(image, attribute)` training
+pair retains its original distinct image.
+
+Compression results:
+
+- Input: **39,356** caption rows.
+- Unique `(caption_pre, attribute)` pairs: **7,758**.
+- Compression: **5.07×** (80.3% saving on LLM rewrite cost).
+- Most popular bucket: 4× appearance (6,595 unique captions appear
+  exactly four times — the `a/b × Fetta/Grana` broadcast pattern of
+  many sessions).
+
+| attribute | total | unique | saving |
+|---|---:|---:|---:|
+| Aroma | 4,213 | 808 | 80.8% |
+| Colore della Pasta | 5,947 | 1,184 | 80.1% |
+| Profumo | 5,798 | 1,179 | 79.7% |
+| Sapore | 6,350 | 1,127 | 82.3% |
+| Spessore della Crosta | 4,071 | 692 | 83.0% |
+| Struttura della Pasta | 7,546 | 1,676 | 77.8% |
+| Texture | 5,431 | 1,092 | 79.9% |
+
+Outputs: `data/captions_pre.csv` (full), `data/captions_unique.csv`
+(one row per dedup key, with `frequency` and `sample_row_id`).
+
+### 7.6 Dropping unambiguous noise
+
+`drop_useless_captions.py` removes only the captions where the *entire*
+content is information-free. Three categories, all automatically
+detected:
+
+- **PURE_EVAL** — the caption is a single evaluative token without any
+  sensory descriptor (`Buono`, `Brutta`, `Ok`, `Ottimo`, `Mah`,
+  `Peccato`, `Scarso`, `Bella` alone, `DISCRETA`, …).
+- **NUMBER_ONLY** — the caption is only digits/decimals. After §7.4
+  this category is empty for `Spessore della Crosta`; in any other
+  attribute a bare number is suspect noise.
+- **SYSTEM_META** — meta-comments about the panelist's process or the
+  test system (`"ValutazIone alle 13:40"`,
+  `"Al primo tentativo si è chiuso il test ..."`,
+  `"non lo so, ho dovuto sputarlo"`).
+
+Captions that mix meta with real sensory descriptors are *not* dropped
+— the LLM rewrite is much better at strip-meta-keep-descriptor surgery
+than a regex (`"amaro deciso e penalizzante"` → `"Sapore amaro e
+deciso"`, keeping the descriptor and dropping the scoring meta).
+
+Hedged descriptors (`"Forse pochi cristalli"`), negations
+(`"Non paglierino"`, `"Non granulosa"`), and interrogative descriptors
+(`"Eucalipto?"`, `"Lievito pane?"`) are also kept — they carry real
+information that the LLM can frame correctly.
+
+Drop totals:
+
+- 16 unique captions dropped (out of 7,758, **0.21%**)
+- 76 training rows dropped (out of 39,356, **0.19%**)
+- 64 PURE_EVAL rows + 12 SYSTEM_META rows + 0 NUMBER_ONLY rows.
+
+Outputs:
+- `data/captions_to_rewrite.csv` — **7,742 unique** captions for the
+  LLM. This is the file the rewrite step consumes.
+- `data/captions_pre_filtered.csv` — 39,280 broadcast-target rows.
+- `data/dropped_captions.csv` — full audit trail of dropped rows with
+  reason.
+- `data/drop_captions_report.txt` — summary + every dropped unique
+  caption.
+
+### 7.7 Pipeline overview
+
+```
+unified_dataset.csv (51,988)
+        │ prepare_captions.py
+        ▼
+captions_prepared.csv (39,356)
+        │ clean_captions.py
+        │   • abbreviation / typo expansion
+        │   • stray-markup strip
+        │   • Spessore bare-number → qualitative bucket
+        │   • dedup by (caption_pre, attribute)
+        ▼
+captions_pre.csv (39,356) + captions_unique.csv (7,758 unique)
+        │ drop_useless_captions.py
+        ▼
+captions_pre_filtered.csv (39,280) + captions_to_rewrite.csv (7,742 unique)
+        │ rewrite_captions.py [NEXT]
+        ▼
+captions_rewritten.csv (7,742 cleaned)
+        │ broadcast back via dedup_key
+        ▼
+captions_final.csv (39,280 cleaned training pairs)
+```
+
+### 7.8 What is intentionally *not* done in this phase
+
+- **Quantitative → qualitative for non-trivial captions.** Mixed
+  captions with embedded measurements need contextual rewriting
+  (`"Spigoli sopra 20mm"` ≠ `"Piatto 10mm"`), so the LLM does it.
+- **Dialect or register normalization.** LLM territory.
+- **Synonym reduction across distinct words** (e.g.
+  `regolare` ↔ `uniforme`). The vocabulary suggests preferences; the
+  LLM applies them in context.
+- **Hedge or interrogative removal.** Hedged descriptors carry real
+  information; the LLM unpacks them faithfully.
+- **Meta+descriptor surgery.** LLM strips the meta clause and keeps
+  the descriptor.
+
+### 7.9 What goes into the rewrite prompt
+
+The rewrite prompt (drafted in the next phase) will combine, per
+attribute:
+
+1. A **style template** (e.g. `Profumo …`, `Al sapore, …`,
+   `La crosta presenta …`) so output style is uniform across all
+   captioning-method comparisons in Step 2.
+2. The **controlled vocabulary** as a "prefer these terms" list,
+   plus key bigrams as multi-word idioms to preserve.
+3. The **forbidden-pattern rules**: no measurement values, no
+   abbreviations, no meta-comments, faithfulness to source.
+4. **Few-shot examples drawn from the real data**: fragment →
+   cleaned caption, with deliberate coverage of negations,
+   interrogatives, hedges, and mixed meta+descriptor.
+
+The LLM (Haiku 4.5) will be called once per unique caption, then the
+output is broadcast back to all matching rows in
+`captions_pre_filtered.csv` via the `dedup_key`.
+
+## 8. Repo state
 
 - Pushed to `panciut/Cheese` (private GitHub repo).
-- Tracked: `build_dataset.py`, `prepare_captions.py`, `.gitignore`,
-  `data/GT commenti liberi/` (raw workbooks + codebook),
+- Tracked scripts: `build_dataset.py`, `prepare_captions.py`,
+  `build_vocabulary.py`, `audit_vocabulary.py`, `clean_captions.py`,
+  `find_useless_captions.py`, `drop_useless_captions.py`.
+- Tracked data: `data/GT commenti liberi/` (raw workbooks + codebook),
   `data/unified_dataset.csv`, `data/captions_prepared.csv`,
-  `data/captions_prep_report.txt`, this report.
+  `data/captions_prep_report.txt`, `data/vocabulary/` (per-attribute
+  vocabularies + bigrams + audit), `data/captions_pre.csv`,
+  `data/captions_unique.csv`, `data/captions_pre_filtered.csv`,
+  `data/captions_to_rewrite.csv`, `data/dropped_captions.csv`,
+  `data/clean_captions_report.txt`, `data/drop_captions_report.txt`,
+  `data/useless_caption_candidates.txt`, this report.
 - Gitignored: `data/TrentinGrana/`, `data/images_flat/`, `__pycache__/`,
   `.DS_Store`.
