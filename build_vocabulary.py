@@ -48,6 +48,7 @@ sempre mai talvolta spesso raramente
 sa è era erano stato stata stati state
 ce ne lì già senza ovviamente ovvio quindi cioè dunque allora
 comunque però quindi tuttavia però perciò pertanto inoltre infine invece
+negli sugli dagli alle agli sui sulle sulla sullo sui
 all bel ben mc no vs avv inf ali sol mn sei due fa fin ce
 on ok bei però c'è all'
 """.split())

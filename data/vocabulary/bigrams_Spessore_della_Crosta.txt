@@ -2,7 +2,6 @@
 
 80	crosta sfumata
 74	colore sottocrosta
-56	negli angoli
 54	scalzo piatto
 48	spigoli pronunciati
 42	spessore medio
@@ -10,13 +9,11 @@
 36	spessa piatto
 34	spigoli accentuati
 32	fondo carico
-32	negli scalzi
 32	piatti scalzo
 32	unghia marcata
 32	evidente lato
 28	sottocrosta grigiastro
 28	lato sull'altro
-28	evidente negli
 24	piatto scalzo
 20	limite sfumato
 20	piatti scalzi
@@ -80,3 +77,6 @@
 8	meno spessa
 8	piatto sottile
 8	sottile l'altro
+8	piatti tratti
+8	scalzo angoli
+8	medio basso

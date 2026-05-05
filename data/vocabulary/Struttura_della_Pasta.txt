@@ -1,6 +1,6 @@
 # Controlled vocabulary — Struttura della Pasta
 # total tokens (incl stopwords): 41676
-# unique lemmas (>= 3): 778
+# unique lemmas (>= 3): 777
 # format: <count>	<canonical>	<surface forms (most frequent first)>
 
 2265	frattura	frattura, fratture

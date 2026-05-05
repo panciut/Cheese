@@ -1,6 +1,6 @@
 # Controlled vocabulary — Colore della Pasta
 # total tokens (incl stopwords): 26285
-# unique lemmas (>= 3): 402
+# unique lemmas (>= 3): 401
 # format: <count>	<canonical>	<surface forms (most frequent first)>
 
 1968	carico	carico, carica

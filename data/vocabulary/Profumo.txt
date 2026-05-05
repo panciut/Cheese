@@ -1,6 +1,6 @@
 # Controlled vocabulary — Profumo
 # total tokens (incl stopwords): 24600
-# unique lemmas (>= 3): 637
+# unique lemmas (>= 3): 636
 # format: <count>	<canonical>	<surface forms (most frequent first)>
 
 1156	cotto	cotto, cotti, cotta, cotte

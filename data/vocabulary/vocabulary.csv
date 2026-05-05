@@ -818,7 +818,6 @@ Spessore della Crosta,regolare,128,regolare
 Spessore della Crosta,grossa,108,"grossa, grosso, grossi"
 Spessore della Crosta,carico,100,carico
 Spessore della Crosta,mediamente,98,mediamente
-Spessore della Crosta,negli,92,negli
 Spessore della Crosta,medio,86,medio
 Spessore della Crosta,chiaro,82,"chiaro, chiara"
 Spessore della Crosta,pronunciati,80,"pronunciati, pronunciato, pronunciate, pronunciata"
@@ -999,6 +998,7 @@ Spessore della Crosta,l'ok,4,l'ok
 Spessore della Crosta,percepibile,4,percepibile
 Spessore della Crosta,termina,4,termina
 Spessore della Crosta,comincia,4,comincia
+Spessore della Crosta,struttura,4,struttura
 Struttura della Pasta,frattura,2265,"frattura, fratture"
 Struttura della Pasta,grana,1924,"grana, grani, grane, grano, gran"
 Struttura della Pasta,stirata,1486,"stirata, stirato, stirate, stirati"

@@ -1,6 +1,6 @@
 # Controlled vocabulary — Spessore della Crosta
 # total tokens (incl stopwords): 11275
-# unique lemmas (>= 3): 253
+# unique lemmas (>= 3): 252
 # format: <count>	<canonical>	<surface forms (most frequent first)>
 
 750	piatto	piatto, piatti
@@ -22,7 +22,6 @@
 108	grossa	grossa, grosso, grossi
 100	carico	carico
 98	mediamente	mediamente
-92	negli	negli
 86	medio	medio
 82	chiaro	chiaro, chiara
 80	pronunciati	pronunciati, pronunciato, pronunciate, pronunciata
@@ -203,3 +202,4 @@
 4	percepibile	percepibile
 4	termina	termina
 4	comincia	comincia
+4	struttura	struttura
