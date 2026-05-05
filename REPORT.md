@@ -836,14 +836,18 @@ row_id, image_path_flat, image_path,
 year_folder, session_date, session_num, bimester,
 view, panel_slot, panel_replicate, dairy_id, product_code,
 panelist, attribute,
-caption_raw,    # original panelist text
-caption_pre,    # after deterministic preprocessing
-caption,        # final cleaned Italian caption (LLM + manual salvage)
+caption_raw,        # original panelist text
+caption_pre,        # after deterministic preprocessing
+caption,            # cleaned compact form (LLM + manual salvage)
+caption_sentence,   # full Italian declarative sentence (regex transform)
 ```
 
-`caption_raw` and `caption_pre` are kept alongside `caption` for
-traceability — any cleaned caption can be diffed against its
-original source for audit.
+`caption_raw` and `caption_pre` are kept alongside `caption` /
+`caption_sentence` for traceability — any cleaned caption can be
+diffed against its original source for audit.
+
+The `caption_sentence` column is added by `make_sentence_form.py`
+via deterministic regex templates (no LLM round-trip). See §10.
 
 ### 9.3 End-to-end pipeline
 
@@ -888,43 +892,180 @@ data/captions_final.csv (38,437 training rows)
 Wall time: ~30 min for the largest batch; the rest fits inside
 single-iteration sessions.
 
-## 10. Repo state
+## 10. Sentence-form transformation — `make_sentence_form.py`
 
-- Pushed to `panciut/Cheese` (private GitHub repo).
-- Tracked scripts:
-  - `build_dataset.py` — unified table builder (§2)
-  - `prepare_captions.py` — caption preparation (§4)
-  - `build_vocabulary.py`, `audit_vocabulary.py` — vocabulary (§7.1-7.2)
-  - `clean_captions.py` — abbrev/typo/Spessore qualitatisation + dedup (§7.3-7.5)
-  - `find_useless_captions.py`, `drop_useless_captions.py` — drop step (§7.6)
-  - `rewrite_prompt.py`, `render_prompts_for_review.py` — LLM prompt builder (§8.1)
-  - `pilot_rewrite.py` — pilot run (§8.2)
-  - `rewrite_batch.py` — Batch API runner (§8.3)
-  - `rewrite_attribute.py` — sync per-attribute runner (alternative)
-  - `manual_salvage.py` — NON_DESCRITTO salvage (§8.4)
-  - `broadcast_captions.py` — final training table (§9)
-- Tracked data:
-  - `data/GT commenti liberi/` (raw workbooks + codebook)
-  - `data/unified_dataset.csv` (joined image+caption rows)
-  - `data/captions_prepared.csv`, `data/captions_pre.csv`,
-    `data/captions_unique.csv`, `data/captions_pre_filtered.csv`,
-    `data/captions_to_rewrite.csv` (intermediate cleaning stages)
-  - `data/dropped_captions.csv` (audit of dropped captions)
-  - `data/vocabulary/` (per-attribute vocabularies + bigrams + audit)
-  - `data/prompts/` (rendered system prompts per attribute)
-  - `data/batches/` (Batch API request-id mappings)
-  - `data/rewrites_<attribute>.csv` × 7 (LLM-rewritten + salvaged captions)
-  - `data/review_<attribute>.txt` × 7 (side-by-side raw → clean review)
-  - `data/captions_final.csv` (**Step 1 deliverable** — 38,437 training rows)
-  - `data/captions_final_report.txt`, `data/non_descritto_table.txt`,
-    `data/non_descritto_salvage.txt`, `data/captions_prep_report.txt`,
-    `data/clean_captions_report.txt`, `data/drop_captions_report.txt`,
-    `data/useless_caption_candidates.txt`
-  - This report
-- Gitignored: `data/TrentinGrana/`, `data/images_flat/`, `__pycache__/`,
-  `.DS_Store`, `.env`.
+Adds a `caption_sentence` column to `captions_final.csv` that turns
+each compact attribute-anchored caption into a full Italian
+declarative sentence about the cheese. This is purely a grammatical
+scaffolding step — no new sensory content is introduced — so the
+faithfulness guarantees from §6.5/§8.1 are preserved.
 
-## 11. Step 2 outlook (not yet started)
+Examples per attribute:
+
+| compact (`caption`) | sentence (`caption_sentence`) |
+|---|---|
+| `Profumo di panna.` | `Il formaggio ha un profumo di panna.` |
+| `Profumo poco intenso.` | `Il formaggio ha un profumo poco intenso.` |
+| `Aroma di latte cotto.` | `Il formaggio ha un aroma di latte cotto.` |
+| `Sapore equilibrato.` | `Il formaggio ha un sapore equilibrato.` |
+| `Texture asciutta.` | `Il formaggio presenta una texture asciutta.` |
+| `Crosta sottile.` | `La crosta del formaggio è sottile.` |
+| `Pasta granulosa.` | `La pasta del formaggio è granulosa.` |
+| `Pasta di colore omogeneo.` | `La pasta del formaggio è di colore omogeneo.` |
+
+### 10.1 Why both forms
+
+- **Compact form** (`caption`) — best for per-attribute fine-tuning
+  models. ~4-8 words. Each caption focuses on one attribute label.
+- **Sentence form** (`caption_sentence`) — best for general-purpose
+  encoder-decoder captioners (CNN/ViT + transformer decoder).
+  ~7-15 words. BLEU/METEOR/CIDEr metrics behave better on
+  natural-language references than on bare noun phrases. The
+  explicit subject-predicate ("Il formaggio ha…") makes the
+  image-to-description relationship explicit during decoder
+  training.
+
+### 10.2 Implementation
+
+`make_sentence_form.py` runs in two passes over each caption:
+
+1. **Prefix canonicalisation.** A small map per attribute rewrites
+   alternate prefixes the LLM occasionally produced into the
+   canonical attribute prefix:
+   - Profumo: `Note olfattive vegetali …` → `Profumo vegetale …`
+   - Aroma: `Note di pepe.` → `Aroma di pepe.`
+   - Aroma: `Note aromatiche di X` → `Aroma di X`
+
+   This step touched 94 rows in the dataset and lets the next pass
+   use a small uniform set of rules instead of edge-case patterns.
+
+2. **Regex template substitution.** Per attribute, an ordered list
+   of `(pattern, replacement)` rules wraps the matched content with
+   the appropriate sentence scaffolding. Examples:
+   - Profumo: `^Profumo di (.+?)\.?$` → `Il formaggio ha un
+     profumo di {x}.`
+   - Texture: `^Texture (.+?)\.?$` → `Il formaggio presenta una
+     texture {x}.`
+   - Spessore della Crosta: `^Crosta (.+?)\.?$` → `La crosta del
+     formaggio è {x}.`
+
+After the canonicalisation step, **100% of the 38,437 rows match a
+template** — zero unmatched, zero LLM calls needed.
+
+Per-attribute match rate is 100% across all 7 attributes.
+
+### 10.3 Final deliverables — `data/final/`
+
+`build_final_outputs.py` produces:
+
+| file | content |
+|---|---|
+| `data/final/captions_final.csv` | full table — 38,437 rows × 18 columns including `caption_sentence` |
+| `data/final/image_caption_attribute.csv` | simplified 4-column flat table: `image_path, attribute, caption, caption_sentence` |
+| `data/final/by_attribute/<Attribute>.csv` × 7 | per-attribute splits of the simplified table |
+| `data/final/README.md` | deliverable explainer for downstream users |
+
+Per-attribute row counts (cleaned, NON_DESCRITTO removed):
+
+| attribute | training rows |
+|---|---:|
+| Aroma | 4,019 |
+| Colore della Pasta | 5,844 |
+| Profumo | 5,660 |
+| Sapore | 6,244 |
+| Spessore della Crosta | 3,961 |
+| Struttura della Pasta | 7,400 |
+| Texture | 5,309 |
+| **total** | **38,437** |
+
+## 11. Directory layout
+
+After Step 1 the `data/` tree is organised by purpose:
+
+```
+data/
+├── final/                # Step 1 deliverables
+│   ├── captions_final.csv
+│   ├── image_caption_attribute.csv
+│   ├── by_attribute/
+│   │   ├── Aroma.csv
+│   │   ├── Colore_della_Pasta.csv
+│   │   ├── Profumo.csv
+│   │   ├── Sapore.csv
+│   │   ├── Spessore_della_Crosta.csv
+│   │   ├── Struttura_della_Pasta.csv
+│   │   └── Texture.csv
+│   └── README.md
+├── intermediate/         # pipeline intermediate stages
+│   ├── unified_dataset.csv
+│   ├── captions_prepared.csv
+│   ├── captions_pre.csv
+│   ├── captions_unique.csv
+│   ├── captions_pre_filtered.csv
+│   ├── captions_to_rewrite.csv
+│   ├── dropped_captions.csv
+│   └── sentence_form_unmatched.csv
+├── rewrites/             # per-attribute LLM outputs + reviews
+│   ├── rewrites_<attribute>.csv  × 7
+│   └── review_<attribute>.txt    × 7
+├── reports/              # text reports + tables + pilot output
+│   ├── captions_prep_report.txt
+│   ├── clean_captions_report.txt
+│   ├── drop_captions_report.txt
+│   ├── captions_final_report.txt
+│   ├── non_descritto_table.txt
+│   ├── non_descritto_salvage.txt
+│   ├── useless_caption_candidates.txt
+│   ├── pilot_rewrites.csv
+│   └── pilot_review.txt
+├── batches/              # Anthropic Batch API metadata
+├── vocabulary/           # per-attribute vocabularies + bigrams + audit
+├── prompts/              # rendered system prompts per attribute
+├── GT commenti liberi/   # raw panelist workbooks + codebook
+├── TrentinGrana/         # raw images (gitignored, ~6 GB)
+└── images_flat/          # deduplicated flat image copies (gitignored)
+```
+
+All scripts use relative paths via `Path(__file__).resolve().parent`,
+so the project moves cleanly across machines without edits.
+
+## 12. Repo state
+
+Pushed to `panciut/Cheese` (private GitHub repo).
+
+### 12.1 Scripts (all use relative paths)
+
+| script | role |
+|---|---|
+| `build_dataset.py` | unified table builder (§2) |
+| `prepare_captions.py` | caption preparation (§4) |
+| `build_vocabulary.py`, `audit_vocabulary.py` | controlled vocabulary (§7.1-7.2) |
+| `clean_captions.py` | abbrev/typo/Spessore qualitatisation + dedup (§7.3-7.5) |
+| `find_useless_captions.py`, `drop_useless_captions.py` | drop step (§7.6) |
+| `rewrite_prompt.py`, `render_prompts_for_review.py` | LLM prompt builder (§8.1) |
+| `pilot_rewrite.py` | pilot run (§8.2) |
+| `rewrite_batch.py` | Batch API runner (§8.3) |
+| `rewrite_attribute.py` | sync per-attribute runner (alternative to batch) |
+| `manual_salvage.py` | NON_DESCRITTO salvage (§8.4) |
+| `broadcast_captions.py` | final training table broadcast (§9) |
+| `make_sentence_form.py` | sentence-form transformation (§10) |
+| `build_final_outputs.py` | final deliverables (§10.3) |
+
+### 12.2 Tracked data
+
+See §11 for the full directory layout. Step 1 deliverables live under
+`data/final/`. Intermediate stages, per-attribute LLM outputs, reports,
+and audit tables are kept under `data/intermediate/`, `data/rewrites/`,
+`data/reports/`, plus the existing `data/batches/`, `data/vocabulary/`,
+`data/prompts/` directories. Raw panelist workbooks remain in
+`data/GT commenti liberi/`.
+
+### 12.3 Gitignored
+
+`data/TrentinGrana/`, `data/images_flat/`, `__pycache__/`, `.DS_Store`,
+`.env`.
+
+## 13. Step 2 outlook (not yet started)
 
 The brief asks for **three different encoder-decoder captioning
 methods, conceptually as different as possible**. Step 1 of this
