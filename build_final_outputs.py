@@ -31,10 +31,9 @@ def main() -> None:
     rows = list(csv.DictReader(SRC.open()))
     print(f"loaded {len(rows)} rows from {SRC.name}")
 
-    # 1) Copy of the full canonical table
-    full_dst = OUT_DIR / "captions_final.csv"
-    shutil.copy2(SRC, full_dst)
-    print(f"copied -> {full_dst.relative_to(ROOT)}")
+    # captions_final.csv already lives at data/final/ after reorganization,
+    # so no copy step is needed.
+    print(f"using full table at {SRC.relative_to(ROOT)}")
 
     # 2) Simple image -> caption table (both compact and sentence forms)
     simple_path = OUT_DIR / "image_caption_attribute.csv"

@@ -214,6 +214,142 @@ def transform(caption: str, attribute: str, rules: dict) -> str | None:
     return None
 
 
+# ---------------------------------------------------------------------------
+# Polish pass — fix grammatical glitches introduced by the regex templates.
+# ---------------------------------------------------------------------------
+
+# Italian sensory/structural nouns by gender — SINGULAR forms only.
+# Used to inject the indefinite article after "presenta" when the source
+# had `<attr> con <bare singular noun>`. Plurals never take an indefinite
+# article in Italian, so they go in NOUNS_PLURAL and we leave them alone.
+NOUNS_F = {
+    "macchia", "zona", "area", "fascia", "striscia", "sfumatura",
+    "stiratura", "impugnatura", "fessura", "frattura", "microocchiatura",
+    "occhiatura", "spaccatura", "disidratazione", "ossidazione",
+    "presenza", "grana", "tirosina", "sottocrosta", "parte", "faccia",
+    "granulosità", "struttura", "microstruttura", "scaglia", "rottura",
+    "muffa", "tara", "anomalia", "consistenza", "umidità", "porzione",
+}
+NOUNS_M = {
+    "alone", "spessore", "colore", "spacco", "occhio", "sottopiatto",
+    "scalzo", "accenno", "sentore", "profilo", "limite", "contrasto",
+    "bordo", "ingresso", "taglio", "spigolo", "angolo", "lato",
+    "piatto", "aspetto", "difetto", "siero",
+}
+NOUNS_PLURAL = {
+    "macchie", "zone", "aree", "fasce", "strisce", "sfumature",
+    "stirature", "fessure", "fratture", "microocchiature", "occhiature",
+    "spaccature", "parti", "facce", "scaglie", "rotture", "muffe",
+    "anomalie", "porzioni", "consistenze",
+    "aloni", "spessori", "colori", "spacchi", "occhi", "sottopiatti",
+    "scalzi", "accenni", "sentori", "profili", "limiti", "contrasti",
+    "bordi", "ingressi", "tagli", "spigoli", "angoli", "lati", "piatti",
+    "aspetti", "difetti", "granuli",
+}
+
+# Words that are already a determiner — never inject an article in front
+DETERMINERS = {
+    "un", "una", "un'", "uno", "il", "lo", "la", "i", "gli", "le",
+    "qualche", "molti", "molte", "diversi", "diverse",
+    "tanti", "tante", "pochi", "poche", "altri", "altre", "altre",
+    "tantissimi", "tantissime", "alcuni", "alcune", "vari", "varie",
+}
+
+
+def _article_for(noun: str) -> str | None:
+    n = noun.lower().rstrip(",.;:!?")
+    if n in NOUNS_PLURAL:
+        return None  # plurals don't take an indefinite article
+    if n in NOUNS_F:
+        return "un'" if n[:1] in "aeiou" else "una"
+    if n in NOUNS_M:
+        if n[:1] == "z":
+            return "uno"
+        if n[:1] == "s" and len(n) > 1 and n[1] not in "aeiou":
+            return "uno"
+        if n[:1] in "aeiou":
+            return "un"
+        return "un"
+    return None
+
+
+def _fix_presenta(text: str) -> str:
+    """Inject indefinite article after 'presenta ' when followed by a
+    bare singular noun (or adjective + noun) without one."""
+
+    def fix_match(m: re.Match) -> str:
+        tail = m.group(1)
+        words = re.findall(r"\S+", tail)
+        if not words:
+            return m.group(0)
+        first = words[0].lower().rstrip(",.;:")
+        if first in DETERMINERS:
+            return m.group(0)
+        # If first word is a known plural noun, leave it alone — plurals
+        # don't take the indefinite article and we shouldn't fall through
+        # to look at the second word in this case.
+        if first in NOUNS_PLURAL:
+            return m.group(0)
+        # Try first word as the noun
+        art = _article_for(first)
+        if art:
+            sep = "" if art.endswith("'") else " "
+            return f"presenta {art}{sep}{tail}"
+        # Try second word as the noun (first looks like an adjective).
+        # Only if the FIRST word ends in a typical adjective inflection
+        # (-o/-a/-e/-i) AND isn't itself a known noun in any list.
+        if len(words) >= 2 and first[-1:] in "oaei":
+            second = words[1].lower().rstrip(",.;:")
+            if second in DETERMINERS or second in NOUNS_PLURAL:
+                return m.group(0)
+            art = _article_for(second)
+            if art:
+                sep = "" if art.endswith("'") else " "
+                return f"presenta {art}{sep}{tail}"
+        return m.group(0)
+
+    # Match `presenta <X>` where X is everything until end of sentence
+    return re.sub(r"\bpresenta\s+(.+?)(?=\.\s*$|$)", fix_match, text)
+
+
+def polish(sentence: str) -> str:
+    """Apply post-template polish fixes."""
+    if not sentence:
+        return sentence
+    s = sentence
+    # 1. inject missing article after "presenta"
+    s = _fix_presenta(s)
+    # 2. "è dal colore X" → "è di colore X"
+    s = re.sub(r"\bè dal colore\b", "è di colore", s)
+    # 3. "è dalla <noun>" — replace with "presenta una/un' <noun>" by gender,
+    #    falling back to leaving alone if noun unknown
+    def _fix_dalla(m):
+        word = m.group(1).lower().rstrip(",.;:")
+        art = _article_for(word)
+        if art is None and word.endswith("ità"):
+            # Italian -ità nouns are always feminine
+            art = "un'" if word[:1] in "aeiou" else "una"
+        if art and art in ("una", "un'"):
+            sep = "" if art.endswith("'") else " "
+            return f"presenta {art}{sep}{m.group(1)}"
+        # Last resort: re-frame as "presenta una caratteristica di X"
+        # leaving alone for now if unknown
+        return m.group(0)
+    # Allow optional adjective between "dalla" and the noun
+    # ("Pasta dalla buona grandiosità" → polish reach the noun)
+    s = re.sub(r"\bè dalla (?:\w+\s+)?(\w+ità\b)", _fix_dalla, s)
+    s = re.sub(r"\bè dalla (\w+)", _fix_dalla, s)
+    # 4. "è unghia" → "presenta un'unghia"
+    s = re.sub(r"\bè unghia\b", "presenta un'unghia", s)
+    # 5. Italian elision: any "una <vowel-starting word>" → "un'<word>"
+    #    (standard rule; safe because we only inject "una" before known
+    #    feminine nouns / their modifiers).
+    s = re.sub(r"\buna ([aeiouAEIOU]\w+)", r"un'\1", s)
+    # collapse any introduced double spaces
+    s = re.sub(r"\s{2,}", " ", s)
+    return s
+
+
 def main() -> None:
     rules = make_rules()
     rows = list(csv.DictReader(SRC.open()))
@@ -241,7 +377,7 @@ def main() -> None:
             n_unmatched += 1
             unmatched_unique[(attr, cap)] = unmatched_unique.get((attr, cap), 0) + 1
         else:
-            r["caption_sentence"] = sent
+            r["caption_sentence"] = polish(sent)
             n_matched += 1
             by_attr_match[attr] += 1
 
