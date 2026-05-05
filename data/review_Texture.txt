@@ -1,0 +1,2183 @@
+## Texture
+unique captions: 1088
+model: claude-haiku-4-5
+batch_id: msgbatch_01Bv99Z88dFdZ6PJ6FdjRxoA
+
+(sorted by descending broadcast frequency)
+
+  freq= 124  raw : asciutto
+             clean: Texture asciutta.
+  freq=  90  raw : Compatto
+             clean: Texture compatta.
+  freq=  74  raw : pastoso
+             clean: Texture pastosa.
+  freq=  56  raw : Leggermente asciutto
+             clean: Texture leggermente asciutta.
+  freq=  40  raw : Ingozza
+             clean: Texture che ingozza la bocca.
+  freq=  40  raw : pochi cristalli
+             clean: Texture con pochi cristalli.
+  freq=  36  raw : Abbastanza solubile
+             clean: Texture abbastanza solubile.
+  freq=  36  raw : adesiva
+             clean: Texture adesiva.
+  freq=  28  raw : secco
+             clean: Texture secca.
+  freq=  26  raw : leggermente gommoso
+             clean: Texture leggermente gommosa.
+  freq=  20  raw : Cristalli
+             clean: Texture con cristalli presenti.
+  freq=  20  raw : Poco friabile
+             clean: Texture poco friabile.
+  freq=  16  raw : gommoso
+             clean: Texture gommosa.
+  freq=  16  raw : No cristalli
+             clean: Texture priva di cristalli.
+  freq=  16  raw : solubile
+             clean: Texture solubile.
+  freq=  16  raw : Discretamente solubile
+             clean: Texture discretamente solubile.
+  freq=  16  raw : asciutto, granuloso
+             clean: Texture asciutta e granulosa.
+  freq=  16  raw : granulosa, solubile, gradevole
+             clean: Texture granulosa e solubile.
+  freq=  16  raw : potrebbe essere più friabile
+             clean: Texture poco friabile.
+  freq=  14  raw : granuloso e solubile
+             clean: Texture granulosa e solubile.
+  freq=  14  raw : Non ok
+             clean: NON_DESCRITTO
+  freq=  14  raw : Abbastanza solubile, ingozza
+             clean: Texture abbastanza solubile ma che ingozza.
+  freq=  14  raw : Solo leggermente asciutto
+             clean: Texture leggermente asciutta.
+  freq=  12  raw : Molto compatto
+             clean: Texture molto compatta.
+  freq=  12  raw : troppo pastoso
+             clean: Texture troppo pastosa.
+  freq=  12  raw : farinoso
+             clean: Texture farinosa.
+  freq=  12  raw : Molto tenero
+             clean: Texture molto tenera.
+  freq=  12  raw : poco solubile
+             clean: Texture poco solubile.
+  freq=  12  raw : pastoso e poco solubile
+             clean: Texture pastosa e poco solubile.
+  freq=  12  raw : potrebbe essere più solubile
+             clean: Texture poco solubile.
+  freq=  12  raw : Non friabile
+             clean: Texture poco friabile.
+  freq=  12  raw : compatto, poco friabile
+             clean: Texture compatta e poco friabile.
+  freq=  12  raw : molto pastoso
+             clean: Texture molto pastosa.
+  freq=  12  raw : pastoso;pochi cristalli
+             clean: Texture pastosa con pochi cristalli.
+  freq=  12  raw : senza grana
+             clean: Texture senza grana.
+  freq=  12  raw : granulosa
+             clean: Texture granulosa.
+  freq=  12  raw : tenerissimo cristalli
+             clean: Texture tenerissima con cristalli.
+  freq=  12  raw : Deformabile
+             clean: Texture deformabile.
+  freq=  10  raw : Contrasto umidità e untuosita..
+             clean: Texture con contrasto tra umidità e untuosità.
+  freq=  10  raw : Leggermente poco solubile e faticoso?
+             clean: Texture leggermente poco solubile e faticosa.
+  freq=  10  raw : un poco-asciutto
+             clean: Texture leggermente asciutta.
+  freq=  10  raw : Strano!
+             clean: NON_DESCRITTO
+  freq=  10  raw : Anche poca solubilità!
+             clean: Texture con poca solubilità.
+  freq=   8  raw : grana presente, compatto,
+             clean: Texture granulosa e compatta.
+  freq=   8  raw : tirosina molto scarsa
+             clean: Texture con tirosina scarsa.
+  freq=   8  raw : Lega la bocca
+             clean: Texture che lega la bocca.
+  freq=   8  raw : secco, asciutto
+             clean: Texture secco e asciutto.
+  freq=   8  raw : abbastanza adesivo
+             clean: Texture abbastanza adesiva.
+  freq=   8  raw : molto solubile
+             clean: Texture molto solubile.
+  freq=   8  raw : molto asciutto
+             clean: Texture molto asciutta.
+  freq=   8  raw : umido, adesivo
+             clean: Texture umida e adesiva.
+  freq=   8  raw : poco solubile. duro
+             clean: Texture poco solubile e dura.
+  freq=   8  raw : finale potrebbe essere più solubile
+             clean: Texture poco solubile in finale.
+  freq=   8  raw : poco friabile, compatto, poco granuloso, abbastanza solubile
+             clean: Texture poco friabile, compatta, poco granulosa e abbastanza solubile.
+  freq=   8  raw : granulosa, solubile, un poco asciutta, a tratti più\ umida
+             clean: Texture granulosa, solubile, leggermente asciutta con zone più umide.
+  freq=   8  raw : asciutto granuloso cristalli
+             clean: Texture asciutta, granulosa, con cristalli.
+  freq=   8  raw : bocca pulita
+             clean: Texture che lascia bocca pulita.
+  freq=   8  raw : cristali
+             clean: Texture con cristalli presenti.
+  freq=   8  raw : asciutto e poco sol lascia sensazione di farina in bocca
+             clean: Texture asciutta, poco solubile, lascia sensazione farinosa in bocca.
+  freq=   8  raw : friabile
+             clean: Texture friabile.
+  freq=   8  raw : gommosa
+             clean: Texture gommosa.
+  freq=   8  raw : granuoloso asciutto si percepiscono i cristalli
+             clean: Texture granulosa, asciutta con cristalli percepibili.
+  freq=   8  raw : morbido poca grana impasta
+             clean: Texture morbida, poca grana e che impasta la bocca.
+  freq=   8  raw : solubile e granuloso. piacevole
+             clean: Texture solubile e granulosa.
+  freq=   8  raw : umida, poco granulosa, poco solubile
+             clean: Texture umida, poco granulosa e poco solubile.
+  freq=   8  raw : Friabile, appena asciutto
+             clean: Texture friabile, leggermente asciutta.
+  freq=   8  raw : asciutto morbibo poco granuloso e poco sol
+             clean: Texture asciutta, morbida e poco solubile.
+  freq=   8  raw : molto adesiva
+             clean: Texture molto adesiva.
+  freq=   8  raw : Pochi cristalli..peccato
+             clean: Texture con pochi cristalli.
+  freq=   8  raw : si scioglie
+             clean: Texture che si scioglie in bocca.
+  freq=   8  raw : Sento le perle
+             clean: Texture con cristalli percepibili.
+  freq=   8  raw : molto umido, solubile, poco granuloso
+             clean: Texture molto umida, solubile e poco granulosa.
+  freq=   8  raw : Friabile e morbido. pochi cristalli. impasta la bocca
+             clean: Texture friabile e morbido, pochi cristalli, impasta la bocca.
+  freq=   8  raw : lascia la bocca pulita
+             clean: Texture che lascia la bocca pulita.
+  freq=   8  raw : pastoso, persistente in bocca
+             clean: Texture pastosa e persistente in bocca.
+  freq=   8  raw : Non troppo solubile
+             clean: Texture poco solubile.
+  freq=   8  raw : molti cristalli
+             clean: Texture con cristalli abbondanti.
+  freq=   8  raw : Ben friabile, lascia un struttura fine. Si scioglie bene in bocca, non asciutto
+             clean: Texture friabile, con struttura fine, molto solubile e non asciutta.
+  freq=   8  raw : morbido si sentono i cristalli poco granuloso molto sol
+             clean: Texture morbida, cristalli percepibili, poco granulosa e molto solubile.
+  freq=   8  raw : cristalli medio grossi, la bocca nel complesso rimane pulita
+             clean: Texture con cristalli medio grossi, bocca pulita nel complesso.
+  freq=   8  raw : Cristalli anche troppi
+             clean: Texture con cristalli abbondanti.
+  freq=   8  raw : Umido, cedevole, quasi colloso. Sembra di mangiare pongo
+             clean: Texture umida, cedevole e leggermente collosa.
+  freq=   8  raw : molto granuloso e persistente
+             clean: Texture molto granulosa e persistente.
+  freq=   8  raw : Friabile, lascia la bocca impastata
+             clean: Texture friabile che lascia la bocca impastata.
+  freq=   8  raw : tendente al molliccio
+             clean: Texture tendente al molliccio.
+  freq=   8  raw : no grana
+             clean: Texture senza grana.
+  freq=   8  raw : solubile, non molta grana
+             clean: Texture solubile, poca grana.
+  freq=   8  raw : morbido, pastoso
+             clean: Texture morbido pastosa.
+  freq=   8  raw : asciutto e impasta poco solub all'inizio poi si avvertono i cristalli
+             clean: Texture asciutta, poco solubile all'inizio con cristalli percepibili al finale.
+  freq=   8  raw : friabile ma asciutto
+             clean: Texture friabile ma asciutta.
+  freq=   8  raw : granulosa, asciutta, solubile, dura, forse poco umida
+             clean: Texture granulosa, asciutta, solubile e dura, poco umida.
+  freq=   8  raw : Senza corpo
+             clean: Texture poco compatta.
+  freq=   8  raw : un poco- granulosa
+             clean: Texture leggermente granulosa.
+  freq=   8  raw : Forse pochi cristalli
+             clean: Texture con pochi cristalli.
+  freq=   8  raw : sabbioso
+             clean: Texture sabbiosa.
+  freq=   8  raw : Astringente
+             clean: NON_DESCRITTO
+  freq=   8  raw : con cristalli
+             clean: Texture con cristalli.
+  freq=   8  raw : leggera sabbiosità finale
+             clean: Texture con leggera sabbiosità finale.
+  freq=   8  raw : Discretamente granulosa. Asciuga le fauci
+             clean: Texture discretamente granulosa e asciutta.
+  freq=   8  raw : si sentono bene i cristalli
+             clean: Texture con cristalli percettibili.
+  freq=   8  raw : Leggermente pastoso
+             clean: Texture leggermente pastosa.
+  freq=   8  raw : compatta e poco solubile. pastoso
+             clean: Texture compatta, poco solubile e pastosa.
+  freq=   8  raw : Leggermente sabbioso
+             clean: Texture leggermente sabbioso.
+  freq=   8  raw : poca grana
+             clean: Texture con poca grana.
+  freq=   8  raw : ancora un poco elastica, non molto granulosa
+             clean: Texture poco elastica, non molto granulosa.
+  freq=   8  raw : Nel complesso non male però
+             clean: NON_DESCRITTO
+  freq=   8  raw : struttura cedevole, molle e pastosa
+             clean: Texture cedevole, molle e pastosa.
+  freq=   8  raw : Non granuloso
+             clean: Texture non granulosa.
+  freq=   8  raw : un poco adesivo
+             clean: Texture leggermente adesiva.
+  freq=   8  raw : Anche buona solubilità! Peccato per asciutto
+             clean: Texture buona solubilità, leggermente asciutta.
+  freq=   8  raw : asciutto granuloso cristalli poco sol
+             clean: Texture asciutta, granulosa con cristalli e poco solubile.
+  freq=   8  raw : pastoso morbido qualche cristallo poco sol
+             clean: Texture pastosa, morbida, con qualche cristallo e poco solubile.
+  freq=   8  raw : sabbioso molto fiabile
+             clean: Texture sabbioso e molto friabile.
+  freq=   8  raw : molto asciutto, non solubile
+             clean: Texture molto asciutta e poco solubile.
+  freq=   8  raw : Grana ben percettibile, presenza di cristalli
+             clean: Texture con grana ben percettibile e cristalli presenti.
+  freq=   8  raw : cristalli granuloso asciutto ma solubilie
+             clean: Texture granulosa, asciutta, con cristalli e solubile.
+  freq=   8  raw : deformabile, compatto, poco friabile, poco granuloso
+             clean: Texture deformabile, compatta, poco friabile e poco granulosa.
+  freq=   8  raw : poca grana, pastoso
+             clean: Texture pastosa con poca grana.
+  freq=   8  raw : cedevole, umida, poco granulosa
+             clean: Texture cedevole, umida e poco granulosa.
+  freq=   8  raw : asciutto impasta poco solub
+             clean: Texture asciutta, poco solubile e che impasta poco la bocca.
+  freq=   8  raw : il formaggio si scioglie bene
+             clean: Texture che si scioglie bene in bocca.
+  freq=   8  raw : molle e senza grana
+             clean: Texture molle e senza grana.
+  freq=   8  raw : granulosa con pochi cristalli
+             clean: Texture granulosa con pochi cristalli.
+  freq=   8  raw : leggermente cedevole, non molto solubile ma granulosa
+             clean: Texture leggermente cedevole, poco solubile ma granulosa.
+  freq=   8  raw : morbido, poco friabile, poca microstruttura
+             clean: Texture morbida, poco friabile e con poca microstruttura.
+  freq=   7  raw : Un poco’ umido,
+             clean: Texture poco umida.
+  freq=   4  raw : buona friabilità', presenza di cristalli, scarsa solubilità
+             clean: Texture friabile con cristalli presenti e scarsa solubilità.
+  freq=   4  raw : se non fosse per i troppi cristalli...
+             clean: Texture con cristalli abbondanti.
+  freq=   4  raw : leggermente adesiva
+             clean: Texture leggermente adesiva.
+  freq=   4  raw : Non ha struttura da grana
+             clean: Texture non granulosa.
+  freq=   4  raw : inconsistente
+             clean: Texture inconsistente.
+  freq=   4  raw : molle
+             clean: Texture molle.
+  freq=   4  raw : compatto, non molto friabile, granuloso, non molto solubile e leggermente sabbioso alla fine
+             clean: Texture compatta, poco friabile, granulosa, poco solubile e leggermente sabbioso alla fine.
+  freq=   4  raw : Molto equilibrato
+             clean: NON_DESCRITTO
+  freq=   4  raw : morbito, si liquefa velocemente e lascia la bocca pulitissima
+             clean: Texture morbida, si scioglie velocemente e lascia la bocca pulita.
+  freq=   4  raw : duro, poco solubile, moderatametne umido, microstruttura piuttosto grossolana
+             clean: Texture dura, poco solubile, moderatamente umida e microstruttura piuttosto grossolana.
+  freq=   4  raw : lascia la bocca abbastanza pulita
+             clean: Texture che lascia la bocca abbastanza pulita.
+  freq=   4  raw : asciutto, farino e poco solubile
+             clean: Texture asciutta, farinosa e poco solubile.
+  freq=   4  raw : morbido e pastoso cristalli evidenti
+             clean: Texture morbida e pastosa con cristalli evidenti.
+  freq=   4  raw : peccato per la leggera sabbiosita finale
+             clean: Texture leggermente sabbioso nel finale.
+  freq=   4  raw : friabilità intensità scara;granuli tirosina intensità scarsa
+             clean: Texture poco friabile con granuli di tirosina scarsi.
+  freq=   4  raw : Un disastro!
+             clean: NON_DESCRITTO
+  freq=   4  raw : mediamente dura, poco granulosa, molto solubile, pochi microcristalli
+             clean: Texture mediamente dura, poco granulosa, molto solubile con pochi microcristalli.
+  freq=   4  raw : Leggermente schioccante
+             clean: Texture leggermente schioccante.
+  freq=   4  raw : granulosa, asciutta, solubile
+             clean: Texture granulosa, asciutta e solubile.
+  freq=   4  raw : presenza di piccoli cristalli lascia la bocca pulita
+             clean: Texture con cristalli fini che lascia bocca pulita.
+  freq=   4  raw : abbastanza duro, compatto ma friabile, grana fine, solubile
+             clean: Texture abbastanza dura, compatta ma friabile, con grana fine e solubile.
+  freq=   4  raw : cristalli evidenti granuloso
+             clean: Texture granulosa con cristalli evidenti.
+  freq=   4  raw : impasta asciutto poco granuloso poco sol qualche cristallo
+             clean: Texture che impasta, asciutta, poco granulosa e poco solubile, con qualche cristallo.
+  freq=   4  raw : tirosina solubilità e friabilità moderato
+             clean: Texture con tirosina, solubilità e friabilità moderata.
+  freq=   4  raw : un poco- granulosa ma abbastanza solubile
+             clean: Texture leggermente granulosa e abbastanza solubile.
+  freq=   4  raw : abbastanza asciutta, granulosa, solubile
+             clean: Texture abbastanza asciutta, granulosa e solubile.
+  freq=   4  raw : molto duro, poco friabile
+             clean: Texture molto dura e poco friabile.
+  freq=   4  raw : morbido e umido. cedevole, anche se friabilità' non perfetta. microstruttura media, non fine
+             clean: Texture morbida, umida e cedevole, con friabilità moderata e microstruttura media.
+  freq=   4  raw : cristalli rinvenuti, anche grossi. friabile. struttura non fine. tende ad asciugare le fauci
+             clean: Texture friabile con cristalli grossi, struttura non fine e tendenza ad asciugare le fauci.
+  freq=   4  raw : friabilità' buona, microstruttura assente e pastosa, buoni i cristalli
+             clean: Texture friabile, con microstruttura pastosa e cristalli buoni.
+  freq=   4  raw : bella pastosità, cristalli presenti, umidità giusta e solubilità OK
+             clean: Texture pastosa con cristalli presenti, umidità giusta e buona solubilità.
+  freq=   4  raw : friabile, buona microstruttura, solubile ma pochissimi cristalli
+             clean: Texture friabile e solubile, con microstruttura buona e pochissimi cristalli.
+  freq=   4  raw : morbido asciutto tende ad impastare cristalli poco sol
+             clean: Texture morbida, asciutta, che tende a impastare, con cristalli poco solubili.
+  freq=   4  raw : asciutto, troppo pastoso e poco friabile, cristalli medii
+             clean: Texture asciutta, troppo pastosa e poco friabile, con cristalli medi.
+  freq=   4  raw : asciutto poco granuloso e pastoso poco sol
+             clean: Texture asciutta, poco granulosa e pastosa, poco solubile.
+  freq=   4  raw : asciutto cristalli evidenti poco solub rimane residuo
+             clean: Texture asciutta con cristalli evidenti, poco solubile, lascia residuo in bocca.
+  freq=   4  raw : umido, cedevole, poca struttura. Pastoso. immaturo
+             clean: Texture umida, cedevole e pastosa, con poca struttura.
+  freq=   4  raw : granulosa, solubile, umidità ok, leggera sabbiosit' in chiusura
+             clean: Texture granulosa, solubile, umidità giusta e leggermente sabbiosa in chiusura.
+  freq=   4  raw : media adesivita-, tirosia percepita
+             clean: Texture mediamente adesiva con tirosina percepita.
+  freq=   4  raw : molto pastoso non da grana
+             clean: Texture molto pastosa, non da grana.
+  freq=   4  raw : pressoche assente
+             clean: Texture pressoché assente.
+  freq=   4  raw : friabilità e solubilità FORTE;tirosina MODERATA
+             clean: Texture molto friabile e solubile, con tirosina moderata.
+  freq=   4  raw : molti cristalli, decente microstruttura, abbastanza solubile
+             clean: Texture con molti cristalli, decente microstruttura e abbastanza solubile.
+  freq=   4  raw : compatto, non molto friabile, deformabile,
+             clean: Texture compatta, poco friabile e deformabile.
+  freq=   4  raw : pastoso, poca grana
+             clean: Texture pastosa, poca grana.
+  freq=   4  raw : molto compatto, non friabile, no cristalli, poco solubile, non caratteristico
+             clean: Texture molto compatta, non friabile, senza cristalli e poco solubile.
+  freq=   4  raw : morbido. fondente. struttura non definita. rari cristalli
+             clean: Texture morbida, fondente, con struttura poco definita e rari cristalli.
+  freq=   4  raw : una porzione è da pasta stirata
+             clean: Texture con zone da pasta stirata.
+  freq=   4  raw : abbastanza durto e cpompatto, grana molto fine, cristalli non percepiti, un poco' asciutto
+             clean: Texture abbastanza dura e compatta, grana molto fine, cristalli non percepibili, leggermente asciutta.
+  freq=   4  raw : duro, poco solubile.
+             clean: Texture dura, poco solubile.
+  freq=   4  raw : adesivo, poco friabile e poco solubile
+             clean: Texture adesiva, poco friabile e poco solubile.
+  freq=   4  raw : duro, friabile, grana grossolana, con cristalli ben percepibili, abbastanza solubile
+             clean: Texture dura, friabile, con grana grossolana, cristalli ben percepibili e abbastanza solubile.
+  freq=   4  raw : morbido pastoso con cristalli
+             clean: Texture morbido pastoso con cristalli.
+  freq=   4  raw : asciutta, granulosa, poco solubile
+             clean: Texture asciutta, granulosa e poco solubile.
+  freq=   4  raw : morbido con tanti piccoli cristalli poco solub lascia residuo sabbioso
+             clean: Texture morbida con cristalli fini, poco solubile e che lascia residuo sabbioso.
+  freq=   4  raw : sabbioso con moltri cristalli e frammenti scarsamente solubili
+             clean: Texture sabbioso con molti cristalli e frammenti scarsamente solubili.
+  freq=   4  raw : non perfettamente friabile, cedevole al molare, morbido. Cristalli molto presenti, anche grossi, pure troppo
+             clean: Texture poco friabile, cedevole al molare, morbida, con cristalli abbondanti e grossi.
+  freq=   4  raw : media morbidezza e leggermente asciutto
+             clean: Texture mediamente morbida e leggermente asciutta.
+  freq=   4  raw : pastoso poco friabile
+             clean: Texture pastosa e poco friabile.
+  freq=   4  raw : manca un pò di umidità, ma nel complesso OK
+             clean: Texture leggermente asciutta.
+  freq=   4  raw : morbido poco granuloso pochi cristalli
+             clean: Texture morbida, poco granulosa e con pochi cristalli.
+  freq=   4  raw : mediamente dura, granulosa, solubile, con media presenza di microcristalli
+             clean: Texture mediamente dura, granulosa, solubile con media presenza di microcristalli.
+  freq=   4  raw : cristalli percepiti, grossi. friabilità buona. non molto umido
+             clean: Texture con cristalli grossi percepibili, buona friabilità e scarsa umidità.
+  freq=   4  raw : morbido poco granuloso no cristalli (1)
+             clean: Texture morbida, poco granulosa, senza cristalli.
+  freq=   4  raw : un poco pastoso
+             clean: Texture poco pastosa.
+  freq=   4  raw : friabile ma non asciutto. microcristalli fini e presenti. struttura fine
+             clean: Texture friabile, non asciutta, con microcristalli fini presenti e struttura fine.
+  freq=   4  raw : fuori standard
+             clean: NON_DESCRITTO
+  freq=   4  raw : Gestire mediocre
+             clean: NON_DESCRITTO
+  freq=   4  raw : tirosina ASSENTE;friabilità e solubilità MODERATA
+             clean: Texture senza tirosina, friabilità e solubilità moderata.
+  freq=   4  raw : morbido e cedevole. impasta la bocca. cristalli presenti
+             clean: Texture morbida e cedevole, che impasta la bocca, con cristalli presenti.
+  freq=   4  raw : Leggermente tenero ma bella struttura
+             clean: Texture leggermente tenera con bella struttura.
+  freq=   4  raw : compatto e duro, microstruttura grossolana, non molto solubile,pochi cristalli percepiti
+             clean: Texture compatta e dura, microstruttura grossolana, poco solubile, pochi cristalli percepiti.
+  freq=   4  raw : media... presenza di cristalli e umidità' equilibrata
+             clean: Texture media con cristalli e umidità equilibrata.
+  freq=   4  raw : buona solubilità' e microstruttura
+             clean: Texture con buona solubilità e microstruttura ben strutturata.
+  freq=   4  raw : leggermente. pastoso, non troppo solubile
+             clean: Texture leggermente pastosa e poco solubile.
+  freq=   4  raw : appena un poco' plastico
+             clean: Texture leggermente plastica.
+  freq=   4  raw : presenza di cristalli medio grossi, rimane un poco granuloso e sabbioso
+             clean: Texture con cristalli medio-grossi, rimane granulosa e sabbiosa.
+  freq=   4  raw : buona l agran ae i mmicrocristalli
+             clean: Texture con buona grana e microcristalli.
+  freq=   4  raw : non scioglie subito, ma lascia la bocca pulita, ci sono molti cristalli
+             clean: Texture poco solubile, lascia bocca pulita, con cristalli abbondanti.
+  freq=   4  raw : Mancanza di cristalli
+             clean: Texture con cristalli assenti.
+  freq=   4  raw : compatto, poco friabile, poco granuloso, adesivo, quasi senza cristalli
+             clean: Texture compatta, poco friabile, poco granulosa, adesiva e quasi senza cristalli.
+  freq=   4  raw : Controverso
+             clean: NON_DESCRITTO
+  freq=   4  raw : non molto friabile, tendente all'adesivo e poco solubile, assenti i cristalli
+             clean: Texture poco friabile, tendente all'adesivo e poco solubile, cristalli assenti.
+  freq=   4  raw : friabile in una struttura molti fine. consistenza finale sabbiosa-farinosa. non asciutto
+             clean: Texture friabile e fine, con consistenza finale sabbiosa-farinosa, non asciutta.
+  freq=   4  raw : morbido impasta qualche cristallo sol
+             clean: Texture morbida che impasta la bocca, con qualche cristallo e solubile.
+  freq=   4  raw : Friabile in una microstruttura fine che tende al sabbioso. Lascia la bocca pulita. microcristalli presenti, non molti
+             clean: Texture friabile con microstruttura fine e tendenza sabbiosa, lascia bocca pulita, microcristalli presenti in quantità moderata.
+  freq=   4  raw : troppo cedevole, friabile
+             clean: Texture troppo cedevole e friabile.
+  freq=   4  raw : duro, asciutto, cristalli ben percepibili, non molto solubile.
+             clean: Texture dura, asciutta, con cristalli ben percepibili e poco solubile.
+  freq=   4  raw : ancora leggermente umida ma solubile
+             clean: Texture ancora leggermente umida ma solubile.
+  freq=   4  raw : non troppo solubile, un poco sabbioso ma solo in certi pezzi
+             clean: Texture poco solubile, leggermente sabbioso in alcune zone.
+  freq=   4  raw : granulosa ma ancora umida, solubilità' medio bassa
+             clean: Texture granulosa, ancora umida, con solubilità medio-bassa.
+  freq=   4  raw : morbido con cristalli granuloso lascia un poco di residuo
+             clean: Texture morbida con cristalli, granulosa e che lascia un poco di residuo in bocca.
+  freq=   4  raw : morbido. tende a impastare. cristalli missing
+             clean: Texture morbida, tende a impastare, cristalli assenti.
+  freq=   4  raw : abbastanza pastoso
+             clean: Texture abbastanza pastosa.
+  freq=   4  raw : Poco friabile e granuloso. Cedevole . Cristalli assenti
+             clean: Texture poco friabile e granulosa, cedevole, cristalli assenti.
+  freq=   4  raw : cedevole
+             clean: Texture cedevole.
+  freq=   4  raw : friabile, microstruttura finissima. strano finale> sembra sabbioso. Anomalo
+             clean: Texture friabile con microstruttura finissima, finale leggermente sabbioso.
+  freq=   4  raw : friabilità, solubilità e tirosina FORTE
+             clean: Texture friabile, solubile, con tirosina intensa.
+  freq=   4  raw : ascoiutto e granuloso cristalli e ben solub
+             clean: Texture asciutta, granulosa con cristalli e ben solubile.
+  freq=   4  raw : abbastanza morbido e friabile, un poco' asciutto,
+             clean: Texture abbastanza morbida e friabile, leggermente asciutta.
+  freq=   4  raw : cedevole, morbido, ingozza
+             clean: Texture cedevole, morbida e che ingozza.
+  freq=   4  raw : buona friabilità, ma asciutto alla deglutizione ingozza
+             clean: Texture friabile ma asciutta, ingozza alla deglutizione.
+  freq=   4  raw : consistente e friabile ma non asciutto. cristalli non percepiti
+             clean: Texture consistente e friabile, non asciutta, senza cristalli percepibili.
+  freq=   4  raw : poca grana, abbastanza adesivo, pochi cristalli
+             clean: Texture con poca grana, abbastanza adesiva e pochi cristalli.
+  freq=   4  raw : Peccato per asciutto
+             clean: Texture leggermente asciutta.
+  freq=   4  raw : sabbioso e con presenza di numerosi cristalli,
+             clean: Texture sabbioso con cristalli abbondanti.
+  freq=   4  raw : Friabile. Microstruttura abbastanza fine. Umido. Non impasta
+             clean: Texture friabile, con microstruttura abbastanza fine, umida e che non impasta.
+  freq=   4  raw : friabilità intenistà medio bassa;solubilità intensità medio alta;granuli tirosina intensità media
+             clean: Texture friabile con solubilità medio-alta e granuli di tirosina di media intensità.
+  freq=   4  raw : friabile. microstruttura fine. microcristalli presenti. non asciutto
+             clean: Texture friabile, con microstruttura fine, microcristalli presenti e non asciutta.
+  freq=   4  raw : miceostruttura tendente al fine, friabile. Microcristalli presenti, non grossi. daltra parte tende all-asciutto
+             clean: Texture friabile con microstruttura fine, microcristalli non grossi e tendente all'asciutto.
+  freq=   4  raw : morbido no cristalli
+             clean: Texture morbida, senza cristalli.
+  freq=   4  raw : morbido e umido poco granuloso ma piccoli cristalli lascia residuo
+             clean: Texture morbida e umida, poco granulosa con piccoli cristalli che lasciano residuo.
+  freq=   4  raw : granuloso ma no cristalli abba stanza sol
+             clean: Texture granulosa, poco solubile.
+  freq=   4  raw : molti granuli, umidità' circa OK
+             clean: Texture con molti granuli, umidità giusta.
+  freq=   4  raw : seppur umido abbastanza friabile. lascia la bocca pulita
+             clean: Texture umida, abbastanza friabile, lascia la bocca pulita.
+  freq=   4  raw : Sembra più giovane
+             clean: NON_DESCRITTO
+  freq=   4  raw : compatto, quasi gommoso e deformabile, non friabile
+             clean: Texture compatta, quasi gommosa e deformabile, non friabile.
+  freq=   4  raw : Un Poco troppo umido, ma non è bagnato
+             clean: Texture leggermente troppo umida.
+  freq=   4  raw : granuloso in bocca
+             clean: Texture granulosa in bocca.
+  freq=   4  raw : Ben Friabile e umido. pochi microcristalli. finale sabbioso
+             clean: Texture friabile e umida, con pochi microcristalli e finale sabbioso.
+  freq=   4  raw : friabilità' non perfetta. troppo plastico al morso, morbido
+             clean: Texture poco friabile, troppo plastica al morso e morbida.
+  freq=   4  raw : asciutto e inzialmente poco solub
+             clean: Texture asciutta e inizialmente poco solubile.
+  freq=   4  raw : morbido, senza struttura e microcristalli, troppo solubile
+             clean: Texture morbida, senza struttura e microcristalli, troppo solubile.
+  freq=   4  raw : moderataemtte duro ma friabile, grana piuttosto fine ma presente, cristalli ben percepibili,solubile
+             clean: Texture moderatamente dura ma friabile, grana piuttosto fine, cristalli ben percepibili e solubile.
+  freq=   4  raw : duro, compatto, grana fine, pochi cristalli, abbastanza solubile
+             clean: Texture dura, compatta, a grana fine, con pochi cristalli e abbastanza solubile.
+  freq=   4  raw : Compatto, potrebbe essere più granuloso, pochi cristalli
+             clean: Texture compatta, poco granulosa, con pochi cristalli.
+  freq=   4  raw : tro
+             clean: NON_DESCRITTO
+  freq=   4  raw : mediamente dura, granulosa, solubile, gradevole
+             clean: Texture mediamente dura, granulosa e solubile.
+  freq=   4  raw : un poco- madesiva, presenza di tirosina
+             clean: Texture leggermente adesiva con tirosina presente.
+  freq=   4  raw : friabile, granuloso, discretamente solubile
+             clean: Texture friabile, granulosa e discretamente solubile.
+  freq=   4  raw : granuloso con cristalli poco solubile
+             clean: Texture granulosa con cristalli poco solubile.
+  freq=   4  raw : molle e pastoso e asciutto
+             clean: Texture molle, pastosa e asciutta.
+  freq=   4  raw : morbido poco granuloso qualche cris poco sol
+             clean: Texture morbida, poco granulosa, con qualche cristallo e poco solubile.
+  freq=   4  raw : cedevole al dente. si frattura in microstruttura grossolana. cristalli presneti. impasta la bocca
+             clean: Texture cedevole al dente, si frattura in microstruttura grossolana con cristalli presenti e impasta la bocca.
+  freq=   4  raw : Ho segnato durezza positiva perché ritengo abbia una bella espressione,
+             clean: NON_DESCRITTO
+  freq=   4  raw : Non molto friabile, tendente all'umido
+             clean: Texture poco friabile e tendente all'umido.
+  freq=   4  raw : un poco pastoso e poco solubile
+             clean: Texture leggermente pastosa e poco solubile.
+  freq=   4  raw : morbido granuloso con cristalli piccoli abbastanza solubile
+             clean: Texture morbida granulosa con cristalli piccoli e abbastanza solubile.
+  freq=   4  raw : pastoso asciutto poco solub no cristalli
+             clean: Texture pastosa, asciutta, poco solubile, senza cristalli.
+  freq=   4  raw : umido., molle. poco friabile, tende ad impastare la bocca e ingozzare. cristalli presenti
+             clean: Texture umida, molle e poco friabile, tende ad impastare la bocca e ingozzare, con cristalli presenti.
+  freq=   4  raw : granuloso e friabile cristalli evidenti solubile leggerero residuo sabbioso
+             clean: Texture granulosa e friabile, con cristalli evidenti, solubile, leggermente sabbioso e con residuo.
+  freq=   4  raw : tirosina intensità forte;solubilità e friabilità intensità leggera
+             clean: Texture con tirosina di forte intensità, solubilità e friabilità leggere.
+  freq=   4  raw : duro, grana fine, solubile, pochi critalli
+             clean: Texture dura, a grana fine, solubile, con pochi cristalli.
+  freq=   4  raw : friabile, leggermente morbido, solubile, assenza di cristalli
+             clean: Texture friabile, leggermente morbida e solubile, senza cristalli.
+  freq=   4  raw : morbido asciutto poco firiabile e poco solub
+             clean: Texture morbida, asciutta, poco friabile e poco solubile.
+  freq=   4  raw : privo di struttura, molle, cedevole
+             clean: Texture molle e cedevole, privo di struttura.
+  freq=   4  raw : bella solubilità, ma durezza bassa
+             clean: Texture con bella solubilità ma durezza bassa.
+  freq=   4  raw : compatto, duro, piuttosto pastoso e rpivo di grana.
+             clean: Texture compatta, dura, piuttosto pastosa e priva di grana.
+  freq=   4  raw : friabile, granulosa, abbastanza solubile e con cristalli percepibili
+             clean: Texture friabile, granulosa, abbastanza solubile e con cristalli percepibili.
+  freq=   4  raw : grana fine, sciutto e pastoso, morbido
+             clean: Texture a grana fine, asciutta e pastosa, morbida.
+  freq=   4  raw : Friabile con piccoli cristalli. Farinoso ed asciutto nel finale
+             clean: Texture friabile con cristalli fini, farinosa e asciutta nel finale.
+  freq=   4  raw : mediamente dura, granulosa ma con solubilità' medio bassa, a tratti poco aggregata
+             clean: Texture mediamente dura e granulosa, con solubilità medio-bassa e poca aggregazione a tratti.
+  freq=   4  raw : tirosina solubilità e friabilità leggera
+             clean: Texture con tirosina, buona solubilità e friabilità leggermente bassa.
+  freq=   4  raw : umida anche se presenti qualche cristallo, peccato, l-odore era buono
+             clean: Texture umida con qualche cristallo.
+  freq=   4  raw : compatto, poco friabile, poco granuloso, poco solubile
+             clean: Texture compatta, poco friabile, poco granulosa e poco solubile.
+  freq=   4  raw : Si frattura in una struttura netta, quindi friabilità limitata. Elastico al morso del molare. finale di bocca discreto, forse asciuga
+             clean: Texture friabile con struttura netta, elastica al morso; finale leggermente asciutto.
+  freq=   4  raw : Friabile, buona solubilità intermedia, untuosità
+             clean: Texture friabile, solubilità intermedia, untuosità.
+  freq=   4  raw : Leggermente duro e schioccante
+             clean: Texture leggermente dura e schioccante.
+  freq=   4  raw : morbido, abbastanza inconsistente
+             clean: Texture morbida e abbastanza pastosa.
+  freq=   4  raw : abbastanza duro, grana fine, asciutta, pochi cristalli, solubile
+             clean: Texture abbastanza dura, grana fine, asciutta, con pochi cristalli e solubile.
+  freq=   4  raw : Molto solubile in realtà è TROPPO SOLUBILE
+             clean: Texture molto solubile, tendente all'eccessivo.
+  freq=   4  raw : pastoso;assenza di cristalli
+             clean: Texture pastosa, assenza di cristalli.
+  freq=   4  raw : microstruttura finissima, più\ttosto morbido, pochi cristalli
+             clean: Texture con microstruttura finissima, piuttosto morbida e pochi cristalli.
+  freq=   4  raw : bocca poco pulita con frammenti insolubili
+             clean: Texture con bocca poco pulita e frammenti insolubili.
+  freq=   4  raw : DURO CON SOLUBILITà DIFFICOLTOSA;SCARSSISIMI GRANULI DI TIROSINA
+             clean: Texture dura con solubilità difficoltosa e scarsissimi granuli di tirosina.
+  freq=   4  raw : assenza di cristalli e granulosit';
+             clean: Texture senza cristalli e granulosa.
+  freq=   4  raw : tirosina molto presente, buona solubilità-
+             clean: Texture con tirosina molto presente e buona solubilità.
+  freq=   4  raw : morbido e asciutto poco solubile lascia residuo polverso
+             clean: Texture morbida e asciutta, poco solubile, lascia residuo polveroso.
+  freq=   4  raw : Interessante anche se asciutta
+             clean: Texture leggermente asciutta.
+  freq=   4  raw : umido e solubile
+             clean: Texture umida e solubile.
+  freq=   4  raw : molle, con poca consistenza , si sfalda
+             clean: Texture molle, con poca consistenza e che si sfalda.
+  freq=   4  raw : morbido, pastoso, grana molto fine e solubuile
+             clean: Texture morbida, pastosa, con grana molto fine e solubile.
+  freq=   4  raw : Presunta struttura stirata
+             clean: Texture con struttura stirata.
+  freq=   4  raw : Friabile, asciutto, sabbioso alla fine
+             clean: Texture friabile, asciutta e sabbioso al finale.
+  freq=   4  raw : molto pastosa/oleosa, tanti cristalli, troppo morbido
+             clean: Texture molto pastosa e oleosa, con cristalli abbondanti, troppo morbida.
+  freq=   4  raw : manca umidità' e solubilità
+             clean: Texture con poca umidità e scarsa solubilità.
+  freq=   4  raw : friabilità' buona,
+             clean: Texture friabile.
+  freq=   4  raw : morbido, Anche friabile, ma pastosita' eccessiva che incolla. non fine
+             clean: Texture morbida e friabile, ma con pastosità eccessiva che incolla e non fine.
+  freq=   4  raw : MOLLE con qualche granello di tirosina
+             clean: Texture molle con qualche granello di tirosina.
+  freq=   4  raw : non asciutto ma friabile, nel finale asciuga le fauci. microcristalli presenti, grossi
+             clean: Texture friabile, non asciutta, con microcristalli e grossi cristalli presenti, che asciuga nel finale.
+  freq=   4  raw : duro, compatto, grna fine, abbastanza solubile
+             clean: Texture dura, compatta, grana fine e abbastanza solubile.
+  freq=   4  raw : asciutto, ma solubile, cristalli medi..
+             clean: Texture asciutta, solubile, con cristalli di media grandezza.
+  freq=   4  raw : morbido e impasta qualche cristalli lascia residuo in bocca
+             clean: Texture morbida che impasta, con qualche cristallo e residuo in bocca.
+  freq=   4  raw : in bocca restano mdiversi granelli sabbiosi
+             clean: Texture che lascia granuli sabbiosi in bocca.
+  freq=   4  raw : granulosa, solubile, mediamente asciutta, molto gradevole
+             clean: Texture granulosa, solubile e mediamente asciutta.
+  freq=   4  raw : pastoso e molle
+             clean: Texture pastosa e molle.
+  freq=   4  raw : buoni i cristalli, ottima solubitli
+             clean: Texture con cristalli e buona solubilità.
+  freq=   4  raw : estremamente friabile, struttura fine. quasi asciutto
+             clean: Texture molto friabile, struttura fine e quasi asciutta.
+  freq=   4  raw : Perplesso. Sembrano pochi cristalli ma molte perle. Oppure cristalli grandi, non cristallizzato, non scrocchiarelli
+             clean: Texture con cristalli grandi, poco cristallizzata e non scrocchiarella.
+  freq=   4  raw : Non friabile. Duro, asciutto. Non solubile
+             clean: Texture dura, asciutta e poco solubile, non friabile.
+  freq=   4  raw : buona friabilità. la microstruttura tende al fine. pochi granuli, ma presenti
+             clean: Texture friabile, microstruttura fine, con pochi granuli percettibili.
+  freq=   4  raw : molle sotto i denti, cedevole. poco solubile
+             clean: Texture molle e cedevole, poco solubile.
+  freq=   4  raw : cristalloni. umido impasta le fauci
+             clean: Texture con cristalli grossi, umida e che impasta le fauci.
+  freq=   4  raw : pochi cristalli, pastoso e poco umido
+             clean: Texture pastosa con pochi cristalli e poco umida.
+  freq=   4  raw : Non ottimale, anzi non bella!
+             clean: NON_DESCRITTO
+  freq=   4  raw : grana fine, asciutto, pastoso,
+             clean: Texture a grana fine, asciutta e pastosa.
+  freq=   4  raw : tirosina ok, abbastanza solubile
+             clean: Texture con tirosina presente, abbastanza solubile.
+  freq=   4  raw : pastoso, non molto solubile
+             clean: Texture pastosa, poco solubile.
+  freq=   4  raw : buona presenza di cristalli
+             clean: Texture con buona presenza di cristalli.
+  freq=   4  raw : pastoso molto
+             clean: Texture molto pastosa.
+  freq=   4  raw : morbido, bella presenza di granuli, friabile e equilibrato come umidità
+             clean: Texture morbida, friabile con bella presenza di granuli e umidità equilibrata.
+  freq=   4  raw : granuloso con cristalli abbastanza sol
+             clean: Texture granulosa con cristalli abbastanza solubili.
+  freq=   4  raw : buona la grana, presnza di microcristalli
+             clean: Texture granulosa con microcristalli presenti.
+  freq=   4  raw : friabile con cristalli
+             clean: Texture friabile con cristalli.
+  freq=   4  raw : friabilità e solubilità MODERATE;TIROSINA leggera
+             clean: Texture moderatamente friabile e solubile, con tirosina leggera.
+  freq=   4  raw : Fastidioso in bocca
+             clean: NON_DESCRITTO
+  freq=   4  raw : tendente al compatto,
+             clean: Texture tendente al compatto.
+  freq=   4  raw : Impasta la bocca
+             clean: Texture che impasta la bocca.
+  freq=   4  raw : equilibrio con bella presenza di granuli. Struttura e umidità' OK
+             clean: Texture granulosa con bella presenza di granuli, struttura e umidità equilibrate.
+  freq=   4  raw : cristalli di tirosina assenti;friabilità e solubilità intensità bassa
+             clean: Texture priva di cristalli di tirosina, poco friabile e poco solubile.
+  freq=   4  raw : asciutto, poco friabile e non molti granuli
+             clean: Texture asciutta, poco friabile e pochi granuli.
+  freq=   4  raw : poca grana e poca solubilità
+             clean: Texture con poca grana e poca solubilità.
+  freq=   4  raw : duro, granuloso, cristalli percepibili, un poco' asciutto,solubile
+             clean: Texture dura, granulosa, con cristalli percepibili, leggermente asciutta e solubile.
+  freq=   4  raw : morbido e pastoso, asciutto, sembra grana giovane
+             clean: Texture morbida, pastosa e asciutta.
+  freq=   4  raw : durezza scarsa;tirosina scarsa;
+             clean: Texture poco dura e con scarsa tirosina.
+  freq=   4  raw : granuloso morbido e cristalli evidenti
+             clean: Texture granulosa, morbida, con cristalli evidenti.
+  freq=   4  raw : tirosina assente
+             clean: Texture senza tirosina.
+  freq=   4  raw : morbido, umido e solubile...
+             clean: Texture morbida, umida e solubile.
+  freq=   4  raw : morbido. sufficientemente cedevole, quindi friabile. struttura fine. cristalli presenti, ma pochi
+             clean: Texture morbida, sufficientemente cedevole e friabile, con struttura fine e pochi cristalli presenti.
+  freq=   4  raw : buona solubilità
+             clean: Texture con buona solubilità.
+  freq=   4  raw : leggermente asciutto, ma nel complesso buona struttura
+             clean: Texture leggermente asciutta con buona struttura.
+  freq=   4  raw : pastoso, asciutto
+             clean: Texture pastosa e asciutta.
+  freq=   4  raw : asciutto pastoso qualche crist
+             clean: Texture asciutta, pastosa, con qualche cristallo.
+  freq=   4  raw : moderatamente duro, pastoso e asciutto, granuloso
+             clean: Texture moderatamente dura, pastosa e asciutta, granulosa.
+  freq=   4  raw : friabile ma senza microstruttura , pochi cristalli
+             clean: Texture friabile, con poca microstruttura e pochi cristalli.
+  freq=   4  raw : Benr friabile in una microstruttura fine, tende a liquefarsi nel finale di bocca. cristalli presenti
+             clean: Texture friabile con microstruttura fine, cristalli presenti, tende a liquefarsi nel finale di bocca.
+  freq=   4  raw : granuli di tirosina non percpibili in tutti i cubetti;friabilità solubilità scarsa
+             clean: Texture con granuli di tirosina non percettibili in alcuni cubetti, friabilità e solubilità scarsa.
+  freq=   4  raw : differente solubilità tra le 4 porzioni, una da struttura stirata.
+             clean: Texture con differente solubilità tra le porzioni, una con struttura stirata.
+  freq=   4  raw : Molto compatto, poco friabile,
+             clean: Texture molto compatta e poco friabile.
+  freq=   4  raw : moderatamente duro, friabile, grossolano, abbastanza solubile, parecchi cristalli
+             clean: Texture moderatamente dura, friabile, grossolana, abbastanza solubile, con parecchi cristalli.
+  freq=   4  raw : Pasta stirata
+             clean: Texture a pasta stirata.
+  freq=   4  raw : durezza elevata, buona presenza di granuli, umidità' a posto...
+             clean: Texture dura, buona presenza di granuli e umidità equilibrata.
+  freq=   4  raw : poco granulosa, ancora umida, legata, poco solubile
+             clean: Texture poco granulosa, ancora umida, legata e poco solubile.
+  freq=   4  raw : pasta poco coesa, cedevole, solubile
+             clean: Texture poco coesa, cedevole e solubile.
+  freq=   4  raw : granulosa ma un poco legata
+             clean: Texture granulosa ma poco legata.
+  freq=   4  raw : leggermente farinoso
+             clean: Texture leggermente farinosa.
+  freq=   4  raw : abbastanza cedevole, granuloso, microstruttura abbastanza grossolana, leggermente asciutto
+             clean: Texture abbastanza cedevole, granulosa, con microstruttura grossolana e leggermente asciutta.
+  freq=   4  raw : abbastanza duro, pastoso, asciutto, con struttura abbastanza grossolana e poco solubile.
+             clean: Texture abbastanza dura, pastosa e asciutta, con struttura grossolana e poco solubile.
+  freq=   4  raw : friabile con cristalli ma lascia residuo sabbioso alla fine
+             clean: Texture friabile con cristalli, lascia residuo sabbioso in finale.
+  freq=   4  raw : umido e pastoso, quasi liquefabile
+             clean: Texture umida, pastosa e quasi liquefabile.
+  freq=   4  raw : sabbioso-e granuloso con cristalli
+             clean: Texture sabbioso-granulosa con cristalli.
+  freq=   4  raw : moderatamente duro, asciutto, microstruttura fine, solubile, pochi cristalli
+             clean: Texture moderatamente dura, asciutta, con microstruttura fine, solubile e pochi cristalli.
+  freq=   4  raw : la boca rimane abbastanza pulia
+             clean: Texture che lascia bocca pulita.
+  freq=   4  raw : duro ma friabile, microstruttura sottile, solubile ma asciutto
+             clean: Texture dura ma friabile, con microstruttura sottile, solubile ma asciutta.
+  freq=   4  raw : cedevole e un poco- adesivo
+             clean: Texture cedevole e leggermente adesiva.
+  freq=   4  raw : morbida, cristalli, umida
+             clean: Texture morbida, umida, con cristalli.
+  freq=   4  raw : morbido, friabile, grana fine e solubile, pochi cristalli, tende a impastare
+             clean: Texture morbida, friabile, a grana fine e solubile, con pochi cristalli e che tende a impastare.
+  freq=   4  raw : si frantuma bene sotto il molare, buona microstruttura. umido. cristalli ce n'è
+             clean: Texture friabile, buona microstruttura, umida, con cristalli presenti.
+  freq=   4  raw : morbido con cristalli ben evidenti asciutto all'inizio tende un poco ad impastrare e lascia un poco di residuo
+             clean: Texture morbida con cristalli ben evidenti, leggermente asciutta all'inizio, tende a impastarsi lievemente e lascia un piccolo residuo.
+  freq=   4  raw : friabile, buoni i cristalli, abbastanza solubile
+             clean: Texture friabile, buoni cristalli e abbastanza solubile.
+  freq=   4  raw : Equilibrato
+             clean: NON_DESCRITTO
+  freq=   4  raw : molle e cedevole. non da grana
+             clean: Texture molle e cedevole, non granulosa.
+  freq=   4  raw : grana e cristalli evidenti abbastanza sol
+             clean: Texture granulosa con cristalli evidenti e abbastanza solubile.
+  freq=   4  raw : pastoso, deformabile, poco friabile, poca grana, cedevole
+             clean: Texture pastosa, deformabile, poco friabile e cedevole, con poca grana.
+  freq=   4  raw : morbido, grana molto fine e solubile, umido, cristalli presenti
+             clean: Texture morbida, grana molto fine e solubile, umida, con cristalli presenti.
+  freq=   4  raw : molle e cedevole.
+             clean: Texture molle e cedevole.
+  freq=   4  raw : durezza buona struttura e microstrutture ottimali, permane in bocca con struttura e non si impasta
+             clean: Texture con durezza buona, struttura ottimale e non si impasta in bocca.
+  freq=   4  raw : grana assente molto tenero
+             clean: Texture molto tenera, grana assente.
+  freq=   4  raw : buona, solubile, granulosa
+             clean: Texture buona, solubile e granulosa.
+  freq=   4  raw : umido e pastoso. assenza di granuli
+             clean: Texture umida, pastosa e con assenza di granuli.
+  freq=   4  raw : friabile, cedevole, poco consistente, granulosa, asciutta, quasi sabbiosa
+             clean: Texture friabile, cedevole, granulosa e leggermente sabbioso, poco consistente, asciutta.
+  freq=   4  raw : orbido pastoso con cristalli lascia sabbietta finale
+             clean: Texture torbida pastosa con cristalli, lascia sabbietta finale.
+  freq=   4  raw : granuloso con cristalli poco sol lascia residuo farinoso
+             clean: Texture granulosa con cristalli poco solubili, lascia residuo farinoso.
+  freq=   4  raw : Molto asciutto. Quasi secco
+             clean: Texture molto asciutta.
+  freq=   4  raw : granulosa, mediamente umida, solubile
+             clean: Texture granulosa, mediamente umida e solubile.
+  freq=   4  raw : leggermente gommoso e asciutto
+             clean: Texture leggermente gommosa e asciutta.
+  freq=   4  raw : ingozza nel finale
+             clean: Texture che ingozza nel finale.
+  freq=   4  raw : morbido poca grana
+             clean: Texture morbida con poca grana.
+  freq=   4  raw : pastoso e tanti cristalli
+             clean: Texture pastosa con cristalli abbondanti.
+  freq=   4  raw : morbido, non friabile, sembra giovane, non riuscito
+             clean: Texture morbida e poco friabile.
+  freq=   4  raw : assenza di cristalli;pastoso
+             clean: Texture pastosa con assenza di cristalli.
+  freq=   4  raw : solo un poco’ tenero
+             clean: Texture leggermente tenera.
+  freq=   4  raw : molto solubile, umido, manca di consistenza
+             clean: Texture molto solubile, umida e poco consistente.
+  freq=   4  raw : un poco' pastoso
+             clean: Texture poco pastosa.
+  freq=   4  raw : adesivo
+             clean: Texture adesiva.
+  freq=   4  raw : Indeformabile plastico
+             clean: Texture indeformabile e plastica.
+  freq=   4  raw : Friabile, non asciutto. qulache microcristallo. buona microstruttura
+             clean: Texture friabile, non asciutta, con qualche microcristallo e buona microstruttura.
+  freq=   4  raw : grnuloso, molto asciutto, poco solubile.
+             clean: Texture granulosa, molto asciutta e poco solubile.
+  freq=   4  raw : poco solubile, no tirosina
+             clean: Texture poco solubile.
+  freq=   4  raw : umida , morbida, solubile
+             clean: Texture umida, morbida e solubile.
+  freq=   4  raw : pochi cristalli;molto pastoso
+             clean: Texture con pochi cristalli e molto pastosa.
+  freq=   4  raw : grana assente tenerissimo
+             clean: Texture tenerissima, priva di grana.
+  freq=   4  raw : morbido al morso del molare, pastoso
+             clean: Texture morbida al morso del molare, pastosa.
+  freq=   4  raw : cristalli poca grana
+             clean: Texture con cristalli e poca grana.
+  freq=   4  raw : asciutto con cristalli e granuloso poi sol
+             clean: Texture asciutta, granulosa con cristalli e solubile.
+  freq=   4  raw : buona, con equilibrio tra umidità' e friabilità
+             clean: Texture con buon equilibrio tra umidità e friabilità.
+  freq=   4  raw : buona friabilità', microstruttura assente
+             clean: Texture con buona friabilità e microstruttura assente.
+  freq=   4  raw : granuloso leggermente pastoso
+             clean: Texture granulosa leggermente pastosa.
+  freq=   4  raw : cedevole ai denti, ma non morbido. friabile . microstruttura apprezzabile. anche umido
+             clean: Texture cedevole ai denti, friabile, con microstruttura apprezzabile e umida.
+  freq=   4  raw : solubilità da formaggio tendenzialmente grasso
+             clean: Texture solubile, tendente al grasso.
+  freq=   4  raw : troppo umido
+             clean: Texture troppo umida.
+  freq=   4  raw : buona friabilità che lascia però una struttura grossolana. lascia la bocca disidratata. cristalli presenti anche grossi
+             clean: Texture friabile con struttura grossolana, lascia bocca disidratata e cristalli grossi presenti.
+  freq=   4  raw : friabile, asciutto ma non troppo. Microstruttura abbastanza fine. cristalli non numerosissimi, presenti. impasta e ingozza nel finale
+             clean: Texture friabile, asciutta ma non eccessiva, con microstruttura abbastanza fine e cristalli presenti non abbondanti; impasta e ingozza nel finale.
+  freq=   4  raw : morbido asciutto con qualche crist
+             clean: Texture morbida, asciutta e con qualche cristallo.
+  freq=   4  raw : un poco- cedevole, presenza di tiosina
+             clean: Texture poco cedevole, con tirosina presente.
+  freq=   4  raw : umido, pastoso
+             clean: Texture umida e pastosa.
+  freq=   4  raw : grana fine, leggermente farinoso
+             clean: Texture a grana fine, leggermente farinosa.
+  freq=   4  raw : la bocca non rimane pulita
+             clean: Texture che lascia bocca non pulita.
+  freq=   4  raw : patoso e burroso/unto, bei granuli
+             clean: Texture pastosa e untuosa, con bei granuli.
+  freq=   4  raw : troppo fondente nel finale, impasta la bocca, troppo morbido
+             clean: Texture troppo morbida, che impasta la bocca e risulta eccessivamente fondente nel finale.
+  freq=   4  raw : duro ma da pasta stirata
+             clean: Texture dura ma cedevole.
+  freq=   4  raw : Manca di cristalli
+             clean: Texture con cristalli assenti.
+  freq=   4  raw : sabbioso finissimo
+             clean: Texture sabbioso finissimo.
+  freq=   4  raw : cedevole, ancora umida, poco granulosa
+             clean: Texture cedevole, ancora umida e poco granulosa.
+  freq=   4  raw : cristalli molto presenti, consistenza OK
+             clean: Texture con cristalli molto presenti e consistenza adeguata.
+  freq=   4  raw : la bocca è abbastanza polita
+             clean: Texture abbastanza pulita in bocca.
+  freq=   4  raw : pastoso e poco solubile. consistenza molle sotto i denti;
+             clean: Texture pastosa, poco solubile e molle sotto i denti.
+  freq=   4  raw : morbido anche se presenti cristalli
+             clean: Texture morbida con cristalli presenti.
+  freq=   4  raw : Contiene perle piuttosto dure, non piacevoli alla masticazione
+             clean: Texture con cristalli piuttosto duri.
+  freq=   4  raw : Friabilità e granulosità elevate
+             clean: Texture molto friabile e granulosa.
+  freq=   4  raw : morbido poco granuloso cristalli
+             clean: Texture morbida, poco granulosa, con cristalli presenti.
+  freq=   4  raw : granulosa ma non molto solubile, ancora umida
+             clean: Texture granulosa, umida ma poco solubile.
+  freq=   4  raw : molto friabile, solubile
+             clean: Texture molto friabile e solubile.
+  freq=   4  raw : asciutto, pastoso e poco solubile
+             clean: Texture asciutta, pastosa e poco solubile.
+  freq=   4  raw : granuloso impasta cristalli piccoli poco solub
+             clean: Texture granulosa, con cristalli piccoli, poco solubile e che impasta la bocca.
+  freq=   4  raw : leggermente umido ma con cristalli
+             clean: Texture leggermente umida con cristalli percettibili.
+  freq=   4  raw : friabile e solubile, buoni i cristalli
+             clean: Texture friabile, solubile, con cristalli ben percettibili.
+  freq=   4  raw : sabbioso e granuloso, pochi cristalli
+             clean: Texture sabbioso-granulosa con pochi cristalli.
+  freq=   4  raw : Non granuloso, aggiungere residuo a faticoso sabbioso ,,...
+             clean: Texture non granulosa, con residuo sabbioso faticoso.
+  freq=   4  raw : morbido poca granaimpasta non sol lascvia sensazione di farina
+             clean: Texture morbida, poco granulosa, che impasta la bocca, poco solubile, con sensazione farinosa.
+  freq=   4  raw : asciutto granuloso tende ad impastare verso la fine con qualche cristallo poco sol
+             clean: Texture asciutta e granulosa, tende a impastare verso il finale con qualche cristallo e poco solubile.
+  freq=   4  raw : troppo tenero no grana
+             clean: Texture tenera, poca grana.
+  freq=   4  raw : morbido, microstruttura assente, qualche cristallo
+             clean: Texture morbida, microstruttura assente, con qualche cristallo.
+  freq=   4  raw : molta tirosina, adesivo
+             clean: Texture con tirosina abbondante e adesiva.
+  freq=   4  raw : moderata durezza, friabile, granuloso, solubile, cristalli percepibili
+             clean: Texture moderatamente dura, friabile, granulosa e solubile, con cristalli percepibili.
+  freq=   4  raw : umido, pastoso, non friabile, non solubile / molto diversi i pezzi fra loro
+             clean: Texture umida e pastosa, poco friabile e poco solubile.
+  freq=   4  raw : solubilità friabilità tirosina intensità leggera (positiva)
+             clean: Texture solubile e friabile, con tirosina percepibile a intensità leggera.
+  freq=   4  raw : friabile. microstruttura non finissima, buona. cristalli percepibili. umido il giusto
+             clean: Texture friabile con microstruttura buona, cristalli percepibili e giusta umidità.
+  freq=   4  raw : morbido, umido, microstruttura sottile, solubile
+             clean: Texture morbida, umida, a microstruttura sottile e solubile.
+  freq=   4  raw : friabile, un p; secco, pochi cristalli
+             clean: Texture friabile, leggermente secco, pochi cristalli.
+  freq=   4  raw : polveroso poco solubile alla fine, granellini di tirosina rimangono a lungo
+             clean: Texture polverosa, poco solubile, con granuli di tirosina percettibili al residuo finale.
+  freq=   4  raw : troppo morbido astrutturato. sembra la pasta dell emmental
+             clean: Texture troppo morbida e poco strutturata.
+  freq=   4  raw : difetta di friabilità', morbido
+             clean: Texture poco friabile e morbida.
+  freq=   4  raw : asciutto granuloso qualche cristallo poco sol
+             clean: Texture asciutta, granulosa, con qualche cristallo e poco solubile.
+  freq=   4  raw : non friabile ma cedevole, solubile in bocca ma non alla deglutizione, poca grana, un poco' untuoso
+             clean: Texture cedevole, solubile in bocca, poco friabile, con poca grana e leggermente untuosa.
+  freq=   4  raw : compatto e duro ma con grana quasi assente, asciutto
+             clean: Texture compatta e dura, con grana quasi assente, asciutta.
+  freq=   4  raw : molti cristalli, molto pastoso e asciutto per;...
+             clean: Texture molto pastosa, asciutta e con cristalli abbondanti.
+  freq=   4  raw : Quasi troppi cristalli...
+             clean: Texture con cristalli abbondanti.
+  freq=   4  raw : duro, asciutto, praticamnte privo di grana,
+             clean: Texture dura, asciutta e praticamente priva di grana.
+  freq=   4  raw : abbastanza dura e compatta ma firabile, con grana percepibile e cristalli
+             clean: Texture abbastanza dura e compatta ma friabile, con grana percepibile e cristalli.
+  freq=   4  raw : Leggera sabbiosità finale, ma friabile, mediamente umido, pochi cristalli presenti
+             clean: Texture leggermente sabbiosa al finale, friabile, mediamente umida, con pochi cristalli.
+  freq=   4  raw : cedevole, poco consistente, disaggregata, ma solubile
+             clean: Texture cedevole, poco consistente, disaggregata ma solubile.
+  freq=   4  raw : MICROSTRUTTURa scarsa
+             clean: Texture con microstruttura scarsa.
+  freq=   4  raw : morbida, poco granulosa, poco solubile, buona presenza di microcristalli, leggermente adesiva
+             clean: Texture morbida, poco granulosa, poco solubile, con buona presenza di microcristalli e leggermente adesiva.
+  freq=   4  raw : compatto, non molto friabile e né solubile, rimangono scagliette strane sotto i denti
+             clean: Texture compatta, poco friabile e poco solubile, con scagliette che rimangono sotto i denti.
+  freq=   4  raw : comnpatta, grana abbastanza fine, piuttosto solubile, pochissimi cristalli
+             clean: Texture compatta, grana abbastanza fine, piuttosto solubile, con pochissimi cristalli.
+  freq=   4  raw : equilibrato, scarsa la solubilità
+             clean: Texture equilibrata ma scarsa solubilità.
+  freq=   4  raw : troppo friabile, asciutto...
+             clean: Texture molto friabile e asciutta.
+  freq=   4  raw : secco e farinoso, buoni i cristalli, media solubilità
+             clean: Texture asciutta, farinosa, con buoni cristalli e media solubilità.
+  freq=   4  raw : qualche cristallo ma positiva
+             clean: Texture con qualche cristallo, positiva.
+  freq=   4  raw : piuttosto morbido, assenza di cristalli
+             clean: Texture piuttosto morbida, assenza di cristalli.
+  freq=   4  raw : pastoso in bocca, poco solubile
+             clean: Texture pastosa in bocca, poco solubile.
+  freq=   4  raw : presenza di porzioni pastose scarsamente frabili da formaggio a pasta compatta= struttura stirata
+             clean: Texture con porzioni pastose scarsamente friabili e struttura compatta.
+  freq=   4  raw : compatto, poco friabile, poco solubile, pochi cristalli
+             clean: Texture compatta, poco friabile, poco solubile, con pochi cristalli.
+  freq=   4  raw : poco friabile, molto morbido, assenza di critalli, microstruttura finissima
+             clean: Texture poco friabile, molto morbido, senza cristalli e con microstruttura finissima.
+  freq=   4  raw : Forse pastoso
+             clean: Texture leggermente pastosa.
+  freq=   4  raw : troppo morbido
+             clean: Texture troppo morbida.
+  freq=   4  raw : pochissimi cristalli
+             clean: Texture con cristalli scarsi.
+  freq=   4  raw : cristallisi sente una grana leggera comunque pastoso
+             clean: Texture con cristalli percettibili, grana leggera e morbido pastoso.
+  freq=   4  raw : pastoso con granuli e cristalli
+             clean: Texture pastosa con granuli e cristalli.
+  freq=   4  raw : poco friabile, asciutto, pochi granuli...
+             clean: Texture poco friabile, asciutta e con pochi granuli.
+  freq=   4  raw : gommoso no grana
+             clean: Texture non gommosa, con grana.
+  freq=   4  raw : microstruttura assente
+             clean: Texture con microstruttura assente.
+  freq=   4  raw : si sbriciola in bocca, granuloso, cristalloso
+             clean: Texture friabile, granulosa e cristallosa.
+  freq=   4  raw : Ingrossa un pochetto
+             clean: Texture che ingozza leggermente.
+  freq=   4  raw : granuli di tirosina inrensità medio alta;solubilità alta;friabilità medio alta
+             clean: Texture con granuli di tirosina a intensità medio-alta, alta solubilità e media friabilità.
+  freq=   4  raw : Si intende no cristalli
+             clean: Texture senza cristalli.
+  freq=   4  raw : Cristalli quasi assenti, compatto
+             clean: Texture compatta con cristalli quasi assenti.
+  freq=   4  raw : presenza di cristalli, buona solubilità
+             clean: Texture con cristalli presenti e buona solubilità.
+  freq=   4  raw : morbido, cedevole al dente, non molto friabile. cristalli quasi assenti
+             clean: Texture morbida e cedevole al dente, poco friabile, con cristalli quasi assenti.
+  freq=   4  raw : morbido, grana fine, cristaali ben percepibili, solubile
+             clean: Texture morbida, grana fine, cristalli ben percepibili e solubile.
+  freq=   4  raw : pastoso poca grana granuli
+             clean: Texture pastosa con poca grana e granuli percettibili.
+  freq=   4  raw : morbido, buona microstruttura, manca di cristalli
+             clean: Texture morbida, buona microstruttura, pochi cristalli.
+  freq=   4  raw : morbido asciutto granuloso tende ad impastare e cristalli evidenti
+             clean: Texture morbida, asciutta, granulosa, tende a impastare e con cristalli evidenti.
+  freq=   4  raw : morbido con qualche cristallo asciutto tende ad impastare poca grana si scioglie
+             clean: Texture morbida con qualche cristallo, asciutta, tende ad impastare, poca grana e si scioglie in bocca.
+  freq=   4  raw : molto morbido .. umidità' e pastosita molto buone, pochi granuli
+             clean: Texture molto morbida, umida e pastosa, con pochi granuli.
+  freq=   4  raw : Un poco umido
+             clean: Texture leggermente umida.
+  freq=   4  raw : seppur morbido è friabile in una moicrostruttura di discreta finezza. Cristalli presenti. finale di bocca un poco' impastata
+             clean: Texture morbida e friabile con microstruttura di discreta finezza, cristalli presenti e finale leggermente impastato in bocca.
+  freq=   4  raw : granuloso umido con cristalli solub
+             clean: Texture granulosa, umida, con cristalli solubili.
+  freq=   4  raw : abbondanti cristalli, il formaggio si scioglio rapidamente
+             clean: Texture con cristalli abbondanti, si scioglie rapidamente in bocca.
+  freq=   4  raw : lascia pochi frammenti
+             clean: Texture che lascia pochi frammenti.
+  freq=   4  raw : asciutto gramuloso cristalli lascia residuo
+             clean: Texture asciutta, granulosa con cristalli che lasciano residuo.
+  freq=   4  raw : pastoso con cristalli
+             clean: Texture pastosa con cristalli.
+  freq=   4  raw : cristalli alta solubilità' poca struttura
+             clean: Texture con cristalli, alta solubilità e poca struttura.
+  freq=   4  raw : firabilità moderata;solubilità difficoltosa;cristalli tirosina molto poco percepibili
+             clean: Texture moderatamente friabile, poco solubile e con microcristalli di tirosina scarsamente percettibili.
+  freq=   4  raw : morbido e pastoso, grana fine e solubile, pochi cristalli
+             clean: Texture morbida e pastosa, grana fine e solubile, pochi cristalli.
+  freq=   4  raw : Sotto il molare si fende in pezzi grossi. Struttura poco definita
+             clean: Texture friabile, con struttura poco definita.
+  freq=   4  raw : inizialmente granuloso poi si scioglie bree e lascia la bocca abbastanza pulita
+             clean: Texture granulosa, che si scioglie bene e lascia la bocca abbastanza pulita.
+  freq=   4  raw : Difficile da giudicare perché immagiabile
+             clean: NON_DESCRITTO
+  freq=   4  raw : mediamente dura, granulosa ma con solubilità' medio bassa, ricorda più\ un nostrano che un grana
+             clean: Texture mediamente dura, granulosa con solubilità medio-bassa.
+  freq=   4  raw : morbido
+             clean: Texture morbida.
+  freq=   4  raw : il formaggio si scioglie completamente e velocemente in bocca
+             clean: Texture che si scioglie completamente e velocemente in bocca.
+  freq=   4  raw : Poco friabile e Granulosa. Ma ben solubile, con cristalli
+             clean: Texture poco friabile e granulosa, ma ben solubile con cristalli.
+  freq=   4  raw : buona friabilità', solubile, pochi cristalli
+             clean: Texture friabile, solubile, con pochi cristalli.
+  freq=   4  raw : asciutto, granuloso e poco solubile, restano residui in bocca, quasi fastidioso
+             clean: Texture asciutta, granulosa e poco solubile, con residui in bocca.
+  freq=   4  raw : morbido e pastoso, umidità' media e granuli medio/alti
+             clean: Texture morbido pastoso, umidità media e granuli mediamente alti.
+  freq=   4  raw : granuloso ma tende ad impastare e lascia residuo polversos qualche cristallo
+             clean: Texture granulosa che tende a impastare, lascia residuo polveroso e qualche cristallo.
+  freq=   4  raw : Compatto,non granulosa,non friabile
+             clean: Texture compatta, non granulosa, non friabile.
+  freq=   4  raw : leggermente cedevole, poco aggregata ma solubile
+             clean: Texture leggermente cedevole, poco aggregata ma solubile.
+  freq=   4  raw : cristalli presenti. friabile ma troppo morbido al morso
+             clean: Texture friabile ma troppo morbida, con cristalli presenti.
+  freq=   4  raw : Appena tenero
+             clean: Texture leggermente tenera.
+  freq=   4  raw : Compatto, molto solubile ma non friabile, poca grana
+             clean: Texture compatta, molto solubile ma poco friabile, con poca grana.
+  freq=   4  raw : friabile, scarsa microstruttura, pochi cristalli ma presenti
+             clean: Texture friabile con scarsa microstruttura e pochi cristalli presenti.
+  freq=   4  raw : cristalli non da stagionato ma da fresco
+             clean: Texture con cristalli non propri di una stagionatura prolungata.
+  freq=   4  raw : friabile si sgretola in bocca cristalli
+             clean: Texture friabile che si sgretola in bocca con cristalli.
+  freq=   4  raw : Anche adesivo
+             clean: Texture adesiva.
+  freq=   4  raw : umido, cedevole, poco solubile
+             clean: Texture umida, cedevole e poco solubile.
+  freq=   4  raw : secco, molti cristalli, buona solub
+             clean: Texture secca, con molti cristalli e buona solubilità.
+  freq=   4  raw : troppo tenero poca grana
+             clean: Texture troppo tenera e con poca grana.
+  freq=   4  raw : granuloso
+             clean: Texture granulosa.
+  freq=   4  raw : morbido e cedevole, cristalli ben percepibili, solubile, grna appabstanza fine
+             clean: Texture morbido e cedevole, con cristalli ben percepibili, solubile e grana abbastanza fine.
+  freq=   4  raw : morbido un poco umido anche se non molto solobile no cristalli
+             clean: Texture morbida, leggermente umida e poco solubile, senza cristalli.
+  freq=   4  raw : cristalli abbondanti
+             clean: Texture con cristalli abbondanti.
+  freq=   4  raw : deformabile, pastoso, non molto friabile
+             clean: Texture deformabile, pastosa e poco friabile.
+  freq=   4  raw : compatto, solubile, poco granuloso, umido
+             clean: Texture compatta, solubile, poco granulosa e umida.
+  freq=   4  raw : duro, friabile, granuloso, solubile, pochi microcristalli
+             clean: Texture dura, friabile, granulosa e solubile, con pochi microcristalli.
+  freq=   4  raw : Mediamente friabile, leggermente adesivo, non troppo silubile
+             clean: Texture mediamente friabile, leggermente adesiva, poco solubile.
+  freq=   4  raw : morbido e solubile
+             clean: Texture morbida e solubile.
+  freq=   4  raw : pochi cristalli, struttura non ben definita
+             clean: Texture con pochi cristalli e struttura non ben definita.
+  freq=   4  raw : duro e poco solubile
+             clean: Texture dura e poco solubile.
+  freq=   4  raw : friabile, abbastanza solubile, granuloso
+             clean: Texture friabile, abbastanza solubile e granulosa.
+  freq=   4  raw : poca grana, pastoso, poco solubile
+             clean: Texture pastosa, con poca grana e poco solubile.
+  freq=   4  raw : solubilità friabilitù tirosina moderato/forte
+             clean: Texture solubile, friabile, con tirosina moderata e forte.
+  freq=   4  raw : duro, solubile, granulometria grossolana ma solubile, cristalli percepibili
+             clean: Texture dura, solubile, con granulometria grossolana e cristalli percepibili.
+  freq=   4  raw : gommoso poca grana cristalli
+             clean: Texture gommosa, poca grana e pochi cristalli.
+  freq=   4  raw : Friabile. microstruttura grossolana. Pochi cristalli, grossi
+             clean: Texture friabile, microstruttura grossolana, pochi cristalli grossi.
+  freq=   4  raw : morbido, solubile, grana fine, qualche cristallo
+             clean: Texture morbida, solubile, con grana fine e qualche cristallo.
+  freq=   4  raw : assenza di grana si impasta in bocca
+             clean: Texture che si impasta in bocca, con assenza di grana.
+  freq=   4  raw : morbido, friabile, cristalli pochi fini. un poco asciutto al più
+             clean: Texture morbida, friabile, con pochi cristalli fini e leggermente asciutta.
+  freq=   4  raw : cristalli a gogo. troppo morbido e umido. microstruttura assente. non friabile
+             clean: Texture con cristalli abbondanti, troppo morbida e umida, poco friabile.
+  freq=   4  raw : friabilità e solubilità sufficienti;durezza molto scarsa;triosina assente
+             clean: Texture friabile e solubile, scarsa durezza, tirosina assente.
+  freq=   4  raw : quasi gommosa, poco granulosa ma solubile, più\ da formaggio nostrano
+             clean: Texture quasi gommosa, poco granulosa ma solubile.
+  freq=   4  raw : asciutto e fraibile tende ad impastare
+             clean: Texture asciutta e friabile, tende a impastare la bocca.
+  freq=   4  raw : un poco- adesiva
+             clean: Texture leggermente adesiva.
+  freq=   4  raw : riesce ad essere asciutto anche se umido. friabilità quasi nulla
+             clean: Texture asciutta nonostante l'umidità, con friabilità scarsa.
+  freq=   4  raw : lascia la bocca poco pulita, non si sciolgono diversi frammenti
+             clean: Texture che lascia la bocca poco pulita, con frammenti poco solubili.
+  freq=   4  raw : morbido e umido impasta cristalli
+             clean: Texture morbida, umida, che impasta la bocca, con cristalli presenti.
+  freq=   4  raw : non molto friabile, grana fine, abbastanza solubile, quasi assenti i cristalli
+             clean: Texture poco friabile, grana fine, abbastanza solubile, cristalli quasi assenti.
+  freq=   4  raw : ancora umida, un poco cedevole, mediamente solubile
+             clean: Texture ancora umida, poco cedevole e mediamente solubile.
+  freq=   4  raw : friabile, microstruttura poco presente, cristalli ok
+             clean: Texture friabile, microstruttura poco presente, cristalli adeguati.
+  freq=   4  raw : morbido, troppo. microstruttura media. non firabile e i cristalli non li trovo
+             clean: Texture troppo morbida, microstruttura media, poco friabile, cristalli scarsi.
+  freq=   4  raw : friabile, non asciutto, non impasta
+             clean: Texture friabile, non asciutto, non impasta la bocca.
+  freq=   4  raw : Morbido, cedevole al morso. Firabilità non piena. non sento cristalli
+             clean: Texture morbida e cedevole al morso, con friabilità non piena e assenza di cristalli.
+  freq=   4  raw : cristalli presenti, microstruttura tendente all-inesistente
+             clean: Texture con cristalli presenti e microstruttura poco sviluppata.
+  freq=   4  raw : granulosa, poca tirosina
+             clean: Texture granulosa con poca tirosina.
+  freq=   4  raw : friabile, troppo asciutto, scarsa presenzaa di crisrtalli
+             clean: Texture friabile, troppo asciutta e scarsa presenza di cristalli.
+  freq=   4  raw : struttura non presente, si impasta
+             clean: Texture che impasta la bocca, priva di struttura.
+  freq=   4  raw : mediamente dura, granulosa, solubile,
+             clean: Texture mediamente dura, granulosa e solubile.
+  freq=   4  raw : friabilità media, solubilità alta, granuli tirosina assenti
+             clean: Texture mediamente friabile, molto solubile, senza granuli di tirosina.
+  freq=   4  raw : senza struttura e cristalli
+             clean: Texture senza struttura e cristalli.
+  freq=   4  raw : compatto, adesivo, poco solubile e poco friabile, poco granuloso, pochi cristalli
+             clean: Texture compatta, adesiva, poco solubile e poco friabile, poco granulosa, con pochi cristalli.
+  freq=   4  raw : buona friabilità', microstruttura e solubilità', assenti i cristalli
+             clean: Texture friabile, solubile, con microstruttura compatta e cristalli assenti.
+  freq=   4  raw : consistenza sabbiosa, poco solubile
+             clean: Texture sabbioso e poco solubile.
+  freq=   4  raw : consistenza, solubilità e friabilità molto buone;non ben distribuita la tirosina
+             clean: Texture solubile e friabile, con tirosina non ben distribuita.
+  freq=   4  raw : scarsa microstruttura e mancanza cristalli
+             clean: Texture con scarsa microstruttura e mancanza di cristalli.
+  freq=   4  raw : bene, peccato per sensazione di sabbia finale
+             clean: Texture solubile con sensazione sabbioso finale.
+  freq=   4  raw : scarsa;soprattutto impercettibili i cristalli di tirosina
+             clean: Texture con scarsa solubilità e cristalli di tirosina impercettibili.
+  freq=   4  raw : Media solvibilità e friabilità
+             clean: Texture mediamente solubile e friabile.
+  freq=   4  raw : morbido a grana fine, leggermente pastoso e asciutto, con cristalli ben percepibili e piuttosto solubile.
+             clean: Texture morbido a grana fine, leggermente pastoso e asciutto, con cristalli ben percepibili e piuttosto solubile.
+  freq=   4  raw : granulosa, solubile, abbastanza asciutta
+             clean: Texture granulosa, solubile e abbastanza asciutta.
+  freq=   4  raw : si sciogliie bene
+             clean: Texture che si scioglie bene in bocca.
+  freq=   4  raw : in 3 porzioni presenza di cristalli di tirosina intensità alta;1 porzione senza Tirosina;friabilità e solubilità intensità media
+             clean: Texture con cristalli di tirosina abbondanti, friabilità e solubilità medie.
+  freq=   4  raw : presenza di pochoi ma grossi cristali, è leggermente sabbionso
+             clean: Texture con pochi cristalli grossi e leggermente sabbioso.
+  freq=   4  raw : morbido pastoso poco granul poco sol
+             clean: Texture morbido pastoso, poco granulosa e poco solubile.
+  freq=   4  raw : morbido, abbastanza asciutto, grana fine, solubuile, critalli percepibili
+             clean: Texture morbida, abbastanza asciutta, a grana fine, solubile e cristalli percepibili.
+  freq=   4  raw : molti granuli, bella friabilità
+             clean: Texture con molti granuli e bella friabilità.
+  freq=   4  raw : sabbioso, poco solubile, molti cristalli
+             clean: Texture sabbioso, poco solubile con molti cristalli.
+  freq=   4  raw : cristalli presenti ma non in gran numero, buona friabilità' ma scarsa solubilità
+             clean: Texture con cristalli presenti ma non abbondanti, buona friabilità e scarsa solubilità.
+  freq=   4  raw : pastoso poca grana qualche cristallo
+             clean: Texture pastosa, poca grana e qualche cristallo.
+  freq=   4  raw : ancora un poco umida umida ma solubile, compatta, mediamente granulosa
+             clean: Texture leggermente umida, solubile, compatta e mediamente granulosa.
+  freq=   4  raw : bella, ma molto asciutto...ottima presenza di granuli
+             clean: Texture molto asciutta con ottima presenza di granuli.
+  freq=   4  raw : molti grani di tirosina
+             clean: Texture con molti granuli di tirosina.
+  freq=   4  raw : friabilità solubilità e tirosina leggero
+             clean: Texture friabile, solubile, con tirosina leggera.
+  freq=   4  raw : molle e pastoso. non grana
+             clean: Texture molle e pastosa, priva di grana.
+  freq=   4  raw : asciutto granuloso con cristalli e ben solubile
+             clean: Texture asciutta, granulosa con cristalli e ben solubile.
+  freq=   4  raw : compatto, adesivo
+             clean: Texture compatta e adesiva.
+  freq=   4  raw : assenza granuli di tirosina;pastoso
+             clean: Texture pastosa, tirosina assente.
+  freq=   4  raw : pochi cristalli di tirosina
+             clean: Texture con pochi cristalli di tirosina.
+  freq=   4  raw : granuloso cristalli asciutto
+             clean: Texture granulosa, cristalli presenti e asciutta.
+  freq=   4  raw : morbido e poco grana impasta poco sol pochi crist
+             clean: Texture morbida, poco granulosa, poco solubile, con pochi cristalli.
+  freq=   4  raw : non molto solubile
+             clean: Texture poco solubile.
+  freq=   4  raw : umido e compatto cristalli poco sol
+             clean: Texture umida, compatta, con cristalli poco solubili.
+  freq=   4  raw : cristalli consistenti tenerissimo
+             clean: Texture con cristalli consistenti, tenerissima.
+  freq=   4  raw : morbido, quasi molle. non maturato. male
+             clean: Texture morbida, quasi molle.
+  freq=   4  raw : cedevole, umida, quasoi adesiva, poco solubile e poco granulosa
+             clean: Texture cedevole, umida, quasi adesiva, poco solubile e poco granulosa.
+  freq=   4  raw : Friabile. Microstruttura fine che tende al sabbioso nel fine bocca.
+             clean: Texture friabile, microstruttura fine che tende al sabbioso nel finale di bocca.
+  freq=   4  raw : Molto intressante
+             clean: NON_DESCRITTO
+  freq=   4  raw : Friabile ma morbido al morso. troppo plastico. incolla ai denti
+             clean: Texture friabile ma morbido al morso, tendente al plastico e che incolla ai denti.
+  freq=   4  raw : compatto non troppo friabile, da grana fresco
+             clean: Texture compatta, poco friabile, con grana fresca.
+  freq=   4  raw : troppo asciutto e poco solubile
+             clean: Texture troppo asciutta e poco solubile.
+  freq=   4  raw : Poco granuloso deformabile
+             clean: Texture poco granulosa e deformabile.
+  freq=   4  raw : da sbrinz;
+             clean: NON_DESCRITTO
+  freq=   4  raw : Lega in bocca!
+             clean: Texture che lega in bocca.
+  freq=   4  raw : friabilità e solubilità alta;granuli di tirosina presistenti
+             clean: Texture molto friabile e solubile, con granuli di tirosina persistenti.
+  freq=   4  raw : morbido, comunque friabile. si scioglie in bocca
+             clean: Texture morbida, friabile e solubile in bocca.
+  freq=   4  raw : friabile bilanciato
+             clean: Texture friabile e bilanciata.
+  freq=   4  raw : umido, friabile, strana cedevolezza, assenza di cristalli
+             clean: Texture umida, friabile, con strana cedevolezza e assenza di cristalli.
+  freq=   4  raw : umido, morbido, comunque friabile finemente, microcristastalli presenti e fini
+             clean: Texture umida, morbida e friabile, con microcristalli fini presenti.
+  freq=   4  raw : abbastanza duro, asciutto, granafine, solubile, cristalli
+             clean: Texture abbastanza dura, asciutta, con cristalli fini e solubile.
+  freq=   4  raw : morbido ma con critalli
+             clean: Texture morbida con cristalli.
+  freq=   4  raw : troppo pastoso.....non solubile
+             clean: Texture troppo pastosa e poco solubile.
+  freq=   4  raw : UN CUBETTO NON è DI ALTA SOLUBILITà COME GLI ALTRI
+             clean: Texture poco solubile in questo punto.
+  freq=   4  raw : morbido granuloso impasta qualche cristalli ma lascia residuo
+             clean: Texture morbida, granulosa, che impasta la bocca con qualche cristallo ma lascia residuo.
+  freq=   4  raw : morbido granuloso poco sol qualche cristallo lascia residuo
+             clean: Texture morbida, granulosa, poco solubile, con qualche cristallo che lascia residuo.
+  freq=   4  raw : Duro, friabile. microstruttura fine. tendenzialmente asciutto ma non troppo
+             clean: Texture dura e friabile, microstruttura fine, tendenzialmente asciutta ma non eccessiva.
+  freq=   4  raw : pastosa, non grana
+             clean: Texture pastosa, poca grana.
+  freq=   4  raw : friabile ma non asciutto. microstruttura fine. nessun cristallo percepito
+             clean: Texture friabile, non asciutta, con microstruttura fine e assenza di cristalli.
+  freq=   4  raw : asciutto, asciuga e impasta la bocca, ingozza
+             clean: Texture asciutta, che asciuga e impasta la bocca, tende a ingozzare.
+  freq=   4  raw : lascia la bocca abbastanza pulita, presenza di diversi cristalli
+             clean: Texture che lascia la bocca abbastanza pulita, con presenza di diversi cristalli.
+  freq=   4  raw : Forse anche poco solubile
+             clean: Texture poco solubile.
+  freq=   4  raw : morbido, cede nettamente ai denti senza friabilità
+             clean: Texture morbida, cede nettamente ai denti senza friabilità.
+  freq=   4  raw : molti cristalli, anche grossi. friabile, asciutto. microstruttura fine
+             clean: Texture friabile e asciutta, con cristalli abbondanti e grossi, microstruttura fine.
+  freq=   4  raw : deformabile, pastoso, adesivo
+             clean: Texture deformabile, pastosa e adesiva.
+  freq=   4  raw : granuli si tirosina MODERATI;gommoso LEGGERO;friabilità e solubilità LEGGERO
+             clean: Texture con granuli di tirosina moderati, leggermente gommosa, friabilità e solubilità leggere.
+  freq=   4  raw : compatto, leggermente umido, adesivo
+             clean: Texture compatta, leggermente umida e adesiva.
+  freq=   4  raw : morbido, poco strutturato, da grana giovane
+             clean: Texture morbida e poco strutturata.
+  freq=   4  raw : Ascitto, sabbiosoe granuloso
+             clean: Texture asciutta, sabbioso e granulosa.
+  freq=   4  raw : solo un pochetto asciutto nel fine bocca
+             clean: Texture leggermente asciutta nel finale di bocca.
+  freq=   4  raw : molto asciutto e pastoso
+             clean: Texture molto asciutta e pastosa.
+  freq=   4  raw : compatto e poco granulare, abbastanza duro e asciutto pochi cristalli.
+             clean: Texture compatta e poco granulare, abbastanza dura e asciutta, con pochi cristalli.
+  freq=   4  raw : solubilità e friabilità molto scarse
+             clean: Texture con scarsa solubilità e friabilità.
+  freq=   4  raw : cristalli presenti, ma rari. tende al morbido. umido. comunque discreta friabilità
+             clean: Texture con cristalli rari, tendente al morbido, umida e friabile.
+  freq=   4  raw : consistente al molare e si frange in una bella struttura. Si scioglie con un residuo sabbioso. ben umido. tanti microcristalli
+             clean: Texture consistente al molare, si frange in bella struttura, scioglie con residuo sabbioso, ben umida e con tanti microcristalli.
+  freq=   4  raw : mancanza di microstuttura e cristalli
+             clean: Texture priva di microstruttura e cristalli.
+  freq=   4  raw : poco umido
+             clean: Texture poco umida.
+  freq=   4  raw : Stranissima consistenza della grana come rimanessero scagliette
+             clean: Texture granulosa con scagliette che rimangono in bocca.
+  freq=   4  raw : duro, microstruttura grossolana, asciutto, non molto solubile, parecchi cristalli
+             clean: Texture dura, microstruttura grossolana, asciutta, poco solubile e con cristalli abbondanti.
+  freq=   4  raw : morbido, ma friabile quel minimo
+             clean: Texture morbida e leggermente friabile.
+  freq=   4  raw : morbido asciutto abbastanza granuloso, con pochi cristalli abbastanza solub
+             clean: Texture morbida, asciutta e abbastanza granulosa, con pochi cristalli e abbastanza solubile.
+  freq=   4  raw : morbido, non talmente da perdere friabilità'. microstruttura grossolana. pochissimi cristalli
+             clean: Texture morbida con buona friabilità, microstruttura grossolana e pochi cristalli.
+  freq=   4  raw : grana abbastanza evidente pastoso con pochi cristalli lascia residuo
+             clean: Texture granulosa pastosa, pochi cristalli, lascia residuo.
+  freq=   4  raw : scarsa solubilità
+             clean: Texture poco solubile.
+  freq=   4  raw : media stuttura con granuli e pastoso/poca umidità', ma discretooo
+             clean: Texture granulosa e pastosa, con poca umidità.
+  freq=   4  raw : friabilità solubilità e tirosina medoreto;astringente forte
+             clean: Texture friabile, solubile, con tirosina presente e sensazione astringente.
+  freq=   4  raw : Secco, non piacevole
+             clean: Texture asciutta.
+  freq=   4  raw : mediamente solubile
+             clean: Texture mediamente solubile.
+  freq=   4  raw : granuloso finale
+             clean: Texture granulosa in finale.
+  freq=   4  raw : poco solubile, molto granuloso
+             clean: Texture poco solubile e molto granulosa.
+  freq=   4  raw : si sfalda
+             clean: Texture friabile.
+  freq=   4  raw : eterogenea a seconda del pezzo, da umida ad asciutta con solubilità' diversa
+             clean: Texture eterogenea, da umida ad asciutta, con solubilità variabile a seconda del pezzo.
+  freq=   4  raw : granulosa e solubile
+             clean: Texture granulosa e solubile.
+  freq=   4  raw : umidi. troppo morbido e fondente. nessuna struttura
+             clean: Texture umida, troppo morbida e fondente, senza struttura.
+  freq=   4  raw : morbido granuloso cristalli
+             clean: Texture morbida, granulosa con cristalli.
+  freq=   4  raw : granuloso ma poco solubile.
+             clean: Texture granulosa ma poco solubile.
+  freq=   4  raw : asciutta, granulosa, non molto solubile, pochi microcristalli
+             clean: Texture asciutta, granulosa, poco solubile, con pochi microcristalli.
+  freq=   4  raw : molto friabile, potrebbe essere più solubile alla fine
+             clean: Texture molto friabile, poco solubile al finale.
+  freq=   4  raw : pastoso ma abbastanza solubile
+             clean: Texture pastosa ma abbastanza solubile.
+  freq=   4  raw : molto tenero poca grana
+             clean: Texture molto tenera con poca grana.
+  freq=   4  raw : bella friabilità. non asciutto. cristalli presenti. liquefa a fine bocca ma non impasta
+             clean: Texture friabile, non asciutta, con cristalli presenti, che si scioglie in finale senza impastare la bocca.
+  freq=   4  raw : Morbido, friabilein una microstruttura non fine. umido, tende al pastoso nel finale di bocca
+             clean: Texture morbida, friabile con microstruttura non fine, umida e tendente al pastoso nel finale di bocca.
+  freq=   4  raw : Manca completamente di cristalli
+             clean: Texture priva di cristalli.
+  freq=   4  raw : compatto ma abbastanza cedevole, grana sottile, asciutto, abbastanza solubile
+             clean: Texture compatta ma abbastanza cedevole, grana sottile, asciutta e abbastanza solubile.
+  freq=   4  raw : morbido poca grana qualche cristallo poco sol
+             clean: Texture morbida, poca grana, qualche cristallo e poco solubile.
+  freq=   4  raw : abbastanza solubile, un poco pastoso
+             clean: Texture abbastanza solubile e leggermente pastosa.
+  freq=   4  raw : granuli di tirosina molto scarsi
+             clean: Texture con granuli di tirosina scarsi.
+  freq=   4  raw : cedevole, poco granulosa, umida, quasi adesiva
+             clean: Texture cedevole, poco granulosa, umida e quasi adesiva.
+  freq=   4  raw : presenza di cristalli, ma non microstruttura si impasta, durezza mediasolubilit' elevata
+             clean: Texture con cristalli, impasta la bocca e solubilità elevata.
+  freq=   4  raw : ancora un poco umida ma solubile, poco granulosa, presenza media di microcristalli
+             clean: Texture ancora leggermente umida ma solubile, poco granulosa, con media presenza di microcristalli.
+  freq=   4  raw : asciutto, pastoso, poco solubile e mancano cristalli....
+             clean: Texture asciutta, pastosa, poco solubile e priva di cristalli.
+  freq=   4  raw : morbido granuloso cristalli evidenti
+             clean: Texture morbida, granulosa con cristalli evidenti.
+  freq=   4  raw : morbido al morso. microgranuli pochi ma fini.
+             clean: Texture morbida al morso, con microgranuli pochi ma fini.
+  freq=   4  raw : morbido, pastoso, 'gommoso
+             clean: Texture morbida, pastosa e gommosa.
+  freq=   4  raw : e' un grana giovane da pasto.
+             clean: NON_DESCRITTO
+  freq=   4  raw : granuloso ma impasta e poco sol
+             clean: Texture granulosa, che impasta la bocca e poco solubile.
+  freq=   4  raw : asciutto, poca solubilità
+             clean: Texture asciutta, poca solubilità.
+  freq=   4  raw : impasta asciutto poco solubile pochi cristalli
+             clean: Texture che impasta, asciutta e poco solubile, con pochi cristalli.
+  freq=   4  raw : friabile, cede facilmente al dente, rivelando una morbidezza di fondpalla fine impasta la bocca. cristalli rari
+             clean: Texture friabile, cedevole al dente, morbida, con cristalli rari, che impasta la bocca.
+  freq=   4  raw : pastoso, poco solubile, buoni i cristalli
+             clean: Texture pastosa, poco solubile, con cristalli buoni.
+  freq=   4  raw : In bocca si sciogli bene, lasciando granelli percettibili, ma piccoli
+             clean: Texture che si scioglie bene in bocca, lasciando granelli piccoli e percettibili.
+  freq=   4  raw : umido. molle. friabilità bassa. cristelli pochi ma presenti. impasta la bocca
+             clean: Texture umida, molle, poco friabile, con pochi cristalli e che impasta la bocca.
+  freq=   4  raw : Anche solubile sebbene leggermente asciutto
+             clean: Texture solubile sebbene leggermente asciutta.
+  freq=   4  raw : cristalli anche grossi e leggermente pastoso
+             clean: Texture con cristalli grossi e leggermente pastosa.
+  freq=   4  raw : umido, solubile in bocca
+             clean: Texture umida e solubile in bocca.
+  freq=   4  raw : morbido asciutto con tanti cristalli solubile
+             clean: Texture morbida, asciutta, con cristalli abbondanti e solubile.
+  freq=   4  raw : solubile e granulosa, piacevole
+             clean: Texture solubile e granulosa.
+  freq=   4  raw : asciutto, molti granuli... media durezza
+             clean: Texture asciutta, molti granuli e media durezza.
+  freq=   4  raw : astringente, asciutto, non ci sono cristalli.....
+             clean: Texture astringente e asciutta, priva di cristalli.
+  freq=   4  raw : grana assente
+             clean: Texture con grana assente.
+  freq=   4  raw : pochi cristalli, strutturapresente
+             clean: Texture con pochi cristalli e struttura presente.
+  freq=   4  raw : discreta friabilità' di una pasta comunque morbia. nel finale impasta la bocca. cristalli percepiti
+             clean: Texture discreta friabilità con pasta morbida, impasta la bocca nel finale e cristalli percepibili.
+  freq=   4  raw : Appena appena asciutto
+             clean: Texture leggermente asciutta.
+  freq=   4  raw : buona presenza di tirosina
+             clean: Texture con buona presenza di tirosina.
+  freq=   4  raw : Struttura non fine. cristalli non percepiti
+             clean: Texture con struttura grossolana e cristalli non percepibili.
+  freq=   4  raw : friabile, secco&asciutto, mcirostruttura sufficiente
+             clean: Texture friabile, secco e asciutto, con microstruttura sufficiente.
+  freq=   4  raw : scarsa presenza di tirosina
+             clean: Texture con scarsa presenza di tirosina.
+  freq=   4  raw : asciutto ma pochi cristalli e tende ad impastare
+             clean: Texture asciutta con pochi cristalli e tende ad impastare la bocca.
+  freq=   4  raw : cedevole, molto pastoso e asciutto, poco solubile, microstruttura sottile, molti cristalli
+             clean: Texture cedevole, molto pastosa e asciutta, poco solubile, con microstruttura sottile e molti cristalli.
+  freq=   4  raw : duro e compatto, grnana molto fine , leggermente asciutto
+             clean: Texture dura e compatta, grana molto fine, leggermente asciutta.
+  freq=   4  raw : pastoso e scarsi cristalli
+             clean: Texture pastosa, con scarsi cristalli.
+  freq=   4  raw : troppo morbido, ciononostante riesce a frantumarsi. nessun cristallo
+             clean: Texture morbida che si frantuina, senza cristalli.
+  freq=   4  raw : media con umidità' abbastanza prevalente
+             clean: Texture mediamente umida.
+  freq=   4  raw : poca grana, poco solubile
+             clean: Texture con poca grana e poco solubile.
+  freq=   4  raw : manca di umidità', troppo asciutto
+             clean: Texture troppo asciutta.
+  freq=   4  raw : granuli di tirosina molto percepibili;solubilità e friabilità moderatamente scarse
+             clean: Texture con granuli di tirosina molto percepibili, solubilità e friabilità moderatamente scarse.
+  freq=   4  raw : Molto asciutto. Altri dati di texture sono buoni
+             clean: Texture molto asciutta.
+  freq=   4  raw : dd
+             clean: NON_DESCRITTO
+  freq=   4  raw : Poco solubile e asciutto in gola
+             clean: Texture poco solubile e leggermente asciutta.
+  freq=   4  raw : friabile, abastanza solubile, potrebbe essere più granuloso
+             clean: Texture friabile, abbastanza solubile, potrebbe essere più granulosa.
+  freq=   4  raw : bei granuli, interessante equilibrio umidità' e friabilità', durezza
+             clean: Texture con bei granuli, buon equilibrio tra umidità e friabilità, dura.
+  freq=   4  raw : poco umido, pochi cristalli
+             clean: Texture poco umida e con pochi cristalli.
+  freq=   4  raw : morbido e deformabili non granuloso non firabiole impasta pochi cristalli e poco sol
+             clean: Texture morbida e deformabile, non granulosa, poco friabile, che impasta la bocca, con pochi cristalli e scarsa solubilità.
+  freq=   4  raw : Un poco duro
+             clean: Texture leggermente dura.
+  freq=   4  raw : molti cristalli, ma pastoso e morbido
+             clean: Texture pastosa e morbida, con molti cristalli.
+  freq=   4  raw : molto secco
+             clean: Texture molto asciutta.
+  freq=   4  raw : si scioglie bene
+             clean: Texture che si scioglie bene in bocca.
+  freq=   4  raw : Potrebbe essere più solubile, leggermente sabbioso alla fine
+             clean: Texture poco solubile, leggermente sabbioso al finale.
+  freq=   4  raw : asciutto asciutto.... e pochi cristalli
+             clean: Texture molto asciutta, pochi cristalli.
+  freq=   4  raw : nella media
+             clean: NON_DESCRITTO
+  freq=   4  raw : abbastanza morbido, grnuloso, microstruttura grossolana, poco solubile.
+             clean: Texture abbastanza morbida, granulosa, con microstruttura grossolana e poco solubile.
+  freq=   4  raw : molto firabile, numerosi cristaali, solubile.
+             clean: Texture molto friabile, numerosi cristalli e solubile.
+  freq=   4  raw : si sfalda in mano in bocca granuolo e poco asciutto chiari cristalli e poco sol lascia in bocca sabbia fine
+             clean: Texture granulosa, poco asciutta, con cristalli chiari e poco solubile, lascia sabbia fine in bocca.
+  freq=   4  raw : Pezzi molto diversi
+             clean: Texture molto eterogenea.
+  freq=   4  raw : compatto e sciutto, grana troppo fine, nessun cristallo
+             clean: Texture compatta e asciutta, grana fine, cristalli assenti.
+  freq=   4  raw : molle, cedevole
+             clean: Texture molle e cedevole.
+  freq=   4  raw : duro e poco friabile
+             clean: Texture dura e poco friabile.
+  freq=   4  raw : asciutto......poco equilibrio tra umidità/solubil/friabilità;
+             clean: Texture asciutta con poco equilibrio tra umidità, solubilità e friabilità.
+  freq=   4  raw : umida, cedevole, poco solubile
+             clean: Texture umida, cedevole e poco solubile.
+  freq=   4  raw : ottima la microstruttura. Crtistalli presenti. Pastosità e umidità medio equilibrate
+             clean: Texture con microstruttura ottima, cristalli presenti, pastosità e umidità mediamente equilibrate.
+  freq=   4  raw : curo econsistente , poco friabile, con grana fine ma percepibile, leggermete asciutto, cristalli sensibili
+             clean: Texture poco friabile, con grana fine ma percepibile, leggermente asciutta e cristalli sensibili.
+  freq=   4  raw : asciutto granuloso cristalli abbastanza solubile
+             clean: Texture asciutta, granulosa, con cristalli abbastanza solubili.
+  freq=   4  raw : cedevole sotto identi. Fondente
+             clean: Texture cedevole e fondente.
+  freq=   4  raw : tende ad impastare critalli pochi poco granuloso ladcia residuo farinoso
+             clean: Texture che tende a impastare, pochi cristalli, poco granulosa, lascia residuo farinoso.
+  freq=   4  raw : tende a impastare e lasciare residuo polveroso grana poco evidente ma qualche cristallo
+             clean: Texture che tende a impastare e lasciare residuo polveroso, con grana poco evidente e qualche cristallo.
+  freq=   4  raw : assenza di cristalli
+             clean: Texture senza cristalli.
+  freq=   4  raw : morbido al primo morso. ciononostante si briciola abbastanza. Cristalli: non molti
+             clean: Texture morbida al primo morso, si briciola abbastanza, cristalli non abbondanti.
+  freq=   4  raw : asciutto granuloso pochi cristalli solub
+             clean: Texture asciutta, granulosa, con pochi cristalli e buona solubilità.
+  freq=   4  raw : non molto dura, friabile, granulosa, mediamentesolubile
+             clean: Texture non molto dura, friabile, granulosa e mediamente solubile.
+  freq=   4  raw : pastoso asciutto poco sol qualche crist
+             clean: Texture pastosa, asciutta, poco solubile, con qualche cristallo.
+  freq=   4  raw : Scagliette e non granuli
+             clean: Texture con scagliette, non granuli.
+  freq=   4  raw : pastoso compatto, non granuloso, asciutto, non si percepiscono cristalli
+             clean: Texture pastosa e compatta, non granulosa, asciutta e priva di cristalli percepibili.
+  freq=   4  raw : presenza di pochi cristalli
+             clean: Texture con pochi cristalli.
+  freq=   4  raw : compatto, un poco' adesivo, poco friabile e poco solubile
+             clean: Texture compatta, leggermente adesiva, poco friabile e poco solubile.
+  freq=   4  raw : morbido, molti cristalli
+             clean: Texture morbida con molti cristalli.
+  freq=   4  raw : asciutto granuloso con crist lascia residuo in bocca
+             clean: Texture asciutta, granulosa con cristalli che lascia residuo in bocca.
+  freq=   4  raw : poca microstruttura e cristalli
+             clean: Texture con poca microstruttura e cristalli.
+  freq=   4  raw : Bella struttura
+             clean: Texture con bella struttura.
+  freq=   4  raw : Tenero
+             clean: Texture tenera.
+  freq=   4  raw : granuloso asciutto con qualche cristalli tende ad impastare alla fine e non sciogliersi
+             clean: Texture granulosa e asciutta, con qualche cristallo, tende ad impastare alla fine e non sciogliesi.
+  freq=   4  raw : molto pastoso e aciutto... granuli ok
+             clean: Texture molto pastosa, leggermente asciutta e granulosa.
+  freq=   4  raw : granuloso cristalli evidenti solub
+             clean: Texture granulosa con cristalli evidenti e solubile.
+  freq=   4  raw : asciutto, poco solubile.
+             clean: Texture asciutta e poco solubile.
+  freq=   4  raw : asciutto, molti granuli e poca solubilità
+             clean: Texture asciutta, molti granuli e poca solubilità.
+  freq=   4  raw : Tanti cristalli e perle
+             clean: Texture con cristalli e perle abbondanti.
+  freq=   4  raw : pochi granuli, asciutto...
+             clean: Texture con pochi granuli, asciutta.
+  freq=   4  raw : bella presenza di cristalli, asciutto, ma buona solubilità
+             clean: Texture con bella presenza di cristalli, asciutta e buona solubilità.
+  freq=   4  raw : manca leggermente in durezza. Bella umidità-solubilità. Cristalli OK
+             clean: Texture leggermente morbida, bella umidità e solubilità, cristalli adeguati.
+  freq=   4  raw : non asciutto, friabile. buona microstruttura
+             clean: Texture non asciutta, friabile e con buona microstruttura.
+  freq=   4  raw : asciutto poi impasta e lascia residuo in bocca
+             clean: Texture asciutta, che impasta la bocca e lascia residuo.
+  freq=   4  raw : poco solubile. farinoso
+             clean: Texture poco solubile e farinosa.
+  freq=   4  raw : poco dura, umida, poco solubile e poco granulosa
+             clean: Texture poco dura, umida, poco solubile e poco granulosa.
+  freq=   4  raw : friabile e con cristalli, ben bilanciato
+             clean: Texture friabile con cristalli, ben bilanciato.
+  freq=   4  raw : Poco granuloso
+             clean: Texture poco granulosa.
+  freq=   4  raw : asciutto e friabile lascia sabbia
+             clean: Texture asciutta, friabile e leggermente sabbioso.
+  freq=   4  raw : morbido al molare, ma comunque ben friabile. cristalli presenti, pure grossi. tende, nel fine bocca ad impastarla
+             clean: Texture morbida al molare, ben friabile con cristalli grossi presenti, tende a impastare la bocca nel finale.
+  freq=   4  raw : morbido granuloso tende ad impastare pochi cristalli
+             clean: Texture morbida, granulosa, che tende a impastare con pochi cristalli.
+  freq=   4  raw : durezza alta , pochi granuli
+             clean: Texture dura con pochi granuli.
+  freq=   4  raw : No cristalli,no grana
+             clean: Texture senza cristalli e senza grana.
+  freq=   4  raw : compatto, praticamente non granuloso, solubile,asciutto.
+             clean: Texture compatta, poco granulosa, solubile e asciutta.
+  freq=   4  raw : Piacevole però
+             clean: NON_DESCRITTO
+  freq=   4  raw : tendenzialmente umida, solubilità' medio bassa, leggermente cedevole
+             clean: Texture tendenzialmente umida, solubilità medio-bassa e leggermente cedevole.
+  freq=   4  raw : Consistenza strana
+             clean: NON_DESCRITTO
+  freq=   4  raw : pastoso e un poco farinoso
+             clean: Texture pastosa e leggermente farinosa.
+  freq=   4  raw : tirosina solubilità e friabilità moderata
+             clean: Texture con tirosina, solubilità e friabilità moderata.
+  freq=   4  raw : cristalli grossi il formaggio parisce quasi subito
+             clean: Texture con cristalli grossi, che si scioglie quasi subito in bocca.
+  freq=   4  raw : si scioglie bene e velocemente
+             clean: Texture che si scioglie bene in bocca.
+  freq=   4  raw : Pochi
+             clean: Texture con pochi cristalli.
+  freq=   4  raw : friabile cristalli asciutto granuloso ma lascia residuo (farina) alla fine
+             clean: Texture friabile e granulosa con cristalli, leggermente asciutta, ma lascia residuo farinoso al finale.
+  freq=   4  raw : morbido granuloso pochi cristalli
+             clean: Texture morbida, granulosa, con pochi cristalli.
+  freq=   4  raw : morbido, poco granuloso, smbra troppo fresco
+             clean: Texture morbida, poco granulosa.
+  freq=   4  raw : grana praticemnte nulla, duro
+             clean: Texture dura, praticamente priva di grana.
+  freq=   4  raw : Non friabile non granuloso
+             clean: Texture non friabile, non granulosa.
+  freq=   4  raw : la solubilità di alcune porzioni sono da struttura stirata.
+             clean: Texture con solubilità ridotta in alcune porzioni dovute a struttura stirata.
+  freq=   4  raw : buona solibulit
+             clean: Texture molto solubile.
+  freq=   4  raw : duro, pasta compatta e poco friabile, grana molto fine, cristalli praticamente assenti, solubile.
+             clean: Texture dura, pasta compatta e poco friabile, grana molto fine, cristalli praticamente assenti, solubile.
+  freq=   4  raw : troppo tenero cristalli
+             clean: Texture troppo tenera, cristalli presenti.
+  freq=   4  raw : mediamente asciutta, granulosa ma poco solubile, risulta quasi sabbiosa
+             clean: Texture mediamente asciutta, granulosa, poco solubile e leggermente sabbiosa.
+  freq=   4  raw : struttura mediamente dura, friabile, solubile, granulosa, pochi microcristalli
+             clean: Texture mediamente dura, friabile, solubile e granulosa, con pochi microcristalli.
+  freq=   4  raw : friabilità e solubilità intensità mediagranuli di tirosina intensità alta
+             clean: Texture friabile e solubile con granuli di tirosina evidenti.
+  freq=   4  raw : morbido, umido ma friabile. pastoso a fine bocca
+             clean: Texture morbida, umida e friabile, tendente al pastoso in finale di bocca.
+  freq=   4  raw : morbido al morso, molle e pastoso al palato. tanti cristalli
+             clean: Texture morbida al morso, molle e pastosa al palato, con cristalli abbondanti.
+  freq=   4  raw : umido poco friabile e impasta
+             clean: Texture umida, poco friabile e che impasta la bocca.
+  freq=   4  raw : Texture irregolare
+             clean: Texture irregolare.
+  freq=   4  raw : mediamente granulosa, mediamente umida, pochi microcristalli, solubilità' medio bassa
+             clean: Texture mediamente granulosa e umida, con pochi microcristalli e solubilità medio-bassa.
+  freq=   4  raw : morbida poca grana no cristalli lascia residuo
+             clean: Texture morbida, poca grana, senza cristalli, lascia residuo.
+  freq=   4  raw : poca grana in bocca, pastoso
+             clean: Texture poco granulosa e pastosa.
+  freq=   4  raw : Pastoso e o asciutto ma nel complesso buono!
+             clean: Texture pastosa e asciutta.
+  freq=   4  raw : morbido con qualche piccolo cristalli tende ad impastare e lasciare residuo farinoso
+             clean: Texture morbida con qualche cristallo, tende a impastare e lascia residuo farinoso.
+  freq=   4  raw : Sembrata grana giovane
+             clean: Texture con grana giovane.
+  freq=   4  raw : pastoso, umido, poco granuloso
+             clean: Texture pastosa, umida e poco granulosa.
+  freq=   4  raw : diventa inconsistente
+             clean: Texture inconsistente.
+  freq=   4  raw : buon equilibrio tra microstruttura e cristalli,
+             clean: Texture con buon equilibrio tra microstruttura e cristalli.
+  freq=   4  raw : quasi assenza di cristalli;troppo umido
+             clean: Texture quasi priva di cristalli, troppo umida.
+  freq=   4  raw : granuloso asciutto cristalli lascia un poco di residuo
+             clean: Texture granulosa, asciutta, con cristalli che lasciano un poco di residuo.
+  freq=   4  raw : microstruttura scarsissima, diventa quasi crema in bocca
+             clean: Texture che diventa quasi crema in bocca, con microstruttura scarsa.
+  freq=   4  raw : Compatto, mediamente umido, non molto friabile né granuloso, discretamente solubile, pochi cristalli
+             clean: Texture compatta, mediamente umida, poco friabile, discretamente solubile, con pochi cristalli.
+  freq=   4  raw : friabile e solubile
+             clean: Texture friabile e solubile.
+  freq=   4  raw : struttura molle e pastosa
+             clean: Texture morbida e pastosa.
+  freq=   4  raw : leggermente sabbioso, lascia la bocca poco pulita
+             clean: Texture leggermente sabbioso, lascia bocca poco pulita.
+  freq=   4  raw : un poco- più\ presente la grana
+             clean: Texture con grana leggermente presente.
+  freq=   4  raw : friabile ma umido. struttura fine , morbido. non pastoso
+             clean: Texture friabile e umida, con struttura fine, morbida e non pastosa.
+  freq=   4  raw : Scricchiola ma non per cristalli
+             clean: Texture che scricchiola, non per cristalli.
+  freq=   4  raw : molto friabile, buoni cristalli, buona solubilità
+             clean: Texture molto friabile, con cristalli e buona solubilità.
+  freq=   4  raw : grana fine, pastoso, asciutto, abbastanza solubile, piuttosto morbido
+             clean: Texture a grana fine, pastosa, asciutta, abbastanza solubile e piuttosto morbida.
+  freq=   4  raw : Ben umido. Lascia una bella bocca
+             clean: Texture umida che lascia una bella bocca.
+  freq=   4  raw : pasta eccessivamente umida
+             clean: Texture eccessivamente umida.
+  freq=   4  raw : morbido asciutto poca grana
+             clean: Texture morbida, asciutta e poco granulosa.
+  freq=   4  raw : molto buona, fosse un emmental. e' addirittura elastico
+             clean: Texture elastica e solubile.
+  freq=   4  raw : media...
+             clean: NON_DESCRITTO
+  freq=   4  raw : Malleabile deformabile
+             clean: Texture malleabile e deformabile.
+  freq=   4  raw : piuttosto compatto e poco friabile, pastoso, poco solubile
+             clean: Texture piuttosto compatta, poco friabile e pastosa, con scarsa solubilità.
+  freq=   4  raw : al palato risulta granuloso-sabbioaso
+             clean: Texture granulosa e sabbiosa.
+  freq=   4  raw : Sotto i denti no sentito cristalli molto grossi o perle
+             clean: Texture con cristalli non molto grossi.
+  freq=   4  raw : asciutto poco friabile lascia residuo poco sol
+             clean: Texture asciutta, poco friabile, lascia residuo e poco solubile.
+  freq=   4  raw : pastoso, poco granuloso, asciutto, pochi cristalli,
+             clean: Texture pastosa, poco granulosa, asciutta, con pochi cristalli.
+  freq=   4  raw : asciutto, granuloso, solubile, a tratti sabbioso ma gradevole
+             clean: Texture asciutta, granulosa, solubile e a tratti leggermente sabbiosa.
+  freq=   4  raw : consistenza un poco molle. cedevole
+             clean: Texture leggermente molle e cedevole.
+  freq=   4  raw : granuloso cristalli piccoli sol
+             clean: Texture granulosa con cristalli piccoli, solubile.
+  freq=   4  raw : pastoso, poco rfiabile
+             clean: Texture pastosa e poco friabile.
+  freq=   4  raw : pastoso impasta poca grana cristalli evidenti ma poco sol sabbioso alla fine
+             clean: Texture pastosa che impasta la bocca, con poca grana, cristalli evidenti ma scarsa solubilità e finale sabbioso.
+  freq=   4  raw : morbido grasso cristalli evidenti
+             clean: Texture morbida, grassa, con cristalli evidenti.
+  freq=   4  raw : impasta la bocca. morbido, e fondente
+             clean: Texture che impasta la bocca, morbida e fondente.
+  freq=   4  raw : morbido e friabile, grana abbastanza sottile, solubile, pochicristalli
+             clean: Texture morbida, friabile, con grana abbastanza sottile, solubile e pochi cristalli.
+  freq=   4  raw : poco solubile, tende a essere pastoso
+             clean: Texture poco solubile e tendente al pastoso.
+  freq=   4  raw : a tratti troppo morbido, impasta e incolla labocca
+             clean: Texture a tratti troppo morbida, che impasta e incolla la bocca.
+  freq=   4  raw : buona friabilità', presenti cristalli
+             clean: Texture friabile con cristalli presenti.
+  freq=   4  raw : granuloso asciutto poco sol pochi cristalli
+             clean: Texture granulosa, asciutta, poco solubile, con pochi cristalli.
+  freq=   4  raw : molto tenero cristalli molto solubile
+             clean: Texture molto tenera, cristalli molto solubili.
+  freq=   4  raw : umida, cedevole, poco granulosa
+             clean: Texture umida, cedevole e poco granulosa.
+  freq=   4  raw : morbido al morso, estremamente friabile in una struttura finissima, quasi sabbiosa. non essendo asciutto interessantissimo
+             clean: Texture morbida al morso, estremamente friabile con struttura finissima e quasi sabbiosa, non asciutta.
+  freq=   4  raw : solubilità friabilità tirosina intensità leggera
+             clean: Texture solubile, friabile, con tirosina percepibile e intensità leggera.
+  freq=   4  raw : molle, non solubile, senza grana.
+             clean: Texture molle, non solubile, senza grana.
+  freq=   4  raw : cristalli presenti, taluni grossi. umido, certi bocconi sono troppo morbidi. friabile un minimo in struttura grossa. rimane la bocca sabbiosa
+             clean: Texture con cristalli presenti, taluni grossi, umida, certi bocconi troppo morbidi, friabile nella struttura grossa e sabbiosa in finale.
+  freq=   4  raw : umida, molto adesiva
+             clean: Texture umida e molto adesiva.
+  freq=   4  raw : sabbioso con frammenti
+             clean: Texture sabbioso con frammenti.
+  freq=   4  raw : scarsa (molle) ma con presenza di cristalli di tirosina
+             clean: Texture scarsa e molle, con cristalli di tirosina presenti.
+  freq=   4  raw : asciutto cristalli
+             clean: Texture asciutta con cristalli.
+  freq=   4  raw : morbido, poco solubile, pochi cristalli
+             clean: Texture morbida, poco solubile, con pochi cristalli.
+  freq=   4  raw : forse troppo friabile, asciutto.........
+             clean: Texture molto friabile e asciutta.
+  freq=   4  raw : morbido poco friabile con cristalli poco solub lascia residuo sabbioso
+             clean: Texture morbida, poco friabile, con cristalli poco solubili che lasciano residuo sabbioso.
+  freq=   4  raw : morbido, pastoso, asciutto,
+             clean: Texture morbida, pastosa e asciutta.
+  freq=   4  raw : giovane, umida, cedevole, poco granulosa
+             clean: Texture umida, cedevole e poco granulosa.
+  freq=   4  raw : manca un pò di durezza e appare leggermente asciutto...
+             clean: Texture leggermente asciutta e poco dura.
+  freq=   4  raw : compattp e poco strutturato, grana molto fine e solubile, cristalli presenti
+             clean: Texture compatta e poco strutturata, grana molto fine e solubile, con cristalli presenti.
+  freq=   4  raw : abbastamnza morbido, microstruttura assente e pastoso, poco solubile
+             clean: Texture abbastanza morbido e pastoso, microstruttura assente, poco solubile.
+  freq=   4  raw : leggermente cedevole, mediamente granulosa, mediamente solubile, pochi microcristalli
+             clean: Texture leggermente cedevole, mediamente granulosa e solubile, con pochi microcristalli.
+  freq=   4  raw : umida, poco granulosa, quasi adesiva
+             clean: Texture umida, poco granulosa e quasi adesiva.
+  freq=   4  raw : asciutto granuloso piccoli cristalli sol
+             clean: Texture asciutta, granulosa con piccoli cristalli e solubile.
+  freq=   4  raw : attesa per un formaggio stagionato
+             clean: NON_DESCRITTO
+  freq=   4  raw : compatto, umido, pastoso, poco granuloso, solubile, pochi cristalli
+             clean: Texture compatta, umida, pastosa, poco granulosa, solubile con pochi cristalli.
+  freq=   4  raw : Senza granulosità
+             clean: Texture non granulosa.
+  freq=   4  raw : granulosa, mediamente asciutta, solubile
+             clean: Texture granulosa, mediamente asciutta e solubile.
+  freq=   4  raw : Anche patatoso..
+             clean: Texture farinosa.
+  freq=   4  raw : Presena di cristali minuti, il formagio sparisce rapitamente in bocca
+             clean: Texture con cristalli fini, molto solubile.
+  freq=   4  raw : Friabile, granuloso, cristalli - bene - ma potrebbe essere più solubile alla fine
+             clean: Texture friabile e granulosa con cristalli, poco solubile al finale.
+  freq=   4  raw : asciutto tende ad impastare e lascia residuo percepibili cristallo
+             clean: Texture asciutta, tende a impastare e lascia residui percepibili di cristallo.
+  freq=   4  raw : presenza di molti cristalli, con frammenti insolubili
+             clean: Texture con molti cristalli e frammenti insolubili.
+  freq=   4  raw : molti cristalli, ben friabile e in ottimo equilibrio tra umidità. e soubilita-
+             clean: Texture con molti cristalli, friabile e ben equilibrata tra umidità e solubilità.
+  freq=   4  raw : pastoso e con poca grana
+             clean: Texture pastosa e granulosa poco evidente.
+  freq=   4  raw : pastoso e poco solubile. adesivo
+             clean: Texture pastosa, poco solubile e adesiva.
+  freq=   4  raw : gommoso cristalli
+             clean: Texture gommosa con cristalli.
+  freq=   4  raw : cedevole, poco granulosa, pochi microcristalli
+             clean: Texture cedevole, poco granulosa, con pochi microcristalli.
+  freq=   4  raw : granuloso con cristalli friabile
+             clean: Texture granulosa, friabile, con cristalli.
+  freq=   4  raw : granulosa ma non molto solubile, leggermente cedevole
+             clean: Texture granulosa, poco solubile e leggermente cedevole.
+  freq=   4  raw : si sbriciola bene in bocca. non asciuga. cristalli ok
+             clean: Texture friabile, non asciutta, con cristalli adeguati.
+  freq=   4  raw : morbido grasso cristalli
+             clean: Texture morbida, grassa, con cristalli.
+  freq=   4  raw : friabilità' non perfetta. un pochetto plastico, morbido
+             clean: Texture poco friabile, leggermente plastica e morbida.
+  freq=   4  raw : morbido asciutto granuloso cristalli evidenti
+             clean: Texture morbido asciutto, granuloso con cristalli evidenti.
+  freq=   4  raw : Compatto, poca grana
+             clean: Texture compatta con poca grana.
+  freq=   4  raw : forse troppi cristalli
+             clean: Texture con cristalli abbondanti.
+  freq=   4  raw : friabile, microstruttura presente, cristalli ok, solubile
+             clean: Texture friabile, con microstruttura presente, cristalli e buona solubilità.
+  freq=   4  raw : pastoso cristalli
+             clean: Texture pastosa con cristalli.
+  freq=   4  raw : un pochetto morbido al morso. microastruttura carente
+             clean: Texture leggermente morbida e con microstruttura carente.
+  freq=   4  raw : presenza di cristalli
+             clean: Texture con cristalli presenti.
+  freq=   4  raw : compatto ma friabile, microstruttura, abbastanza sottile, non molto solubile,
+             clean: Texture compatta ma friabile, con microstruttura abbastanza sottile e poco solubile.
+  freq=   4  raw : abbastanza duro, granulare, migrostruttura grossolana, poco solubile, asciutto
+             clean: Texture abbastanza dura, granulosa, microstruttura grossolana, poco solubile e asciutta.
+  freq=   4  raw : Morbido ma friabile. tende ad asciugare la bocca, anche se non lo direi asciutto
+             clean: Texture morbida e friabile, tende ad asciugare la bocca senza essere completamente asciutta.
+  freq=   4  raw : pastoso, adesivo
+             clean: Texture pastosa e adesiva.
+  freq=   4  raw : molle e cedevole in alcuni pezzetti
+             clean: Texture molle e cedevole in alcuni pezzetti.
+  freq=   4  raw : duro, granuloso, leggermente asciutto, cristalli
+             clean: Texture dura, granulosa, leggermente asciutta, con cristalli.
+  freq=   4  raw : morbido con cristalli evidenti pastoso ma non molto granuloso e poso solubile
+             clean: Texture morbida e pastosa con cristalli evidenti, poco granulosa e poco solubile.
+  freq=   4  raw : adesivo, non troppo solubile
+             clean: Texture adesiva e poco solubile.
+  freq=   4  raw : piuttosto morbido e con poca microstruttura
+             clean: Texture piuttosto morbida con poca microstruttura.
+  freq=   4  raw : solubilità e friabilità MODERATO
+             clean: Texture moderatamente solubile e friabile.
+  freq=   4  raw : leggermente cedevole ma granulosa, ancora un poco umida
+             clean: Texture leggermente cedevole, granulosa e ancora poco umida.
+  freq=   4  raw : granuloso cristalli leggero residuo alla fine sensazione di sabbia
+             clean: Texture granulosa con cristalli, leggero residuo finale e sensazione sabbiosa.
+  freq=   4  raw : tende un poco a compattarsi piccoli cristalli poco sol
+             clean: Texture che tende a compattarsi, con piccoli cristalli poco solubili.
+  freq=   4  raw : Difetto é che troppo tenero
+             clean: Texture troppo tenera.
+  freq=   4  raw : duro e copmatto ma senza grana, sembra poco stagionato, solubile
+             clean: Texture dura e compatta, poco solubile, senza grana.
+  freq=   4  raw : poco solubile alla fine
+             clean: Texture poco solubile al finale.
+  freq=   4  raw : morbido deformabile pochi cristalli poco solubile poco stagionato ?)
+             clean: Texture morbida, deformabile, con pochi cristalli e poco solubile.
+  freq=   4  raw : duro, grana fine, abbastanza solubile, cristalli poco percepibili
+             clean: Texture dura, grana fine, abbastanza solubile, cristalli poco percepibili.
+  freq=   4  raw : cedevole ma non morbido. friabilità fine. bella grana. tanti cristalli
+             clean: Texture cedevole, friabile con grana fine e cristalli abbondanti.
+  freq=   4  raw : buona grana, solubile
+             clean: Texture con buona grana e solubile.
+  freq=   4  raw : Perle fastidiose
+             clean: Texture con cristalli fastidiosi.
+  freq=   4  raw : bei cristalli..., asciutto, friabile
+             clean: Texture asciutta, friabile, con cristalli apprezzabili.
+  freq=   4  raw : Forse leggermente tenero
+             clean: Texture leggermente tenera.
+  freq=   4  raw : troppo morbido e pastoso;
+             clean: Texture troppo morbido e pastosa.
+  freq=   4  raw : medio-bassa durezza, bella solubilità, leggermente asciutto e pochi cristalli (medi)
+             clean: Texture di media-bassa durezza, bella solubilità, leggermente asciutta con pochi cristalli medi.
+  freq=   4  raw : non troppo friabile né solubile
+             clean: Texture poco friabile e poco solubile.
+  freq=   4  raw : Cristalli radi, grossi. Cedevole e friabile. A fine bossa sabbioso, nolto fine
+             clean: Texture con cristalli radi e grossi, cedevole e friabile, tendente al sabbioso in finale.
+  freq=   4  raw : dura, granulosa, solubile, mediamente asciutta, presenza media di microcristalli
+             clean: Texture dura, granulosa, solubile, mediamente asciutta, con media presenza di microcristalli.
+  freq=   4  raw : un p; secco
+             clean: Texture leggermente asciutta.
+  freq=   4  raw : poca struttura in bocca, leggermente cedevole, poca granulosità
+             clean: Texture poco strutturata, leggermente cedevole e poco granulosa.
+  freq=   4  raw : buona struttura e microcristalli
+             clean: Texture con buona struttura e microcristalli.
+  freq=   4  raw : presenza di cristalli di tirosina;solubilità e friabilità medio alta
+             clean: Texture con cristalli di tirosina, solubilità e friabilità medio-alta.
+  freq=   4  raw : morbido. umido. poco friabile. cristalli presenti, anche di buone dimensioni.
+             clean: Texture morbida, umida, poco friabile, con cristalli presenti anche di buone dimensioni.
+  freq=   4  raw : comaptto, grana inesistente, asciutto e impasta, cristalli poco percepibili
+             clean: Texture compatta, grana assente, asciutta e che impasta la bocca, con cristalli poco percepibili.
+  freq=   4  raw : elastico granuloso asciutto pochi cristalli non molto sol
+             clean: Texture elastica, granulosa, asciutta e poco solubile con pochi cristalli.
+  freq=   4  raw : granuloso, solubile, mediamente duro, buona presenza di microcristalli, molto gradevole
+             clean: Texture granulosa, solubile, mediamente dura con buona presenza di microcristalli.
+  freq=   4  raw : lascia in pocca dei residui cremoso, presenza di criatalli
+             clean: Texture che lascia in bocca residui cremosi con presenza di cristalli.
+  freq=   4  raw : compatto asciutto granuloso con cristalli ma poco solubile lascia residuo sabbioso
+             clean: Texture compatta, asciutta e granulosa con cristalli, poco solubile, lascia residuo sabbioso.
+  freq=   4  raw : molto asciutta, grana fine, cristalli numerosi,
+             clean: Texture molto asciutta, grana fine e cristalli numerosi.
+  freq=   4  raw : umido, a fine bocca fondente
+             clean: Texture umida, fondente a fine bocca.
+  freq=   4  raw : microcristalli. un pochetto morbido
+             clean: Texture con microcristalli, leggermente morbida.
+  freq=   4  raw : microstruttura scarsa ma nel complesso solubile
+             clean: Texture con microstruttura scarsa ma nel complesso solubile.
+  freq=   4  raw : formaggio con pasta dura "anomala" legata alla pasta compatta dovuta ala struttura stirata tipo sbrinz;presenza di cristalli di tirosina
+             clean: Texture dura e compatta con cristalli di tirosina presenti.
+  freq=   4  raw : morbido. poco strutturato e friabile. sembra giovane
+             clean: Texture morbida, poco strutturata e friabile.
+  freq=   4  raw : umido, tenero. nel finale impasta la bocca
+             clean: Texture umida, tenera e che impasta la bocca nel finale.
+  freq=   4  raw : tirosina friabilità e solubilità forte;
+             clean: Texture con tirosina, friabilità e solubilità marcate.
+  freq=   4  raw : molto asciutto, morbido e pochi cristalli
+             clean: Texture molto asciutta, morbida e con pochi cristalli.
+  freq=   4  raw : cristalli gommoso
+             clean: Texture con cristalli e consistenza gommosa.
+  freq=   4  raw : Non granulosità
+             clean: Texture non granulosa.
+  freq=   4  raw : leggermente asciutto...nel complesso bene
+             clean: Texture leggermente asciutta e nel complesso ben strutturata.
+  freq=   4  raw : Umido, freddo. Ciononostante friabile in una microstruttura fine, sabbiosa. Lacia la bocca pulita. Cristalli presenti, anche grossi.
+             clean: Texture umida, friabile con microstruttura fine e sabbiosa, lascia bocca pulita, con cristalli presenti anche grossi.
+  freq=   4  raw : mediamente umido e solubile
+             clean: Texture mediamente umida e solubile.
+  freq=   4  raw : friabilità e solubilità intensità alta;cristalli di tirosina intensità bassa
+             clean: Texture molto friabile e solubile, con cristalli di tirosina poco percettibili.
+  freq=   4  raw : pochissimi granuli tirosina
+             clean: Texture con pochissimi granuli di tirosina.
+  freq=   4  raw : morbido, granulometria media, umido, solubile
+             clean: Texture morbida, granulometria media, umida e solubile.
+  freq=   4  raw : mediamente asciutta, granulosa, solubile
+             clean: Texture mediamente asciutta, granulosa e solubile.
+  freq=   4  raw : granulosa, solubile, asciutta
+             clean: Texture granulosa, solubile e asciutta.
+  freq=   4  raw : No friabile, no cristalli
+             clean: Texture non friabile, priva di cristalli.
+  freq=   4  raw : duro ma friabile, grana abbastanza grossa ma solubile, cristalli ben percepibili
+             clean: Texture dura e friabile, grana abbastanza grossa ma solubile, cristalli ben percepibili.
+  freq=   4  raw : Leggermente asciutto e anche pastoso
+             clean: Texture leggermente asciutta e pastosa.
+  freq=   4  raw : plastico, ingozza
+             clean: Texture plastica che ingozza.
+  freq=   4  raw : morbido asciutto tende ad impastare e lasciar residuo qualche cristalli
+             clean: Texture morbida, asciutta, tende a impastare e lasciare residuo, con qualche cristallo.
+  freq=   4  raw : Peccato per il tenero
+             clean: Texture tenera.
+  freq=   4  raw : la bocca rimane abbastanza pulita, i cristalli sono pochi, ma abbastanza grossi
+             clean: Texture con pochi cristalli abbastanza grossi, bocca pulita.
+  freq=   4  raw : Leggermente allappante
+             clean: Texture leggermente allappante.
+  freq=   4  raw : asciutto, poco solubile e pochi cristalli
+             clean: Texture asciutta, poco solubile, con pochi cristalli.
+  freq=   4  raw : tenero cristalli
+             clean: Texture tenera con cristalli.
+  freq=   4  raw : Grossi cristalli di tirosina, il formaggio scioglie bene in bocca e sparisce in breve tempo
+             clean: Texture con cristalli di tirosina grossi, molto solubile e scioglie rapidamente in bocca.
+  freq=   4  raw : alla fine un poco granuloso
+             clean: Texture leggermente granulosa al finale.
+  freq=   4  raw : morbido e pochi granuli...
+             clean: Texture morbida con pochi granuli.
+  freq=   4  raw : mollo
+             clean: Texture molle.
+  freq=   4  raw : buoni cristalli, buona solubilità
+             clean: Texture con cristalli e buona solubilità.
+  freq=   4  raw : rimane qualche piccolo frqammento assenza di cristalli
+             clean: Texture con qualche piccolo frammento, assenza di cristalli.
+  freq=   4  raw : Solo leggermente asciutto o pastoso
+             clean: Texture leggermente asciutta o pastosa.
+  freq=   4  raw : granuloso con pochi cristalli e poco sol
+             clean: Texture granulosa con pochi cristalli e poco solubile.
+  freq=   4  raw : friabile ma con buona presenza di cristalli
+             clean: Texture friabile con buona presenza di cristalli.
+  freq=   4  raw : asciutto asciutto, pochi granuli
+             clean: Texture asciutta con pochi granuli.
+  freq=   4  raw : molti cristalli, manca equilibrio tra umidità e pastosità...
+             clean: Texture con molti cristalli, squilibrio tra umidità e pastosità.
+  freq=   4  raw : deformabile, adesivo, poco solubile, non omogeneo nei pezzi
+             clean: Texture deformabile e adesiva, poco solubile, non omogenea nei diversi punti della sezione.
+  freq=   4  raw : friabilità e solubilità intensità media;granuli tirosina intesnità alta
+             clean: Texture con friabilità e solubilità medie, granuli di tirosina intensi.
+  freq=   4  raw : poco microcristalli m aun p; di grana
+             clean: Texture con pochi microcristalli e granella.
+  freq=   4  raw : Non granulosa, si scioglie
+             clean: Texture non granulosa e solubile.
+  freq=   4  raw : cristalli grana
+             clean: Texture con cristalli di grana.
+  freq=   4  raw : bocca non pulita
+             clean: Texture che lascia bocca non pulita.
+  freq=   4  raw : pochi granuli, consistenza e pasta media
+             clean: Texture con pochi granuli, consistenza e pasta media.
+  freq=   4  raw : molto tenero cristalli
+             clean: Texture molto tenera con cristalli.
+  freq=   4  raw : morbida e cedevole, microstruttura sottile, solubile,
+             clean: Texture morbida e cedevole, con microstruttura sottile e solubile.
+  freq=   4  raw : troppo umido;pochi cristialli...
+             clean: Texture troppo umida e pochi cristalli.
+  freq=   4  raw : Strana consistenza
+             clean: NON_DESCRITTO
+  freq=   4  raw : Troppo friabile
+             clean: Texture molto friabile.
+  freq=   4  raw : tanti cristalli, friabile finemente senza essere asciutto. lascia bocca farinosa ma pulita
+             clean: Texture friabile con cristalli abbondanti, lascia bocca farinosa e pulita.
+  freq=   4  raw : buona friabilità', poco solubile
+             clean: Texture friabile e poco solubile.
+  freq=   4  raw : abbastanza duro e granuloso no cristalli poco sol lascia residuo farinoso
+             clean: Texture abbastanza dura e granulosa, senza cristalli, poco solubile e che lascia residuo farinoso.
+  freq=   4  raw : molto cedevole, molti microcristalli, solubile, leggera sabbiosit
+             clean: Texture molto cedevole, con molti microcristalli, solubile e leggermente sabbiosità.
+  freq=   4  raw : ABBASTANZA BUONA
+             clean: NON_DESCRITTO
+  freq=   4  raw : abbastanza duro, umido, grana fine, solubile
+             clean: Texture abbastanza dura, umida, con grana fine e solubile.
+  freq=   4  raw : molto sabbioso granuloso con pochi cristalli molto fini
+             clean: Texture molto sabbioso granuloso con pochi cristalli molto fini.
+  freq=   4  raw : mobido e cedevole, senza struttura, molto fine
+             clean: Texture morbido cedevole, senza struttura, molto fine.
+  freq=   4  raw : troppi granuli
+             clean: Texture con granuli abbondanti.
+  freq=   4  raw : morbido, sembra giovane. Impasta. non pronto
+             clean: Texture morbida che impasta la bocca.
+  freq=   4  raw : Tende al duro
+             clean: Texture tendente al duro.
+  freq=   4  raw : asciutto poco sol lascia residuo
+             clean: Texture asciutta, poco solubile, lascia residuo.
+  freq=   4  raw : Buona friabilità. cristalli presenti, anche troppo grossi. microstruttura finissima, finale deliquescente e farinoso
+             clean: Texture friabile con cristalli grossi, microstruttura fine e finale deliquescente e farinoso.
+  freq=   4  raw : Pessima
+             clean: NON_DESCRITTO
+  freq=   4  raw : moderatamente duro, grana fine, solubile, molti cristalli , asciutto
+             clean: Texture moderatamente dura, grana fine, solubile, con molti cristalli e asciutta.
+  freq=   4  raw : legata, poco granulosa, quasi adesiva, buona presenza di microcristalli
+             clean: Texture legata, poco granulosa, quasi adesiva, con buona presenza di microcristalli.
+  freq=   4  raw : molto morbido, microstruttura assente, cristalli assenti, sembra quasi asiago
+             clean: Texture molto morbida, priva di microstruttura e cristalli.
+  freq=   4  raw : morbido morbido... troppo
+             clean: Texture troppo morbida.
+  freq=   4  raw : inizialmente sabbioso fine in fine pero la bocca rimane abbastanza pulita
+             clean: Texture inizialmente sabbioso fine, lascia bocca abbastanza pulita.
+  freq=   4  raw : poco friabile e solubile
+             clean: Texture poco friabile e solubile.
+  freq=   4  raw : discreta friabilità', assenza di cristalli
+             clean: Texture discreta friabilità, assenza di cristalli.
+  freq=   4  raw : poca struttura granulare mancanza di cristalli
+             clean: Texture con poca struttura granulare e mancanza di cristalli.
+  freq=   4  raw : morbido, non prefetta la friabilità' . cristalli anche grossi. liquescente nel finale di bocca
+             clean: Texture morbida con friabilità non perfetta, cristalli grossi e liquescente nel finale di bocca.
+  freq=   4  raw : tendenzialmente umida e cedevole, poco granulosa
+             clean: Texture tendenzialmente umida e cedevole, poco granulosa.
+  freq=   4  raw : duro, compatto ,poco friabile , grana finissima, asciutto,
+             clean: Texture dura, compatta, poco friabile, con grana finissima e asciutta.
+  freq=   4  raw : cedevole, ancora umida, non molto solubile
+             clean: Texture cedevole, ancora umida e poco solubile.
+  freq=   4  raw : molto morbido
+             clean: Texture molto morbida.
+  freq=   4  raw : umida, cedevole, morbida, poco granulosa, poco solubile
+             clean: Texture umida, cedevole, morbida, poco granulosa e poco solubile.
+  freq=   4  raw : abbastanza morbida, sottile, leggermente asciutta, solubile
+             clean: Texture abbastanza morbida, sottile, leggermente asciutta e solubile.
+  freq=   4  raw : inconsistente e senza cristalli
+             clean: Texture inconsistente, senza cristalli.
+  freq=   4  raw : ancora umida, legata, non molto granulosa e poco solubile
+             clean: Texture ancora umida, legata, poco granulosa e poco solubile.
+  freq=   4  raw : immaturo. non friabile ma non particolarmente umido. microstruttura grossolana
+             clean: Texture poco friabile, non particolarmente umida e con microstruttura grossolana.
+  freq=   4  raw : nessun cristallo di tirosina;solubilità bassa;friabilità bassa
+             clean: Texture senza cristalli di tirosina, poco solubile e poco friabile.
+  freq=   4  raw : morbido e umido, ma gia' friabile. Cristalli anche grossi
+             clean: Texture morbida e umida, già friabile, con cristalli anche grossi.
+  freq=   4  raw : morbido asciutto con cristalli ma poco sol
+             clean: Texture morbida, asciutta, con cristalli e poco solubile.
+  freq=   4  raw : morbido. friabilità limitata. tende a sciogliersi in bocca . qualche cristallo, pochi
+             clean: Texture morbida, friabilità limitata, tende a sciogliersi in bocca con pochi cristalli.
+  freq=   4  raw : Morbido, umido. comunque friabile
+             clean: Texture morbida, umida e friabile.
+  freq=   4  raw : friabile. microstruttura non fine. cristalli presenti, numerosi, di diverse dimensioni. prima della deglutizione tende ad asciugare le fauci
+             clean: Texture friabile con microstruttura non fine, cristalli numerosi di varie dimensioni, tende ad asciugare le fauci prima della deglutizione.
+  freq=   4  raw : poca granulosità in bocca,
+             clean: Texture poco granulosa in bocca.
+  freq=   4  raw : morbido asciutto poco cristalli
+             clean: Texture morbida, asciutta e con pochi cristalli.
+  freq=   4  raw : morbido poco granuloso poco sol
+             clean: Texture morbida, poco granulosa e poco solubile.
+  freq=   4  raw : poca granulosità
+             clean: Texture poco granulosa.
+  freq=   4  raw : adesivo, poco granuloso
+             clean: Texture adesiva e poco granulosa.
+  freq=   4  raw : asciutto e granuloso cristalli evidenti solub
+             clean: Texture asciutta, granulosa con cristalli evidenti e solubile.
+  freq=   4  raw : morbido, al morso lascia una struttura grossolana per poca friabilità
+             clean: Texture morbida che al morso lascia una struttura grossolana per poca friabilità.
+  freq=   4  raw : No granulosità
+             clean: Texture non granulosa.
+  freq=   4  raw : friabilità scarsa, solubilità alta, cristalli tirosina scarsi
+             clean: Texture poco friabile, molto solubile, con scarsi cristalli di tirosina.
+  freq=   4  raw : mollo;pastoso
+             clean: Texture molle e pastosa.
+  freq=   4  raw : non asciutto. estremamente friabile. struttura molto fine. giusta adesivita'. cristalli fini
+             clean: Texture non asciutta, estremamente friabile, con struttura molto fine e cristalli fini.
+  freq=   4  raw : un poco umida, mediamente granulosa, mediamente solubile, pochi cristalli
+             clean: Texture leggermente umida, mediamente granulosa e solubile, con pochi cristalli.
+  freq=   4  raw : presenza di numerosi cristalli di tirosina
+             clean: Texture con numerosi cristalli di tirosina.
+  freq=   4  raw : Si scioglie con difficolta e lascia frammenti medi
+             clean: Texture che si scioglie con difficoltà e lascia frammenti medi.
+  freq=   4  raw : Non friabile, compatto
+             clean: Texture poco friabile e compatta.
+  freq=   4  raw : come atteso
+             clean: NON_DESCRITTO
+  freq=   4  raw : molto asciutto, duro
+             clean: Texture molto asciutta e dura.
+  freq=   4  raw : duro, grana ben definita, grossolana,
+             clean: Texture dura, grana ben definita e grossolana.
+  freq=   4  raw : pastoso, privo ddi grana, compatto
+             clean: Texture pastosa, priva di grana e compatta.
+  freq=   2  raw : pastoso, manca un poco di granulosita,
+             clean: Texture pastosa, con scarsa granulosità.
+  freq=   2  raw : quasi elastica, poco granulosa ma solubile
+             clean: Texture quasi elastica, poco granulosa ma solubile.
+  freq=   2  raw : poca struttura, si scioglie bene in bocca, qualche granulo
+             clean: Texture con poca struttura, si scioglie bene in bocca e qualche granulo.
+  freq=   2  raw : friabile, un pochetto asciutto, cristalli molti, anche grossi
+             clean: Texture friabile, leggermente asciutto, con cristalli abbondanti e grossi.
+  freq=   2  raw : asciutto, asciuga la bocca
+             clean: Texture asciutta, che asciuga la bocca.
+  freq=   2  raw : pastoso e sabbioso alla fine, senza grana
+             clean: Texture pastosa e sabbiosa in finale, senza grana.
+  freq=   2  raw : cedevole, poco granulosa, quasi sabbiosa
+             clean: Texture cedevole, poco granulosa e leggermente sabbioso.
+  freq=   2  raw : friabile, poco struttura e qualche cristallo
+             clean: Texture friabile, con poca struttura e qualche cristallo.
+  freq=   2  raw : pastoso&morbido
+             clean: Texture pastosa e morbida.
+  freq=   2  raw : microstruttura grossolana.. elastico, poco franabile
+             clean: Texture con microstruttura grossolana, elastica e poco friabile.
+  freq=   2  raw : senza granumelotria e cristalli
+             clean: Texture senza granuli e cristalli.
+  freq=   2  raw : bella presenza di granuli, consistenza media, unidita e durezza OK
+             clean: Texture con bella presenza di granuli, consistenza media, umidità e durezza adeguate.
+  freq=   2  raw : morbido, un pocchetto pastoso, pochi microcristalli
+             clean: Texture morbido pastoso, pochi microcristalli.
+  freq=   2  raw : percepibile presenza granuli di tirosina e grana della pasta
+             clean: Texture con percepibile presenza di granuli di tirosina e grana della pasta.
+  freq=   2  raw : un poco di sabbiosita finale, ma
+             clean: Texture leggermente sabbiosa in finale.
+  freq=   2  raw : umida, ancora elastica, poco granulosa, poco solubile
+             clean: Texture umida, ancora elastica, poco granulosa e poco solubile.
+  freq=   2  raw : asciutto, friabile,
+             clean: Texture asciutta e friabile.
+  freq=   2  raw : buona granulometria struttura micro equilibrata con i cristalli
+             clean: Texture granulosa con struttura microcristallina equilibrata.
+  freq=   2  raw : Poca microstruttura. Morbido, ciononostante crea secchezza delle fauci
+             clean: Texture morbida con poca microstruttura che crea secchezza delle fauci.
+  freq=   2  raw : morbido pastoso con cristalli lascia sensazione di sabbia in bocca
+             clean: Texture morbido pastoso con cristalli, lascia sensazione sabbioso in bocca.
+  freq=   2  raw : asciutto, friabile, grana fine
+             clean: Texture asciutta, friabile, con grana fine.
+  freq=   2  raw : poco solubile, pastoso
+             clean: Texture poco solubile e pastosa.
+  freq=   2  raw : troppo pastoso, asciutto e farinoso
+             clean: Texture troppo pastosa, asciutta e farinosa.
+  freq=   2  raw : morbido asciutto cristalli ok impasto
+             clean: Texture morbida, asciutta, con cristalli e impasto adeguati.
+  freq=   2  raw : cristalli di tirosina percepibili come la grana
+             clean: Texture con cristalli di tirosina percepibili come la grana.
+  freq=   2  raw : buona pastosita e nel contempo durezza media e non asciutto
+             clean: Texture pastosa con durezza media e non asciutta.
+  freq=   2  raw : poca durezza, ma discreta pastosita e farinosita, umidità a posto
+             clean: Texture poco dura, con discreta pastosità e farinosità, umidità adeguata.
+  freq=   2  raw : pochissima tirosina, a
+             clean: NON_DESCRITTO
+  freq=   2  raw : cristalli tirosina percepibili e grana persistente
+             clean: Texture con cristalli di tirosina percepibili e grana persistente.
+  freq=   2  raw : bella presenza di grabuli, pastosita e umidità OK
+             clean: Texture con bella presenza di granuli, morbido pastoso e umidità giusta.
+  freq=   2  raw : piuttosto umida, poco granulosa ma solubile
+             clean: Texture piuttosto umida, poco granulosa ma solubile.
+  freq=   2  raw : asciutto pastoso poca grana lascia sabbia in bocca
+             clean: Texture asciutta, pastosa, con poca grana e che lascia sabbia in bocca.
+  freq=   2  raw : asciutta e pastosa
+             clean: Texture asciutta e pastosa.
+  freq=   2  raw : umido
+             clean: Texture umida.
+  freq=   2  raw : morbido. Friabile. Cristalli presenti
+             clean: Texture morbida, friabile e con cristalli presenti.
+  freq=   2  raw : asciutto cristalli sol
+             clean: Texture asciutta, con cristalli solubili.
+  freq=   2  raw : granulosa, giustamente umida, solubile
+             clean: Texture granulosa, giustamente umida e solubile.
+  freq=   2  raw : asciutto pastoso sol
+             clean: Texture asciutta, pastosa e solubile.
+  freq=   2  raw : morbido con cristalli aciutto all-inizio ma poi solubile
+             clean: Texture morbida con cristalli, leggermente asciutta all'inizio ma poi solubile.
+  freq=   2  raw : poca struttura, qualche granulo, si scioglie bene in bocca,
+             clean: Texture con poca struttura, qualche granulo, e che si scioglie bene in bocca.
+  freq=   2  raw : un poco di struttura, mancanza dicristalli, di scioglie bene
+             clean: Texture con poca struttura, assenza di cristalli e buona solubilità.
+  freq=   2  raw : evidentemente asciutta, ma granulosa, solubile
+             clean: Texture evidentemente asciutta, granulosa e solubile.

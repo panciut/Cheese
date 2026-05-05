@@ -1,0 +1,2363 @@
+## Profumo
+unique captions: 1178
+model: claude-haiku-4-5
+batch_id: msgbatch_01Bv99Z88dFdZ6PJ6FdjRxoA
+
+(sorted by descending broadcast frequency)
+
+  freq=  72  raw : Leggero
+             clean: Profumo leggero.
+  freq=  68  raw : panna
+             clean: Profumo di panna.
+  freq=  44  raw : brodo
+             clean: Profumo di brodo.
+  freq=  40  raw : Poco intenso
+             clean: Profumo poco intenso.
+  freq=  34  raw : Crauti
+             clean: Profumo di crauti.
+  freq=  32  raw : Buona intensità
+             clean: Profumo di buona intensità.
+  freq=  32  raw : vegetale balsamico
+             clean: Profumo vegetale balsamico.
+  freq=  28  raw : Intenso
+             clean: Profumo intenso.
+  freq=  28  raw : brodo vegetale
+             clean: Profumo di brodo vegetale.
+  freq=  26  raw : Moderata intensità
+             clean: Profumo di moderata intensità.
+  freq=  26  raw : latte cotto
+             clean: Profumo di latte cotto.
+  freq=  24  raw : Alcool
+             clean: Profumo di alcol.
+  freq=  24  raw : Intensità moderata
+             clean: Profumo di intensità moderata.
+  freq=  24  raw : cotto
+             clean: Profumo cotto.
+  freq=  24  raw : Liquirizia
+             clean: Note olfattive di liquirizia.
+  freq=  20  raw : latte
+             clean: Profumo di latte.
+  freq=  20  raw : vegetale
+             clean: Profumo vegetale.
+  freq=  20  raw : NOcciola
+             clean: Profumo di nocciola.
+  freq=  20  raw : ossidato
+             clean: Profumo ossidato.
+  freq=  20  raw : burro fuso
+             clean: Profumo di burro fuso.
+  freq=  20  raw : fruttato
+             clean: Profumo fruttato.
+  freq=  20  raw : crosta
+             clean: Profumo di crosta.
+  freq=  20  raw : burro
+             clean: Profumo di burro.
+  freq=  16  raw : animale
+             clean: Profumo animale.
+  freq=  16  raw : leggermente propionico
+             clean: Profumo leggermente propionico.
+  freq=  16  raw : frutta fermentata
+             clean: Profumo di frutta fermentata.
+  freq=  16  raw : formaggio cotto
+             clean: Profumo di formaggio cotto.
+  freq=  16  raw : fermentato
+             clean: Profumo fermentato.
+  freq=  16  raw : Polvere
+             clean: Profumo di polvere.
+  freq=  16  raw : fruttato mela
+             clean: Profumo fruttato di mela.
+  freq=  14  raw : Confetteria
+             clean: Profumo di confetteria.
+  freq=  14  raw : Lettiera note animali
+             clean: Profumo di lettiera con note animali.
+  freq=  14  raw : Burro cotto
+             clean: Profumo di burro cotto.
+  freq=  14  raw : Difettato? Odori strani...
+             clean: NON_DESCRITTO
+  freq=  14  raw : Nota da nostrano
+             clean: Profumo di nostrano.
+  freq=  12  raw : Erbe Balsamiche
+             clean: Profumo di erbe balsamiche.
+  freq=  12  raw : Molto elegante
+             clean: NON_DESCRITTO
+  freq=  12  raw : burro, burro fuso
+             clean: Profumo di burro fuso.
+  freq=  12  raw : chiuso
+             clean: NON_DESCRITTO
+  freq=  12  raw : leggermente cotto
+             clean: Profumo leggermente cotto.
+  freq=  12  raw : debole
+             clean: Profumo debole.
+  freq=  12  raw : acido
+             clean: Profumo acido.
+  freq=  12  raw : leggermente crosta
+             clean: Profumo leggermente di crosta.
+  freq=  12  raw : panna e burro
+             clean: Profumo di panna e burro.
+  freq=  12  raw : Poco intenso e poco complesso
+             clean: Profumo poco intenso e poco complesso.
+  freq=  12  raw : leggero sentore di cotto
+             clean: Profumo leggero di cotto.
+  freq=  12  raw : Kiwi...
+             clean: Note olfattive di kiwi.
+  freq=  12  raw : latte acido
+             clean: Profumo di latte acido.
+  freq=  12  raw : Cacao
+             clean: Profumo di cacao.
+  freq=  10  raw : Bella intensità
+             clean: Profumo di buona intensità.
+  freq=  10  raw : Anche alcol
+             clean: Note olfattive di alcol.
+  freq=  10  raw : All'inizio stalla...ma lo cala
+             clean: Profumo di stalla all'apertura, che tende a calare.
+  freq=  10  raw : Sedano. Troppo vegetale cotto, abbasso voto. Altrimenti molto intenso
+             clean: Profumo di sedano e vegetale cotto, molto intenso.
+  freq=  10  raw : Mela e pesca forti!
+             clean: Profumo intenso di mela e pesca.
+  freq=  10  raw : fruttato ananas
+             clean: Profumo fruttato di ananas.
+  freq=  10  raw : Profumo anomalo alla prima occasione fa diminuire i voto
+             clean: NON_DESCRITTO
+  freq=  10  raw : Molto complesso!
+             clean: Profumo molto complesso.
+  freq=  10  raw : Kiwi e mela
+             clean: Profumo di kiwi e mela.
+  freq=  10  raw : Molto poco intenso
+             clean: Profumo molto poco intenso.
+  freq=   8  raw : Neutro
+             clean: Profumo neutro.
+  freq=   8  raw : crosta e brodo
+             clean: Profumo di crosta e brodo.
+  freq=   8  raw : Marcio
+             clean: Profumo marcio.
+  freq=   8  raw : leggermente insilatopungente;
+             clean: Profumo leggermente insilato e pungente.
+  freq=   8  raw : caramella mou, latte cotto
+             clean: Profumo di caramella mou e latte cotto.
+  freq=   8  raw : poco intenso ma positivo
+             clean: Profumo poco intenso ma positivo.
+  freq=   8  raw : insilato
+             clean: Profumo di insilato.
+  freq=   8  raw : leggermente difettoso
+             clean: NON_DESCRITTO
+  freq=   8  raw : Molto interessante
+             clean: NON_DESCRITTO
+  freq=   8  raw : leggerissimo
+             clean: Profumo leggerissimo.
+  freq=   8  raw : marcio, putrido, fermentato e marcito
+             clean: Profumo fermentato, marcio e putrido.
+  freq=   8  raw : Gomma bruciata
+             clean: Profumo di gomma bruciata.
+  freq=   8  raw : Vaniglia
+             clean: Profumo di vaniglia.
+  freq=   8  raw : cavolfiore
+             clean: Profumo di cavolfiore.
+  freq=   8  raw : delicato
+             clean: Profumo delicato.
+  freq=   8  raw : latte cotto;panna;
+             clean: Profumo di latte cotto e panna.
+  freq=   8  raw : nota di sedano, brodo vegetale, latte caramellato
+             clean: Profumo di sedano, brodo vegetale e latte caramellato.
+  freq=   8  raw : atipico, frutta fermentata, crosta di formaggio
+             clean: Profumo atipico di frutta fermentata e crosta di formaggio.
+  freq=   8  raw : Nota bruciata
+             clean: Profumo con nota bruciata.
+  freq=   8  raw : poco intenso, nota lattica di burro fuso evidente, fieno
+             clean: Profumo poco intenso di burro fuso con nota lattica e fieno.
+  freq=   8  raw : vegetale fieno?
+             clean: Note olfattive di vegetale e fieno.
+  freq=   8  raw : Solo all'apertura poi no l'ho sento
+             clean: NON_DESCRITTO
+  freq=   8  raw : erba
+             clean: Profumo di erba.
+  freq=   8  raw : burro sciolto
+             clean: Profumo di burro sciolto.
+  freq=   8  raw : Funghi freschi
+             clean: Profumo di funghi freschi.
+  freq=   8  raw : Leggermente bruciato
+             clean: Profumo leggermente bruciato.
+  freq=   8  raw : Miele,intenso
+             clean: Profumo intenso di miele.
+  freq=   8  raw : latte e brodo vegetale
+             clean: Profumo di latte e brodo vegetale.
+  freq=   8  raw : leggero ma non difetti
+             clean: Profumo leggero senza difetti.
+  freq=   8  raw : caratteristico ma con lieve nota pungente
+             clean: Profumo caratteristico con lieve nota pungente.
+  freq=   8  raw : non molto intenso ma abbastanza caratteristico, poco complesso, note di lattico cotto prevalenti
+             clean: Profumo poco intenso ma abbastanza caratteristico, con note di lattico cotto prevalenti e poco complesso.
+  freq=   8  raw : note vegetali lesse, cipolla passata, latte cotto
+             clean: Profumo di note vegetali lesse, cipolla passata e latte cotto.
+  freq=   8  raw : leggero fermentato
+             clean: Profumo leggermente fermentato.
+  freq=   8  raw : leggero poco percettibile
+             clean: Profumo leggero e poco percettibile.
+  freq=   8  raw : Y0gurth
+             clean: NON_DESCRITTO
+  freq=   8  raw : odore leggero di stantio
+             clean: Profumo leggermente stantio.
+  freq=   8  raw : Su uno dei pezzi, note di ossidato
+             clean: Profumo di ossidato su uno dei pezzi.
+  freq=   8  raw : Debolissimo
+             clean: Profumo molto debole.
+  freq=   8  raw : Media intensità
+             clean: Profumo di intensità moderata.
+  freq=   8  raw : impercettibile
+             clean: Profumo impercettibile.
+  freq=   8  raw : yogurt,frutta tropicale
+             clean: Profumo di yogurt e frutta tropicale.
+  freq=   8  raw : bruciato
+             clean: Profumo di bruciato.
+  freq=   8  raw : pasta cotta
+             clean: Profumo di pasta cotta.
+  freq=   8  raw : leggermente pungente
+             clean: Profumo leggermente pungente.
+  freq=   8  raw : sentore di fermentato
+             clean: Profumo con sentore di fermentato.
+  freq=   8  raw : intenso da grana...
+             clean: Profumo intenso di grana.
+  freq=   8  raw : terra, animale, putrido,
+             clean: Profumo di terra e animale, leggermente putrido.
+  freq=   8  raw : Paglia
+             clean: Profumo di paglia.
+  freq=   8  raw : Poco complesso
+             clean: Profumo poco complesso.
+  freq=   8  raw : Intensità bassa
+             clean: Profumo poco intenso.
+  freq=   8  raw : poco intenso, caramella mou, note di formaggio nostrano
+             clean: Profumo poco intenso con note di caramello e formaggio nostrano.
+  freq=   8  raw : Alcol
+             clean: Profumo di alcol.
+  freq=   8  raw : Moderato
+             clean: Profumo di moderata intensità.
+  freq=   8  raw : panna;burro
+             clean: Profumo di panna e burro.
+  freq=   8  raw : Floreale, panna
+             clean: Profumo floreale con note di panna.
+  freq=   8  raw : Peccato per bruciato
+             clean: Profumo leggermente bruciato.
+  freq=   8  raw : oltre alla panna, anche del vegetale lesso
+             clean: Profumo di panna con note di vegetale lesso.
+  freq=   8  raw : Non molto intenso
+             clean: Profumo poco intenso.
+  freq=   8  raw : Pecorino
+             clean: Profumo di pecorino.
+  freq=   8  raw : leggero panna
+             clean: Profumo leggero di panna.
+  freq=   8  raw : burro fuso, burro,
+             clean: Profumo di burro fuso.
+  freq=   8  raw : latte cotto intensità leggera;
+             clean: Profumo di latte cotto con intensità leggera.
+  freq=   8  raw : positivo intenso
+             clean: Profumo intenso.
+  freq=   8  raw : Caramello
+             clean: Profumo di caramello.
+  freq=   8  raw : Leggero. cotto.
+             clean: Profumo leggero di cotto.
+  freq=   8  raw : Troppo delicato
+             clean: Profumo delicato.
+  freq=   8  raw : delicato e poco percettibile
+             clean: Profumo delicato e poco percettibile.
+  freq=   6  raw : salato
+             clean: NON_DESCRITTO
+  freq=   4  raw : no difetti ma non tipico
+             clean: NON_DESCRITTO
+  freq=   4  raw : Sentore di legno
+             clean: Profumo con sentore di legno.
+  freq=   4  raw : emmental
+             clean: Profumo di emmental.
+  freq=   4  raw : Molto intenso ma in negativo....mi ricorda una essenza come il fieno greco...comunque pungente
+             clean: Profumo molto intenso, pungente, con note di fieno greco.
+  freq=   4  raw : Odore vegetale strano …,buccia anguria?
+             clean: Note olfattive vegetali di buccia di anguria.
+  freq=   4  raw : poco intenso ma anche note vegetali , brodo vegetale
+             clean: Profumo poco intenso con note vegetali e brodo vegetale.
+  freq=   4  raw : in negativo spezzando i cubetti profumo brodo vegetale e di animale/letame intensità media
+             clean: Profumo di brodo vegetale e animale, intensità moderata.
+  freq=   4  raw : ossidata e bruciata
+             clean: Profumo ossidata e bruciato.
+  freq=   4  raw : intensità buona, una nota di cuoio su base di burro e panna
+             clean: Profumo di burro e panna con nota di cuoio, buona intensità.
+  freq=   4  raw : Media intensità. Sentore anomalo (nostrano)
+             clean: Profumo di media intensità con sentore anomalo nostrano.
+  freq=   4  raw : burro fuso, brodo, emmental leggeri
+             clean: Profumo di burro fuso e brodo, note leggere di emmental.
+  freq=   4  raw : bouquet moderato con note vegetali e di brodo vegetale, latte, crosta
+             clean: Profumo moderato con note vegetali, di brodo vegetale e latte, con sentore di crosta.
+  freq=   4  raw : moderata l'intensità. sentori cotti. tostato, quasi fumo
+             clean: Profumo di moderata intensità con sentori cotti, tostato e quasi fumo.
+  freq=   4  raw : noce moscata, frutta secca
+             clean: Profumo di noce moscata e frutta secca.
+  freq=   4  raw : Intensità bassissima
+             clean: Profumo molto debole.
+  freq=   4  raw : leggero formaggio cotto e crosta
+             clean: Profumo leggero di formaggio cotto e crosta.
+  freq=   4  raw : nota ossidata / fermentata, poco complesso
+             clean: Profumo con nota ossidata e fermentata, poco complesso.
+  freq=   4  raw : punte di fruttato ed erbaceo
+             clean: Profumo con punte di fruttato ed erbaceo.
+  freq=   4  raw : cotto leggero
+             clean: Profumo leggero di cotto.
+  freq=   4  raw : leggero e povero
+             clean: Profumo leggero e poco complesso.
+  freq=   4  raw : All'apertura odore pungente, fermentato, poi crosta di formaggio, cotti intensi, fino al caffè
+             clean: Profumo all'apertura pungente e fermentato, seguito da note di crosta di formaggio, cotti intensi fino a caffè.
+  freq=   4  raw : latte/grana e un poco fruttato.. ma non intensi i profumi
+             clean: Profumo di latte e grana con poco fruttato, non intensi.
+  freq=   4  raw : alla prima olfazione sentore di formaggio "altro". Fermentazione non tipica trentingrana. poi si perde e resta un'intensità bassa
+             clean: Profumo di formaggio con sentore di fermentazione atipica, poi poco intenso.
+  freq=   4  raw : Crosta di grana all'apertura, poi anche leggero erbaceo fresco
+             clean: Profumo di crosta di grana all'apertura, seguito da leggero erbaceo fresco.
+  freq=   4  raw : nota pungente di latte e panna fermentata, panna fresca, burro fresco
+             clean: Profumo pungente di latte e panna fermentata, con panna fresca e burro fresco.
+  freq=   4  raw : oltre altostato e al maturo, presente qualche lieve nota fresca
+             clean: Profumo maturo con lieve nota fresca.
+  freq=   4  raw : Noce
+             clean: Profumo di noce.
+  freq=   4  raw : fruttato e tostato leggereo lattio fresco
+             clean: Profumo fruttato e tostato, leggermente lattico fresco.
+  freq=   4  raw : tra l'altro un poco' di cuoio-animale
+             clean: Profumo con poco di cuoio e note animali.
+  freq=   4  raw : burro fuso, leggero sentore di affumicato
+             clean: Profumo di burro fuso con leggero sentore di affumicato.
+  freq=   4  raw : note fermentative, insilato e kiwi stramaturo, non piacevole
+             clean: Profumo di note fermentative, insilato e kiwi maturo.
+  freq=   4  raw : marcio, putrido,
+             clean: NON_DESCRITTO
+  freq=   4  raw : molto intenso e positivo
+             clean: Profumo molto intenso e positivo.
+  freq=   4  raw : assoluntamente non caratteristico, a tratti putrido, frutta fermentata
+             clean: Profumo non caratteristico, a tratti putrido, con note di frutta fermentata.
+  freq=   4  raw : Solo una piccola nota di bruciato
+             clean: Profumo con una lieve nota di bruciato.
+  freq=   4  raw : burro cotto, crosta, latte cotto o uht
+             clean: Profumo di burro cotto, crosta e latte cotto.
+  freq=   4  raw : Sento poco. Non so se perché raffreddato o perché povero il fromage
+             clean: NON_DESCRITTO
+  freq=   4  raw : burro fresco e formaggio cotto...
+             clean: Profumo di burro fresco e formaggio cotto.
+  freq=   4  raw : Un campione con odore positivo, 3 con odore negativo
+             clean: NON_DESCRITTO
+  freq=   4  raw : Leggero, pungente all'inizio da butirrico?
+             clean: Profumo leggero e pungente all'inizio con note di acido butirrico.
+  freq=   4  raw : Non so se ho scritto che son raffreddato
+             clean: NON_DESCRITTO
+  freq=   4  raw : Odore stantio e cipolla solo all’apertura
+             clean: Profumo stantio con note di cipolla all'apertura.
+  freq=   4  raw : tostatura eccessiva, gomma bruciata
+             clean: Profumo di tostatura eccessiva e gomma bruciata.
+  freq=   4  raw : Ananas e frutta esotica
+             clean: Profumo di ananas e frutta esotica.
+  freq=   4  raw : intenso no difetti
+             clean: Profumo non intenso, senza difetti.
+  freq=   4  raw : frutta tropicale
+             clean: Profumo di frutta tropicale.
+  freq=   4  raw : leggera verdura cotta
+             clean: Profumo di verdura cotta leggero.
+  freq=   4  raw : stracci sporchi all'inizio poi vegetale balsamico + cotto
+             clean: Profumo inizialmente di stracci sporchi, poi vegetale balsamico e cotto.
+  freq=   4  raw : Al primo impatto non buono
+             clean: NON_DESCRITTO
+  freq=   4  raw : ossidato, stantio
+             clean: Profumo ossidato e stantio.
+  freq=   4  raw : stantio, cavolfiore
+             clean: Profumo di cavolfiore con sentore stantio.
+  freq=   4  raw : pane. Tostato. Latte cottto. un poco' di panna. Intensità bassa
+             clean: Profumo di pane tostato, latte cotto e panna, con intensità bassa.
+  freq=   4  raw : Crem Caramel
+             clean: Profumo di crema e caramello.
+  freq=   4  raw : debole e delicato. equilibrato
+             clean: Profumo debole e delicato, equilibrato.
+  freq=   4  raw : tostato forte, crosta, formaggio cotto
+             clean: Profumo di tostato forte, con note di crosta e formaggio cotto.
+  freq=   4  raw : Plastica
+             clean: Profumo di plastica.
+  freq=   4  raw : Non sa di grana
+             clean: NON_DESCRITTO
+  freq=   4  raw : positivo ma poco intenso
+             clean: Profumo positivo ma poco intenso.
+  freq=   4  raw : All'apertura ottimi lattici freschi, poi anche cotti
+             clean: Profumo di lattici freschi all'apertura, poi anche cotti.
+  freq=   4  raw : odore di stantio
+             clean: Profumo stantio.
+  freq=   4  raw : brodo, formagio fuso e burro fusu
+             clean: Profumo di brodo, formaggio fuso e burro fuso.
+  freq=   4  raw : latte cotto;fieno;
+             clean: Profumo di latte cotto e fieno.
+  freq=   4  raw : intenso, caramello, latte cotto, lieve nota bruciata
+             clean: Profumo intenso di caramello e latte cotto con lieve nota bruciata.
+  freq=   4  raw : Tostato mburro fuso latte cotto, vegetale (fieno) e fruttato
+             clean: Profumo di tostato, burro fuso, latte cotto, vegetale con note di fieno e fruttato.
+  freq=   4  raw : sporco non positivo
+             clean: Profumo non positivo.
+  freq=   4  raw : latte e panna forte;fieno forte
+             clean: Profumo forte di latte e panna con fieno.
+  freq=   4  raw : difettoso, frutta fermentata, nota chimica, stantio
+             clean: Profumo di frutta fermentata con nota chimica e stantio.
+  freq=   4  raw : verdura lessa: cavolfiore MODERATO, una porzione su 4 animale: letame MODERATO
+             clean: Profumo di verdura lessa con note di cavolfiore e sentore animale di letame a intensità moderata.
+  freq=   4  raw : grana tipico intenso...
+             clean: Profumo intenso di grana.
+  freq=   4  raw : All'apertura solvente liquame
+             clean: Profumo di solvente e liquame all'apertura.
+  freq=   4  raw : Complesso
+             clean: Profumo complesso.
+  freq=   4  raw : Lattici cotti intensi, all'apertura anche un poco' di fermentato vegetale
+             clean: Profumo di lattici cotti intensi, all'apertura con sentore di fermentato vegetale.
+  freq=   4  raw : frutta, burro un poco- ossidato
+             clean: Profumo di frutta e burro con una leggera nota ossidato.
+  freq=   4  raw : nota di crosta di formaggio che ricordano un poco un nostrano, frutta fermentata
+             clean: Profumo di crosta di formaggio con ricordo di nostrano e nota di frutta fermentata.
+  freq=   4  raw : Solo all’apertura stagnante
+             clean: Profumo stagnante all'apertura.
+  freq=   4  raw : All'apertura nota di bruciato, poi lattici cotti e lieve fermentato fugace
+             clean: Profumo all'apertura di bruciato, seguito da note lattiche cotte e lieve fermentato fugace.
+  freq=   4  raw : latte dolce intenso
+             clean: Profumo di latte dolce intenso.
+  freq=   4  raw : non molto intenso. note vegetali e minerali. poco complesso
+             clean: Profumo poco intenso con note vegetali e minerali, poco complesso.
+  freq=   4  raw : Alito di caffè
+             clean: Profumo di caffè.
+  freq=   4  raw : formaggio fritto;bordo vegetale;latte crudo
+             clean: Profumo di formaggio fritto, nota vegetale al bordo e latte crudo.
+  freq=   4  raw : molto pannoso, piacevole
+             clean: Profumo molto pannosetto e piacevole.
+  freq=   4  raw : frutta matura, pozzo di scarico, topo morto
+             clean: Profumo di frutta matura con note di pozzo di scarico e sentore di topo morto.
+  freq=   4  raw : intenso ma difettoso, pozzo, marcio, putrido
+             clean: Profumo intenso con note di pozzo, marcio e putrido.
+  freq=   4  raw : grana, nocciola, burro
+             clean: Profumo di grana, nocciola e burro.
+  freq=   4  raw : note vegetali negative, fermentate
+             clean: Profumo di note vegetali negative e fermentate.
+  freq=   4  raw : Alito al Caffè ...
+             clean: Profumo di caffè.
+  freq=   4  raw : Intensità messa negativa perché non piacevole, puzza,,,,
+             clean: NON_DESCRITTO
+  freq=   4  raw : burro fuso, burro cotto,brodo, mediamente intenso, equilibrato
+             clean: Profumo di burro fuso e burro cotto con brodo, mediamente intenso ed equilibrato.
+  freq=   4  raw : latte cotto o bruciato
+             clean: Profumo di latte cotto o bruciato.
+  freq=   4  raw : prevalente mente latte acido, panna acida e brodo
+             clean: Profumo prevalentemente di latte acido, panna acida e brodo.
+  freq=   4  raw : Molta panna
+             clean: Profumo di panna intensa.
+  freq=   4  raw : difettoso
+             clean: NON_DESCRITTO
+  freq=   4  raw : lattici cotti, tostati, liquirizia, cacao, caffè, mou
+             clean: Profumo di lattici cotti e tostati con note di liquirizia, cacao e caffè.
+  freq=   4  raw : all'apertura anche frutta e fiori, poi panna
+             clean: Profumo all'apertura di frutta e fiori, seguito da nota di panna.
+  freq=   4  raw : note mature. latte cotto. fieno
+             clean: Profumo di latte cotto con note mature e fieno.
+  freq=   4  raw : brodo di carne, burro fuso
+             clean: Profumo di brodo di carne e burro fuso.
+  freq=   4  raw : non equilibrato, brodo vegetale dominante
+             clean: Profumo non equilibrato, con brodo vegetale dominante.
+  freq=   4  raw : Su un plateau di sensazioni mature spicca una forte nota floreale, addirittura fruttata. anomalo, gradevole
+             clean: Profumo maturo con forte nota floreale e fruttata.
+  freq=   4  raw : Non equilibrato nell' espressione
+             clean: NON_DESCRITTO
+  freq=   4  raw : Profumo fresco
+             clean: Profumo fresco.
+  freq=   4  raw : Intensità medio-forte. Note vegetali e floreali su latte. Particolare
+             clean: Profumo di intensità medio-forte con note vegetali e floreali su latte.
+  freq=   4  raw : non caratteristico principalmente animale
+             clean: Profumo principalmente animale, non caratteristico.
+  freq=   4  raw : brodo vegetale, fruttato e lattico cotto
+             clean: Profumo di brodo vegetale, fruttato e lattico cotto.
+  freq=   4  raw : Sa di muffa bianca del camembert
+             clean: Profumo di muffa bianca.
+  freq=   4  raw : leggermente vegetale fieno
+             clean: Profumo leggermente vegetale di fieno.
+  freq=   4  raw : Buona intensità. Tanto pane, tostatura
+             clean: Profumo di pane e tostatura con buona intensità.
+  freq=   4  raw : All'apertura nota pungente, poi lattici cotti e un poco' di fermentato soprattutto in un pezzo
+             clean: Profumo pungente all'apertura, seguito da note lattiche cotte e leggermente fermentate.
+  freq=   4  raw : puzza di piedi
+             clean: Profumo di piedi.
+  freq=   4  raw : cioccolato fondente
+             clean: Profumo di cioccolato fondente.
+  freq=   4  raw : frutta tropicale, ananas
+             clean: Profumo di frutta tropicale e ananas.
+  freq=   4  raw : Radici fresche
+             clean: Profumo di radici fresche.
+  freq=   4  raw : Lieve sentore vegetale iniziale, poi lattici cotti, formaggio cotto
+             clean: Profumo con lieve sentore vegetale iniziale, seguito da lattici cotti e formaggio cotto.
+  freq=   4  raw : frutta tropicale, dado
+             clean: Profumo di frutta tropicale e dado.
+  freq=   4  raw : Balsamico eucalipto
+             clean: Note olfattive di balsamico e eucalipto.
+  freq=   4  raw : delicato ma positivo.
+             clean: Profumo delicato e positivo.
+  freq=   4  raw : Intenso e molto equilibrato
+             clean: Profumo intenso e molto equilibrato.
+  freq=   4  raw : fruttato, leggero tostato e brodo, panna percettibile e poco verdure cotte
+             clean: Profumo fruttato con note di tostato e brodo, panna percettibile e poco di verdure cotte.
+  freq=   4  raw : animale tendente alla stalla. tostato, pane. cotto
+             clean: Profumo animale tendente alla stalla, con note di tostato, pane e cotto.
+  freq=   4  raw : molto intenso da formaggio grana con piccole note anche di formaggio fuso
+             clean: Profumo molto intenso di grana con piccole note di formaggio fuso.
+  freq=   4  raw : insilato di mais dominante
+             clean: Profumo di insilato di mais dominante.
+  freq=   4  raw : fermentazione, segue panna, fruttato (floreale) e un legereo aroma che ricorda i prodotti da formo (biscotti)
+             clean: Profumo di fermentazione, seguito da panna, con note fruttate floreali e leggereo aroma di prodotti da forno.
+  freq=   4  raw : qualche nota di verdura lessa
+             clean: Profumo con note di verdura lessa.
+  freq=   4  raw : poco marcato, leggero sentore di cotto
+             clean: Profumo poco marcato con leggero sentore di cotto.
+  freq=   4  raw : formaggio fritto;latte;burro
+             clean: Profumo di formaggio fritto, latte e burro.
+  freq=   4  raw : nota fermentata appena percettibile, fruttato lattico cotto e brodo
+             clean: Profumo con nota fermentata appena percettibile, fruttato, lattico cotto e brodo.
+  freq=   4  raw : lieve sentore di cotto e erba fermentata
+             clean: Profumo lieve di cotto e erba fermentata.
+  freq=   4  raw : Solo all'apertura odore stantio
+             clean: Profumo leggermente stantio all'apertura.
+  freq=   4  raw : fermentato animale
+             clean: Profumo fermentato con note animali.
+  freq=   4  raw : Animale più che stalla
+             clean: Profumo animale più che di stalla.
+  freq=   4  raw : equilibrato, piacevole
+             clean: NON_DESCRITTO
+  freq=   4  raw : profumo leggero. nessun difetto o sentore strano. evanescente. tostato
+             clean: Profumo leggero, evanescente, con note di tostato.
+  freq=   4  raw : brodo di carne burro fuso e panna
+             clean: Profumo di brodo di carne, burro fuso e panna.
+  freq=   4  raw : tostaura evidente, ma in genere equilibrato
+             clean: Profumo di tostatura evidente, nel complesso equilibrato.
+  freq=   4  raw : debole, non tipico del grana
+             clean: Profumo debole, non tipico del grana.
+  freq=   4  raw : intensità media, burro fuso, latte cotto, lieve nota di bruciato
+             clean: Profumo di burro fuso e latte cotto con lieve nota di bruciato, intensità moderata.
+  freq=   4  raw : nota di latte acido prevalente, segue la panna e il burro fresco, fruttato e vegetale cotto
+             clean: Profumo di latte acido prevalente, seguito da panna e burro fresco, con note di fruttato e vegetale cotto.
+  freq=   4  raw : pane tostato brodo, panne e burro, fruttato molto leggero
+             clean: Profumo di pane tostato, brodo, panna e burro, con note fruttate molto leggere.
+  freq=   4  raw : Lettiera
+             clean: Profumo di lettiera.
+  freq=   4  raw : primo olfatto>puzza / come di altro formaggio, non tipico trrentingrana. svanisce poi. non convince.
+             clean: Profumo di formaggio non tipico, svanisce rapidamente.
+  freq=   4  raw : alla rottura pungente in un pezzo, dolciastro in altri, leggeri cipolla cotta e panna un poco passata
+             clean: Profumo pungente alla rottura in alcuni punti, dolciastro in altri, con leggeri sentori di cipolla cotta e panna leggermente passata.
+  freq=   4  raw : Liquirizia radice
+             clean: Profumo di liquirizia e radice.
+  freq=   4  raw : vegetale balsamico poco da grana
+             clean: Profumo vegetale balsamico poco caratteristico della grana.
+  freq=   4  raw : Fruttato lattico cotto
+             clean: Profumo fruttato con note lattiche cotte.
+  freq=   4  raw : intenso positivouna nota leggeerbacea in un pezzo
+             clean: Profumo intenso con nota leggermente erbacea.
+  freq=   4  raw : iniziale diverso (teli sporco) poi vegetali e eun poco cotto
+             clean: Profumo inizialmente diverso, poi vegetale e leggermente cotto.
+  freq=   4  raw : Balsamico
+             clean: Profumo balsamico.
+  freq=   4  raw : latte cotto e nocciola
+             clean: Profumo di latte cotto e nocciola.
+  freq=   4  raw : ossidato. forse fermentato.
+             clean: Profumo ossidato e fermentato.
+  freq=   4  raw : burro fuso, formaggio da crosta
+             clean: Profumo di burro fuso e formaggio da crosta.
+  freq=   4  raw : mediamente intenso, su qualche pezzo note di frutta fermentata
+             clean: Profumo mediamente intenso con note di frutta fermentata.
+  freq=   4  raw : delicato ma lattico, caratteristico
+             clean: Profumo delicato ma lattico.
+  freq=   4  raw : Leggerissimo, scompare dopo 2 secondi
+             clean: Profumo molto leggero e fugace.
+  freq=   4  raw : Prima olfazione non gradita. La definisco nostrano
+             clean: NON_DESCRITTO
+  freq=   4  raw : latte fresco
+             clean: Profumo di latte fresco.
+  freq=   4  raw : debole, leggero sentore di fermentato
+             clean: Profumo debole con leggero sentore di fermentato.
+  freq=   4  raw : Lattici moderatamente intensi, anche cotti, leggero fermentato non spiacevole
+             clean: Profumo di lattico moderatamente intenso, cotto, con leggero sentore fermentato.
+  freq=   4  raw : burro e brodo vegetale
+             clean: Profumo di burro e brodo vegetale.
+  freq=   4  raw : vegetale pungente (non ricordo il vegetale)
+             clean: Profumo vegetale pungente.
+  freq=   4  raw : formaggio fritto;latte cotto;panna;
+             clean: Profumo di formaggio fritto, latte cotto e panna.
+  freq=   4  raw : latte fermentato forte
+             clean: Profumo forte di latte fermentato.
+  freq=   4  raw : semplice, lattico di panna, nota di formaggino
+             clean: Profumo semplice di panna lattica con nota di formaggino.
+  freq=   4  raw : Banana verde
+             clean: Profumo di banana verde.
+  freq=   4  raw : panna e un leggero brodo
+             clean: Profumo di panna e brodo leggermente percettibile.
+  freq=   4  raw : latte crudo
+             clean: Profumo di latte crudo.
+  freq=   4  raw : legero
+             clean: Profumo leggero.
+  freq=   4  raw : panna latte acido
+             clean: Profumo di panna e latte con nota acida.
+  freq=   4  raw : Qualcosa di non ottimale che non so definire
+             clean: NON_DESCRITTO
+  freq=   4  raw : intenso positivo
+             clean: Profumo intenso.
+  freq=   4  raw : su base lattea delicata spicca un aroma di formaggio quasi fermentato non tipico del trentingrana. non una puzza, ma quasi
+             clean: Profumo su base lattica delicata con aroma di formaggio quasi fermentato.
+  freq=   4  raw : grana, nocciola, fieno
+             clean: Profumo di grana, nocciola e fieno.
+  freq=   4  raw : lattico cotto prevalente ma anche erbaceio (fieno) e brodo di carcne
+             clean: Profumo di lattico cotto prevalente con note di fieno e brodo animale.
+  freq=   4  raw : VEGETALE , BURRO FRESCO
+             clean: Profumo vegetale con note di burro fresco.
+  freq=   4  raw : intenso e complesso, note di crosta di formaggio e frutta fermentata, non particolarmente equilibrato
+             clean: Profumo intenso e complesso con note di crosta di formaggio e frutta fermentata, non particolarmente equilibrato.
+  freq=   4  raw : fruttato, floreale, nocciola/tostato un poco- troppo
+             clean: Profumo fruttato e floreale con note di nocciola e tostato leggermente marcate.
+  freq=   4  raw : burro fuso, butirrico intensità moderata, tostato forte intensità leggera/moderata; ATTENZIONE una porzione ha pure un occhio da fermentazione butirrica
+             clean: Profumo di burro fuso con nota butirrica a intensità moderata, tostato a intensità leggera-moderata, e localmente di fermentazione butirrica.
+  freq=   4  raw : tende ai sentori cotti, tostato, nocciola. panna. media intensità
+             clean: Profumo tendente ai sentori cotti, tostato e nocciola, con note di panna, intensità moderata.
+  freq=   4  raw : latticini frachi
+             clean: Profumo di latticini freschi.
+  freq=   4  raw : intenso e burroso con leggera tostatura
+             clean: Profumo intenso e burroso con leggera tostatura.
+  freq=   4  raw : intensità' moderata. note vegetali, anche brodo, su base di burro e latte uht. crosta
+             clean: Profumo di intensità moderata con note vegetali e di brodo su base di burro e latte, con sentori di crosta.
+  freq=   4  raw : latte cotto e panna cotta intensità medio alta
+             clean: Profumo di latte cotto e panna cotta con intensità medio-alta.
+  freq=   4  raw : leggero. per fortuna perché' percepisco una nota fecale
+             clean: Profumo leggero con nota fecale.
+  freq=   4  raw : burrro fuso, latte
+             clean: Profumo di burro fuso e latte.
+  freq=   4  raw : Note quasi di puzzone alla prima olfazione
+             clean: Profumo con note quasi di puzzone all'apertura.
+  freq=   4  raw : burro fuso, latte cotto. buono
+             clean: Profumo di burro fuso e latte cotto.
+  freq=   4  raw : putrido prevalente alla rottura dei pezzi
+             clean: Profumo putrido prevalente alla rottura dei pezzi.
+  freq=   4  raw : LATTE ACIDO, PUNGENTE, FERMENTATO
+             clean: Profumo di latte acido, pungente e fermentato.
+  freq=   4  raw : Yogurt alla frutta
+             clean: Profumo di yogurt alla frutta.
+  freq=   4  raw : poco intenso ma equilibrato, burro fuso dominante
+             clean: Profumo poco intenso ma equilibrato, con burro fuso dominante.
+  freq=   4  raw : Vaniglia! Peccato per bruciato!
+             clean: Profumo di vaniglia con nota di bruciato.
+  freq=   4  raw : fermentazione (insilato) panna fresca, burro fresco e leggera tostatura
+             clean: Profumo di fermentazione con note di insilato, panna fresca, burro fresco e leggera tostatura.
+  freq=   4  raw : Solvente acetone
+             clean: Profumo di solvente e acetone.
+  freq=   4  raw : moderata l'intensità. Latte uht, burro sciolto. pane
+             clean: Profumo di latte uht, burro sciolto e pane, con intensità moderata.
+  freq=   4  raw : yogurth, nocciola, tostato
+             clean: Profumo di yogurt, nocciola e tostato.
+  freq=   4  raw : molto leggero
+             clean: Profumo molto leggero.
+  freq=   4  raw : pronunciato di latte cotto
+             clean: Profumo pronunciato di latte cotto.
+  freq=   4  raw : burro fuso;latte cotto
+             clean: Profumo di burro fuso e latte cotto.
+  freq=   4  raw : Yogurt alla frutta più che parte acido
+             clean: Profumo di yogurt alla frutta con sentore acido.
+  freq=   4  raw : Leggera fermentazione
+             clean: Profumo di leggera fermentazione.
+  freq=   4  raw : Caramello alla apertura
+             clean: Profumo di caramello all'apertura.
+  freq=   4  raw : Ho segnato cuoio ma in realtà ho sentito odore di suola di scarpe, o gomma
+             clean: Profumo di gomma e suola di scarpe.
+  freq=   4  raw : all'apertura un poco' di fumo, poi fermentato,
+             clean: Profumo di fumo all'apertura, seguito da note fermentate.
+  freq=   4  raw : presenza di note un p; di stalla, insilato
+             clean: Profumo con note di stalla e insilato.
+  freq=   4  raw : burro fuso e bruciato,
+             clean: Profumo di burro fuso e bruciato.
+  freq=   4  raw : Balsamico liquirizia
+             clean: Profumo di balsamico e liquirizia.
+  freq=   4  raw : yogurt
+             clean: Profumo di yogurt.
+  freq=   4  raw : gradevole di latte ma leggero
+             clean: Profumo gradevole di latte, leggero.
+  freq=   4  raw : grana, latte e floreale..
+             clean: Profumo di grana, latte e floreale.
+  freq=   4  raw : Peccato per leggera nota bruciata
+             clean: Profumo con leggera nota bruciata.
+  freq=   4  raw : burroso
+             clean: Profumo burroso.
+  freq=   4  raw : animale, tostato deciso, liquirizia, caramello scuro, cacao
+             clean: Profumo animale con note di tostato deciso, liquirizia, caramello scuro e cacao.
+  freq=   4  raw : all'apertuta insilato vegetale allapertura vegetale balsamico eucalipto?
+             clean: Profumo di insilato, vegetale e balsamico con note di eucalipto all'apertura.
+  freq=   4  raw : negativo intenistà alta
+             clean: Profumo negativo con intensità alta.
+  freq=   4  raw : stantio e cotto
+             clean: Profumo stantio e cotto.
+  freq=   4  raw : intensità' buona.
+             clean: Profumo di buona intensità.
+  freq=   4  raw : lattico dominante, burro cotto, burro sciolto, poco intenso. brodo
+             clean: Profumo lattico dominante di burro cotto e burro sciolto, poco intenso, con nota di brodo.
+  freq=   4  raw : leggermente fruttato
+             clean: Profumo leggermente fruttato.
+  freq=   4  raw : Il sentore di nostrano é un dubbio
+             clean: NON_DESCRITTO
+  freq=   4  raw : Salsa al caramello mou bruciacchiata
+             clean: Profumo di caramello bruciacchiato con note di mou.
+  freq=   4  raw : Lievito pane?
+             clean: Note olfattive di lievito e pane.
+  freq=   4  raw : crosta, fruttato mela
+             clean: Profumo di crosta con note fruttate di mela.
+  freq=   4  raw : Carente sulle note lattiche
+             clean: Profumo carente di note lattiche.
+  freq=   4  raw : anche vegetale dolce cotto
+             clean: Profumo vegetale dolce cotto.
+  freq=   4  raw : leggero/moderato come intensità'. note di pane tostato. burro, latte cotto. fungo/tartufo
+             clean: Profumo di pane tostato, burro e latte cotto, con note di fungo e tartufo, a intensità leggera e moderata.
+  freq=   4  raw : lievissimo, quasi inesistente, come un presidente di Fondazione
+             clean: NON_DESCRITTO
+  freq=   4  raw : pochi pregi, lieve
+             clean: Profumo lieve.
+  freq=   4  raw : non percesco particolari odori
+             clean: NON_DESCRITTO
+  freq=   4  raw : frutta matura intensità medio alta
+             clean: Profumo di frutta matura, intensità medio-alta.
+  freq=   4  raw : vegetale floreale all'apertura, 1 pezzo negativo, gli altri discreti buoni
+             clean: Profumo vegetale e floreale all'apertura, un pezzo con profumo negativo, gli altri discreti.
+  freq=   4  raw : Poco profumo
+             clean: Profumo poco intenso.
+  freq=   4  raw : Intensità media. note lattee tendenti al cotto/maturo
+             clean: Profumo di intensità media con note lattee tendenti al cotto e alla maturazione.
+  freq=   4  raw : all'apertura ododre pungente, quasi ammoniacale, poi tostati decisi e speziati, latte cotto quasi bruciato, cacao amaro e caffé
+             clean: Profumo all'apertura pungente quasi ammoniacale, seguito da note tostate decise e speziate, latte cotto quasi bruciato, cacao amaro e caffé.
+  freq=   4  raw : poco intenso, piatto, pungente, frutta fermentata, burro cotto, legno
+             clean: Profumo poco intenso e piatto, con note di pungente, frutta fermentata, burro cotto e legno.
+  freq=   4  raw : difettoso, nota di paglia / lettiera
+             clean: Profumo di paglia e lettiera con difetti.
+  freq=   4  raw : PANE LIEVITO
+             clean: Note olfattive di pane e lievito.
+  freq=   4  raw : Note un poco' pungenti all'apertura, poi lattici cotti, formaggio cotto
+             clean: Profumo poco pungente all'apertura, seguito da note lattiche di formaggio cotto.
+  freq=   4  raw : Burro cotto, formaggio cotto
+             clean: Profumo di burro cotto e formaggio cotto.
+  freq=   4  raw : Anche intenso, ma nostrano e latte cotto leggero
+             clean: Profumo intenso di latte cotto e nota nostrana leggera.
+  freq=   4  raw : panna, animale, intenso
+             clean: Profumo di panna e animale, intenso.
+  freq=   4  raw : fiori e frutta
+             clean: Profumo di fiori e frutta.
+  freq=   4  raw : Fruttato, panna, fieno e nota fermentata molto leggera
+             clean: Profumo fruttato con note di panna, fieno e sentore fermentato molto leggero.
+  freq=   4  raw : vegetale fermentato
+             clean: Profumo vegetale fermentato.
+  freq=   4  raw : poco intenso, note non caratteristiche da nostrano, lettiera, ossidato
+             clean: Profumo poco intenso con note di lettiera e ossidato.
+  freq=   4  raw : frutta matura, fieno-stalla, grana
+             clean: Profumo di frutta matura, fieno e stalla, con nota di grana.
+  freq=   4  raw : maturi i sentori, latte cotto, poco burro, frutta secca, pane
+             clean: Profumo maturo di latte cotto, poco burro, frutta secca e pane.
+  freq=   4  raw : crosta, leggermente speziato
+             clean: Profumo di crosta con note leggermente speziate.
+  freq=   4  raw : minestrone verdura, cipolla
+             clean: Profumo di minestrone con verdura e cipolla.
+  freq=   4  raw : Principalmente panna e fruttato, segue il burro, il latte cotto e un leggero tostato
+             clean: Profumo principalmente di panna e fruttato, seguiti da burro, latte cotto e leggero tostato.
+  freq=   4  raw : odore di formaggio vecchio
+             clean: Profumo di formaggio maturo.
+  freq=   4  raw : latte fresco;muschio
+             clean: Profumo di latte fresco e muschio.
+  freq=   4  raw : Nota bruciata, poco intenso
+             clean: Profumo con nota bruciata, poco intenso.
+  freq=   4  raw : abbastanza equilibrato, note caratteristiche presenti
+             clean: Profumo abbastanza equilibrato con note caratteristiche.
+  freq=   4  raw : burro mfuso latte cotto fruttato, tostato e verdure cotte
+             clean: Profumo di burro fuso, latte cotto, fruttato, tostato e verdure cotte.
+  freq=   4  raw : burro fuso, leggera crosta
+             clean: Profumo di burro fuso.
+  freq=   4  raw : fieno, burro fuso
+             clean: Profumo di fieno e burro fuso.
+  freq=   4  raw : insilato negativo
+             clean: Profumo di insilato negativo.
+  freq=   4  raw : su un pezzo nota animale di cuoio, cavallo, sui restanti pezzi odore un poco scarico e poco complesso
+             clean: Profumo di cuoio e cavallo su alcuni pezzi, poco intenso e poco complesso sui rimanenti.
+  freq=   4  raw : Intenso all'apertura, panna e anche vegetale fresco, floreale
+             clean: Profumo intenso all'apertura, di panna e vegetale fresco con note floreali.
+  freq=   4  raw : fruttato;muschio
+             clean: Profumo fruttato con note di muschio.
+  freq=   4  raw : poca panna, latte e burro non crudi. un fondo animale\stalla. fieno
+             clean: Profumo di panna e latte con burro cotto, fondo animale di stalla e note di fieno.
+  freq=   4  raw : vegetale cotto
+             clean: Profumo vegetale cotto.
+  freq=   4  raw : moderato. note lattee. pane. tostato
+             clean: Profumo di moderata intensità con note lattiche, pane e tostato.
+  freq=   4  raw : inizialmente burro fresco, alla frattura note di bruciato
+             clean: Profumo di burro fresco all'apertura, con note di bruciato alla frattura.
+  freq=   4  raw : lattici cotti e tostati anche troppo decisi (caffè)
+             clean: Profumo di lattici cotti e tostati, con note di caffè piuttosto decise.
+  freq=   4  raw : Intensità al più moderata
+             clean: Profumo di intensità moderata.
+  freq=   4  raw : latte, panna ma tostato...
+             clean: Profumo di latte e panna con note di tostato.
+  freq=   4  raw : fiori, frutta, panna fresca
+             clean: Profumo di fiori, frutta e panna fresca.
+  freq=   4  raw : prima olfazione>odore sgradevole verso animale. il resto e' sfondo
+             clean: Profumo con nota animale all'apertura.
+  freq=   4  raw : latte e panna cotta forte;fieno forte
+             clean: Profumo forte di latte e panna cotta con note di fieno.
+  freq=   4  raw : intenso, abbastanza equilibrato, nota di latte cotto dominante, su un pezzo vira verso il bruciato
+             clean: Profumo intenso e abbastanza equilibrato con nota di latte cotto dominante, che vira verso il bruciato su un pezzo.
+  freq=   4  raw : fieno, yogurth e tostatura
+             clean: Profumo di fieno, yogurt e tostatura.
+  freq=   4  raw : latte cotto e brodo di carne, cipolla
+             clean: Profumo di latte cotto e brodo di carne con cipolla.
+  freq=   4  raw : poco intenso e complesso, nota quasi floreale, burro sciolto
+             clean: Profumo poco intenso e complesso, con nota quasi floreale e burro sciolto.
+  freq=   4  raw : chiuso poco intenso
+             clean: Profumo chiuso e poco intenso.
+  freq=   4  raw : crosta e stantio
+             clean: Profumo di crosta e stantio.
+  freq=   4  raw : vegetale acre
+             clean: Profumo vegetale e acre.
+  freq=   4  raw : Vegetale buono
+             clean: Profumo vegetale.
+  freq=   4  raw : poco intenso e complesso, lattico cotto e brodo
+             clean: Profumo poco intenso e complesso, lattico cotto e brodo.
+  freq=   4  raw : nota animale alla prima olfazione, poi si allegerisce, non punisco. pane, burro. latte cotto
+             clean: Profumo animale all'apertura che si allegerisce, con note di pane, burro e latte cotto.
+  freq=   4  raw : latte crudo delicato
+             clean: Profumo di latte crudo delicato.
+  freq=   4  raw : Sa di grasso di prosciutto crudo
+             clean: Profumo di grasso di prosciutto crudo.
+  freq=   4  raw : leggero sentore di corsta di fromaggio e cotto, più' burro
+             clean: Profumo leggero di crosta di formaggio e cotto, con prevalenza di burro.
+  freq=   4  raw : poco pulito, note pungenti al naso, sentori di pozzo e acqua stagnante,
+             clean: Profumo poco pulito con note pungenti, sentori di pozzo e acqua stagnante.
+  freq=   4  raw : Quasi disturba!
+             clean: NON_DESCRITTO
+  freq=   4  raw : latte cotto;burro;fruttato
+             clean: Profumo di latte cotto, burro e fruttato.
+  freq=   4  raw : panna e brodo vegetale
+             clean: Profumo di panna e brodo vegetale.
+  freq=   4  raw : Un solo pezzo aveva un pessimo odore
+             clean: NON_DESCRITTO
+  freq=   4  raw : Latte acido, tostato con leggero vegetale secco
+             clean: Profumo di latte acido e tostato con leggero sentore vegetale secco.
+  freq=   4  raw : caramello, latte cotto
+             clean: Profumo di caramello e latte cotto.
+  freq=   4  raw : panna, vaniglia, frutta, farina
+             clean: Profumo di panna, vaniglia, frutta e farina.
+  freq=   4  raw : intenso con note florali, kiwi e panna
+             clean: Profumo intenso con note floreali, kiwi e panna.
+  freq=   4  raw : mediamente intenso, panna, burro fuso, brodo, congetto, lieve nota ossidata e pungente
+             clean: Profumo mediamente intenso di panna, burro fuso e brodo, con lieve nota ossidata e pungente.
+  freq=   4  raw : leggermente odore anomalo che non riconsoco
+             clean: NON_DESCRITTO
+  freq=   4  raw : odore pungente all'apertura, ma che poi non trovo nei pezzi
+             clean: Profumo pungente all'apertura, non rilevabile nei pezzi.
+  freq=   4  raw : tende negativo forte sedano
+             clean: Profumo tendente al negativo, forte, di sedano.
+  freq=   4  raw : Peccato per sfumatura bruciata!
+             clean: NON_DESCRITTO
+  freq=   4  raw : Peccato per leggero sentore di alcool
+             clean: Profumo con leggero sentore di alcol.
+  freq=   4  raw : All'apertura, ottimo panna e lattici; alla rottura di un pezzo odore un poco' sgradevole, tendente allo stantio
+             clean: Profumo di panna e note lattiche all'apertura, con sentore leggermente stantio alla rottura.
+  freq=   4  raw : Sentore di urina...
+             clean: Profumo con sentore di urina.
+  freq=   4  raw : intensità moderata. pane tostato. . cuoio. sentori lattei cotti
+             clean: Profumo di pane tostato e cuoio con sentori lattei cotti, intensità moderata.
+  freq=   4  raw : latte e burro, leggero animale
+             clean: Profumo di latte e burro con leggero sentore animale.
+  freq=   4  raw : leggero. su note lattee delicate rinvengo sentori vegetali, di brodo vegetale
+             clean: Profumo leggero su note lattee delicate con sentori di brodo vegetale.
+  freq=   4  raw : Intensità limitata
+             clean: Profumo poco intenso.
+  freq=   4  raw : intensità contenuta. su note lattee rinvengo anche un sentore floreale
+             clean: Profumo di intensità contenuta con note lattee e sentore floreale.
+  freq=   4  raw : positivo no difetti poco intenso
+             clean: Profumo poco intenso, privo di difetti.
+  freq=   4  raw : delicato, crosta di formaggio, burro cotto, lieve nota di nostrano
+             clean: Profumo delicato di crosta di formaggio e burro cotto con lieve nota di nostrano.
+  freq=   4  raw : burro, panna, pozzo di ascarico, latte acido
+             clean: Profumo di burro, panna e latte acido.
+  freq=   4  raw : fruttato e floreale all'apertura del barattolo
+             clean: Profumo fruttato e floreale all'apertura.
+  freq=   4  raw : intensità elevata con grana tipico, burro e leggera tostatura
+             clean: Profumo di intensità elevata con burro e leggera tostatura.
+  freq=   4  raw : Tenue senza particolari note negative
+             clean: Profumo tenue senza particolari note negative.
+  freq=   4  raw : poco intenso, panna, burro sciolto, lieve nota proprionica, poco intenso, crosta di formaggio
+             clean: Profumo poco intenso di panna e burro sciolto con lieve nota proprionica e sentore di crosta di formaggio.
+  freq=   4  raw : Erbacea alo, apertura della vaschetta, ossidato e crosta dominanti su frattura fresca
+             clean: Profumo erbaceo all'apertura della vaschetta, con ossidato e crosta dominanti su frattura fresca.
+  freq=   4  raw : Intensità medio-forte. Latte intero, panna. Brodo di carne. burr ofresco
+             clean: Profumo di intensità medio-forte con note di latte intero, panna, brodo di carne e burro fresco.
+  freq=   4  raw : leggero sentore di fermentato
+             clean: Profumo con leggero sentore di fermentato.
+  freq=   4  raw : molto fruttato con note lattiche freche
+             clean: Profumo molto fruttato con note lattiche fresche.
+  freq=   4  raw : note leggermente tostate che prevalgono
+             clean: Profumo leggermente tostato prevalente.
+  freq=   4  raw : lattico di burro fuso ma con note lievemente pungenti, quasi fermentate, brodo evidente
+             clean: Profumo lattico di burro fuso con note lievemente pungenti e fermentate, brodo evidente.
+  freq=   4  raw : in positivo intensità burro fuso medio alta
+             clean: Profumo di burro fuso con intensità medio-alta.
+  freq=   4  raw : gomma
+             clean: Profumo di gomma.
+  freq=   4  raw : intensità' buona. latte intero, panna, burro sciolto. poco brodo di carne
+             clean: Profumo di latte intero, panna e burro sciolto con poco brodo di carne, buona intensità.
+  freq=   4  raw : frutta secca intensità media
+             clean: Profumo di frutta secca a intensità moderata.
+  freq=   4  raw : animale e stalla intensità alta
+             clean: Profumo animale e di stalla, intensità alta.
+  freq=   4  raw : poco intenso, sentore di cotto
+             clean: Profumo poco intenso con sentore di cotto.
+  freq=   4  raw : leggero sentore di cotto, profumo poco marcato
+             clean: Profumo leggero di cotto, poco marcato.
+  freq=   4  raw : Soprattutto all'apertura
+             clean: NON_DESCRITTO
+  freq=   4  raw : panna;burro;latte fresco
+             clean: Profumo di panna, burro e latte fresco.
+  freq=   4  raw : debole. poco percettibile
+             clean: Profumo debole, poco percettibile.
+  freq=   4  raw : all'apertura una cerrta pungenza, poi anche in 3 pezzi odore negativo, di putrido
+             clean: Profumo pungente all'apertura, odore negativo di putrido anche nei pezzi interni.
+  freq=   4  raw : poco intenso, note lattiche deboli, stantio
+             clean: Profumo poco intenso con note lattiche deboli e stantio.
+  freq=   4  raw : Ammoniaca iniziale, un poco' di stantio, crosta di grana
+             clean: Profumo di ammoniaca iniziale, leggermente stantio, con note di crosta di grana.
+  freq=   4  raw : intenso ma con note da tostatura e leggerm. insilati
+             clean: Profumo intenso con note di tostatura e leggermente insilati.
+  freq=   4  raw : all'apertura anche fruttato dolce, quasi banana, poi solo lattici, anche formaggio cotto
+             clean: Profumo di frutta dolce con note di banana all'apertura, seguito da note lattiche e formaggio cotto.
+  freq=   4  raw : poco intenso, burro fuso, nota fermentata, brodo
+             clean: Profumo poco intenso di burro fuso con nota fermentata e brodo.
+  freq=   4  raw : Panna, latte cotto, tostato, con un poco di fruttato
+             clean: Profumo di panna e latte cotto, tostato, con poco fruttato.
+  freq=   4  raw : intenso, quasi pungente, nota di frutta fermentata oltre alle caratteristiche note lattiche
+             clean: Profumo intenso, quasi pungente, con note di frutta fermentata e note lattiche.
+  freq=   4  raw : burro freasco e verdure cotte, brodo di carne, leggera nota di fermentazione
+             clean: Profumo di burro fresco e verdure cotte, con brodo di carne e leggera nota di fermentazione.
+  freq=   4  raw : mediamente buono, ma con punte dolciastre e mature
+             clean: Profumo mediamente complesso con note dolciastre e mature.
+  freq=   4  raw : fermentazione leggera, crosta di formaggio e panna acida
+             clean: Profumo di fermentazione leggera, crosta di formaggio e panna acida.
+  freq=   4  raw : Buona intensità. Sentori maturi. brodo, crosta, burro cotto
+             clean: Profumo con buona intensità, sentori maturi di brodo, crosta e burro cotto.
+  freq=   4  raw : grana, floreale, frutta... intenso
+             clean: Profumo intenso di grana, floreale e frutta.
+  freq=   4  raw : Molto tenue
+             clean: Profumo molto tenue.
+  freq=   4  raw : note di fermentato
+             clean: Profumo di fermentato.
+  freq=   4  raw : frutta secca;crosta/formaggio stagionato
+             clean: Profumo di frutta secca e crosta di formaggio stagionato.
+  freq=   4  raw : forse uno dei più\ interessanti della batteria...
+             clean: NON_DESCRITTO
+  freq=   4  raw : leggero cotto, burro fuso e crosta
+             clean: Profumo leggermente cotto di burro fuso e crosta.
+  freq=   4  raw : Sentori tostato, cotto
+             clean: Profumo di tostato e cotto.
+  freq=   4  raw : Lieve e iniziale
+             clean: Profumo lieve e iniziale.
+  freq=   4  raw : all'apertura teli sporchi e poi brodo vegetale
+             clean: Profumo di teli sporchi all'apertura, seguito da brodo vegetale.
+  freq=   4  raw : difetto, biscotto tostato
+             clean: Profumo di biscotto tostato con nota di difetto.
+  freq=   4  raw : leggero crosta e formaggio cotto
+             clean: Profumo leggero di crosta e formaggio cotto.
+  freq=   4  raw : Lievito ?
+             clean: Note olfattive di lievito.
+  freq=   4  raw : brodo vegetale panna
+             clean: Profumo di brodo vegetale e panna.
+  freq=   4  raw : burro e burro fuso intenso
+             clean: Profumo di burro e burro fuso intenso.
+  freq=   4  raw : Peccato presenza nota polverosa
+             clean: Profumo con nota polverosa.
+  freq=   4  raw : latte bruciato forse caramello vanilgia mah
+             clean: Profumo di latte bruciato con note di caramello e vaniglia.
+  freq=   4  raw : leggermente propionico, insilato, difettoso
+             clean: Profumo leggermente propionico con note di insilato, difettoso.
+  freq=   4  raw : buona intensità'. latte fresco, panna, burro sciolto. Sentori dolci e lattei
+             clean: Profumo di latte fresco, panna e burro sciolto con sentori dolci e lattei, buona intensità.
+  freq=   4  raw : Tanto burro
+             clean: Profumo di burro intenso.
+  freq=   4  raw : leggero vegetale cotto allo spezzare
+             clean: Profumo leggero di vegetale cotto all'apertura.
+  freq=   4  raw : siero, latte cotto, brodo e leggera crosta di formaggio
+             clean: Profumo di siero, latte cotto, brodo e leggera nota di crosta di formaggio.
+  freq=   4  raw : Scarico
+             clean: Profumo scarico.
+  freq=   4  raw : Latte cotto, burro , umami, verdure lesse e una legger crosta di formaggio
+             clean: Profumo di latte cotto, burro, verdure lesse e leggermente di crosta di formaggio.
+  freq=   4  raw : leggero fermentato. odore debole
+             clean: Profumo leggermente fermentato e debole.
+  freq=   4  raw : grana tipico medio intenso..
+             clean: Profumo di grana a intensità media.
+  freq=   4  raw : grana, burro, floreale
+             clean: Profumo di grana, burro e note floreali.
+  freq=   4  raw : Molto diversi i 4 pezzi e all'apertura
+             clean: NON_DESCRITTO
+  freq=   4  raw : crosta e ossidato
+             clean: Profumo di crosta e ossidato.
+  freq=   4  raw : Profumi maturi o cotti, crosta. note vegetali e leggermente animali/cuoio. Non difetti
+             clean: Profumo maturo e cotto con note vegetali e leggermente animali, sentore di cuoio dalla crosta.
+  freq=   4  raw : yogurth, formaggio..., floreale...
+             clean: Profumo di yogurt, formaggio e note floreali.
+  freq=   4  raw : leggermente fermentato, frutta matura
+             clean: Profumo leggermente fermentato con nota di frutta matura.
+  freq=   4  raw : Putrido, trremendo
+             clean: NON_DESCRITTO
+  freq=   4  raw : grana, tostato, fieno, panna
+             clean: Profumo di grana, tostato, fieno e panna.
+  freq=   4  raw : latte cotto, burro fuso brodo di carne e leggero tostato e fruttato
+             clean: Profumo di latte cotto, burro fuso, brodo di carne, con sentori leggeri di tostato e fruttato.
+  freq=   4  raw : un poco cotto
+             clean: Profumo poco cotto.
+  freq=   4  raw : crosta di formaggio e brodo
+             clean: Profumo di crosta di formaggio e brodo.
+  freq=   4  raw : Inizialmente si percepisce una leggera fermentazione, segue panna fresca, burro fresco e fruttato
+             clean: Profumo inizialmente di leggera fermentazione, seguito da panna fresca, burro fresco e note fruttate.
+  freq=   4  raw : molto intenso, burro e grana .......
+             clean: Profumo molto intenso di burro e grana.
+  freq=   4  raw : leggero formaggio cotto
+             clean: Profumo leggero di formaggio cotto.
+  freq=   4  raw : intensità lieve. poca complessità. Latte e poco più
+             clean: Profumo lieve di latte con poca complessità.
+  freq=   4  raw : leggero e sa di emmental
+             clean: Profumo leggero con note di emmental.
+  freq=   4  raw : Elegante,,,molta nocciola e kiwi
+             clean: Profumo di nocciola e kiwi.
+  freq=   4  raw : abbastanza blano, privo di aromi, se non leggeremte burro cotto
+             clean: Profumo abbastanza blando, con leggerissime note di burro cotto.
+  freq=   4  raw : Poco intenso. Latte e floreale
+             clean: Profumo poco intenso di latte e floreale.
+  freq=   4  raw : panna yogurt
+             clean: Profumo di panna e yogurt.
+  freq=   4  raw : crosta di formaggio
+             clean: Profumo di crosta di formaggio.
+  freq=   4  raw : burro, panna, leggermente ossidato
+             clean: Profumo di burro e panna, leggermente ossidato.
+  freq=   4  raw : Eucalipto?
+             clean: Note olfattive di eucalipto.
+  freq=   4  raw : ossidato, fermentato. non piacevole
+             clean: Profumo ossidato e fermentato.
+  freq=   4  raw : Proprio aggressivo non piacevole
+             clean: NON_DESCRITTO
+  freq=   4  raw : latte acido panna yogurt
+             clean: Profumo di latte acido, panna e yogurt.
+  freq=   4  raw : buona intensità. Burro, latte cotto, panna. crosta
+             clean: Profumo di burro, latte cotto e panna con buona intensità.
+  freq=   4  raw : Leggero sentore di bruciato e stalla all'inizio!
+             clean: Profumo leggero di bruciato e stalla all'inizio.
+  freq=   4  raw : Strano. A tratti sentiva di pesce. Perplesso
+             clean: NON_DESCRITTO
+  freq=   4  raw : positivo molto intenso
+             clean: Profumo molto intenso.
+  freq=   4  raw : predominante il lattico cotto e il brodo
+             clean: Profumo di lattico cotto e brodo predominanti.
+  freq=   4  raw : burro fuso dominante, forse leggera nota pungente che ricorda il latte fermentato
+             clean: Profumo di burro fuso dominante con leggera nota pungente di latte fermentato.
+  freq=   4  raw : leggero odore verdura lessa
+             clean: Profumo leggero di verdura lessa.
+  freq=   4  raw : latte cotto;crosta di formaggio
+             clean: Profumo di latte cotto e crosta di formaggio.
+  freq=   4  raw : verdura lessa e formaggio cotto e burro
+             clean: Profumo di verdura lessa, formaggio cotto e burro.
+  freq=   4  raw : leggermente
+             clean: Profumo leggermente intenso.
+  freq=   4  raw : latte, burro, burro fuso
+             clean: Profumo di latte, burro e burro fuso.
+  freq=   4  raw : Dado, glutammato molto forte e spiacevole
+             clean: Profumo di dado con sentori di glutammato molto intenso e spiacevole.
+  freq=   4  raw : siero acido intensità medio alta
+             clean: Profumo di siero acido con intensità medio-alta.
+  freq=   4  raw : Fruttato panna e burro fresco
+             clean: Profumo fruttato con note di panna e burro fresco.
+  freq=   4  raw : Teli sporchi
+             clean: Profumo di stalla.
+  freq=   4  raw : fruttato mela(, crosta
+             clean: Profumo fruttato di mela.
+  freq=   4  raw : note forti tostate e emmenthal/grana
+             clean: Profumo con note forti tostate e di grana.
+  freq=   4  raw : Banana
+             clean: Profumo di banana.
+  freq=   4  raw : difettoso cipolla sgradevole
+             clean: Profumo di cipolla sgradevole.
+  freq=   4  raw : burro fuso,panna, burro
+             clean: Profumo di burro fuso e panna.
+  freq=   4  raw : panna&burro
+             clean: Profumo di panna e burro.
+  freq=   4  raw : Elegante... Kiwi
+             clean: Note olfattive di kiwi.
+  freq=   4  raw : leggero odore di stalla
+             clean: Profumo leggero di stalla.
+  freq=   4  raw : Peccato lieve nota bruciara
+             clean: Profumo con lieve nota bruciata.
+  freq=   4  raw : in qualche pezzo note aspre, di fermentato, negative, in altri no
+             clean: Profumo con note aspre e di fermentato in alcuni punti.
+  freq=   4  raw : vegetale e latte cotto
+             clean: Profumo vegetale e di latte cotto.
+  freq=   4  raw : Aggressivo non piacevole
+             clean: Profumo aggressivo.
+  freq=   4  raw : leggermente di stalla
+             clean: Profumo leggermente di stalla.
+  freq=   4  raw : fieno, tostato, nocciola
+             clean: Profumo di fieno, tostato e nocciola.
+  freq=   4  raw : panna, burro crudo
+             clean: Profumo di panna e burro fresco.
+  freq=   4  raw : tostato forte
+             clean: Profumo tostato forte.
+  freq=   4  raw : un poco- pungente note lattiche
+             clean: Profumo poco pungente con note lattiche.
+  freq=   4  raw : Fermentato deciso, dolciastro, solo allo spezzarsi dei pezzi
+             clean: Profumo di fermentato deciso e dolciastro, percepibile allo spezzarsi dei pezzi.
+  freq=   4  raw : intensità' moderata. semtori di panna, latte intero, burro sciolto. lieve tostato
+             clean: Profumo di intensità moderata con sentori di panna, latte intero e burro sciolto, leggermente tostato.
+  freq=   4  raw : latte, panna, burro fresco crudo. Nocciola leggero
+             clean: Profumo di latte, panna e burro fresco con sentore leggero di nocciola.
+  freq=   4  raw : bel naso da grana con leggera tostatura...
+             clean: Profumo da grana con leggera tostatura.
+  freq=   4  raw : rancido MODERATO;spezziato MODERATO
+             clean: Profumo moderatamente rancido e speziato.
+  freq=   4  raw : In un pezzo odore negativo deciso, mentre negli altri prevalgono i lattici
+             clean: Profumo con odore negativo deciso in alcune zone, mentre in altre prevalgono le note lattiche.
+  freq=   4  raw : intenso con note leggermente tostate, burro e form.fuso
+             clean: Profumo intenso con note leggermente tostate, burro e formaggio fuso.
+  freq=   4  raw : poco intenso e complesso, burro fuso, lieve nota di stantio
+             clean: Profumo poco intenso e complesso di burro fuso con lieve nota di stantio.
+  freq=   4  raw : burro;un poco- acido
+             clean: Profumo di burro con un poco di acido.
+  freq=   4  raw : poco caratteristico, frutta fermentata, acqua stagnante
+             clean: Profumo di frutta fermentata e acqua stagnante, poco caratteristico.
+  freq=   4  raw : Soprattutto uovo sodo, zolfo
+             clean: Profumo di uovo sodo e zolfo.
+  freq=   4  raw : Intensità leggera. Poco complesso. Panna e burro. Stop
+             clean: Profumo leggero di panna e burro, poco complesso.
+  freq=   4  raw : Sembra più vecchio
+             clean: NON_DESCRITTO
+  freq=   4  raw : burro msciolto, panna fresca, fruttato e pane tostato
+             clean: Profumo di burro sciolto, panna fresca, note fruttate e pane tostato.
+  freq=   4  raw : Latto cotto burro tostato
+             clean: Profumo di latte cotto, burro e tostatura.
+  freq=   4  raw : Solo una porzione su 4 è fortemente negativa
+             clean: NON_DESCRITTO
+  freq=   4  raw : note lattiche bruciate, comunque non mancano le note caratteristiche
+             clean: Profumo di note lattiche bruciate con sentori caratteristici.
+  freq=   4  raw : latte, burro fuso, burro
+             clean: Profumo di latte e burro fuso.
+  freq=   4  raw : intensità' moderata. sentori lattei, burro, poca panna. tostato. crosta
+             clean: Profumo di intensità moderata con sentori lattei, burro e panna leggermente presente, note di tostato da crosta.
+  freq=   4  raw : latte crudo;fruttato
+             clean: Profumo di latte crudo con note fruttate.
+  freq=   4  raw : Moderato. Nota non convincente di verdura cotta
+             clean: Profumo moderato con nota di verdura cotta.
+  freq=   4  raw : profumo leggero ma positivo
+             clean: Profumo leggero e positivo.
+  freq=   4  raw : non molto intenso, crosta di formaggio, acqua stagnante, pozzo di scarico, note del nostrano
+             clean: Profumo poco intenso di crosta di formaggio e acqua stagnante, con note del nostrano.
+  freq=   4  raw : Un poco' piatto, poco complesso
+             clean: Profumo poco complesso e piatto.
+  freq=   4  raw : latte, nocciola, leggera tostatura
+             clean: Profumo di latte e nocciola con leggera tostatura.
+  freq=   4  raw : grana tipico, nocciola e burro
+             clean: Profumo di nocciola e burro.
+  freq=   4  raw : Pozzo, acqua stagnante
+             clean: Profumo di pozzo e acqua stagnante.
+  freq=   4  raw : vegetale balsamico eucalipto?
+             clean: Note olfattive vegetali, balsamiche e di eucalipto.
+  freq=   4  raw : leggere di teli sporchi
+             clean: Profumo leggermente di teli sporchi.
+  freq=   4  raw : burro fuso e panna
+             clean: Profumo di burro fuso e panna.
+  freq=   4  raw : leggermente fermentato
+             clean: Profumo leggermente fermentato.
+  freq=   4  raw : latte fresco frutta tropicale
+             clean: Profumo di latte fresco con note di frutta tropicale.
+  freq=   4  raw : tostato bruciato (caffe?) vegetali cotti
+             clean: Profumo di tostato e bruciato con note di caffè e vegetali cotti.
+  freq=   4  raw : burro, floreale,burro fuso poco,latte
+             clean: Profumo di burro e latte con note floreali, poco burro fuso.
+  freq=   4  raw : Spezzando un pezzo no percepito un leggero odore di cipolla
+             clean: Profumo leggermente cipollato.
+  freq=   4  raw : intensità' moderata. crosta, brodo veetale. una nota animale appena sentito poi sfuma
+             clean: Profumo di moderata intensità con note di crosta e brodo vegetale, sentore animale che sfuma.
+  freq=   4  raw : brodo vegertale;latte;burro
+             clean: Profumo di brodo vegetale, latte e burro.
+  freq=   4  raw : verdura lessa
+             clean: Profumo di verdura lessa.
+  freq=   4  raw : Peccato perla leggera nota animale,,
+             clean: Profumo con leggera nota animale.
+  freq=   4  raw : latte uht, burro fuso, panna, lieve tostatura
+             clean: Profumo di latte uht, burro fuso e panna con lieve tostatura.
+  freq=   4  raw : decismente ossidato, quasi rancido
+             clean: Profumo decisamente ossidato, quasi rancido.
+  freq=   4  raw : Molto diverso alle apertura e spezzando i pezzi. Fresco prima, più stagionato poi
+             clean: Profumo fresco all'apertura, più stagionato spezzando i pezzi.
+  freq=   4  raw : solvente ___(
+             clean: NON_DESCRITTO
+  freq=   4  raw : delicato, leggero sentore di cotto
+             clean: Profumo delicato con leggero sentore di cotto.
+  freq=   4  raw : Intensità buona. burro cotto. panna leggero. tostato
+             clean: Profumo di burro cotto, panna leggera e tostato, con intensità buona.
+  freq=   4  raw : cotti prevalenti, quasi caffellatte
+             clean: Profumo di cotti prevalenti con nota di caffellatte.
+  freq=   4  raw : frutta , verdura lessa
+             clean: Profumo di frutta e verdura lessa.
+  freq=   4  raw : burro e panna, leggero brodo
+             clean: Profumo di burro e panna con leggero brodo.
+  freq=   4  raw : leggero d-intensità. Crosta, cotto
+             clean: Profumo leggero di crosta e cotto.
+  freq=   4  raw : burro fuso, burro, leggera crosta pungente
+             clean: Profumo di burro fuso con leggera nota pungente di crosta.
+  freq=   4  raw : latte cotto leggero
+             clean: Profumo di latte cotto leggero.
+  freq=   4  raw : intenso ed equilibrato, forse prevalenza tostatura...
+             clean: Profumo intenso ed equilibrato con prevalenza di tostatura.
+  freq=   4  raw : lattico cotto, burro ve leggero tostato
+             clean: Profumo di lattico cotto, burro fresco leggero e tostato.
+  freq=   4  raw : intenso fruttato.. e nocciola-latte
+             clean: Profumo intenso fruttato con note di nocciola e latte.
+  freq=   4  raw : Leggero e non complesso
+             clean: Profumo leggero e poco complesso.
+  freq=   4  raw : leggero odore di insilato
+             clean: Profumo leggermente di insilato.
+  freq=   4  raw : fum[, nocciola, frytta matura
+             clean: Profumo di fumo, nocciola e frutta matura.
+  freq=   4  raw : All’apertura più evidente od sgradevole
+             clean: Profumo all'apertura evidente e sgradevole.
+  freq=   4  raw : difetti e pregi che si annullano
+             clean: NON_DESCRITTO
+  freq=   4  raw : lattico cotto tostato e verdure lesse
+             clean: Profumo di lattico cotto, tostato e verdure lesse.
+  freq=   4  raw : buona intensità. latte intero fresco, panna. burro
+             clean: Profumo di latte intero fresco, panna e burro con buona intensità.
+  freq=   4  raw : Peccato per sfumatura di bruciato
+             clean: Profumo con sfumatura di bruciato.
+  freq=   4  raw : intenso positivo tranne su un pezzetto leggermente fermentato
+             clean: Profumo intenso, leggermente fermentato su un pezzetto.
+  freq=   4  raw : Ok ma molto leggero
+             clean: Profumo molto leggero.
+  freq=   4  raw : nota di brodo vegetale
+             clean: Profumo di brodo vegetale.
+  freq=   4  raw : intenso grana e formaggio fuso
+             clean: Profumo intenso di grana e formaggio fuso.
+  freq=   4  raw : panna prevalente
+             clean: Profumo di panna prevalente.
+  freq=   4  raw : 3 su 4 panna, verdura lessa dolciastra, leggero fermentato, in 1 pezzo odore di marcio
+             clean: Profumo di panna, verdura lessa dolciastra e leggero fermentato; in un'area odore di marcio.
+  freq=   4  raw : Non molto buono come impatto iniziale
+             clean: NON_DESCRITTO
+  freq=   4  raw : intensità' moderata. un pochetto di panna. latte cotto. Pane. burro sciolto. Fieno. lieve ma complesso
+             clean: Profumo di moderata intensità con note di panna, latte cotto, pane, burro sciolto e fieno, lieve ma complesso.
+  freq=   4  raw : latte e panna intensità medio alta
+             clean: Profumo di latte e panna con intensità medio-alta.
+  freq=   4  raw : Burro sciolto e cotto, latte cotto. tostatura.
+             clean: Profumo di burro sciolto e cotto con latte cotto e note di tostatura.
+  freq=   4  raw : bruciato, crosta
+             clean: Profumo di bruciato e crosta.
+  freq=   4  raw : Sentore di fieno greco
+             clean: Profumo di fieno greco.
+  freq=   4  raw : crosta. secco, legno, fieno
+             clean: Profumo di crosta con note di secco, legno e fieno.
+  freq=   4  raw : grana tipico leggermente tostato
+             clean: Profumo di grana leggermente tostato.
+  freq=   4  raw : stalla, marcio, fermentato
+             clean: Profumo di stalla, marcio e fermentato.
+  freq=   4  raw : note negative, marcio, fermentato
+             clean: Profumo fermentato con note negative e di marcio.
+  freq=   4  raw : grana intenso con tostatura e note florali, miele
+             clean: Profumo intenso di grana con tostatura, note floreali e miele.
+  freq=   4  raw : panna e burro fuso
+             clean: Profumo di panna e burro fuso.
+  freq=   4  raw : caratteristico ma di medio equilibrio, panna, burro fuso, brodo di pollo
+             clean: Profumo di panna, burro fuso e brodo di pollo, di medio equilibrio.
+  freq=   4  raw : leggero. non complesso. poche note fresche. più\ cotto e crosta. tostato
+             clean: Profumo leggero e poco complesso con poche note fresche, prevalentemente di cotto, crosta e tostato.
+  freq=   4  raw : principlamente vegetale cotto, segue panna e burro fuso
+             clean: Profumo principalmente vegetale cotto, con note di panna e burro fuso.
+  freq=   4  raw : Panna fresca sentori lattici e verdure lesse
+             clean: Profumo di panna fresca con sentori lattici e verdure lesse.
+  freq=   4  raw : brodo, burro
+             clean: Profumo di brodo e burro.
+  freq=   4  raw : crosta, cotto
+             clean: Profumo di crosta e cotto.
+  freq=   4  raw : latte;panna;brodo vegetale;
+             clean: Profumo di latte, panna e brodo vegetale.
+  freq=   4  raw : profumo equilibrato di panna e latte cotto
+             clean: Profumo equilibrato di panna e latte cotto.
+  freq=   4  raw : burro fuso e tostato
+             clean: Profumo di burro fuso e tostato.
+  freq=   4  raw : latticini freschi leggero erbaceo
+             clean: Profumo di latticini freschi con note erbacee leggere.
+  freq=   4  raw : burro e formaggio cotto
+             clean: Profumo di burro e formaggio cotto.
+  freq=   4  raw : burro fresco, debole
+             clean: Profumo di burro fresco, debole.
+  freq=   4  raw : latte cotto forte;latte bruciato e stalla moderato
+             clean: Profumo di latte cotto forte con note di latte bruciato e stalla di intensità moderata.
+  freq=   4  raw : Dolce
+             clean: Profumo dolce.
+  freq=   4  raw : piatto, poco complesso, nota lattica burro fuso, nota fruttata
+             clean: Profumo piatto, poco complesso, con nota lattica di burro fuso e nota fruttata.
+  freq=   4  raw : intenso, equilibrato e da grana tipico
+             clean: Profumo intenso ed equilibrato, tipico della grana.
+  freq=   4  raw : latte acidino
+             clean: Profumo di latte acidino.
+  freq=   4  raw : note di burro e panna
+             clean: Profumo di burro e panna.
+  freq=   4  raw : Sentore da stalla iniziale...che poi sparisce
+             clean: Profumo di stalla all'apertura, che svanisce.
+  freq=   4  raw : fieno, crosta di formaggio e grana
+             clean: Profumo di fieno, crosta di formaggio e grana.
+  freq=   4  raw : odssidato
+             clean: Profumo ossidato.
+  freq=   4  raw : panna e burro fresco, fruttato e leggero tostato
+             clean: Profumo di panna e burro fresco con note fruttate e leggero tostato.
+  freq=   4  raw : leggermente fieno
+             clean: Profumo leggermente di fieno.
+  freq=   4  raw : leggero. sentori maturi, cotti tostarti. poco fresco
+             clean: Profumo leggero con sentori maturi, cotti e tostati, poco fresco.
+  freq=   4  raw : assenza di odori negativi abbastanza intenso e positivo
+             clean: Profumo abbastanza intenso e positivo, senza odori negativi.
+  freq=   4  raw : Ananas e pompelmo
+             clean: Profumo di ananas e pompelmo.
+  freq=   4  raw : Troppo debole per valutare con sicurezza
+             clean: NON_DESCRITTO
+  freq=   4  raw : Prevale il probumo di formaggio grigliato e tostato, segue panna, latte cotto e burro fuso
+             clean: Profumo di formaggio tostato con note di panna, latte cotto e burro fuso.
+  freq=   4  raw : fungo;muffa
+             clean: Profumo di fungo e muffa.
+  freq=   4  raw : panna scaldata
+             clean: Profumo di panna scaldata.
+  freq=   4  raw : leggermente pungente un poco chiusolegg insilato;
+             clean: Profumo leggermente pungente, poco chiuso, con sentori di insilato.
+  freq=   4  raw : lattico dominante, burro fuso, burro cotto, nota di brodo, poco complesso ma abbastanza intenso
+             clean: Profumo lattico dominante con burro fuso, burro cotto e nota di brodo, poco complesso ma abbastanza intenso.
+  freq=   4  raw : all apertura del barattolino profumo fruttato e vanigliato, molto particolare, poi alla rottura dei pezzi più panna e lattici freschi, uno non cosi buono
+             clean: Profumo fruttato e vanigliato all'apertura, con note di panna e lattico fresco alla rottura dei pezzi.
+  freq=   4  raw : Polvere anche,,,
+             clean: NON_DESCRITTO
+  freq=   4  raw : Intrigante
+             clean: NON_DESCRITTO
+  freq=   4  raw : trovo del brodo vegetale, su note cotte
+             clean: Profumo di brodo vegetale su note cotte.
+  freq=   4  raw : leggero di pane lievito
+             clean: Profumo leggero di pane e lievito.
+  freq=   4  raw : burro fuso, formaggio cotto, leggermete ossidato
+             clean: Profumo di burro fuso e formaggio cotto, leggermente ossidato.
+  freq=   4  raw : leggero sentore di cotto, odore dominante di latte fresco
+             clean: Profumo di latte fresco con leggero sentore di cotto.
+  freq=   4  raw : leggero sentore di ossidato e di erba fermentata
+             clean: Profumo leggero di ossidato e di erba fermentata.
+  freq=   4  raw : una botta di taleggio al primo olfatto....poi il nulla
+             clean: Profumo di taleggio al primo olfatto, poi molto debole.
+  freq=   4  raw : all'apertura, cantina e muffa, tostati decisi, poi lattici molto stagionati
+             clean: Profumo all'apertura di cantina e muffa, tostati decisi, poi note lattiche molto stagionate.
+  freq=   4  raw : Lievi intensità
+             clean: Profumo leggero.
+  freq=   4  raw : burro, latte, leggero sentore di formaggio cotto
+             clean: Profumo di burro e latte con leggero sentore di formaggio cotto.
+  freq=   4  raw : Agrumi (all'apertura)
+             clean: Profumo di agrumi all'apertura.
+  freq=   4  raw : Poca intensità
+             clean: Profumo poco intenso.
+  freq=   4  raw : burro fuso, cotto, crosta e sooidato, poco intensi
+             clean: Profumo di burro fuso e cotto, con note di crosta e ossidato, poco intensi.
+  freq=   4  raw : odore sgradevole di fumo e altro che non riesco be a identificare
+             clean: Profumo di fumo con note non identificate sgradevoli.
+  freq=   4  raw : debole e poco percettibile. Si sente un sentore di erbaceo e leggero fermentato
+             clean: Profumo debole e poco percettibile, con sentore di erbaceo e leggero fermentato.
+  freq=   4  raw : vegetale fieno balsamico non spiacevole ma un poco estraneo
+             clean: Profumo vegetale di fieno e balsamico, leggermente estraneo.
+  freq=   4  raw : Peccato per il fondo di bruciato
+             clean: Profumo con fondo di bruciato.
+  freq=   4  raw : prima olfazione sentore di stalla. per il resto latte burro cotti. tostato
+             clean: Profumo con sentore di stalla all'apertura, seguito da note di latte e burro cotti con tostato.
+  freq=   4  raw : all'apertura leggero floreale molto volatile, poi lattici cotti e crosta di grana, anche difformi fra i pezzi
+             clean: Profumo leggero e floreale all'apertura, molto volatile, seguito da note lattiche cotte e di crosta di grana, con variabilità fra i pezzi.
+  freq=   4  raw : mediamente intenso, panna, burro fuso, brodo
+             clean: Profumo mediamente intenso di panna, burro fuso e brodo.
+  freq=   4  raw : Vinilico
+             clean: Profumo vinilico.
+  freq=   4  raw : Molto variegati all'apertura e nei singoli pezzi. Frutta matura e panna, ma anche negativi e volatili, tipo ammoniaca e fermentato, quasi marcio
+             clean: Profumo variegato all'apertura e nei singoli pezzi, con frutta matura e panna, ma anche note di ammoniaca e fermentato.
+  freq=   4  raw : dicreto buono in 3 pezzi su 4, ma in 1 c'è del marcio, putrido
+             clean: NON_DESCRITTO
+  freq=   4  raw : frutta matura
+             clean: Profumo di frutta matura.
+  freq=   4  raw : panna burro fuso brodo di carne e fruttato
+             clean: Profumo di panna, burro fuso, brodo di carne e fruttato.
+  freq=   4  raw : su note mature mi parve sentire note vegetali, anche floreali all-inizio
+             clean: Profumo con note mature, vegetali e floreali all'inizio.
+  freq=   4  raw : Odore chimico tipo colpa o simili
+             clean: Profumo di tipo chimico.
+  freq=   4  raw : strano.. acetone, fiore e solvente
+             clean: Profumo di acetone, fiore e solvente.
+  freq=   4  raw : Stalla ma solo al primo impatto!
+             clean: Profumo di stalla al primo impatto.
+  freq=   4  raw : Grasso di prosciutto crudo
+             clean: Profumo di grasso di prosciutto crudo.
+  freq=   4  raw : CAVOLFIORE , MINESTRONE VERDURA
+             clean: Profumo di cavolfiore e verdura di minestrone.
+  freq=   4  raw : profumo molto delicato, quasi impercettibile.
+             clean: Profumo molto delicato, quasi impercettibile.
+  freq=   4  raw : Anche di discreta intensità, ma sento una note animale. Latte cotto e burro cotto
+             clean: Profumo di latte cotto e burro cotto con nota animale, di discreta intensità.
+  freq=   4  raw : animale letame
+             clean: Profumo animale di letame.
+  freq=   4  raw : nota lattica meno evidente rispetto a quella di brodo, che un poco domina
+             clean: Profumo di brodo leggermente dominante rispetto alla nota lattica.
+  freq=   4  raw : leggermente latte acido
+             clean: Profumo leggermente acido con note lattiche.
+  freq=   4  raw : Erbaceo all'apertura, poi classici
+             clean: Profumo erbaceo all'apertura, poi note classiche.
+  freq=   4  raw : vegetale, cipolla sedano
+             clean: Profumo vegetale di cipolla e sedano.
+  freq=   4  raw : Nota vegetale di primo naso. Poi si alleggerisce
+             clean: Profumo vegetale all'apertura, poi leggermente più delicato.
+  freq=   4  raw : All'apertura anche fieno, formaggio cotto, crosta di grana, latte cotto
+             clean: Profumo di fieno, formaggio cotto, crosta di grana e latte cotto all'apertura.
+  freq=   4  raw : all'apertura negativo (sporco fermentato) poi non si sente
+             clean: Profumo negativo all'apertura con sentore di fermentato sporco, poi non percettibile.
+  freq=   4  raw : latte ;brodo di carne
+             clean: Profumo di latte e brodo animale.
+  freq=   4  raw : fermentato, pungente
+             clean: Profumo fermentato e pungente.
+  freq=   4  raw : intensità bassa. pochissime note lattee fresche. il resto è noia
+             clean: Profumo poco intenso con pochissime note lattiche fresche.
+  freq=   4  raw : intenso, da grana e frutta matura
+             clean: Profumo intenso di grana e frutta matura.
+  freq=   4  raw : acidi grassi
+             clean: Profumo di acidi grassi.
+  freq=   4  raw : Note evolute dominanti
+             clean: Profumo con note evolute dominanti.
+  freq=   4  raw : Sentore di grasso animale ossidato (eg: salame invecchiato)
+             clean: Profumo di grasso animale ossidato.
+  freq=   4  raw : brodo di carne, panna, burro leggero latte acido
+             clean: Profumo di brodo di carne, panna, burro leggero e note lattiche acide.
+  freq=   4  raw : leggeri difetti percepibili
+             clean: Profumo con leggeri difetti percepibili.
+  freq=   4  raw : frutato e lattico fresco (panna burro)
+             clean: Profumo fruttato e lattico fresco con note di panna e burro.
+  freq=   4  raw : Pannoso, elegante, ma moderata intensità
+             clean: Profumo elegante con moderata intensità.
+  freq=   4  raw : meido alta con un poco di tostatura per;
+             clean: Profumo di mela con note di tostatura.
+  freq=   4  raw : Pane tostato potentissimo
+             clean: Profumo intenso di pane tostato.
+  freq=   4  raw : non percettibile. senza odore
+             clean: NON_DESCRITTO
+  freq=   4  raw : intensità leggero-moderata. Bouquet floreale per lopiù, anche vegetale. Molto delicato e elegante. Particolare
+             clean: Profumo leggermente moderato con bouquet floreale e vegetale, molto delicato ed elegante.
+  freq=   4  raw : latte crudo;panna;
+             clean: Profumo di latte crudo e panna.
+  freq=   4  raw : debole, scarno. Nessun difetto ma pochi pregi. Tostato, cotto
+             clean: Profumo debole e scarno, con note di tostato e cotto.
+  freq=   4  raw : leggera presenza di fungo-muffa
+             clean: Profumo con leggera presenza di fungo e muffa.
+  freq=   4  raw : odore salato
+             clean: Profumo salato.
+  freq=   4  raw : debole frutta matura
+             clean: Profumo debole di frutta matura.
+  freq=   4  raw : latte acido, yogurt, fermentato, panna acida, difettoso
+             clean: Profumo di latte acido, yogurt, fermentato e panna acida.
+  freq=   4  raw : cipolla, minestrone verdura
+             clean: Profumo di cipolla e minestrone di verdura.
+  freq=   4  raw : leggero fruttato
+             clean: Profumo leggero fruttato.
+  freq=   4  raw : grana, kiwi, nocciola e tostato..
+             clean: Profumo di grana, kiwi, nocciola e tostato.
+  freq=   4  raw : burro fuso, burro, floreale
+             clean: Profumo di burro fuso e note floreali.
+  freq=   4  raw : stantio, passato
+             clean: Profumo stantio e passato.
+  freq=   4  raw : frutta, latte acido
+             clean: Profumo di frutta con note di latte acido.
+  freq=   4  raw : fruttato molto intenso ananas e tropicale
+             clean: Profumo molto intenso di frutta tropicale con note di ananas.
+  freq=   4  raw : buona intensità'. profumi maturi, burro fusolatte cotto. anche un pochetto di tostato e frutta seccasecca
+             clean: Profumo di burro fuso e latte cotto con profumi maturi, note di tostato e frutta secca, buona intensità.
+  freq=   4  raw : lieve nota fermentata, lattico presente e caratteristico
+             clean: Profumo con lieve nota fermentata e nota lattica caratteristica.
+  freq=   4  raw : gradevole di latte cotto e leggera crosta
+             clean: Profumo di latte cotto e crosta, leggero.
+  freq=   4  raw : Polvere, pungente
+             clean: Profumo di polvere, pungente.
+  freq=   4  raw : note vegetali e lattiche fresche
+             clean: Profumo di note vegetali e lattiche fresche.
+  freq=   4  raw : Molto molto tenue
+             clean: Profumo molto tenue.
+  freq=   4  raw : frutta secca intensità media;fineo fermentato intensità alta
+             clean: Profumo di frutta secca a intensità moderata e note di fieno fermentato intense.
+  freq=   4  raw : vegetale e cotto leggermente bruciato
+             clean: Profumo vegetale e cotto leggermente bruciato.
+  freq=   4  raw : latte e panna intensità media
+             clean: Profumo di latte e panna con intensità moderata.
+  freq=   4  raw : All'apertura odore stagnante poi non si sente
+             clean: Profumo stagnante all'apertura, poi non percepibile.
+  freq=   4  raw : brodo vegetale, verdure lesse, stantio
+             clean: Profumo di brodo vegetale e verdure lesse, leggermente stantio.
+  freq=   4  raw : Leggere note bruciate
+             clean: Profumo con leggere note bruciate.
+  freq=   4  raw : Prevalentemente brodo vegetale, panna, burro e verdure cotte
+             clean: Profumo prevalentemente di brodo vegetale, panna, burro e verdure cotte.
+  freq=   4  raw : latte e crema cotti
+             clean: Profumo di latte cotto e crema cotta.
+  freq=   4  raw : burro sciolto e brodo
+             clean: Profumo di burro sciolto e brodo.
+  freq=   4  raw : Al primo olfatto, sfumatura non gradevole
+             clean: Profumo con sfumatura non gradevole all'apertura.
+  freq=   4  raw : latte cotto e panna
+             clean: Profumo di latte cotto e panna.
+  freq=   4  raw : Quasi nota acetica
+             clean: Profumo quasi acetico.
+  freq=   4  raw : gradevole di lattico cotto ma un poco- leggero
+             clean: Profumo gradevole di lattico cotto, leggermente leggero.
+  freq=   4  raw : latte, burro e frutta matura
+             clean: Profumo di latte, burro e frutta matura.
+  freq=   4  raw : Ananas e caramella mu
+             clean: Profumo di ananas e caramello.
+  freq=   4  raw : Mollica di pane, burro cotto
+             clean: Profumo di mollica di pane e burro cotto.
+  freq=   4  raw : Abbastanza intenso
+             clean: Profumo abbastanza intenso.
+  freq=   4  raw : al primo olfatto odore sgradevole, stalla, fecale. poi dissolve. Resta comunque povero e maturo
+             clean: Profumo di stalla e nota fecale al primo olfatto, poi dissolve; complesso poco sviluppato e maturo.
+  freq=   4  raw : Peccato sfumatura bruciata e brodo che, ho dimenticato
+             clean: Profumo con sfumature di bruciato e brodo.
+  freq=   4  raw : brodo vegetale;latte cotto;
+             clean: Profumo di brodo vegetale e latte cotto.
+  freq=   4  raw : All' apertura plastica bruciata
+             clean: Profumo di plastica bruciata all'apertura.
+  freq=   4  raw : Complesso e piacevole
+             clean: NON_DESCRITTO
+  freq=   4  raw : panna alto
+             clean: Profumo di panna intensa.
+  freq=   4  raw : poco intenso e complesso, a tratti note di formaggio nostrano, scarico
+             clean: Profumo poco intenso e poco complesso, con note di formaggio nostrano, tendente allo scarico.
+  freq=   4  raw : latte cotto moderato;fermentato moderato
+             clean: Profumo di latte cotto con nota fermentata, entrambi di intensità moderata.
+  freq=   4  raw : formaggio fritto;
+             clean: Profumo di formaggio fritto.
+  freq=   4  raw : latte/panna , cotto
+             clean: Profumo di latte e panna cotta.
+  freq=   4  raw : leggero caramello
+             clean: Profumo di caramello leggero.
+  freq=   4  raw : poco intenso, monotono, brodo di carne
+             clean: Profumo poco intenso, monotono, di brodo di carne.
+  freq=   4  raw : Cavolo cotto
+             clean: Profumo di cavolo cotto.
+  freq=   4  raw : Tanta nanna, ma nota di formaggio non trentingrana
+             clean: Profumo di latte cotto con nota di formaggio non trentingrana.
+  freq=   4  raw : frutta ma anche di crosta di formaggio
+             clean: Profumo di frutta e crosta di formaggio.
+  freq=   4  raw : Povero. Poco complesso. Discreta intensità
+             clean: Profumo poco complesso con discreta intensità.
+  freq=   4  raw : un paio di pezzi profumo verdura lessa
+             clean: Profumo di verdura lessa.
+  freq=   4  raw : intenso, complesso, equilibrato, note di latte cotto e burro cotto, lievissima nota di bruciato, salvia
+             clean: Profumo intenso, complesso e equilibrato, con note di latte cotto e burro cotto, lievissima nota di bruciato e sentore di salvia.
+  freq=   4  raw : crosta e brodo vegetale
+             clean: Profumo di crosta e brodo vegetale.
+  freq=   4  raw : in negativo animale intensità bassa;;in positivo latte coto e siero acido intensità alta
+             clean: Profumo con note animali a bassa intensità e latte cotto con siero acido a alta intensità.
+  freq=   4  raw : note pungenti, tela bagnata, acqua ristagnante
+             clean: Profumo con note pungenti, di tela bagnata e acqua ristagnante.
+  freq=   4  raw : intensità' appena più' che leggera. note lattee mature, cotte. sentore vegetale leggero
+             clean: Profumo di intensità appena più che leggera con note lattee mature e cotte, sentore vegetale leggero.
+  freq=   4  raw : Fermentato intendo alcool
+             clean: Profumo fermentato con note di alcol.
+  freq=   4  raw : Correggi fieno non meno 1 ma più 0.2
+             clean: NON_DESCRITTO
+  freq=   4  raw : cotto crosta
+             clean: Profumo di cotto e crosta.
+  freq=   4  raw : latte, floreale e grana..
+             clean: Profumo di latte, con note floreali e di grana.
+  freq=   4  raw : Vaniglia. Sentori molto buoni insieme ad altri non buoni
+             clean: Profumo di vaniglia con sentori positivi e negativi.
+  freq=   4  raw : grana con leggera tostatura e poche note florali
+             clean: Profumo di grana con leggera tostatura e poche note floreali.
+  freq=   4  raw : latte e burro
+             clean: Profumo di latte e burro.
+  freq=   4  raw : tostati - caffè, cacao - latte cotto molto,
+             clean: Profumo di tostati, caffè, cacao e latte cotto molto intenso.
+  freq=   4  raw : burro fuso e crosta di formaggio, poco intenso
+             clean: Profumo di burro fuso e crosta di formaggio, poco intenso.
+  freq=   4  raw : Alla prima olfazione odore anomalo, di altro formaggio quantomeno.
+             clean: Profumo anomalo alla prima olfazione.
+  freq=   4  raw : in più di un pezzo sentore di marcio, fermentato cattico, putrido
+             clean: Profumo con sentore di marcio, fermentato e putrido.
+  freq=   4  raw : molto intenso da grana con leggera tostatura e floreale
+             clean: Profumo molto intenso di grana con leggera tostatura e note floreali.
+  freq=   4  raw : sentore di cotto e ossidato
+             clean: Profumo di cotto e ossidato.
+  freq=   4  raw : dddddddddd
+             clean: NON_DESCRITTO
+  freq=   4  raw : chiuso verdura cotta non del tutto positivo
+             clean: Profumo chiuso di verdura cotta, non del tutto positivo.
+  freq=   4  raw : mediamente intenso, note lattiche presenti ma con profumi che riconducono al floreale e all-ossidato, note vegetali di paglia
+             clean: Profumo mediamente intenso con note lattiche, floreali, ossidato e vegetali di paglia.
+  freq=   4  raw : alcuni pezzi con tostati molto decisi quasi troppo, speziati,
+             clean: Profumo di tostato deciso con note speziate.
+  freq=   4  raw : Troppa crosta
+             clean: NON_DESCRITTO
+  freq=   4  raw : chiuso leggermente ammoniaca
+             clean: Profumo chiuso con leggermente ammoniaca.
+  freq=   4  raw : Media intensità. Profumi tipici. Abbastanza complesso
+             clean: Profumo di intensità moderata, abbastanza complesso.
+  freq=   4  raw : Cipolla
+             clean: Profumo di cipolla.
+  freq=   4  raw : ruttato, latioco cotto e legera nota fermentata
+             clean: Profumo di burro fuso, latte cotto e leggera nota fermentata.
+  freq=   4  raw : fermentazione percettibile, latte cotto e burro sciolto
+             clean: Profumo di fermentazione percettibile con latte cotto e burro sciolto.
+  freq=   4  raw : crosta, cotto, verdura lessa
+             clean: Profumo di crosta cotta con note di verdura lessa.
+  freq=   4  raw : latte cotto burro fuso vegelale secco (fieno) fruttato e poco tostato
+             clean: Profumo di latte cotto, burro fuso, vegetale secco con sentori di fieno, fruttato e poco tostato.
+  freq=   4  raw : iniziale nota tostata, segue panna latte cotto e burro fuso
+             clean: Profumo iniziale tostato, seguito da panna cotta e burro fuso.
+  freq=   4  raw : mediamente intenso, lieve nota propionica, nota di acqua stagnante, pozzo
+             clean: Profumo mediamente intenso con lieve nota propionica e di acqua stagnante.
+  freq=   4  raw : All’inizio ho sentito fumo, Poi scomparso
+             clean: Profumo iniziale di fumo, poi svanito.
+  freq=   4  raw : intenso ma poco caratteristico, stantio, chiuso, catina
+             clean: Profumo intenso ma poco caratteristico, leggermente stantio e chiuso.
+  freq=   4  raw : burro sciolto. Latte. panna. sentori maturi. buona intensità'.. poco di frutta secca tostata
+             clean: Profumo di burro sciolto e latte con panna, sentori maturi, buona intensità e poco di frutta secca tostata.
+  freq=   4  raw : vegetale, erbaceo, cotto
+             clean: Profumo vegetale, erbaceo e cotto.
+  freq=   4  raw : Alla apertura soltanto
+             clean: Profumo presente all'apertura.
+  freq=   4  raw : floreale e fruttato, fresco, pannoso
+             clean: Profumo floreale e fruttato, fresco.
+  freq=   4  raw : leggermente fruttato ananas(
+             clean: Profumo leggermente fruttato di ananas.
+  freq=   4  raw : leggerissimo crosta e ossidato
+             clean: Profumo molto leggermente di crosta e ossidato.
+  freq=   4  raw : poco intenso, note lattiche scariche, burro cotto, brodo
+             clean: Profumo poco intenso con note lattiche scariche, burro cotto e brodo.
+  freq=   4  raw : odore di burro fuso, con note di tostato e brodo vegetale, nell'insieme non del tutto gradevole
+             clean: Profumo di burro fuso con note di tostato e brodo vegetale.
+  freq=   4  raw : Forte
+             clean: Profumo forte.
+  freq=   4  raw : Funghi
+             clean: Profumo di funghi.
+  freq=   4  raw : vegetale, crosta
+             clean: Profumo vegetale con note di crosta.
+  freq=   4  raw : una porzione penalizza perché di fermentato
+             clean: Profumo con note di fermentato in una porzione.
+  freq=   4  raw : latte cotto , brodo
+             clean: Profumo di latte cotto e brodo.
+  freq=   4  raw : brodo di carne
+             clean: Profumo di brodo di carne.
+  freq=   4  raw : Molto vegetale
+             clean: Profumo molto vegetale.
+  freq=   4  raw : misto di brodo vegetale, stalla e ossidato piuttosto intenso
+             clean: Profumo di brodo vegetale, stalla e ossidato piuttosto intenso.
+  freq=   4  raw : fruttato burro fuso e latte cotto, nota tostata finale
+             clean: Profumo fruttato di burro fuso e latte cotto con nota tostata finale.
+  freq=   4  raw : cotto e ossidato
+             clean: Profumo cotto e ossidato.
+  freq=   4  raw : latte e brodo
+             clean: Profumo di latte e brodo.
+  freq=   4  raw : nota animale
+             clean: Profumo con nota animale.
+  freq=   4  raw : Leggerissima nota tormentata
+             clean: Profumo con leggerissima nota tormentata.
+  freq=   4  raw : frutta matura intensità alta
+             clean: Profumo di frutta matura con intensità alta.
+  freq=   4  raw : burroso, con leggero sentore erbaceo
+             clean: Profumo burroso con leggero sentore erbaceo.
+  freq=   4  raw : fieno
+             clean: Profumo di fieno.
+  freq=   4  raw : Minerale-roccia
+             clean: Profumo di minerale e roccia.
+  freq=   4  raw : sentore di stalla, crosta e ossidato
+             clean: Profumo con sentore di stalla, crosta e ossidato.
+  freq=   4  raw : intensità' media con note da frutta matura e un p; di emmenthal non troppo tipico
+             clean: Profumo di intensità moderata con note di frutta matura e un poco di emmenthal.
+  freq=   4  raw : Burro cotto, nota di confetto
+             clean: Profumo di burro cotto con nota di confetto.
+  freq=   4  raw : panna e burro fresco, ma frutta tropicale, frutta fermentata, poco caratteristico
+             clean: Profumo di panna e burro fresco con note di frutta tropicale e frutta fermentata, poco caratteristico.
+  freq=   4  raw : fermentato, insilato di mais
+             clean: Profumo fermentato con note di insilato di mais.
+  freq=   4  raw : latte e crema crudi ma leggeri
+             clean: Profumo di latte e crema crudi, leggeri.
+  freq=   4  raw : all'apertura vegetali intensi, poi lattici cotti, tostati quasi caffè, complessivamente non negativi
+             clean: Profumo all'apertura con vegetali intensi, seguiti da note lattiche cotte e tostate quasi caffè, complessivamente non negativo.
+  freq=   4  raw : burro fuso, crosta.
+             clean: Profumo di burro fuso con sentori di crosta.
+  freq=   4  raw : burro, fuso, formaggio cotto, crosta cou una punta di bruciato.
+             clean: Profumo di burro fuso, formaggio cotto e crosta con una punta di bruciato.
+  freq=   4  raw : intenso con note tipiche ed anche da burro
+             clean: Profumo intenso con note di burro.
+  freq=   4  raw : nota animale quasi sporca e note aromatiche tipiche dei formaggi svizzeri tipo sbrinz
+             clean: Profumo con nota animale e note aromatiche tipiche dei formaggi svizzeri tipo sbrinz.
+  freq=   4  raw : nota blievemente bruciata, per iol resto caratteristico
+             clean: Profumo leggermente bruciato con carattere gradevole nel complesso.
+  freq=   4  raw : una nota di stalla, formaggio cotto, tanto, e burro. discreta l-intensità
+             clean: Profumo di stalla, formaggio cotto e burro con intensità discreta.
+  freq=   4  raw : intenso ma con note da formaggio fritto&crosta
+             clean: Profumo intenso con note di formaggio fritto e crosta.
+  freq=   4  raw : Tostato
+             clean: Profumo tostato.
+  freq=   4  raw : intensità bassa. prevalgono profumi erbacei, vegetali freschi, fors'anche floreali. Strano bouquet, gradevole
+             clean: Profumo di bassa intensità con prevalenza di note erbacee e vegetali freschi, possibili sentori floreali.
+  freq=   4  raw : tostato intensità leggera;frutta (ananas) intensità leggera
+             clean: Profumo tostato e di frutta con ananas, entrambi di intensità leggera.
+  freq=   4  raw : latte cotto moderato;animale moderato/forte
+             clean: Profumo di latte cotto moderato e note animali da moderata a forte.
+  freq=   4  raw : formaggio pronto
+             clean: NON_DESCRITTO
+  freq=   4  raw : insilato pungente
+             clean: Profumo di insilato pungente.
+  freq=   4  raw : Note vegetali a tratti anche intense
+             clean: Profumo con note vegetali a tratti intenso.
+  freq=   4  raw : poco intenso e complesso, presenti le note caratteristiche ma scarico
+             clean: Profumo poco intenso e poco complesso, con note caratteristiche ma scariche.
+  freq=   4  raw : abbastanza intenso, note di formaggio nostrano, lievemente ossidato, burro cotto
+             clean: Profumo abbastanza intenso di formaggio nostrano con burro cotto e lieve nota ossidata.
+  freq=   4  raw : prevalenti note di cotto, latte cotto, panna cotta, burro cotto, quasi caramello
+             clean: Profumo di latte cotto, panna cotta e burro cotto con note di caramello.
+  freq=   4  raw : disomogeneo tra le porzioni;2 in positivo latte e panna intensità alta;2 in negativo verdure lesse intensità alta
+             clean: Profumo disomogeneo tra le porzioni: latte e panna ad alta intensità nelle aree positive, verdure lesse ad alta intensità nelle aree negative.
+  freq=   4  raw : disomogeneo tra i diversi pezzi da latte acidificato a formaggio stagionato latte cotto intensità moderata
+             clean: Profumo disomogeneo tra i diversi pezzi, da latte acidificato a latte cotto, con intensità moderata.
+  freq=   4  raw : latte cotto, formaggio cotto e brodo
+             clean: Profumo di latte cotto, formaggio cotto e brodo.
+  freq=   4  raw : Intenso profumo di panna e latte
+             clean: Profumo intenso di panna e latte.
+  freq=   4  raw : note di rancido
+             clean: Profumo con note di rancido.
+  freq=   4  raw : 2 porzioni su 4 con leggero odore negativo
+             clean: Profumo leggermente negativo in parte del formaggio.
+  freq=   4  raw : intenso, caratteristico, burro fuso, brodo, vegetale secco, lieve puzza di tele bagnate
+             clean: Profumo intenso di burro fuso, brodo e vegetale secco con lieve sentore di tele bagnate.
+  freq=   4  raw : Muschio
+             clean: Profumo di muschio.
+  freq=   4  raw : moderata intensità. panna, cotto. frutta secca. anche note vegetali di brodo
+             clean: Profumo di moderata intensità con panna e cotto, note di frutta secca e vegetali di brodo.
+  freq=   4  raw : Poco intenso manca tra i commenti?
+             clean: NON_DESCRITTO
+  freq=   4  raw : lattici cotti e verdura lessa leggera
+             clean: Profumo di lattici cotti e verdura lessa leggermente presente.
+  freq=   4  raw : ossidato e crosta, leggeri
+             clean: Profumo leggermente ossidato con note di crosta.
+  freq=   4  raw : Burro fresco, panna. Buona intensità
+             clean: Profumo di burro fresco e panna con buona intensità.
+  freq=   4  raw : Buona intensità. Sentori lattei , più d'uno
+             clean: Profumo di buona intensità con sentori lattei múltipli.
+  freq=   4  raw : burro, burro fuso e crosta, leggeri
+             clean: Profumo di burro e burro fuso con note di crosta, leggeri.
+  freq=   4  raw : brodo / tostato bruciato
+             clean: Profumo di brodo con note di tostato bruciato.
+  freq=   4  raw : fievole
+             clean: Profumo fievole.
+  freq=   4  raw : latte privo di particolari note
+             clean: Profumo di latte privo di particolari note.
+  freq=   4  raw : crosta, formaggio stantio
+             clean: Profumo di crosta e formaggio stantio.
+  freq=   4  raw : panna e latticini freschi con un poco- di vegetale/lessato
+             clean: Profumo di panna e latticini freschi con poco vegetale e lessato.
+  freq=   4  raw : Vegetalke cotto, burro, panna, tostato leggero
+             clean: Profumo di vegetale cotto, burro, panna e tostato leggero.
+  freq=   4  raw : Intenso ed elegante
+             clean: Profumo intenso ed elegante.
+  freq=   4  raw : medio moderata intensità. Panna, latte intero, burro sciolto. poca crosta
+             clean: Profumo di panna, latte e burro sciolto con intensità moderata.
+  freq=   4  raw : emmental no difetti ma non tipico
+             clean: Profumo di emmental senza difetti, non tipico.
+  freq=   4  raw : sentore di cotto
+             clean: Profumo di cotto.
+  freq=   4  raw : Panna cotta
+             clean: Profumo di panna cotta.
+  freq=   4  raw : animale stallatico
+             clean: Profumo animale e stallatico.
+  freq=   4  raw : molto intenso da grana e con note florali e leggera tostatura
+             clean: Profumo molto intenso da grana con note floreali e leggera tostatura.
+  freq=   4  raw : panna leggere fungo
+             clean: Profumo di panna leggera con note di fungo.
+  freq=   4  raw : formaggio cotto e burro fuso
+             clean: Profumo di formaggio cotto e burro fuso.
+  freq=   4  raw : leggero, non del tutto da grana
+             clean: Profumo leggero, non completamente caratteristico di grana.
+  freq=   4  raw : ossidato MODERATO, frutta: ananas MODERATO, speziato MOderato;(tutti questi parmetri hanno un contributo negativo)
+             clean: Profumo moderatamente ossidato con note di ananas e speziato.
+  freq=   4  raw : fieno fermentato, crosta di grana
+             clean: Profumo di fieno fermentato e crosta di grana.
+  freq=   4  raw : fermentato, un poco' anche marcio
+             clean: Profumo fermentato con un poco di marcio.
+  freq=   4  raw : Elegante! Cioccolata e anche lievito...
+             clean: Profumo di cioccolata e lievito.
+  freq=   4  raw : panna e burro, brodo, leggera notaa animale
+             clean: Profumo di panna e burro con brodo e leggera nota animale.
+  freq=   4  raw : debole. fieno, pane. poco fresco
+             clean: Profumo debole di fieno e pane, poco fresco.
+  freq=   4  raw : fermentato, yogurt ne negativi ne positivi
+             clean: Profumo fermentato con note di yogurt, né negative né positive.
+  freq=   4  raw : Crosta di grana, verdura lessa
+             clean: Profumo di crosta di grana e verdura lessa.
+  freq=   4  raw : note dolciastre con floreale e frutta.. un pò di grana!
+             clean: Profumo dolciastro con note floreali, fruttato e sentore di grana.
+  freq=   4  raw : intensità' moderata, ma qualit' positive ed armoniche
+             clean: Profumo di intensità moderata, armonico e positivo.
+  freq=   4  raw : Profumo caratteristico, media intensità
+             clean: Profumo caratteristico a media intensità.
+  freq=   4  raw : leggermente kefir/yogurt ins mais
+             clean: Profumo leggermente lattico di kefir e yogurt con nota di mais insilato.
+  freq=   4  raw : leggero-moderato. tostato. lieve cotto
+             clean: Profumo leggero-moderato con note di tostato e lieve cotto.
+  freq=   4  raw : Acre
+             clean: Profumo acre.
+  freq=   4  raw : intensità medio-moderata. oltre a note lattee mature, c'è qualcosa di vegetale leggero
+             clean: Profumo di intensità moderata con note lattiche mature e sentore vegetale leggero.
+  freq=   4  raw : pungente stagionato
+             clean: Profumo pungente di formaggio stagionato.
+  freq=   4  raw : Note cotte, crosta,burro fuso. non sento note latte fresche
+             clean: Profumo di note cotte, crosta e burro fuso, senza note lattiche fresche.
+  freq=   4  raw : Intensità media, all'apertura anche fruttato
+             clean: Profumo di intensità media con note fruttate all'apertura.
+  freq=   4  raw : burro, latte, yoguth, fumè, floreale...
+             clean: Profumo di burro, latte, yogurt e note floreali con sentore affumicato.
+  freq=   4  raw : no difetti ma chiuso
+             clean: Profumo chiuso.
+  freq=   4  raw : nessu aroma particoare
+             clean: NON_DESCRITTO
+  freq=   4  raw : profumo molto debole ed inoltre si sente solo odore di formaggio vecchio, passato
+             clean: Profumo molto debole con sentore di formaggio ossidato.
+  freq=   4  raw : Tanta nanna e latte. Ben intenso
+             clean: Profumo intenso di panna e latte.
+  freq=   4  raw : Prima olfazione: tra animale e stalla
+             clean: Profumo tra animale e stalla.
+  freq=   4  raw : stalla, insilato non positivo
+             clean: Profumo di stalla e insilato.
+  freq=   4  raw : profumo intenso. latte cotto, burro, crosta
+             clean: Profumo intenso di latte cotto, burro e crosta.
+  freq=   4  raw : Poco complesso e poco intenso
+             clean: Profumo poco complesso e poco intenso.
+  freq=   4  raw : leggero. nessun difetto
+             clean: Profumo leggero.
+  freq=   4  raw : Panna burro lato cotto leggero tostato
+             clean: Profumo di panna e burro cotto, leggero e tostato.
+  freq=   4  raw : cacao, caffè, tostato, cuoio, caramello - soprattutto all'apertura del barattolo, poi tostati più semplici e lattico cotto, leggermente speziato
+             clean: Profumo di cacao, caffè, tostato, cuoio e caramello all'apertura, seguiti da note più semplici di tostato e lattico cotto, leggermente speziato.
+  freq=   4  raw : Crosta solo accennata
+             clean: NON_DESCRITTO
+  freq=   4  raw : fungo
+             clean: Profumo di fungo.
+  freq=   4  raw : Intensità più che moderata
+             clean: Profumo più che moderatamente intenso.
+  freq=   4  raw : Kiwi,,,e bruciato?
+             clean: Note olfattive di kiwi e bruciato.
+  freq=   4  raw : lattico acido yogurt tostato burro fuso
+             clean: Profumo lattico e acido con note di yogurt, tostato e burro fuso.
+  freq=   4  raw : formaggio cotto;latte
+             clean: Profumo di formaggio cotto e latte.
+  freq=   4  raw : profumo molto debole
+             clean: Profumo molto debole.
+  freq=   4  raw : grana, yogurth, intenso..
+             clean: Profumo di grana e yogurt, intenso.
+  freq=   4  raw : Odori solo all’apertura
+             clean: Profumo percettibile all'apertura.
+  freq=   4  raw : latte, burro, grana, fieno e nocciola
+             clean: Profumo di latte, burro, grana, fieno e nocciola.
+  freq=   4  raw : sentori di cotto, affumicato, lessato
+             clean: Profumo di cotto, affumicato e lessato.
+  freq=   4  raw : sensazione pungente all'apertura, poi note vegetali un poco' fermentate, un poco' di affumicato, lattico cotto
+             clean: Profumo pungente all'apertura con note vegetali leggermente fermentate, poco affumicato e lattico cotto.
+  freq=   4  raw : Brodo di carna, burro fuso e latte cotto, leggero sottobosco e tostato
+             clean: Profumo di brodo di carne, burro fuso e latte cotto con note di sottobosco e tostato.
+  freq=   4  raw : accenno di crosta
+             clean: Profumo con accenno di crosta.
+  freq=   4  raw : yoghurt
+             clean: Profumo di yoghurt.
+  freq=   4  raw : Pungente
+             clean: Profumo pungente.
+  freq=   4  raw : leggero, anche qualcosa di vegetale e floreale
+             clean: Profumo leggero con note vegetali e floreali.
+  freq=   4  raw : ossidato e punta di fermentato
+             clean: Profumo ossidato con punta di fermentato.
+  freq=   4  raw : salamoia crauti
+             clean: Profumo di salamoia e crauti.
+  freq=   4  raw : Amido
+             clean: Profumo di amido.
+  freq=   4  raw : prima olfazione: stalla/fecale. poiresta una sensazione di tostato, pane frutta secca. intensità più che moderata, ignoro il primo odore sgradevole
+             clean: Profumo di stalla all'apertura, seguito da note di tostato, pane e frutta secca, con intensità più che moderata.
+  freq=   4  raw : latte cotto, caramello
+             clean: Profumo di latte cotto e caramello.
+  freq=   4  raw : positivo di burro e panna. leggero sentoee di cotto
+             clean: Profumo positivo di burro e panna con leggero sentore di cotto.
+  freq=   4  raw : al primo impatto stracci sporchi
+             clean: Profumo di stracci sporchi all'apertura.
+  freq=   4  raw : sentore di cotto, tostato
+             clean: Profumo di cotto e tostato.
+  freq=   4  raw : latte cotto intensità leggera;verdure lesse intensità leggera;animale intensità leggera
+             clean: Profumo di latte cotto, verdure lesse e note animali, tutti a intensità leggera.
+  freq=   4  raw : animale MODERATO;crauti MODERATO;cipolla LEGGERO
+             clean: Profumo con note animali e di crauti moderate, leggermente cipolloso.
+  freq=   4  raw : tostatura tyroppo prevalente
+             clean: Profumo di tostatura abbastanza prevalente.
+  freq=   4  raw : sentore di panna
+             clean: Profumo di panna.
+  freq=   4  raw : vegetale e cotto/bruciato
+             clean: Profumo vegetale con note di cotto e bruciato.
+  freq=   4  raw : crosta, verdure lesse, tostato forte
+             clean: Profumo di crosta, verdure lesse e tostato intenso.
+  freq=   4  raw : fruttato intenso (pesca)
+             clean: Profumo intenso fruttato con note di pesca.
+  freq=   4  raw : Caffè
+             clean: Profumo di caffè.
+  freq=   4  raw : Intenso vegetale all'apertura, poi verdure cotte, crosta di grana e formaggio cotto
+             clean: Profumo intenso vegetale all'apertura, seguito da verdure cotte, crosta di grana e formaggio cotto.
+  freq=   4  raw : formaggio ;fermentato FORTE
+             clean: Profumo di formaggio fermentato forte.
+  freq=   4  raw : molto pannoso
+             clean: Profumo molto pannoso.
+  freq=   4  raw : buona intensità. sentori lattei anche se poco freschi. sentore di latte cotto, burro. comunque corretto
+             clean: Profumo di buona intensità con sentori lattei e di latte cotto, burro, poco fresco.
+  freq=   4  raw : intenso, equilibrato, piacevoli note lattiche cotte e di brodo
+             clean: Profumo intenso e equilibrato con note lattiche cotte e di brodo.
+  freq=   4  raw : piuttosto intenso con tostaura anche prevalente
+             clean: Profumo piuttosto intenso con note di tostatura prevalente.
+  freq=   4  raw : leggero. pane, latte anche fresco, burro. peccato che poco intenso
+             clean: Profumo leggero di pane, latte fresco e burro, poco intenso.
+  freq=   4  raw : da formaggio fresco,
+             clean: Profumo da formaggio fresco.
+  freq=   4  raw : nota inizialmente nota fermentata, frutta fermentata, crosta di formaggio, formaggio vecchio, comunque presente la nota lattica e di glutammato
+             clean: Profumo con note fermentate di frutta fermentata, crosta di formaggio e formaggio vecchio, con nota lattica e di glutammato.
+  freq=   4  raw : non tipico da altro formaggio cotto
+             clean: NON_DESCRITTO
+  freq=   4  raw : intensità moderata. latte. sentore cotto. poco cuoio
+             clean: Profumo di latte con sentore cotto, intensità moderata e poco cuoio.
+  freq=   4  raw : Stalla al primo impatto poi si apre!!!
+             clean: Profumo di stalla all'apertura, poi complesso.
+  freq=   4  raw : vegetale e cotto
+             clean: Profumo vegetale e cotto.
+  freq=   4  raw : delicato frutta tropicale, leggermente fermentata
+             clean: Profumo delicato di frutta tropicale, leggermente fermentato.
+  freq=   4  raw : caratteristico, abbastanza complesso, nite di latte cotto e burro cotto, brodo, lievissima nota ossidata
+             clean: Profumo caratteristico e abbastanza complesso, con note di latte cotto e burro cotto, brodo e lievissima nota ossidata.
+  freq=   4  raw : muffa
+             clean: Profumo di muffa.
+  freq=   4  raw : latte fresco;panna;brodo vegetale
+             clean: Profumo di latte fresco, panna e brodo vegetale.
+  freq=   4  raw : molto delicato, non ricorda il grana
+             clean: Profumo molto delicato, non paglierina.
+  freq=   4  raw : latte cotto;burro fuso;
+             clean: Profumo di latte cotto e burro fuso.
+  freq=   4  raw : Crosta in senso positivo (in precedenza poteva essere positivo o negativo)
+             clean: NON_DESCRITTO
+  freq=   4  raw : Cacao, alito da caffè
+             clean: Profumo di cacao con note di caffè.
+  freq=   4  raw : leggero fruttato e lattico cotto, poco brodo e tostato
+             clean: Profumo leggero fruttato e lattico cotto, con poco brodo e tostato.
+  freq=   4  raw : fruttato, panna, burro fusoe leggero sentore di verdure cotte e pane tostato
+             clean: Profumo fruttato con panna, burro fuso e leggero sentore di verdure cotte e pane tostato.
+  freq=   4  raw : brodo leggermente difettoso
+             clean: Profumo di brodo leggermente difettoso.
+  freq=   4  raw : soprattutto panna, burro fuso, latte cotto e tostatoleggero
+             clean: Profumo di panna, burro fuso, latte cotto e tostato, leggero.
+  freq=   4  raw : non molto intenso, nota fruttata oltre a quelle caratteristiche
+             clean: Profumo non molto intenso con nota fruttata.
+  freq=   4  raw : sentore di panna, burro
+             clean: Profumo di panna e burro.
+  freq=   4  raw : ossidato, vecchio
+             clean: Profumo ossidato e di formaggio vecchio.
+  freq=   4  raw : Gomma bruciata più evidente all’apertura
+             clean: Profumo di gomma bruciata, più evidente all'apertura.
+  freq=   4  raw : latticini freschi
+             clean: Profumo di latticini freschi.
+  freq=   4  raw : abbastanza intenso ma poco pulito, nota di pozzo di scarico, crosta di formaggio
+             clean: Profumo abbastanza intenso ma poco pulito, con nota di pozzo di scarico.
+  freq=   4  raw : crosta, leggermente bruciato
+             clean: Profumo di crosta con note leggermente bruciate.
+  freq=   4  raw : lieve nota ossidata di cetriolo / cimice, per il resto piuttosto piatto
+             clean: Profumo con lieve nota ossidata di cetriolo e cimice, per il resto piuttosto piatto.
+  freq=   4  raw : leggermente pezze sporche
+             clean: Profumo leggermente di stalla.
+  freq=   4  raw : intensità' decisamente scarsa
+             clean: Profumo molto scarso.
+  freq=   4  raw : panna prevalente segue il vegetale secco e il tostato
+             clean: Profumo di panna prevalente, seguito da note di vegetale secco e tostato.
+  freq=   4  raw : grana, nocciola, tostatura...
+             clean: Profumo di grana, nocciola e tostatura.
+  freq=   4  raw : totato, bruciato, fumo leggeri
+             clean: Profumo di tostato, bruciato e fumo leggeri.
+  freq=   4  raw : con nota dolce
+             clean: Profumo con nota dolce.
+  freq=   4  raw : poco intenso, burro fuso, poco complesso, piatto
+             clean: Profumo di burro fuso, poco intenso e poco complesso.
+  freq=   4  raw : Intensità' non elevata. Burro, latte cotto. Panna. Tostato lieve. Maturo
+             clean: Profumo di burro e latte cotto con note di panna e tostato lieve, poco intenso.
+  freq=   4  raw : cotto, leggermente ossidato, burro fuso
+             clean: Profumo di cotto, leggermente ossidato, burro fuso.
+  freq=   4  raw : molto leggero, quasi impercettibile. Leggero sentore di cotto
+             clean: Profumo molto leggero con leggero sentore di cotto.
+  freq=   4  raw : piatto, note lattiche presenti di burro fuso, brodo, lievi note animali, non del tutto pulito
+             clean: Profumo piatto con note lattiche e di burro fuso, brodo, lievi note animali, non del tutto pulito.
+  freq=   4  raw : Crauti acidi
+             clean: Profumo di crauti acidi.
+  freq=   4  raw : latte, kiwi. nocciola
+             clean: Profumo di latte, kiwi e nocciola.
+  freq=   4  raw : molto leggero, quasi impercettibile
+             clean: Profumo molto leggero, quasi impercettibile.
+  freq=   4  raw : verdure lesse
+             clean: Profumo di verdure lesse.
+  freq=   4  raw : una porzione con percepibili note animali e vegetali
+             clean: Profumo con note animali e vegetali percettibili.
+  freq=   4  raw : latte cotto molto, quando si attacca alla padella, mou, cacao non zuccherato,
+             clean: Profumo di latte cotto intenso con note di cacao non zuccherato.
+  freq=   4  raw : panna e latte fresco, sentore di frutta secca
+             clean: Profumo di panna e latte fresco con sentore di frutta secca.
+  freq=   4  raw : sbilanciato sul vegetale e sul brodo di verdura, nota lattica presente ma comunque poco intensa
+             clean: Profumo sbilanciato sul vegetale e sul brodo di verdura, con nota lattica poco intensa.
+  freq=   4  raw : formaggio maturo tendente alla sovramaturazione
+             clean: Profumo di formaggio maturo tendente alla sovramaturazione.
+  freq=   4  raw : Tanto latte, burro fresco. Alla prima occasione odore di altro formaggio, fermentato che mi fa penalizzare.
+             clean: Profumo di latte e burro fresco, con note di formaggio fermentato.
+  freq=   4  raw : ananas leggero
+             clean: Profumo di ananas leggero.
+  freq=   4  raw : delicato e floreale. latte cotto, pane, frutta secca tostata leggera
+             clean: Profumo delicato e floreale con note di latte cotto, pane e frutta secca tostata leggera.
+  freq=   4  raw : Paglia sporca
+             clean: Profumo di paglia sporca.
+  freq=   4  raw : panna e floreale, ma un poco stucchevole
+             clean: Profumo di panna e floreale, leggermente stucchevole.
+  freq=   4  raw : Molto buono!
+             clean: NON_DESCRITTO
+  freq=   4  raw : buona intensità . tostato, cuoio su base lattea
+             clean: Profumo di tostato e cuoio su base lattea con buona intensità.
+  freq=   4  raw : gradevole, equilibrato, latte cotto, burro fuso, fieno, brodo
+             clean: Profumo equilibrato di latte cotto, burro fuso, fieno e brodo.
+  freq=   4  raw : leggero e quasi impercettibile
+             clean: Profumo leggero e quasi impercettibile.
+  freq=   4  raw : leggera tostatura che prevale...
+             clean: Profumo di leggera tostatura prevalente.
+  freq=   4  raw : formaggio fritto;e crosta di formaggio
+             clean: Profumo di formaggio fritto e crosta di formaggio.
+  freq=   4  raw : stalla
+             clean: Profumo di stalla.
+  freq=   4  raw : ammoniacale e pungente all'apertura
+             clean: Profumo ammoniacale e pungente all'apertura.
+  freq=   4  raw : odore di acido;frutta marcita
+             clean: Profumo acido con note di frutta marcita.
+  freq=   4  raw : grana, mela-fruttato e floreale anche
+             clean: Profumo di grana con note fruttate, melate e floreali.
+  freq=   4  raw : Intensità notevole
+             clean: Profumo intenso.
+  freq=   4  raw : poco armonico, nota cotta di formaggio cotto, brodo, poco caratteristico
+             clean: Profumo poco armonico di formaggio cotto e brodo, poco caratteristico.
+  freq=   4  raw : odore i latticini freschi + e verdura lessata -
+             clean: Profumo di latticini freschi e verdura lessata.
+  freq=   4  raw : Profumo debole
+             clean: Profumo debole.
+  freq=   4  raw : caramella mou, burro cotto
+             clean: Profumo di caramella mou e burro cotto.
+  freq=   4  raw : leggero spunto di stalla e di crosta
+             clean: Profumo leggero di stalla e crosta.
+  freq=   4  raw : lattico, intenso, lievi sentori fermentati e animali
+             clean: Profumo lattico intenso con lievi sentori fermentati e animali.
+  freq=   4  raw : Alle prime operazioni sgradevole odore di grasso animale ossidato
+             clean: Profumo sgradevole di grasso animale ossidato all'apertura.
+  freq=   4  raw : Caffè,cacao amaro
+             clean: Profumo di caffè e cacao amaro.
+  freq=   4  raw : intensità' medio bassa. note lattee, burro, latte cotto
+             clean: Profumo di intensità media-bassa con note lattee, burro e latte cotto.
+  freq=   4  raw : Piacevole
+             clean: NON_DESCRITTO
+  freq=   4  raw : leggero sentore di cotto e ossidato
+             clean: Profumo leggero di cotto e ossidato.
+  freq=   4  raw : premio la buona intensità'. frofumi di latte cotto, burro sciolto. frutta secca.
+             clean: Profumo di latte cotto, burro sciolto e frutta secca, buona intensità.
+  freq=   4  raw : pregi e difetti...TENDENTE ALLO STALLATICO
+             clean: Profumo tendente allo stallatico.
+  freq=   4  raw : Nota leggermente fermentata
+             clean: Profumo leggermente fermentato.
+  freq=   4  raw : latte cotto;formaggio fritto
+             clean: Profumo di latte cotto e formaggio fritto.
+  freq=   4  raw : pungente all apertura del tappo, frutta molto matura alla rottura, panna decisa
+             clean: Profumo pungente all'apertura, con note di frutta molto matura e panna decisa.
+  freq=   4  raw : Limone ammuffito
+             clean: Profumo di limone ammuffito.
+  freq=   4  raw : odore animale
+             clean: Profumo di odore animale.
+  freq=   4  raw : Rompendo un paio di pezzi odore più dolciastro e da cavolfiore cotto
+             clean: Profumo dolciastro di cavolfiore cotto.
+  freq=   4  raw : vegetali fermentato
+             clean: Profumo di vegetali fermentati.
+  freq=   4  raw : Odore iniziale non convincente, poi sfuma
+             clean: Profumo iniziale poco convincente, poi sfumato.
+  freq=   4  raw : Anche ben complesso. Ma intensità limitata
+             clean: Profumo abbastanza complesso con intensità limitata.
+  freq=   4  raw : Intensità molto lieve, all'apertura anche erba tagliata
+             clean: Profumo molto lieve con note di erba tagliata all'apertura.
+  freq=   4  raw : Vaniglia all’apertura
+             clean: Profumo di vaniglia all'apertura.
+  freq=   4  raw : note floreali su base latte, panna e burro freschi. lieve tostatura. intensità' buona
+             clean: Profumo di note floreali su base di latte, panna e burro freschi, con lieve tostatura e buona intensità.
+  freq=   4  raw : Ottima intensità
+             clean: Profumo di buona intensità.
+  freq=   4  raw : latte cotto intensità leggero/moderata;siero acido intensità leggera
+             clean: Profumo di latte cotto con intensità leggera e note di siero acido.
+  freq=   4  raw : Pochi sentori pannosi.
+             clean: Profumo con pochi sentori pannosi.
+  freq=   4  raw : intenso, nota fermentata, frutta fermentata, burro sciolto
+             clean: Profumo intenso di burro sciolto con note fermentate e frutta fermentata.
+  freq=   4  raw : buona intensità';latte cotto, poca panna, pane, tostato, frutta secca, burro fuso
+             clean: Profumo di latte cotto, pane, tostato e frutta secca con poca panna e burro fuso, buona intensità.
+  freq=   4  raw : all'inizio teli sporchi
+             clean: Profumo di teli sporchi all'inizio.
+  freq=   4  raw : leggero sentore di crosta di formaggio latte acido e panna
+             clean: Profumo leggero di crosta di formaggio con sentore di latte acido e panna.
+  freq=   4  raw : cotto e leggero da letame
+             clean: Profumo cotto e leggero con sentore di letame.
+  freq=   4  raw : profumi leggeri
+             clean: Profumo leggero.
+  freq=   4  raw : moderato. poco complesso
+             clean: Profumo moderato, poco complesso.
+  freq=   4  raw : cipolla, burro crudo leggero
+             clean: Profumo di cipolla e burro fresco leggermente pronunciato.
+  freq=   4  raw : molto leggera fermentazione
+             clean: Profumo di leggera fermentazione.
+  freq=   4  raw : Burro fresco, molto lattico
+             clean: Profumo di burro fresco con note lattiche intense.
+  freq=   4  raw : brodo di carne latte cotto burro fuso nocciola tostato leggereo
+             clean: Profumo di brodo di carne, latte cotto, burro fuso, nocciola e tostato.
+  freq=   4  raw : burroso ma con tostatura forte...
+             clean: Profumo burroso con tostatura forte.
+  freq=   4  raw : Croste di polenta
+             clean: Profumo di croste di polenta.
+  freq=   4  raw : brodo vegetale , formaggio cotto
+             clean: Profumo di brodo vegetale e formaggio cotto.
+  freq=   4  raw : panna, leggero sentore di brodo
+             clean: Profumo di panna con leggero sentore di brodo.
+  freq=   4  raw : un poco' di verdura lessa
+             clean: Profumo di verdura lessa leggeramente percettibile.
+  freq=   4  raw : predomina l'odore di verdure cotte
+             clean: Profumo di verdure cotte predominante.
+  freq=   4  raw : sentore di crosta e di latte cotto
+             clean: Profumo di crosta e di latte cotto.
+  freq=   4  raw : intensità' contenuta, fogna
+             clean: Profumo con intensità contenuta di fogna.
+  freq=   4  raw : All'apertura stagnante
+             clean: Profumo stagnante all'apertura.
+  freq=   4  raw : niente di particolare
+             clean: NON_DESCRITTO
+  freq=   4  raw : latte cotto intensità medio bassa
+             clean: Profumo di latte cotto con intensità medio-bassa.
+  freq=   4  raw : burro fuso, burro, spezia
+             clean: Profumo di burro fuso con note di spezia.
+  freq=   4  raw : leggero. non molto caratterizzato. Anonimo
+             clean: Profumo leggero e poco caratterizzato.
+  freq=   4  raw : mediamente intenso, latte bruciato, lieve pungenza
+             clean: Profumo mediamente intenso di latte bruciato con lieve pungenza.
+  freq=   4  raw : su base lattea dolce qualche nota vegetale. brodo. intensità medio-bassa
+             clean: Profumo su base lattea dolce con note vegetali e di brodo, intensità moderata.
+  freq=   4  raw : Ammoniaca solo alla apertura,dopo profumo troppo delicato
+             clean: Profumo di ammoniaca all'apertura, successivamente delicato.
+  freq=   4  raw : crosta e cotto
+             clean: Profumo di crosta e cotto.
+  freq=   4  raw : debole sentore di brodo
+             clean: Profumo con debole sentore di brodo.
+  freq=   4  raw : leggero. Senza grandi freschezze. panna. note vegetali
+             clean: Profumo leggero di panna con note vegetali, senza grande freschezza.
+  freq=   4  raw : Odore pungente da fermentato. Sgradevole
+             clean: Profumo pungente da fermentato.
+  freq=   4  raw : leggero ossidato
+             clean: Profumo leggermente ossidato.
+  freq=   4  raw : Plastica bruciata
+             clean: Profumo di plastica bruciata.
+  freq=   4  raw : burro fuso intensità alta;stantio intensità alta
+             clean: Profumo di burro fuso e stantio, entrambi di intensità elevata.
+  freq=   4  raw : frutta tropicale, latte acido
+             clean: Profumo di frutta tropicale e latte acido.
+  freq=   4  raw : poco profumato. poco complesso
+             clean: Profumo poco intenso e poco complesso.
+  freq=   4  raw : Intensità iniziale alta. Ma bouquet non gradevole: cuoio, brodo, verdura cotta
+             clean: Profumo intenso all'apertura con note di cuoio, brodo e verdura cotta.
+  freq=   4  raw : tostato, pane biscottato, biscotto, vaniglia. intensità' bassa
+             clean: Profumo di tostato, pane biscottato e vaniglia, intensità bassa.
+  freq=   4  raw : Leggero sentore di fermentato, insilato
+             clean: Profumo con leggero sentore di fermentato e insilato.
+  freq=   4  raw : verdora cotta non positivo
+             clean: Profumo di verdura cotta non positivo.
+  freq=   4  raw : formaggio stagionato, brodo, latte cotto, panna con inensità moderata
+             clean: Profumo di formaggio stagionato, brodo, latte cotto e panna con intensità moderata.
+  freq=   4  raw : intenso e pungente all'apertura, poi a tratti fermentato, crosta di formaggio, disomogeneo nei pezzi
+             clean: Profumo intenso e pungente all'apertura, con note fermentate e di crosta di formaggio, disomogeneo nei pezzi.
+  freq=   4  raw : grana tipico, tostatura e note anche florali
+             clean: Profumo di grana con tostatura e note floreali.
+  freq=   4  raw : panna molto intensa. burro, latte fresco. tostano fino
+             clean: Profumo di panna molto intenso, con note di burro, latte fresco e tostatura fine.
+  freq=   4  raw : panna e brodo
+             clean: Profumo di panna e brodo.
+  freq=   4  raw : tendenzialmente positivo difetti assenti
+             clean: NON_DESCRITTO
+  freq=   4  raw : un poco di latte fermentato leggero in alcuni pezzi alla rottura
+             clean: Profumo di latte fermentato leggero in alcuni pezzi alla rottura.
+  freq=   4  raw : latte cotto mt delicato
+             clean: Profumo di latte cotto, molto delicato.
+  freq=   4  raw : Stalla solo all'inizio poi sparisce
+             clean: Profumo di stalla all'apertura, che svanisce.
+  freq=   4  raw : sentore di ossidato
+             clean: Profumo con sentore di ossidato.
+  freq=   4  raw : ossidato e crosta
+             clean: Profumo ossidato con note di crosta.
+  freq=   4  raw : burro e panna
+             clean: Profumo di burro e panna.
+  freq=   4  raw : caramella mou , latte UHT
+             clean: Profumo di caramella mou e latte UHT.
+  freq=   4  raw : cotto e brodo veg
+             clean: Profumo di latte cotto e brodo vegetale.
+  freq=   4  raw : Cavolo, odori più evidenti all’apertura
+             clean: Profumo di cavolo, più evidente all'apertura.
+  freq=   4  raw : Non buono
+             clean: NON_DESCRITTO
+  freq=   4  raw : latte acido, panna leggero insilato
+             clean: Profumo di latte acido, panna leggera e insilato.
+  freq=   4  raw : non particolarmente intenso, piatto, note animali e di paglia, a tratti di acqua ristagnante
+             clean: Profumo non particolarmente intenso, piatto, con note animali e di paglia, a tratti di acqua ristagnante.
+  freq=   4  raw : Ci sono comunque sentori positivi come brodo di carne e pane tostato ma il NOSTRANO è MOLTO INTENSO e caratterizzante
+             clean: Profumo di brodo di carne e pane tostato, con sentore nostrano molto intenso.
+  freq=   4  raw : buona intensità. cotto e tostato. panna. burro sciolto
+             clean: Profumo di buona intensità con note di cotto, tostato, panna e burro sciolto.
+  freq=   4  raw : tostatura e note polverose
+             clean: Profumo di tostatura e note polverose.
+  freq=   4  raw : intensità discreta. alla prima olfazione quasi nota animale, poi si perde. latte uht. cotto. burro sciolto. tostato
+             clean: Profumo di intensità discreta con note animali all'apertura, latte cotto, burro sciolto e tostato.
+  freq=   4  raw : Fermentazione da Clostridium sporogenes
+             clean: Profumo di fermentazione da Clostridium sporogenes.
+  freq=   4  raw : ananas
+             clean: Profumo di ananas.
+  freq=   4  raw : vegetale panna
+             clean: Profumo vegetale con note di panna.
+  freq=   4  raw : intenso, lattico cotto e vegetale secco, forse lieve nota briciata
+             clean: Profumo intenso di lattico cotto e vegetale secco con lieve nota tostata.
+  freq=   4  raw : latte cotto, cipolla
+             clean: Profumo di latte cotto e cipolla.
+  freq=   4  raw : Tanti sentori nella categoria panna
+             clean: Profumo con numerosi sentori nella categoria panna.
+  freq=   4  raw : cotto leggermente neg
+             clean: Profumo leggermente cotto con nota negativa.
+  freq=   4  raw : intensità' lieve.
+             clean: Profumo lieve.
+  freq=   4  raw : intensità moderata. vegetale. . burro sciolto. latteo
+             clean: Profumo di burro sciolto con note vegetali e lattee, intensità moderata.
+  freq=   4  raw : intensità moderata. Pane. frutta secca. latte. poca panna
+             clean: Profumo di pane e frutta secca con note lattiche e poca panna, intensità moderata.
+  freq=   4  raw : quasi imperteccibile...
+             clean: NON_DESCRITTO
+  freq=   4  raw : latte cotto, pane bruciato
+             clean: Profumo di latte cotto e pane bruciato.
+  freq=   4  raw : Lattico dominante, burro fresco
+             clean: Profumo lattico dominante con burro fresco.
+  freq=   4  raw : latte cotto, crosta. Brodo vegetale
+             clean: Profumo di latte cotto e brodo vegetale.
+  freq=   4  raw : latte cotto, fruta secca, formaggio stagionato intensità moderata
+             clean: Profumo di latte cotto e frutta secca di formaggio stagionato, intensità moderata.
+  freq=   4  raw : note di crosta, ossidato e animale
+             clean: Profumo di crosta con note di ossidato e animale.
+  freq=   4  raw : Sentore vegetale all'apertura, poi anche lattici cotti un poco' troppo, affumicato,
+             clean: Profumo vegetale all'apertura, seguito da note lattiche cotte e lieve sentore affumicato.
+  freq=   4  raw : mela
+             clean: Profumo di mela.
+  freq=   4  raw : evenescente, restano poche sensazioni dopo l'apertura
+             clean: Profumo evanescente, con poche sensazioni dopo l'apertura.
+  freq=   4  raw : dolce un poco- di cotto
+             clean: Profumo dolce con leggerezza di cotto.
+  freq=   4  raw : leggermente di panna
+             clean: Profumo leggermente di panna.
+  freq=   4  raw : Debole fermentazione
+             clean: Profumo debole di fermentazione.
+  freq=   4  raw : Formaggio cotto e brodo di carne prevalenti
+             clean: Profumo di formaggio cotto e brodo di carne prevalenti.
+  freq=   4  raw : leggero stracci sporchi all'inizio poi panna vegetale
+             clean: Profumo leggermente di stracci sporchi all'inizio, poi di panna vegetale.
+  freq=   4  raw : Peccato per nota leggera di stalla
+             clean: Profumo con nota leggera di stalla.
+  freq=   4  raw : profumi vegetali
+             clean: Profumo vegetale.
+  freq=   4  raw : Oggi sono raffreddato
+             clean: NON_DESCRITTO
+  freq=   2  raw : discreta intensità',
+             clean: Profumo di discreta intensità.
+  freq=   2  raw : essenziale. poco latte. note vegetali, fieno
+             clean: Profumo essenziale con note vegetali e fieno, poco lattico.
+  freq=   2  raw : animale, muffa, ossidato
+             clean: Profumo animale con note di muffa e ossidato.
+  freq=   2  raw : paana, burro, miele...
+             clean: Profumo di panna, burro e miele.
+  freq=   2  raw : inteso panna burro fuso leggermete speziato e tostato
+             clean: Profumo intenso di panna e burro fuso, leggermente speziato e tostato.
+  freq=   2  raw : non particolarmente armonico, note dominanti di brodo e di latte cotto, a tratti bruciato
+             clean: Profumo non particolarmente armonico, con note dominanti di brodo e latte cotto, a tratti bruciato.
+  freq=   2  raw : panna latte cotto burro brodo di carne
+             clean: Profumo di panna cotta, latte cotto, burro e brodo di carne.
+  freq=   2  raw : albume
+             clean: Profumo di albume.
+  freq=   2  raw : intensità' elevata, di burro fuso, burro,
+             clean: Profumo intenso di burro fuso.
+  freq=   2  raw : solo spezzando i pezzi e al momento della frattura si avverte puzza di marcio putrido, che x lo più se ne va asciugamdosi
+             clean: NON_DESCRITTO
+  freq=   2  raw : strinato
+             clean: Profumo strinato.
+  freq=   2  raw : note positive da grana tipico, latte, ma con tostatura anche forte... sebbene molto piacevole
+             clean: Profumo di grana con note lattiche e tostatura intensa.
+  freq=   2  raw : nota pungente all apertura e poi dolciastra, leggermente propionica che prevale sui lattici cotti, panna e burro sciolto successivi, asciugandosi migliora
+             clean: Profumo pungente all'apertura con note dolciastre e leggermente propioniche, che prevalgono su lattico cotto, panna e burro sciolto.
+  freq=   2  raw : panna leggermente cotto
+             clean: Profumo di panna leggermente cotto.
+  freq=   2  raw : poco intenso, fermentato
+             clean: Profumo poco intenso, fermentato.
+  freq=   2  raw : forte persistente formaggio stagionato....
+             clean: Profumo forte e persistente di formaggio stagionato.
+  freq=   2  raw : Panna e burro fuso molto presenti, segue il tostatofruttato e il brodo di carne
+             clean: Profumo di panna e burro fuso molto presenti, seguito da note di tostato e fruttato con brodo di carne.
+  freq=   2  raw : poco complesso ma pulito, panna, latte cotto, burro fuso, mancano le note evolute
+             clean: Profumo poco complesso ma pulito, di panna, latte cotto e burro fuso.
+  freq=   2  raw : note poco tipiche e caratteristiche
+             clean: NON_DESCRITTO
+  freq=   2  raw : Buona intensità', non grande la complessita'. tostato
+             clean: Profumo tostato con buona intensità, poco complesso.
+  freq=   2  raw : note positive ma tostatura leggerm invadente
+             clean: Profumo con note positive ma tostatura leggermente invadente.
+  freq=   2  raw : leggero all-inizio di sporco
+             clean: Profumo leggero all'inizio con sentore di sporco.
+  freq=   2  raw : burro e burro fuso, latte fresco
+             clean: Profumo di burro e burro fuso con latte fresco.
+  freq=   2  raw : complesso, abbastanza caratteristico ma con note di frutta fermentata molto volatili
+             clean: Profumo complesso con note di frutta fermentata molto volatili.
+  freq=   2  raw : burro fuso, burro, un poco di fieno
+             clean: Profumo di burro fuso con un poco di fieno.
+  freq=   2  raw : netto, burro fuso, e burro
+             clean: Profumo netto di burro fuso.
+  freq=   2  raw : cotti molto, speziato tipo pepe, animale, polveroso, crosta vecchia
+             clean: Profumo molto cotto, speziato tipo pepe, animale, polveroso, di crosta vecchia.
+  freq=   2  raw : brodo di carne burro e panna tostato
+             clean: Profumo di brodo di carne, burro e panna con nota tostata.
+  freq=   2  raw : latte,leggero burro e crosta di formaggio
+             clean: Profumo di latte e burro leggero con note di crosta di formaggio.
+  freq=   2  raw : formaggio, fiore, leggera tostatura
+             clean: Profumo di formaggio e fiore con leggera tostatura.
+  freq=   2  raw : burro panna fruttato tostato mallo di noce brodo di carne
+             clean: Profumo di burro, panna, frutta, tostato, mallo di noce e brodo di carne.
+  freq=   2  raw : una porzione ripsetto alle altre ha un profumo di animale
+             clean: Profumo di animale in una porzione.
+  freq=   2  raw : leggero, ma delicatamente delizioso nelle note lattee, panna
+             clean: Profumo leggero con delicate note lattiche di panna.
+  freq=   2  raw : profumo leggero
+             clean: Profumo leggero.
+  freq=   2  raw : burro< latte fresco< burro fuso
+             clean: Profumo di burro e latte fresco, con note di burro fuso.
+  freq=   2  raw : note fruttate poco caratteristiche, mancano i descrittori tipici come il burro fuso, il fieno, il brodo, c-[ la panna ed il latte cotto
+             clean: Profumo con note fruttate poco caratteristiche, assenti burro fuso, fieno, brodo, panna e latte cotto.
+  freq=   2  raw : panna, latte lievemente cotto, burro fresco,
+             clean: Profumo di panna, latte lievemente cotto e burro fresco.
+  freq=   2  raw : burro, latte, tostato e nocciola
+             clean: Profumo di burro, latte, tostato e nocciola.
+  freq=   2  raw : moderata persistenza dei una senzaione acida e forse un inizio di fermentazione
+             clean: Profumo moderato di acidità con inizio di fermentazione.
+  freq=   2  raw : aroma non molto intenso e complesso. quasi una nota di emmental che pero' non considero nel pu nteggio perch[ non sicuro
+             clean: Profumo poco intenso e poco complesso, con nota di emmental.
+  freq=   2  raw : profumo di cotto
+             clean: Profumo di cotto.
+  freq=   2  raw : burro, fiore, grana ...piacevole
+             clean: Profumo di burro e fiore con sentore di grana.
+  freq=   2  raw : poco armonico, crosta di formaggio, stantio
+             clean: Profumo poco armonico di crosta di formaggio e stantio.
+  freq=   2  raw : da grana tipico, leggermete tostato pero=
+             clean: Profumo di grana leggermente tostato.

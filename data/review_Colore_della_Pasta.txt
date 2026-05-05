@@ -1,0 +1,2367 @@
+## Colore della Pasta
+unique captions: 1180
+model: claude-haiku-4-5
+batch_id: msgbatch_01Bv99Z88dFdZ6PJ6FdjRxoA
+
+(sorted by descending broadcast frequency)
+
+  freq=  80  raw : Alone centrale
+             clean: Pasta con alone centrale.
+  freq=  74  raw : Omogeneo
+             clean: Pasta di colore omogeneo.
+  freq=  56  raw : Giallo carico
+             clean: Pasta di colore giallo carico.
+  freq=  52  raw : Carico al centro
+             clean: Pasta con colore carico al centro.
+  freq=  40  raw : Leggero alone centrale
+             clean: Pasta con leggero alone centrale.
+  freq=  40  raw : Carico
+             clean: Pasta di colore carico.
+  freq=  32  raw : Carico ma omogeneo
+             clean: Pasta di colore carico ma omogeneo.
+  freq=  32  raw : Giallo carico omogeneo
+             clean: Pasta di colore giallo carico omogeneo.
+  freq=  32  raw : Omogenea
+             clean: Pasta di colore omogeneo.
+  freq=  28  raw : Giallo chiaro
+             clean: Pasta di colore giallo chiaro.
+  freq=  24  raw : Paglierino
+             clean: Pasta di colore paglierino.
+  freq=  24  raw : Un poco' carico ma omogeneo
+             clean: Pasta di colore poco carico e omogeneo.
+  freq=  24  raw : Chiaro omogeneo
+             clean: Pasta di colore chiaro e omogeneo.
+  freq=  22  raw : Carico omogeneo
+             clean: Pasta di colore carico omogeneo.
+  freq=  20  raw : Alone centrale scuro
+             clean: Pasta con alone centrale scuro.
+  freq=  20  raw : Molto carico
+             clean: Pasta di colore molto carico.
+  freq=  20  raw : Leggero alone
+             clean: Pasta con leggero alone.
+  freq=  20  raw : Carico abbastanza omogeneo
+             clean: Pasta di colore carico abbastanza omogeneo.
+  freq=  20  raw : Alone centrale rosato
+             clean: Pasta con alone centrale rosato.
+  freq=  20  raw : Omogeneo, chiaro
+             clean: Pasta di colore omogeneo e chiaro.
+  freq=  20  raw : Giallo molto carico
+             clean: Pasta di colore giallo molto carico.
+  freq=  18  raw : Alone leggero
+             clean: Pasta con leggero alone.
+  freq=  17  raw : Alone rosato
+             clean: Pasta con alone rosato.
+  freq=  16  raw : Alone centrale più scuro
+             clean: Pasta con alone centrale più scuro.
+  freq=  16  raw : Macchie rosa
+             clean: Pasta con macchie rosa.
+  freq=  16  raw : Rosa ai piatti
+             clean: Pasta con colorazione rosata ai bordi.
+  freq=  16  raw : Non paglierino
+             clean: Pasta non paglierina.
+  freq=  16  raw : Carico aranciato
+             clean: Pasta di colore carico aranciato.
+  freq=  14  raw : Appena più ossidato al centro
+             clean: Pasta con colorazione appena più scura al centro.
+  freq=  12  raw : Non omogeneo
+             clean: Pasta con colore non omogeneo.
+  freq=  12  raw : Chiaro
+             clean: Pasta di colore chiaro.
+  freq=  12  raw : Abbastanza omogeneo ma carico
+             clean: Pasta di colore abbastanza omogeneo ma carico.
+  freq=  12  raw : Alone leggerissimo
+             clean: Pasta con alone leggerissimo.
+  freq=  12  raw : Giallo paglierino chiaro omogeneo
+             clean: Pasta di colore giallo paglierino chiaro e omogeneo.
+  freq=  12  raw : Omogeneo, abbastanza carico
+             clean: Pasta di colore omogeneo e abbastanza carico.
+  freq=  12  raw : Alone centrale più carico
+             clean: Pasta con alone centrale più carico.
+  freq=  12  raw : Disomogeneo
+             clean: Pasta di colore disomogeneo.
+  freq=  12  raw : Chiaro e abbastanza omogeneo
+             clean: Pasta di colore chiaro e abbastanza omogeneo.
+  freq=  12  raw : Molto carico al centro
+             clean: Pasta di colore molto carico al centro.
+  freq=  12  raw : Evidente alone centrale più scuro,
+             clean: Pasta con evidente alone centrale più scuro.
+  freq=  12  raw : Decisamente carico
+             clean: Pasta di colore decisamente carico.
+  freq=  12  raw : Alone carico centrale
+             clean: Pasta con alone carico centrale.
+  freq=  12  raw : Più carico al centro
+             clean: Pasta di colore più carico al centro.
+  freq=  12  raw : Colore carico ma omogeneo
+             clean: Pasta di colore carico ma omogeneo.
+  freq=  12  raw : Più chiaro verso gli scalzi
+             clean: Pasta più chiara verso gli scalzi.
+  freq=  12  raw : Saturo
+             clean: Pasta di colore saturo.
+  freq=  12  raw : Omogeneo, non troppo carico
+             clean: Pasta di colore omogeneo, non troppo carico.
+  freq=  12  raw : Un piatto più chiaro
+             clean: Pasta di colore piatto più chiaro.
+  freq=  12  raw : Non proprio paglierino
+             clean: Pasta non paglierina.
+  freq=  12  raw : Omogeneo paglierino carico
+             clean: Pasta di colore paglierino carico, omogeneo.
+  freq=  12  raw : Abbastanza omogeneo
+             clean: Pasta di colore abbastanza omogeneo.
+  freq=  10  raw : Presenza di una macchia rosata
+             clean: Pasta con macchia rosata.
+  freq=  10  raw : Bel colore!
+             clean: NON_DESCRITTO
+  freq=  10  raw : Lievi macchie rosate
+             clean: Pasta con lievi macchie rosate.
+  freq=  10  raw : Una macchia poco visibile
+             clean: Pasta con una macchia poco visibile.
+  freq=  10  raw : Omogeneo ma carico
+             clean: Pasta di colore omogeneo ma carico.
+  freq=  10  raw : Leggero alone arancio dato dalla crosta
+             clean: Pasta con leggero alone arancio in prossimità della crosta.
+  freq=  10  raw : Una piccola macchia rossa
+             clean: Pasta con piccola macchia rossa.
+  freq=  10  raw : Una macchia grigia
+             clean: Pasta con una macchia grigia.
+  freq=  10  raw : Alone centrale giallo verde con macchie scure
+             clean: Pasta con alone centrale giallo-verde e macchie scure.
+  freq=  10  raw : Abbastanza omogeneo e chiaro
+             clean: Pasta di colore abbastanza omogeneo e chiaro.
+  freq=  10  raw : Più concezione sembrano due zone di colore
+             clean: Pasta con due zone di colore distinte.
+  freq=   8  raw : Alone tendente al rosato
+             clean: Pasta con alone tendente al rosato.
+  freq=   8  raw : Macchie rosa colore chiaro bello
+             clean: Pasta con macchie rosa e colore chiaro.
+  freq=   8  raw : Alone rosato molto carico
+             clean: Pasta con alone rosato molto carico.
+  freq=   8  raw : Molto carico, ma omogeneo
+             clean: Pasta di colore molto carico, omogeneo.
+  freq=   8  raw : Colore chiaro omogeneo
+             clean: Pasta di colore chiaro omogeneo.
+  freq=   8  raw : Giallo carico Più scuro al centro
+             clean: Pasta di colore giallo carico, più scura al centro.
+  freq=   8  raw : Colore abbiamo omogeneo
+             clean: Pasta di colore omogeneo.
+  freq=   8  raw : Colore carico, quasi arancio
+             clean: Pasta di colore carico, tendente all'arancio.
+  freq=   8  raw : Giallo chiaro uniforme
+             clean: Pasta di colore giallo chiaro uniforme.
+  freq=   8  raw : Chiaro arrangiato con fascia più bianca sotto un piatto
+             clean: Pasta di colore chiaro aranciato con fascia bianca sottocorticale e zona piatta.
+  freq=   8  raw : Alone giallo carico centrale
+             clean: Pasta con alone giallo carico centrale.
+  freq=   8  raw : Colore più scuro in centro e aloni rosati in centro
+             clean: Pasta con colore più scuro in centro e aloni rosati.
+  freq=   8  raw : Abbastanza uniforme
+             clean: Pasta di colore abbastanza uniforme.
+  freq=   8  raw : Scuro non uniforme
+             clean: Pasta di colore scuro non uniforme.
+  freq=   8  raw : Netto alone ad anello rosato
+             clean: Pasta con netto alone ad anello rosato.
+  freq=   8  raw : Giallo intenso uniforme
+             clean: Pasta di colore giallo intenso e uniforme.
+  freq=   8  raw : Leggermente carico ma omogeneo
+             clean: Pasta di colore leggermente carico e omogeneo.
+  freq=   8  raw : Colore omogeneo
+             clean: Pasta di colore omogeneo.
+  freq=   8  raw : Giallo uniforme non carico
+             clean: Pasta di colore giallo uniforme non carico.
+  freq=   8  raw : Paglierino chiaro omogeneo
+             clean: Pasta di colore paglierino chiaro omogeneo.
+  freq=   8  raw : Fascia più chiara vs un piatto
+             clean: Pasta con fascia più chiara rispetto al piatto.
+  freq=   8  raw : Alone carico al centro
+             clean: Pasta con alone carico al centro.
+  freq=   8  raw : Più chiaro verso i piatti
+             clean: Pasta più chiara verso i bordi.
+  freq=   8  raw : Più chiaro verso l'esterno
+             clean: Pasta più chiara verso l'esterno.
+  freq=   8  raw : Colore carico ma uniforme
+             clean: Pasta di colore carico e uniforme.
+  freq=   8  raw : Carico con lieve alone centrale
+             clean: Pasta di colore carico con lieve alone centrale.
+  freq=   8  raw : Difetto so
+             clean: NON_DESCRITTO
+  freq=   8  raw : Colore più carico al centro
+             clean: Pasta di colore più carico al centro.
+  freq=   8  raw : Irregolare
+             clean: Pasta con colore irregolare.
+  freq=   8  raw : Enorme striscia rosa e alone centrale scuro
+             clean: Pasta con enorme striscia rosa e alone centrale scuro.
+  freq=   8  raw : Giallo carico uniforme
+             clean: Pasta di colore giallo carico uniforme.
+  freq=   8  raw : Colore omogeneo non troppo carico
+             clean: Pasta di colore omogeneo non troppo carico.
+  freq=   8  raw : Tendenzialmente chiaro, ma con aree più chiare verso l'esterno
+             clean: Pasta di colore tendenzialmente chiaro con aree più chiare verso l'esterno.
+  freq=   8  raw : Colore molto chiaro con qualche leggerissima macchia rosa
+             clean: Pasta di colore molto chiaro con qualche leggerissima macchia rosa.
+  freq=   8  raw : Omogeneo non molto carico
+             clean: Pasta di colore omogeneo non molto carico.
+  freq=   8  raw : Chiaro ed omogeneo
+             clean: Pasta di colore chiaro e omogeneo.
+  freq=   8  raw : Alone centrale bruno evidente
+             clean: Pasta con alone centrale bruno evidente.
+  freq=   8  raw : Più carico in certe zone
+             clean: Pasta di colore più carico in certe zone.
+  freq=   8  raw : Strisce rosa su alone centrale
+             clean: Pasta con strisce rosa su alone centrale.
+  freq=   8  raw : Giallo chiaro con alone centrale
+             clean: Pasta di colore giallo chiaro con alone centrale.
+  freq=   8  raw : Molto bello
+             clean: NON_DESCRITTO
+  freq=   8  raw : Non del tutto omogeneo
+             clean: Pasta di colore non del tutto omogeneo.
+  freq=   8  raw : Colore tendente al grigio con fascia più chiara sotto un piatto
+             clean: Pasta di colore tendente al grigio con fascia più chiara sotto un piatto.
+  freq=   8  raw : Alone scuro centrale
+             clean: Pasta con alone centrale scuro.
+  freq=   8  raw : Giallo disomogenea poco evidente
+             clean: Pasta di colore giallo con disomogeneità poco evidente.
+  freq=   8  raw : Leggermente non omogenea
+             clean: Pasta con colore leggermente non omogeneo.
+  freq=   8  raw : Paglierino omogeneo
+             clean: Pasta di colore paglierino omogeneo.
+  freq=   8  raw : Più carica la fascia centrale
+             clean: Pasta con fascia centrale di colore più carico.
+  freq=   8  raw : Parte centrale vistosamente più scura
+             clean: Pasta con parte centrale vistosamente più scura.
+  freq=   8  raw : Lievemente più carico al centro
+             clean: Pasta con colore lievemente più carico al centro.
+  freq=   8  raw : Una macchia giallo rosato
+             clean: Pasta con una macchia giallo rosato.
+  freq=   8  raw : Giallo carico ma uniforme
+             clean: Pasta di colore giallo carico e uniforme.
+  freq=   8  raw : abbastanza omogenea
+             clean: Pasta di colore abbastanza omogeneo.
+  freq=   8  raw : Colore carico banda più chiara sotto un piatto è per più scura nella zona centrale con la fittà microcch
+             clean: Pasta di colore carico con banda più chiara nella zona sottocrostale e colore più scuro nella zona centrale.
+  freq=   8  raw : Paglierino chiaro con alone centrale
+             clean: Pasta di colore paglierino chiaro con alone centrale.
+  freq=   8  raw : Omogeneo, non carico
+             clean: Pasta di colore omogeneo e non carico.
+  freq=   8  raw : Giallo saturo
+             clean: Pasta di colore giallo saturo.
+  freq=   8  raw : Giallo tende al carico abbastanza uniforme
+             clean: Pasta di colore giallo carico abbastanza uniforme.
+  freq=   8  raw : Paglierino chiaro
+             clean: Pasta di colore paglierino chiaro.
+  freq=   8  raw : Non paglierino, ma chiaro
+             clean: Pasta non paglierina ma di colore chiaro.
+  freq=   8  raw : Omogeneamente giallo carico
+             clean: Pasta di colore giallo carico, omogeneamente distribuito.
+  freq=   8  raw : Giallo uniforme
+             clean: Pasta di colore giallo uniforme.
+  freq=   8  raw : Carico leggermente più scuro al centro
+             clean: Pasta di colore carico, leggermente più scura al centro.
+  freq=   8  raw : Un poco' più scura al centro
+             clean: Pasta più scura al centro.
+  freq=   8  raw : Vistose aree con colorazione alterata
+             clean: Pasta con vistose aree di colorazione alterata.
+  freq=   8  raw : Tendente al giallo paglierino
+             clean: Pasta di colore tendente al giallo paglierino.
+  freq=   8  raw : Alone lieve centrale
+             clean: Pasta con lieve alone centrale.
+  freq=   8  raw : Giallo chiaro omogeneo
+             clean: Pasta di colore giallo chiaro omogeneo.
+  freq=   8  raw : Carico ma uniforme
+             clean: Pasta di colore carico e uniforme.
+  freq=   8  raw : Carico con alone
+             clean: Pasta di colore carico con alone.
+  freq=   8  raw : Intenso ma omogeneo
+             clean: Pasta di colore intenso e omogeneo.
+  freq=   8  raw : Giallina
+             clean: Pasta di colore giallina.
+  freq=   8  raw : Forse una macchia rosa?
+             clean: Pasta con possibile macchia rosata.
+  freq=   8  raw : Molto giallo
+             clean: Pasta di colore molto giallo.
+  freq=   8  raw : Omogeneo abbastanza chiaro
+             clean: Pasta di colore abbastanza chiaro e omogeneo.
+  freq=   8  raw : Carico, non perfettamente Omogeneo
+             clean: Pasta di colore carico, non perfettamente omogenea.
+  freq=   8  raw : Degradante x intensità da un piatto allaltro
+             clean: Pasta con colorazione degradante in intensità da un piatto all'altro.
+  freq=   8  raw : Giallo un Poco carico ma omogeneo
+             clean: Pasta di colore giallo poco carico ma omogeneo.
+  freq=   8  raw : Colore molto carico
+             clean: Pasta di colore molto carico.
+  freq=   8  raw : Colore carico omogeneo
+             clean: Pasta di colore carico omogeneo.
+  freq=   7  raw : Tante e vistose fessure da 1 e 2 cm, soprattutto in corrispondenza di un piatto e suoi scalzi, Una grande fessura longitudinale lunga più di 8 cm
+             clean: NON_DESCRITTO
+  freq=   6  raw : Chiara con leggero alone centrale
+             clean: Pasta di colore chiaro con leggero alone centrale.
+  freq=   6  raw : Carico uniforme
+             clean: Pasta di colore carico uniforme.
+  freq=   6  raw : Omogeneo mediamente carico
+             clean: Pasta di colore omogeneo mediamente carico.
+  freq=   6  raw : Tendente al grigio
+             clean: Pasta tendente al grigio.
+  freq=   6  raw : Aranciato
+             clean: Pasta di colore aranciato.
+  freq=   5  raw : Voto basso per colpa della frattura con evidente colore rosa, altrimenti voto alto
+             clean: NON_DESCRITTO
+  freq=   4  raw : Colore aranciata uniforme
+             clean: Pasta di colore aranciato uniforme.
+  freq=   4  raw : Più chiara sotto un piatto, ma generalmente abbastanza chiara
+             clean: Pasta di colore abbastanza chiaro, più chiara in una zona.
+  freq=   4  raw : La vasca della frattura tende al rosa arancio, più chiaro sotto un piatto
+             clean: Pasta con colore della frattura tendente al rosa arancio, più chiara nella zona sottostante il piatto.
+  freq=   4  raw : Colore chiara e omogenea
+             clean: Pasta di colore chiaro e omogeneo.
+  freq=   4  raw : Appena più saturo al centro
+             clean: Pasta di colore appena più saturo al centro.
+  freq=   4  raw : Alone appena più carico
+             clean: Pasta con alone appena più carico.
+  freq=   4  raw : Paglierino con riflessi verdastri
+             clean: Pasta di colore paglierino con riflessi verdastri.
+  freq=   4  raw : Paglierino chiaro, non omogeneo, centralmente è più carico, con leggero alone grigiastro
+             clean: Pasta paglierina chiara non omogenea, più carica centralmente con leggero alone grigiastro.
+  freq=   4  raw : Giallo pallido
+             clean: Pasta di colore giallo pallido.
+  freq=   4  raw : Più chiaro sotto un piatto, alone tendente al rosa
+             clean: Pasta più chiara nella zona sottocrostale con alone tendente al rosa.
+  freq=   4  raw : Giallo un poco' carico, con sfumatura più chiara parte esterna
+             clean: Pasta di colore giallo poco carico, con sfumatura più chiara nella parte esterna.
+  freq=   4  raw : In certe zone molto carico
+             clean: Pasta di colore molto carico in certe zone.
+  freq=   4  raw : Leggero alone centrale più scuro tendente comunque al chiato
+             clean: Pasta con leggero alone centrale tendente allo scuro ma comunque chiara.
+  freq=   4  raw : Uniforme, abbastanza chiaro
+             clean: Pasta di colore abbastanza chiaro e uniforme.
+  freq=   4  raw : Dal giallo verde chiaro a giallo paglierino
+             clean: Pasta dal giallo verdognolo chiaro al giallo paglierino.
+  freq=   4  raw : Giallo con ombre rosate
+             clean: Pasta di colore giallo con ombre rosate.
+  freq=   4  raw : Periferia chiara, centro appena più saturo
+             clean: Pasta con periferia chiara e centro appena più saturo.
+  freq=   4  raw : Abbastanza regolare
+             clean: Pasta di colore omogeneo.
+  freq=   4  raw : Alone centrale con anello rosa, più chiaro sotto un piatto e uno scalzo
+             clean: Pasta con alone centrale e anello rosato, più chiara sotto la crosta e uno scalzo.
+  freq=   4  raw : Colore carico con qualche leggera zona rosata
+             clean: Pasta di colore carico con qualche leggera zona rosata.
+  freq=   4  raw : Grossa macchia di muffa
+             clean: NON_DESCRITTO
+  freq=   4  raw : Un poco' eterogeneo, più carico al centro con qualche alone che tende al rosa
+             clean: Pasta leggermente eterogenea, più carico al centro con qualche alone tendente al rosa.
+  freq=   4  raw : Colore chiaro ma centro rosato
+             clean: Pasta di colore chiaro con centro rosato.
+  freq=   4  raw : Struttura regolare
+             clean: NON_DESCRITTO
+  freq=   4  raw : Alone leggero centrale, tinte chiare
+             clean: Pasta con alone leggero centrale e tinte chiare.
+  freq=   4  raw : Giallo leggermente verdastro, più carico al centro
+             clean: Pasta di colore giallo leggermente verdastro, più carico al centro.
+  freq=   4  raw : Paglierino più intenso nella parte centrale, scarico estremamente
+             clean: Pasta di colore paglierino intenso nella parte centrale, scarica agli esterni.
+  freq=   4  raw : Colore leggermente più carico al centro
+             clean: Pasta di colore leggermente più carico al centro.
+  freq=   4  raw : Giallo tendente al chiaro piuttosto luminoso.
+             clean: Pasta di colore giallo tendente al chiaro e piuttosto luminoso.
+  freq=   4  raw : Paglierino carico soprattutto al centro con delle striature più evidenti
+             clean: Pasta di colore paglierino carico al centro con striature più evidenti.
+  freq=   4  raw : Chiaro a con leggero alone
+             clean: Pasta con leggero alone e colore chiaro.
+  freq=   4  raw : Paglierino carico con leggero alone verde grigiastro
+             clean: Pasta di colore paglierino carico con leggero alone verde grigiastro.
+  freq=   4  raw : Abbastanza omogeneo, giallo chiaro ai bordi. Lievemente più carico il centro
+             clean: Pasta di colore abbastanza omogeneo, giallo chiaro ai bordi e lievemente più carico al centro.
+  freq=   4  raw : Disomogeneo più scuro da un lato
+             clean: Pasta di colore disomogeneo, più scura da un lato.
+  freq=   4  raw : Base chiara ma disomogenea con chiazze più scure
+             clean: Pasta di colore chiaro ma disomogeneo, con chiazze più scure.
+  freq=   4  raw : Alone centrale scuro macchia rosa su occhio
+             clean: Pasta con alone centrale scuro e macchia rosa su occhio.
+  freq=   4  raw : Giallo abbastanza carico, omogeneo
+             clean: Pasta di colore giallo abbastanza carico e omogeneo.
+  freq=   4  raw : Carico alone centrale
+             clean: Pasta di colore carico con alone centrale.
+  freq=   4  raw : Bello, ma con zone rosastre verso la crosta
+             clean: Pasta con zone rosastre verso la crosta.
+  freq=   4  raw : Presente evidente striscia rosa
+             clean: Pasta con evidente striscia rosa.
+  freq=   4  raw : Bello, abbastanza omogeneo
+             clean: Pasta di colore abbastanza omogeneo.
+  freq=   4  raw : Grigio verdastro con alone giallo
+             clean: Pasta di colore grigio verdastro con alone giallo.
+  freq=   4  raw : Colore carico con alone
+             clean: Pasta di colore carico con alone.
+  freq=   4  raw : Piuttosto carico ma omogeneo, presenza di piccola macchia rosa
+             clean: Pasta di colore piuttosto carico e omogeneo, con piccola macchia rosa.
+  freq=   4  raw : Alone più chiaro
+             clean: Pasta con alone più chiaro.
+  freq=   4  raw : Chiaro ma per effetto spugna
+             clean: Pasta di colore chiaro per effetto della spugna.
+  freq=   4  raw : Più saturo al centro
+             clean: Pasta di colore più saturo al centro.
+  freq=   4  raw : Nocciola al centro
+             clean: Pasta di colore nocciola al centro.
+  freq=   4  raw : Fascia rossa sotto scalzo
+             clean: Pasta con fascia rossa sotto scalzo.
+  freq=   4  raw : Giallo carico al centro e più chiara verso un piatto,zone grigiastre
+             clean: Pasta di colore giallo carico al centro, più chiara verso il piatto, con zone grigiastre.
+  freq=   4  raw : Deciso alone centrale aranciato
+             clean: Pasta con deciso alone centrale aranciato.
+  freq=   4  raw : Circa al carico..
+             clean: Pasta di colore carico.
+  freq=   4  raw : Chiaro e unif
+             clean: Pasta di colore chiaro e uniforme.
+  freq=   4  raw : Alone centrale e 1 dei 2 sottoposto bianco
+             clean: Pasta con alone centrale e una delle due zone sottocroste bianca.
+  freq=   4  raw : Chiaro con leggero alone centrale
+             clean: Pasta di colore chiaro con leggero alone centrale.
+  freq=   4  raw : Paglierino carico con alone più scuro al centro
+             clean: Pasta di colore paglierino carico con alone più scuro al centro.
+  freq=   4  raw : Presenza di una potenziale macchia al centro NON CONSIDERATA NEL VOTO perché nascosta dal taglio a coltello
+             clean: NON_DESCRITTO
+  freq=   4  raw : Non uniforme grosso alone scuro
+             clean: Pasta con grosso alone scuro e colore non uniforme.
+  freq=   4  raw : Abbastanza omogenea con giallo tendente al carico. Verso la crosta aree nocciola arancio
+             clean: Pasta abbastanza omogenea di giallo tendente al carico, con aree nocciola arancio verso la crosta.
+  freq=   4  raw : Pallido
+             clean: Pasta di colore pallido.
+  freq=   4  raw : Fascia più chiara sotto un piatto
+             clean: Pasta con fascia più chiara sotto la zona piatta.
+  freq=   4  raw : Colore carico, aranciato
+             clean: Pasta di colore carico e aranciato.
+  freq=   4  raw : Leggermente sfumato verso l'esterno
+             clean: Pasta con lieve sfumatura di colore verso l'esterno.
+  freq=   4  raw : Omogeneo. Chiaro quasi paglierino
+             clean: Pasta di colore omogeneo, chiaro e quasi paglierino.
+  freq=   4  raw : Al centro e verso 1 piatto più carico
+             clean: Pasta con colore più carico al centro e verso un piatto.
+  freq=   4  raw : Alone centrale più intenso
+             clean: Pasta con alone centrale intenso.
+  freq=   4  raw : 1/3 più chiaro
+             clean: Pasta con una parte più chiara.
+  freq=   4  raw : Non troppo carico e omogeneo
+             clean: Pasta di colore non troppo carico e omogeneo.
+  freq=   4  raw : Alone giallo nocciola centrale, ai bordi più chiaro
+             clean: Pasta con alone giallo nocciola centrale e colore più chiaro ai bordi.
+  freq=   4  raw : Non omogenea Presenza di macchie gialle più accentuate Alone centrale non carico
+             clean: Pasta non omogenea con macchie gialle accentuate e alone centrale non carico.
+  freq=   4  raw : Colore molto marcato mogeneo
+             clean: Pasta di colore molto marcato e omogeneo.
+  freq=   4  raw : Gessato
+             clean: NON_DESCRITTO
+  freq=   4  raw : Non molto carico, abbastanza Omogeneo
+             clean: Pasta di colore non molto carico, abbastanza omogenea.
+  freq=   4  raw : Colore paglierino abbastanza carico con zone più scure
+             clean: Pasta di colore paglierino abbastanza carico con zone più scure.
+  freq=   4  raw : Leggermente degradante tra i 2 piatti
+             clean: Pasta con leggera sfumatura di colore tra centro e bordi.
+  freq=   4  raw : Da giallo chiaro a carico verso il centro, alone
+             clean: Pasta da colore giallo chiaro a giallo carico verso il centro con alone.
+  freq=   4  raw : Colore carico sganciato ma uniforme
+             clean: Pasta di colore carico e uniforme.
+  freq=   4  raw : Tende al giallo chiaro.
+             clean: Pasta tendente al giallo chiaro.
+  freq=   4  raw : Omogenea presenza dicristalli bianchi evidenti
+             clean: Pasta con presenza di cristalli bianchi evidenti, omogenea.
+  freq=   4  raw : Non omogeneo, alone e striscia rosa
+             clean: Pasta con colore non omogeneo, alone e striscia rosa.
+  freq=   4  raw : Grana fine frattura regolare
+             clean: NON_DESCRITTO
+  freq=   4  raw : Alone centrale, più chiara sotto un piatto e uno scalzo
+             clean: Pasta con alone centrale, più chiara nelle zone sotto un piatto e uno scalzo.
+  freq=   4  raw : Abbastanza omogeneo ma carico, una macchia
+             clean: Pasta abbastanza omogenea ma di colore carico, con una macchia.
+  freq=   4  raw : Chiaro ma tendente al grigio uniforme con leggera sfumatura risata al centro
+             clean: Pasta di colore chiaro tendente al grigio, uniforme con leggera sfumatura rosata al centro.
+  freq=   4  raw : Giallo abbastanza chiaro con leggere sfumature rosate
+             clean: Pasta di colore giallo abbastanza chiaro con leggere sfumature rosate.
+  freq=   4  raw : Omogenea e intensa
+             clean: Pasta di colore omogeneo e intenso.
+  freq=   4  raw : Alone più verso un piatto che centrale
+             clean: Pasta con alone tendente al piatto piuttosto che centrale.
+  freq=   4  raw : Uniforme giallo
+             clean: Pasta di colore giallo uniforme.
+  freq=   4  raw : Bel colore, abbastanza omogeneo, carico, con lievi note rosate
+             clean: Pasta di colore carico, abbastanza omogeneo, con lievi note rosate.
+  freq=   4  raw : Alone più scuro al centro. Pasta dal giallo un poco' carico
+             clean: Pasta di colore giallo poco carico con alone più scuro al centro.
+  freq=   4  raw : Alone centrale particolarmente rosato, bordo più tendente al giallo chiaro
+             clean: Pasta con alone centrale particolarmente rosato e bordo tendente al giallo chiaro.
+  freq=   4  raw : Omogeneamente carico giallo
+             clean: Pasta di colore giallo carico, omogeneamente distribuito.
+  freq=   4  raw : Bello chiaro omogeneo!
+             clean: Pasta di colore chiaro e omogeneo.
+  freq=   4  raw : Alone molto evidente
+             clean: Pasta con alone molto evidente.
+  freq=   4  raw : Carico con alone centrale più scuro
+             clean: Pasta di colore carico con alone centrale più scuro.
+  freq=   4  raw : Giallo scarico abbastanza omogeneo
+             clean: Pasta di colore giallo scarico abbastanza omogeneo.
+  freq=   4  raw : Occhiatura da 1 a 2,5mm nella parte centrale della forma Ma frattura di 4 cm
+             clean: NON_DESCRITTO
+  freq=   4  raw : Chiara con leggero alone centrale e verso un piatto
+             clean: Pasta di colore chiara con leggero alone centrale tendente verso il piatto.
+  freq=   4  raw : Intenso con alone leggero
+             clean: Pasta di colore intenso con leggero alone.
+  freq=   4  raw : Alone centrale rosato e un paio di punti neri dati da sporcizia(?)
+             clean: Pasta con alone centrale rosato e piccole macchie scure.
+  freq=   4  raw : Aree di colore diverso
+             clean: Pasta con aree di colore diverso.
+  freq=   4  raw : Molto carico grigiastro con ragionevoli scuro e chiazza allungata rodata sotto 1 piatto di 10 15 cm
+             clean: Pasta di colore molto carico grigiastro con aree scure e una chiazza allungata nella zona sottostante il piatto.
+  freq=   4  raw : Giallo un poco' carico e con zone rosa
+             clean: Pasta di colore giallo poco carico con zone rosa.
+  freq=   4  raw : Verde grigio verso la crosta non uniforme tende al carico
+             clean: Pasta tendente al verde grigio verso la crosta, non uniforme, di colore carico.
+  freq=   4  raw : Alone quasi bianco di 1cm
+             clean: Pasta con alone quasi bianco.
+  freq=   4  raw : Solo riflessi verdi,,,,
+             clean: Pasta con riflessi verdastri.
+  freq=   4  raw : Giallo chiaro, con una leggera tendenza al grigio verde
+             clean: Pasta di colore giallo chiaro con leggera tendenza al grigio-verde.
+  freq=   4  raw : Giallo paglierino chiaro uniforme
+             clean: Pasta di colore giallo paglierino chiaro uniforme.
+  freq=   4  raw : Base paglierino, appena più carico al centro.
+             clean: Pasta di colore paglierino, appena più carico al centro.
+  freq=   4  raw : Giallo abbastanza omogeneo lieve alone centrale
+             clean: Pasta di colore giallo abbastanza omogeneo con leggero alone centrale.
+  freq=   4  raw : Omogeneo ma eccessivamente carico
+             clean: Pasta di colore omogeneo ma eccessivamente carico.
+  freq=   4  raw : Alone leggero on corona rodata e una macchia rosata
+             clean: Pasta con leggero alone in corona rosata e macchia rosata.
+  freq=   4  raw : Una chiazza leggermente più carica in centro
+             clean: Pasta con una chiazza leggermente più carica al centro.
+  freq=   4  raw : Macchie rosa visibili
+             clean: Pasta con macchie rosa visibili.
+  freq=   4  raw : Aree grigiastro sotto i piatti
+             clean: Pasta con aree grigiastre sotto i piatti.
+  freq=   4  raw : Grigiastro con evidente alone nocciola al centro
+             clean: Pasta grigiastra con evidente alone nocciola al centro.
+  freq=   4  raw : Molto scuro
+             clean: Pasta di colore molto scuro.
+  freq=   4  raw : Colorazione chiara leggermente più carica al centro
+             clean: Pasta di colore chiaro, leggermente più carica al centro.
+  freq=   4  raw : Qualche sfumatura verde
+             clean: Pasta con qualche sfumatura verdognola.
+  freq=   4  raw : Leggero alone colore tendente al chiaro
+             clean: Pasta con leggero alone e colore tendente al chiaro.
+  freq=   4  raw : Giallo chiaro leggermente più carico in centro
+             clean: Pasta di colore giallo chiaro leggermente più carico al centro.
+  freq=   4  raw : Molto più chiaro verso gli scalzi
+             clean: Pasta più chiara verso gli scalzi.
+  freq=   4  raw : Aloni nella zona occhiata evidenziati da frattura strana
+             clean: Pasta con aloni nella zona occhiata evidenziati dalla frattura.
+  freq=   4  raw : Omogenea c0n giallo medio chiaro
+             clean: Pasta di colore giallo medio chiaro, omogenea.
+  freq=   4  raw : Più chiaro ai bordi. 1 macchia rosa?
+             clean: Pasta più chiara ai bordi con una macchia rosata.
+  freq=   4  raw : Paglierino più carico al centro
+             clean: Pasta paglierina con colore più carico al centro.
+  freq=   4  raw : Giallo carico al centro
+             clean: Pasta di colore giallo carico al centro.
+  freq=   4  raw : Giallo carico con zone presso gli scalzi più chiare
+             clean: Pasta di colore giallo carico con zone presso gli scalzi più chiare.
+  freq=   4  raw : Più chiaro sotto uno scalzo, leggero alone
+             clean: Pasta più chiara nella zona sottostante uno scalzo, con leggero alone.
+  freq=   4  raw : Decisamente carico al centro
+             clean: Pasta di colore decisamente carico al centro.
+  freq=   4  raw : Non molto Omogeneo, più carico al centro
+             clean: Pasta con colore non molto omogeneo, più carico al centro.
+  freq=   4  raw : Evidente alone centrale più scuro, fascia rosata su un lato
+             clean: Pasta con evidente alone centrale più scuro e fascia rosata su un lato.
+  freq=   4  raw : Chiaro macchie rosa
+             clean: Pasta di colore chiaro con macchie rosate.
+  freq=   4  raw : Carico con fascia più chiara sotto un piatto
+             clean: Pasta di colore carico con fascia più chiara sotto la superficie.
+  freq=   4  raw : Chiaro ma non omogeneo
+             clean: Pasta di colore chiaro ma non omogeneo.
+  freq=   4  raw : Anche riflessi rosati
+             clean: Pasta con riflessi rosati.
+  freq=   4  raw : Bella tonalità con giallo chiaro
+             clean: Pasta di tonalità gialla chiara.
+  freq=   4  raw : Enorme macchia rosa vs un piatto alone centrale scuro solo ai lati verso i piatti un colore tendente al chiaro
+             clean: Pasta con enorme macchia rosata, alone centrale scuro ai lati e colore tendente al chiaro nel resto della frattura.
+  freq=   4  raw : Paglierino chiaro con alone grigiastro
+             clean: Pasta paglierina chiara con alone grigiastro.
+  freq=   4  raw : Omogenea paglierino carico con riflesso verdognolo
+             clean: Pasta di colore paglierino carico omogeneo con riflesso verdognolo.
+  freq=   4  raw : Paglierino carico con velature grige
+             clean: Pasta di colore paglierino carico con velature grige.
+  freq=   4  raw : Estremamente carico al centro. Molto più chiaro in un angolo. 3colori
+             clean: Pasta di colore estremamente carico al centro, molto più chiara in un angolo.
+  freq=   4  raw : Colore paglierino omogeneo, con un aloni verdolino molto leggero
+             clean: Pasta di colore paglierino omogeneo, con leggeri aloni verdolini.
+  freq=   4  raw : Colore bruno quasi nocciola. Ci sono delle zone rosate
+             clean: Pasta di colore bruno tendente al nocciola con zone rosate.
+  freq=   4  raw : Leggero alone e leggerissima macchia rosata
+             clean: Pasta con leggero alone e leggerissima macchia rosata.
+  freq=   4  raw : Verso uno scalzo, carichissima di colore
+             clean: Pasta di colore carico verso uno scalzo.
+  freq=   4  raw : Al centro un poco' troppo carico, più chiaro vicino alla crosta
+             clean: Pasta di colore carico al centro e più chiaro verso la crosta.
+  freq=   4  raw : Alone centrale nettamente più scuro
+             clean: Pasta con alone centrale nettamente più scuro.
+  freq=   4  raw : Evidente alone centrale con fascia sotto un piatto più bianca cristalli piccoli e qualche perla
+             clean: Pasta con evidente alone centrale e fascia sotto piatto più bianca.
+  freq=   4  raw : Alone rosato localizzato al centro
+             clean: Pasta con alone rosato localizzato al centro.
+  freq=   4  raw : Giallo saturo abbastanza omogeneo
+             clean: Pasta di colore giallo saturo abbastanza omogeneo.
+  freq=   4  raw : Giallo intenso e zone più chiare
+             clean: Pasta di colore giallo intenso con zone più chiare.
+  freq=   4  raw : Sganciato carico
+             clean: Pasta di colore carico, sganciato.
+  freq=   4  raw : Alone nocciola dove rottura con fossa
+             clean: Pasta con alone nocciola in corrispondenza della frattura.
+  freq=   4  raw : Alone più scuro fascia rosa ad anello
+             clean: Pasta con alone più scuro e fascia rosata ad anello.
+  freq=   4  raw : Colore cipria
+             clean: Pasta di colore cipria.
+  freq=   4  raw : Colore buono senza calcolare la zona del difetto vicino allo scalzo
+             clean: Pasta di colore uniforme, con discolorazione nella zona vicino allo scalzo.
+  freq=   4  raw : Medio tendente al carico lieve
+             clean: Pasta di colore medio tendente al carico.
+  freq=   4  raw : Chiara Tendente al aranciato unif
+             clean: Pasta di colore chiaro tendente all'aranciato, uniforme.
+  freq=   4  raw : Alone è rivolto più verso uno dei due piatti
+             clean: Pasta con alone orientato verso uno dei due piatti.
+  freq=   4  raw : Giallo
+             clean: Pasta di colore giallo.
+  freq=   4  raw : Giallo con leggero alone più scuro
+             clean: Pasta di colore giallo con leggero alone più scuro.
+  freq=   4  raw : Abbastanza uniforme ma sottocrosta marrone con superficie biancastra
+             clean: Pasta uniforme con tonalità biancastra in superficie e marrone in sottocrosta.
+  freq=   4  raw : Colorazione giallo carico più accentuato verso il centro
+             clean: Pasta di colore giallo carico, più accentuato verso il centro.
+  freq=   4  raw : Paglierino leggero con velature verdognola
+             clean: Pasta di colore paglierino leggero con velature verdognole.
+  freq=   4  raw : Carico e più intenso a tratti
+             clean: Pasta di colore carico e tendente all'intenso a tratti.
+  freq=   4  raw : Chiaro con alone sembra una macchia risata ma difficile per la frattura
+             clean: Pasta di colore chiaro con alone e macchia rosata.
+  freq=   4  raw : Omogeneo leggermente grigio
+             clean: Pasta di colore omogeneo leggermente grigio.
+  freq=   4  raw : La crosta da Un alone rosato a tutta la pasta
+             clean: Pasta con alone rosato che dalla crosta si estende a tutta la pasta.
+  freq=   4  raw : Bel giallo, zona grigetta
+             clean: Pasta di bel colore giallo con zona grigetta.
+  freq=   4  raw : Abbastanza carico Più chiaro sotto un piatto
+             clean: Pasta di colore abbastanza carico, più chiara nella zona sottostante il piatto.
+  freq=   4  raw : Arancio carico
+             clean: Pasta di colore arancio carico.
+  freq=   4  raw : Chiaro tendente al verde grigio
+             clean: Pasta di colore chiaro tendente al verde grigio.
+  freq=   4  raw : Abbastanza carico non del tutto uniforme
+             clean: Pasta di colore abbastanza carico, non del tutto uniforme.
+  freq=   4  raw : Molto netto lo stacco tra i il marrone sottoscritta e la fascia chiara
+             clean: Pasta con netto stacco tra la zona marrone sottocrosta e la fascia chiara.
+  freq=   4  raw : Paglierino carico non uniforme con alone grigio verde
+             clean: Pasta di colore paglierino carico non uniforme con alone grigio verde.
+  freq=   4  raw : Chiaro tendente al grigio
+             clean: Pasta di colore chiaro tendente al grigio.
+  freq=   4  raw : Non del tutto uniforme giallo tende scuro
+             clean: Pasta di colore giallo tendente allo scuro, non del tutto uniforme.
+  freq=   4  raw : Molto carico, più chiaro sotto un piatto
+             clean: Pasta di colore molto carico, più chiara nella zona sottocorticale.
+  freq=   4  raw : Carico grigiastro con fascia più chiara sotto un piatto
+             clean: Pasta di colore carico grigiastro con fascia più chiara sotto la zona piatta.
+  freq=   4  raw : Porzione centrale più carica, comunque colore poco saturo
+             clean: Pasta con porzione centrale più carica, colore poco saturo.
+  freq=   4  raw : In certe zone appena più carico il colore: piccola disomogeneità
+             clean: Pasta con piccola disomogeneità di colore, leggermente più carico in certe zone.
+  freq=   4  raw : Giallo con alone più carico e macchioline rosa
+             clean: Pasta di colore giallo con alone più carico e piccole macchie rosate.
+  freq=   4  raw : Giallo chiaro, due macchie rosa centrali (credo, in caso voto 5,5)
+             clean: Pasta di colore giallo chiaro con due macchie rosa centrali.
+  freq=   4  raw : Colore chiaro e uniforme
+             clean: Pasta di colore chiaro e uniforme.
+  freq=   4  raw : Zona più chiara sotto un piatto e chiazza o rosa
+             clean: Pasta con zona più chiara sotto il piatto e chiazza rosata.
+  freq=   4  raw : Unif
+             clean: Pasta di colore uniforme.
+  freq=   4  raw : Abbastanza omogeneo con qualche area nocciola
+             clean: Pasta con colore abbastanza omogeneo e qualche area nocciola.
+  freq=   4  raw : Zone nettamente più chiare vicino a crosta
+             clean: Pasta con zone nettamente più chiare vicino alla crosta.
+  freq=   4  raw : Paglierino omogeneo, con alone grigio verdognolo
+             clean: Pasta di colore paglierino omogeneo con alone grigio verdognolo.
+  freq=   4  raw : Regolare
+             clean: NON_DESCRITTO
+  freq=   4  raw : Non ho tenuto conto della macchia dovuta ad una "correzione" dello scalzo Se va considerato il difetto il voto è 5,0
+             clean: NON_DESCRITTO
+  freq=   4  raw : Sotto un piatto zona di pasta disidratata
+             clean: Pasta con zona di disidratazione nella parte sottocrostale.
+  freq=   4  raw : Abbastanza omogeneo leggermente carico
+             clean: Pasta di colore abbastanza omogeneo e leggermente carico.
+  freq=   4  raw : Molto carico con alone che sfuma diverso un piatto più bianco
+             clean: Pasta di colore molto carico con alone che sfuma verso un piatto più bianco.
+  freq=   4  raw : Leggermente più scuro su 1b piatto
+             clean: Pasta leggermente più scura sulla zona del piatto.
+  freq=   4  raw : Zone grigiastre
+             clean: Pasta con zone grigiastre.
+  freq=   4  raw : Alone evidente rosato con fascia e macchie in prossimità di un puatto
+             clean: Pasta con alone evidente rosato, fascia e macchie in prossimità della frattura.
+  freq=   4  raw : Qualche macchia rosa
+             clean: Pasta con qualche macchia rosa.
+  freq=   4  raw : Alone più scuro
+             clean: Pasta con alone più scuro.
+  freq=   4  raw : Piuttosto variabile con aree molto arancione verso gli scalzi
+             clean: Pasta con colorazione variabile e aree aranciate verso gli scalzi.
+  freq=   4  raw : Giallo un poco' troppo carico
+             clean: Pasta di colore giallo piuttosto carico.
+  freq=   4  raw : Grande alone centrale e qualche piccola macchia rosa
+             clean: Pasta con grande alone centrale e piccole macchie rosate.
+  freq=   4  raw : Giallo carico con macchia marrone
+             clean: Pasta di colore giallo carico con macchia marrone.
+  freq=   4  raw : Centralmente più giallo
+             clean: Pasta più gialla nella zona centrale.
+  freq=   4  raw : Presenza di evidenti aloni rosa
+             clean: Pasta con evidenti aloni rosa.
+  freq=   4  raw : Tende nocciola
+             clean: Pasta tendente al nocciola.
+  freq=   4  raw : Alone netto e concentrato al cuore
+             clean: Pasta con alone netto e concentrato al centro.
+  freq=   4  raw : Colore chiaro ed omogeneo
+             clean: Pasta di colore chiaro e omogeneo.
+  freq=   4  raw : Diverse macchie rosa
+             clean: Pasta con diverse macchie rosate.
+  freq=   4  raw : Paglierino carico
+             clean: Pasta di colore paglierino carico.
+  freq=   4  raw : Giallo molto con alone carico
+             clean: Pasta di colore giallo carico con alone carico.
+  freq=   4  raw : Carico con zona più chiara verso una faccia
+             clean: Pasta di colore carico con zona più chiara verso una faccia.
+  freq=   4  raw : Alone centrale, il resto paglierino, chiaro
+             clean: Pasta con alone centrale e resto paglierino di colore chiaro.
+  freq=   4  raw : Chiaro e Leggermente alonato al centro
+             clean: Pasta di colore chiaro con leggermente alone centrale.
+  freq=   4  raw : Giallo intenso con alone centrale
+             clean: Pasta di colore giallo intenso con alone centrale.
+  freq=   4  raw : Molte macchie rosa che ddanno una Fascia
+             clean: Pasta con molte macchie rosa che formano una fascia.
+  freq=   4  raw : Paglierino non troppo carico e omogeneo
+             clean: Pasta di colore paglierino non troppo carico e omogeneo.
+  freq=   4  raw : Più carico in centro, non vero e proprio alone
+             clean: Pasta di colore più carico al centro, senza alone marcato.
+  freq=   4  raw : Appena più carico al centro. Verso uno scalzo paglierino chiarissimo.
+             clean: Pasta di colore giallo paglierino chiarissimo verso lo scalzo, appena più carico al centro.
+  freq=   4  raw : Centro più scura
+             clean: Pasta più scura nella zona centrale.
+  freq=   4  raw : Colore omogeneo abbastanza chiaro
+             clean: Pasta di colore omogeneo abbastanza chiaro.
+  freq=   4  raw : Zona più scura
+             clean: Pasta con zona più scura.
+  freq=   4  raw : Un piatto più scuro
+             clean: Pasta di colore più scuro e piatto.
+  freq=   4  raw : Colore molto chiaro. C'è qualche macchiolina rosata leggera ma visibile.
+             clean: Pasta di colore molto chiaro con qualche lieve macchiolina rosata.
+  freq=   4  raw : Alone centrale e diversità sotto i due piatti
+             clean: Pasta con alone centrale e diversità di colore sotto i due piatti.
+  freq=   4  raw : Colore leggermente rosato ma unif
+             clean: Pasta di colore leggermente rosato e uniforme.
+  freq=   4  raw : A causa della frattura e del la pasta al centro con un aspetto bagnato pastoso non sono sicura delle macchie
+             clean: NON_DESCRITTO
+  freq=   4  raw : Alone centrale te ne all...'arancio
+             clean: Pasta con alone centrale tendente all'arancio.
+  freq=   4  raw : Non del tutto uniforme alcune zone tendente al grigio
+             clean: Pasta con colore non del tutto uniforme, alcune zone tendente al grigio.
+  freq=   4  raw : Tende al chiaro con un alone centrale poco più carico
+             clean: Pasta che tende al chiaro con alone centrale poco più carico.
+  freq=   4  raw : Non paglierino. Forse appena più oxidato in centro
+             clean: Pasta non paglierina, tendente all'ossidazione nel centro.
+  freq=   4  raw : Alone centrale scuro colore tendenzialmente carico
+             clean: Pasta con alone centrale di colore scuro e tendenzialmente carico.
+  freq=   4  raw : Tendenzialmente carico.. Più chiaro verso scalzi
+             clean: Pasta di colore tendenzialmente carico, più chiara verso gli scalzi.
+  freq=   4  raw : abbastamza omogeneo
+             clean: Pasta di colore abbastanza omogeneo.
+  freq=   4  raw : Pressoché omogenea
+             clean: Pasta di colore omogeneo.
+  freq=   4  raw : Bel colore di fondo ma con evidenti Alone più scuri
+             clean: Pasta con colore di fondo uniforme e alone più scuro.
+  freq=   4  raw : Alone e verde appena accennati!
+             clean: Pasta con alone e sfumature verdi appena accennate.
+  freq=   4  raw : lieve alone nel centro
+             clean: Pasta con lieve alone centrale.
+  freq=   4  raw : Macchia alone centrale rosato
+             clean: Pasta con macchia e alone centrale rosato.
+  freq=   4  raw : Colore giallo carico omogeneo
+             clean: Pasta di colore giallo carico omogeneo.
+  freq=   4  raw : Omogenea tendente al chiaro
+             clean: Pasta omogenea tendente al chiaro.
+  freq=   4  raw : Al centro macchia grande rosa grigio
+             clean: Pasta con macchia grande rosata e grigiastra al centro.
+  freq=   4  raw : Tendente all' aranciata ma unif
+             clean: Pasta di colore tendente all'aranciato, uniforme.
+  freq=   4  raw : Disomogeneo e macchie rosa, alone centrale
+             clean: Pasta disomogenea con macchie rosa e alone centrale.
+  freq=   4  raw : Giallo tendente al carico nocciola
+             clean: Pasta di colore giallo tendente al carico nocciola.
+  freq=   4  raw : Zona un poco' rosa ma generalmente uniforme
+             clean: Pasta di colore uniforme con leggerissima zona rosata.
+  freq=   4  raw : Evidente alone scuro
+             clean: Pasta con evidente alone scuro.
+  freq=   4  raw : Degradante x intensità, alone
+             clean: Pasta con alone e degradazione di intensità.
+  freq=   4  raw : Alone centrale lievissimo
+             clean: Pasta con alone centrale leggerissimo.
+  freq=   4  raw : Tende al giallo carico, nocciola
+             clean: Pasta tendente al giallo carico con tonalità nocciola.
+  freq=   4  raw : Più carico al centro è ulteriormente più carico in certe zone. Sembra quasi virare al rosa talmente intenso é il giallo
+             clean: Pasta di colore giallo carico al centro, ancora più intenso in alcune zone, con tendenza al rosa.
+  freq=   4  raw : Evidente presenza di alone centrale più scuro
+             clean: Pasta con evidente alone centrale più scuro.
+  freq=   4  raw : Intenso e grande alone centrale
+             clean: Pasta con grande alone centrale intenso.
+  freq=   4  raw : Giallo vs carico poco uniforme
+             clean: Pasta di colore giallo carico poco uniforme.
+  freq=   4  raw : Leggermente alone centrale
+             clean: Pasta con leggermente alone centrale.
+  freq=   4  raw : Non paglierino. Appena più satura
+             clean: Pasta non paglierina, con colorazione appena più satura.
+  freq=   4  raw : Tende al rosa vicino al piatto
+             clean: Pasta tendente al rosa vicino al piatto.
+  freq=   4  raw : Zone più Chiaro verso i bordi
+             clean: Pasta con zone più chiare verso i bordi.
+  freq=   4  raw : Giallo troppo carico centro e più chiaro ai lati
+             clean: Pasta di colore giallo carico al centro e più chiara ai lati.
+  freq=   4  raw : Un poco' grigio nel sottocrosta
+             clean: Pasta con leggero grigio nella zona sottocrosca.
+  freq=   4  raw : Paglierino carica omogeneamente distribuito. Presenza di cristalli bianchi
+             clean: Pasta di colore paglierino carico omogeneamente distribuito con presenza di cristalli bianchi.
+  freq=   4  raw : Più scura al centro. Qualche macchia rosa
+             clean: Pasta più scura al centro con qualche macchia rosata.
+  freq=   4  raw : Un Poco carico ma uniforme
+             clean: Pasta di colore leggermente carico ma uniforme.
+  freq=   4  raw : Carico fascia rosa centrale
+             clean: Pasta con fascia rosa centrale carica.
+  freq=   4  raw : Carico quasi nocciola ma abbastanza omogeneo
+             clean: Pasta di colore carico, quasi nocciola, abbastanza omogenea.
+  freq=   4  raw : Relativamente omogeneo ma carico
+             clean: Pasta di colore omogeneo ma carico.
+  freq=   4  raw : Immatricolata conferisce quasi un colore rosato, ma solo pochi cm dopo la crosta. L'amore è spostato verso uno dei due piatti
+             clean: NON_DESCRITTO
+  freq=   4  raw : Disomogenea, a fasce più chiara, centro quasi rosato
+             clean: Pasta disomogenea con fasce più chiare e centro quasi rosato.
+  freq=   4  raw : Fascia bianca sotto un piatto centro con aloni rosati
+             clean: Pasta con fascia bianca, centro piatto e aloni rosati.
+  freq=   4  raw : Carico con alone e macchia diffusa rosata
+             clean: Pasta di colore carico con alone e macchia diffusa rosata.
+  freq=   4  raw : Colorazione accentuata verso l'interno
+             clean: Pasta con colorazione accentuata verso l'interno.
+  freq=   4  raw : Poi scusa al centro trend è a chuaro
+             clean: NON_DESCRITTO
+  freq=   4  raw : Alone leggero centrale
+             clean: Pasta con leggero alone centrale.
+  freq=   4  raw : Verso il giallo carico, con aree vergognose o nocciola carico
+             clean: Pasta tendente al giallo carico, con aree di colore nocciola carico.
+  freq=   4  raw : Giallo chiaro omogeneo verso paglierino
+             clean: Pasta di colore giallo chiaro omogeneo, tendente al paglierino.
+  freq=   4  raw : Giallo intenso al centro tendente al grigio rosa
+             clean: Pasta di colore giallo intenso al centro, tendente al grigio rosato.
+  freq=   4  raw : A parte le zone gessate, omogeneo e bello
+             clean: Pasta omogenea e di colore bello, salvo le zone gessate.
+  freq=   4  raw : Evidente alone rosato
+             clean: Pasta con evidente alone rosato.
+  freq=   4  raw : Chiaro leggero alone
+             clean: Pasta con leggero alone di colore chiaro.
+  freq=   4  raw : Omogeneo e abbastanza chiaro
+             clean: Pasta di colore omogeneo e abbastanza chiaro.
+  freq=   4  raw : Fasce chiare nette
+             clean: Pasta con fasce di colore chiaro nette.
+  freq=   4  raw : Il colore è carico, ma abbastanza omogeneo
+             clean: Pasta di colore carico, abbastanza omogenea.
+  freq=   4  raw : Scuro non del tutto uniforme
+             clean: Pasta di colore scuro non del tutto uniforme.
+  freq=   4  raw : Giallo paglierino marcato
+             clean: Pasta di colore giallo paglierino marcato.
+  freq=   4  raw : Più scuro al centro e chiazza rosa
+             clean: Pasta più scura al centro con chiazza rosata.
+  freq=   4  raw : Omogeneo ma intenso nocciola
+             clean: Pasta di colore omogeneo, intenso nocciola.
+  freq=   4  raw : Paglierino carico omogeneo, il sottocrosta ha una tonalità leggermente ambrata, ma solo il sottocrosta
+             clean: Pasta di colore paglierino carico omogeneo, con tonalità leggermente ambrata nel sottocrosta.
+  freq=   4  raw : Disomogeneità
+             clean: Pasta di colore disomogeneo.
+  freq=   4  raw : Le differenze di colore sono minime
+             clean: Pasta di colore uniforme.
+  freq=   4  raw : Forse troppo carico il giallo..
+             clean: Pasta di colore giallo troppo carico.
+  freq=   4  raw : Carico per lo più. 1 piatto e due scalzi più chiari
+             clean: Pasta di colore carico per lo più, con un'area piatta e due scalzi più chiari.
+  freq=   4  raw : Omogeneo, chiaro, a tratti nettamente paglierino
+             clean: Pasta di colore omogeneo, chiaro, con tratti nettamente paglierini.
+  freq=   4  raw : Giallo chiaro con leggeren sfumature grigiastro verso gli scalzi
+             clean: Pasta di colore giallo chiaro con leggere sfumature grigiastre verso gli scalzi.
+  freq=   4  raw : Chiara e uniforme
+             clean: Pasta di colore chiaro e uniforme.
+  freq=   4  raw : Due fasce rosate e leggero alone centrale
+             clean: Pasta con due fasce rosate e leggero alone centrale.
+  freq=   4  raw : Alone centrale non carico ma evidentemente
+             clean: Pasta con alone centrale non carico.
+  freq=   4  raw : Colore leggermente carico ma omogeneo
+             clean: Pasta di colore leggermente carico e omogeneo.
+  freq=   4  raw : Colore più scuro al centro
+             clean: Pasta di colore più scuro al centro.
+  freq=   4  raw : Più scuro verso un piatto
+             clean: Pasta più scura verso il piatto.
+  freq=   4  raw : Chiara ma non paglierino
+             clean: Pasta di colore chiaro ma non paglierina.
+  freq=   4  raw : Chiaro ma con macchie rosa
+             clean: Pasta di colore chiaro con macchie rosate.
+  freq=   4  raw : Piú chiaro verso un piatto
+             clean: Pasta più chiara verso la zona del piatto.
+  freq=   4  raw : Avv omogeneo ma intenso
+             clean: Pasta di colore omogeneo ma intenso.
+  freq=   4  raw : Paglierino scarico non omogeneo
+             clean: Pasta di colore paglierino scarico non omogeneo.
+  freq=   4  raw : Colorazione carica al centro
+             clean: Pasta con colorazione carica al centro.
+  freq=   4  raw : Omogeneo ma un poco' carico
+             clean: Pasta di colore omogeneo ma leggermente carico.
+  freq=   4  raw : Colore leggermente carico e alone centrale chiazza tende al rosato in centro
+             clean: Pasta di colore leggermente carico con alone centrale e chiazza tendente al rosato in centro.
+  freq=   4  raw : Colore tendenzialmente chiaro e omogeneo
+             clean: Pasta di colore tendenzialmente chiaro e omogeneo.
+  freq=   4  raw : Per lo più giallo chiaro. Un quarto laterale più saturo.
+             clean: Pasta per lo più di colore giallo chiaro, con una zona laterale più satura.
+  freq=   4  raw : Non molto omogeneo, carico al centro
+             clean: Pasta con colore carico al centro e non molto omogeneo.
+  freq=   4  raw : Alone lievissimo o ossidazione
+             clean: Pasta con alone lievissimo.
+  freq=   4  raw : Alone carico quasi nocciola al centro
+             clean: Pasta con alone carico di tonalità quasi nocciola al centro.
+  freq=   4  raw : Omogenea Paglierino chiaro, con alone verdastro
+             clean: Pasta di colore paglierino chiaro omogeneo, con alone verdastro.
+  freq=   4  raw : Un poco' saturo come giallo
+             clean: Pasta di colore giallo poco saturo.
+  freq=   4  raw : Intenso, più marcato al centro
+             clean: Pasta di colore intenso, più marcato al centro.
+  freq=   4  raw : Chiara abbastanza uniforme
+             clean: Pasta di colore chiaro e abbastanza uniforme.
+  freq=   4  raw : Abbastanza omogeneo, tonalità chiara, anche se non paglierina
+             clean: Pasta di colore abbastanza omogeneo, tonalità chiara, non paglierina.
+  freq=   4  raw : Colore chiaro e abbastanza unif
+             clean: Pasta di colore chiaro e abbastanza uniforme.
+  freq=   4  raw : Co!ore un poco' carico ma omogeneo. Positivo
+             clean: Pasta di colore poco carico e omogeneo.
+  freq=   4  raw : Colore paglierino chiaro omogeneo
+             clean: Pasta di colore paglierino chiaro omogeneo.
+  freq=   4  raw : Chiara ma macchie rosa
+             clean: Pasta di colore chiara con macchie rosa.
+  freq=   4  raw : Giallo abbastanza chiaro ,lieve sfumatura vicino al piatto
+             clean: Pasta di colore giallo abbastanza chiaro con lieve sfumatura vicino al piatto.
+  freq=   4  raw : Intenso e con alone in centro e verso un piatto
+             clean: Pasta di colore intenso con alone centrale e verso un lato.
+  freq=   4  raw : Leggerissima macchia rosata
+             clean: Pasta con leggerissima macchia rosata.
+  freq=   4  raw : Alone centrale arancio rosato
+             clean: Pasta con alone centrale arancio rosato.
+  freq=   4  raw : Colore carico sotto uno scalzo E sfumate rosate al bordo dell’ alone
+             clean: Pasta con colore carico sottocrosta e sfumature rosate al bordo dell'alone.
+  freq=   4  raw : Alone centrale molto evidente
+             clean: Pasta con alone centrale molto evidente.
+  freq=   4  raw : Molto chiara con leggero alone centrale
+             clean: Pasta molto chiara con leggero alone centrale.
+  freq=   4  raw : Omogenea paglierino
+             clean: Pasta di colore paglierino omogeneo.
+  freq=   4  raw : Più carico al centro. Una banda rosaata di 25x3 cm
+             clean: Pasta con colore più carico al centro e banda rosata.
+  freq=   4  raw : Carico grigiastro
+             clean: Pasta di colore carico grigiastro.
+  freq=   4  raw : Colore chiaro uniforme
+             clean: Pasta di colore chiaro uniforme.
+  freq=   4  raw : Molto troppo carico
+             clean: Pasta di colore molto carico.
+  freq=   4  raw : Più chiaro verso 1 piatto e i 2 scalzi
+             clean: Pasta più chiara verso il piatto e gli scalzi.
+  freq=   4  raw : Su colore chiaro, lieve carico al centro
+             clean: Pasta di colore chiaro con lieve carico al centro.
+  freq=   4  raw : Carico grigiastro più scuro verso in piatto
+             clean: Pasta di colore carico grigiastro, più scuro verso il piatto.
+  freq=   4  raw : Medio con zone verdi e centro più scuro
+             clean: Pasta di colore medio con zone verdi e centro più scuro.
+  freq=   4  raw : Giallo omogeneo ma carico
+             clean: Pasta di colore giallo carico e omogeneo.
+  freq=   4  raw : Abbastanza omogeneo ma carico, zona più scura verso un piatto
+             clean: Pasta abbastanza omogenea ma di colore carico, con zona più scura verso un piatto.
+  freq=   4  raw : Giallo omogeneo abbastanza carico
+             clean: Pasta di colore giallo omogeneo abbastanza carico.
+  freq=   4  raw : Sporca una parte
+             clean: Pasta con una parte di colore sporco.
+  freq=   4  raw : Al centro ci sono aree più scure
+             clean: Pasta con aree più scure al centro.
+  freq=   4  raw : Colore carico con alone centrale e qualche leggera macchia rosa
+             clean: Pasta di colore carico con alone centrale e qualche leggera macchia rosa.
+  freq=   4  raw : Abbastanza omogeneo ma saturo verso il giallo
+             clean: Pasta di colore abbastanza omogeneo, tendente al giallo saturo.
+  freq=   4  raw : Il sottocrosta è tendente al rosato e colora anche parte della pasta circostante
+             clean: Pasta con zona sottocrosta tendente al rosato che colora anche parte della pasta circostante.
+  freq=   4  raw : Giallo chiaro omogeneo tendente a chiaro
+             clean: Pasta di colore giallo chiaro omogeneo.
+  freq=   4  raw : Carico con alone centrale
+             clean: Pasta di colore carico con alone centrale.
+  freq=   4  raw : Sicura sotto piatto
+             clean: NON_DESCRITTO
+  freq=   4  raw : Leggero alone ma chiaro il resto
+             clean: Pasta con leggero alone, resto di colore chiaro.
+  freq=   4  raw : Chiara con alone centrale leggero
+             clean: Pasta di colore chiara con leggero alone centrale.
+  freq=   4  raw : Chiaro abbastanza unif
+             clean: Pasta di colore chiaro e abbastanza uniforme.
+  freq=   4  raw : Zona esterna più chiara
+             clean: Pasta più chiara nella zona esterna.
+  freq=   4  raw : Giallo paglierino uniforme
+             clean: Pasta di colore giallo paglierino uniforme.
+  freq=   4  raw : Zone con una tonalità rosata
+             clean: Pasta con zone di tonalità rosata.
+  freq=   4  raw : Un grande occhio al centro della forma di almeno 6mm. Cristalli di Hiroshima bianchi omogeneamente diffusi su tutta la superficie. Il sottoposta di un piatto è più carico
+             clean: Pasta con cristalli bianchi omogeneamente diffusi e sottopasta più carico.
+  freq=   4  raw : Colore carico al centro
+             clean: Pasta di colore carico al centro.
+  freq=   4  raw : Chiaro uniforme
+             clean: Pasta di colore chiaro uniforme.
+  freq=   4  raw : Alone centrale accentuatondalla frattura
+             clean: Pasta con alone centrale accentuato dalla frattura.
+  freq=   4  raw : Fascia centrale
+             clean: Pasta con fascia centrale.
+  freq=   4  raw : C'è una fascia, non alone centrale, appena più sarura
+             clean: Pasta con fascia appena più satura.
+  freq=   4  raw : I bordi sono completamente rosa
+             clean: Pasta con bordi completamente rosati.
+  freq=   4  raw : Abbastanza uniforme tende a chiaro
+             clean: Pasta di colore abbastanza uniforme, tendente al chiaro.
+  freq=   4  raw : Pessima!
+             clean: NON_DESCRITTO
+  freq=   4  raw : Carico al centro macchie rosa
+             clean: Pasta con colore carico al centro e macchie rosate.
+  freq=   4  raw : Omogeneo anche se saturo
+             clean: Pasta di colore omogeneo e saturo.
+  freq=   4  raw : Leggero
+             clean: Pasta di colore leggero.
+  freq=   4  raw : Chiaro con zona bianca sotto lo scalzo alone centrale
+             clean: Pasta di colore chiaro con zona bianca sotto lo scalzo e alone centrale.
+  freq=   4  raw : Mediamente carico, più al centro, con alone rosa
+             clean: Pasta di colore mediamente carico al centro con alone rosato.
+  freq=   4  raw : Giallo carico con fascia sotto un piatto più chiara
+             clean: Pasta di colore giallo carico con fascia sottocrostale più chiara.
+  freq=   4  raw : Alone più scuro e macchie rosa
+             clean: Pasta con alone più scuro e macchie rosa.
+  freq=   4  raw : Un poco' carico, leggermente più scuro al centro
+             clean: Pasta di colore poco carico, leggermente più scura al centro.
+  freq=   4  raw : Chiara alone centrale più scuro
+             clean: Pasta con colore chiaro e alone centrale più scuro.
+  freq=   4  raw : Abbastanza Omogeneo, in prossimità della crosta tendente al rossiccio
+             clean: Pasta tendenzialmente omogenea, tendente al rossiccio in prossimità della crosta.
+  freq=   4  raw : Alone centrale molto carico
+             clean: Pasta con alone centrale molto carico.
+  freq=   4  raw : Colore carico più scuro al centro
+             clean: Pasta di colore carico con tonalità più scura al centro.
+  freq=   4  raw : Giallo piuttosto carico omogeneo
+             clean: Pasta di colore giallo carico e omogeneo.
+  freq=   4  raw : Giallo paglierino scuro
+             clean: Pasta di colore giallo paglierino scuro.
+  freq=   4  raw : Pasta chiara positiva
+             clean: Pasta di colore chiaro.
+  freq=   4  raw : Paglierino chiaro con leggera nota grigiastra
+             clean: Pasta di colore paglierino chiaro con leggera nota grigiastra.
+  freq=   4  raw : Aree verdi e grigie ma limitatissima
+             clean: Pasta con limitate aree verdi e grigie.
+  freq=   4  raw : Leggermente carico ma paglierino al centro
+             clean: Pasta leggermente carica, paglierina al centro.
+  freq=   4  raw : Ampio Alone rosato Sotto piatto ocra scuro Banda chiara
+             clean: Pasta con ampio alone rosato, zona sottostante di colore ocra scuro e banda chiara.
+  freq=   4  raw : Carico al centro e leggera colorazione rosata (dubbia)
+             clean: Pasta di colore carico al centro con leggera colorazione rosata.
+  freq=   4  raw : Frattura di 3,5cm
+             clean: NON_DESCRITTO
+  freq=   4  raw : Alone centrale tendente aranciato
+             clean: Pasta con alone centrale tendente all'aranciato.
+  freq=   4  raw : Sfumatura più chiara verso crosta
+             clean: Pasta con sfumatura più chiara verso la crosta.
+  freq=   4  raw : Mediamente carico, abbastanza omogeneo
+             clean: Pasta di colore mediamente carico, abbastanza omogeneo.
+  freq=   4  raw : Più scuro al centro, tendenzialmente carico
+             clean: Pasta più scura al centro, tendenzialmente di colore carico.
+  freq=   4  raw : Acconciatura presente solo su un lato della forma circa 1mm
+             clean: NON_DESCRITTO
+  freq=   4  raw : 1 macchia centrale
+             clean: Pasta con una macchia centrale.
+  freq=   4  raw : Colore di base carico. Zona paglierino, chiara verso un terzo
+             clean: Pasta di colore carico con zona paglierina e fascia chiara verso un terzo.
+  freq=   4  raw : Giallo medio tendente al chiaro
+             clean: Pasta di colore giallo medio tendente al chiaro.
+  freq=   4  raw : Leggermente più scura ai piatti
+             clean: Pasta leggermente più scura ai bordi.
+  freq=   4  raw : Giallo piuttosto carico e uniforme
+             clean: Pasta di colore giallo piuttosto carico e uniforme.
+  freq=   4  raw : Alone centrale con chiazze rosate
+             clean: Pasta con alone centrale e chiazze rosate.
+  freq=   4  raw : Fascia verdastra sotto piatto
+             clean: Pasta con fascia verdastra sotto il piatto.
+  freq=   4  raw : Giallo tende al carico non uniforme
+             clean: Pasta di colore giallo carico tendenzialmente non uniforme.
+  freq=   4  raw : Chiaro, paglierino, omogeneo
+             clean: Pasta di colore paglierino chiaro e omogeneo.
+  freq=   4  raw : In corrispondenza dell'occhio con siero
+             clean: NON_DESCRITTO
+  freq=   4  raw : Due fasce, più scura su un piatto
+             clean: Pasta con due fasce di colore, una più scura sul piatto.
+  freq=   4  raw : Alcune zone grigiastro, zona molto chiara e parte interna più scura
+             clean: Pasta con alcune zone grigiastre, zona molto chiara e parte interna più scura.
+  freq=   4  raw : Uniforme un Poco carico
+             clean: Pasta di colore uniforme, poco carico.
+  freq=   4  raw : Alone centrale Più scuro e presenza di macchie rosa
+             clean: Pasta con alone centrale più scuro e macchie rosa.
+  freq=   4  raw : Colore dato dal sottocrosta
+             clean: Pasta con colore influenzato dalla zona sottocrosta.
+  freq=   4  raw : Escludendo la sfumatura della crosta il colore omogeneo
+             clean: Pasta di colore omogeneo, escludendo la sfumatura della crosta.
+  freq=   4  raw : Più carico al centro, di poco
+             clean: Pasta con colore più carico al centro, leggermente.
+  freq=   4  raw : Giallo tendente al carico. Piccolissime aree grigie
+             clean: Pasta di colore giallo tendente al carico, con piccolissime aree grigie.
+  freq=   4  raw : Presenza alone in prossimità della frattura non regolare
+             clean: Pasta con alone in prossimità della frattura.
+  freq=   4  raw : Macchia più scura al centro
+             clean: Pasta con macchia più scura al centro.
+  freq=   4  raw : Tende al chiaro ma grigiastra
+             clean: Pasta tendente al chiaro con sfumatura grigiastra.
+  freq=   4  raw : Lievissimo alone
+             clean: Pasta con lievissimo alone.
+  freq=   4  raw : Piccola rottura
+             clean: NON_DESCRITTO
+  freq=   4  raw : Fascia colorata rosata sotto un piatto
+             clean: Pasta con fascia rosata sotto colore più piatto.
+  freq=   4  raw : Alone centrale tendente al rosa
+             clean: Pasta con alone centrale tendente al rosa.
+  freq=   4  raw : 2 fascia longitudinali di colore differente
+             clean: Pasta con due fasce longitudinali di colore differente.
+  freq=   4  raw : Alone carico
+             clean: Pasta con alone di colore carico.
+  freq=   4  raw : Colore chiaro appena più carico al centro, poco comunque. Mi pare vedere macchia rosa sul taglio. Non sono sicuro, non penaizzo
+             clean: Pasta di colore chiaro, leggermente più carico al centro, con lieve macchia rosata al taglio.
+  freq=   4  raw : Una porzione, verso 1 piatto e uno scalzo è più chiara. Il resto comunque poco più saturo
+             clean: Pasta con colore non uniforme: una porzione verso il piatto e uno scalzo più chiara, il resto leggermente più saturo.
+  freq=   4  raw : Omogeneamente paglierino carico ambrato
+             clean: Pasta di colore omogeneamente paglierino carico ambrato.
+  freq=   4  raw : Grande alone centrale con striscia nocciola
+             clean: Pasta con grande alone centrale e striscia nocciola.
+  freq=   4  raw : Colore centrale più carico
+             clean: Pasta con colore centrale più carico.
+  freq=   4  raw : Bello omogeneo e chiaro.
+             clean: Pasta di colore omogeneo e chiaro.
+  freq=   4  raw : Più carico al centro, lieve ispessimento della crosta su un piatto
+             clean: Pasta di colore più carico al centro.
+  freq=   4  raw : Chiaro con Banda leggermente più chiara sotto 1 piatto
+             clean: Pasta di colore chiaro con fascia leggermente più chiara sotto il piatto.
+  freq=   4  raw : Piuttosto chiara anche se a zone
+             clean: Pasta di colore piuttosto chiara anche se con zone di tonalità diversa.
+  freq=   4  raw : Chiaro verso gli scalzi, più carico al centro, anche se non molto saturo
+             clean: Pasta di colore chiaro verso gli scalzi e più carico al centro, con saturazione non molto intensa.
+  freq=   4  raw : Giallo un poco' carico con qualche leggera macchia rosa
+             clean: Pasta di colore giallo poco carico con qualche leggera macchia rosata.
+  freq=   4  raw : Più chiaro verso l'esterno, diverse macchie
+             clean: Pasta più chiara verso l'esterno con diverse macchie.
+  freq=   4  raw : Un poco' verdastra angoli
+             clean: Pasta con leggera tonalità verdastra negli angoli.
+  freq=   4  raw : Giallo carico soprattutto negli angoli e scalzi.
+             clean: Pasta di colore giallo carico soprattutto negli angoli e negli scalzi.
+  freq=   4  raw : Alone forse accentuato dalla frattura ad arco
+             clean: Pasta con alone accentuato dalla frattura ad arco.
+  freq=   4  raw : Leggermente più carico al centro ma generalmente poco carico, presenza importante di grani di tirosina
+             clean: Pasta con colore poco carico, leggermente più intenso al centro, e presenza di grani di tirosina.
+  freq=   4  raw : Disomogeneità di colorazione
+             clean: Pasta con colorazione disomogenea.
+  freq=   4  raw : Omogeneo, chiaro paglierino
+             clean: Pasta di colore chiaro paglierino, omogeneo.
+  freq=   4  raw : Carico Abbastanza uniforme
+             clean: Pasta di colore carico e abbastanza uniforme.
+  freq=   4  raw : Giallo paglierino non proprio chiaro con note tendenti al verde grigiastro
+             clean: Pasta di colore giallo paglierino non proprio chiaro con note tendenti al verde grigiastro.
+  freq=   4  raw : Leggermente carico al centro
+             clean: Pasta di colore leggermente carico al centro.
+  freq=   4  raw : 1/3 paglierino. Il resto più carico
+             clean: Pasta con colore paglierino in parte e più carico nel resto.
+  freq=   4  raw : Uniforme chiaro
+             clean: Pasta di colore uniforme e chiaro.
+  freq=   4  raw : Alone centrale e sotto piatto troppo bianchi segno potenziale demineralizzazione
+             clean: Pasta con alone centrale e zona sottocrostale bianchi.
+  freq=   4  raw : Paglierino scarico
+             clean: Pasta di colore paglierino scarico.
+  freq=   4  raw : Una macchia bruna vicino al centro
+             clean: Pasta con macchia bruna vicino al centro.
+  freq=   4  raw : Abbastanza omogeneo lievemente più carico al centro
+             clean: Pasta abbastanza omogenea, lievemente più carica al centro.
+  freq=   4  raw : Giallo abbastanza carico, leggermente alonato
+             clean: Pasta di colore giallo abbastanza carico, leggermente alonata.
+  freq=   4  raw : Giallo tenue
+             clean: Pasta di colore giallo tenue.
+  freq=   4  raw : Più scura verso il centro anche se di poco
+             clean: Pasta più scura verso il centro.
+  freq=   4  raw : Giallo carico al centro, più chiaro verso i 3/4 della forma
+             clean: Pasta di colore giallo carico al centro, tendente al più chiaro verso le zone periferiche.
+  freq=   4  raw : Omogeneo ma carico, forse con qualche alone
+             clean: Pasta di colore omogeneo ma carico, con qualche alone.
+  freq=   4  raw : Alone centrale tendente al rosa pompelmo
+             clean: Pasta con alone centrale tendente al rosa pompelmo.
+  freq=   4  raw : Leggi più scuro al centro ma tende al cgiaro
+             clean: Pasta leggermente più scura al centro ma tendente al chiaro.
+  freq=   4  raw : Chiara e omogenea sembra qualche macchia rosa
+             clean: Pasta chiara e omogenea con qualche macchia rosata.
+  freq=   4  raw : Giallo saturo con un piatto più chiaro
+             clean: Pasta di colore giallo saturo con zona più chiara.
+  freq=   4  raw : Omogeneo ma giallo stracarico
+             clean: Pasta di colore giallo molto carico, omogenea.
+  freq=   4  raw : Chiaro abbastanza omogeneo
+             clean: Pasta di colore chiaro abbastanza omogeneo.
+  freq=   4  raw : Alone centrale nocciola, differenza fra le zone
+             clean: Pasta con alone centrale nocciola e differenza di colore fra le zone.
+  freq=   4  raw : Colore omogeneo, poco saturo
+             clean: Pasta di colore omogeneo, poco saturo.
+  freq=   4  raw : Giallo intenso al centro non uniforme
+             clean: Pasta di colore giallo intenso al centro, non uniforme.
+  freq=   4  raw : Base chiara appena più carica a tratti
+             clean: Pasta di colore chiaro con sfumature leggermente più cariche a tratti.
+  freq=   4  raw : Omogenea poco satura
+             clean: Pasta di colore omogeneo poco saturo.
+  freq=   4  raw : Non uniforme, base Paglierino chiaro tendente grigio è presente una strisca scura, estesa e parallela ad un piatto
+             clean: Pasta con colore non uniforme, base paglierina chiara tendente al grigio con striscia scura estesa e parallela a un piatto.
+  freq=   4  raw : Giallo paglierino verso gli scalzi, si carica verso il centro, macchia rosa
+             clean: Pasta di colore giallo paglierino verso gli scalzi, che si carica verso il centro con macchia rosata.
+  freq=   4  raw : Alone evidente
+             clean: Pasta con alone evidente.
+  freq=   4  raw : Omogeneo se pur carico
+             clean: Pasta di colore omogeneo, benché carico.
+  freq=   4  raw : Giallo piuttosto carico
+             clean: Pasta di colore giallo piuttosto carico.
+  freq=   4  raw : Giallo chiaro con sfumature grigiastro,leggera
+             clean: Pasta di colore giallo chiaro con sfumature grigiastre leggere.
+  freq=   4  raw : Alone colore rosato
+             clean: Pasta con alone di colore rosato.
+  freq=   4  raw : Macchie rosa violacee
+             clean: Pasta con macchie rosa violacee.
+  freq=   4  raw : Alone centrale, sotto un piatto è più chiara
+             clean: Pasta con alone centrale e zona sottocrostale più chiara.
+  freq=   4  raw : Intenso sia pure abbastanza omogeneo
+             clean: Pasta di colore intenso, abbastanza omogeneo.
+  freq=   4  raw : Lievemente più carica al centro
+             clean: Pasta di colore leggermente più carica al centro.
+  freq=   4  raw : Fascia di Colore sotto crosta marrone che sfuma verso l’interno
+             clean: Pasta con fascia di colore sotto crosta marrone che sfuma verso l'interno.
+  freq=   4  raw : Macchia rosa sotto scalzo
+             clean: Pasta con macchia rosata nella zona dello scalzo.
+  freq=   4  raw : Verso uno dei 2scalzi colore più intenso rossiccio
+             clean: Pasta con colore più intenso e rossiccio verso uno degli scalzi.
+  freq=   4  raw : Giallo abbastanza carico
+             clean: Pasta di colore giallo abbastanza carico.
+  freq=   4  raw : Alone arancio rosa
+             clean: Pasta con alone arancio rosato.
+  freq=   4  raw : Appena più carico verso il centro, comunque tonalità poco sature
+             clean: Pasta di colore poco saturo, leggermente più carico verso il centro.
+  freq=   4  raw : NEtto alone rosato con macchie
+             clean: Pasta con netto alone rosato e macchie.
+  freq=   4  raw : Non omogeneo ed aloni rosa o marron
+             clean: Pasta con colore non omogeneo e aloni rosa e marrone.
+  freq=   4  raw : Evidente alone centrale
+             clean: Pasta con evidente alone centrale.
+  freq=   4  raw : Omogenea tranne nel sottocrosta
+             clean: Pasta di colore omogeneo tranne nella zona sottocrosta.
+  freq=   4  raw : Presenza alone centrale percepibile con una macchia rosa
+             clean: Pasta con alone centrale percepibile e macchia rosata.
+  freq=   4  raw : Alone centrale più carico con macchie rosate
+             clean: Pasta con alone centrale più carico e macchie rosate.
+  freq=   4  raw : Base paglierino, chiara. Alone appena più scuri e ulteriori macchie ancora più scure
+             clean: Pasta di colore paglierino chiaro, con alone leggermente più scuro e ulteriori macchie ancora più scure.
+  freq=   4  raw : Molto carico. Aranciato
+             clean: Pasta di colore molto carico e aranciato.
+  freq=   4  raw : Leggeri alone più carico in centro
+             clean: Pasta con leggeri alone più carico in centro.
+  freq=   4  raw : Alone molto evidente arancio rosato
+             clean: Pasta con alone molto evidente arancio rosato.
+  freq=   4  raw : Alone centrale più scuro e banda chiara sotto 1 piatto
+             clean: Pasta con alone centrale più scuro e banda chiara sotto la crosta.
+  freq=   4  raw : Omogeneo, giallo di tonalità media
+             clean: Pasta di colore giallo omogeneo con tonalità media.
+  freq=   4  raw : Strisce rosa
+             clean: Pasta con strisce rosa.
+  freq=   4  raw : Striscia più scura parallela ad un piatto
+             clean: Pasta con striscia più scura parallela a un piatto.
+  freq=   4  raw : Disomogeneo, più chiaro verso gli scalzi
+             clean: Pasta con colore disomogeneo, più chiara verso gli scalzi.
+  freq=   4  raw : Abbastanza omogeneo, non molto carico
+             clean: Pasta di colore abbastanza omogeneo, non molto carico.
+  freq=   4  raw : 1/4 della superficie di colore molto chiaro, quasi bianco. Il resto più carico
+             clean: Pasta con una parte di colore molto chiaro quasi bianco, il resto più carico.
+  freq=   4  raw : Zone rosa e grigine
+             clean: Pasta con zone rosate e grigiastre.
+  freq=   4  raw : Fascia scura sotto un piatto, fascia chiara sotto l’altro
+             clean: Pasta con fascia scura e fascia chiara in zone diverse.
+  freq=   4  raw : Evidenti striscia rosa
+             clean: Pasta con evidenti striscie rosate.
+  freq=   4  raw : Molto carico e forse 1 macchia rosata
+             clean: Pasta di colore molto carico con macchia rosata.
+  freq=   4  raw : Centro più carico
+             clean: Pasta con centro più carico.
+  freq=   4  raw : Ad aree...
+             clean: NON_DESCRITTO
+  freq=   4  raw : Più scuro al centro, presenza di un alone rosa
+             clean: Pasta più scura al centro con presenza di alone rosato.
+  freq=   4  raw : Intensa con alone
+             clean: Pasta di colore intenso con alone.
+  freq=   4  raw : Paglierina
+             clean: Pasta di colore paglierina.
+  freq=   4  raw : Lieve più carico in zona centrale
+             clean: Pasta con colorazione più carica nella zona centrale.
+  freq=   4  raw : Zona rosa centrale e Mtv chiara sugli angoli
+             clean: Pasta con zona rosa centrale e colore chiaro negli angoli.
+  freq=   4  raw : Tendenzialmente carico.
+             clean: Pasta di colore tendenzialmente carico.
+  freq=   4  raw : Alone centrale molto più scuro
+             clean: Pasta con alone centrale molto scuro.
+  freq=   4  raw : Macchie rosa colore chiaro alone centrale più scuro
+             clean: Pasta con macchie rosa, colore chiaro e alone centrale più scuro.
+  freq=   4  raw : Alone molto grande
+             clean: Pasta con alone molto grande.
+  freq=   4  raw : Eccessivamente carico
+             clean: Pasta di colore eccessivamente carico.
+  freq=   4  raw : Alone centrale rosato e striscia rosa abbastanza marcata, sempre al centro
+             clean: Pasta con alone centrale rosato e striscia rosa abbastanza marcata al centro.
+  freq=   4  raw : Macchie
+             clean: Pasta con macchie.
+  freq=   4  raw : Taglio molto inregolare
+             clean: NON_DESCRITTO
+  freq=   4  raw : Un poco' più chiaro verso un piatto
+             clean: Pasta più chiara verso il piatto.
+  freq=   4  raw : Paglierino ove chiaro
+             clean: Pasta paglierina nelle zone più chiare.
+  freq=   4  raw : Paglierino carico, quasi giallo con alone grigio verde
+             clean: Pasta di colore paglierino carico, quasi giallo, con alone grigio verde.
+  freq=   4  raw : Colore carico tendente al grigio in centro
+             clean: Pasta di colore carico tendente al grigio nella zona centrale.
+  freq=   4  raw : Chiara
+             clean: Pasta di colore chiaro.
+  freq=   4  raw : Giallo carico,un piatto più chiaro
+             clean: Pasta di colore giallo carico con una parte più chiara.
+  freq=   4  raw : Leggera sfumatura rosata
+             clean: Pasta con leggera sfumatura rosata.
+  freq=   4  raw : Verso uno degli scalzi vira verso il rosato marrone
+             clean: Pasta con viraggio verso tonalità rosato-marrone verso gli scalzi.
+  freq=   4  raw : Macchia rosa centrale abbastanza grande
+             clean: Pasta con macchia rosa centrale abbastanza grande.
+  freq=   4  raw : Colorazione chiara leggermente allonato al centro
+             clean: Pasta di colorazione chiara, leggermente allungata al centro.
+  freq=   4  raw : Paglierino carico, rossastra negli angoli
+             clean: Pasta di colore paglierino carico, tendente al rossastro negli angoli.
+  freq=   4  raw : Intenso ed omogeneo
+             clean: Pasta di colore intenso e omogeneo.
+  freq=   4  raw : Paglierino molto scarico con riflessi grigi
+             clean: Pasta paglierina molto scarica con riflessi grigi.
+  freq=   4  raw : Carico non omogeneo
+             clean: Pasta di colore carico e non omogeneo.
+  freq=   4  raw : Macchia rosa?
+             clean: Pasta con macchia rosata.
+  freq=   4  raw : Numerose e grosse macchie rosate
+             clean: Pasta con numerose e grosse macchie rosate.
+  freq=   4  raw : Paglierino con riflessi grigi
+             clean: Pasta paglierina con riflessi grigi.
+  freq=   4  raw : Colore un poco' carico ma omogeneo
+             clean: Pasta di colore leggermente carico e omogeneo.
+  freq=   4  raw : Grande alone centrale scuro
+             clean: Pasta con grande alone centrale scuro.
+  freq=   4  raw : Alone e zone rosate
+             clean: Pasta con alone e zone rosate.
+  freq=   4  raw : Bianco grigio
+             clean: Pasta di colore bianco grigio.
+  freq=   4  raw : Giallo carico saturo e sfumature verdognole
+             clean: Pasta di colore giallo carico saturo con sfumature verdognole.
+  freq=   4  raw : Colore non uniforme alone più scuro
+             clean: Pasta con colore non uniforme e alone più scuro.
+  freq=   4  raw : Carico di giallo. Bel colore da sbrinz
+             clean: Pasta di colore giallo carico.
+  freq=   4  raw : Poco omogenea
+             clean: Pasta con colore poco omogeneo.
+  freq=   4  raw : Paglierino ai bordi, ma carico al centro, anche se non molto giallo
+             clean: Pasta paglierina ai bordi e di colore carico al centro, non molto gialla.
+  freq=   4  raw : Colore molto carico verso il centro
+             clean: Pasta di colore molto carico verso il centro.
+  freq=   4  raw : Volte dal giallo verde al giallo carico, alone
+             clean: Pasta con sfumature dal giallo verde al giallo carico e alone.
+  freq=   4  raw : Al centro giallo carico, più leggero verso l'esterno
+             clean: Pasta di colore giallo carico al centro, tendente al più leggero verso l'esterno.
+  freq=   4  raw : Leggero alone centrale e un Poco scuro
+             clean: Pasta con leggero alone centrale e colore leggermente scuro.
+  freq=   4  raw : Struttura della pasta: Grande zona spugnosa Colore della pasta: omogeneamente paglierino scarico
+             clean: Pasta di colore omogeneamente paglierino scarico.
+  freq=   4  raw : Anello sottocrosta chiaro
+             clean: Pasta con anello sottocrosta di colore chiaro.
+  freq=   4  raw : Colore molto carico ma omogeneo
+             clean: Pasta di colore molto carico e omogeneo.
+  freq=   4  raw : Solo più carico il centro
+             clean: Pasta con colore più carico al centro.
+  freq=   4  raw : Lateralmente più chiara
+             clean: Pasta più chiara lateralmente.
+  freq=   4  raw : Giallo carico con alone più scuro non molto omogeneo
+             clean: Pasta di colore giallo carico con alone più scuro e disomogeneo.
+  freq=   4  raw : Chiara uniforme macchie risa
+             clean: Pasta di colore chiaro uniforme con macchie rosate.
+  freq=   4  raw : Non omogeneo più marcato nel centro Sottocrosta più chiaro
+             clean: Pasta con colore non omogeneo, più marcato nel centro e più chiaro in sottocrosta.
+  freq=   4  raw : Sfumata e diversa da un piatto all'altro
+             clean: Pasta con sfumature di colore diverse da una zona all'altra.
+  freq=   4  raw : Leggermente carico più al centro
+             clean: Pasta di colore leggermente carico al centro.
+  freq=   4  raw : Qualche piccola macchia rosata leggera leggera su sfondo chiaro
+             clean: Pasta con qualche piccola macchia rosata su sfondo chiaro.
+  freq=   4  raw : Più chiara verso gli scalzi
+             clean: Pasta più chiara verso gli scalzi.
+  freq=   4  raw : Carico non accentuato
+             clean: Pasta di colore carico non accentuato.
+  freq=   4  raw : Bianco pallido alone
+             clean: Pasta con alone bianco pallido.
+  freq=   4  raw : Gialla con alone
+             clean: Pasta di colore gialla con alone.
+  freq=   4  raw : Presenza di ingresso di muffa laterale
+             clean: NON_DESCRITTO
+  freq=   4  raw : Leggero alone verso un piatto
+             clean: Pasta con leggero alone verso il piatto.
+  freq=   4  raw : Fascia più scura su un piatto
+             clean: Pasta con fascia più scura su fondo più chiaro.
+  freq=   4  raw : Grossa macchia scura in centro, irregolare
+             clean: Pasta con macchia scura irregolare al centro.
+  freq=   4  raw : Fascia più scura tendente al rosato a 5 cm disputati
+             clean: Pasta con fascia più scura tendente al rosato.
+  freq=   4  raw : Chiaro alone centrale macchie rosa
+             clean: Pasta con chiaro alone centrale e macchie rosa.
+  freq=   4  raw : Chiaro e omogeneo
+             clean: Pasta di colore chiaro e omogeneo.
+  freq=   4  raw : Chiaro abbastanza uniforme
+             clean: Pasta di colore chiaro e abbastanza uniforme.
+  freq=   4  raw : Carico, maggiormente al centro
+             clean: Pasta di colore carico, maggiormente al centro.
+  freq=   4  raw : Più chiaro verso gli scalzi, più carico al centro.
+             clean: Pasta più chiara verso gli scalzi e più carico al centro.
+  freq=   4  raw : Più scura verso un piatto
+             clean: Pasta più scura verso il piatto.
+  freq=   4  raw : Appena appena più carico al centro
+             clean: Pasta con colore appena più carico al centro.
+  freq=   4  raw : Giallo medio ma aree grigie verdi!!!
+             clean: Pasta di colore giallo medio con aree grigie e verdognole.
+  freq=   4  raw : Molto intenso
+             clean: Pasta di colore molto intenso.
+  freq=   4  raw : Chiaro alone centrale
+             clean: Pasta con alone centrale chiaro.
+  freq=   4  raw : Zona scura al centro
+             clean: Pasta con zona scura al centro.
+  freq=   4  raw : Diversa fra i piatti
+             clean: NON_DESCRITTO
+  freq=   4  raw : Troppo carico
+             clean: Pasta di colore troppo carico.
+  freq=   4  raw : Non molto chiaro ma abbastanza omogeneo
+             clean: Pasta non molto chiara ma abbastanza omogenea.
+  freq=   4  raw : Alone nella zona con maggiore occhiatura
+             clean: Pasta con alone nella zona con maggiore occhiatura.
+  freq=   4  raw : Colore dal giallo chiaro, leggermente grigio, al giallo medio
+             clean: Pasta di colore dal giallo chiaro leggermente grigiastro al giallo medio.
+  freq=   4  raw : Colore paglierino carico uniforme
+             clean: Pasta di colore paglierino carico uniforme.
+  freq=   4  raw : Carico tendente al nocciola
+             clean: Pasta di colore carico tendente al nocciola.
+  freq=   4  raw : Sfumatura scusa dai piatti verso l’interno più chiaro
+             clean: Pasta con sfumatura dai bordi verso l'interno più chiara.
+  freq=   4  raw : Non troppo carico, omogeneo
+             clean: Pasta di colore non troppo carico, omogeneo.
+  freq=   4  raw : Alone rosa
+             clean: Pasta con alone rosa.
+  freq=   4  raw : Piccolo alone centrale
+             clean: Pasta con piccolo alone centrale.
+  freq=   4  raw : Paglierino carico con numerosi cristalli
+             clean: Pasta di colore paglierino carico.
+  freq=   4  raw : Omogeneo tendente al paglierino
+             clean: Pasta di colore omogeneo tendente al paglierino.
+  freq=   4  raw : Tende al chiaro
+             clean: Pasta tendente al colore chiaro.
+  freq=   4  raw : Paglierino scarico con all'ufficio verdastri
+             clean: Pasta di colore paglierino scarico con riflessi verdastri.
+  freq=   4  raw : Ho però il dubbio delle macchie rosa qui non le ho considerate
+             clean: Pasta con macchie rosa.
+  freq=   4  raw : Omogeneo paglierino chiaro
+             clean: Pasta di colore paglierino chiaro e omogeneo.
+  freq=   4  raw : Giallo abbastanza carico con alone centrale
+             clean: Pasta di colore giallo abbastanza carico con alone centrale.
+  freq=   4  raw : Macchia centrale marroncina
+             clean: Pasta con macchia centrale marroncina.
+  freq=   4  raw : Fascia più chiara sotto 1 piatto
+             clean: Pasta con fascia più chiara nella zona sottostante il piatto.
+  freq=   4  raw : Presenza di un alone rosa lungo tutto il piatto
+             clean: Pasta con alone rosato lungo tutto il piatto.
+  freq=   4  raw : Dorato
+             clean: Pasta di colore dorato.
+  freq=   4  raw : Paglierino centralmente più carico
+             clean: Pasta paglierina con colore più carico centralmente.
+  freq=   4  raw : Carico quasi ossidato con due macchie rosa
+             clean: Pasta di colore carico con due macchie rosa.
+  freq=   4  raw : Leggermente carico il giallo sebbene omogeneo
+             clean: Pasta di colore giallo leggermente carico e omogeneo.
+  freq=   4  raw : Paglierino chiaro omogeneamente distribuito
+             clean: Pasta di colore paglierino chiaro omogeneamente distribuito.
+  freq=   4  raw : Saturo, non troppo carico. Omogeneo
+             clean: Pasta di colore saturo, non troppo carico e omogeneo.
+  freq=   4  raw : Alone leggermente rosato
+             clean: Pasta con alone leggermente rosato.
+  freq=   4  raw : Forse più chiaro dove è fitta la microocchiatura
+             clean: Pasta più chiara nelle zone di fitta microocchiatura.
+  freq=   4  raw : Appena saturo. Appena più chiarimenti scalzi
+             clean: Pasta di colore appena saturo con scalzi leggermente più chiari.
+  freq=   4  raw : Alone centrale leggermente rosato
+             clean: Pasta con alone centrale leggermente rosato.
+  freq=   4  raw : Fascia rosa arancio sotto un piatto parte centrale
+             clean: Pasta con fascia rosa arancio nella parte centrale sotto zona più chiara.
+  freq=   4  raw : Pulita omogenea
+             clean: Pasta di colore omogeneo.
+  freq=   4  raw : Tendente al chiaro ma alone centrale
+             clean: Pasta tendente al chiaro con alone centrale.
+  freq=   4  raw : Macchia rosa in prossimità di un piatto
+             clean: Pasta con macchia rosata in prossimità della frattura.
+  freq=   4  raw : Alone centrale molto scuro zona laterale verde
+             clean: Pasta con alone centrale molto scuro e zona laterale verdognola.
+  freq=   4  raw : Colore al centro più scuro, quasi tendente al rosato. Non bello da vedere
+             clean: Pasta con colore al centro tendente al rosato e più scuro.
+  freq=   4  raw : Abbastanza Omogeneo, un poco' più scuro Su un lato
+             clean: Pasta abbastanza omogenea, leggermente più scura su un lato.
+  freq=   4  raw : Paglierino verso un piatto fino a metà scalzo, appena più carico verso il cuore
+             clean: Pasta di colore paglierino tendente al chiaro verso la zona scalza, appena più carica verso il centro.
+  freq=   4  raw : Giallo paglierino
+             clean: Pasta di colore giallo paglierino.
+  freq=   4  raw : Parte centrale più scura
+             clean: Pasta con parte centrale più scura.
+  freq=   4  raw : Numerose macchie rosa, colore disomogeneo
+             clean: Pasta con numerose macchie rosate e colore disomogeneo.
+  freq=   4  raw : Su una base chiara, paglierina, si diffonde un tono lievemente più carico al centro
+             clean: Pasta di colore paglierino chiaro con tonalità lievemente più carica al centro.
+  freq=   4  raw : Chiara sotto crosta e più scura centrale
+             clean: Pasta più chiara in sottocrosta e più scura al centro.
+  freq=   4  raw : Colore salmone
+             clean: Pasta di colore rosato salmone.
+  freq=   4  raw : Giallo paglierino abbastanza omogeneo, non troppo carico, lieve alone rosato poco visibile
+             clean: Pasta di colore giallo paglierino abbastanza omogeneo, non troppo carico, con lieve alone rosato poco visibile.
+  freq=   4  raw : Disomogenea e con alone
+             clean: Pasta con colore disomogeneo e alone.
+  freq=   4  raw : Pasta dal colore bruno
+             clean: Pasta di colore bruno.
+  freq=   4  raw : Colore carico tendente al grigio più chiaro sotto un piatto
+             clean: Pasta di colore carico tendente al grigio, più chiara nella zona sotto il piatto.
+  freq=   4  raw : Tendenzialmente carico,più chiaro verso una faccia
+             clean: Pasta di colore tendenzialmente carico, più chiara verso una faccia.
+  freq=   4  raw : 1/5 più chiaro del resto
+             clean: Pasta con una zona più chiara rispetto al resto.
+  freq=   4  raw : Alone spostato verso un piatto
+             clean: Pasta con alone spostato verso un'area più chiara.
+  freq=   4  raw : Paglierino pallido con velatura grigia
+             clean: Pasta di colore paglierino pallido con velatura grigia.
+  freq=   4  raw : Rosa ai piatti e scalzi
+             clean: Pasta con colorazione rosata ai bordi e alle zone scalze.
+  freq=   4  raw : Giallo tendente al chiaro, ma aree verdognole
+             clean: Pasta di colore giallo tendente al chiaro con aree verdognole.
+  freq=   4  raw : Leggermente più carico al centro, per il resto bello
+             clean: Pasta di colore leggermente più carico al centro, uniforme nel resto.
+  freq=   4  raw : Alone più scuro centrale
+             clean: Pasta con alone centrale più scuro.
+  freq=   4  raw : Colore abbastanza carico ed omogeneo, presenza di aloni rosa
+             clean: Pasta di colore abbastanza carico ed omogeneo, con presenza di aloni rosa.
+  freq=   4  raw : Carico alone centrale più scuro
+             clean: Pasta con colore carico e alone centrale più scuro.
+  freq=   4  raw : Media di un giallo saturo ma non carico. Presenta zone leggermente più chiare
+             clean: Pasta di colore giallo saturo con zone leggermente più chiare.
+  freq=   4  raw : Non omogenea Più chiara al centro
+             clean: Pasta non omogenea, più chiara al centro.
+  freq=   4  raw : Colore chiaro bianco sotto un piatto e macchie rosa
+             clean: Pasta di colore chiaro bianco con macchie rosate.
+  freq=   4  raw : Leggermente più carico al centro
+             clean: Pasta di colore leggermente più carico al centro.
+  freq=   4  raw : Molto carico alone vs un piatto
+             clean: Pasta con alone molto carico rispetto al colore piatto della restante zona.
+  freq=   4  raw : Alone centrale poco marcato
+             clean: Pasta con alone centrale poco marcato.
+  freq=   4  raw : Colore rosato nella pasta attorno all'ago
+             clean: Pasta con colorazione rosata attorno all'ago.
+  freq=   4  raw : Tende a chiaro
+             clean: Pasta di colore tendente al chiaro.
+  freq=   4  raw : Macchie rosa non uniforme New al chiaro
+             clean: Pasta con macchie rosa e colorazione non uniforme, tendente al chiaro.
+  freq=   4  raw : Colore molto carico verso uno scalzo
+             clean: Pasta di colore molto carico verso uno scalzo.
+  freq=   4  raw : Tendenzialmente gialla chiara omogenea
+             clean: Pasta di colore giallo chiaro omogeneo.
+  freq=   4  raw : Alone più scuro non marcato
+             clean: Pasta con alone non marcato, tendente al più scuro.
+  freq=   4  raw : Chiara con deciso alone centrale
+             clean: Pasta di colore chiara con deciso alone centrale.
+  freq=   4  raw : Colore carico ma uniforme leggermente più chiaro sotto1piatto
+             clean: Pasta di colore carico e uniforme, leggermente più chiara nella zona sottocorticale.
+  freq=   4  raw : Rosa e nocciola nel centro
+             clean: Pasta con tonalità rosa e nocciola nella zona centrale.
+  freq=   4  raw : Netto alone più fascia rosata molto evidente
+             clean: Pasta con netto alone e fascia rosata molto evidente.
+  freq=   4  raw : Giallo tendenza intenso
+             clean: Pasta di colore giallo tendente all'intenso.
+  freq=   4  raw : Alone centrale Macchie rosa
+             clean: Pasta con alone centrale e macchie rosa.
+  freq=   4  raw : Più scuro all interno
+             clean: Pasta più scura nella parte interna.
+  freq=   4  raw : Giallo paglierino omogeneo
+             clean: Pasta di colore giallo paglierino omogeneo.
+  freq=   4  raw : Zona un poco' rosa
+             clean: Pasta con zona leggermente rosata.
+  freq=   4  raw : Zona con fitti puntini neri (muffa?)
+             clean: Pasta con zona caratterizzata da fitti puntini neri.
+  freq=   4  raw : Il sottoposta di una faccia è più chiaro
+             clean: Pasta più chiara nella zona sottostante la crosta.
+  freq=   4  raw : Carico on leggero alone
+             clean: Pasta di colore carico con leggero alone.
+  freq=   4  raw : Giallo carico quasi arancio
+             clean: Pasta di colore giallo carico tendente all'arancio.
+  freq=   4  raw : Molto saturo nella parte centrale. Più Chiaro verso piatto e 2 scalzi
+             clean: Pasta di colore saturo nella parte centrale, più chiara verso il piatto e gli scalzi.
+  freq=   4  raw : Lieve alone centrale
+             clean: Pasta con lieve alone centrale.
+  freq=   4  raw : Solo sfumature nocciola
+             clean: Pasta con sfumature nocciola.
+  freq=   4  raw : Vistoso alone centrale più scuro
+             clean: Pasta con vistoso alone centrale più scuro.
+  freq=   4  raw : Giallo con tendenza al grigio verde e macchinine rosa
+             clean: Pasta di colore giallo con tendenza al grigio verde e piccole macchie rosate.
+  freq=   4  raw : Da chiaro a scura Disomogeneo
+             clean: Pasta con colore disomogeneo, da chiaro a scuro.
+  freq=   4  raw : Stirata
+             clean: NON_DESCRITTO
+  freq=   4  raw : Ampio
+             clean: NON_DESCRITTO
+  freq=   4  raw : Colore della pasta tendente al bruno
+             clean: Pasta di colore tendente al bruno.
+  freq=   4  raw : Il più pesante alone di tutti i tempi
+             clean: Pasta con alone molto marcato.
+  freq=   4  raw : Abbastanza chiaro di sfondo con alone e zona più decisa
+             clean: Pasta di colore abbastanza chiaro con alone e zona più decisa.
+  freq=   4  raw : Paglierino verso un piatto e parte degli scalzi. Il resto più saturo
+             clean: Pasta paglierina verso un colore più piatto nella zona degli scalzi, con il resto più saturo.
+  freq=   4  raw : Macchie rosa giallo carico non uniforme
+             clean: Pasta con macchie rosa e giallo carico, colore non uniforme.
+  freq=   4  raw : Giallo paglierino verso nocciola chiaro
+             clean: Pasta di colore giallo paglierino tendente al nocciola chiaro.
+  freq=   4  raw : Giallo carico omogeneo con tendenza a tonalità più chiara
+             clean: Pasta di colore giallo carico omogeneo, tendente a tonalità più chiara.
+  freq=   4  raw : Più carico al centro con colorazione gialla carica
+             clean: Pasta di colore giallo carico, più intenso al centro.
+  freq=   4  raw : Carico al centro, o meglio in una fascia sub centrale. Comunque disomogeneo
+             clean: Pasta con colore carico in fascia subcentrale, disomogenea.
+  freq=   4  raw : Colorazione tendente al chiaro e omogenea
+             clean: Pasta di colorazione tendente al chiaro e omogenea.
+  freq=   4  raw : Macchie rosa non piccole
+             clean: Pasta con macchie rosa di medie dimensioni.
+  freq=   4  raw : Giallo carico più chiaro sotto un piatto
+             clean: Pasta di colore giallo carico, più chiara nella zona sottocortccia.
+  freq=   4  raw : Un piccolo strappo
+             clean: NON_DESCRITTO
+  freq=   4  raw : Molto carico e omogenea
+             clean: Pasta di colore molto carico e omogeneo.
+  freq=   4  raw : Paglierino con presenza di cristalli
+             clean: Pasta di colore paglierino con presenza di cristalli.
+  freq=   4  raw : Paglierino grigiastro
+             clean: Pasta di colore paglierino grigiastro.
+  freq=   4  raw : Molto carico non tipico
+             clean: Pasta di colore molto carico.
+  freq=   4  raw : Chiaro con leggero alone
+             clean: Pasta di colore chiaro con leggero alone.
+  freq=   4  raw : Alone rosa centrale
+             clean: Pasta con alone rosa centrale.
+  freq=   4  raw : Leggermente disomogeneo
+             clean: Pasta di colore leggermente disomogeneo.
+  freq=   4  raw : Colorazione omogenea con tonalità giallo carico
+             clean: Pasta di colore giallo carico omogeneo.
+  freq=   4  raw : Giallo carico con alone centrale più scuro
+             clean: Pasta di colore giallo carico con alone centrale più scuro.
+  freq=   4  raw : Alone scuro e sotto un piatto più bianco
+             clean: Pasta con alone scuro e zona sottostante di colore più bianco.
+  freq=   4  raw : Giallo arancio con zone verdognole
+             clean: Pasta di colore giallo arancio con zone verdognole.
+  freq=   4  raw : Giallo chiaro con macchioline rosate
+             clean: Pasta di colore giallo chiaro con piccole macchie rosate.
+  freq=   4  raw : Una porzione è più carica di colore. Comunque tende al chiaro
+             clean: Pasta con colore tendente al chiaro e una porzione più carica.
+  freq=   4  raw : Non molto chiaro e leggermente più intenso al centro
+             clean: Pasta di colore non molto chiaro con leggero alone centrale più intenso.
+  freq=   4  raw : Carico al centro nel tono del giallo
+             clean: Pasta di colore giallo carico al centro.
+  freq=   4  raw : Colorazione non omogenea, dal giallo chiaro al carico. Leggera rosatura in zona centrale
+             clean: Pasta con colorazione non omogenea, dal giallo chiaro al carico, e leggera rosatura in zona centrale.
+  freq=   4  raw : Al centro colorazione paglierina leggermente più accentuata
+             clean: Pasta con colorazione paglierina leggermente più accentuata al centro.
+  freq=   4  raw : Non omogeneo, eccessivamente carico al centro
+             clean: Pasta disomogenea, con colore eccessivamente carico al centro.
+  freq=   4  raw : Carico, saturo, con zone più chiare verso gli scalzi
+             clean: Pasta di colore carico e saturo, con zone più chiare verso gli scalzi.
+  freq=   4  raw : Leggermente opaco e con aree grigiastre
+             clean: Pasta leggermente opaca con aree grigiastre.
+  freq=   4  raw : Più scuro al centro
+             clean: Pasta più scura al centro.
+  freq=   4  raw : Colore in centro rosato con macchie
+             clean: Pasta con colore rosato al centro e macchie.
+  freq=   4  raw : Giallo carico arancio nocciola
+             clean: Pasta di colore giallo carico tendente all'arancio e nocciola.
+  freq=   4  raw : Carico e leggermente più intenso al centro
+             clean: Pasta di colore carico e leggermente più intenso al centro.
+  freq=   4  raw : Tende al giallo meno carico. Omogenea con poche zone nocciola verso crosta
+             clean: Pasta tendente al giallo meno carico, omogenea con poche zone nocciola verso la crosta.
+  freq=   4  raw : Paglierino omogeneo non carico
+             clean: Pasta di colore paglierino omogeneo non carico.
+  freq=   4  raw : Colore di fondo chiaro ma netto alone centrale e forse una chiazza rosara
+             clean: Pasta di colore chiaro con netto alone centrale e chiazza rosata.
+  freq=   4  raw : Giallo chiaro tendente al bianco
+             clean: Pasta di colore giallo chiaro tendente al bianco.
+  freq=   4  raw : Alone più scuro che contrasta con un piatto più chiaro, 4 macchie rosate
+             clean: Pasta con alone più scuro che contrasta con la parte più chiara e qualche macchia rosata.
+  freq=   4  raw : Macchia molto scura al centro
+             clean: Pasta con macchia molto scura al centro.
+  freq=   4  raw : Saturo nella porzione centrale
+             clean: Pasta di colore saturo nella porzione centrale.
+  freq=   4  raw : Fascia di colore più chiaro
+             clean: Pasta con fascia di colore più chiaro.
+  freq=   4  raw : Giallo con un piatto più scuro
+             clean: Pasta di colore giallo con una zona più scura.
+  freq=   4  raw : Chiaro e unifirme
+             clean: Pasta di colore chiaro e uniforme.
+  freq=   4  raw : Rosa e originale zona chiara
+             clean: Pasta con colorazione rosata e zona chiara.
+  freq=   4  raw : Omogeneo ma molto carico
+             clean: Pasta di colore omogeneo ma molto carico.
+  freq=   4  raw : Centralmente mostra una sfumatura leggermente piú intensa
+             clean: Pasta con sfumatura leggermente più intensa nella zona centrale.
+  freq=   4  raw : Carico con Macchie centrali risate marroni
+             clean: Pasta di colore carico con macchie centrali rosate e marroni.
+  freq=   4  raw : Omogeneo su tutto il taglio ma non paglierino, appena più carico
+             clean: Pasta di colore omogeneo su tutto il taglio, non paglierina ma appena più carica.
+  freq=   4  raw : Leggero alone più chiara su un lato
+             clean: Pasta con leggero alone e zona più chiara su un lato.
+  freq=   4  raw : Giall carico con alone rosa
+             clean: Pasta di colore giallo carico con alone rosato.
+  freq=   4  raw : Evidente alone centrale scuro
+             clean: Pasta con evidente alone centrale scuro.
+  freq=   4  raw : Paglierino più carico verso il centro
+             clean: Pasta di colore paglierino più carico verso il centro.
+  freq=   4  raw : Omogeneo, intenso ma bello
+             clean: Pasta di colore omogeneo e intenso.
+  freq=   4  raw : Paglierino carico omogeneamente distribuito
+             clean: Pasta di colore paglierino carico, omogeneamente distribuito.
+  freq=   4  raw : Appena più chiara ai bordi
+             clean: Pasta più chiara ai bordi.
+  freq=   4  raw : Mi sembra di vedere macchia rosa centrale...
+             clean: Pasta con macchia rosa centrale.
+  freq=   4  raw : Colore marrone sotto uno dei 2 piatti
+             clean: Pasta con colorazione marrone nella zona sottostante uno dei piatti.
+  freq=   4  raw : Colorazione tendente al rosato non evidente al centro Colore disomogeneo
+             clean: Pasta con colorazione tendente al rosato non evidente al centro e colore disomogeneo.
+  freq=   4  raw : A fasce
+             clean: Pasta con colorazione a fasce.
+  freq=   4  raw : Aree nocciola estese..
+             clean: Pasta con aree estese di colore nocciola.
+  freq=   4  raw : Colore carico tendente al bruno
+             clean: Pasta di colore carico tendente al bruno.
+  freq=   4  raw : Angoli particolarmente colorati
+             clean: Pasta con angoli particolarmente colorati.
+  freq=   4  raw : Non omogeneo, comunque poco carico
+             clean: Pasta con colore non omogeneo, poco carico.
+  freq=   4  raw : Centro leggermente più scuro
+             clean: Pasta con centro leggermente più scuro.
+  freq=   4  raw : Omogeneo tendente al giallo più carico
+             clean: Pasta di colore omogeneo tendente al giallo carico.
+  freq=   4  raw : Giallo chiaro tendente al verde/grigio
+             clean: Pasta di colore giallo chiaro tendente al verde e grigio.
+  freq=   4  raw : Giallo carico ma omogeneo
+             clean: Pasta di colore giallo carico e omogeneo.
+  freq=   4  raw : Carico, soprattutto al centro
+             clean: Pasta di colore carico, soprattutto al centro.
+  freq=   4  raw : Chiaro, non paglierino. Omogeneo
+             clean: Pasta di colore chiaro, non paglierina, omogeneo.
+  freq=   4  raw : Colore chiaro uniforme ma con una tonalità non tipica
+             clean: Pasta di colore chiaro e uniforme ma con tonalità non tipica.
+  freq=   4  raw : Colore un poco' carico ma uniforme
+             clean: Pasta di colore poco carico ma uniforme.
+  freq=   4  raw : Medio chiaro ma con aree verdognole verso gli scalzi
+             clean: Pasta di colore medio chiaro con aree verdognole verso gli scalzi.
+  freq=   4  raw : Leggeri aloni rosa centrali
+             clean: Pasta con leggeri aloni rosa centrali.
+  freq=   4  raw : Carico ma presenta una fascia bruna molto marcata
+             clean: Pasta di colore carico con fascia bruna molto marcata.
+  freq=   4  raw : Giallo carico alone centrale più scuro
+             clean: Pasta di colore giallo carico con alone centrale più scuro.
+  freq=   4  raw : Giallo Molto carico ma uniforme
+             clean: Pasta di colore giallo molto carico e uniforme.
+  freq=   4  raw : Molto intenso e sfumato fra i piatti
+             clean: Pasta di colore molto intenso e sfumato fra i piatti.
+  freq=   4  raw : Chiaro, ma leggeremacchie rosa dove c è laspugna
+             clean: Pasta di colore chiaro con leggerissime macchie rosa nelle zone di spugna.
+  freq=   4  raw : Chiara e abbastanza omogenea
+             clean: Pasta di colore chiaro e abbastanza omogenea.
+  freq=   4  raw : Macchie rosa non uniforme
+             clean: Pasta con macchie rosa e colore non uniforme.
+  freq=   4  raw : Alone colore salmone
+             clean: Pasta con alone di colore salmone.
+  freq=   4  raw : Giallo saturo, ma omogeneo
+             clean: Pasta di colore giallo saturo e omogeneo.
+  freq=   4  raw : Omogeneo, appena giallo
+             clean: Pasta di colore omogeneo, appena giallo.
+  freq=   4  raw : Striscia scura
+             clean: Pasta con striscia scura.
+  freq=   4  raw : Il giallo verde è solo accennato
+             clean: Pasta con giallo verdognolo leggermente accennato.
+  freq=   4  raw : Macchie rosate al centro
+             clean: Pasta con macchie rosate al centro.
+  freq=   4  raw : Pochetto disomogenea
+             clean: Pasta con colore leggermente disomogeneo.
+  freq=   4  raw : Fascia più chiara sotto un piatto e macchia rosa visibile sul segno del coltello centrale
+             clean: Pasta con fascia più chiara sotto un alone piatto e macchia rosata sul segno del coltello centrale.
+  freq=   4  raw : Colore giallo carico a macchie, negativo
+             clean: Pasta di colore giallo carico con macchie.
+  freq=   4  raw : Più che alone è una fascia centrale più scura
+             clean: Pasta con fascia centrale di colore più scuro.
+  freq=   4  raw : Alone e zone biancastra per effetto sgretolamento pasta
+             clean: Pasta con alone e zone biancastre per effetto di sgretolamento.
+  freq=   4  raw : Fascie di alone più scuro concentriche più alone
+             clean: Pasta con fasce di alone concentrico tendente allo scuro.
+  freq=   4  raw : Medio chiaro
+             clean: Pasta di colore medio chiaro.
+  freq=   4  raw : Giallo paglierino leggermente grigio
+             clean: Pasta di colore giallo paglierino leggermente grigiastro.
+  freq=   4  raw : Abbastanza chiaro e abbastanza omogeneo
+             clean: Pasta di colore abbastanza chiaro e abbastanza omogeneo.
+  freq=   4  raw : Colore uniforme
+             clean: Pasta di colore uniforme.
+  freq=   4  raw : Alone centrale tendente al chiaro
+             clean: Pasta con alone centrale tendente al chiaro.
+  freq=   4  raw : Fascia bianca con zona diffusa rosa
+             clean: Pasta con fascia bianca e zona diffusa rosata.
+  freq=   4  raw : Paglierino intenso omogeneo
+             clean: Pasta di colore paglierino intenso e omogeneo.
+  freq=   4  raw : Un dubbio su una chiazza rosata
+             clean: Pasta con chiazza rosata.
+  freq=   4  raw : Chiaro tende al bianco assenza di difetti
+             clean: Pasta di colore chiaro tendente al bianco.
+  freq=   4  raw : Qualche leggera macchia più scura sulla pasta.
+             clean: Pasta con qualche leggera macchia più scura.
+  freq=   4  raw : Abbastanza uniforme tende al carico
+             clean: Pasta abbastanza uniforme, tendente al colore carico.
+  freq=   4  raw : Appena più saturo verso il centro. Poco poco
+             clean: Pasta con colorazione leggermente più satura al centro.
+  freq=   4  raw : Più chiaro verso uno scalzo
+             clean: Pasta più chiara verso lo scalzo.
+  freq=   4  raw : Tende al chiaro area centrale alone
+             clean: Pasta tendente al chiaro nell'area centrale con alone.
+  freq=   4  raw : Tranciato con alone
+             clean: Pasta con alone.
+  freq=   4  raw : Non uniforme alone scuro
+             clean: Pasta con alone scuro non uniforme.
+  freq=   4  raw : Colorazione omogenea non troppo carica
+             clean: Pasta di colorazione omogenea non troppo carica.
+  freq=   4  raw : Chiaro ma sotto un piatto fascia macchia diffusa rosa
+             clean: Pasta di colore chiaro con fascia sottostante e diffusa macchia rosata.
+  freq=   4  raw : Leggero alone centrale vs un piatto
+             clean: Pasta con leggero alone centrale e zona più piatta.
+  freq=   4  raw : Giallo pieno in centro. Più chiaro altrove
+             clean: Pasta di colore giallo carico al centro, più chiaro nelle altre zone.
+  freq=   4  raw : Paglierino ai lati. Giallo chiaro al centro
+             clean: Pasta paglierina ai lati, giallo chiaro al centro.
+  freq=   4  raw : Giallo troppo scuro, sfumato in chiaro parte esterna
+             clean: Pasta di colore giallo scuro, sfumato in chiaro verso la parte esterna.
+  freq=   4  raw : Alone scuro
+             clean: Pasta con alone scuro.
+  freq=   4  raw : Colore chiaro ma pallido, anomalo per il grana
+             clean: Pasta di colore chiaro ma pallido, anomalo per il grana.
+  freq=   4  raw : Colore molto marcato ma omogeneo
+             clean: Pasta di colore molto marcato e omogeneo.
+  freq=   4  raw : Giallo gonfalone centrale
+             clean: Pasta di colore giallo con alone centrale.
+  freq=   4  raw : Intenso, degradante verso un piatto
+             clean: Pasta di colore intenso, degradante verso un colore più piatto.
+  freq=   4  raw : Centro zona rosacea
+             clean: Pasta con zona centrale rosata.
+  freq=   4  raw : Mediamente carico abbastanza omogeneo ma con lieve alone rosato
+             clean: Pasta di colore mediamente carico, abbastanza omogenea, con lieve alone rosato.
+  freq=   4  raw : 1 Sottocrosta biancastro
+             clean: Pasta con zona sottocrosta biancastra.
+  freq=   4  raw : Colore chiaro ma rosa arancio pallido
+             clean: Pasta di colore chiaro, rosa arancio pallido.
+  freq=   4  raw : Zona rosa vicino a crosta
+             clean: Pasta con zona rosata vicino alla crosta.
+  freq=   4  raw : Vistoso alone
+             clean: Pasta con alone vistoso.
+  freq=   4  raw : Colore sfumato più scuro verso un piatto, macchia rosa
+             clean: Pasta con colore sfumato più scuro verso un piatto e macchia rosa.
+  freq=   4  raw : Giallo chiaro con aloni rosa centrali
+             clean: Pasta di colore giallo chiaro con aloni rosati centrali.
+  freq=   4  raw : Bel paglierino omogeneo
+             clean: Pasta di colore paglierino omogeneo.
+  freq=   4  raw : Tende al giallo carico, ma omogeneo
+             clean: Pasta di colore tendente al giallo carico e omogeneo.
+  freq=   4  raw : Abbastanza chiara ma leggermente non omogenea sotto i due piatti
+             clean: Pasta abbastanza chiara ma leggermente non omogenea sotto i due piatti.
+  freq=   4  raw : Giallo leggermente carico
+             clean: Pasta di colore giallo leggermente carico.
+  freq=   4  raw : Leggermente Sfumato
+             clean: Pasta di colore leggermente sfumato.
+  freq=   4  raw : Zona più scura verso un piatto
+             clean: Pasta con zona più scura verso il piatto.
+  freq=   4  raw : Più Chiaro sui 3/4 . Saturo il centro
+             clean: Pasta più chiara sui tre quarti, con centro saturo.
+  freq=   4  raw : Carico verso il centro
+             clean: Pasta di colore carico verso il centro.
+  freq=   4  raw : Carico più scuro al centro
+             clean: Pasta di colore carico, più scuro al centro.
+  freq=   4  raw : Intenso e di più sotto un piatto
+             clean: Pasta di colore intenso e più carico nella zona sottostante il piatto.
+  freq=   4  raw : Alone centrale stretto e più scuro
+             clean: Pasta con alone centrale stretto e più scuro.
+  freq=   4  raw : Piatto staccato
+             clean: NON_DESCRITTO
+  freq=   4  raw : Alone centrale marcato
+             clean: Pasta con alone centrale marcato.
+  freq=   4  raw : Colore molto carico più chiaro su 1 piatto
+             clean: Pasta di colore molto carico, più chiara su un lato.
+  freq=   4  raw : Tendente al rosato con fascia più chiara
+             clean: Pasta tendente al rosato con fascia più chiara.
+  freq=   4  raw : Chiaro ma 3 macchie rosa
+             clean: Pasta di colore chiaro con tre macchie rosate.
+  freq=   4  raw : Bianco cipria
+             clean: Pasta di colore bianco cipria.
+  freq=   4  raw : Leggermente più carico in una metà, ma mediamente buono
+             clean: Pasta di colore leggermente più carico in una metà, mediamente uniforme.
+  freq=   4  raw : Giallo paglierino un poco' più carico al centro
+             clean: Pasta di colore giallo paglierino leggermente più carico al centro.
+  freq=   4  raw : Presenza di fascia più scura in un sottopiatto
+             clean: Pasta con fascia più scura in zona sottocrosta.
+  freq=   4  raw : Eccessivamente carico con evidente macchie rosa
+             clean: Pasta di colore eccessivamente carico con evidenti macchie rosate.
+  freq=   4  raw : Colore uniforme tendente al grigio
+             clean: Pasta di colore uniforme tendente al grigio.
+  freq=   4  raw : Più chiara sotto un piatto, leggero alone centrale
+             clean: Pasta più chiara nella zona sottocorticale con leggero alone centrale.
+  freq=   4  raw : Alone centrale molto marcato
+             clean: Pasta con alone centrale molto marcato.
+  freq=   4  raw : Zone leggermente rosa al centro, pasta giallo chiaro
+             clean: Pasta di colore giallo chiaro con zone leggermente rosate al centro.
+  freq=   4  raw : Anello chiaro perimetrale centro giallo carico, zone verdastre
+             clean: Pasta con anello chiaro perimetrale, centro giallo carico e zone verdastre.
+  freq=   4  raw : Giallo grigio
+             clean: Pasta di colore giallo grigiastro.
+  freq=   4  raw : Paglierino carico uniformemente distribuito e leggero riflesso verde
+             clean: Pasta di colore paglierino carico uniformemente distribuito con leggero riflesso verde.
+  freq=   4  raw : Lievissimo alone centrale. Ai bordi giallo chiaro
+             clean: Pasta con lievissimo alone centrale e giallo chiaro ai bordi.
+  freq=   4  raw : Colore chiaro con leggero alone centrale una leggera macchia rosa
+             clean: Pasta di colore chiaro con leggero alone centrale e leggera macchia rosata.
+  freq=   4  raw : Alone centrale molto marcato, di colore quasi arancione
+             clean: Pasta con alone centrale molto marcato, di colore quasi arancio.
+  freq=   4  raw : Uniforme tende al chiaro
+             clean: Pasta di colore uniforme, tendente al chiaro.
+  freq=   4  raw : Fascia più chiara
+             clean: Pasta con fascia più chiara.
+  freq=   4  raw : Carica la parte centrale. Anche l'esterno non chiaro
+             clean: Pasta con colore carico nella parte centrale e colore non chiaro verso l'esterno.
+  freq=   4  raw : Omogeneamente paglierino scarico
+             clean: Pasta di colore paglierino scarico, omogenea.
+  freq=   4  raw : Evidente alone centrale colore nocciola
+             clean: Pasta con evidente alone centrale di colore nocciola.
+  freq=   4  raw : Macchia scura centrale
+             clean: Pasta con macchia scura centrale.
+  freq=   4  raw : Molto scuro e aree non omogenee
+             clean: Pasta di colore molto scuro con aree non omogenee.
+  freq=   4  raw : Colore più intenso verso un piatto
+             clean: Pasta con colore più intenso verso un'area piatta.
+  freq=   4  raw : Colore marcato al centro
+             clean: Pasta di colore marcato al centro.
+  freq=   4  raw : Omogenea carica
+             clean: Pasta di colore omogeneo e carico.
+  freq=   4  raw : Giallo omogeneo, non troppo carico
+             clean: Pasta di colore giallo omogeneo, non troppo carico.
+  freq=   4  raw : Più chiara sotto un piatto ma abbastanza omogeneo
+             clean: Pasta più chiara nella zona sottocorticale ma abbastanza omogenea nel colore.
+  freq=   4  raw : Più carico al centro, lievi ombre rosate
+             clean: Pasta di colore più carico al centro con lievi ombre rosate.
+  freq=   4  raw : Più chiaro verso gli scalzi, di poco. Nel complesso abbastanza chiaro
+             clean: Pasta più chiara verso gli scalzi, nel complesso abbastanza chiaro.
+  freq=   4  raw : Tendente un Poco al rosato abbastanza unif
+             clean: Pasta tendente al rosato con colorazione abbastanza uniforme.
+  freq=   4  raw : Bel colore tendente al chiaro
+             clean: Pasta di colore tendente al chiaro.
+  freq=   4  raw : Uniforme tende chiaro
+             clean: Pasta di colore uniforme tendente al chiaro.
+  freq=   4  raw : Alone centrale carico
+             clean: Pasta con alone centrale carico.
+  freq=   4  raw : Alone centrale tendente al rosato
+             clean: Pasta con alone centrale tendente al rosato.
+  freq=   4  raw : Macchie rosate difficili da vedere
+             clean: Pasta con macchie rosate poco evidenti.
+  freq=   4  raw : Colorazione omogenea
+             clean: Pasta di colorazione omogenea.
+  freq=   4  raw : Carica al centro
+             clean: Pasta di colore carico al centro.
+  freq=   4  raw : Non bello, carico, aree rossastre e verdognole
+             clean: Pasta di colore carico con aree rossastre e verdognole.
+  freq=   4  raw : Giallo chiaro con alone più carico e sfumatura rosa nelle aree spugnose
+             clean: Pasta di colore giallo chiaro con alone più carico e sfumatura rosata nelle aree spugnose.
+  freq=   4  raw : Tende al chiaro e all uniforme
+             clean: Pasta di colore tendente al chiaro e uniforme.
+  freq=   4  raw : Chiaro ma leggermente carico al centro
+             clean: Pasta di colore chiaro, leggermente carico al centro.
+  freq=   4  raw : Giallo non uniforme con venatura rosata
+             clean: Pasta di colore giallo non uniforme con venatura rosata.
+  freq=   4  raw : Colore chiaro, tendente al paglierino. Abbastanza omogeneo
+             clean: Pasta di colore chiaro, tendente al paglierino, abbastanza omogenea.
+  freq=   4  raw : Evidente alone scuro che segue la frattura
+             clean: Pasta con evidente alone scuro lungo la frattura.
+  freq=   4  raw : Abbastanza carico e omogeneo
+             clean: Pasta di colore abbastanza carico e omogeneo.
+  freq=   4  raw : Un poco' troppo carico
+             clean: Pasta di colore un poco carico.
+  freq=   4  raw : Solo leggero alone...
+             clean: Pasta con leggero alone.
+  freq=   4  raw : Giallo tendente al carico
+             clean: Pasta di colore giallo tendente al carico.
+  freq=   4  raw : colore rosato sfumato sotto lo scalzo vicino alla crosta
+             clean: Pasta con colore rosato sfumato nella zona sottoscalzo vicino alla crosta.
+  freq=   4  raw : Alone centrale più carico, lievi riflessi rosati
+             clean: Pasta con alone centrale carico e lievi riflessi rosati.
+  freq=   4  raw : Bel colore omogeneo e tendente al chiaro
+             clean: Pasta di colore omogeneo tendente al chiaro.
+  freq=   4  raw : Non omogeneo lateralmente
+             clean: Pasta con colore non omogeneo lateralmente.
+  freq=   4  raw : Giallo chiaro piuttosto omogeneo
+             clean: Pasta di colore giallo chiaro piuttosto omogeneo.
+  freq=   4  raw : Evidente alone scuro che tende al rosato nelle zone centrali con la fitta microocchiatura
+             clean: Pasta con evidente alone scuro tendente al rosato nelle zone centrali con fitta microocchiatura.
+  freq=   4  raw : Rosa ai bordi
+             clean: Pasta con tonalità rosata ai bordi.
+  freq=   4  raw : Piccolo alone centrale grigiastro
+             clean: Pasta con piccolo alone centrale grigiastro.
+  freq=   4  raw : Bello, abbastanza carico, omogeneo
+             clean: Pasta di colore abbastanza carico e omogeneo.
+  freq=   4  raw : Giallo chiaro con leggere macchioline rosate
+             clean: Pasta di colore giallo chiaro con leggere macchioline rosate.
+  freq=   4  raw : Giallo carico ma abbastanza omogeneo
+             clean: Pasta di colore giallo carico e abbastanza omogeneo.
+  freq=   4  raw : Più chiara verso un piatto. Nel complesso non troppo carica
+             clean: Pasta più chiara verso un piatto, nel complesso non troppo carica.
+  freq=   4  raw : Bi colore
+             clean: Pasta bicolore.
+  freq=   4  raw : Più chiara vicino a scalzo
+             clean: Pasta più chiara nelle zone vicino agli scalzi.
+  freq=   4  raw : Macchia centrale più scura
+             clean: Pasta con macchia centrale più scura.
+  freq=   4  raw : Colore giallo non carico, leggere alone più giallo, forse un poco' o rosaceo
+             clean: Pasta di colore giallo non carico con leggeri alone più gialli e sfumature leggermente rosacee.
+  freq=   4  raw : Zona rosa e biancastra
+             clean: Pasta con zona rosa e biancastra.
+  freq=   4  raw : Alone centrale leggerissimo
+             clean: Pasta con alone centrale leggerissimo.
+  freq=   4  raw : Zone verdastre sugli angoli e arancioni
+             clean: Pasta con zone verdastre negli angoli e arancioni.
+  freq=   4  raw : Giallo medio carico con qualche zona rosa
+             clean: Pasta di colore giallo medio carico con qualche zona rosata.
+  freq=   4  raw : Omogeneo giallo carico carico
+             clean: Pasta di colore giallo carico e omogeneo.
+  freq=   4  raw : Parte un Poco più chiara
+             clean: Pasta con parte leggermente più chiara.
+  freq=   4  raw : Scura con Alone centrale rosa
+             clean: Pasta scura con alone centrale rosa.
+  freq=   4  raw : Leggera area verdastra
+             clean: Pasta con leggera area verdastra.
+  freq=   4  raw : Giallo vivo carico ma omogeneo
+             clean: Pasta di colore giallo carico e omogeneo.
+  freq=   4  raw : Colore chiaro risata al centro e bianca sotto 2 piatto con macchie rosa nella zona spugnosa
+             clean: Pasta con colore chiaro rosato al centro, bianca sotto crosta, e macchie rosate nella zona spugnosa.
+  freq=   4  raw : Giallo chiaro con macchie rosa
+             clean: Pasta di colore giallo chiaro con macchie rosa.
+  freq=   4  raw : Più chiaro sotto 1 piatto e alone centrale
+             clean: Pasta più chiara nella zona sottocrostale con alone centrale.
+  freq=   4  raw : Colore carico ma con 1 Piatto più chiaro forse qualche macchia risata
+             clean: Pasta di colore carico con zone più chiare e qualche macchia rosata.
+  freq=   4  raw : Avv uniforme gialla
+             clean: Pasta di colore giallo uniforme.
+  freq=   4  raw : Leggermente salmonato
+             clean: Pasta di colore leggermente rosato.
+  freq=   4  raw : Carico e a strisce
+             clean: Pasta di colore carico con strisce.
+  freq=   4  raw : Bi colore. Al centro molto saturo
+             clean: Pasta bicolore con colore molto saturo al centro.
+  freq=   4  raw : Colore non saturo appena più Chiaro verso un piatto e uno scalzo
+             clean: Pasta di colore non saturo, appena più chiara verso il piatto e uno scalzo.
+  freq=   4  raw : Zone grigiastre vicino alla crosta
+             clean: Pasta con zone grigiastre vicino alla crosta.
+  freq=   4  raw : Deciso alone centrale
+             clean: Pasta con deciso alone centrale.
+  freq=   4  raw : tendente al chiaro zona vs piatto più scura macchia rosa
+             clean: Pasta tendente al chiaro in zona, con piatto più scuro e macchia rosa.
+  freq=   4  raw : Omogeneo tendente al giallo chiaro
+             clean: Pasta di colore omogeneo tendente al giallo chiaro.
+  freq=   4  raw : Area più carica centrale
+             clean: Pasta con area centrale più carica.
+  freq=   4  raw : Riflessi giallo verosimili. Per la struttura no dimenticato anche leggera stiratura
+             clean: Pasta con riflessi giallo carico.
+  freq=   4  raw : Intenso al centro di più
+             clean: Pasta di colore intenso al centro.
+  freq=   4  raw : Tende al chiaro è omogeneo
+             clean: Pasta tendente al chiaro e omogenea.
+  freq=   4  raw : Colore tendente al rosato abbastanza unif
+             clean: Pasta di colore tendente al rosato abbastanza uniforme.
+  freq=   4  raw : Leggera ossidatura centrale ...alone?
+             clean: Pasta con leggera ossidatura centrale.
+  freq=   4  raw : Carico un Poco grigiastro e rosato
+             clean: Pasta di colore carico, leggermente grigiastro e rosato.
+  freq=   4  raw : Un poco' più scuro al centro
+             clean: Pasta più scura al centro.
+  freq=   4  raw : Più chiara all' esterno
+             clean: Pasta più chiara nelle zone esterne.
+  freq=   4  raw : Sfumatura rosa vicino a sottocrosta
+             clean: Pasta con sfumatura rosa vicino alla sottocrosta.
+  freq=   4  raw : Giallo carico ma con aree verdognole nel piatto inferiore
+             clean: Pasta di colore giallo carico con aree verdognole nel piatto inferiore.
+  freq=   4  raw : Candido paglierino a tratti, ma alone centrale appena più carico
+             clean: Pasta con colorazione candida e paglierina a tratti, alone centrale appena più carico.
+  freq=   4  raw : Colore sotto un piatto marrone rossiccio
+             clean: Pasta di colore marrone rossiccio.
+  freq=   4  raw : Giallo chiaro con aloni rosati
+             clean: Pasta di colore giallo chiaro con aloni rosati.
+  freq=   4  raw : Giallo chiaro grigiastro ai lati, più carico in centro con alone rosati
+             clean: Pasta di colore giallo chiaro grigiastro ai bordi, più carico in centro con alone rosati.
+  freq=   4  raw : Pasta disidratata sotto crosta
+             clean: Pasta più scura sotto crosta per disidratazione.
+  freq=   4  raw : Chiara ma alone sganciato centrale
+             clean: Pasta chiara con alone centrale sganciato.
+  freq=   4  raw : Giallo con leggere sfumature rosa
+             clean: Pasta di colore giallo con leggere sfumature rosate.
+  freq=   4  raw : In una parte più nocciola
+             clean: Pasta con parte di colore nocciola.
+  freq=   4  raw : Giallo carico ma abbastanza uniforme
+             clean: Pasta di colore giallo carico, abbastanza uniforme.
+  freq=   4  raw : Paglierino sganciato omogeneoamente distribuito
+             clean: Pasta di colore paglierino omogenamente distribuito.
+  freq=   4  raw : Alone centrale in qualche sfumatura risata in corrispondenza delle bocciature più importanti
+             clean: Pasta con alone centrale e sfumature rosate in corrispondenza delle bocciature più importanti.
+  freq=   4  raw : Disidratata solo da una parte
+             clean: NON_DESCRITTO
+  freq=   4  raw : Tendente al rosato ma unif
+             clean: Pasta tendente al rosato e di colore uniforme.
+  freq=   4  raw : Area centrale rossastra...
+             clean: Pasta con area centrale rossastra.
+  freq=   4  raw : Colore della pasta un poco' a fasce
+             clean: Pasta di colore a fasce.
+  freq=   4  raw : Colore chiaro e unif
+             clean: Pasta di colore chiaro e uniforme.
+  freq=   4  raw : Giallo medio carico con aree nocciola
+             clean: Pasta di colore giallo medio carico con aree nocciola.
+  freq=   4  raw : Una piccola parte meno omogenea come colore
+             clean: Pasta con una piccola parte di colore non omogeneo.
+  freq=   4  raw : Alone scuro evidentissimo, molto disomogeneo
+             clean: Pasta con alone scuro molto evidente e disomogenea.
+  freq=   4  raw : Omogeneo e scarico. Bello
+             clean: Pasta di colore omogeneo e leggero.
+  freq=   4  raw : Colore non omogeneo, un piatto è paglierino pallido tendente al grigio, il resto del formaggio paglierino più deciso
+             clean: Pasta con colore non omogeneo: un settore paglierino pallido tendente al grigio, il resto paglierino più deciso.
+  freq=   4  raw : Giallo con leggero alone rosa
+             clean: Pasta di colore giallo con leggero alone rosato.
+  freq=   4  raw : Intenso ma abbastanza omogeneo
+             clean: Pasta di colore intenso ma abbastanza omogeneo.
+  freq=   4  raw : Carico ma abbastanza uniforme
+             clean: Pasta di colore carico ma abbastanza uniforme.
+  freq=   4  raw : Molto presente un alone centrale!
+             clean: Pasta con alone centrale marcato.
+  freq=   4  raw : Ampia macchia interna rosa
+             clean: Pasta con ampia macchia interna rosata.
+  freq=   4  raw : Colore più chiaro sotto un piatto
+             clean: Pasta di colore più chiaro nella zona sottocorticale.
+  freq=   4  raw : Alone centrale on un sottoposto più bianco
+             clean: Pasta con alone centrale e zona sottoposta più bianca.
+  freq=   4  raw : Giallo chiaro con alone più scuro
+             clean: Pasta di colore giallo chiaro con alone più scuro.
+  freq=   4  raw : Area rosata in corrispondenza di una bollatura allungata
+             clean: Pasta con area rosata in corrispondenza di una bollatura allungata.
+  freq=   4  raw : Più carico al centro, rosato verso la crosta
+             clean: Pasta con colore più carico al centro e rosato verso la crosta.
+  freq=   4  raw : Omogeneo paglierino chiaro con alone verdognolo
+             clean: Pasta di colore omogeneo paglierino chiaro con alone verdognolo.
+  freq=   4  raw : Carico rosato ma unif
+             clean: Pasta di colore carico rosato e uniforme.
+  freq=   4  raw : Carico e omogeneo
+             clean: Pasta di colore carico e omogeneo.
+  freq=   4  raw : Carico e più s uro al centro
+             clean: Pasta di colore carico e più scuro al centro.
+  freq=   4  raw : Omogenea non troppo carica. Alone ristretto alcentro
+             clean: Pasta di colore omogeneo non troppo carico, con alone ristretto al centro.
+  freq=   4  raw : Macchia grigio rosa NON CONFORME
+             clean: Pasta con macchia grigio rosata non conforme.
+  freq=   4  raw : Alone centrale evidente con un sottopiatto più chiaro
+             clean: Pasta con alone centrale evidente e sottopiatto più chiaro.
+  freq=   4  raw : Giallo non carico, con alone centrale più scuro e sfumatura rosata
+             clean: Pasta di colore giallo non carico, con alone centrale più scuro e sfumatura rosata.
+  freq=   4  raw : Colore molto chiaro ma di diverse tonalità
+             clean: Pasta di colore molto chiaro con diverse tonalità.
+  freq=   4  raw : Chiaro con centro più bianco
+             clean: Pasta di colore chiaro con centro più bianco.
+  freq=   4  raw : Al centro più carico tendente al rosa
+             clean: Pasta di colore più carico al centro, tendente al rosa.
+  freq=   4  raw : Disomogeneo, macchia rosa dove strappo
+             clean: Pasta disomogenea con macchia rosata nella zona dello strappo.
+  freq=   4  raw : Giallo chiaro non omogeneo n alcune zone tende al grigio
+             clean: Pasta di colore giallo chiaro, non omogeneo, tendente al grigio in alcune zone.
+  freq=   4  raw : Abbastanza uniforme tendente leggero al grigio
+             clean: Pasta di colore abbastanza uniforme, tendente al grigio e leggero.
+  freq=   4  raw : Un poco' rosata, zone chiare
+             clean: Pasta con leggera colorazione rosata e zone chiare.
+  freq=   4  raw : Scuro tendente al grigio
+             clean: Pasta di colore scuro tendente al grigio.
+  freq=   4  raw : Abbastanza omogeneo, bello
+             clean: Pasta di colore abbastanza omogeneo.
+  freq=   4  raw : In una pasta giallo carica macchie o alone nocciola
+             clean: Pasta di colore giallo carico con macchie e alone nocciola.
+  freq=   4  raw : Vasta area rosa, disomogeneo
+             clean: Pasta con vasta area rosa, disomogenea.
+  freq=   4  raw : Alone veramente lieve
+             clean: Pasta con alone veramente lieve.
+  freq=   4  raw : Tendenzialmente omogeneo e non troppo marcato
+             clean: Pasta di colore tendenzialmente omogeneo e non troppo marcato.
+  freq=   4  raw : Un poco' carico ma omogeneo a parte qualche leggerissima macchia rosata
+             clean: Pasta di colore poco carico e omogeneo, con qualche leggerissima macchia rosata.
+  freq=   4  raw : In generale colore chiaro, tendente al paglierino, poco poco più carico al centro
+             clean: Pasta di colore chiaro tendente al paglierino, leggermente più carico al centro.
+  freq=   4  raw : Colore aranciato ma uniforme
+             clean: Pasta di colore aranciato uniforme.
+  freq=   4  raw : Sotto un piatto pasta disidratata colore biancastro
+             clean: Pasta biancastra nella zona sottocrosta, con aspetto disidratato.
+  freq=   4  raw : Lèggerissimo alone rosa centrale
+             clean: Pasta con leggerissimo alone rosato centrale.
+  freq=   4  raw : Alone marcato al centro
+             clean: Pasta con alone marcato al centro.
+  freq=   4  raw : Riflessi verdognoli
+             clean: Pasta con riflessi verdognoli.
+  freq=   4  raw : Centro piú carico della parte vicino ai piatti
+             clean: Pasta con colore più carico al centro rispetto alla zona vicino ai piatti.
+  freq=   4  raw : Rosato
+             clean: Pasta di colore rosato.
+  freq=   4  raw : Macchie scure centrali e zona più scura verso un piatto
+             clean: Pasta con macchie scure centrali e zona più scura verso un piatto.
+  freq=   4  raw : Carico con lieve alone rosato
+             clean: Pasta di colore carico con lieve alone rosato.
+  freq=   4  raw : Più carico al centro, macchie rosa
+             clean: Pasta con colore più carico al centro e macchie rosa.
+  freq=   4  raw : Zona rosa molto evidente e anello perimetrale giallo molto chiaro
+             clean: Pasta con zona rosa molto evidente e anello perimetrale di colore giallo molto chiaro.
+  freq=   4  raw : Zona centrale più scura
+             clean: Pasta con zona centrale più scura.
+  freq=   4  raw : Qualche leggerissima macchia rosata nella zona interessata da microocchiatura
+             clean: Pasta con qualche leggerissima macchia rosata nelle zone di microocchiatura.
+  freq=   4  raw : Avv uniforme e chiaro
+             clean: Pasta di colore uniforme e chiaro.
+  freq=   4  raw : Arancio
+             clean: Pasta di colore arancio.
+  freq=   4  raw : Base paglierina all'esterno più saturo interna!ente
+             clean: Pasta di colore paglierino, più saturo all'interno rispetto all'esterno.
+  freq=   4  raw : Giallo un Poco grigiastro con alone
+             clean: Pasta di colore giallo leggermente grigiastro con alone.
+  freq=   4  raw : Molto Carico con fascia leggermente più chiara sotto un piatto
+             clean: Pasta di colore molto carico con fascia leggermente più chiara sotto un piatto.
+  freq=   4  raw : Chiara esternamente ma accentuata da effetto disidratato
+             clean: Pasta di colore chiaro esternamente con effetto disidratato.
+  freq=   4  raw : Giallo chiaro con piccolo alone più carico in centro
+             clean: Pasta di colore giallo chiaro con piccolo alone più carico al centro.
+  freq=   4  raw : Più che macchie è striscia rosata
+             clean: Pasta con striscia rosata.
+  freq=   4  raw : Non omogeneo, alone
+             clean: Pasta con colore non omogeneo e alone.
+  freq=   4  raw : Alone centrale marcato, più evidente perché la pasta é molto chiara
+             clean: Pasta con alone centrale marcato su fondo molto chiaro.
+  freq=   4  raw : Leggermente alonata
+             clean: Pasta con leggermente alone.
+  freq=   4  raw : Scuro carico
+             clean: Pasta di colore scuro carico.
+  freq=   4  raw : Aree non belle come colore
+             clean: Pasta con aree di colore non uniforme.
+  freq=   4  raw : Il verde è solo accentuato
+             clean: Pasta con lieve tonalità verdognola.
+  freq=   4  raw : Giallo abbastanza carico, più intenso in centro
+             clean: Pasta di colore giallo abbastanza carico, più intenso al centro.
+  freq=   2  raw : Disomogeneo concentrarti al centro
+             clean: Pasta disomogenea con concentrazione di colore al centro.
+  freq=   2  raw : Abbastanza omogeneo, più carico al centro, qualche alone rosa
+             clean: Pasta di colore abbastanza omogeneo, più carico al centro, con qualche alone rosato.
+  freq=   2  raw : Giallo carico scuro
+             clean: Pasta di colore giallo carico scuro.
+  freq=   2  raw : Presenza di u a zona nettamente più scura qui di non omogeneo. Giallo abbastanza carico
+             clean: Pasta di colore giallo abbastanza carico con zona nettamente più scura e disomogenea.
+  freq=   2  raw : Lato crosta scuro
+             clean: Pasta di colore scuro verso la crosta.
+  freq=   2  raw : Colorazione omogenea su tutta la sezione
+             clean: Pasta di colore omogeneo su tutta la sezione.
+  freq=   2  raw : Giallo piuttosto carico e aranciato
+             clean: Pasta di colore giallo carico e aranciato.
+  freq=   2  raw : Macchie arancio chiaro e rosate
+             clean: Pasta con macchie arancio chiaro e rosate.
+  freq=   2  raw : Giallo anche meno carico abbastanza omogenea
+             clean: Pasta di colore giallo, abbastanza omogeneo, anche meno carico.
+  freq=   2  raw : A zone paglierino. Lieve carico di giallo in più al centro. Buona comunque
+             clean: Pasta paglierina a zone con lieve carico di giallo al centro.
+  freq=   2  raw : Un angolo più chiaro
+             clean: Pasta con un angolo più chiaro.
+  freq=   2  raw : Più chiaro vicino scalzi
+             clean: Pasta più chiara nelle zone vicino agli scalzi.
+  freq=   2  raw : Giallo grigio intenso
+             clean: Pasta di colore giallo grigio intenso.
+  freq=   2  raw : Colore di fondo abbastanza bello ma è evidente alone verso un piatto
+             clean: Pasta di colore di fondo abbastanza bello con alone tendente al piatto.
+  freq=   2  raw : Omogeneo, te dente al paglierino. Solo più carico verso i piatti
+             clean: Pasta di colore omogeneo, tendente al paglierino, più carico verso i bordi.
+  freq=   2  raw : Struttura a tratti difettosa con stiratura
+             clean: NON_DESCRITTO
+  freq=   2  raw : Giallo più scuro al centro
+             clean: Pasta di colore giallo più scuro al centro.
+  freq=   2  raw : Disomogeneo con fascia nocciola
+             clean: Pasta disomogenea con fascia nocciola.
+  freq=   2  raw : Leggero alone colore tendente chiaro
+             clean: Pasta con leggero alone e colore tendente al chiaro.
+  freq=   2  raw : Alone centrale più scuro Non omogeneo
+             clean: Pasta con alone centrale più scuro e colore non omogeneo.
+  freq=   2  raw : Paglierino carico con alone centrale
+             clean: Pasta di colore paglierino carico con alone centrale.
+  freq=   2  raw : Striscia più scura in corrispondenza di un piatto
+             clean: Pasta con striscia di colore più scuro in corrispondenza di un piatto.
+  freq=   2  raw : Omogenea paglierino più intenso
+             clean: Pasta di colore paglierino omogeneo e intenso.
+  freq=   2  raw : Giallo abbastanza carico, più chiaro vicino allo scalzo
+             clean: Pasta di colore giallo abbastanza carico, più chiara vicino allo scalzo.
+  freq=   2  raw : Non omogeneo chiaro ai bordi
+             clean: Pasta di colore non omogeneo, chiara ai bordi.
+  freq=   2  raw : Carico al centro. Zona scalzi più chiara
+             clean: Pasta di colore carico al centro, con zona scalzi più chiara.
+  freq=   2  raw : Più chiaro verso gli scalzi. Appena un poco' saturo il resto
+             clean: Pasta più chiara verso gli scalzi, con il resto appena leggermente saturo.
+  freq=   2  raw : Macchie rosa centrali Leggermente più chiara al centro Colore chiaro ma non omogeneo
+             clean: Pasta con macchie rosa centrali, più chiara al centro, colore non omogeneo.
+  freq=   2  raw : Più carico al centro, alone evidente
+             clean: Pasta con colore più carico al centro e alone evidente.
+  freq=   2  raw : Più chiara agli scalzi per rosata
+             clean: Pasta più chiara agli scalzi con tendenza rosata.
+  freq=   2  raw : Alone centrale più scuro grande sia pure leggero
+             clean: Pasta con alone centrale grande e più scuro, seppur leggero.
+  freq=   2  raw : Chiara con leggero alone e 2 chiazze tendenti e al rosa
+             clean: Pasta chiara con leggero alone e qualche chiazza tendente al rosa.
+  freq=   2  raw : Giallo medio carico tendente al nocciola
+             clean: Pasta di colore giallo medio carico tendente al nocciola.
+  freq=   2  raw : Un piatto e più scuro
+             clean: Pasta di colore più scuro e piatto.
+  freq=   2  raw : Omogeneo giallo medio.carico
+             clean: Pasta di colore giallo medio carico, omogeneo.
+  freq=   2  raw : Alone centrale con fascia circolare che segue la frattura della pasta
+             clean: Pasta con alone centrale e fascia circolare lungo la frattura.
+  freq=   2  raw : Giallo paglierino omogeneo abbastanza carico
+             clean: Pasta di colore giallo paglierino omogeneo, abbastanza carico.
+  freq=   2  raw : Sarebbe anche giallo paglierino ma presenta zona con alone imbrunito
+             clean: Pasta di colore giallo paglierino con zona caratterizzata da alone imbrunito.
+  freq=   2  raw : Tendente al rosato con una macchia centrale rosa
+             clean: Pasta tendente al rosato con macchia centrale rosa.

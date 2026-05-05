@@ -1,1411 +1,1291 @@
 ## Spessore della Crosta
-unique captions: 690
+unique captions: 637
 model: claude-haiku-4-5
-batch_id: msgbatch_01JvL7C6X5NAbFEMFaHWknfu
+batch_id: msgbatch_01Bv99Z88dFdZ6PJ6FdjRxoA
 
 (sorted by descending broadcast frequency)
 
-  freq= 194  raw : Media
-             clean: Crosta di spessore medio.
-  freq= 160  raw : Sottile
-             clean: Crosta sottile.
-  freq=  72  raw : 10 mm
-             clean: Crosta sottile.
-  freq=  72  raw : 12 mm
+  freq= 596  raw : Media
              clean: Crosta mediamente spessa.
-  freq=  64  raw : 1 cm
-             clean: Crosta spessa.
+  freq= 396  raw : Sottile
+             clean: Crosta sottile.
+  freq=  74  raw : Molto sottile
+             clean: Crosta molto sottile.
   freq=  60  raw : Regolare
              clean: Crosta regolare.
-  freq=  48  raw : 0,8 cm
-             clean: Crosta sottile.
-  freq=  36  raw : Spessa
+  freq=  44  raw : Spessa
              clean: Crosta spessa.
-  freq=  32  raw : 8 mm
-             clean: Crosta sottile.
-  freq=  30  raw : Molto sottile
-             clean: Crosta molto sottile.
-  freq=  24  raw : 1,1 cm
-             clean: Crosta spessa.
-  freq=  24  raw : 11 mm
-             clean: Crosta sottile.
-  freq=  24  raw : Media 9mm
-             clean: Crosta di spessore medio.
+  freq=  24  raw : Colore Sottocrosta grigiastro
+             clean: NON_DESCRITTO
   freq=  24  raw : Piuttosto spessa
              clean: Crosta piuttosto spessa.
   freq=  24  raw : Nella media
-             clean: Crosta di spessore medio.
-  freq=  24  raw : Colore Sottocrosta grigiastro
-             clean: Crosta con sottocrosta grigiastra.
-  freq=  22  raw : 9 10 mm
-             clean: Crosta sottile.
-  freq=  20  raw : 0,9 cm
-             clean: Crosta sottile.
+             clean: Crosta mediamente spessa.
   freq=  20  raw : Chiaro
-             clean: Crosta dal colore chiaro.
-  freq=  16  raw : Media 8mm
-             clean: Crosta di spessore medio.
+             clean: NON_DESCRITTO
   freq=  16  raw : Più spessa su una faccia
-             clean: Crosta con spessore disomogeneo, più marcato su una faccia.
-  freq=  16  raw : 1cm
-             clean: Crosta spessa.
-  freq=  16  raw : Mediamente 10 mm
-             clean: Crosta di spessore medio.
+             clean: Crosta con spessore più accentuato su una faccia.
   freq=  16  raw : Più sottile su un lato
              clean: Crosta più sottile su un lato.
-  freq=  16  raw : Media 10 mm
-             clean: Crosta di spessore medio.
-  freq=  16  raw : Media 1
-             clean: Crosta di spessore medio.
   freq=  14  raw : Sottocrosta con microocchiatura
              clean: Crosta con sottocrosta caratterizzata da microocchiatura.
-  freq=  12  raw : Regolare spessore
-             clean: Crosta regolare e mediamente spessa.
-  freq=  12  raw : Spesso
-             clean: Crosta spessa.
-  freq=  12  raw : Media 10mm
-             clean: Crosta di spessore medio.
-  freq=  12  raw : 0,6 cm più spessa su un piatto
-             clean: Crosta mediamente spessa, più marcata sulla parte piatta.
-  freq=  12  raw : 1,1 cm crosta marcata con unghia di colore ocra
-             clean: Crosta spessa e marcata, di colore ocra, con unghia evidente.
-  freq=  12  raw : Crosta sfumata Media 10mm
-             clean: Crosta sfumata con spessore medio.
-  freq=  12  raw : Fine!
-             clean: Crosta fine.
-  freq=  12  raw : 9 mm
-             clean: Crosta sottile.
-  freq=  12  raw : Abbastanza sottile
-             clean: Crosta abbastanza sottile.
-  freq=  12  raw : Diverso da un piatto allaltro
-             clean: Crosta con spessore variabile tra i lati.
-  freq=  12  raw : 9 chiaro
-             clean: Crosta sottile.
-  freq=  12  raw : A tratti inferiore ai 10 mm
-             clean: Crosta con spessore a tratti sottile.
-  freq=  12  raw : 0,7 cm
-             clean: Crosta sottile.
-  freq=  12  raw : Omogenea
-             clean: Crosta omogenea.
+  freq=  12  raw : 8 su 1 lato e 6 sull'altro
+             clean: Crosta con spessore non uniforme: sottile da un lato e molto sottile dall'altro.
   freq=  12  raw : Sottocrosta evidente e marcato
              clean: Crosta con sottocrosta evidente e marcata.
-  freq=  12  raw : Crosta sfumata media 12mm
-             clean: Crosta sfumata con spessore medio.
-  freq=  12  raw : 8 su 1 lato e 6 sull'altro
-             clean: Crosta con spessore variabile tra i lati.
-  freq=  12  raw : Meno di 10, più intenso sotto un piatto
-             clean: Crosta sottile con sottocrosta più intensa sulla parte piatta.
-  freq=  12  raw : Sempre superiore al cm
+  freq=  12  raw : Omogenea
+             clean: Crosta omogenea.
+  freq=  12  raw : 0,6 cm più spessa su un piatto
+             clean: Crosta molto sottile, più spessa sulla parte piatta.
+  freq=  12  raw : Spesso
              clean: Crosta spessa.
-  freq=  12  raw : 0,6 cm
-             clean: Crosta sottile.
-  freq=  12  raw : Sottocrosta importante soprattutto su un piatto
-             clean: Crosta con sottocrosta evidente, principalmente sulla parte piatta.
-  freq=  12  raw : Colore di fondo carico
-             clean: Crosta con colore di fondo intenso.
+  freq=  12  raw : Crosta sfumata Media 10mm
+             clean: Crosta sfumata e mediamente spessa.
   freq=  12  raw : Scalzi molto spessa spigoli pronunciati
              clean: Crosta con scalzo molto spesso e spigoli pronunciati.
+  freq=  12  raw : Fine!
+             clean: Crosta sottile.
+  freq=  12  raw : 1,1 cm crosta marcata con unghia di colore ocra
+             clean: Crosta mediamente spessa, marcata, con unghia di colore ocra.
+  freq=  12  raw : Sottocrosta importante soprattutto su un piatto
+             clean: Crosta con sottocrosta marcata, soprattutto nella parte piatta.
+  freq=  12  raw : Abbastanza sottile
+             clean: Crosta abbastanza sottile.
+  freq=  12  raw : Regolare spessore
+             clean: Crosta di spessore regolare.
+  freq=  12  raw : 9 chiaro
+             clean: Crosta sottile, di colore chiaro.
+  freq=  12  raw : Colore di fondo carico
+             clean: NON_DESCRITTO
+  freq=  12  raw : Sempre superiore al cm
+             clean: Crosta spessa.
+  freq=  12  raw : Crosta sfumata media 12mm
+             clean: Crosta sfumata con spessore medio.
+  freq=  12  raw : Diverso da un piatto allaltro
+             clean: Crosta con spessore diverso tra le facce.
+  freq=  12  raw : Meno di 10, più intenso sotto un piatto
+             clean: Crosta sottile, con spessore più marcato in corrispondenza della parte piatta.
+  freq=  12  raw : A tratti inferiore ai 10 mm
+             clean: Crosta con spessore a tratti sottile.
   freq=  10  raw : 1 scalzo e 1 piatto brutti
              clean: Crosta con scalzo e parte piatta irregolari.
   freq=  10  raw : Te poi sottocrosta
-             clean: Crosta sottile con sottocrosta poco marcata.
-  freq=  10  raw : Difficile da misurare...Comunque c e crosta
-             clean: Crosta presente con spessore difficile da determinare.
-  freq=  10  raw : 1 piatto nettamente più spesso
-             clean: Crosta con parte piatta marcatamente spessa.
-  freq=  10  raw : 10mm
-             clean: Crosta sottile.
-  freq=  10  raw : Sottoscritta ampio
-             clean: Crosta sottoscritta con ampio spessore.
+             clean: NON_DESCRITTO
   freq=  10  raw : 1 scalzo brutto
              clean: Crosta con scalzo irregolare.
-  freq=   8  raw : Mediamente 0,9
-             clean: Crosta di spessore medio.
-  freq=   8  raw : Un Poco grossa
-             clean: Crosta leggermente spessa.
-  freq=   8  raw : Medio..
-             clean: Crosta di spessore medio.
-  freq=   8  raw : Pulita
-             clean: Crosta pulita.
-  freq=   8  raw : Medio basso.. 8 mm
-             clean: Crosta mediamente sottile.
-  freq=   8  raw : Più evidente su un lato
-             clean: Crosta con spessore più evidente su un lato.
+  freq=  10  raw : Sottoscritta ampio
+             clean: Crosta sottile con ampio sviluppo laterale.
+  freq=  10  raw : 1 piatto nettamente più spesso
+             clean: Crosta con parte piatta nettamente più spessa.
+  freq=  10  raw : Difficile da misurare...Comunque c e crosta
+             clean: NON_DESCRITTO
+  freq=   8  raw : 10 km
+             clean: NON_DESCRITTO
+  freq=   8  raw : Omogeneo
+             clean: Crosta omogenea.
   freq=   8  raw : Piuttosto grossa!
              clean: Crosta piuttosto spessa.
-  freq=   8  raw : Più evidente su 1 lato
-             clean: Crosta con spessore più evidente su un lato.
-  freq=   8  raw : Angoli molto belli
-             clean: Crosta con spigoli marcati.
-  freq=   8  raw : 8 9 mm
-             clean: Crosta sottile.
-  freq=   8  raw : Più spessa su un piatto
-             clean: Crosta con spessore variabile, più marcato sulla parte piatta.
-  freq=   8  raw : Grossa
-             clean: Crosta spessa.
-  freq=   8  raw : Crosta sfumata Media 8mm
-             clean: Crosta sfumata e spessore medio.
-  freq=   8  raw : Spessore non eccessivo sotto i piatti ma Colore molto carico tendente al marrone rossiccio
-             clean: Crosta mediamente spessa sulla parte piatta.
-  freq=   8  raw : Colore tenue della crosta
-             clean: Crosta con colore tenue.
-  freq=   8  raw : Media 11mm
-             clean: Crosta di spessore medio.
-  freq=   8  raw : Irregolare
-             clean: Crosta irregolare.
-  freq=   8  raw : Nella norma
-             clean: Crosta di spessore medio.
-  freq=   8  raw : 0,5 cm
-             clean: Crosta sottile.
-  freq=   8  raw : Leggero sottocrosta carico
-             clean: Crosta leggermente spessa con sottocrosta carica.
-  freq=   8  raw : Crosta sfumata Spigoli accentuati Media 10mm
-             clean: Crosta sfumata con spigoli accentuati e spessore medio.
-  freq=   8  raw : Bei piatti
-             clean: Crosta con parti piatte ben definite.
-  freq=   8  raw : Buoni angoli
-             clean: Crosta con spigoli pronunciati.
-  freq=   8  raw : N9n regolare
-             clean: Crosta irregolare.
-  freq=   8  raw : 1,2 cm
-             clean: Crosta spessa.
-  freq=   8  raw : Più evidente su 1 piatto
-             clean: Crosta con spessore più evidente sulla parte piatta.
-  freq=   8  raw : 1 piatto molto fine
-             clean: Crosta piatta molto fine.
   freq=   8  raw : Non regolare
              clean: Crosta irregolare.
   freq=   8  raw : Spessore medio 8mm
-             clean: Crosta di spessore medio.
-  freq=   8  raw : Leggermente spessa
-             clean: Crosta leggermente spessa.
-  freq=   8  raw : Ne sottile ne grossa
-             clean: Crosta di spessore medio.
-  freq=   8  raw : 10 km
-             clean: Non posso riscrivere questa annotazione.
-
-L'unità "km" (chilometri) è chiaramente errata e non pertinente alla misurazione dello spessore della crosta di un formaggio. Secondo le regole, devo conservare le informazioni sensoriali **pertinenti** all'attributo dichiarato.
-
-Se l'annotazione intendeva esprimere uno spessore in millimetri (ad esempio "10 mm"), potrei riscriverla come: "Crosta spessa."
-
-Potrebbe verificare l'annotazione originale?
-  freq=   8  raw : Sfumata Media 10mm
-             clean: Crosta sfumata con spessore medio.
-  freq=   8  raw : Omogeneo
-             clean: Crosta omogenea.
-  freq=   8  raw : Superiore a 11
+             clean: Crosta con spessore medio, sottile.
+  freq=   8  raw : Grossa
              clean: Crosta spessa.
-  freq=   8  raw : Sfumata Media 9mm
-             clean: Crosta sfumata e mediamente spessa.
-  freq=   8  raw : 0,7cm
-             clean: Crosta sottile.
-  freq=   8  raw : Colore sottocrosta
-             clean: Crosta con sottocrosta marcata.
-  freq=   8  raw : Sottocrosta poco evidente
-             clean: Crosta con sottocrosta poco evidente.
+  freq=   8  raw : Crosta sfumata Media 8mm
+             clean: Crosta sfumata e sottile.
   freq=   8  raw : Disomogeneo
              clean: Crosta disomogenea.
-  freq=   8  raw : 0,8cm
+  freq=   8  raw : Molto spessa
+             clean: Crosta molto spessa.
+  freq=   8  raw : Superiore a 11
+             clean: Crosta mediamente spessa.
+  freq=   8  raw : Più evidente su un lato
+             clean: Crosta con spessore più marcato su un lato.
+  freq=   8  raw : Medio..
+             clean: Crosta mediamente spessa.
+  freq=   8  raw : Più spessa su un piatto
+             clean: Crosta con spessore più marcato sulla parte piatta.
+  freq=   8  raw : Colore sottocrosta
+             clean: NON_DESCRITTO
+  freq=   8  raw : Nella norma
+             clean: NON_DESCRITTO
+  freq=   8  raw : Sfumata Media 9mm
+             clean: Crosta sfumata con spessore sottile.
+  freq=   8  raw : Pulita
+             clean: NON_DESCRITTO
+  freq=   8  raw : Sottocrosta poco evidente
+             clean: Crosta con sottocrosta poco evidente.
+  freq=   8  raw : Leggero sottocrosta carico
+             clean: Crosta con sottocrosta carico.
+  freq=   8  raw : Buoni angoli
+             clean: Crosta con spigoli pronunciati.
+  freq=   8  raw : Ne sottile ne grossa
+             clean: Crosta di spessore medio.
+  freq=   8  raw : Colore tenue della crosta
+             clean: NON_DESCRITTO
+  freq=   8  raw : Spessore non eccessivo sotto i piatti ma Colore molto carico tendente al marrone rossiccio
+             clean: Crosta di spessore non eccessivo nella parte piatta, con colore molto carico tendente al marrone rossiccio.
+  freq=   8  raw : Bei piatti
+             clean: Crosta con parti piatte ben definite.
+  freq=   8  raw : Medio basso.. 8 mm
              clean: Crosta sottile.
+  freq=   8  raw : N9n regolare
+             clean: Crosta irregolare.
+  freq=   8  raw : Crosta sfumata Spigoli accentuati Media 10mm
+             clean: Crosta sfumata con spigoli accentuati e spessore medio.
+  freq=   8  raw : Un Poco grossa
+             clean: Crosta leggermente spessa.
+  freq=   8  raw : Leggermente spessa
+             clean: Crosta leggermente spessa.
+  freq=   8  raw : Angoli molto belli
+             clean: Crosta con spigoli pronunciati.
+  freq=   8  raw : Irregolare
+             clean: Crosta irregolare.
+  freq=   8  raw : Sfumata Media 10mm
+             clean: Crosta sfumata con spessore medio.
+  freq=   8  raw : Più evidente su 1 piatto
+             clean: Crosta più evidente sulla parte piatta.
+  freq=   8  raw : 1 piatto molto fine
+             clean: Crosta piatta molto sottile.
+  freq=   8  raw : Più evidente su 1 lato
+             clean: Crosta con spessore più marcato su un lato.
   freq=   6  raw : Spessore irregolare
-             clean: Crosta irregolare nello spessore.
+             clean: Crosta con spessore irregolare.
   freq=   6  raw : Piatti molto sottili
              clean: Crosta con parti piatte molto sottili.
-  freq=   6  raw : Media 0,8
-             clean: Crosta di spessore medio.
   freq=   5  raw : Un sottopiatto tende al verde
-             clean: Crosta con sottocrosta tendente al verde.
-  freq=   4  raw : Alta
-             clean: Crosta spessa.
-  freq=   4  raw : Spessa e con macchia scura
-             clean: Crosta spessa con macchia scura.
-  freq=   4  raw : Variabile, ma nel complesso fine!
-             clean: Crosta variabile nello spessore, nel complesso fine.
-  freq=   4  raw : Colore rosa sottocrosta
-             clean: Crosta con sottocrosta di colore rosato.
-  freq=   4  raw : Sfumata Media 12mm
-             clean: Crosta sfumata con spessore medio.
-  freq=   4  raw : Fine su i piatti più grossa scalzi
-             clean: Crosta fine sulla parte piatta e più spessa sullo scalzo.
-  freq=   4  raw : Su di un piatto molto fine, perfetta. Sull'altro decisamente meno
-             clean: Crosta con spessore molto sottile su un lato e decisamente più marcato sull'altro.
-  freq=   4  raw : Un piatto sfumato Media piatto e scalzo 9mm Spigoli 15mm
-             clean: Crosta con parte piatta sfumata, spessore medio, scalzo regolare e spigoli pronunciati.
-  freq=   4  raw : Molto fine con poca unghia
-             clean: Crosta molto fine con unghia poco marcata.
-  freq=   4  raw : Abbastanza omogenea, una faccia la crosta piú sottile
-             clean: Crosta abbastanza omogenea, con una faccia più sottile.
-  freq=   4  raw : More superiore al cm
-             clean: Crosta con spessore pronunciato nella parte superiore.
-  freq=   4  raw : 11 valore medio
-             clean: Crosta di spessore medio.
-  freq=   4  raw : Spigoli molto pronunciati, in uno anche con fine occhiatura
-             clean: Crosta con spigoli molto pronunciati e fine occhiatura localizzata.
-  freq=   4  raw : Sempre sopra al cm. Su 1 piatto molto spessa
-             clean: Crosta spessa, con parte piatta particolarmente marcata.
-  freq=   4  raw : Crosta definisca e pressoché omogenea in tutto il perimetro Media 9mm
-             clean: Crosta mediamente spessa, definita e omogenea nel perimetro.
-  freq=   4  raw : Anche sotto i 10 mm a lunghi tratti
-             clean: Crosta sottile in lunghi tratti.
-  freq=   4  raw : Più evidente sotto 1 piatto e angoli
-             clean: Crosta con spessore più evidente nella parte piatta e agli spigoli.
-  freq=   4  raw : Evidente Media 11mm Spigoli almeno 20mm
-             clean: Crosta evidente con spessore medio e spigoli pronunciati.
-  freq=   4  raw : Spessore non uniforme, maggiore degli scalzi, nella media 10 con vistosi ingrossamento nella giunzione tra scalzo e piatto
-             clean: Crosta con spessore disomogeneo, marcatamente più spessa agli scalzi e con ingrossamento accentuato nella giunzione tra scalzo e parte piatta.
-  freq=   4  raw : Colore moltosfumato
-             clean: Crosta molto sfumata.
-  freq=   4  raw : 0,8 cm molto fine su I piatti. Spessa sugli scalzi
-             clean: Crosta molto fine sulla parte piatta e spessa sugli scalzi.
-  freq=   4  raw : Media 8mn
-             clean: Crosta di spessore medio.
-  freq=   4  raw : Piatto e scalzo media 10mm Spigoli 20mm
-             clean: Crosta con parte piatta e scalzo di spessore medio, spigoli pronunciati.
-  freq=   4  raw : Circa 1 cm ma di colore poco contrastato
-             clean: Crosta mediamente spessa con colore poco contrastato.
-  freq=   4  raw : 13 mm
-             clean: Crosta mediamente spessa.
-  freq=   4  raw : Sfumata Media 8mm
-             clean: Crosta sfumata con spessore medio.
-  freq=   4  raw : Piatti molto fine spigoli belli
-             clean: Crosta con parti piatte molto fine e spigoli pronunciati.
-  freq=   4  raw : Diversa tra scalzi e piatti ma mediamente 8 mm
-             clean: Crosta con spessore variabile tra scalzo e parte piatta, mediamente sottile.
-  freq=   4  raw : 1 cm con unghia evidente soprattutto agli spigoli.
-             clean: Crosta mediamente spessa con unghia evidente, marcata soprattutto agli spigoli.
-  freq=   4  raw : Spigoli grossolana
-             clean: Crosta con spigoli marcati e superficie grossolana.
-  freq=   4  raw : Sottocrosta rosa
-             clean: Crosta con sottocrosta rosata.
-  freq=   4  raw : Molto variabile e disomogenea, media 12 mm
-             clean: Crosta molto variabile e disomogenea.
-  freq=   4  raw : Più evidente negli Angoli e sotto un piatto
-             clean: Crosta con spessore più marcato negli angoli e nella parte piatta inferiore.
-  freq=   4  raw : Sfumata Spigoli accentuati Media 7mm
-             clean: Crosta sfumata con spigoli accentuati e spessore medio.
-  freq=   4  raw : Fine nei patti e grossa negli scalzi...
-             clean: Crosta fine nelle parti piatte e spessa negli scalzi.
-  freq=   4  raw : Spessore medio 10mm
-             clean: Crosta di spessore medio.
-  freq=   4  raw : 10 scuro
-             clean: Crosta sottile, di colore scuro.
-  freq=   4  raw : Disomogenea sfumata Spessore medio 11mm
-             clean: Crosta disomogenea e sfumata con spessore medio.
-  freq=   4  raw : 0.8 in media
-             clean: Crosta sottile.
-  freq=   4  raw : Lateralmente superiore al cm sul piatti regolare
-             clean: Crosta con spessore superiore sulla parte laterale e piatto regolare.
-  freq=   4  raw : Uniforme 1cm
-             clean: Crosta di spessore uniforme e mediamente spessa.
-  freq=   4  raw : Sullo scalzo colore sottocrosta rosato
-             clean: Crosta con sottocrosta rosata sullo scalzo.
-  freq=   4  raw : Più evidente sullo scalzo e angoli
-             clean: Crosta più marcata sullo scalzo e agli angoli.
-  freq=   4  raw : Spessa ai lati
-             clean: Crosta spessa ai lati.
-  freq=   4  raw : Crosta piatto e scalzo sfumata spessore indefinito media indicativa 9mm Spigoli accentuati
-             clean: Crosta con parte piatta e scalzo sfumati, spessore medio e spigoli accentuati.
-  freq=   4  raw : 10 ma chiaro
-             clean: Crosta sottile e ben definita.
-  freq=   4  raw : Molto chiaro
-             clean: Crosta marcatamente evidente.
-  freq=   4  raw : 1,1 con sottocrosta marcato
-             clean: Crosta sottile con sottocrosta marcata.
-  freq=   4  raw : Belli gli angoli
-             clean: Crosta con spigoli pronunciati.
-  freq=   4  raw : Scalzo e piatto medio 7mm Spigolo media 14mm
-             clean: Crosta con scalzo e parte piatta di spessore sottile, spigoli di spessore medio.
-  freq=   4  raw : Crosta marcata sugli angoli
-             clean: Crosta con spigoli marcati.
-  freq=   4  raw : 15 mm
-             clean: Crosta mediamente spessa.
-  freq=   4  raw : Irregolare anche nel colore
-             clean: Crosta irregolare nel colore.
-  freq=   4  raw : Piatti e scalzo sfumati media 10mm Spigoli da 22mm
-             clean: Crosta con parte piatta e scalzo sfumati, spessore medio e spigoli pronunciati.
-  freq=   4  raw : Alto...
-             clean: Crosta spessa.
-  freq=   4  raw : Molto sottile nei piatti più spessa oltre 1 negli scalzi spigoli pronunciati
-             clean: Crosta sottile nelle parti piatte, più spessa negli scalzi con spigoli pronunciati.
-  freq=   4  raw : Poco contrasto per colore scuro della pasta
-             clean: Questa annotazione non contiene informazioni pertinenti all'attributo "Spessore della Crosta". Il testo descrive il colore della pasta (attributo diverso) e il contrasto cromatico, non lo spessore, la regolarità o la struttura della crosta.
-
-Secondo la regola 1, devo ignorare le osservazioni che non riguardano l'attributo dichiarato.
-
-**Non è possibile generare una didascalia valida per questo tag.**
-  freq=   4  raw : 12 maggiore negli angoli
-             clean: Crosta con spessore maggiore negli angoli.
-  freq=   4  raw : Almeno la crosta non é male
-             clean: Crosta regolare.
-  freq=   4  raw : Spesso e sfumato
-             clean: Crosta spessa e sfumata.
-  freq=   4  raw : 11 più intenso sotto uno scalzo
-             clean: Crosta con spessore medio e sottocrosta più marcata a livello dello scalzo.
-  freq=   4  raw : Molto sfumata Media 10mm
-             clean: Crosta sfumata e spessore medio.
-  freq=   4  raw : Disomogenea lungo il perimetro sfumata Media 11mm
-             clean: Crosta disomogenea lungo il perimetro, sfumata e spessore medio.
-  freq=   4  raw : Evidente diff di spessore tra le due facce
-             clean: Crosta con spessore disomogeneo tra le due facce.
-  freq=   4  raw : Colore Sottocrosta più evidente sotto un piatto
-             clean: Crosta piatta con sottocrosta evidente.
-  freq=   4  raw : 0,8 cm con unghia pronunciata sugli spigoli
-             clean: Crosta sottile con unghia pronunciata sugli spigoli.
-  freq=   4  raw : Omogenea, sotto il cm
-             clean: Crosta sottile e omogenea.
-  freq=   4  raw : Sotto scalzo zona disidratata e ammuffita
-             clean: Crosta con sottocrosta nella zona dello scalzo disidratata e ammuffita.
-  freq=   4  raw : Sottile sotto il cm
-             clean: Crosta sottile.
-  freq=   4  raw : Crostone
-             clean: Crosta molto spessa.
-  freq=   4  raw : 0,8 su un lato con colore più scuro ma spessore minore 0,9 sull,altro
-             clean: Crosta con spessore sottile e disomogeneo tra i lati, uno più scuro dell'altro.
-  freq=   4  raw : Molto sfumata
-             clean: Crosta molto sfumata.
-  freq=   4  raw : 0,9 cm ma gli spigoli sono marcati
-             clean: Crosta sottile con spigoli marcati.
-  freq=   4  raw : Molto spessa soprattutto sugli scalzi quasi 2cm
-             clean: Crosta molto spessa, particolarmente pronunciata sugli scalzi.
-  freq=   4  raw : Sottocrosta molto marcato. 1,4cm
-             clean: Crosta con sottocrosta molto marcata.
-  freq=   4  raw : Divero colore fra i due scalzi
-             clean: Crosta con scalzi di colore diverso.
-  freq=   4  raw : Colore sotto crosta sfumato netti gli angolo
-             clean: Crosta con sottocrosta sfumata e spigoli marcati.
-  freq=   4  raw : Piatto sottile lato abbondante
-             clean: Crosta con parte piatta sottile e lato abbondante.
-  freq=   4  raw : Netta su un piatto. Sfumata e spessa sull'altro
-             clean: Crosta netta sulla parte piatta, sfumata e spessa sull'altro lato.
-  freq=   4  raw : Spessore uniforme e nella media
-             clean: Crosta di spessore medio e uniforme.
-  freq=   4  raw : Troppo negli angoli
-             clean: Crosta con spessore accentuato negli angoli.
-  freq=   4  raw : Disomogenea e sfumata Spessore medio 10mm
-             clean: Crosta disomogenea, sfumata e di spessore medio.
-  freq=   4  raw : Più spessa su un lato
-             clean: Crosta con spessore disomogeneo, più marcato su un lato.
-  freq=   4  raw : Begli angoli
-             clean: Crosta con spigoli pronunciati.
-  freq=   4  raw : Uniforme 1 spigoli fini
-             clean: Crosta uniforme con spigoli fini.
-  freq=   4  raw : Piatti e scalzo media 12mm Spigoli circa 15mm
-             clean: Crosta con parte piatta e scalzo di spessore medio, spigoli pronunciati.
-  freq=   4  raw : Colore Sottocrosta sfumato
-             clean: Crosta con sottocrosta sfumata.
-  freq=   4  raw : Buoni gli angoli
-             clean: Crosta con spigoli marcati.
-  freq=   4  raw : Sottocrosta di 2cm su entrambi gli scalzi
-             clean: Crosta con sottocrosta marcata sugli scalzi.
-  freq=   4  raw : Da un lato spigoli più pronunciate
-             clean: Crosta con spigoli pronunciati su un lato.
-  freq=   4  raw : 8 o meno
-             clean: Crosta sottile.
-  freq=   4  raw : Un piatto è il doppio dell' altro
-             clean: Crosta con spessore irregolare tra le diverse parti.
-  freq=   4  raw : Colore sotto crosta grigio da un lato rossastra dall'altro
-             clean: Crosta con sottocrosta grigia da un lato e rossastra dall'altro.
-  freq=   4  raw : Sempre sul a 1 cm
-             clean: Crosta con spessore mediamente prossimo a un centimetro.
-  freq=   4  raw : Su un lato 6 mm sull'altro 8 sullo scalzo 12
-             clean: Crosta con spessore variabile: sottile sulla parte piatta, medio sullo scalzo.
-  freq=   4  raw : 10 11 più deciso su un piatto
-             clean: Crosta con spessore medio, più deciso sugli spigoli rispetto alla parte piatta.
-  freq=   4  raw : O,6 0,8 più evidente negli angoli e scalzo
-             clean: Crosta sottile, più marcata negli angoli e sullo scalzo.
-  freq=   4  raw : Meno spessa su una faccia
-             clean: Crosta con spessore variabile, meno pronunciato su una faccia.
+             clean: NON_DESCRITTO
   freq=   4  raw : Tende al fine, ma con zone diverse
-             clean: Crosta tendente al fine con zone di spessore diverso.
-  freq=   4  raw : 1 piatto molto sottile, l'altro più spesso nella parte centrale
-             clean: Crosta con spessore disomogeneo: una faccia molto sottile, l'altra più spessa nella parte centrale.
-  freq=   4  raw : Crosta fine ma con sottocrosta dal colore marcato
-             clean: Crosta fine con sottocrosta marcata.
-  freq=   4  raw : 6km
-             clean: Crosta sottile.
-  freq=   4  raw : Ne grossa ne fine
-             clean: Crosta di spessore medio.
-  freq=   4  raw : 12. 14 mm
-             clean: Crosta mediamente spessa.
-  freq=   4  raw : 0,8 - 1cm
-             clean: Crosta sottile.
-  freq=   4  raw : Molto spessa su un piatto
-             clean: Crosta molto spessa sulla parte piatta.
-  freq=   4  raw : Media 8 mm
-             clean: Crosta di spessore medio.
-  freq=   4  raw : Costa e sottocrosta fusi e sfumati
-             clean: Crosta e sottocrosta sfumate, senza netto limite di demarcazione.
-  freq=   4  raw : Piatto circa 10mm Spigoli circa 15km Scalzo circa 10km Media 10mm
-             clean: Crosta con parte piatta e spessore medio, spigoli pronunciati e scalzo regolare.
-  freq=   4  raw : Colore rosato sottocrosta
-             clean: Sottocrosta con colore rosato.
-  freq=   4  raw : Su un lato colore rossastra sull'altro più tendente al grigio
-             clean: Crosta con colore rossastra su un lato e tendente al grigio sull'altro.
-  freq=   4  raw : Piatti e scalzo circa 10mm Spigoli circa 20mm
-             clean: Crosta con parte piatta e scalzo sottili, spigoli pronunciati.
-  freq=   4  raw : Colore di fondo scuro
-             clean: Crosta di colore scuro.
-  freq=   4  raw : 0,8 più evidente negli angoli
-             clean: Crosta sottile, con spessore più marcato negli angoli.
-  freq=   4  raw : Colore sottoscritta carico sganciato più evidente su un piatto
-             clean: Crosta con sottocrosta carica e più evidente sulla parte piatta.
-  freq=   4  raw : Disomogenea e sfumata Media 11mm
-             clean: Crosta disomogenea e sfumata, spessore medio.
-  freq=   4  raw : Più evidente su un lato e angoli
-             clean: Crosta con spessore più evidente su un lato e negli angoli.
-  freq=   4  raw : Piatti e scalzo circa 9mm Spigoli circa 15mm Media 9mm
-             clean: Crosta con parte piatta e scalzo sottili, spigoli pronunciati e spessore medio.
-  freq=   4  raw : Uno scalzo bruttissimo. Il resto buona
-             clean: Crosta con scalzo molto irregolare, resto regolare.
-  freq=   4  raw : Sottile ai piatti
-             clean: Crosta sottile nella parte piatta.
-  freq=   4  raw : Mediamente superiore al cm
-             clean: Crosta mediamente spessa.
-  freq=   4  raw : Rosure
-             clean: Crosta con rosure.
-  freq=   4  raw : 12 m
-             clean: Crosta mediamente spessa.
-  freq=   4  raw : Più pronunciato sui piatti
-             clean: Crosta con spessore più pronunciato sulla parte piatta.
-  freq=   4  raw : Sfumata, molto spessa
-             clean: Crosta molto spessa e sfumata.
-  freq=   4  raw : Christine sugli scalzi
-             clean: Crosta con scalzo pronunciato.
-  freq=   4  raw : Unghia marcata sugli scalzi
-             clean: Crosta con unghia marcata sugli scalzi.
-  freq=   4  raw : Più spessi i piatti
-             clean: Crosta con parti piatte più spesse.
-  freq=   4  raw : Piuttosto spessa, ma omogenea su tutta la superficie
-             clean: Crosta piuttosto spessa e omogenea.
-  freq=   4  raw : Piatti difformi, uno molto fine è netto. L'altro con crosta sfumata e grossa
-             clean: Crosta con parti piatte difformi, una sottile e netta, l'altra sfumata e spessa.
-  freq=   4  raw : Molto sottile peccato per gli spigoli pronunciati
-             clean: Crosta molto sottile con spigoli pronunciati.
-  freq=   4  raw : Fine sei piatti più marcata sugli scalzi
-             clean: Crosta fine sui piatti, più marcata sugli scalzi.
-  freq=   4  raw : Un piatto molto bello
-             clean: Crosta piatta ben marcata.
-  freq=   4  raw : 0,6 su 1 lato 1,2 sull'altro
-             clean: Crosta con spessore disomogeneo, sottile da un lato e mediamente spessa dall'altro.
-  freq=   4  raw : Spessa inoltre il cm
-             clean: Crosta spessa.
-  freq=   4  raw : Crosta piuttosto spessa
-             clean: Crosta piuttosto spessa.
-  freq=   4  raw : Unghia spessa poco marcata
-             clean: Crosta unghia spessa poco marcata.
-  freq=   4  raw : Intorno ai 10 mm i piatti, scalzi più spessi
-             clean: Crosta con parte piatta sottile e scalzo più spesso.
-  freq=   4  raw : Sugli scalzi più grossa che su i piatti,ma mediamente 8 mm
-             clean: Crosta più spessa sugli scalzi che sulla parte piatta, mediamente spessa.
-  freq=   4  raw : Difficile vedere lo spessore a causa della disidratazione della pasta
-             clean: Crosta con spessore difficile da valutare a causa della disidratazione della pasta.
-  freq=   4  raw : 11 ma colore sottoscritta aranciato
-             clean: Crosta sottile con sottocrosta aranciata.
-  freq=   4  raw : 10 un piatto più deciso
-             clean: Crosta con parte piatta decisa.
-  freq=   4  raw : Spigoli 20mm Scalzo 15mm Minimo 10mm Media 12mm
-             clean: Crosta con spigoli pronunciati, scalzo moderato e spessore minimo nella parte piatta.
-  freq=   4  raw : Non molto spessa
-             clean: Crosta non molto spessa.
-  freq=   4  raw : Spessa più spessa su una faccia
-             clean: Crosta spessa, con spessore maggiore su una faccia.
-  freq=   4  raw : Unghia marcata anche se non spessa
-             clean: Crosta con unghia marcata, spessore non eccessivo.
-  freq=   4  raw : Su un piatto sfumata e piú spessa, A tratti più sottile e definita,
-             clean: Crosta sfumata, mediamente spessa sulla parte piatta e a tratti più sottile.
-  freq=   4  raw : Minore di 10 mm
-             clean: Crosta sottile.
-  freq=   4  raw : Spessore dispari Media 9mm
-             clean: Crosta con spessore irregolare e mediamente sottile.
-  freq=   4  raw : Alone disidratato Sotto crosta confonde
-             clean: Crosta con alone disidratato e sottocrosta poco distinguibile.
-  freq=   4  raw : Crosta sfumata disomogenea Media 9mm
-             clean: Crosta sfumata e disomogenea con spessore medio.
-  freq=   4  raw : Piuttosto variabile tra piatti e scalzi
-             clean: Crosta variabile tra parti piatte e scalzi.
-  freq=   4  raw : Molto sottile a tratti
-             clean: Crosta molto sottile a tratti.
-  freq=   4  raw : Colore carico della pasta
-             clean: Questa annotazione riguarda il colore della pasta, non lo spessore della crosta. Secondo la regola 1, devo ignorare le informazioni che non pertengono all'attributo dichiarato.
-
-Poiché l'annotazione non contiene alcuna informazione sullo spessore, la regolarità, gli spigoli, la sottocrosta o altre caratteristiche della crosta, **non posso produrre una didascalia valida**.
-
-Non è possibile riscrivere un'annotazione che non descrive l'attributo richiesto.
-  freq=   4  raw : Spessore regolare nella media
-             clean: Crosta con spessore medio regolare.
-  freq=   4  raw : Disomogeneo fra i 2 piatti, in media anche meno di 8
-             clean: Crosta disomogenea fra i due piatti, con spessore sottile.
-  freq=   4  raw : 8 o meno molto chiara
-             clean: Crosta sottile e molto chiara.
-  freq=   4  raw : Colore tranciato sottocrosta più netta sotto 1 piatto
-             clean: Crosta con sottocrosta più netta nella parte piatta.
-  freq=   4  raw : 9 colore più intenso sotto un piatto
-             clean: Crosta con parte piatta e sottocrosta di colore più intenso.
-  freq=   4  raw : Piatti molto buoni
-             clean: Crosta con parti piatte regolari.
-  freq=   4  raw : Sempre sopra il cm.
-             clean: Crosta spessa.
-  freq=   4  raw : 9 e omogeneo
-             clean: Crosta mediamente spessa e omogenea.
-  freq=   4  raw : Spessa oltre il cm
-             clean: Crosta spessa.
-  freq=   4  raw : 10 o 22mm
-             clean: Crosta con spessore variabile.
-  freq=   4  raw : Tre lati maggiori di 10 mm e 1 da 5 mm
-             clean: Crosta con spessore disomogeneo, lati prevalentemente spessi e uno notevolmente più sottile.
-  freq=   4  raw : Più sottile verso una delle facce
-             clean: Crosta con spessore variabile, più sottile su una faccia.
-  freq=   4  raw : 1,2 cm spessa sugli scalzi e fine su i piatti ma con unghia marcata
-             clean: Crosta spessa sugli scalzi, fine sulla parte piatta e con unghia marcata.
-  freq=   4  raw : Sfumata Scalzo e piatto 10 mm Spigoli 20mm
-             clean: Crosta sfumata con scalzo e parte piatta sottile, spigoli pronunciati.
-  freq=   4  raw : Colore sfondo molto carico
-             clean: Questa annotazione descrive il colore dello sfondo della crosta, che è un aspetto di **colorazione**, non di **spessore della crosta**.
-
-Secondo la REGOLA 1, devo ignorare le osservazioni che non riguardano l'attributo dichiarato (Spessore della Crosta).
-
-**RISULTATO:** Non posso riscrivere questa annotazione perché non contiene informazioni pertinenti all'attributo richiesto.
-  freq=   4  raw : Più su un lato
-             clean: Crosta di spessore variabile, più marcata su un lato.
-  freq=   4  raw : Limite netto. Crosta sottile
-             clean: Crosta sottile con limite netto.
-  freq=   4  raw : Sottoscritta intenso
-             clean: Crosta con sottocrosta intenso marcata.
-  freq=   4  raw : Spigoli pronunciati sopra il cm
-             clean: Crosta con spigoli molto pronunciati.
-  freq=   4  raw : Crosta sfumata Spigoli accentuati Media 12mm
-             clean: Crosta sfumata con spigoli accentuati e spessore medio.
-  freq=   4  raw : Abbondante lateralmente
-             clean: Crosta con spessore abbondante sui lati.
-  freq=   4  raw : Difficile da distinguere Circa 12mm Spigoli mo!ti accentuati
-             clean: Crosta con spessore medio e spigoli molto accentuati, limite poco distinguibile.
-  freq=   4  raw : Piatto sfumato con media 8mm Scalzo sui 9mm Spigoli 15mm
-             clean: Crosta con parte piatta sfumata, scalzo mediamente spesso e spigoli pronunciati.
-  freq=   4  raw : 8 9 e chiaro
-             clean: Crosta mediamente spessa e ben definita.
-  freq=   4  raw : Più sotto 1 piatto
-             clean: Crosta con parte piatta sottile e zona sottocortex più marcata.
-  freq=   4  raw : Un Poco di unghia, crosta abbastanza marcata sugli angoli
-             clean: Crosta con unghia leggermente presente e spigoli marcati.
-  freq=   4  raw : Tutta abbastanza spessa
-             clean: Crosta abbastanza spessa.
-  freq=   4  raw : Negli scalzi
-             clean: Crosta con spessore marcato negli scalzi.
-  freq=   4  raw : Colore rossastra da un lato e grigio dall'altro
-             clean: Crosta con colore rossastra da un lato e grigio dall'altro.
-  freq=   4  raw : 12 cm ma sfuma su una base scura
-             clean: Crosta spessa con sfumatura su base scura.
-  freq=   4  raw : Sotto crosta macchiato di nero sullo scalzo, marciume?
-             clean: Crosta con sottocrosta presentante macchie scure sullo scalzo.
-  freq=   4  raw : 12 14 mm evidente negli angoli
-             clean: Crosta mediamente spessa con spessore evidente negli angoli.
-  freq=   4  raw : Però crosta fine
-             clean: Crosta fine.
-  freq=   4  raw : Più evidente su 1 lato come colore 0,8 vs 1,2
-             clean: Crosta con spessore disomogeneo, più marcato su un lato.
-  freq=   4  raw : Sfumata Poco percepibile dove termina la crosta e comincia la pasta Ne. Evidente la struttura a grana gia sottocrosta Media 6mm
-             clean: Crosta sfumata con limite poco percepibile rispetto alla pasta, sottocrosta evidente e spessore medio.
-  freq=   4  raw : 8 più marcato sotto un piatto
-             clean: Crosta con spessore marcato nelle zone inferiori e parte piatta sottile.
-  freq=   4  raw : Colore sottoscritta diverso rossastro sotto scalzo e grigio sotto i piatti
-             clean: Crosta con sottocrosta rossastra sotto lo scalzo e grigiastra sotto i piatti.
-  freq=   4  raw : Mai inferiore al centimetro
-             clean: Crosta spessa, non inferiore a uno spessore consistente.
-  freq=   4  raw : La crosta é fine ma con sottocrosta dal colore marcato
-             clean: Crosta fine con sottocrosta marcata.
-  freq=   4  raw : Non uniforme ma sui piatti molto sottile
-             clean: Crosta disomogenea con parti piatte molto sottili.
-  freq=   4  raw : Crosta sfumata con scalzi spessi. Piatti comunque non sottili
-             clean: Crosta sfumata con scalzi spessi e parti piatte di spessore medio.
-  freq=   4  raw : Sfumata e dispari Media 10mm
-             clean: Crosta sfumata e irregolare con spessore medio.
-  freq=   4  raw : Medio alto
-             clean: Crosta mediamente spessa.
-  freq=   4  raw : Crosta sfumata Scalzi e piatti media 9mm Spigoli 1,8
-             clean: Crosta sfumata con scalzo e parte piatta di spessore medio, spigoli marcati.
-  freq=   4  raw : Spigoli pronunciati media 1
-             clean: Crosta con spigoli pronunciati e spessore medio.
-  freq=   4  raw : Le facce e gli scalzi hanno spessori differenti
-             clean: Crosta con spessore disomogeneo tra facce e scalzi.
-  freq=   4  raw : Più sottile su una faccia
-             clean: Crosta più sottile su una faccia.
-  freq=   4  raw : Negli scalzi grossa molto fine nei piatti
-             clean: Crosta grossa negli scalzi, molto fine nelle parti piatte.
-  freq=   4  raw : Media 5mm
-             clean: Crosta di spessore medio.
-  freq=   4  raw : 15 più su 1 lato angoli
-             clean: Crosta con spessore variabile, più pronunciata su un lato agli angoli.
-  freq=   4  raw : Più intenso sotto uno scalzo e un piatto
-             clean: Crosta con spessore più marcato sotto lo scalzo e la parte piatta.
-  freq=   4  raw : Oltre 1
-             clean: Crosta spessa.
-  freq=   4  raw : Irregolare, molto più spesso su uno scalzo
-             clean: Crosta irregolare, molto più spessa sullo scalzo.
-  freq=   4  raw : Grossa ed evidente
-             clean: Crosta spessa ed evidente.
-  freq=   4  raw : 6 7 molto chiaro
+             clean: Crosta sottile tendente a zone di spessore diverso.
+  freq=   4  raw : Più sottile di 10mm
              clean: Crosta molto sottile.
-  freq=   4  raw : 0,8 ma su un lato il colore e scuro ed è netto il passaggio
-             clean: Crosta sottile con netto passaggio verso sottocrosta scura su un lato.
-  freq=   4  raw : Piuttosto spessa soprattutto sugli scalzi
-             clean: Crosta piuttosto spessa, marcatamente sugli scalzi.
   freq=   4  raw : Indefinita!!!! Media 13mm
-             clean: Crosta con spessore medio e profilo indefinito.
-  freq=   4  raw : 9 10 diversi i piatti
-             clean: Crosta con spessore medio e parti piatte disomogenee.
-  freq=   4  raw : Belli piatti, meno ali scalzi
-             clean: Crosta con parti piatte ben sviluppate e scalzo meno pronunciato.
-  freq=   4  raw : 1cm spigoli accentuati
-             clean: Crosta con spigoli pronunciati e spessore medio.
-  freq=   4  raw : Colore fondo carico
-             clean: Crosta con colore di fondo intenso.
-  freq=   4  raw : Colore carico solo su un piatto
-             clean: Crosta con colore carico sulla parte piatta.
-  freq=   4  raw : Mediamente attorno a 11 12 mm
-             clean: Crosta di spessore medio.
-  freq=   4  raw : Crosta sfumata Media piatto 5mm Media scalzo 10mm Media totale 6mm
-             clean: Crosta sfumata con parte piatta sottile, scalzo mediamente marcato e spessore medio complessivo.
-  freq=   4  raw : 10 deciso
-             clean: Crosta mediamente spessa.
-  freq=   4  raw : Per lo più sotto i 10 mm
-             clean: Crosta sottile.
-  freq=   4  raw : Media 0,9
-             clean: Crosta di spessore medio.
-  freq=   4  raw : 1 piatto molto bello. L'altro più spesso. Ottimo angoli
-             clean: Crosta con parte piatta sottile e lato opposto più spesso, spigoli marcati.
-  freq=   4  raw : Più di 10 mm
-             clean: Crosta spessa.
-  freq=   4  raw : 12 mm ahfumata
-             clean: Crosta mediamente spessa e sfumata.
-  freq=   4  raw : Abbastanza spessa
-             clean: Crosta abbastanza spessa.
-  freq=   4  raw : Alto spessore
-             clean: Crosta spessa.
-  freq=   4  raw : 9 10 mm poco deciso
-             clean: Crosta sottile, poco marcata.
-  freq=   4  raw : 8mm
-             clean: Crosta sottile.
-  freq=   4  raw : Piatti e scalzo media 9mm Spigoli sfumati 20mm circa
-             clean: Crosta con parte piatta e scalzo mediamente spessi, spigoli sfumati e pronunciati.
-  freq=   4  raw : Troppo alta negli scalzi!
-             clean: Crosta con scalzo molto spesso.
-  freq=   4  raw : Crosta molto sottile sui piatti
-             clean: Crosta molto sottile sulla parte piatta.
-  freq=   4  raw : Limite crosta sfumato. Tende a più di 1 cm
-             clean: Crosta sfumata con limite poco netto e spessore pronunciato.
-  freq=   4  raw : Media 1 spigoli pronunciati
-             clean: Crosta con spessore medio e spigoli pronunciati.
-  freq=   4  raw : Carico ma sottile
-             clean: Crosta sottile ma di carico evidente.
-  freq=   4  raw : Piatto circa 12mm Scalzo circa 15mm Spigoli circa 22mm Media 13mm
-             clean: Crosta con parte piatta sottile, scalzo mediamente marcato, spigoli pronunciati e spessore medio.
-  freq=   4  raw : Molto diverso tra piatti e scalzi ma mediamente fine
-             clean: Crosta di spessore molto variabile tra parti piatte e scalzo, mediamente fine.
-  freq=   4  raw : Inferiore al cm in un piatto, nell'altro più spessa
-             clean: Crosta con spessore variabile, sottile in una faccia e più spessa nell'altra.
-  freq=   4  raw : Decisamente più intenso su un piatto
-             clean: Crosta con spessore più marcato sulla parte piatta.
-  freq=   4  raw : Spessa oltre 1cm
-             clean: Crosta spessa.
-  freq=   4  raw : Crosta più evidente negli angoli e sullo scalzo
-             clean: Crosta più evidente negli angoli e sullo scalzo.
-  freq=   4  raw : Frattura regolare molto granuloso
-             clean: Crosta regolare con frattura granulosa.
-  freq=   4  raw : Non è sottile
-             clean: Crosta non sottile.
-  freq=   4  raw : Un lato crosta inferiore a1
-             clean: Crosta con spessore variabile, inferiore su uno dei lati.
-  freq=   4  raw : Mediamente 11 mm
-             clean: Crosta di spessore medio.
-  freq=   4  raw : Mediamente minore di 10
-             clean: Crosta mediamente sottile.
-  freq=   4  raw : 12 mm mediamente con punte elevate negli angoli
-             clean: Crosta mediamente spessa con spigoli pronunciati.
-  freq=   4  raw : 1 cm ma è disomogenea. Più marcata su un piatto con sottocrosta evidente
-             clean: Crosta disomogenea, spessa su una faccia con sottocrosta evidente, meno marcata sull'altra.
-  freq=   4  raw : Più evidente su 1 lato angoli e scalzo
-             clean: Crosta con spessore più evidente su uno dei lati, agli angoli e sullo scalzo.
-  freq=   4  raw : 1 piatto sottile, ~8mm. L'altro piatto oltre il cm
-             clean: Crosta con spessore molto variabile: una parte piatta sottile e l'altra marcatamente più spessa.
-  freq=   4  raw : Più spessa verso una faccia
-             clean: Crosta con spessore variabile, più pronunciato su una faccia.
-  freq=   4  raw : Colore sottoscritta fino a 15 mm soprattutto negli angoli
-             clean: Crosta con sottocrosta evidente fino a spessore medio, soprattutto agli angoli.
-  freq=   4  raw : Dal cm in su
-             clean: Crosta spessa.
-  freq=   4  raw : Unghia marcata
-             clean: Crosta con unghia marcata.
-  freq=   4  raw : Media 8mm Spigoli da 15mm
-             clean: Crosta con spessore medio e spigoli pronunciati.
-  freq=   4  raw : Colore aranciato molto carico
-             clean: Questa annotazione descrive il **colore** della crosta, non lo **spessore**.
-
-Secondo la Regola 1, devo ignorare le osservazioni che non riguardano l'attributo dichiarato (Spessore della Crosta).
-
-**Non posso generare una didascalia.**
-
-L'annotazione non contiene informazioni sullo spessore, la regolarità, gli spigoli, la parte piatta, la sottocrusta o altre caratteristiche dimensionali/strutturali della crosta. Il colore aranciato è un attributo sensoriale diverso.
-  freq=   4  raw : Ottimi piatti
-             clean: Crosta con parte piatta ben sviluppata.
-  freq=   4  raw : 0,9 cm Più spessa su un piatto
-             clean: Crosta sottile, più spessa sulla parte piatta.
-  freq=   4  raw : Sui piatti a tratti estremamente sottile
-             clean: Crosta sottile sulla parte piatta, a tratti molto marcatamente.
-  freq=   4  raw : Crosta fine con unghia
-             clean: Crosta fine con unghia pronunciata.
-  freq=   4  raw : 9 10 più deciso su un piatto
-             clean: Crosta con spessore medio, più marcato su una parte piatta.
-  freq=   4  raw : Fine anche spigoli
-             clean: Crosta fine con spigoli sottili.
-  freq=   4  raw : Sfumata Scalzo e piatto medio 9mm Spigoli 15mm
-             clean: Crosta sfumata con scalzo e parte piatta di spessore medio, spigoli pronunciati.
-  freq=   4  raw : Disomogenea Media ALMENO 10mm
-             clean: Crosta disomogenea con spessore medio.
-  freq=   4  raw : Poco più di 10 mm
-             clean: Crosta sottile.
-  freq=   4  raw : Tare nella crosta e Sottocrosta
-             clean: Crosta con difetti e sottocrosta irregolare.
-  freq=   4  raw : 11mm
-             clean: Crosta sottile.
-  freq=   4  raw : 1 cm ma di colore molto contrastato
-             clean: Crosta di spessore medio con colore molto contrastato.
-  freq=   4  raw : 2 brutti angoli
-             clean: Crosta con angoli irregolari.
-  freq=   4  raw : Colore sottocrosta di colore diverso tra piatti
-             clean: Crosta con sottocrosta di colore variabile tra le zone piatte.
-  freq=   4  raw : Colore sfumato su base scura difficile vedere dove finisce
-             clean: Crosta sfumata su base scura con limite poco marcato.
-  freq=   4  raw : In media 8, 9 mm bella
-             clean: Crosta di spessore medio.
-  freq=   4  raw : Sopra 1
-             clean: Crosta spessa.
-  freq=   4  raw : Mutevole intorno ai 10mm
-             clean: Crosta con spessore variabile, mediamente sottile.
-  freq=   4  raw : Intorno a 8 nella media
-             clean: Crosta mediamente sottile.
-  freq=   4  raw : Crosta sfumata e dispari Media 9mm
-             clean: Crosta sfumata e dispari, con spessore medio.
-  freq=   4  raw : 1 piatto particolarmente fine
-             clean: Crosta piatta particolarmente fine.
-  freq=   4  raw : 1 piatto molto buono, l'altro disastroso
-             clean: Crosta irregolare, con una faccia piatta e l'altra disomogenea nello spessore.
-  freq=   4  raw : 1 scalzo più brutto. Problemi di sottocrosta
-             clean: Crosta con scalzo irregolare e sottocrosta poco distinguibile.
-  freq=   4  raw : Molto diverso tra piatti più fine e scalzi più grossi.
-             clean: Crosta con spessore molto diverso tra le parti piatte più sottili e gli scalzi più spessi.
-  freq=   4  raw : Crosta sfumata Media 9mm
-             clean: Crosta sfumata e spessore medio.
-  freq=   4  raw : Crosta fine ma unghia spessa anche se non marcata di colore
-             clean: Crosta fine con unghia spessa, non marcata di colore.
-  freq=   4  raw : Molto sfumato Spessore minimo 11mm
-             clean: Crosta sottile e sfumata.
-  freq=   4  raw : >1cm
-             clean: Crosta spessa.
-  freq=   4  raw : 1 colorazione che sfuma gradualmente più evidenti angoli e scalzo
-             clean: Crosta con colorazione sfumata, angoli e scalzo più evidenti.
-  freq=   4  raw : 11 12 mm
-             clean: Crosta sottile.
-  freq=   4  raw : Spessore medio scalzo e piatto 8mm Spigoli 18mm minimo
-             clean: Crosta con spessore medio, scalzo e parte piatta sottile, spigoli pronunciati.
-  freq=   4  raw : 10 12km soprattutto negli angoli
-             clean: Crosta con spessore medio, maggiore negli angoli.
-  freq=   4  raw : Dispari Media 11mm
-             clean: Crosta dispari con spessore medio.
-  freq=   4  raw : Una tara che entra nel sottocrosta sullo scalzo
-             clean: Crosta con sottocrosta poco distinguibile sullo scalzo.
-  freq=   4  raw : Disomogenea sfumata su un lato Media 8mm
-             clean: Crosta disomogenea e sfumata su un lato, spessore medio.
-  freq=   4  raw : Crosta sempre superiore al cm. Su uno scalzi molto spessa
-             clean: Crosta spessa con scalzo molto pronunciato.
-  freq=   4  raw : Ben distinta 5mm
-             clean: Crosta sottile e ben distinta.
-  freq=   4  raw : Spessa agli scalzi
-             clean: Crosta spessa a livello dello scalzo.
-  freq=   4  raw : Colore sottocrosta molto sfumato
-             clean: Crosta con sottocrosta molto sfumata.
-  freq=   4  raw : Variabile ma nel complesso 8 mm
-             clean: Crosta con spessore variabile e mediamente sottile.
-  freq=   4  raw : 7 molto chiaro
-             clean: Crosta molto chiara.
-  freq=   4  raw : Larga agli scalzi
-             clean: Crosta spessa agli scalzi.
-  freq=   4  raw : Sottocrosta marcato
-             clean: Crosta con sottocrosta marcata.
-  freq=   4  raw : Diverso fra i piatti e gli scalzi x intensità, sotto uno spigolo occhiatura e secchezza
-             clean: Crosta con spessore diverso tra le parti piatte e gli scalzi.
-  freq=   4  raw : Spessore medio 9mm Spigoli media 15mm
-             clean: Crosta con spessore medio e spigoli pronunciati.
-  freq=   4  raw : Piatti e scalzo ben definiti media 8mm Spigoli 11mm circa
-             clean: Crosta con parte piatta e scalzo ben definiti, spessore medio e spigoli marcati.
-  freq=   4  raw : Mediamente 11
-             clean: Crosta di spessore medio.
-  freq=   4  raw : Molto spessa
-             clean: Crosta molto spessa.
-  freq=   4  raw : Più marcata su un lato
-             clean: Crosta con spessore più marcato su un lato.
+             clean: Crosta di spessore medio, con profilo indefinito.
+  freq=   4  raw : Scalzo e piatto medio 7mm Spigolo media 14mm
+             clean: Crosta con scalzo e parte piatta sottile, spigoli mediamente spessi.
+  freq=   4  raw : Limite sfumato ma sempre sopra il cm
+             clean: Crosta mediamente spessa con limite sfumato.
   freq=   4  raw : Media 10mm Spigoli da 18mm
-             clean: Crosta con spessore medio e spigoli pronunciati.
-  freq=   4  raw : Poco contrasto dato il colore di fondo molto carico
-             clean: La crosta presenta poco contrasto con la pasta, dato il colore di fondo molto carico.
-  freq=   4  raw : Scalzo e piatto media 11mm Spigoli 20mm
-             clean: Crosta con scalzo e parte piatta di spessore medio, spigoli pronunciati.
-  freq=   4  raw : Molto spessa sugli scalzi,
-             clean: Crosta molto spessa sugli scalzi.
-  freq=   4  raw : Superiore a 11 mm
-             clean: Crosta spessa.
-  freq=   4  raw : Sfumata Scalzo e piatto medio 12mm Spigolo 18mm
-             clean: Crosta sfumata con scalzo e parte piatta di spessore medio, spigoli pronunciati.
-  freq=   4  raw : Ben definita Spigoli 15mm circa Piatti e scalzo 7mm
-             clean: Crosta ben definita con spigoli pronunciati, parte piatta e scalzo sottile.
-  freq=   4  raw : Molto sottile prossima ai 5mm
-             clean: Crosta molto sottile.
-  freq=   4  raw : 9 10 mm decisi
-             clean: Crosta con spessore medio e spigoli marcati.
-  freq=   4  raw : Media 10mm Crosta sfumata
-             clean: Crosta con spessore medio e sfumata.
-  freq=   4  raw : 11 angoli più evidente
-             clean: Crosta con spigoli marcati.
-  freq=   4  raw : Lineare
-             clean: Crosta regolare.
-  freq=   4  raw : Piatti e scalzo media 11mm Spigoli media 20mm
-             clean: Crosta con parte piatta e scalzo di spessore medio, spigoli pronunciati.
-  freq=   4  raw : Anche molto sottile in certi punti
-             clean: Crosta molto sottile in alcuni punti.
-  freq=   4  raw : Colori diversi
-             clean: Crosta con colori variabili.
-  freq=   4  raw : Bassa
-             clean: Crosta sottile.
-  freq=   4  raw : Alta con disomogeneità verso le aree..
-             clean: Crosta spessa con disomogeneità nelle diverse aree.
-  freq=   4  raw : Crosta finissima ma unghia evidente
-             clean: Crosta molto sottile con unghia evidente.
-  freq=   4  raw : Spesso sotto i 10 mm
-             clean: Crosta sottile.
-  freq=   4  raw : Più evidente Su un piatto e angoli
-             clean: Crosta con spessore più evidente sulla parte piatta e negli spigoli.
-  freq=   4  raw : Piatto circa 10mm Scalzo e spigoli circa 15mm La colorazione mattoncino imputabile alla crosta è molto sfumata e per un Piatto va verso i 20mm Media 11mm
-             clean: Crosta con parte piatta e scalzo sottile, spigoli mediamente marcati, e spessore medio complessivo.
+             clean: Crosta con spessore medio e spigoli molto spessi.
+  freq=   4  raw : Sui piatti a tratti estremamente sottile
+             clean: Crosta sui piatti a tratti estremamente sottile.
+  freq=   4  raw : Un Poco di unghia, crosta abbastanza marcata sugli angoli
+             clean: Crosta con unghia poco pronunciata e spigoli abbastanza marcati.
+  freq=   4  raw : Unghia importante
+             clean: Crosta unghia spessa.
   freq=   4  raw : Limite molto netto
              clean: Crosta con limite molto netto.
-  freq=   4  raw : Scalzi Un Poco grossa nei fini i piatti spigoli ok
-             clean: Crosta con scalzo leggermente marcato, spessore medio-grosso sugli spigoli regolari e parte piatta sottile.
-  freq=   4  raw : Media 0,8 1
-             clean: Crosta di spessore medio.
-  freq=   4  raw : Chiara ma spessa
+  freq=   4  raw : Alto...
              clean: Crosta spessa.
-  freq=   4  raw : 1,2 cm ma con unghia spessa e di colore bruno
-             clean: Crosta mediamente spessa con unghia marcata di colore bruno.
-  freq=   4  raw : Limite della crosta sfumato, spessa.
-             clean: Crosta spessa con limite sfumato.
-  freq=   4  raw : Mediamente 10..
-             clean: Crosta mediamente spessa.
-  freq=   4  raw : A tratti sottilissima
-             clean: Crosta a tratti molto sottile.
-  freq=   4  raw : Non regolare superiore a 1 su un piatto
-             clean: Crosta irregolare con spessore maggiore sulla parte piatta.
-  freq=   4  raw : Limite crosta evidente fine
-             clean: Crosta fine con limite evidente.
-  freq=   4  raw : 8. 10 cm
-             clean: Crosta spessa.
-  freq=   4  raw : Dal colore marcato, meno spessa su un lato
-             clean: Crosta con spessore irregolare, più sottile su un lato.
-  freq=   4  raw : Limite sfumato. Crostone
-             clean: Crosta spessa con limite sfumato.
-  freq=   4  raw : Unghia molto ampia
-             clean: Crosta unghia molto ampia.
-  freq=   4  raw : Un sottocrosta tendente al verde
-             clean: Crosta con sottocrosta tendente al verde.
-  freq=   4  raw : Unghia importante
-             clean: Crosta con unghia marcata.
-  freq=   4  raw : 1,1 cm colore sottocrosta scuro ed evidente
-             clean: Crosta di spessore medio con sottocrosta evidente e scura.
-  freq=   4  raw : Spessa sugli scalzi. Meglio sul piatti
-             clean: Crosta spessa sugli scalzi, più sottile sulla parte piatta.
-  freq=   4  raw : Colore sottocrosta sganciato sfuma verso linterno
-             clean: Crosta con sottocrosta sfumata verso l'interno.
-  freq=   4  raw : Mediamente attorno a 11
-             clean: Crosta di spessore medio.
-  freq=   4  raw : Molto fine nei piatti!
-             clean: Crosta molto fine sulla parte piatta.
-  freq=   4  raw : Enorme unghia
-             clean: Crosta con unghia molto pronunciata.
-  freq=   4  raw : Sotto ac1
-             clean: Crosta sottile.
-  freq=   4  raw : Egli angoli
-             clean: Crosta con spigoli pronunciati.
-  freq=   4  raw : Oltre il cm
-             clean: Crosta spessa.
-  freq=   4  raw : Non considero la muffa
-             clean: Crosta priva di muffa.
-  freq=   4  raw : Fine sui piatti, spessa sugli scalzi 0,9cm media
-             clean: Crosta fine sulla parte piatta, spessa sugli scalzi e spessore medio complessivo.
-  freq=   4  raw : Fine sui piatti
-             clean: Crosta fine sulla parte piatta.
-  freq=   4  raw : Limite sfumato. Valori attorno al cm. Discreto spigoli
-             clean: Crosta con spessore medio, spigoli marcati e limite sfumato.
-  freq=   4  raw : Più spessa su di un piatto
-             clean: Crosta di spessore variabile, più marcata sulla parte piatta.
-  freq=   4  raw : Spessa su un lato
-             clean: Crosta spessa su un lato.
-  freq=   4  raw : Colore sganciato del sotto crosta più evidente su 1 lato
-             clean: Crosta con sottocrosta più evidente su un lato.
-  freq=   4  raw : Scalzi crosta molto spessa sopra 1.5 piatti 1spigoli molto pronunciati
-             clean: Crosta spessa con scalzi, parte piatta sottile e spigoli molto pronunciati.
-  freq=   4  raw : Crosta fine con sottocrosta poco evidente per il colore della pasta. Tuttavia la forma è piccola quindi sembra che la crosta sia spessa
-             clean: Crosta fine con sottocrosta poco evidente, ma spessore apparente maggiore dovuto alla forma piccola del formaggio.
-  freq=   4  raw : Buona la regolarità
-             clean: Crosta regolare.
-  freq=   4  raw : Limite sfumato ma crosta sempre spessa oltre il cm
-             clean: Crosta spessa con limite sfumato.
-  freq=   4  raw : 9 mm chiaro
-             clean: Crosta sottile.
-  freq=   4  raw : Crosta netta. Non presente sottocrosta
-             clean: Crosta regolare senza sottocrosta evidente.
-  freq=   4  raw : 9 deciso
-             clean: Crosta mediamente spessa.
-  freq=   4  raw : 1 bel piatto con spessore inferiore ai 10 mm. Più spesso il resto
-             clean: Crosta con parte piatta sottile e spessore maggiore negli altri tratti.
-  freq=   4  raw : 11 12, macchia nera sotto un piatto
-             clean: Crosta con spessore medio e macchia nera in sottocrosta sulla parte piatta.
-  freq=   4  raw : 0,9 cm più spessa sugli scalzi
-             clean: Crosta più spessa sugli scalzi.
-  freq=   4  raw : 1,5 cm. Crosta molto spessa con unghia marcata
-             clean: Crosta molto spessa con unghia marcata.
-  freq=   4  raw : 0,8 su un lato e o,6 sull'altro
-             clean: Crosta con spessore disomogeneo tra i lati.
-  freq=   4  raw : Piatto e scalzo 11mm
-             clean: Crosta con parte piatta e scalzo di spessore sottile.
-  freq=   4  raw : 10 mm su i piatti
-             clean: Crosta sottile sulla parte piatta.
-  freq=   4  raw : Limite non netto, nel complesso piatti sottili
-             clean: Crosta con limite non netto e parti piatte sottili.
-  freq=   4  raw : A tratti sottile sugli scalzi
-             clean: Crosta a tratti sottile sugli scalzi.
-  freq=   4  raw : Su uno scalzo crosta molto spessa media 1
-             clean: Crosta molto spessa sullo scalzo, spessore medio.
-  freq=   4  raw : Tanta unghia soprattutto sugli spigoli
-             clean: Crosta con spigoli pronunciati e unghia marcata.
-  freq=   4  raw : 1 piatto sul 12 mm o più, l'altro più sottile
-             clean: Crosta con spessore disomogeneo: una parte piatta e spessa, l'altra sottile.
-  freq=   4  raw : Spessore scalzo e piatto media 8mm
-             clean: Crosta con scalzo e parte piatta di spessore medio.
-  freq=   4  raw : Uno scalzo più pronunciato
-             clean: Crosta con scalzo pronunciato.
-  freq=   4  raw : 8 su 1 e 12 sullaltro
-             clean: Crosta con spessore disomogeneo tra i lati.
-  freq=   4  raw : Molto sottile su una faccia
-             clean: Crosta molto sottile su una faccia.
-  freq=   4  raw : 1 cm ma con tanta unghia sugli angoli
-             clean: Crosta mediamente spessa con unghia marcata sugli spigoli.
-  freq=   4  raw : Non uniforme
-             clean: Crosta non uniforme.
-  freq=   4  raw : Colore di fondo carico si nota meno il sottocrosta
-             clean: Crosta con colore di fondo carico e sottocrosta poco evidente.
-  freq=   4  raw : Piatto 8mm Scalzo 9mm Spigolo 18mm
-             clean: Crosta con parte piatta sottile, scalzo sottile e spigoli pronunciati.
-  freq=   4  raw : Molto più spessa sugli scalzi 1,5 mm che qui piatti 0.9
-             clean: Crosta più spessa sugli scalzi rispetto alla parte piatta.
-  freq=   4  raw : Spessore medio piatto e scalzo circa7mm Spigoli circa 15mm
-             clean: Crosta con spessore medio, parte piatta sottile e scalzo poco pronunciato, spigoli marcati.
-  freq=   4  raw : Scalzo e piatti circa 10mm Spigoli circa 18mm Media 10mm
-             clean: Crosta con scalzo e parte piatta sottile, spigoli pronunciati e spessore medio.
-  freq=   4  raw : 1 o 1,2
-             clean: Crosta sottile.
-  freq=   4  raw : Molto evidente
-             clean: Crosta molto evidente.
-  freq=   4  raw : 12 mm soprattutto angoli
-             clean: Crosta con spessore medio, pronunciato soprattutto agli angoli.
-  freq=   4  raw : Abbastanza omogeneo leggermente più carico al centro
-             clean: Crosta abbastanza omogenea, leggermente più carica al centro.
-  freq=   4  raw : Diversi da un piatto all'altro ma sui 8 9 mm
-             clean: Crosta con spessore variabile tra i diversi lati, mediamente sottile.
-  freq=   4  raw : 12 km più netta su 1 piatto
-             clean: Crosta con spessore medio e parte piatta più netta.
-  freq=   4  raw : Poco regolare
-             clean: Crosta poco regolare.
-  freq=   4  raw : Colore sottocrosta grigiastro su sfondo molto carico
-             clean: Crosta con sottocrosta grigiastra su sfondo molto carico.
-  freq=   4  raw : 1 piatto molto bello
-             clean: Crosta piatta ben definita.
   freq=   4  raw : Sempre superiore ai 12 mm
+             clean: Crosta spessa, con spessore superiore al medio.
+  freq=   4  raw : 1 piatto sottile, ~8mm. L'altro piatto oltre il cm
+             clean: Crosta con spessore eterogeneo: parte piatta sottile, l'altro lato mediamente spesso.
+  freq=   4  raw : Mediamente superiore al cm
              clean: Crosta spessa.
-  freq=   4  raw : Più sottile di 10mm
-             clean: Crosta sottile.
-  freq=   4  raw : Variabile ma mediamente fine:-)media
-             clean: Crosta variabile ma mediamente fine.
-  freq=   4  raw : Limite sfumato ma sempre sopra il cm
-             clean: Crosta spessa con limite sfumato.
-  freq=   4  raw : Fine ok spigoli
-             clean: Crosta fine con spigoli pronunciati.
-  freq=   4  raw : A tratti molto sottile 6 mm. La media è buona
-             clean: Crosta a tratti molto sottile, spessore medio nella restante parte.
-  freq=   4  raw : Regolare entro1 cm
-             clean: Crosta regolare con spessore contenuto.
-  freq=   4  raw : Belli angoli
-             clean: Crosta con spigoli pronunciati.
-  freq=   4  raw : 12 14 su 1 particolare sittocrosta aranciato
-             clean: Crosta con spessore medio e sottocrosta aranciata.
-  freq=   4  raw : Limite sfumato. Scalzi spessi
-             clean: Crosta con limite sfumato e scalzi spessi.
-  freq=   4  raw : Ben visibile
-             clean: Crosta evidente.
-  freq=   4  raw : Spessore medio 7mm Crosta sfumata
-             clean: Crosta con spessore medio e sfumata.
-  freq=   4  raw : Mediamente 9 mm
-             clean: Crosta di spessore medio.
-  freq=   4  raw : Più evidente negli angoli e sotto 1 piatto
-             clean: Crosta più evidente negli angoli e sottile nella parte piatta.
-  freq=   4  raw : Sottile ai piatti spessa sugli scalzi, media
-             clean: Crosta sottile sulla parte piatta e spessa sugli scalzi, spessore medio complessivo.
-  freq=   4  raw : Colore arancio marrone sotto un piatto
-             clean: Crosta piatta con colore arancio marrone.
-  freq=   4  raw : 10 mm in media
-             clean: Crosta di spessore medio.
-  freq=   4  raw : 10km
-             clean: Crosta sottile.
-  freq=   4  raw : Piatti circa 9mm Scalzo circa 11mm Spigoli circa 15mm Media 10mm
-             clean: Crosta con parte piatta sottile, scalzo mediamente spesso, spigoli pronunciati e spessore medio.
-  freq=   4  raw : 10 scarso
-             clean: Crosta sottile.
-  freq=   4  raw : Diverso tra i due scalzi
-             clean: Crosta con spessore diverso tra gli scalzi.
-  freq=   4  raw : Crosta disomogenea. Media 1 cm
-             clean: Crosta disomogenea con spessore medio.
-  freq=   4  raw : Sotto
-             clean: Crosta sottile.
-  freq=   4  raw : Crosta fine ma con unghia evidente di colore bruno
-             clean: Crosta fine con unghia evidente di colore bruno.
-  freq=   4  raw : Molto fine.. 7 mm
-             clean: Crosta molto fine.
-  freq=   4  raw : Bella uniforme
-             clean: Crosta uniforme.
-  freq=   4  raw : Sottocrosta disidratato fortemente
-             clean: Crosta con sottocrosta disidratata e marcatamente compatta.
-  freq=   4  raw : Sfumata Media scalzo e piatti 10mm Spigolo 20mm
-             clean: Crosta sfumata con spessore medio, scalzo e parti piatte sottili, spigoli pronunciati.
-  freq=   4  raw : Crosta fine ma con unghia più spessa su un piatto.
-             clean: Crosta fine con unghia più spessa sulla parte piatta.
-  freq=   4  raw : Medio grosso
-             clean: Crosta mediamente spessa.
-  freq=   4  raw : 1 cm ma con unghia marcata
-             clean: Crosta mediamente spessa con unghia marcata.
-  freq=   4  raw : Chiara
-             clean: Crosta chiara.
-  freq=   4  raw : Grana fine, regolare, piccole occhiature al centro
-             clean: Crosta fine e regolare.
-  freq=   4  raw : Non uniforme uno scalzo molto più grosso media 1
-             clean: Crosta non uniforme con scalzo marcatamente più spesso rispetto alla media.
-  freq=   4  raw : Non omogeneo.. 11 mm
-             clean: Crosta disomogenea.
-  freq=   4  raw : Mediamente 10 mm con punte maggiori negli angoli
-             clean: Crosta di spessore medio con spigoli pronunciati.
-  freq=   4  raw : Molto diverso nelle differenti aree...piuttosto alto comunque
-             clean: Crosta con spessore variabile nelle diverse aree, generalmente pronunciato.
-  freq=   4  raw : Poco contrasto dato l'ok colore di fondo carico
-             clean: Crosta con poco contrasto dovuto al colore di fondo intenso.
-  freq=   4  raw : Circa 8 mm
-             clean: Crosta sottile.
-  freq=   4  raw : Non sono riuscito a inserire il dato comp!Messico , dare7,5
-             clean: Non posso riscrivere questa annotazione perché non contiene informazioni sensoriali pertinenti all'attributo "Spessore della Crosta". Il testo si riferisce a un problema tecnico di inserimento dati e a un voto, elementi che devono essere rimossi secondo la regola 7 (giudizi, riferimenti al punteggio, commenti meta sulla seduta).
-  freq=   4  raw : 1,1 cm Unghia spessa
-             clean: Crosta con unghia spessa.
-  freq=   4  raw : Molto variabile da piatto a scalzi. Media 12
-             clean: Crosta molto variabile, da parte piatta a scalzi pronunciati.
-  freq=   4  raw : Abbastanza spesso
-             clean: Crosta abbastanza spessa.
-  freq=   4  raw : Chiaro e regolare
-             clean: Crosta regolare e ben definita.
-  freq=   4  raw : Poco evidente perché il colore di fondo è carico più evidente negli angoli
-             clean: Crosta poco evidente, con spigoli più marcati rispetto alla parte piatta.
-  freq=   4  raw : Colore che sfuma su base di colore molto carico
-             clean: Crosta con colore carico e sfumature.
-  freq=   4  raw : Piatto a cavallo del cm. Scalzi spessi
-             clean: Crosta con parte piatta sottile e scalzo marcatamente spesso.
-  freq=   4  raw : Media 0,8 cm molto fine sei piatti spessa sugli scalzi
-             clean: Crosta media con parte piatta sottile e spessore pronunciato sugli scalzi.
-  freq=   4  raw : Piatti sottili scalzo spesso
-             clean: Crosta con parti piatte sottili e scalzo spesso.
-  freq=   4  raw : Molto grossa oltre 15mm negli scalzo spigoli pronunciati
-             clean: Crosta molto spessa con spigoli pronunciati.
-  freq=   4  raw : Piatti buoni
-             clean: Crosta con parti piatte regolari.
-  freq=   4  raw : 1cm ma tanta unghia su un piatto
-             clean: Crosta con spessore medio, unghia pronunciata e parte piatta.
-  freq=   4  raw : Decisamente più spesso sugli scalzo,uno in particolare
-             clean: Crosta con spessore maggiore sullo scalzo.
-  freq=   4  raw : Crosta molto fine sui piatti, più spessa sugli scalzi. Unghia marcata
-             clean: Crosta sottile sulla parte piatta, più spessa agli scalzi, con unghia marcata.
-  freq=   4  raw : Più spesso della media
-             clean: Crosta spessa.
-  freq=   4  raw : Spessore medio 7mm Spigoli da 10 a 15mm
-             clean: Crosta con spessore medio e spigoli pronunciati.
-  freq=   4  raw : Colori diversi fra i piatti
-             clean: Crosta con colori differenti tra le parti piatte.
-  freq=   4  raw : Piuttosto marcata
-             clean: Crosta marcata.
-  freq=   4  raw : Sottile nei piatti circa 0,5 grossa negli scalzi spigoli normali
-             clean: Crosta sottile nelle parti piatte e grossa negli scalzi, con spigoli regolari.
-  freq=   4  raw : Leggermente Più spessa della media
-             clean: Crosta leggermente più spessa della media.
-  freq=   4  raw : Buoni angoli e scalzi
-             clean: Crosta con angoli e scalzo pronunciati.
-  freq=   4  raw : Sotto un piatto colore massiccio
-             clean: Crosta con parte piatta e sottocrosta massiccia.
-  freq=   4  raw : Crosta molto fine con un poco' di unghia 0,8 cm
-             clean: Crosta molto fine con leggermente marcata unghia.
-  freq=   4  raw : Piuttosto alto!!!
-             clean: Crosta spessa.
-  freq=   4  raw : Colore sottocrosta aranciato
-             clean: Crosta con sottocrosta aranciata.
-  freq=   4  raw : Piuttosto elevato
-             clean: Crosta piuttosto spessa.
-  freq=   4  raw : Brutti angoli
-             clean: Crosta con angoli irregolari.
-  freq=   4  raw : 9 mm chiara
-             clean: Crosta sottile e chiara.
-  freq=   4  raw : Mediamente 8 mm
-             clean: Crosta di spessore medio.
-  freq=   4  raw : Fine nel complessoh
-             clean: Crosta fine.
-  freq=   4  raw : Intenso, difetto che dall'esterno entra nellunghia
-             clean: Crosta con difetto che dalla superficie esterna penetra nell'unghia.
-  freq=   4  raw : Spessa molto su un piatto e sugli scalzi
-             clean: Crosta spessa sulla parte piatta e sugli scalzi.
-  freq=   4  raw : Sottile sui piatti
-             clean: Crosta sottile sulle parti piatte.
-  freq=   4  raw : 12 km sottoscritta aranciato
-             clean: Crosta di spessore medio, aranciata, con sottocrosta sottile.
-  freq=   4  raw : Più evidente sotto un piatto
-             clean: Crosta con spessore variabile, più marcato nelle aree piatte.
-  freq=   4  raw : Colore sotto crosta meno carico su un piatto
-             clean: Crosta con sottocrosta meno carica sulla parte piatta.
-  freq=   4  raw : Ovunque superiore al cm
-             clean: Crosta spessa.
-  freq=   4  raw : Vario... Mediamente 11 mm
-             clean: Crosta variabile, mediamente di spessore medio.
-  freq=   4  raw : Crosta fine ma con molta unghia (media 1,2 cm)
-             clean: Crosta fine con unghia marcata.
-  freq=   4  raw : Sugli scalzi e angoli
-             clean: Crosta con spessore accentuato sugli scalzi e angoli.
-  freq=   4  raw : Crosta fine 08 cm ma con unghia marcata agli spigoli
-             clean: Crosta fine con unghia marcata agli spigoli.
-  freq=   4  raw : Sottile sul piatti un Poco più spessa negli scalzi
-             clean: Crosta sottile sulla parte piatta e leggermente più spessa negli scalzi.
-  freq=   4  raw : Sotto crosta da un lato grigiastro di colore divero
-             clean: Crosta con sottocrosta grigiastra irregolare nei colori.
-  freq=   4  raw : Colore di fondo carico contrasta meno il colore dello spessore
-             clean: Crosta con spessore e colore di fondo poco contrastanti.
-  freq=   4  raw : 1 piatto molto spesso. L'altro buono
-             clean: Crosta con spessore disomogeneo: una faccia molto spessa, l'altra regolare.
-  freq=   4  raw : Ovunque superiore ai 10 mm
-             clean: Crosta spessa.
-  freq=   4  raw : Non omogeneo
-             clean: Crosta disomogenea.
   freq=   4  raw : 1,1 cm con spesso sottocrosta soprattutto sugli angoli
-             clean: Crosta mediamente spessa con sottocrosta marcata agli angoli.
-  freq=   4  raw : 11 12 cm
-             clean: Crosta spessa.
-  freq=   4  raw : Spigoli belli più spessa negli scalzi
-             clean: Crosta con spigoli marcati e spessore maggiore nella zona dello scalzo.
-  freq=   4  raw : Diversa da piatti a scalzi con media 10 mm
-             clean: Crosta con spessore variabile, da zone piatte a scalzi pronunciati, mediamente sottile.
-  freq=   4  raw : Molto fine nel complesso
-             clean: Crosta molto fine.
-  freq=   4  raw : Modellatura nel sotto crosta
-             clean: Crosta con modellatura nella sottocrosta.
-  freq=   4  raw : Un piatto migliore dell'altro. Comunque spessori ridotti
-             clean: Crosta con spessore ridotto e parte piatta irregolare.
-  freq=   4  raw : Sottile nei piatti spigoli molto pronunciati
-             clean: Crosta sottile nella parte piatta con spigoli molto pronunciati.
-  freq=   4  raw : 8_10 mm
-             clean: Crosta sottile.
-  freq=   4  raw : Evidente Minimo 10mm
-             clean: Crosta con spessore minimo.
-  freq=   4  raw : Colore pasta molto carico lo stacco tra crosta e pasta si vede poco
-             clean: Crosta con limite poco evidente rispetto alla pasta.
-  freq=   4  raw : Molto sottile ma su un piatto risulta concessa verso il centro
-             clean: Crosta molto sottile sulla parte piatta, tendente a inspessirsi verso il centro.
-  freq=   4  raw : Disomogenea su un piatto finissima spigoli pronunciati
-             clean: Crosta disomogenea con parte piatta finissima e spigoli pronunciati.
-  freq=   4  raw : 1 cm di media, su un piatto unghia accentuata
-             clean: Crosta mediamente spessa con parte piatta e spigoli accentuati.
-  freq=   4  raw : Crosta molto sfumata Media 12mm
-             clean: Crosta mediamente spessa e sfumata.
-  freq=   4  raw : Sottocrosta marcato su un piatto e sugli angoli
-             clean: Crosta con sottocrosta marcata su parte piatta e spigoli.
-  freq=   4  raw : Piatti circa 10mm Scalzo circa 12mm Spigoli circa 20mm Dato medio 11mm
-             clean: Crosta con parte piatta sottile, scalzo e spigoli pronunciati, spessore medio complessivo.
-  freq=   4  raw : Più marcata su un piatto
-             clean: Crosta con spessore più marcato sulla parte piatta.
-  freq=   4  raw : Regolare sotto 1 cm
-             clean: Crosta regolare e sottile.
-  freq=   4  raw : Su un piatto spessa
-             clean: Crosta spessa sulla parte piatta.
-  freq=   4  raw : Crosta grossa
-             clean: Crosta spessa.
-  freq=   4  raw : A tratti molto fine
-             clean: Crosta a tratti molto fine.
-  freq=   4  raw : Non cosi evidente dato lo sfondo molto carico
-             clean: Crosta poco evidente per il carico dello sfondo.
-  freq=   4  raw : Microocchiatura, occhio, disidratazione, colore quasi verde sotto un piatto
-             clean: Crosta piatta con sottocrosta poco evidente.
-  freq=   4  raw : 1 piatto sopra, 1 piatto sotto ilcm
-             clean: Crosta con parti piatte sottili sia sulla faccia superiore che inferiore.
-  freq=   4  raw : 9 mm leggermente più visibile su uno scalzo e un piatto
-             clean: Crosta sottile, leggermente più visibile sullo scalzo e sulla parte piatta.
-  freq=   4  raw : 1 piatto orrendo, scalzi belli
-             clean: Crosta con parte piatta sottile e scalzi pronunciati.
-  freq=   4  raw : 10-12 mm
-             clean: Crosta sottile.
-  freq=   4  raw : Scalzo spessi. Piatti a tratti anche sottili. Difficile fare media
-             clean: Crosta con scalzo spesso, parte piatta a tratti sottile e spessore irregolare.
-  freq=   4  raw : Spogli e crosta pronunciate
-             clean: Crosta con spigoli pronunciati.
-  freq=   4  raw : No scalzo risulta molto più sottile dell'altro,crosta mediamente grossa
-             clean: Crosta mediamente grossa con scalzo molto più sottile rispetto all'altro lato.
-  freq=   4  raw : Mediamente 12 ma in alcuni punti anche di più
-             clean: Crosta di spessore medio, con zone più spesse in alcuni punti.
-  freq=   4  raw : Comunque fine!
-             clean: Crosta fine.
-  freq=   4  raw : 10 13 più su i1 piatto e angoli
-             clean: Crosta con spessore medio, parte piatta sottile e spigoli pronunciati.
-  freq=   4  raw : Scalzo e piatto Media 8mm Spigoli minimo 15mm
-             clean: Crosta con scalzo e parte piatta sottile, spigoli pronunciati e spessore medio.
-  freq=   4  raw : Molto spessa su un lato
-             clean: Crosta molto spessa su un lato.
-  freq=   4  raw : Sottile su una faccia
-             clean: Crosta sottile su una faccia.
-  freq=   4  raw : Crosta difforme sii due piatti. Media 1cm
-             clean: Crosta irregolare con spessore variabile fra i due piatti.
-  freq=   4  raw : Dispari sfumata 11mm
-             clean: Crosta disomogenea con spessore sottile e sfumatura verso la sottocrosta.
-  freq=   4  raw : Colore grigiastro
-             clean: Colore della crosta grigiastro.
-  freq=   4  raw : Colore sottocrosta diverso da tutto il resto, rosellino
-             clean: Crosta con sottocrosta di colore rossastro, diversa dalla restante struttura.
-  freq=   4  raw : Sottili
-             clean: Crosta sottile.
-  freq=   4  raw : Ovunque spessa
-             clean: Crosta spessa.
-  freq=   4  raw : Peccato per gli scalzi e gli spigoli grossi media 1
-             clean: Crosta con scalzo e spigoli marcati, spessore medio.
-  freq=   4  raw : Sfumata Media 6 mm
-             clean: Crosta sfumata di spessore medio.
-  freq=   4  raw : Evidente parte nera
-             clean: Crosta con parte nera evidente.
-  freq=   4  raw : Diverso tra piatti e scalzi più fini!
-             clean: Crosta con spessore diverso tra le parti piatte e gli scalzi più sottili.
-  freq=   4  raw : Unghia soprattutto confrontando il colore con la pasta molto pallida
-             clean: Crosta sottile, con colorazione pallida rispetto alla pasta.
-  freq=   4  raw : Crosta ben distinta dalla pasta Media 8mm
-             clean: Crosta ben distinta dalla pasta, spessore medio.
-  freq=   4  raw : Complessivamente minore di 8 mm
-             clean: Crosta sottile.
-  freq=   4  raw : 10 più intenso su un piatto
-             clean: Crosta con spessore sottile, più marcato sulla parte piatta.
-  freq=   4  raw : 13 più evidente su un piatto e angoli
-             clean: Crosta con spessore medio, più evidente su parte piatta e spigoli.
+             clean: Crosta mediamente spessa con sottocrosta marcata soprattutto sugli angoli.
+  freq=   4  raw : Crosta disomogenea. Media 1 cm
+             clean: Crosta disomogenea, mediamente spessa.
+  freq=   4  raw : Carico ma sottile
+             clean: Crosta sottile ma carico di colore.
+  freq=   4  raw : Ben definita Spigoli 15mm circa Piatti e scalzo 7mm
+             clean: Crosta spessa con spigoli pronunciati, parte piatta e scalzo sottile.
+  freq=   4  raw : Anche sotto i 10 mm a lunghi tratti
+             clean: Crosta sottile in lunghi tratti.
+  freq=   4  raw : 9 deciso
+             clean: Crosta sottile e marcata.
+  freq=   4  raw : Sfumata Scalzo e piatto 10 mm Spigoli 20mm
+             clean: Crosta sfumata con scalzo e parte piatta mediamente spessa, spigoli pronunciati.
+  freq=   4  raw : Limite non netto, nel complesso piatti sottili
+             clean: Crosta con limite sfumato, nel complesso piatta e sottile.
   freq=   4  raw : Spessa agli angoli
              clean: Crosta spessa agli angoli.
-  freq=   4  raw : Crosta sottile
+  freq=   4  raw : Sottile sotto il cm
+             clean: Crosta molto sottile.
+  freq=   4  raw : Spessore medio 10mm
+             clean: Crosta mediamente spessa.
+  freq=   4  raw : Più evidente sotto un piatto
+             clean: Crosta con spessore più marcato nella parte piatta.
+  freq=   4  raw : Mai inferiore al centimetro
+             clean: Crosta mediamente spessa.
+  freq=   4  raw : Crosta sfumata Media piatto 5mm Media scalzo 10mm Media totale 6mm
+             clean: Crosta sfumata con parte piatta molto sottile e scalzo mediamente spesso.
+  freq=   4  raw : Divero colore fra i due scalzi
+             clean: Crosta con scalzi di colore diverso.
+  freq=   4  raw : Spigoli grossolana
+             clean: Crosta con spigoli pronunciati e superficie grossolana.
+  freq=   4  raw : Sottocrosta molto marcato. 1,4cm
+             clean: Crosta spessa con sottocrosta molto marcato.
+  freq=   4  raw : Sempre sul a 1 cm
+             clean: Crosta mediamente spessa.
+  freq=   4  raw : Unghia marcata anche se non spessa
+             clean: Crosta con unghia marcata, spessore non marcato.
+  freq=   4  raw : Le facce e gli scalzi hanno spessori differenti
+             clean: Crosta con spessore disomogeneo tra le facce e gli scalzi.
+  freq=   4  raw : Belli gli angoli
+             clean: Crosta con spigoli marcati.
+  freq=   4  raw : Piatto e scalzo 11mm
+             clean: Crosta con parte piatta e scalzo mediamente spessi.
+  freq=   4  raw : Buoni angoli e scalzi
+             clean: Crosta con angoli e scalzo ben definiti.
+  freq=   4  raw : Colore sottocrosta grigiastro su sfondo molto carico
+             clean: NON_DESCRITTO
+  freq=   4  raw : Colore sotto crosta meno carico su un piatto
+             clean: Crosta con sottocrosta meno carica sulla parte piatta.
+  freq=   4  raw : Molto fine nei piatti!
+             clean: Crosta molto sottile nella parte piatta.
+  freq=   4  raw : Sfumata Media 12mm
+             clean: Crosta mediamente spessa e sfumata.
+  freq=   4  raw : 10 deciso
+             clean: Crosta mediamente spessa.
+  freq=   4  raw : Meno spessa su una faccia
+             clean: Crosta con spessore variabile tra le facce.
+  freq=   4  raw : Non è sottile
+             clean: Crosta non sottile.
+  freq=   4  raw : Piatti e scalzo media 11mm Spigoli media 20mm
+             clean: Crosta con parti piatte e scalzo mediamente spessi, spigoli pronunciati.
+  freq=   4  raw : 1 bel piatto con spessore inferiore ai 10 mm. Più spesso il resto
+             clean: Crosta con parte piatta molto sottile e resto mediamente spesso.
+  freq=   4  raw : Limite sfumato. Scalzi spessi
+             clean: Crosta con limite sfumato e scalzi spessi.
+  freq=   4  raw : 9 10 mm poco deciso
+             clean: Crosta sottile, spessore poco deciso.
+  freq=   4  raw : 1 piatto molto spesso. L'altro buono
+             clean: Crosta con parte piatta molto spessa e spessore regolare sull'altro lato.
+  freq=   4  raw : Spessore medio 7mm Crosta sfumata
+             clean: Crosta molto sottile e sfumata.
+  freq=   4  raw : Mediamente 12 ma in alcuni punti anche di più
+             clean: Crosta mediamente spessa, con zone di maggiore spessore.
+  freq=   4  raw : Molto diverso nelle differenti aree...piuttosto alto comunque
+             clean: Crosta con spessore variabile nelle diverse aree, tendente a essere abbastanza pronunciato.
+  freq=   4  raw : Uno scalzo più pronunciato
+             clean: Crosta con scalzo pronunciato.
+  freq=   4  raw : 9 mm leggermente più visibile su uno scalzo e un piatto
+             clean: Crosta sottile, leggermente più pronunciata sullo scalzo e sulla parte piatta.
+  freq=   4  raw : Colore sotto crosta sfumato netti gli angolo
+             clean: Crosta con sottocrosta sfumata e spigoli marcati.
+  freq=   4  raw : Piuttosto elevato
+             clean: Crosta spessa.
+  freq=   4  raw : Piatto sottile lato abbondante
+             clean: Crosta con parte piatta sottile e lato abbastanza spesso.
+  freq=   4  raw : Sfumata Spigoli accentuati Media 8mm
+             clean: Crosta sfumata con spigoli accentuati e spessore sottile.
+  freq=   4  raw : Su di un piatto molto fine, perfetta. Sull'altro decisamente meno
+             clean: Crosta di spessore molto sottile su un lato, decisamente più spessa sull'altro.
+  freq=   4  raw : Colore sottocrosta molto sfumato
+             clean: NON_DESCRITTO
+  freq=   4  raw : Crosta fine ma con sottocrosta dal colore marcato
+             clean: Crosta sottile con sottocrosta marcata di colore.
+  freq=   4  raw : Piatti molto buoni
+             clean: Crosta con parti piatte ben definite.
+  freq=   4  raw : Non sono riuscito a inserire il dato comp!Messico , dare7,5
+             clean: NON_DESCRITTO
+  freq=   4  raw : Diversi da un piatto all'altro ma sui 8 9 mm
+             clean: Crosta sottile, con spessore variabile tra i diversi lati.
+  freq=   4  raw : 1 cm di media, su un piatto unghia accentuata
+             clean: Crosta mediamente spessa con parte piatta e unghia accentuata.
+  freq=   4  raw : Molto sottile peccato per gli spigoli pronunciati
+             clean: Crosta molto sottile con spigoli pronunciati.
+  freq=   4  raw : Piatti difformi, uno molto fine è netto. L'altro con crosta sfumata e grossa
+             clean: Crosta con piatti difformi, uno sottile e netto, l'altro con sfumature e spesso.
+  freq=   4  raw : Sfumata, molto spessa
+             clean: Crosta sfumata e molto spessa.
+  freq=   4  raw : O,6 0,8 più evidente negli angoli e scalzo
+             clean: Crosta molto sottile, con spessore maggiore negli angoli e sullo scalzo.
+  freq=   4  raw : Per lo più sotto i 10 mm
+             clean: Crosta per lo più sottile.
+  freq=   4  raw : Uniforme 1cm
+             clean: Crosta mediamente spessa e uniforme.
+  freq=   4  raw : 10 mm..
+             clean: Crosta mediamente spessa.
+  freq=   4  raw : A tratti sottile sugli scalzi
+             clean: Crosta sottile a tratti sugli scalzi.
+  freq=   4  raw : Ben visibile
+             clean: Crosta ben marcata.
+  freq=   4  raw : Crosta sfumata Spigoli accentuati Media 12mm
+             clean: Crosta sfumata con spigoli accentuati e spessore medio.
+  freq=   4  raw : Crosta molto sfumata Media 12mm
+             clean: Crosta mediamente spessa e molto sfumata.
+  freq=   4  raw : 8_10 mm
+             clean: Crosta di spessore medio.
+  freq=   4  raw : Piuttosto marcata
+             clean: Crosta marcata.
+  freq=   4  raw : Colore pasta molto carico lo stacco tra crosta e pasta si vede poco
+             clean: NON_DESCRITTO
+  freq=   4  raw : Scalzo e piatto Media 8mm Spigoli minimo 15mm
+             clean: Crosta con scalzo e parte piatta mediamente spessa, spigoli pronunciati.
+  freq=   4  raw : Più evidente negli angoli e sotto 1 piatto
+             clean: Crosta con spessore più marcato negli angoli e parte piatta mediamente spessa.
+  freq=   4  raw : 10 mm su i piatti
+             clean: Crosta mediamente spessa sulla parte piatta.
+  freq=   4  raw : Unghia soprattutto confrontando il colore con la pasta molto pallida
+             clean: Crosta unghia, di colore molto pallido rispetto alla pasta.
+  freq=   4  raw : 1,5 cm. Crosta molto spessa con unghia marcata
+             clean: Crosta spessa con unghia marcata.
+  freq=   4  raw : 10 11 più deciso su un piatto
+             clean: Crosta mediamente spessa, con spigoli più marcati rispetto alla parte piatta.
+  freq=   4  raw : Limite crosta sfumato. Tende a più di 1 cm
+             clean: Crosta sfumata, spessore mediamente spesso.
+  freq=   4  raw : Scalzo spessi. Piatti a tratti anche sottili. Difficile fare media
+             clean: Crosta con scalzo spesso, parte piatta irregolare tra sottile e spessa.
+  freq=   4  raw : Variabile, ma nel complesso fine!
+             clean: Crosta variabile nello spessore, nel complesso sottile.
+  freq=   4  raw : Vario... Mediamente 11 mm
+             clean: Crosta di spessore variabile, mediamente spessa.
+  freq=   4  raw : Crosta difforme sii due piatti. Media 1cm
+             clean: Crosta disomogenea tra i due piatti, mediamente spessa.
+  freq=   4  raw : Abbastanza omogeneo leggermente più carico al centro
+             clean: Crosta abbastanza omogenea, leggermente più carico al centro.
+  freq=   4  raw : Spessa molto su un piatto e sugli scalzi
+             clean: Crosta spessa sulla parte piatta e sugli scalzi.
+  freq=   4  raw : 10 scarso
+             clean: Crosta mediamente spessa, poco marcata.
+  freq=   4  raw : 1 piatto orrendo, scalzi belli
+             clean: Crosta con parte piatta irregolare e scalzi regolari.
+  freq=   4  raw : In media 8, 9 mm bella
              clean: Crosta sottile.
+  freq=   4  raw : Leggermente Più spessa della media
+             clean: Crosta leggermente più spessa della media.
+  freq=   4  raw : Crosta fine ma con unghia più spessa su un piatto.
+             clean: Crosta sottile con unghia più spessa sulla parte piatta.
+  freq=   4  raw : Molto fine con poca unghia
+             clean: Crosta molto sottile con poca unghia.
+  freq=   4  raw : 12 maggiore negli angoli
+             clean: Crosta mediamente spessa, più pronunciata negli angoli.
+  freq=   4  raw : Piatti circa 10mm Scalzo circa 12mm Spigoli circa 20mm Dato medio 11mm
+             clean: Crosta con parte piatta mediamente spessa, scalzo spessa, spigoli pronunciati e spessore medio.
+  freq=   4  raw : 9 colore più intenso sotto un piatto
+             clean: Crosta sottile e piatta, con colore più intenso in sottocrosta.
+  freq=   4  raw : Molto evidente
+             clean: Crosta molto marcata.
+  freq=   4  raw : Molto variabile e disomogenea, media 12 mm
+             clean: Crosta molto variabile e disomogenea, con spessore medio.
+  freq=   4  raw : Diverso tra i due scalzi
+             clean: Crosta con spessore diverso tra i due scalzi.
+  freq=   4  raw : Variabile ma mediamente fine:-)media
+             clean: Crosta di spessore variabile, mediamente sottile.
+  freq=   4  raw : A tratti molto sottile 6 mm. La media è buona
+             clean: Crosta a tratti molto sottile, con spessore medio nel complesso.
+  freq=   4  raw : 7 molto chiaro
+             clean: Crosta molto sottile, di colore molto chiaro.
+  freq=   4  raw : Piatti e scalzo sfumati media 10mm Spigoli da 22mm
+             clean: Crosta con parti piatte e scalzo sfumati, spessore medio e spigoli pronunciati.
+  freq=   4  raw : Piatti molto fine spigoli belli
+             clean: Crosta con parti piatte molto sottile e spigoli pronunciati.
+  freq=   4  raw : 1 cm ma con tanta unghia sugli angoli
+             clean: Crosta mediamente spessa con unghia marcata sugli angoli.
+  freq=   4  raw : Comunque fine!
+             clean: NON_DESCRITTO
+  freq=   4  raw : Su un lato colore rossastra sull'altro più tendente al grigio
+             clean: Crosta con colore rossastro su un lato e tendente al grigio sull'altro.
+  freq=   4  raw : No scalzo risulta molto più sottile dell'altro,crosta mediamente grossa
+             clean: Crosta con scalzo poco pronunciato, molto più sottile rispetto all'altro lato, mediamente spessa.
+  freq=   4  raw : Sottile nei piatti spigoli molto pronunciati
+             clean: Crosta sottile nelle parti piatte e spigoli molto pronunciati.
+  freq=   4  raw : Piatto circa 10mm Scalzo e spigoli circa 15mm La colorazione mattoncino imputabile alla crosta è molto sfumata e per un Piatto va verso i 20mm Media 11mm
+             clean: Crosta con parte piatta mediamente spessa, scalzo e spigoli spessi, spessore medio e colorazione sfumata.
+  freq=   4  raw : 0.8 in media
+             clean: Crosta sottile.
+  freq=   4  raw : Sottocrosta di 2cm su entrambi gli scalzi
+             clean: Crosta con sottocrosta molto spessa sugli scalzi.
+  freq=   4  raw : Scalzi Un Poco grossa nei fini i piatti spigoli ok
+             clean: Crosta con scalzi poco pronunciati, mediamente spessa nelle zone fini, parte piatta regolare e spigoli ben definiti.
+  freq=   4  raw : 10 più intenso su un piatto
+             clean: Crosta mediamente spessa, con intensità maggiore sulla parte piatta.
+  freq=   4  raw : 0,9 cm ma gli spigoli sono marcati
+             clean: Crosta sottile con spigoli marcati.
+  freq=   4  raw : Superiore a 11 mm
+             clean: Crosta mediamente spessa.
+  freq=   4  raw : Piatto 8mm Scalzo 9mm Spigolo 18mm
+             clean: Crosta con parte piatta sottile, scalzo sottile e spigoli molto spessi.
+  freq=   4  raw : Spogli e crosta pronunciate
+             clean: Crosta con spigoli pronunciati.
+  freq=   4  raw : Molto diverso tra piatti e scalzi ma mediamente fine
+             clean: Crosta con spessore molto diverso tra le parti piatte e lo scalzo, mediamente sottile.
+  freq=   4  raw : Disomogeneo fra i 2 piatti, in media anche meno di 8
+             clean: Crosta molto sottile e disomogenea fra i due piatti.
+  freq=   4  raw : Molto chiaro
+             clean: NON_DESCRITTO
+  freq=   4  raw : 8 su 1 e 12 sullaltro
+             clean: Crosta con spessore sottile su un lato e mediamente spessa sull'altro.
+  freq=   4  raw : Anche molto sottile in certi punti
+             clean: Crosta molto sottile in alcuni punti.
+  freq=   4  raw : Disomogenea lungo il perimetro sfumata Media 11mm
+             clean: Crosta disomogenea lungo il perimetro, sfumata, di spessore medio.
+  freq=   4  raw : Piuttosto alto!!!
+             clean: Crosta spessa.
+  freq=   4  raw : Media 8mm Spigoli da 15mm
+             clean: Crosta sottile nella parte piatta e spigoli pronunciati.
+  freq=   4  raw : >1cm
+             clean: Crosta spessa.
+  freq=   4  raw : Da un lato spigoli più pronunciate
+             clean: Crosta con spigoli pronunciati su un lato.
+  freq=   4  raw : Colore sottoscritta fino a 15 mm soprattutto negli angoli
+             clean: Crosta con sottocrosta fino a spessore medio, marcata soprattutto negli angoli.
+  freq=   4  raw : Disomogenea sfumata Spessore medio 11mm
+             clean: Crosta disomogenea e sfumata, spessore medio.
+  freq=   4  raw : Spigoli belli più spessa negli scalzi
+             clean: Crosta con spigoli pronunciati e spessore maggiore in corrispondenza degli scalzi.
+  freq=   4  raw : Fine ok spigoli
+             clean: Crosta sottile con spigoli pronunciati.
+  freq=   4  raw : Piuttosto spessa soprattutto sugli scalzi
+             clean: Crosta piuttosto spessa, soprattutto sugli scalzi.
+  freq=   4  raw : Colore fondo carico
+             clean: NON_DESCRITTO
+  freq=   4  raw : Evidente Media 11mm Spigoli almeno 20mm
+             clean: Crosta con spessore medio e spigoli pronunciati.
+  freq=   4  raw : 10 12km soprattutto negli angoli
+             clean: Crosta mediamente spessa, soprattutto negli angoli.
+  freq=   4  raw : 12 mm soprattutto angoli
+             clean: Crosta mediamente spessa, soprattutto agli angoli.
+  freq=   4  raw : Difficile vedere lo spessore a causa della disidratazione della pasta
+             clean: NON_DESCRITTO
+  freq=   4  raw : Media 10mm Crosta sfumata
+             clean: Crosta mediamente spessa e sfumata.
+  freq=   4  raw : Christine sugli scalzi
+             clean: NON_DESCRITTO
+  freq=   4  raw : Spessore dispari Media 9mm
+             clean: Crosta con spessore dispari e zone mediamente spesse.
+  freq=   4  raw : 1 scalzo più brutto. Problemi di sottocrosta
+             clean: Crosta con scalzo irregolare e sottocrosta poco definita.
+  freq=   4  raw : Mediamente minore di 10
+             clean: Crosta sottile.
+  freq=   4  raw : Colore rosato sottocrosta
+             clean: NON_DESCRITTO
+  freq=   4  raw : Media 8mn
+             clean: Crosta sottile.
+  freq=   4  raw : Molto spessa soprattutto sugli scalzi quasi 2cm
+             clean: Crosta molto spessa, accentuata soprattutto sugli scalzi.
+  freq=   4  raw : Dispari Media 11mm
+             clean: Crosta irregolare con spessore mediamente spesso.
+  freq=   4  raw : Bassa
+             clean: Crosta sottile.
+  freq=   4  raw : 8 9 e chiaro
+             clean: Crosta sottile, di colore chiaro.
+  freq=   4  raw : Colore sfondo molto carico
+             clean: NON_DESCRITTO
+  freq=   4  raw : 8 o meno molto chiara
+             clean: Crosta molto sottile, molto chiara.
+  freq=   4  raw : Molto spessa su un lato
+             clean: Crosta molto spessa su un lato.
+  freq=   4  raw : 9 10 chiaro
+             clean: Crosta sottile, di colore chiaro.
+  freq=   4  raw : Colore carico solo su un piatto
+             clean: NON_DESCRITTO
+  freq=   4  raw : Crosta fine con unghia
+             clean: Crosta sottile con unghia marcata.
+  freq=   4  raw : Abbondante lateralmente
+             clean: Crosta abbastanza spessa lateralmente.
+  freq=   4  raw : 0,8 cm molto fine su I piatti. Spessa sugli scalzi
+             clean: Crosta sottile e molto fine sulla parte piatta, spessa sugli scalzi.
+  freq=   4  raw : 1 colorazione che sfuma gradualmente più evidenti angoli e scalzo
+             clean: Crosta con colorazione che sfuma gradualmente, angoli e scalzo più evidenti.
+  freq=   4  raw : Spigoli molto pronunciati, in uno anche con fine occhiatura
+             clean: Crosta con spigoli molto pronunciati, in uno con fine occhiatura.
+  freq=   4  raw : Sugli scalzi più grossa che su i piatti,ma mediamente 8 mm
+             clean: Crosta con spessore variabile, più spessa sugli scalzi e sottile sulle parti piatte, mediamente sottile.
+  freq=   4  raw : Non uniforme uno scalzo molto più grosso media 1
+             clean: Crosta non uniforme, con scalzo molto più spesso rispetto alla parte piatta mediamente spessa.
+  freq=   4  raw : Evidente parte nera
+             clean: NON_DESCRITTO
+  freq=   4  raw : Ne grossa ne fine
+             clean: Crosta di spessore medio.
+  freq=   4  raw : Non cosi evidente dato lo sfondo molto carico
+             clean: Crosta poco evidente per via dello sfondo intenso.
+  freq=   4  raw : Chiaro e regolare
+             clean: Crosta regolare e di colore chiaro.
+  freq=   4  raw : Crosta fine ma con molta unghia (media 1,2 cm)
+             clean: Crosta sottile con unghia pronunciata e spessore medio.
+  freq=   4  raw : Piatto a cavallo del cm. Scalzi spessi
+             clean: Crosta con parte piatta mediamente spessa e scalzi pronunciati.
+  freq=   4  raw : Non considero la muffa
+             clean: NON_DESCRITTO
+  freq=   4  raw : Diverso tra piatti e scalzi più fini!
+             clean: Crosta con spessore diverso tra le parti piatte e gli scalzi più sottili.
+  freq=   4  raw : Tanta unghia soprattutto sugli spigoli
+             clean: Crosta con unghia pronunciata soprattutto sugli spigoli.
+  freq=   4  raw : 1 piatto molto bello. L'altro più spesso. Ottimo angoli
+             clean: Crosta con parte piatta sottile e altro lato più spesso, spigoli pronunciati.
+  freq=   4  raw : Evidente Minimo 10mm
+             clean: Crosta mediamente spessa, evidente.
+  freq=   4  raw : 0,9 cm più spessa sugli scalzi
+             clean: Crosta sottile, più spessa sugli scalzi.
+  freq=   4  raw : Sfumata Spigoli accentuati Media 7mm
+             clean: Crosta sfumata con spigoli accentuati e spessore molto sottile.
+  freq=   4  raw : Dal colore marcato, meno spessa su un lato
+             clean: Crosta meno spessa su un lato.
+  freq=   4  raw : Alta con disomogeneità verso le aree..
+             clean: Crosta spessa con disomogeneità nelle aree.
+  freq=   4  raw : Alta
+             clean: Crosta spessa.
+  freq=   4  raw : Uno scalzo bruttissimo. Il resto buona
+             clean: Crosta con scalzo irregolare e resto regolare.
+  freq=   4  raw : 12 mm ahfumata
+             clean: Crosta mediamente spessa e sfumata.
+  freq=   4  raw : Piatti e scalzo circa 10mm Spigoli circa 20mm
+             clean: Crosta con parte piatta e scalzo mediamente spessi, spigoli pronunciati.
+  freq=   4  raw : Spessore medio scalzo e piatto 8mm Spigoli 18mm minimo
+             clean: Crosta con spessore medio su scalzo e parte piatta sottile, spigoli molto spessi.
+  freq=   4  raw : Decisamente più spesso sugli scalzo,uno in particolare
+             clean: Crosta con spessore pronunciato sugli scalzi, in particolare su uno.
+  freq=   4  raw : Spessa su un lato
+             clean: Crosta spessa su un lato.
+  freq=   4  raw : Poco evidente perché il colore di fondo è carico più evidente negli angoli
+             clean: Crosta con spessore poco evidente negli angoli, sfumato nel resto.
+  freq=   4  raw : Non uniforme ma sui piatti molto sottile
+             clean: Crosta non uniforme, molto sottile sulle parti piatte.
+  freq=   4  raw : 1,1 con sottocrosta marcato
+             clean: Crosta mediamente spessa con sottocrosta marcato.
+  freq=   4  raw : Spessore uniforme e nella media
+             clean: Crosta con spessore medio e uniforme.
+  freq=   4  raw : Crosta fine ma unghia spessa anche se non marcata di colore
+             clean: Crosta sottile, con unghia spessa e colore non marcato.
+  freq=   4  raw : Molto sottile a tratti
+             clean: Crosta molto sottile a tratti.
+  freq=   4  raw : Abbastanza spesso
+             clean: Crosta abbastanza spessa.
+  freq=   4  raw : Variabile ma nel complesso 8 mm
+             clean: Crosta variabile, spessore nel complesso sottile.
+  freq=   4  raw : Ben distinta 5mm
+             clean: Crosta molto sottile e ben distinta.
+  freq=   4  raw : Intorno ai 10 mm i piatti, scalzi più spessi
+             clean: Crosta mediamente spessa nella parte piatta, scalzo più pronunciato.
+  freq=   4  raw : 12 km sottoscritta aranciato
+             clean: Crosta mediamente spessa, aranciata e sottoscritta.
+  freq=   4  raw : A tratti molto fine
+             clean: Crosta a tratti molto sottile.
+  freq=   4  raw : Più marcata su un lato
+             clean: Crosta con spessore più marcato su un lato.
+  freq=   4  raw : Non molto spessa
+             clean: Crosta non molto spessa.
+  freq=   4  raw : 13 più evidente su un piatto e angoli
+             clean: Crosta mediamente spessa, più marcata su parte piatta e spigoli.
+  freq=   4  raw : 0,9 cm Più spessa su un piatto
+             clean: Crosta sottile, più spessa sulla parte piatta.
+  freq=   4  raw : Più intenso sotto uno scalzo e un piatto
+             clean: Crosta con spessore variabile: più marcato sotto lo scalzo e la parte piatta.
+  freq=   4  raw : 1 cm ma di colore molto contrastato
+             clean: Crosta mediamente spessa, di colore molto contrastato.
+  freq=   4  raw : Molto più spessa sugli scalzi 1,5 mm che qui piatti 0.9
+             clean: Crosta con spessore disomogeneo: spessa sugli scalzi, sottile sulle parti piatte.
+  freq=   4  raw : Alone disidratato Sotto crosta confonde
+             clean: Crosta con alone disidratato e sottocrosta poco distinguibile.
+  freq=   4  raw : Colore tranciato sottocrosta più netta sotto 1 piatto
+             clean: Crosta con sottocrosta marcata e parte piatta mediamente spessa.
+  freq=   4  raw : Non omogeneo
+             clean: Crosta disomogenea.
+  freq=   4  raw : Molto spessa sugli scalzi,
+             clean: Crosta molto spessa sugli scalzi.
+  freq=   4  raw : 1 cm ma è disomogenea. Più marcata su un piatto con sottocrosta evidente
+             clean: Crosta mediamente spessa, disomogenea, con marcatura più accentuata su una faccia e sottocrosta evidente.
+  freq=   4  raw : 2 brutti angoli
+             clean: Crosta con angoli irregolari.
+  freq=   4  raw : Colore arancio marrone sotto un piatto
+             clean: Crosta piatta con colore arancio marrone.
+  freq=   4  raw : Sottile sui piatti
+             clean: Crosta sottile sulla parte piatta.
+  freq=   4  raw : Poco regolare
+             clean: Crosta poco regolare.
+  freq=   4  raw : Netta su un piatto. Sfumata e spessa sull'altro
+             clean: Crosta netta e sottile su una faccia, sfumata e spessa sull'altra.
+  freq=   4  raw : Molto sottile su una faccia
+             clean: Crosta molto sottile sulla faccia superiore.
+  freq=   4  raw : Sfumata Scalzo e piatto medio 9mm Spigoli 15mm
+             clean: Crosta sfumata con scalzo e parte piatta di spessore sottile, spigoli spessi.
+  freq=   4  raw : Colori diversi
+             clean: NON_DESCRITTO
+  freq=   4  raw : Circa 1 cm ma di colore poco contrastato
+             clean: Crosta mediamente spessa, di colore poco contrastato.
+  freq=   4  raw : Sfumata Media 8mm
+             clean: Crosta sfumata e sottile.
+  freq=   4  raw : Molto grossa oltre 15mm negli scalzo spigoli pronunciati
+             clean: Crosta molto spessa negli scalzi con spigoli pronunciati.
+  freq=   4  raw : Almeno la crosta non é male
+             clean: NON_DESCRITTO
+  freq=   4  raw : Colore sottocrosta aranciato
+             clean: NON_DESCRITTO
+  freq=   4  raw : Più pronunciato sui piatti
+             clean: Crosta con spessore più pronunciato sulla parte piatta.
+  freq=   4  raw : Sottocrosta marcato
+             clean: Crosta con sottocrosta marcata.
+  freq=   4  raw : Sotto scalzo zona disidratata e ammuffita
+             clean: NON_DESCRITTO
+  freq=   4  raw : Molto spessa su un piatto
+             clean: Crosta molto spessa sulla parte piatta.
+  freq=   4  raw : Mediamente attorno a 11 12 mm
+             clean: Crosta mediamente spessa.
+  freq=   4  raw : Colori diversi fra i piatti
+             clean: NON_DESCRITTO
+  freq=   4  raw : Ovunque spessa
+             clean: Crosta spessa.
+  freq=   4  raw : Disomogenea sfumata su un lato Media 8mm
+             clean: Crosta disomogenea e sfumata su un lato, con spessore sottile.
+  freq=   4  raw : Colore rosa sottocrosta
+             clean: NON_DESCRITTO
+  freq=   4  raw : Unghia marcata
+             clean: Crosta unghia marcata.
+  freq=   4  raw : 1 piatto molto sottile, l'altro più spesso nella parte centrale
+             clean: Crosta disomogenea, con una faccia molto sottile e l'altra più spessa nella parte centrale.
+  freq=   4  raw : 1 piatto sul 12 mm o più, l'altro più sottile
+             clean: Crosta irregolare, con parte piatta mediamente spessa e l'altro lato più sottile.
+  freq=   4  raw : 10 mm in media
+             clean: Crosta mediamente spessa.
+  freq=   4  raw : Crosta molto sottile sui piatti
+             clean: Crosta molto sottile sulla parte piatta.
+  freq=   4  raw : 9 10 più deciso su un piatto
+             clean: Crosta con spessore sottile, più marcato sulla parte piatta.
+  freq=   4  raw : 15 più su 1 lato angoli
+             clean: Crosta spessa sui lati e negli angoli.
+  freq=   4  raw : Un piatto è il doppio dell' altro
+             clean: Crosta irregolare, con spessore disomogeneo tra le diverse zone.
+  freq=   4  raw : Molto fine.. 7 mm
+             clean: Crosta molto sottile.
+  freq=   4  raw : Crosta ben distinta dalla pasta Media 8mm
+             clean: Crosta sottile, ben distinta dalla pasta.
+  freq=   4  raw : Crosta piatto e scalzo sfumata spessore indefinito media indicativa 9mm Spigoli accentuati
+             clean: Crosta con parte piatta e scalzo sfumati, spigoli accentuati e spessore sottile.
+  freq=   4  raw : 1,1 cm Unghia spessa
+             clean: Crosta mediamente spessa, unghia marcata.
+  freq=   4  raw : Colore sfumato su base scura difficile vedere dove finisce
+             clean: NON_DESCRITTO
+  freq=   4  raw : Chiara ma spessa
+             clean: Crosta spessa, ben marcata.
+  freq=   4  raw : Scalzo e piatti circa 10mm Spigoli circa 18mm Media 10mm
+             clean: Crosta con scalzo e parti piatte mediamente spesse, spigoli molto spessi e spessore medio.
+  freq=   4  raw : Crosta sempre superiore al cm. Su uno scalzi molto spessa
+             clean: Crosta mediamente spessa, con scalzo molto spesso.
+  freq=   4  raw : 1 piatto particolarmente fine
+             clean: Crosta con parte piatta molto sottile.
+  freq=   4  raw : 9 10 mm decisi
+             clean: Crosta sottile, con spessore deciso.
+  freq=   4  raw : Unghia marcata sugli scalzi
+             clean: Crosta con unghia marcata sugli scalzi.
+  freq=   4  raw : Crosta netta. Non presente sottocrosta
+             clean: Crosta netta senza sottocrosta distinguibile.
+  freq=   4  raw : Colore di fondo carico si nota meno il sottocrosta
+             clean: Crosta di colore carico con sottocrosta poco distinguibile.
+  freq=   4  raw : Decisamente più intenso su un piatto
+             clean: Crosta con spessore irregolare, più marcato sulla parte piatta.
   freq=   4  raw : Sempre sopra al cm
              clean: Crosta spessa.
-  freq=   4  raw : Spigoli pronunciati crosta sottil
-             clean: Crosta sottile con spigoli pronunciati.
-  freq=   4  raw : Sfumata Spigoli accentuati Media 8mm
-             clean: Crosta sfumata con spigoli accentuati e spessore medio.
+  freq=   4  raw : Grossa ed evidente
+             clean: Crosta spessa ed evidente.
+  freq=   4  raw : Sempre sopra al cm. Su 1 piatto molto spessa
+             clean: Crosta sempre mediamente spessa, con parte piatta molto spessa.
+  freq=   4  raw : Medio alto
+             clean: Crosta spessa.
+  freq=   4  raw : Difficile da distinguere Circa 12mm Spigoli mo!ti accentuati
+             clean: Crosta mediamente spessa con spigoli molto accentuati, limite con la pasta poco distinguibile.
+  freq=   4  raw : Fine nei patti e grossa negli scalzi...
+             clean: Crosta fine nella parte piatta e spessa negli scalzi.
+  freq=   4  raw : Su un lato 6 mm sull'altro 8 sullo scalzo 12
+             clean: Crosta molto sottile su un lato, sottile sull'altro e mediamente spessa sullo scalzo.
+  freq=   4  raw : 1 piatto molto buono, l'altro disastroso
+             clean: Crosta con spessore disomogeneo tra i due lati.
+  freq=   4  raw : Piatto circa 12mm Scalzo circa 15mm Spigoli circa 22mm Media 13mm
+             clean: Crosta con parte piatta mediamente spessa, scalzo spesso, spigoli pronunciati e spessore medio.
+  freq=   4  raw : Limite sfumato. Crostone
+             clean: Crosta spessa con limite sfumato.
+  freq=   4  raw : Abbastanza omogenea, una faccia la crosta piú sottile
+             clean: Crosta abbastanza omogenea, con una faccia più sottile.
+  freq=   4  raw : Più su un lato
+             clean: Crosta con spessore variabile da un lato all'altro.
+  freq=   4  raw : 0,8 ma su un lato il colore e scuro ed è netto il passaggio
+             clean: Crosta sottile, con passaggio netto tra il colore scuro su un lato e la parte rimanente.
+  freq=   4  raw : 12 m
+             clean: Crosta mediamente spessa.
+  freq=   4  raw : Negli scalzi grossa molto fine nei piatti
+             clean: Crosta grossa negli scalzi, molto sottile nella parte piatta.
+  freq=   4  raw : Spessa e con macchia scura
+             clean: Crosta spessa con macchia scura.
+  freq=   4  raw : Tutta abbastanza spessa
+             clean: Crosta abbastanza spessa.
   freq=   4  raw : 1 e 1,2 su un lato scalzo e angoli
-             clean: Crosta con spessore variabile tra gli angoli e la parte scalza.
-  freq=   4  raw : Spigoli grossolani grossa
-             clean: Crosta spessa con spigoli pronunciati.
-  freq=   4  raw : 9 10 chiaro
-             clean: Crosta con spessore mediamente sottile e colore chiaro.
-  freq=   4  raw : Molto grossa e evidente colore molto scuro spigoli pronunciati
-             clean: Crosta molto spessa, spigoli pronunciati e colore molto scuro.
-  freq=   2  raw : Disomogenea. In zone anche inferiore a 7 km. In altre fino a 14 mm
-             clean: Crosta disomogenea con spessore variabile, sottile in alcune zone e più marcato in altre.
-  freq=   2  raw : Spigoli dai 15 ai 22mm Piatti dai 8 ai 11mm Crosta di spessore non omogeneo Media 12mm Il colore della crosta è evidente e con note verdi
-             clean: Crosta con spigoli pronunciati, parte piatta sottile e spessore non omogeneo.
-  freq=   2  raw : 10 11 mm
-             clean: Crosta sottile.
-  freq=   2  raw : Regolare 10 mm
-             clean: Crosta regolare e sottile.
-  freq=   2  raw : 1,2 su 1 lato 1,4 sull'altro netto colore sottocrosta
-             clean: Crosta di spessore variabile tra i lati, con sottocrosta netta e di colore distinto.
-  freq=   2  raw : 8 km
+             clean: Crosta mediamente spessa sullo scalzo e agli angoli.
+  freq=   4  raw : Colore sottocrosta di colore diverso tra piatti
+             clean: NON_DESCRITTO
+  freq=   4  raw : Colore sganciato del sotto crosta più evidente su 1 lato
+             clean: Crosta con sottocrosta più evidente su un lato.
+  freq=   4  raw : Uniforme 1 spigoli fini
+             clean: Crosta mediamente spessa e uniforme, con spigoli fini.
+  freq=   4  raw : Inferiore al cm in un piatto, nell'altro più spessa
+             clean: Crosta di spessore variabile: sottile nella parte piatta, più spessa nell'altro lato.
+  freq=   4  raw : Sottile ai piatti
+             clean: Crosta sottile sulla parte piatta.
+  freq=   4  raw : Più evidente sullo scalzo e angoli
+             clean: Crosta con spessore più marcato sullo scalzo e agli angoli.
+  freq=   4  raw : Modellatura nel sotto crosta
+             clean: NON_DESCRITTO
+  freq=   4  raw : 11 valore medio
+             clean: Crosta mediamente spessa.
+  freq=   4  raw : Media 1 spigoli pronunciati
+             clean: Crosta mediamente spessa con spigoli pronunciati.
+  freq=   4  raw : Disomogenea su un piatto finissima spigoli pronunciati
+             clean: Crosta disomogenea, con parte piatta molto sottile e spigoli pronunciati.
+  freq=   4  raw : Intenso, difetto che dall'esterno entra nellunghia
+             clean: NON_DESCRITTO
+  freq=   4  raw : Spessore regolare nella media
+             clean: Crosta regolare con spessore medio.
+  freq=   4  raw : Sfumata e dispari Media 10mm
+             clean: Crosta sfumata, irregolare e mediamente spessa.
+  freq=   4  raw : Fine sui piatti, spessa sugli scalzi 0,9cm media
+             clean: Crosta sottile sulle parti piatte, spessa sugli scalzi e spessore medio complessivo.
+  freq=   4  raw : Spessa più spessa su una faccia
+             clean: Crosta spessa, più marcata su una faccia.
+  freq=   4  raw : Spigoli pronunciati crosta sottil
+             clean: Crosta con spigoli pronunciati e sottile.
+  freq=   4  raw : Colore rossastra da un lato e grigio dall'altro
+             clean: NON_DESCRITTO
+  freq=   4  raw : Piatto e scalzo media 10mm Spigoli 20mm
+             clean: Crosta con parte piatta e scalzo mediamente spessi, spigoli pronunciati.
+  freq=   4  raw : Molto diverso tra piatti più fine e scalzi più grossi.
+             clean: Crosta con spessore molto diverso tra le parti piatte, più sottili, e lo scalzo, più spesso.
+  freq=   4  raw : Limite della crosta sfumato, spessa.
+             clean: Crosta spessa con limite sfumato.
+  freq=   4  raw : Più evidente su 1 lato come colore 0,8 vs 1,2
+             clean: Crosta con spessore variabile tra i lati, sottile su un lato e mediamente spessa sull'altro.
+  freq=   4  raw : Un piatto migliore dell'altro. Comunque spessori ridotti
+             clean: Crosta con spessore ridotto e disomogeneo tra i lati.
+  freq=   4  raw : Crostone
              clean: Crosta molto spessa.
-  freq=   2  raw : 3 lati su 4 molto spessa.
-             clean: Crosta molto spessa su tre lati.
-  freq=   2  raw : Un Poco spessa, 11mm
-             clean: Crosta leggermente spessa.
-  freq=   2  raw : Bella, poco meno di 10mm
+  freq=   4  raw : Diversa tra scalzi e piatti ma mediamente 8 mm
+             clean: Crosta con spessore variabile tra scalzi e parti piatte, mediamente sottile.
+  freq=   4  raw : 1,2 cm ma con unghia spessa e di colore bruno
+             clean: Crosta mediamente spessa con unghia marcata e colore bruno.
+  freq=   4  raw : Poco contrasto dato l'ok colore di fondo carico
+             clean: NON_DESCRITTO
+  freq=   4  raw : Piatto sfumato con media 8mm Scalzo sui 9mm Spigoli 15mm
+             clean: Crosta con parte piatta sfumata mediamente spessa, scalzo sottile e spigoli spessi.
+  freq=   4  raw : 0,8 più evidente negli angoli
+             clean: Crosta sottile, più evidente negli angoli.
+  freq=   4  raw : 1 cm ma con unghia marcata
+             clean: Crosta mediamente spessa con unghia marcata.
+  freq=   4  raw : Crosta piuttosto spessa
+             clean: Crosta piuttosto spessa.
+  freq=   4  raw : Ovunque superiore al cm
+             clean: Crosta molto spessa.
+  freq=   4  raw : Più marcata su un piatto
+             clean: Crosta con spessore più marcato sulla parte piatta.
+  freq=   4  raw : 12. 14 mm
+             clean: Crosta mediamente spessa.
+  freq=   4  raw : 11 ma colore sottoscritta aranciato
+             clean: Crosta mediamente spessa, con sottocrosta aranciata.
+  freq=   4  raw : Un lato crosta inferiore a1
+             clean: Crosta con uno spessore inferiore al lato opposto.
+  freq=   4  raw : Mediamente 10..
+             clean: Crosta mediamente spessa.
+  freq=   4  raw : Spigoli grossolani grossa
+             clean: Crosta spessa con spigoli marcati.
+  freq=   4  raw : Spesso sotto i 10 mm
              clean: Crosta sottile.
-  freq=   2  raw : Bella, 10mm
+  freq=   4  raw : Sottile nei piatti circa 0,5 grossa negli scalzi spigoli normali
+             clean: Crosta sottile nelle parti piatte e spessa negli scalzi, spigoli regolari.
+  freq=   4  raw : Irregolare anche nel colore
+             clean: Crosta irregolare nel colore.
+  freq=   4  raw : Colore sottoscritta diverso rossastro sotto scalzo e grigio sotto i piatti
+             clean: Crosta con sottocrosta di colore diverso: rossastra sotto lo scalzo e grigiastra sotto le parti piatte.
+  freq=   4  raw : Sfumata Media scalzo e piatti 10mm Spigolo 20mm
+             clean: Crosta sfumata, spessore medio su scalzo e parti piatte, spigoli pronunciati.
+  freq=   4  raw : Spessore scalzo e piatto media 8mm
+             clean: Crosta con scalzo e parte piatta sottile.
+  freq=   4  raw : Un piatto sfumato Media piatto e scalzo 9mm Spigoli 15mm
+             clean: Crosta con parte piatta sfumata, spessore medio al piatto e scalzo, spigoli pronunciati.
+  freq=   4  raw : 6 7 molto chiaro
+             clean: Crosta molto sottile, di colore molto chiaro.
+  freq=   4  raw : Sottile ai piatti spessa sugli scalzi, media
+             clean: Crosta sottile nelle parti piatte e spessa sugli scalzi, con spessore medio complessivo.
+  freq=   4  raw : Limite sfumato ma crosta sempre spessa oltre il cm
+             clean: Crosta spessa con limite sfumato.
+  freq=   4  raw : Colore che sfuma su base di colore molto carico
+             clean: NON_DESCRITTO
+  freq=   4  raw : Mediamente attorno a 11
+             clean: Crosta mediamente spessa.
+  freq=   4  raw : Mediamente 10 mm con punte maggiori negli angoli
+             clean: Crosta mediamente spessa con spigoli pronunciati.
+  freq=   4  raw : Sullo scalzo colore sottocrosta rosato
+             clean: Crosta con sottocrosta rosata sullo scalzo.
+  freq=   4  raw : Enorme unghia
+             clean: Crosta unghia molto spessa.
+  freq=   4  raw : Tare nella crosta e Sottocrosta
+             clean: Crosta con difetti e sottocrosta poco distinguibile.
+  freq=   4  raw : Grana fine, regolare, piccole occhiature al centro
+             clean: NON_DESCRITTO
+  freq=   4  raw : Regolare entro1 cm
+             clean: Crosta regolare, mediamente spessa.
+  freq=   4  raw : Spessore medio piatto e scalzo circa7mm Spigoli circa 15mm
+             clean: Crosta con spessore medio sulla parte piatta, scalzo molto sottile, e spigoli spessi.
+  freq=   4  raw : Un sottocrosta tendente al verde
+             clean: NON_DESCRITTO
+  freq=   4  raw : Spigoli pronunciati media 1
+             clean: Crosta con spigoli pronunciati e spessore medio.
+  freq=   4  raw : Colore aranciato molto carico
+             clean: NON_DESCRITTO
+  freq=   4  raw : Sempre sopra il cm.
+             clean: Crosta spessa.
+  freq=   4  raw : Sottocrosta rosa
+             clean: NON_DESCRITTO
+  freq=   4  raw : 10 un piatto più deciso
+             clean: Crosta mediamente spessa, parte piatta più marcata.
+  freq=   4  raw : Intorno a 8 nella media
+             clean: Crosta di spessore sottile.
+  freq=   4  raw : Fine anche spigoli
+             clean: Crosta sottile, con spigoli poco pronunciati.
+  freq=   4  raw : Sottili
              clean: Crosta sottile.
-  freq=   2  raw : Disomogeneo e superiore a 10 mm
-             clean: Crosta disomogenea e spessa.
-  freq=   2  raw : Piatti sottili
-             clean: Crosta con parti piatte sottili.
-  freq=   2  raw : Molto sottile su i piatti
-             clean: Crosta molto sottile sulla parte piatta.
-  freq=   2  raw : Spigoli da 15kmm Piatto da 8 9mm Media 9mm
-             clean: Crosta con spigoli marcati, parte piatta sottile e spessore medio.
+  freq=   4  raw : 8 più marcato sotto un piatto
+             clean: Crosta con spessore variabile: parte sottile e zona piatta meno marcata.
+  freq=   4  raw : Poco contrasto dato il colore di fondo molto carico
+             clean: NON_DESCRITTO
+  freq=   4  raw : Diverso fra i piatti e gli scalzi x intensità, sotto uno spigolo occhiatura e secchezza
+             clean: Crosta con spessore diverso tra le parti piatte e gli scalzi.
+  freq=   4  raw : Più sotto 1 piatto
+             clean: Crosta sottile nella parte piatta.
+  freq=   4  raw : Crosta molto fine con un poco' di unghia 0,8 cm
+             clean: Crosta molto sottile con unghia poco marcata.
+  freq=   4  raw : Molto sfumata
+             clean: Crosta molto sfumata.
+  freq=   4  raw : Spessa agli scalzi
+             clean: Crosta spessa agli scalzi.
+  freq=   4  raw : Alto spessore
+             clean: Crosta spessa.
+  freq=   4  raw : Limite netto. Crosta sottile
+             clean: Crosta sottile con limite netto.
+  freq=   4  raw : Media 0,8 cm molto fine sei piatti spessa sugli scalzi
+             clean: Crosta con spessore medio nelle zone piatte e spessa sugli scalzi, molto fine.
+  freq=   4  raw : Spessa inoltre il cm
+             clean: Crosta spessa.
+  freq=   4  raw : Sotto ac1
+             clean: NON_DESCRITTO
+  freq=   4  raw : Unghia molto ampia
+             clean: Crosta con unghia molto ampia.
+  freq=   4  raw : Piatti e scalzo media 9mm Spigoli sfumati 20mm circa
+             clean: Crosta con parti piatte e scalzo di spessore sottile, spigoli sfumati e molto pronunciati.
+  freq=   4  raw : Colore Sottocrosta sfumato
+             clean: NON_DESCRITTO
+  freq=   4  raw : Lineare
+             clean: Crosta regolare.
+  freq=   4  raw : Sottocrosta disidratato fortemente
+             clean: Crosta con sottocrosta disidratato in modo marcato.
+  freq=   4  raw : Fine su i piatti più grossa scalzi
+             clean: Crosta sottile sulla parte piatta e più spessa agli scalzi.
+  freq=   4  raw : Crosta fine 08 cm ma con unghia marcata agli spigoli
+             clean: Crosta sottile con unghia marcata agli spigoli.
+  freq=   4  raw : Crosta finissima ma unghia evidente
+             clean: Crosta molto sottile con unghia evidente.
+  freq=   4  raw : 9 10 diversi i piatti
+             clean: Crosta con spessore sottile e mediamente spesso, parti piatte irregolari.
+  freq=   4  raw : Un piatto molto bello
+             clean: Crosta piatta e regolare.
+  freq=   4  raw : Abbastanza spessa
+             clean: Crosta abbastanza spessa.
+  freq=   4  raw : Sottile su una faccia
+             clean: Crosta sottile su una faccia.
+  freq=   4  raw : Crosta molto fine sui piatti, più spessa sugli scalzi. Unghia marcata
+             clean: Crosta molto sottile sulla parte piatta, più spessa sugli scalzi, con unghia marcata.
+  freq=   4  raw : Crosta sfumata Media 9mm
+             clean: Crosta sfumata e sottile.
+  freq=   4  raw : 0,8 su un lato e o,6 sull'altro
+             clean: Crosta molto sottile, con spessore disomogeneo nei due lati.
+  freq=   4  raw : 1cm ma tanta unghia su un piatto
+             clean: Crosta mediamente spessa con unghia marcata sulla parte piatta.
+  freq=   4  raw : Troppo alta negli scalzi!
+             clean: Crosta con spigoli molto pronunciati.
+  freq=   4  raw : Sotto crosta da un lato grigiastro di colore divero
+             clean: Crosta con sottocrosta grigiastra, di colore diverso da un lato.
+  freq=   4  raw : Sotto
+             clean: Crosta sottile.
+  freq=   4  raw : Piatti sottili scalzo spesso
+             clean: Crosta con parti piatte sottili e scalzo spesso.
+  freq=   4  raw : Colore sottocrosta sganciato sfuma verso linterno
+             clean: NON_DESCRITTO
+  freq=   4  raw : Crosta sfumata disomogenea Media 9mm
+             clean: Crosta sfumata, disomogenea e di spessore sottile.
+  freq=   4  raw : Larga agli scalzi
+             clean: Crosta spessa agli scalzi.
+  freq=   4  raw : Sottile sul piatti un Poco più spessa negli scalzi
+             clean: Crosta sottile nelle parti piatte e leggermente più spessa negli scalzi.
+  freq=   4  raw : Crosta marcata sugli angoli
+             clean: Crosta con spigoli marcati.
+  freq=   4  raw : 1cm spigoli accentuati
+             clean: Crosta mediamente spessa con spigoli accentuati.
+  freq=   4  raw : Crosta più evidente negli angoli e sullo scalzo
+             clean: Crosta più marcata negli angoli e sullo scalzo.
+  freq=   4  raw : Una tara che entra nel sottocrosta sullo scalzo
+             clean: Crosta con difetto nella zona dello scalzo che si estende nella sottocrosta.
+  freq=   4  raw : Spessa sugli scalzi. Meglio sul piatti
+             clean: Crosta spessa sugli scalzi e mediamente spessa sulle parti piatte.
+  freq=   4  raw : Scalzo e piatto media 11mm Spigoli 20mm
+             clean: Crosta con scalzo e parte piatta mediamente spessa, spigoli pronunciati.
+  freq=   4  raw : Piatti circa 9mm Scalzo circa 11mm Spigoli circa 15mm Media 10mm
+             clean: Crosta con parti piatte sottili, scalzo mediamente spesso, spigoli spessi e spessore medio complessivo.
+  freq=   4  raw : Disomogenea e sfumata Media 11mm
+             clean: Crosta disomogenea e sfumata, mediamente spessa.
+  freq=   4  raw : Sugli scalzi e angoli
+             clean: Crosta con spessore pronunciato sugli scalzi e angoli.
+  freq=   4  raw : Più evidente su un lato e angoli
+             clean: Crosta con spessore più marcato su un lato e agli angoli.
+  freq=   4  raw : Colore carico della pasta
+             clean: NON_DESCRITTO
+  freq=   4  raw : Buoni gli angoli
+             clean: Crosta con angoli pronunciati.
+  freq=   4  raw : Piatti e scalzo circa 9mm Spigoli circa 15mm Media 9mm
+             clean: Crosta con parte piatta e scalzo sottile, spigoli spessi, spessore medio sottile.
+  freq=   4  raw : 12 14 mm evidente negli angoli
+             clean: Crosta mediamente spessa, con spessore più evidente negli angoli.
+  freq=   4  raw : Più sottile su una faccia
+             clean: Crosta più sottile su una faccia.
+  freq=   4  raw : Poco più di 10 mm
+             clean: Crosta mediamente spessa.
+  freq=   4  raw : Crosta sfumata con scalzi spessi. Piatti comunque non sottili
+             clean: Crosta sfumata con scalzi spessi e parti piatte mediamente spesse.
+  freq=   4  raw : Bella uniforme
+             clean: Crosta uniforme.
+  freq=   4  raw : Sottoscritta intenso
+             clean: Crosta sottoscritta, intenso.
+  freq=   4  raw : Troppo negli angoli
+             clean: Crosta con spessore accentuato agli angoli.
+  freq=   4  raw : 8. 10 cm
+             clean: Crosta molto spessa.
+  freq=   4  raw : Fine sei piatti più marcata sugli scalzi
+             clean: Crosta sottile sulla parte piatta, più marcata sugli scalzi.
+  freq=   4  raw : Però crosta fine
+             clean: Crosta sottile.
+  freq=   4  raw : Su uno scalzo crosta molto spessa media 1
+             clean: Crosta molto spessa con scalzo pronunciato.
+  freq=   4  raw : Buona la regolarità
+             clean: Crosta regolare.
+  freq=   4  raw : 0,8 su un lato con colore più scuro ma spessore minore 0,9 sull,altro
+             clean: Crosta con spessore sottile e disomogeneo, lievemente più marcato su un lato.
+  freq=   4  raw : 1,1 cm colore sottocrosta scuro ed evidente
+             clean: Crosta mediamente spessa con sottocrosta scura ed evidente.
+  freq=   4  raw : A tratti sottilissima
+             clean: Crosta sottile a tratti.
+  freq=   4  raw : 11 12, macchia nera sotto un piatto
+             clean: Crosta mediamente spessa con macchia scura sotto la parte piatta.
+  freq=   4  raw : Dispari sfumata 11mm
+             clean: Crosta irregolare e sfumata, mediamente spessa.
+  freq=   4  raw : 12 mm mediamente con punte elevate negli angoli
+             clean: Crosta mediamente spessa, con spessore maggiore negli angoli.
+  freq=   4  raw : Piatti buoni
+             clean: Crosta con parti piatte regolari.
+  freq=   4  raw : Dal cm in su
+             clean: Crosta mediamente spessa o superiore.
+  freq=   4  raw : Disomogenea e sfumata Spessore medio 10mm
+             clean: Crosta disomogenea e sfumata, mediamente spessa.
+  freq=   4  raw : 10km
+             clean: NON_DESCRITTO
+  freq=   4  raw : Spessore medio 7mm Spigoli da 10 a 15mm
+             clean: Crosta con spessore sottile sulla parte piatta e spigoli mediamente spessi.
+  freq=   4  raw : Più spessa verso una faccia
+             clean: Crosta più spessa verso una faccia.
+  freq=   4  raw : Irregolare, molto più spesso su uno scalzo
+             clean: Crosta irregolare, molto più spessa sullo scalzo.
+  freq=   4  raw : Molto sottile prossima ai 5mm
+             clean: Crosta molto sottile.
+  freq=   4  raw : 1 piatto molto bello
+             clean: Crosta con parte piatta molto bella.
+  freq=   4  raw : Molto fine nel complesso
+             clean: Crosta molto sottile.
+  freq=   4  raw : Disomogenea Media ALMENO 10mm
+             clean: Crosta disomogenea con spessore mediamente spesso.
+  freq=   4  raw : Più spesso della media
+             clean: Crosta spessa.
+  freq=   4  raw : Peccato per gli scalzi e gli spigoli grossi media 1
+             clean: Crosta con scalzo e spigoli marcati, spessore mediamente spesso.
+  freq=   4  raw : Evidente diff di spessore tra le due facce
+             clean: Crosta con spessore disomogeneo tra le due facce.
+  freq=   4  raw : Egli angoli
+             clean: NON_DESCRITTO
+  freq=   4  raw : Begli angoli
+             clean: Crosta con spigoli pronunciati.
+  freq=   4  raw : Complessivamente minore di 8 mm
+             clean: Crosta molto sottile.
+  freq=   4  raw : Piatto circa 10mm Spigoli circa 15km Scalzo circa 10km Media 10mm
+             clean: Crosta con parte piatta mediamente spessa, spigoli pronunciati, scalzo mediamente spesso e spessore medio.
+  freq=   4  raw : Piuttosto spessa, ma omogenea su tutta la superficie
+             clean: Crosta piuttosto spessa e omogenea su tutta la superficie.
+  freq=   4  raw : Colore moltosfumato
+             clean: NON_DESCRITTO
+  freq=   4  raw : Sottocrosta marcato su un piatto e sugli angoli
+             clean: Crosta con sottocrosta marcata sulla parte piatta e agli spigoli.
+  freq=   4  raw : 1 cm con unghia evidente soprattutto agli spigoli.
+             clean: Crosta mediamente spessa con unghia evidente agli spigoli.
+  freq=   4  raw : Più spessi i piatti
+             clean: Crosta con spessore maggiore sulle parti piatte.
+  freq=   4  raw : Colore di fondo scuro
+             clean: NON_DESCRITTO
+  freq=   4  raw : 0,6 su 1 lato 1,2 sull'altro
+             clean: Crosta molto sottile su un lato, mediamente spessa sull'altro.
+  freq=   4  raw : Regolare sotto 1 cm
+             clean: Crosta regolare e molto sottile.
+  freq=   4  raw : Più spessa su di un piatto
+             clean: Crosta più spessa sulla parte piatta.
+  freq=   4  raw : Molto sottile ma su un piatto risulta concessa verso il centro
+             clean: Crosta molto sottile, con zone piatte concesse verso il centro.
+  freq=   4  raw : 8 o meno
+             clean: Crosta molto sottile.
+  freq=   4  raw : Sfumata Scalzo e piatto medio 12mm Spigolo 18mm
+             clean: Crosta sfumata con scalzo e parte piatta mediamente spessa, spigoli marcati.
+  freq=   4  raw : Spessa oltre il cm
+             clean: Crosta spessa.
+  freq=   4  raw : Ottimi piatti
+             clean: Crosta con parti piatte ben definite.
+  freq=   4  raw : Lateralmente superiore al cm sul piatti regolare
+             clean: Crosta spessa sul lato, parte piatta regolare.
+  freq=   4  raw : Frattura regolare molto granuloso
+             clean: NON_DESCRITTO
+  freq=   4  raw : Piatti e scalzo ben definiti media 8mm Spigoli 11mm circa
+             clean: Crosta con parte piatta e scalzo ben definiti, spessore medio e spigoli pronunciati.
+  freq=   4  raw : Crosta sottile
+             clean: Crosta sottile.
+  freq=   4  raw : Tre lati maggiori di 10 mm e 1 da 5 mm
+             clean: Crosta irregolare, con spessore variabile tra i lati.
+  freq=   4  raw : Oltre il cm
+             clean: Crosta spessa.
+  freq=   4  raw : Non omogeneo.. 11 mm
+             clean: Crosta disomogenea, di spessore medio.
+  freq=   4  raw : Spessa ai lati
+             clean: Crosta spessa sui lati.
+  freq=   4  raw : Più sottile verso una delle facce
+             clean: Crosta più sottile su una delle facce.
+  freq=   4  raw : 0,8 cm con unghia pronunciata sugli spigoli
+             clean: Crosta sottile con unghia pronunciata sugli spigoli.
+  freq=   4  raw : Molto grossa e evidente colore molto scuro spigoli pronunciati
+             clean: Crosta molto spessa, di colore molto scuro, con spigoli pronunciati.
+  freq=   4  raw : Più spessa su un lato
+             clean: Crosta con spessore irregolare, più pronunciato su un lato.
+  freq=   4  raw : Piuttosto variabile tra piatti e scalzi
+             clean: Crosta variabile tra parti piatte e scalzo.
+  freq=   4  raw : Su un piatto sfumata e piú spessa, A tratti più sottile e definita,
+             clean: Crosta sfumata sulla parte piatta, più spessa in alcuni tratti e più sottile in altri, con profilo definito.
+  freq=   4  raw : Colore sottoscritta carico sganciato più evidente su un piatto
+             clean: Crosta con sottocrosta dal colore carico, più evidente sulla parte piatta.
+  freq=   4  raw : 10 13 più su i1 piatto e angoli
+             clean: Crosta mediamente spessa con parte piatta e angoli meno marcati nella zona superiore.
+  freq=   4  raw : Ovunque superiore ai 10 mm
+             clean: Crosta mediamente spessa ovunque.
+  freq=   4  raw : 9 mm chiara
+             clean: Crosta sottile, di colore chiaro.
+  freq=   4  raw : Crosta fine ma con unghia evidente di colore bruno
+             clean: Crosta sottile con unghia evidente di colore bruno.
+  freq=   4  raw : Brutti angoli
+             clean: Crosta con angoli irregolari.
+  freq=   4  raw : Fine sui piatti
+             clean: Crosta sottile sulla parte piatta.
+  freq=   4  raw : Molto sottile nei piatti più spessa oltre 1 negli scalzi spigoli pronunciati
+             clean: Crosta molto sottile nelle parti piatte, più spessa negli scalzi con spigoli pronunciati.
+  freq=   4  raw : Crosta definisca e pressoché omogenea in tutto il perimetro Media 9mm
+             clean: Crosta sottile, definita e pressoché omogenea in tutto il perimetro.
+  freq=   4  raw : 6km
+             clean: NON_DESCRITTO
+  freq=   4  raw : 12 cm ma sfuma su una base scura
+             clean: Crosta mediamente spessa, sfumata su una base scura.
+  freq=   4  raw : 10 scuro
+             clean: Crosta mediamente spessa, di colore scuro.
+  freq=   4  raw : 11 più intenso sotto uno scalzo
+             clean: Crosta mediamente spessa, più intensa sotto lo scalzo.
+  freq=   4  raw : Minore di 10 mm
+             clean: Crosta sottile.
+  freq=   4  raw : Scalzi crosta molto spessa sopra 1.5 piatti 1spigoli molto pronunciati
+             clean: Crosta molto spessa con scalzi, parte piatta mediamente spessa e spigoli molto pronunciati.
+  freq=   4  raw : Costa e sottocrosta fusi e sfumati
+             clean: Crosta e sottocrosta fuse e sfumate.
+  freq=   4  raw : Più evidente su 1 lato angoli e scalzo
+             clean: Crosta irregolare, più spessa su un lato con spigoli e scalzo pronunciati.
+  freq=   4  raw : Limite sfumato. Valori attorno al cm. Discreto spigoli
+             clean: Crosta mediamente spessa con limite sfumato e spigoli marcati.
+  freq=   4  raw : Colore sottocrosta diverso da tutto il resto, rosellino
+             clean: NON_DESCRITTO
+  freq=   4  raw : Poco contrasto per colore scuro della pasta
+             clean: NON_DESCRITTO
+  freq=   4  raw : Chiara
+             clean: NON_DESCRITTO
+  freq=   4  raw : Colore Sottocrosta più evidente sotto un piatto
+             clean: Crosta con sottocrosta evidente sotto la parte piatta.
+  freq=   4  raw : 9 e omogeneo
+             clean: Crosta sottile e omogenea.
+  freq=   4  raw : Sotto un piatto colore massiccio
+             clean: Crosta con parte piatta e sottocrosta poco distinguibile.
+  freq=   4  raw : Colore di fondo carico contrasta meno il colore dello spessore
+             clean: NON_DESCRITTO
+  freq=   4  raw : Unghia spessa poco marcata
+             clean: Crosta unghia spessa poco marcata.
+  freq=   4  raw : Crosta grossa
+             clean: Crosta spessa.
+  freq=   4  raw : Colore grigiastro
+             clean: NON_DESCRITTO
+  freq=   4  raw : Più evidente Su un piatto e angoli
+             clean: Crosta con spessore più evidente sulla parte piatta e agli spigoli.
+  freq=   4  raw : 1 piatto sopra, 1 piatto sotto ilcm
+             clean: Crosta mediamente spessa sia sulla parte piatta superiore che inferiore.
+  freq=   4  raw : Belli piatti, meno ali scalzi
+             clean: Crosta con parti piatte ben regolari e scalzo meno pronunciato.
+  freq=   4  raw : La crosta é fine ma con sottocrosta dal colore marcato
+             clean: Crosta sottile con sottocrosta di colore marcato.
+  freq=   4  raw : Medio grosso
+             clean: Crosta mediamente spessa.
+  freq=   4  raw : Molto sfumato Spessore minimo 11mm
+             clean: Crosta sfumata con spessore medio.
+  freq=   4  raw : Più evidente negli Angoli e sotto un piatto
+             clean: Crosta più spessa negli angoli e nella parte piatta.
+  freq=   4  raw : Su un piatto spessa
+             clean: Crosta spessa sulla parte piatta.
+  freq=   4  raw : Belli angoli
+             clean: Crosta con spigoli marcati.
+  freq=   4  raw : 1,2 cm spessa sugli scalzi e fine su i piatti ma con unghia marcata
+             clean: Crosta mediamente spessa sugli scalzi, sottile sulla parte piatta, con unghia marcata.
+  freq=   4  raw : Più evidente sotto 1 piatto e angoli
+             clean: Crosta con spessore più marcato sotto, parte piatta mediamente spessa e spigoli pronunciati.
+  freq=   4  raw : 12 14 su 1 particolare sittocrosta aranciato
+             clean: Crosta mediamente spessa con sottocrosta aranciata.
+  freq=   4  raw : Sfumata Poco percepibile dove termina la crosta e comincia la pasta Ne. Evidente la struttura a grana gia sottocrosta Media 6mm
+             clean: Crosta sfumata e poco percepibile nel limite con la pasta, mediamente spessa, con struttura a grana evidente in sottocrosta.
+  freq=   4  raw : Microocchiatura, occhio, disidratazione, colore quasi verde sotto un piatto
+             clean: La microocchiatura, l'occhio e la disidratazione sono attributi della pasta, non dello spessore della crosta. Il "colore quasi verde" riguarda il colore della crosta (attributo diverso). L'unica informazione pertinente allo spessore della crosta è "sotto un piatto", che descrive una zona piatta.
+
+Tuttavia, "sotto un piatto" da solo non fornisce una descrizione dello spessore della parte piatta (quanto è spessa). Non c'è alcun descrittore quantitativo o qualitativo dello spessore effettivo.
+
+NON_DESCRITTO
+  freq=   4  raw : Piatti e scalzo media 12mm Spigoli circa 15mm
+             clean: Crosta con parte piatta e scalzo mediamente spessi, spigoli spessi.
+  freq=   4  raw : 11 angoli più evidente
+             clean: Crosta con spigoli marcati.
+  freq=   4  raw : Colore sotto crosta grigio da un lato rossastra dall'altro
+             clean: NON_DESCRITTO
+  freq=   4  raw : Spessore non uniforme, maggiore degli scalzi, nella media 10 con vistosi ingrossamento nella giunzione tra scalzo e piatto
+             clean: Crosta con spessore non uniforme, maggiore negli scalzi e nella media, con vistosi ingrossamenti nella giunzione tra scalzo e parte piatta.
+  freq=   4  raw : Crosta sfumata e dispari Media 9mm
+             clean: Crosta sfumata, irregolare nello spessore con zone sottili.
+  freq=   4  raw : Spessa oltre 1cm
+             clean: Crosta spessa.
+  freq=   4  raw : Sfumata Media 6 mm
+             clean: Crosta sfumata e molto sottile.
+  freq=   4  raw : Limite crosta evidente fine
+             clean: Crosta con limite evidente e spessore sottile.
+  freq=   4  raw : 9 mm chiaro
+             clean: Crosta sottile, di colore chiaro.
+  freq=   4  raw : 10 ma chiaro
+             clean: Crosta mediamente spessa, di colore chiaro.
+  freq=   4  raw : Rosure
+             clean: NON_DESCRITTO
+  freq=   4  raw : Molto variabile da piatto a scalzi. Media 12
+             clean: Crosta molto variabile, da parte piatta a scalzi, con spessore medio.
+  freq=   4  raw : Spesso e sfumato
+             clean: Crosta spessa e sfumata.
+  freq=   4  raw : Spigoli 20mm Scalzo 15mm Minimo 10mm Media 12mm
+             clean: Crosta con spigoli pronunciati, scalzo mediamente spesso, spessore minimo e media mediamente spessa.
+  freq=   4  raw : Negli scalzi
+             clean: Crosta con spessore variabile negli scalzi.
+  freq=   4  raw : Non uniforme
+             clean: Crosta non uniforme.
+  freq=   4  raw : Crosta sfumata Scalzi e piatti media 9mm Spigoli 1,8
+             clean: Crosta sfumata con scalzo e parte piatta di spessore sottile, spigoli molto spessi.
+  freq=   4  raw : Omogenea, sotto il cm
+             clean: Crosta sottile e omogenea.
+  freq=   4  raw : 12 km più netta su 1 piatto
+             clean: La mia analisi riscontra un'annotazione con informazioni non coerenti con lo spessore della crosta (il valore "12 km" non è una misura sensata per una sezione di formaggio), e il resto risulta frammentario e poco interpretabile nel contesto dell'attributo dichiarato.
+
+Tuttavia, provando a estrarre un significato ragionevole dall'abbreviazione "km" (possibile errore di trascrizione per "mm"), interpreto:
+- "12 mm" = spessore medio
+- "più netta su 1 piatto" = spigoli più marcati sulla parte piatta
+
+NON_DESCRITTO
+  freq=   4  raw : More superiore al cm
+             clean: Crosta molto spessa.
+  freq=   4  raw : Molto sfumata Media 10mm
+             clean: Crosta mediamente spessa e molto sfumata.
+  freq=   4  raw : Spessore medio 9mm Spigoli media 15mm
+             clean: Crosta con spessore sottile e spigoli pronunciati.
+  freq=   4  raw : Spigoli pronunciati sopra il cm
+             clean: Crosta con spigoli pronunciati, spessore superiore al mediamente spesso.
+  freq=   4  raw : Non regolare superiore a 1 su un piatto
+             clean: Crosta irregolare, superiormente spessa e parte piatta mediamente spessa.
+  freq=   4  raw : Sotto crosta macchiato di nero sullo scalzo, marciume?
+             clean: Crosta con sottocrusta macchiata di nero sullo scalzo.
+  freq=   4  raw : Diversa da piatti a scalzi con media 10 mm
+             clean: Crosta con spessore variabile, da zone piatte a scalzi, mediamente spessa.
+  freq=   4  raw : Fine nel complessoh
+             clean: Crosta sottile.
+  freq=   4  raw : Mutevole intorno ai 10mm
+             clean: Crosta con spessore variabile, mediamente spesso.
+  freq=   4  raw : Crosta fine con sottocrosta poco evidente per il colore della pasta. Tuttavia la forma è piccola quindi sembra che la crosta sia spessa
+             clean: Crosta sottile con sottocrosta poco evidente, pur sembrando relativamente spessa per la forma ridotta del formaggio.
+  freq=   2  raw : Superiore ai 14 km, sempre
+             clean: NON_DESCRITTO
   freq=   2  raw : Non è omogenea lateralmente più grossa
              clean: Crosta disomogenea, lateralmente più spessa.
-  freq=   2  raw : Media 1cm
-             clean: Crosta di spessore medio.
-  freq=   2  raw : Spigoli sopra 20mm Piatto 10mm circa Media 12mm
-             clean: Crosta con spigoli pronunciati, parte piatta sottile e spessore medio.
-  freq=   2  raw : Crosta evidente per colore, ma sottile, 10mm
-             clean: Crosta sottile, evidente per colore.
-  freq=   2  raw : Intorno ai 10 km
-             clean: Crosta sottile.
-  freq=   2  raw : Piatti senza crosta
-             clean: Crosta assente.
-  freq=   2  raw : 0,7 piatti 1,5 angoli
-             clean: Crosta con parte piatta sottile e spigoli pronunciati.
-  freq=   2  raw : Più su 1 lato1 sull'altro 0,8
-             clean: Crosta con spessore disomogeneo, più marcato su un lato.
+  freq=   2  raw : Grossomodo omogenea sui 10mm
+             clean: Crosta mediamente spessa e omogenea.
   freq=   2  raw : Spessore abbastanza omogeneo su entrambi gli sbalzi e piatti
-             clean: Crosta con spessore abbastanza omogeneo su spigoli e parte piatta.
-  freq=   2  raw : Maggiormente negli angoli ma mediamente 1 cm
-             clean: Crosta con spessore medio, più marcato negli angoli.
+             clean: Crosta con spessore abbastanza omogeneo su spigoli e parti piatte.
+  freq=   2  raw : Molto omogenea media 0,9 cm
+             clean: Crosta mediamente spessa e molto omogenea.
+  freq=   2  raw : Spigoli accentuati da circa 2cm spessore medio 1cm
+             clean: Crosta con spigoli accentuati molto spessi e spessore medio sulla parte piatta.
+  freq=   2  raw : Regolare 10 mm
+             clean: Crosta mediamente spessa e regolare.
+  freq=   2  raw : Non omogenea suk lati media maggiore di 1.2 cm
+             clean: Crosta disomogenea sui lati, con spessore superiore a quello mediamente spesso.
+  freq=   2  raw : 8 km
+             clean: NON_DESCRITTO
+  freq=   2  raw : 3 lati su 4 molto spessa.
+             clean: Crosta molto spessa su tre lati.
+  freq=   2  raw : Spigoli dai 15 ai 22mm Piatti dai 8 ai 11mm Crosta di spessore non omogeneo Media 12mm Il colore della crosta è evidente e con note verdi
+             clean: Crosta con spigoli pronunciati, parte piatta sottile e spessore medio non omogeneo.
+  freq=   2  raw : Micro occhiatura nella zona centrale, anche grossa, 2,3 km. Frattura discreta, grana presente
+             clean: NON_DESCRITTO
+  freq=   2  raw : 9 10 mm chiaro
+             clean: Crosta sottile, di colore chiaro.
+  freq=   2  raw : Abbastanza irregolare con media maggiore di 1.1 cm
+             clean: Crosta abbastanza irregolare, con spessore mediamente superiore allo standard.
+  freq=   2  raw : Su due lati ella ma sugli altri e negli angoli elevata media pari a 1
+             clean: Crosta con spessore variabile: mediamente spessa su due lati, elevata negli angoli e sugli altri lati.
+  freq=   2  raw : Un Poco spessa, 11mm
+             clean: Crosta mediamente spessa.
+  freq=   2  raw : Piatti sottili
+             clean: Crosta con parti piatte sottili.
   freq=   2  raw : Abbastanza regolare
              clean: Crosta abbastanza regolare.
+  freq=   2  raw : Bella, 10mm
+             clean: Crosta mediamente spessa.
+  freq=   2  raw : Piatti senza crosta
+             clean: NON_DESCRITTO
+  freq=   2  raw : 8 9 km
+             clean: NON_DESCRITTO
+  freq=   2  raw : Disomogenea. In zone anche inferiore a 7 km. In altre fino a 14 mm
+             clean: Crosta disomogenea, con zone molto sottili e altre spesse.
   freq=   2  raw : Molto basso omogeneo..
              clean: Crosta molto sottile e omogenea.
-  freq=   2  raw : 12mm
-             clean: Crosta di spessore medio.
-  freq=   2  raw : Su due lati ella ma sugli altri e negli angoli elevata media pari a 1
-             clean: Crosta con spessore disomogeneo: sottile su due lati, elevato negli angoli e sui lati opposti.
-  freq=   2  raw : 8 9 km
-             clean: Crosta sottile.
-  freq=   2  raw : Molto omogenea media 0,9 cm
-             clean: Crosta mediamente spessa e omogenea.
-  freq=   2  raw : Abbastanza irregolare con media maggiore di 1.1 cm
-             clean: Crosta abbastanza irregolare e mediamente spessa.
-  freq=   2  raw : 9 10 mm chiaro
-             clean: Crosta sottile e ben definita.
-  freq=   2  raw : 1,1cm
-             clean: Crosta spessa.
-  freq=   2  raw : Grossomodo omogenea sui 10mm
-             clean: Crosta omogenea e sottile.
-  freq=   2  raw : Superiore ai 14 km, sempre
-             clean: Crosta spessa.
-  freq=   2  raw : Micro occhiatura nella zona centrale, anche grossa, 2,3 km. Frattura discreta, grana presente
-             clean: Crosta con microocchiatura nella zona centrale e frattura discreta.
-  freq=   2  raw : 0,8 cm qui piatti e 1,4 sugli scalzi
-             clean: Crosta con spessore sottile sulla parte piatta e mediamente spessa sugli scalzi.
-  freq=   2  raw : Piuttosto marcata soprattutto su un lato, fino a 12mm
-             clean: Crosta marcata e disomogenea, più pronunciata su un lato.
-  freq=   2  raw : Spigoli accentuati da circa 2cm spessore medio 1cm
-             clean: Crosta con spigoli accentuati e spessore medio.
+  freq=   2  raw : Spigoli da 15kmm Piatto da 8 9mm Media 9mm
+             clean: Crosta con spigoli spessi, parte piatta sottile e spessore medio.
+  freq=   2  raw : Crosta evidente per colore, ma sottile, 10mm
+             clean: Crosta sottile, di colore evidente.
   freq=   2  raw : Più spessa sullo scalzo
              clean: Crosta più spessa sullo scalzo.
-  freq=   2  raw : Non omogenea suk lati media maggiore di 1.2 cm
-             clean: Crosta disomogenea sui lati con spessore medio-superiore.
-  freq=   2  raw : Crosta di 0,5
+  freq=   2  raw : Spigoli sopra 20mm Piatto 10mm circa Media 12mm
+             clean: Crosta con spigoli pronunciati, parte piatta mediamente spessa e spessore medio.
+  freq=   2  raw : 0,8 cm qui piatti e 1,4 sugli scalzi
+             clean: Crosta mediamente spessa sulle zone piatte e spessa sugli scalzi.
+  freq=   2  raw : Maggiormente negli angoli ma mediamente 1 cm
+             clean: Crosta mediamente spessa, con spessore più marcato negli angoli.
+  freq=   2  raw : Bella, poco meno di 10mm
              clean: Crosta sottile.
+  freq=   2  raw : Più su 1 lato1 sull'altro 0,8
+             clean: Crosta con spessore variabile tra i lati, mediamente spessa da un lato e molto sottile dall'altro.
+  freq=   2  raw : Crosta di 0,5
+             clean: Crosta molto sottile.
+  freq=   2  raw : Disomogeneo e superiore a 10 mm
+             clean: Crosta disomogenea e mediamente spessa.
+  freq=   2  raw : Molto sottile su i piatti
+             clean: Crosta molto sottile sulle parti piatte.
+  freq=   2  raw : Intorno ai 10 km
+             clean: NON_DESCRITTO
+  freq=   2  raw : 1,2 su 1 lato 1,4 sull'altro netto colore sottocrosta
+             clean: Crosta mediamente spessa con spessore variabile tra i lati e sottocrosta netta.
+  freq=   2  raw : 0,7 piatti 1,5 angoli
+             clean: Crosta molto sottile in parte piatta e spessa agli angoli.
+  freq=   2  raw : Piuttosto marcata soprattutto su un lato, fino a 12mm
+             clean: Crosta mediamente spessa e marcata, soprattutto su un lato.
   freq=   2  raw : Spigoli dai 15 ai 20mm Piatto 9mm circa Media 10mm
-             clean: Crosta con spigoli pronunciati, parte piatta sottile e spessore medio.
+             clean: Crosta con spigoli spessi, parte piatta sottile e spessore medio.
