@@ -40,6 +40,42 @@ MULTISPACE_RE = re.compile(r"\s+")
 WORD_BOUNDARY_RE = re.compile(r"\b[\w'àèéìòù]+\b", re.IGNORECASE | re.UNICODE)
 TRAIL_PUNCT_RE = re.compile(r"^[\s\.\,;:\-\*`\"']+|[\s\*`\"']+$")
 
+# Bare-number captions for Spessore della Crosta — convert to qualitative.
+# Pattern matches one or more numeric tokens (possibly with comma-decimal),
+# optionally interleaved with whitespace or hyphens.
+BARE_NUM_TOKEN = re.compile(r"^\d+(?:[,.]\d+)?$")
+NUM_TOKEN_RE = re.compile(r"\d+(?:[,.]\d+)?")
+
+
+def _to_mm(value: float) -> float:
+    """Heuristic: tiny decimals are cm (0,8 cm = 8 mm); the rest are mm."""
+    return value * 10 if value < 5 else value
+
+
+def _bucket(mm: float) -> str:
+    if mm < 8:
+        return "molto sottile"
+    if mm < 10:
+        return "sottile"
+    if mm < 14:
+        return "media"
+    if mm < 18:
+        return "spessa"
+    return "molto spessa"
+
+
+def qualitatise_spessore_bare(text: str) -> str | None:
+    """If `text` is only numbers (bare crust thickness), return a qualitative
+    token; otherwise return None to leave the caption untouched."""
+    tokens = text.split()
+    if not tokens or len(tokens) > 3:
+        return None
+    if not all(BARE_NUM_TOKEN.match(t) for t in tokens):
+        return None
+    mm_values = [_to_mm(float(t.replace(",", "."))) for t in tokens]
+    avg = sum(mm_values) / len(mm_values)
+    return _bucket(avg).capitalize()
+
 
 def expand_word(w: str) -> str:
     """Return the canonical form for a word if it's a known abbrev/typo,
@@ -58,7 +94,7 @@ def expand_word(w: str) -> str:
     return w
 
 
-def preprocess(text: str) -> str:
+def preprocess(text: str, attribute: str = "") -> str:
     s = unicodedata.normalize("NFC", text)
     s = ASTERISK_RE.sub("", s)
     s = BACKTICK_RE.sub("", s)
@@ -66,7 +102,13 @@ def preprocess(text: str) -> str:
     s = WORD_BOUNDARY_RE.sub(lambda m: expand_word(m.group(0)), s)
     s = MULTISPACE_RE.sub(" ", s)
     s = TRAIL_PUNCT_RE.sub("", s)
-    return s.strip()
+    s = s.strip()
+    # Spessore della Crosta only: bare numeric crust thickness -> qualitative
+    if attribute == "Spessore della Crosta":
+        q = qualitatise_spessore_bare(s)
+        if q is not None:
+            s = q
+    return s
 
 
 def dedup_key(caption_pre: str, attribute: str) -> str:
@@ -89,7 +131,7 @@ def main():
         reader = csv.DictReader(fh)
         in_cols = reader.fieldnames or []
         for row in reader:
-            pre = preprocess(row["caption_norm"])
+            pre = preprocess(row["caption_norm"], row["attribute"])
             if pre != row["caption_norm"]:
                 n_changed += 1
             row["caption_pre"] = pre

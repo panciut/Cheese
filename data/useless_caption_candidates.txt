@@ -1,0 +1,138 @@
+Total unique captions: 7771
+Unique captions with ≥1 flag: 120 (1.5%)
+
+## META  (30 unique, would drop 133 training rows)
+     10x  [Aroma             ] A proposito della fessure aggiungo : grasso, intuisco e abbasso di mezzo punto il voto
+      8x  [Struttura della Pa] Penalizzata per fascia sottoposto senza grana e si il stirata
+      8x  [Struttura della Pa] Non do troppo peso a la lieve non diffusa microocchiatura
+      5x  [Colore della Pasta] Voto basso per colpa della frattura con evidente colore rosa, altrimenti voto alto
+      4x  [Texture           ] non lo so, ho docuto sputarlo
+      4x  [Struttura della Pa] Va abbassato il voto di 1! Sembra sabbia bagnata. Una parte però bella
+      4x  [Struttura della Pa] Pochissime piccole fratture, penalizzano
+      4x  [Struttura della Pa] Non perfettamente omogenea. Le microocchiatura centrali penalizzano
+      4x  [Struttura della Pa] Non considero lo spacco
+      4x  [Struttura della Pa] Non considero le due fessurette
+      4x  [Struttura della Pa] Mista tra regolare e simil stirata al centro ma non da penalizzare
+      4x  [Struttura della Pa] Mista Granulosa/ruvida più penalizzata al centro
+      4x  [Struttura della Pa] Grana tipo parmigiano. Le fatture me la fanno penalizzare. Altrimenti bella
+      4x  [Struttura della Pa] Forse il voto dato va diminuito di 1!
+      4x  [Spessore della Cro] Non considero la muffa
+      4x  [Sapore            ] piccante leggero ma persistente e un poco salato, ma non troppo penalizzanti
+      4x  [Sapore            ] amaro deciso e penalizzante
+      4x  [Sapore            ] Forse voto troppo alto
+      4x  [Profumo           ] una porzione penalizza perché di fermentato
+      4x  [Profumo           ] odore sgradevole di fumo e altro che non riesco be a identificare
+      4x  [Profumo           ] Tanto latte, burro fresco. Alla prima occasione odore di altro formaggio, fermentato che mi fa penal
+      4x  [Profumo           ] Qualcosa di non ottimale che non so definire
+      4x  [Colore della Pasta] ValutazIone alle 13:40
+      4x  [Colore della Pasta] Peccato
+      4x  [Colore della Pasta] Non ho tenuto conto della macchia dovuta ad una "correzione" dello scalzo Se va considerato il difet
+      4x  [Aroma             ] Il voto inerente a stalla sono stati due momenti e poi sparisce subito, per il salato ne manca un po
+      4x  [Aroma             ] Formaggio non grana... Ma non so dare definizione esatta
+      4x  [Aroma             ] Al primo tentativo si e chiuso il test senza la schermata dei commenti poi sono ripartita dal 124 e 
+      4x  [Aroma             ] A proposito del profumo: intensità notevole, ma troppo strano per essere trentunenne. Abbassarsi il 
+      2x  [Profumo           ] aroma non molto intenso e complesso. quasi una nota di emmental che pero' non considero nel pu ntegg
+
+## UNCERTAINTY  (30 unique, would drop 156 training rows)
+     16x  [Texture           ] potrebbe essere più friabile
+     12x  [Texture           ] potrebbe essere più solubile
+     10x  [Struttura della Pa] Forse frattura non perfettamente regolare
+      8x  [Texture           ] Forse pochi cristalli
+      8x  [Struttura della Pa] Sembra disidratata
+      8x  [Colore della Pasta] Forse una macchia rosa?
+      4x  [Texture           ] forse troppo friabile, asciutto.........
+      4x  [Texture           ] forse troppi cristalli
+      4x  [Texture           ] Sembra più giovane
+      4x  [Texture           ] Potrebbe essere più solubile, leggermente sabbioso alla fine
+      4x  [Texture           ] Forse pastoso
+      4x  [Texture           ] Forse leggermente tenero
+      4x  [Texture           ] Forse anche poco solubile
+      4x  [Struttura della Pa] Sembra un poco’ asciutta
+      4x  [Struttura della Pa] Sembra non abbia struttura in diverse zone. Non grandioso. Compatto
+      4x  [Struttura della Pa] Sembra esserci una fessura sotto ila frattura ma non sono sicura
+      4x  [Struttura della Pa] Pare molto asciutta
+      4x  [Struttura della Pa] Pare asciutta
+      4x  [Struttura della Pa] Forse il voto dato va diminuito di 1!
+      4x  [Sapore            ] forse troppo sapido....ma anche note dolci
+      4x  [Sapore            ] Forse voto troppo alto
+      4x  [Sapore            ] Forse un poco' insipido
+      4x  [Sapore            ] Forse un poco' di piccante in eccesso
+      4x  [Sapore            ] Forse poca sapidità, poco carattere
+      4x  [Profumo           ] forse uno dei più\ interessanti della batteria...
+      4x  [Profumo           ] Sembra più vecchio
+      4x  [Colore della Pasta] Forse troppo carico il giallo..
+      4x  [Colore della Pasta] Forse più chiaro dove è fitta la microocchiatura
+      4x  [Aroma             ] Sembra grana abbastanza giovane
+      2x  [Sapore            ] Sembra un formaggio più' vecchio. Scarno e pungente.
+
+## INTERROGATIVE  (21 unique, would drop 99 training rows)
+     10x  [Texture           ] Leggermente poco solubile e faticoso?
+      8x  [Profumo           ] vegetale fieno?
+      8x  [Colore della Pasta] Forse una macchia rosa?
+      5x  [Struttura della Pa] Fessura con crepe con segno esterno in corrispondenza ago?
+      4x  [Struttura della Pa] Setata??
+      4x  [Struttura della Pa] Fessure leggere! Stirata?
+      4x  [Spessore della Cro] Sotto crosta macchiato di nero sullo scalzo, marciume?
+      4x  [Profumo           ] vegetale balsamico eucalipto?
+      4x  [Profumo           ] all'apertuta insilato vegetale allapertura vegetale balsamico eucalipto?
+      4x  [Profumo           ] Poco intenso manca tra i commenti?
+      4x  [Profumo           ] Odore vegetale strano …,buccia anguria?
+      4x  [Profumo           ] Lievito pane?
+      4x  [Profumo           ] Lievito ?
+      4x  [Profumo           ] Leggero, pungente all'inizio da butirrico?
+      4x  [Profumo           ] Kiwi,,,e bruciato?
+      4x  [Profumo           ] Eucalipto?
+      4x  [Colore della Pasta] Più chiaro ai bordi. 1 macchia rosa?
+      4x  [Colore della Pasta] Macchia rosa?
+      4x  [Colore della Pasta] Leggera ossidatura centrale ...alone?
+      4x  [Aroma             ] plastica ?
+      4x  [Aroma             ] Pepe?
+
+## PURE_EVAL  (11 unique, would drop 56 training rows)
+     18x  [Struttura della Pa] Bella
+      4x  [Texture           ] scarsa
+      4x  [Texture           ] buona
+      4x  [Struttura della Pa] Scarsa
+      4x  [Spessore della Cro] Ok
+      4x  [Spessore della Cro] Buono
+      4x  [Profumo           ] Ottimo
+      4x  [Colore della Pasta] Brutta
+      4x  [Colore della Pasta] Bello
+      4x  [Aroma             ] mah
+      2x  [Aroma             ] Scarso
+
+## PURE_INTENSIFIER  (17 unique, would drop 202 training rows)
+     72x  [Profumo           ] Leggero
+     28x  [Profumo           ] Intenso
+     22x  [Sapore            ] Medio
+     12x  [Profumo           ] debole
+     12x  [Aroma             ] Leggero
+      8x  [Spessore della Cro] Medio..
+      8x  [Aroma             ] debole
+      4x  [Texture           ] media...
+      4x  [Spessore della Cro] Bassa
+      4x  [Spessore della Cro] Alto...
+      4x  [Spessore della Cro] Alta
+      4x  [Sapore            ] leggero
+      4x  [Sapore            ] Leggermente
+      4x  [Profumo           ] leggermente
+      4x  [Profumo           ] Forte
+      4x  [Colore della Pasta] Leggero
+      4x  [Aroma             ] Medio!
+
+## NUMBER_ONLY  (14 unique, would drop 302 training rows)
+     52x  [Spessore della Cro] 10
+     48x  [Spessore della Cro] 9 10
+     38x  [Spessore della Cro] 12
+     28x  [Spessore della Cro] 10 11
+     24x  [Spessore della Cro] 11 12
+     20x  [Spessore della Cro] 8 9
+     20x  [Spessore della Cro] 11
+     16x  [Spessore della Cro] 1,1
+     16x  [Spessore della Cro] 0,8
+     12x  [Spessore della Cro] 1,2
+      8x  [Spessore della Cro] 14
+      8x  [Spessore della Cro] 0,9
+      8x  [Spessore della Cro] 0,6
+      4x  [Spessore della Cro] 13
+

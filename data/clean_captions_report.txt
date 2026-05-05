@@ -1,49 +1,48 @@
 input rows               : 39356
-unique (caption_pre, attr): 7771
-compression ratio         : 5.06x  (80.3% saving)
-rows changed by preprocess: 3221  (8.2%)
+unique (caption_pre, attr): 7758
+compression ratio         : 5.07x  (80.3% saving)
+rows changed by preprocess: 3523  (9.0%)
 
 per-attribute totals vs unique:
   Aroma                          total=  4213  unique=  808  (80.8% saving)
   Colore della Pasta             total=  5947  unique= 1184  (80.1% saving)
   Profumo                        total=  5798  unique= 1179  (79.7% saving)
   Sapore                         total=  6350  unique= 1127  (82.3% saving)
-  Spessore della Crosta          total=  4071  unique=  705  (82.7% saving)
+  Spessore della Crosta          total=  4071  unique=  692  (83.0% saving)
   Struttura della Pasta          total=  7546  unique= 1676  (77.8% saving)
   Texture                        total=  5431  unique= 1092  (79.9% saving)
 
 frequency distribution (how many captions appear N times):
   appearing    2x :   283 unique captions
-  appearing    4x :  6595 unique captions
+  appearing    4x :  6594 unique captions
   appearing    5x :    11 unique captions
   appearing    6x :    19 unique captions
   appearing    7x :     4 unique captions
-  appearing    8x :   475 unique captions
+  appearing    8x :   472 unique captions
   appearing   10x :    64 unique captions
-  appearing   12x :   108 unique captions
+  appearing   12x :   107 unique captions
   appearing   14x :    17 unique captions
-  appearing   16x :    48 unique captions
+  appearing   16x :    46 unique captions
   appearing   17x :     1 unique captions
   appearing   18x :     4 unique captions
-  appearing   20x :    39 unique captions
-  appearing   22x :     7 unique captions
-  appearing   24x :    18 unique captions
+  appearing   20x :    37 unique captions
+  appearing   22x :     6 unique captions
+  appearing   24x :    17 unique captions
   appearing   26x :     6 unique captions
-  appearing   28x :    14 unique captions
-  appearing   30x :     1 unique captions
+  appearing   28x :    12 unique captions
+  appearing   30x :     2 unique captions
   appearing   32x :    11 unique captions
   appearing   34x :     1 unique captions
-  appearing   36x :     4 unique captions
-  appearing   38x :     1 unique captions
+  appearing   36x :     5 unique captions
   appearing   40x :     7 unique captions
   appearing   44x :     2 unique captions
-  appearing   48x :     2 unique captions
-  appearing   52x :     2 unique captions
+  appearing   48x :     1 unique captions
+  appearing   52x :     1 unique captions
   appearing   54x :     1 unique captions
   appearing   56x :     4 unique captions
   appearing   60x :     1 unique captions
   appearing   64x :     1 unique captions
-  appearing   68x :     4 unique captions
+  appearing   68x :     3 unique captions
   appearing   72x :     4 unique captions
   appearing   74x :     2 unique captions
   appearing   80x :     1 unique captions
@@ -55,10 +54,14 @@ frequency distribution (how many captions appear N times):
   appearing  112x :     1 unique captions
   appearing  124x :     1 unique captions
   appearing  142x :     1 unique captions
+  appearing  160x :     1 unique captions
+  appearing  194x :     1 unique captions
   appearing  248x :     1 unique captions
 
 top 25 most-broadcast captions (LLM only sees these once):
    248x  [Sapore            ] salato
+   194x  [Spessore della Cro] Media
+   160x  [Spessore della Cro] Sottile
    142x  [Aroma             ] panna
    124x  [Texture           ] asciutto
    112x  [Sapore            ] Equilibrato
@@ -74,7 +77,6 @@ top 25 most-broadcast captions (LLM only sees these once):
     72x  [Spessore della Cro] 10 mm
     72x  [Sapore            ] acido
     72x  [Profumo           ] Leggero
-    68x  [Spessore della Cro] Sottile
     68x  [Sapore            ] leggermente amaro
     68x  [Sapore            ] Leggermente acido
     68x  [Profumo           ] panna
@@ -82,4 +84,3 @@ top 25 most-broadcast captions (LLM only sees these once):
     60x  [Spessore della Cro] Regolare
     56x  [Texture           ] Leggermente asciutto
     56x  [Colore della Pasta] Giallo carico
-    56x  [Aroma             ] latte cotto;

@@ -8,7 +8,6 @@ Spessore della Crosta::alto spessore,Spessore della Crosta,Alto spessore,4,5
 Struttura della Pasta::fine è stirata in centro grossolana verso scalzo,Struttura della Pasta,Fine è stirata in centro grossolana verso scalzo,4,6
 Colore della Pasta::macchia alone centrale rosato,Colore della Pasta,Macchia alone centrale rosato,4,7
 Colore della Pasta::più che macchie è striscia rosata,Colore della Pasta,Più che macchie è striscia rosata,4,8
-Colore della Pasta::brutta,Colore della Pasta,Brutta,4,9
 Sapore::leggermente acido,Sapore,Leggermente acido,68,10
 Struttura della Pasta::effetto a scaglie in alcune zone,Struttura della Pasta,Effetto a scaglie in alcune zone,4,11
 Struttura della Pasta::impercettibile micro occhiatura centrale,Struttura della Pasta,Impercettibile micro Occhiatura centrale,4,12
@@ -61,7 +60,6 @@ Profumo::poco intenso,Profumo,Poco intenso,40,203
 Aroma::intensità bassa,Aroma,Intensità bassa,4,204
 Colore della Pasta::alone tendente al rosato,Colore della Pasta,Alone tendente al rosato,8,205
 Profumo::ottima intensità,Profumo,Ottima intensità,4,206
-Aroma::al primo tentativo si e chiuso il test senza la schermata dei commenti poi sono ripartita dal 124 e ha funzionat causa errore scelta vassoio l'ordine di valutazione è stato 851 555 795 963 124 i campioni 851 e 795 vanno invertiti,Aroma,Al primo tentativo si e chiuso il test senza la schermata dei commenti poi sono ripartita dal 124 e ha funzionat Causa errore scelta vassoio l'ordine di valutazione è stato 851 555 795 963 124 i campioni 851 e 795 vanno Invertiti,4,207
 Aroma::poco intenso,Aroma,Poco intenso,16,208
 Struttura della Pasta::effetto a scaglie,Struttura della Pasta,Effetto a scaglie,8,210
 Profumo::solo all'apertura odore stantio,Profumo,Solo all'apertura odore stantio,4,268
@@ -229,7 +227,6 @@ Struttura della Pasta::divisa a metà una parte grana grossa regolare una stirat
 Struttura della Pasta::molti piccoli occhi da circa 3 4 mm perlopiù su meta forma,Struttura della Pasta,Molti piccoli occhi da circa 3-4 mm perlopiù su meta forma,4,988
 Profumo::elegante kiwi,Profumo,Elegante... Kiwi,4,989
 Sapore::equilibrato con note anche dolci,Sapore,Equilibrato con note anche dolci,8,990
-Struttura della Pasta::scarsa,Struttura della Pasta,Scarsa,4,991
 Colore della Pasta::appena più saturo verso il centro poco poco,Colore della Pasta,Appena più saturo verso il centro. Poco poco,4,992
 Colore della Pasta::aree verdi e grigie ma limitatissima,Colore della Pasta,Aree verdi e grigie ma limitatissima,4,993
 Sapore::amaro,Sapore,Amaro,96,1004
@@ -426,7 +423,6 @@ Profumo::all'inizio stalla ma lo cala,Profumo,All'inizio stalla...ma lo cala,10,
 Spessore della Crosta::1 scalzo brutto,Spessore della Crosta,1 scalzo brutto,10,1943
 Struttura della Pasta::area centrale con struttura ruvida,Struttura della Pasta,Area centrale con struttura ruvida,10,1944
 Struttura della Pasta::nel complesso bella struttura con grana omogenea e frattura netta presenza di microocchiatura diffusa molto fine a colpo d'occhio trascurabile,Struttura della Pasta,"Nel complesso bella struttura con grana omogenea e frattura netta. Presenza di microocchiatura diffusa molto fine, a colpo d'occhio trascurabile",10,1945
-Struttura della Pasta::bella,Struttura della Pasta,Bella,18,1947
 Struttura della Pasta::grande e diffusa area spagnola centrale,Struttura della Pasta,Grande e diffusa area spagnola centrale,10,1948
 Colore della Pasta::una macchia grigia,Colore della Pasta,Una macchia grigia,10,1949
 Colore della Pasta::alone centrale giallo verde con macchie scure,Colore della Pasta,Alone centrale giallo verde con macchie scure,10,1950
@@ -595,7 +591,6 @@ Spessore della Crosta::più spessi i piatti,Spessore della Crosta,Più spessi i 
 Struttura della Pasta::disidratata sotto un piatto,Struttura della Pasta,Disidratata sotto un piatto,4,3299
 Colore della Pasta::un dubbio su una chiazza rosata,Colore della Pasta,Un dubbio su una chiazza rosata,4,3300
 Colore della Pasta::non paglierino forse appena più oxidato in centro,Colore della Pasta,Non paglierino. Forse appena più oxidato in centro,4,3301
-Profumo::ottimo,Profumo,Ottimo,4,3303
 Sapore::bassa intensità di sapore ma equilibrato,Sapore,"Bassa intensità di sapore, ma equilibrato",4,3304
 Colore della Pasta::paglierino ove chiaro,Colore della Pasta,Paglierino ove chiaro,4,3306
 Profumo::all'apertura solvente liquame,Profumo,All'apertura solvente liquame,4,3320
@@ -3735,7 +3730,6 @@ Sapore::piccante e acido,Sapore,piccante e acido,4,22366
 Aroma::come al naso anche in bocca la nota di brodo [ marcata ma nel complesso abbastanza equilibrato,Aroma,"come al naso, anche in bocca la nota di brodo [ marcata ma nel complesso abbastanza equilibrato",4,22368
 Aroma::grana e burro anche,Aroma,grana e burro anche,4,22373
 Aroma::note di brodo e erba,Aroma,note di brodo e erba,4,22379
-Texture::buona,Texture,buona,4,22381
 Texture::ascoiutto e granuloso cristalli e ben solub,Texture,ascoiutto e granuloso cristalli e ben solub,4,22384
 Texture::asciutto poca solubilità,Texture,"asciutto, poca solubilità",4,22386
 Texture::friabile non asciutto qulache microcristallo buona microstruttura,Texture,"Friabile, non asciutto. qulache microcristallo. buona microstruttura",4,22389
@@ -4223,8 +4217,6 @@ Texture::umido solubile in bocca,Texture,"umido, solubile in bocca",4,26002
 Texture::morbido a grana fine leggermente pastoso e asciutto con cristalli ben percepibili e piuttosto solubile,Texture,"morbido a grana fine, leggermente pastoso e asciutto, con cristalli ben percepibili e piuttosto solubile.",4,26004
 Texture::morbido e umido cedevole anche se friabilità' non perfetta microstruttura media non fine,Texture,"morbido e umido. cedevole, anche se friabilità' non perfetta. microstruttura media, non fine",4,26005
 Texture::morbido umido e solubile,Texture,"morbido, umido e solubile...",4,26006
-Texture::scarsa,Texture,scarsa,4,26007
-Spessore della Crosta::buono,Spessore della Crosta,Buono,4,26011
 Spessore della Crosta::vario mediamente 11 mm,Spessore della Crosta,Vario... Mediamente 11 mm,4,26017
 Spessore della Crosta::uniforme 1cm,Spessore della Crosta,Uniforme 1cm,4,26018
 Struttura della Pasta::mista ma regolare,Struttura della Pasta,Mista ma regolare,4,26019
@@ -5145,7 +5137,6 @@ Texture::morbido con cristalli granuloso lascia un poco di residuo,Texture,morbi
 Texture::molti cristalli anche grossi friabile asciutto microstruttura fine,Texture,"molti cristalli, anche grossi. friabile, asciutto. microstruttura fine",4,32317
 Texture::assenza di cristalli e granulosit',Texture,assenza di cristalli e granulosit';,4,32318
 Texture::compatto praticamente non granuloso solubile asciutto,Texture,"compatto, praticamente non granuloso, solubile,asciutto.",4,32321
-Texture::non lo so ho docuto sputarlo,Texture,"non lo so, ho docuto sputarlo",4,32322
 Texture::cedevole ancora umida poco granulosa,Texture,"cedevole, ancora umida, poco granulosa",4,32323
 Texture::manca umidità' e solubilità,Texture,manca umidità' e solubilità,4,32324
 Spessore della Crosta::colore sottocrosta sganciato sfuma verso linterno,Spessore della Crosta,Colore sottocrosta sganciato sfuma verso linterno,4,32327
@@ -5527,7 +5518,6 @@ Sapore::al palato piccante abbastanza persistente con note di amaro,Sapore,al pa
 Spessore della Crosta::piatto circa 10mm scalzo e spigoli circa 15mm la colorazione mattoncino imputabile alla crosta è molto sfumata e per un piatto va verso i 20mm media 11mm,Spessore della Crosta,Piatto circa 10mm Scalzo e spigoli circa 15mm La colorazione mattoncino imputabile alla crosta è molto sfumata e per un Piatto va verso i 20mm Media 11mm,4,35709
 Spessore della Crosta::mediamente 0 9,Spessore della Crosta,"Mediamente 0,9",8,35711
 Spessore della Crosta::1 1 con sottocrosta marcato,Spessore della Crosta,"1,1 con sottocrosta marcato",4,35713
-Spessore della Crosta::ok,Spessore della Crosta,Ok,4,35717
 Struttura della Pasta::microocchiatura centrale diffusa struttura non omogenea,Struttura della Pasta,Microocchiatura centrale diffusa Struttura non omogenea,4,35719
 Struttura della Pasta::fitta microocchiatura inf 1 mm,Struttura della Pasta,Fitta microocchiatura inf 1 mm,4,35720
 Struttura della Pasta::microocchiatura diffusa molto impattante visivamente struttura grandiosa regolare,Struttura della Pasta,Microocchiatura diffusa molto impattante visivamente Struttura grandiosa regolare,4,35723
@@ -5541,7 +5531,6 @@ Colore della Pasta::chiaro ma tendente al grigio uniforme con leggera sfumatura 
 Colore della Pasta::colore leggermente carico ma omogeneo,Colore della Pasta,Colore leggermente carico ma omogeneo,4,35733
 Colore della Pasta::più scura verso un piatto,Colore della Pasta,Più scura verso un piatto,4,35735
 Colore della Pasta::omogenea e intensa,Colore della Pasta,Omogenea e intensa,4,35736
-Colore della Pasta::bello,Colore della Pasta,Bello,4,35737
 Profumo::sbilanciato sul vegetale e sul brodo di verdura nota lattica presente ma comunque poco intensa,Profumo,"sbilanciato sul vegetale e sul brodo di verdura, nota lattica presente ma comunque poco intensa",4,35739
 Profumo::yogurt frutta tropicale,Profumo,"yogurt,frutta tropicale",8,35740
 Profumo::sentore di cotto,Profumo,sentore di cotto,4,35742
@@ -5620,7 +5609,6 @@ Aroma::leggero sentore di fermentato,Aroma,leggero sentore di fermentato,4,36905
 Aroma::erbe amarognole,Aroma,erbe amarognole,4,36911
 Aroma::fieno brodo,Aroma,"fieno, brodo",4,36912
 Texture::granulosa mediamente umida solubile,Texture,"granulosa, mediamente umida, solubile",4,36915
-Texture::discreta,Texture,DISCRETA,4,36916
 Texture::orbido pastoso con cristalli lascia sabbietta finale,Texture,orbido pastoso con cristalli lascia sabbietta finale,4,36920
 Texture::morbido friabile cristalli pochi fini un poco asciutto al più,Texture,"morbido, friabile, cristalli pochi fini. un poco asciutto al più",4,36922
 Texture::media con umidità' abbastanza prevalente,Texture,media con umidità' abbastanza prevalente,4,36924
@@ -6624,7 +6612,6 @@ Sapore::un poco salato percepisco amaro e acidità,Sapore,un poco salato. percep
 Sapore::abbastanza equilibrato anche se percepisco una leggera nota di amaro,Sapore,abbastanza equilibrato anche se percepisco una leggera nota di amaro,4,44714
 Aroma::tostato eccessivo,Aroma,tostato eccessivo,4,44715
 Aroma::crosta di pane,Aroma,crosta di pane,4,44716
-Aroma::mah,Aroma,mah,4,44718
 Aroma::non da grana emmental,Aroma,non da grana emmental,4,44722
 Aroma::quasi bruciato liquirizia caramello legno,Aroma,"quasi bruciato, liquirizia, caramello, legno",4,44724
 Texture::abbastanza duro umido grana fine solubile,Texture,"abbastanza duro, umido, grana fine, solubile",4,44727
@@ -6806,7 +6793,6 @@ Sapore::leggermente acido nel complesso equilibrato poco picccante,Sapore,"legge
 Sapore::piccantino finale umami,Sapore,"piccantino finale, umami",2,46310
 Aroma::difettoso stantio legno crosta di formaggio secca,Aroma,"difettoso, stantio, legno, crosta di formaggio secca",2,46311
 Aroma::stantio tostato forte animale,Aroma,"stantio, tostato forte, animale",2,46315
-Aroma::scarso,Aroma,Scarso,2,46318
 Aroma::crosta da grana vecchio speziato animale,Aroma,"crosta, da grana vecchio, speziato, animale",2,46322
 Texture::evidentemente asciutta ma granulosa solubile,Texture,"evidentemente asciutta, ma granulosa, solubile",2,46323
 Texture::poco solubile pastoso,Texture,"poco solubile, pastoso",2,46324
@@ -7417,7 +7403,6 @@ Profumo::balsamico liquirizia,Profumo,Balsamico liquirizia,4,49791
 Colore della Pasta::macchie rosate difficili da vedere,Colore della Pasta,Macchie rosate difficili da vedere,4,49792
 Profumo::caffè cacao amaro,Profumo,"Caffè,cacao amaro",4,49793
 Colore della Pasta::fascia bianca con zona diffusa rosa,Colore della Pasta,Fascia bianca con zona diffusa rosa,4,49795
-Colore della Pasta::peccato,Colore della Pasta,Peccato,4,49796
 Profumo::erbe balsamiche,Profumo,Erbe Balsamiche,12,49803
 Sapore::ottimo equilibrio tra le diverse note,Sapore,Ottimo equilibrio tra le diverse note,4,49804
 Sapore::salato e piccante disarmonico,Sapore,Salato e piccante disarmonico,4,49805
@@ -7743,7 +7728,6 @@ Sapore::poco umami gusto poco pieno,Sapore,"Poco umami, Gusto poco pieno",4,5178
 Struttura della Pasta::presenza di occhi piccoli e grandi 4 e 9 mm spugnatura di grande superficie diverse fratture di 3 e 4 cm,Struttura della Pasta,"Presenza di occhi piccoli e grandi 4 e 9 mm, spugnatura di grande superficie, diverse fratture di 3 e 4, Cm",4,51788
 Aroma::i 4 campioni sono legge4mente diversi uno è più umido gli altri molto più asciutti,Aroma,"I 4 campioni sono legge4mente diversi, uno è più umido, gli altri molto più asciutti",4,51789
 Struttura della Pasta::ampia area spugnosa,Struttura della Pasta,Ampia area spugnosa,4,51792
-Colore della Pasta::valutazione alle 13 40,Colore della Pasta,ValutazIone alle 13:40,4,51793
 Profumo::funghi freschi,Profumo,Funghi freschi,8,51849
 Texture::cristalli anche troppi,Texture,Cristalli anche troppi,8,51850
 Spessore della Crosta::1 piatto molto fine,Spessore della Crosta,1 piatto molto fine,8,51851

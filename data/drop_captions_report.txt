@@ -1,0 +1,27 @@
+unique captions  : input=7758, kept=7742, dropped=16
+full rows        : input=39356, kept=39280, dropped=76 (0.19%)
+
+drops by category (full rows):
+  PURE_EVAL       64 rows
+  SYSTEM_META     12 rows
+
+## PURE_EVAL (showing all 13 unique)
+     18x  [Struttura della Pa] Bella
+      4x  [Texture           ] scarsa
+      4x  [Texture           ] buona
+      4x  [Texture           ] DISCRETA
+      4x  [Struttura della Pa] Scarsa
+      4x  [Spessore della Cro] Ok
+      4x  [Spessore della Cro] Buono
+      4x  [Profumo           ] Ottimo
+      4x  [Colore della Pasta] Peccato
+      4x  [Colore della Pasta] Brutta
+      4x  [Colore della Pasta] Bello
+      4x  [Aroma             ] mah
+      2x  [Aroma             ] Scarso
+
+## SYSTEM_META (showing all 3 unique)
+      4x  [Texture           ] non lo so, ho docuto sputarlo
+      4x  [Colore della Pasta] ValutazIone alle 13:40
+      4x  [Aroma             ] Al primo tentativo si e chiuso il test senza la schermata dei commenti poi sono ripartita 
+
