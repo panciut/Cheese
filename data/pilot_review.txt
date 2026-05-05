@@ -1,0 +1,234 @@
+pilot rewrite review — 105 captions, ok=105, errors=0
+model=claude-haiku-4-5
+
+
+## Aroma
+
+  freq= 142  raw : panna
+             clean: Aroma di panna.
+  freq=  92  raw : cotto
+             clean: Aroma cotto.
+  freq=  56  raw : crosta di formaggio
+             clean: Aroma di crosta di formaggio.
+  freq=  56  raw : latte cotto;
+             clean: Aroma di latte cotto.
+  freq=  36  raw : Non piacevole!!!
+             clean: Aroma non piacevole.
+  freq=  24  raw : crosta
+             clean: Aroma di crosta.
+  freq=   4  raw : latte cotto leggero
+             clean: Aroma di latte cotto leggero.
+  freq=   4  raw : principalmente lattico cotto
+             clean: Aroma principalmente lattico cotto.
+  freq=   4  raw : leggera crosta di formaggio
+             clean: Aroma di crosta di formaggio leggero.
+  freq=   4  raw : panna e leggero di cotto
+             clean: Aroma di panna cotta e leggero.
+  freq=   4  raw : lattico
+             clean: Aroma lattico.
+  freq=   4  raw : Torna un cattivo sentore. Tanta frutta secca . Nocciola
+             clean: Aroma di nocciola e frutta secca con un sentore sgradevole.
+  freq=   4  raw : come al naso, anche in bocca la nota di brodo [ marcata ma nel complesso abbastanza equilibrato
+             clean: Aroma di brodo marcato, nel complesso abbastanza equilibrato.
+  freq=   4  raw : aroma abbastanza piatto, con note di burro fuso e formaggio cotto
+             clean: Aroma abbastanza piatto con note di burro fuso e formaggio cotto.
+  freq=   2  raw : rispetto al naso, meno carenti le note evolute del glutammato, rimangono le note lattiche della panna e del burro fuso, equilibrato
+             clean: Aroma con note lattiche di panna e burro fuso, note evolute di glutammato e equilibrato.
+
+## Colore della Pasta
+
+  freq=  80  raw : Alone centrale
+             clean: Pasta con alone centrale.
+  freq=  74  raw : Omogeneo
+             clean: Pasta di colore omogeneo.
+  freq=  56  raw : Giallo carico
+             clean: Pasta di colore giallo carico.
+  freq=  52  raw : Carico al centro
+             clean: Pasta di colore carico al centro.
+  freq=  40  raw : Leggero alone centrale
+             clean: Pasta con leggero alone centrale.
+  freq=   4  raw : Colore chiaro appena più carico al centro, poco comunque. Mi pare vedere macchia rosa sul taglio. Non sono sicuro, non penaizzo
+             clean: Pasta di colore chiaro con leggera tonalità più carica al centro e macchia rosata sul taglio.
+  freq=   4  raw : Giallo omogeneo, non troppo carico
+             clean: Pasta di colore giallo omogeneo, non troppo carico.
+  freq=   4  raw : Aree grigiastro sotto i piatti
+             clean: Pasta con aree grigiastre sotto la sottocrosta.
+  freq=   4  raw : Angoli particolarmente colorati
+             clean: Pasta con angoli particolarmente colorati.
+  freq=   4  raw : Colore non saturo appena più Chiaro verso un piatto e uno scalzo
+             clean: Pasta di colore non saturo, appena più chiara verso il piatto e uno scalzo.
+  freq=   4  raw : Chiaro e unif
+             clean: Pasta di colore chiaro e uniforme.
+  freq=   4  raw : Colore chiaro ed omogeneo
+             clean: Pasta di colore chiaro e omogeneo.
+  freq=   4  raw : Giallo carico con macchia marrone
+             clean: Pasta di colore giallo carico con macchia marrone.
+  freq=   4  raw : Giallo chiaro omogeneo verso paglierino
+             clean: Pasta di colore giallo chiaro omogeneo, tendente al paglierino.
+  freq=   4  raw : Mediamente carico abbastanza omogeneo ma con lieve alone rosato
+             clean: Pasta di colore mediamente carico, abbastanza omogeneo con lieve alone rosato.
+
+## Profumo
+
+  freq=  72  raw : Leggero
+             clean: Profumo leggero.
+  freq=  68  raw : panna
+             clean: Profumo di panna.
+  freq=  44  raw : brodo
+             clean: Profumo di brodo.
+  freq=  40  raw : Poco intenso
+             clean: Profumo poco intenso.
+  freq=  34  raw : Crauti
+             clean: Profumo di crauti.
+  freq=  10  raw : Bella intensità
+             clean: Profumo di buona intensità.
+  freq=   4  raw : Strano. A tratti sentiva di pesce. Perplesso
+             clean: Profumo con note di pesce.
+  freq=   4  raw : bouquet moderato con note vegetali e di brodo vegetale, latte, crosta
+             clean: Profumo moderato con note vegetali, brodo vegetale e latte, sentore di crosta.
+  freq=   4  raw : Brodo di carna, burro fuso e latte cotto, leggero sottobosco e tostato
+             clean: Profumo di brodo animale, burro fuso e latte cotto, con leggere note di sottobosco e tostato.
+  freq=   4  raw : Lattici moderatamente intensi, anche cotti, leggero fermentato non spiacevole
+             clean: Profumo di note lattiche moderatamente intense, cotte, con leggero sentore fermentato.
+  freq=   4  raw : leggero/moderato come intensità'. note di pane tostato. burro, latte cotto. fungo/tartufo
+             clean: Profumo da leggero a moderato di pane tostato, burro e latte cotto, con sentori di fungo e tartufo.
+  freq=   4  raw : Sa di grasso di prosciutto crudo
+             clean: Profumo di grasso di prosciutto crudo.
+  freq=   4  raw : Agrumi (all'apertura)
+             clean: Profumo di agrumi all'apertura.
+  freq=   4  raw : sentore di crosta e di latte cotto
+             clean: Profumo di crosta e latte cotto.
+  freq=   4  raw : Minerale-roccia
+             clean: Profumo minerale-roccioso.
+
+## Sapore
+
+  freq= 248  raw : salato
+             clean: Sapore salato.
+  freq= 112  raw : Equilibrato
+             clean: Sapore equilibrato.
+  freq= 110  raw : leggermente salato
+             clean: Sapore leggermente salato.
+  freq=  98  raw : piccante
+             clean: Sapore piccante.
+  freq=  96  raw : Amaro
+             clean: Sapore amaro.
+  freq=  10  raw : Solo salato e acido
+             clean: Sapore salato e acido.
+  freq=   8  raw : Amaro prevalente
+             clean: Sapore amaro prevalente.
+  freq=   8  raw : Sapore poco intenso ma equilibrato
+             clean: Sapore poco intenso ma equilibrato.
+  freq=   4  raw : equilibrato con leggera sapidità
+             clean: Sapore equilibrato con leggera sapidità.
+  freq=   4  raw : leggermente acdido
+             clean: Sapore leggermente acido.
+  freq=   4  raw : Poco carattere
+             clean: Sapore poco caratterizzato.
+  freq=   4  raw : Acido e amaro. Manca di tutto il resto
+             clean: Sapore acido e amaro, scarno nel resto.
+  freq=   4  raw : dolce e sa di vecchio
+             clean: Sapore dolce con note di invecchiamento.
+  freq=   4  raw : equilibrato, leggermente amaro il finale
+             clean: Sapore equilibrato con leggermente amaro al finale.
+  freq=   2  raw : poco sapido e senza carattere
+             clean: Sapore poco sapido e scarico di carattere.
+
+## Spessore della Crosta
+
+  freq= 194  raw : Media
+             clean: Crosta di spessore medio.
+  freq= 160  raw : Sottile
+             clean: Crosta sottile.
+  freq=  72  raw : 10 mm
+             clean: Crosta sottile.
+  freq=  72  raw : 12 mm
+             clean: Crosta di spessore medio.
+  freq=  64  raw : 1 cm
+             clean: Crosta spessa.
+  freq=  12  raw : Colore di fondo carico
+             clean: Crosta con colore di fondo carico.
+  freq=   8  raw : Più evidente su 1 piatto
+             clean: Crosta più evidente sulla parte piatta.
+  freq=   4  raw : Begli angoli
+             clean: Crosta con spigoli pronunciati.
+  freq=   4  raw : Mediamente 10 mm con punte maggiori negli angoli
+             clean: Crosta mediamente spessa con spigoli pronunciati.
+  freq=   4  raw : Ne grossa ne fine
+             clean: Crosta di spessore medio.
+  freq=   4  raw : Crosta sempre superiore al cm. Su uno scalzi molto spessa
+             clean: Crosta spessa con scalzo molto pronunciato.
+  freq=   4  raw : Troppo negli angoli
+             clean: Crosta con spessore eccessivo negli angoli.
+  freq=   4  raw : Irregolare, molto più spesso su uno scalzo
+             clean: Crosta irregolare, significativamente più spessa sullo scalzo.
+  freq=   4  raw : 1 cm ma con unghia marcata
+             clean: Crosta di spessore medio con unghia marcata.
+  freq=   4  raw : Piatto sottile lato abbondante
+             clean: Crosta con parte piatta sottile e lato abbastanza spesso.
+
+## Struttura della Pasta
+
+  freq=  54  raw : Stirata
+             clean: Pasta stirata.
+  freq=  40  raw : Ruvida
+             clean: Pasta ruvida.
+  freq=  32  raw : Granulosa
+             clean: Pasta granulosa.
+  freq=  30  raw : Micro occhiatura diffusa
+             clean: Pasta con microocchiatura diffusa.
+  freq=  28  raw : Microocchiatura
+             clean: Pasta con microocchiatura.
+  freq=   8  raw : Striata e spugnosa
+             clean: Pasta striata e spugnosa.
+  freq=   4  raw : Un poco' di microocchiatura
+             clean: Pasta con poca microocchiatura.
+  freq=   4  raw : Non omogenea con piccole aree stirate Presenza microocchiatura su u a parte limitata Frattura non omogenea
+             clean: Pasta non omogenea con piccole aree stirate, microocchiatura su una parte limitata e frattura irregolare.
+  freq=   4  raw : Lieve Microocchiatura, ma diffusa e stirato centralmente
+             clean: Pasta con leggera microocchiatura diffusa e stirata al centro.
+  freq=   4  raw : Frattura irregolare fine bocciatura molto fitta anche sotto crosta
+             clean: Pasta con frattura irregolare, grana fine e microocchiatura molto fitta anche sotto crosta.
+  freq=   4  raw : Qualche microocch, alcune fenditure
+             clean: Pasta con qualche microocchiatura e alcune fenditure.
+  freq=   4  raw : Struttura abbastanza granulosa e definita ma con presenza di micro occhiatura diffusa
+             clean: Pasta abbastanza granulosa e definita con microocchiatura diffusa.
+  freq=   4  raw : Frattura irregolare, striature centrali
+             clean: Pasta con frattura irregolare e striature centrali.
+  freq=   4  raw : Frattura ok ma stiratura a tratti con presenza di micro occhiatura
+             clean: Pasta con frattura regolare, stiratura a tratti e microocchiatura diffusa.
+  freq=   4  raw : Tende a fare piccole scaglie
+             clean: Pasta tendente a formare piccole scaglie.
+
+## Texture
+
+  freq= 124  raw : asciutto
+             clean: Texture asciutta.
+  freq=  90  raw : Compatto
+             clean: Texture compatta.
+  freq=  74  raw : pastoso
+             clean: Texture pastosa.
+  freq=  56  raw : Leggermente asciutto
+             clean: Texture leggermente asciutta.
+  freq=  40  raw : Ingozza
+             clean: Texture che ingozza la bocca.
+  freq=   4  raw : molti cristalli, decente microstruttura, abbastanza solubile
+             clean: Texture con molti cristalli, decente microstruttura e abbastanza solubile.
+  freq=   4  raw : consistenza sabbiosa, poco solubile
+             clean: Texture sabbiosa e poco solubile.
+  freq=   4  raw : asciutto poco granuloso e pastoso poco sol
+             clean: Texture asciutta, poco granulosa e pastosa, poco solubile.
+  freq=   4  raw : compatto, adesivo, poco solubile e poco friabile, poco granuloso, pochi cristalli
+             clean: Texture compatta, adesiva, poco solubile e poco friabile, con pochi cristalli.
+  freq=   4  raw : buona friabilità', presenti cristalli
+             clean: Texture friabile con cristalli presenti.
+  freq=   4  raw : consistenza, solubilità e friabilità molto buone;non ben distribuita la tirosina
+             clean: Texture con buona consistenza, solubilità e friabilità; tirosina non ben distribuita.
+  freq=   4  raw : molto friabile, solubile
+             clean: Texture molto friabile e solubile.
+  freq=   4  raw : un poco umida, mediamente granulosa, mediamente solubile, pochi cristalli
+             clean: Texture leggermente umida, mediamente granulosa, mediamente solubile, con pochi cristalli.
+  freq=   4  raw : umido e solubile
+             clean: Texture umida e solubile.
+  freq=   4  raw : mediamente dura, granulosa, solubile, gradevole
+             clean: Texture mediamente dura, granulosa e solubile.

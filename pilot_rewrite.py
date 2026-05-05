@@ -56,7 +56,8 @@ OUT_CSV = ROOT / "data" / "pilot_rewrites.csv"
 OUT_REVIEW = ROOT / "data" / "pilot_review.txt"
 
 MODEL = "claude-haiku-4-5"
-MAX_WORKERS = 8
+MAX_WORKERS = 3
+MAX_RETRIES = 6  # SDK retries 429 / 5xx with exponential backoff
 
 
 def stratified_sample(rows: list[dict], n_per_attr: int, seed: int) -> list[dict]:
@@ -115,7 +116,7 @@ def main() -> None:
     sampled = stratified_sample(unique, args.n, args.seed)
     print(f"sampled {len(sampled)} captions across {len(ATTRIBUTE_CONFIG)} attributes")
 
-    client = anthropic.Anthropic(api_key=api_key)
+    client = anthropic.Anthropic(api_key=api_key, max_retries=MAX_RETRIES)
 
     n_ok = n_err = 0
     results: list[dict] = []
