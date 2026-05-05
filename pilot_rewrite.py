@@ -24,6 +24,32 @@ import anthropic
 
 from rewrite_prompt import ATTRIBUTE_CONFIG, build_system_prompt, build_user_prompt
 
+
+def load_api_key() -> str:
+    """Load the Anthropic API key from .env or environment.
+
+    Accepts either CLAUDE_KEY or ANTHROPIC_API_KEY. .env is parsed with a
+    minimal reader so we don't add a python-dotenv dependency.
+    """
+    env_path = Path(__file__).resolve().parent / ".env"
+    if env_path.exists():
+        for raw in env_path.read_text().splitlines():
+            line = raw.strip()
+            if not line or line.startswith("#") or "=" not in line:
+                continue
+            k, v = line.split("=", 1)
+            k = k.strip().upper()  # normalize var names to uppercase
+            v = v.strip().strip('"').strip("'")
+            if k and k not in os.environ:
+                os.environ[k] = v
+    key = os.environ.get("ANTHROPIC_API_KEY") or os.environ.get("CLAUDE_KEY")
+    if not key:
+        sys.exit(
+            "error: no API key found. Set CLAUDE_KEY or ANTHROPIC_API_KEY "
+            "in .env or the environment."
+        )
+    return key
+
 ROOT = Path("/Users/marcopanciera/vsworkspace/Cheese")
 SRC = ROOT / "data" / "captions_to_rewrite.csv"
 OUT_CSV = ROOT / "data" / "pilot_rewrites.csv"
@@ -80,8 +106,7 @@ def main() -> None:
     p.add_argument("--seed", type=int, default=42)
     args = p.parse_args()
 
-    if not os.getenv("ANTHROPIC_API_KEY"):
-        sys.exit("error: set ANTHROPIC_API_KEY")
+    api_key = load_api_key()
 
     with SRC.open() as fh:
         unique = list(csv.DictReader(fh))
@@ -90,7 +115,7 @@ def main() -> None:
     sampled = stratified_sample(unique, args.n, args.seed)
     print(f"sampled {len(sampled)} captions across {len(ATTRIBUTE_CONFIG)} attributes")
 
-    client = anthropic.Anthropic()
+    client = anthropic.Anthropic(api_key=api_key)
 
     n_ok = n_err = 0
     results: list[dict] = []
