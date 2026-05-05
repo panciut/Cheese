@@ -1,0 +1,314 @@
+# NON_DESCRITTO captions with vocabulary matches — possibly salvageable
+
+## Profumo (54 candidates)
+
+  freq= 14  vocab_matches=3  : Difettato? Odori strani...
+  freq= 12  vocab_matches=1  : chiuso
+  freq= 12  vocab_matches=1  : Molto elegante
+  freq= 10  vocab_matches=5  : Profumo anomalo alla prima occasione fa diminuire i voto
+  freq=  8  vocab_matches=2  : Solo all'apertura poi no l'ho sento
+  freq=  8  vocab_matches=1  : leggermente difettoso
+  freq=  4  vocab_matches=5  : Sento poco. Non so se perché raffreddato o perché povero il fromage
+  freq=  4  vocab_matches=5  : Intensità messa negativa perché non piacevole, puzza,,,,
+  freq=  4  vocab_matches=4  : non tipico da altro formaggio cotto
+  freq=  4  vocab_matches=4  : dicreto buono in 3 pezzi su 4, ma in 1 c'è del marcio, putrido
+  freq=  4  vocab_matches=4  : Un campione con odore positivo, 3 con odore negativo
+  freq=  4  vocab_matches=4  : Crosta in senso positivo (in precedenza poteva essere positivo o negativo)
+  freq=  4  vocab_matches=3  : Strano. A tratti sentiva di pesce. Perplesso
+  freq=  4  vocab_matches=3  : Prima olfazione non gradita. La definisco nostrano
+  freq=  4  vocab_matches=3  : Peccato per sfumatura bruciata!
+  freq=  4  vocab_matches=3  : Non molto buono come impatto iniziale
+  freq=  4  vocab_matches=3  : Molto diversi i 4 pezzi e all'apertura
+  freq=  4  vocab_matches=3  : Al primo impatto non buono
+  freq=  4  vocab_matches=2  : tendenzialmente positivo difetti assenti
+  freq=  4  vocab_matches=2  : non percettibile. senza odore
+  freq=  4  vocab_matches=2  : non percesco particolari odori
+  freq=  4  vocab_matches=2  : no difetti ma non tipico
+  freq=  4  vocab_matches=2  : marcio, putrido,
+  freq=  4  vocab_matches=2  : leggermente odore anomalo che non riconsoco
+  freq=  4  vocab_matches=2  : equilibrato, piacevole
+  freq=  4  vocab_matches=2  : difetti e pregi che si annullano
+  freq=  4  vocab_matches=2  : Un solo pezzo aveva un pessimo odore
+  freq=  4  vocab_matches=2  : Solo una porzione su 4 è fortemente negativa
+  freq=  4  vocab_matches=2  : Il sentore di nostrano é un dubbio
+  freq=  4  vocab_matches=2  : Complesso e piacevole
+  freq=  4  vocab_matches=1  : solvente ___(
+  freq=  4  vocab_matches=1  : niente di particolare
+  freq=  4  vocab_matches=1  : nessu aroma particoare
+  freq=  4  vocab_matches=1  : formaggio pronto
+  freq=  4  vocab_matches=1  : difettoso
+  freq=  4  vocab_matches=1  : Troppo debole per valutare con sicurezza
+  freq=  4  vocab_matches=1  : Troppa crosta
+  freq=  4  vocab_matches=1  : Soprattutto all'apertura
+  freq=  4  vocab_matches=1  : Qualcosa di non ottimale che non so definire
+  freq=  4  vocab_matches=1  : Putrido, trremendo
+  freq=  4  vocab_matches=1  : Proprio aggressivo non piacevole
+  freq=  4  vocab_matches=1  : Polvere anche,,,
+  freq=  4  vocab_matches=1  : Poco intenso manca tra i commenti?
+  freq=  4  vocab_matches=1  : Piacevole
+  freq=  4  vocab_matches=1  : Oggi sono raffreddato
+  freq=  4  vocab_matches=1  : Non so se ho scritto che son raffreddato
+  freq=  4  vocab_matches=1  : Non sa di grana
+  freq=  4  vocab_matches=1  : Non equilibrato nell' espressione
+  freq=  4  vocab_matches=1  : Non buono
+  freq=  4  vocab_matches=1  : Molto buono!
+  freq=  4  vocab_matches=1  : Crosta solo accennata
+  freq=  4  vocab_matches=1  : Correggi fieno non meno 1 ma più 0.2
+  freq=  2  vocab_matches=5  : solo spezzando i pezzi e al momento della frattura si avverte puzza di marcio putrido, che x lo più se ne va asciugamdosi
+  freq=  2  vocab_matches=2  : note poco tipiche e caratteristiche
+
+## Aroma (38 candidates)
+
+  freq= 36  vocab_matches=1  : Non piacevole!!!
+  freq= 10  vocab_matches=8  : A proposito della fessure aggiungo : grasso, intuisco e abbasso di mezzo punto il voto
+  freq=  8  vocab_matches=1  : non del tutto positivo
+  freq=  8  vocab_matches=1  : difettoso
+  freq=  8  vocab_matches=1  : Sangue,,,
+  freq=  4  vocab_matches=5  : Il voto inerente a stalla sono stati due momenti e poi sparisce subito, per il salato ne manca un poco’
+  freq=  4  vocab_matches=5  : A proposito del profumo: intensità notevole, ma troppo strano per essere trentunenne. Abbassarsi il voto di 1 punto
+  freq=  4  vocab_matches=4  : ricorda un formaggio per; non tipico da grana
+  freq=  4  vocab_matches=4  : Ok ti sentiti tutti molto leggeri di profumo. Forse perché le mie vie nasali non sono per vie, ahimè
+  freq=  4  vocab_matches=4  : I 4 campioni sono legge4mente diversi, uno è più umido, gli altri molto più asciutti
+  freq=  4  vocab_matches=4  : Crosta meno fastidiosa che al profumo
+  freq=  4  vocab_matches=3  : nota lattea non sentita all-olfatto
+  freq=  4  vocab_matches=3  : Trovato molti cristalli nei pezzi in cui non valutano la texture
+  freq=  4  vocab_matches=3  : Piuttosto anonimo rispetto al naso...
+  freq=  4  vocab_matches=3  : Formaggio non grana... Ma non so dare definizione esatta
+  freq=  4  vocab_matches=3  : All’aroma non sento più il provolone…
+  freq=  4  vocab_matches=2  : povero rispetto a lnaso
+  freq=  4  vocab_matches=2  : note amare e
+  freq=  4  vocab_matches=2  : legge crosta
+  freq=  4  vocab_matches=2  : Più povero che all' olfatto
+  freq=  4  vocab_matches=1  : molto negativo
+  freq=  4  vocab_matches=1  : mi torna una puzza non definita
+  freq=  4  vocab_matches=1  : meglio dell-olfattiva
+  freq=  4  vocab_matches=1  : megilo del naso
+  freq=  4  vocab_matches=1  : formaggio rimasto in frigo troppo tempo
+  freq=  4  vocab_matches=1  : formaggio pronto
+  freq=  4  vocab_matches=1  : formaggio erborinato,
+  freq=  4  vocab_matches=1  : Texture da modificare, troppo friabile.
+  freq=  4  vocab_matches=1  : Sangue…
+  freq=  4  vocab_matches=1  : Passato…
+  freq=  4  vocab_matches=1  : Particolare sensibilità mia al fermentato
+  freq=  4  vocab_matches=1  : Oggi sono raffreddato
+  freq=  4  vocab_matches=1  : Non gradevole
+  freq=  4  vocab_matches=1  : Manca di carattere
+  freq=  4  vocab_matches=1  : Immangiabile Fermentazione da Clostridium sporogenes
+  freq=  4  vocab_matches=1  : Ho con piccante nel Cata
+  freq=  4  vocab_matches=1  : Formaggio con presunta struttura stirata
+  freq=  4  vocab_matches=1  : Anonimo
+
+## Sapore (47 candidates)
+
+  freq= 32  vocab_matches=1  : Nostrano
+  freq= 22  vocab_matches=1  : Grasso
+  freq= 14  vocab_matches=1  : Anonimo però!
+  freq= 12  vocab_matches=1  : Non grana
+  freq= 10  vocab_matches=2  : Anche qua contrasto ma piacevole
+  freq=  8  vocab_matches=2  : crosta di formaggio
+  freq=  8  vocab_matches=2  : Non da grana di 18 20 mesi
+  freq=  4  vocab_matches=9  : Nonostante la percezione di descrittori positivi e negativi lo valuto nel complesso positivo perché non vere ricettività ma caratteristiche attese in un formaggio stagionato
+  freq=  4  vocab_matches=4  : Non sgradevole, ma non lo riconosco come grana. troppo forti odori e consistenze
+  freq=  4  vocab_matches=3  : crosta, formaggio cotto
+  freq=  4  vocab_matches=3  : Troppo rispetto le altre note
+  freq=  4  vocab_matches=3  : Troppo più fante rispetto alle altre sensazioni
+  freq=  4  vocab_matches=3  : Molto leggere le sensazioni segnate sul sapore
+  freq=  4  vocab_matches=2  : nulla domina
+  freq=  4  vocab_matches=2  : formaggio cotto
+  freq=  4  vocab_matches=2  : equilibrio tra le diverse nte
+  freq=  4  vocab_matches=2  : difforme, positivo a zone meno in altre
+  freq=  4  vocab_matches=2  : crosta, sa di vecchio
+  freq=  4  vocab_matches=2  : crosta di formaggio, pane tostato
+  freq=  4  vocab_matches=2  : anonimo con amaro...
+  freq=  4  vocab_matches=2  : Tanto umano, troppo
+  freq=  4  vocab_matches=2  : Sapore di nostrano
+  freq=  4  vocab_matches=2  : Non sono sicuro di percepire dolcezza
+  freq=  4  vocab_matches=2  : Il sapore anomalo. Atipico del grana
+  freq=  4  vocab_matches=2  : Equilibrio travi gusti
+  freq=  4  vocab_matches=2  : Anonimo è debole
+  freq=  4  vocab_matches=2  : Anonimo poco intenso
+  freq=  4  vocab_matches=2  : Anonimo come sapore, poco espresso con...
+  freq=  4  vocab_matches=1  : panna
+  freq=  4  vocab_matches=1  : molto cotto
+  freq=  4  vocab_matches=1  : cotto
+  freq=  4  vocab_matches=1  : Solo leggeri...
+  freq=  4  vocab_matches=1  : Poco carattere
+  freq=  4  vocab_matches=1  : Poco Miami,
+  freq=  4  vocab_matches=1  : Piatto
+  freq=  4  vocab_matches=1  : Non sa da grana
+  freq=  4  vocab_matches=1  : Non me lo ricordavo e mi sono dimenticato di scriverlo su carta
+  freq=  4  vocab_matches=1  : Non male, ma poco caratteristico
+  freq=  4  vocab_matches=1  : Non da grana
+  freq=  4  vocab_matches=1  : Leggermente prevalenti
+  freq=  4  vocab_matches=1  : Leggermente Miami!!
+  freq=  4  vocab_matches=1  : Imperfezioni leggere
+  freq=  4  vocab_matches=1  : Ha quella nota in più
+  freq=  4  vocab_matches=1  : Forse voto troppo alto
+  freq=  4  vocab_matches=1  : Difficile da giudicare perché immangiabile
+  freq=  4  vocab_matches=1  : Ambivalenza dove:-amaro...
+  freq=  2  vocab_matches=1  : scarso in tutto
+
+## Texture (16 candidates)
+
+  freq= 10  vocab_matches=1  : Strano!
+  freq=  8  vocab_matches=2  : Nel complesso non male però
+  freq=  8  vocab_matches=1  : Astringente
+  freq=  4  vocab_matches=3  : attesa per un formaggio stagionato
+  freq=  4  vocab_matches=3  : Ho segnato durezza positiva perché ritengo abbia una bella espressione,
+  freq=  4  vocab_matches=2  : e' un grana giovane da pasto.
+  freq=  4  vocab_matches=2  : Strana consistenza
+  freq=  4  vocab_matches=2  : Non ottimale, anzi non bella!
+  freq=  4  vocab_matches=2  : Fastidioso in bocca
+  freq=  4  vocab_matches=2  : Consistenza strana
+  freq=  4  vocab_matches=1  : come atteso
+  freq=  4  vocab_matches=1  : Piacevole però
+  freq=  4  vocab_matches=1  : Molto equilibrato
+  freq=  4  vocab_matches=1  : Equilibrato
+  freq=  4  vocab_matches=1  : ABBASTANZA BUONA
+  freq=  2  vocab_matches=2  : pochissima tirosina, a
+
+## Spessore della Crosta (59 candidates)
+
+  freq= 24  vocab_matches=3  : Colore Sottocrosta grigiastro
+  freq= 20  vocab_matches=1  : Chiaro
+  freq= 12  vocab_matches=3  : Colore di fondo carico
+  freq= 10  vocab_matches=3  : Difficile da misurare...Comunque c e crosta
+  freq= 10  vocab_matches=1  : Te poi sottocrosta
+  freq=  8  vocab_matches=3  : Colore tenue della crosta
+  freq=  8  vocab_matches=2  : Colore sottocrosta
+  freq=  8  vocab_matches=1  : Pulita
+  freq=  8  vocab_matches=1  : Nella norma
+  freq=  5  vocab_matches=3  : Un sottopiatto tende al verde
+  freq=  4  vocab_matches=7  : Colore sfumato su base scura difficile vedere dove finisce
+  freq=  4  vocab_matches=7  : Colore di fondo carico contrasta meno il colore dello spessore
+  freq=  4  vocab_matches=6  : Poco contrasto dato l'ok colore di fondo carico
+  freq=  4  vocab_matches=6  : Non sono riuscito a inserire il dato comp!Messico , dare7,5
+  freq=  4  vocab_matches=6  : Microocchiatura, occhio, disidratazione, colore quasi verde sotto un piatto
+  freq=  4  vocab_matches=6  : Colore sotto crosta grigio da un lato rossastra dall'altro
+  freq=  4  vocab_matches=5  : Poco contrasto dato il colore di fondo molto carico
+  freq=  4  vocab_matches=5  : Intenso, difetto che dall'esterno entra nellunghia
+  freq=  4  vocab_matches=5  : Grana fine, regolare, piccole occhiature al centro
+  freq=  4  vocab_matches=5  : Difficile vedere lo spessore a causa della disidratazione della pasta
+  freq=  4  vocab_matches=5  : Colore sottocrosta grigiastro su sfondo molto carico
+  freq=  4  vocab_matches=5  : Colore sottocrosta diverso da tutto il resto, rosellino
+  freq=  4  vocab_matches=5  : Colore sottocrosta di colore diverso tra piatti
+  freq=  4  vocab_matches=5  : Colore rossastra da un lato e grigio dall'altro
+  freq=  4  vocab_matches=5  : Colore pasta molto carico lo stacco tra crosta e pasta si vede poco
+  freq=  4  vocab_matches=5  : Colore che sfuma su base di colore molto carico
+  freq=  4  vocab_matches=4  : Poco contrasto per colore scuro della pasta
+  freq=  4  vocab_matches=4  : Colore sottocrosta sganciato sfuma verso linterno
+  freq=  4  vocab_matches=3  : Un sottocrosta tendente al verde
+  freq=  4  vocab_matches=3  : Sotto scalzo zona disidratata e ammuffita
+  freq=  4  vocab_matches=3  : Evidente parte nera
+  freq=  4  vocab_matches=3  : Colori diversi fra i piatti
+  freq=  4  vocab_matches=3  : Colore sottocrosta molto sfumato
+  freq=  4  vocab_matches=3  : Colore sottocrosta aranciato
+  freq=  4  vocab_matches=3  : Colore sfondo molto carico
+  freq=  4  vocab_matches=3  : Colore rosato sottocrosta
+  freq=  4  vocab_matches=3  : Colore rosa sottocrosta
+  freq=  4  vocab_matches=3  : Colore fondo carico
+  freq=  4  vocab_matches=3  : Colore di fondo scuro
+  freq=  4  vocab_matches=3  : Colore carico solo su un piatto
+  freq=  4  vocab_matches=3  : Colore carico della pasta
+  freq=  4  vocab_matches=3  : Colore aranciato molto carico
+  freq=  4  vocab_matches=3  : Colore Sottocrosta sfumato
+  freq=  4  vocab_matches=3  : Almeno la crosta non é male
+  freq=  4  vocab_matches=2  : Sottocrosta rosa
+  freq=  4  vocab_matches=2  : Modellatura nel sotto crosta
+  freq=  4  vocab_matches=2  : Frattura regolare molto granuloso
+  freq=  4  vocab_matches=2  : Egli angoli
+  freq=  4  vocab_matches=2  : Colori diversi
+  freq=  4  vocab_matches=2  : Colore grigiastro
+  freq=  4  vocab_matches=2  : Christine sugli scalzi
+  freq=  4  vocab_matches=2  : 12 km più netta su 1 piatto
+  freq=  4  vocab_matches=1  : Molto chiaro
+  freq=  4  vocab_matches=1  : Colore moltosfumato
+  freq=  4  vocab_matches=1  : Chiara
+  freq=  2  vocab_matches=8  : Micro occhiatura nella zona centrale, anche grossa, 2,3 km. Frattura discreta, grana presente
+  freq=  2  vocab_matches=2  : Piatti senza crosta
+  freq=  2  vocab_matches=1  : Superiore ai 14 km, sempre
+  freq=  2  vocab_matches=1  : Intorno ai 10 km
+
+## Struttura della Pasta (47 candidates)
+
+  freq= 20  vocab_matches=1  : Grassa...
+  freq=  8  vocab_matches=2  : Peccato per occhi ...
+  freq=  8  vocab_matches=1  : Pessima
+  freq=  4  vocab_matches=6  : La parte centrale sembra appartenere ad un'altra forma. La parte esterna sarebbe bellissima
+  freq=  4  vocab_matches=5  : tirosina ASSENTE;friabilità e solubilità MODERATA
+  freq=  4  vocab_matches=5  : friabilità e solubilità MODERATE;TIROSINA leggera
+  freq=  4  vocab_matches=5  : friabilità e solubilità FORTE;tirosina MODERATA
+  freq=  4  vocab_matches=4  : friabilità, solubilità e tirosina FORTE
+  freq=  4  vocab_matches=4  : Mezza forma anche bellina. L'altra metà un disastro
+  freq=  4  vocab_matches=4  : Leggera impugnatura in zona centrale
+  freq=  4  vocab_matches=4  : 1 punto in meno per lo spacco enorme. Una forma così Non dovrebbe arrivare al panel
+  freq=  4  vocab_matches=3  : solubilità e friabilità MODERATO
+  freq=  4  vocab_matches=3  : poco solubile, tende a essere pastoso
+  freq=  4  vocab_matches=3  : Strana anomalia tipo tara/muffa su uno scalzo
+  freq=  4  vocab_matches=3  : Nel commento sottoscala disidratato intendo disidratazione però più nei piatti
+  freq=  4  vocab_matches=2  : poco friabile e solubile
+  freq=  4  vocab_matches=2  : molle e pastoso e asciutto
+  freq=  4  vocab_matches=2  : macchie rosa
+  freq=  4  vocab_matches=2  : Voto positivo non considerando una vistosa spaccatura
+  freq=  4  vocab_matches=2  : Tipo sbrinz
+  freq=  4  vocab_matches=2  : Tantissimi punti di tirosina
+  freq=  4  vocab_matches=2  : Struttura "GRASSA
+  freq=  4  vocab_matches=2  : Strano effetto
+  freq=  4  vocab_matches=2  : Presenza di ossidazione interna
+  freq=  4  vocab_matches=2  : Nel complesso bella!
+  freq=  4  vocab_matches=2  : In un angolo sembra molto più umida
+  freq=  4  vocab_matches=2  : Ideologizzata diffusa con mancanza di struttura
+  freq=  4  vocab_matches=2  : Friabile ma morbido al morso. troppo plastico. incolla ai denti
+  freq=  4  vocab_matches=1  : pastoso
+  freq=  4  vocab_matches=1  : molto morbido
+  freq=  4  vocab_matches=1  : buona solibulit
+  freq=  4  vocab_matches=1  : Un terzo della forma invece è da 8
+  freq=  4  vocab_matches=1  : Umido
+  freq=  4  vocab_matches=1  : Struttura non riuscita
+  freq=  4  vocab_matches=1  : Sporca bruciata in parte
+  freq=  4  vocab_matches=1  : Sbrinz
+  freq=  4  vocab_matches=1  : Non considero lo spacco
+  freq=  4  vocab_matches=1  : Niente di particolare
+  freq=  4  vocab_matches=1  : Nel centro soprattutto
+  freq=  4  vocab_matches=1  : Muffa sotto scalzo
+  freq=  4  vocab_matches=1  : Molto umida
+  freq=  4  vocab_matches=1  : Molto bella
+  freq=  4  vocab_matches=1  : Manca ne commentii cristalli
+  freq=  4  vocab_matches=1  : Macchie
+  freq=  4  vocab_matches=1  : Macchia bianca come fosse muffa
+  freq=  4  vocab_matches=1  : Difettosa
+  freq=  2  vocab_matches=1  : Bel giallo omogeneo quasi nocciola forse troppo carico
+
+## Colore della Pasta (30 candidates)
+
+  freq= 10  vocab_matches=1  : Bel colore!
+  freq=  8  vocab_matches=1  : Molto bello
+  freq=  8  vocab_matches=1  : Difetto so
+  freq=  7  vocab_matches=9  : Tante e vistose fessure da 1 e 2 cm, soprattutto in corrispondenza di un piatto e suoi scalzi, Una grande fessura longitudinale lunga più di 8 cm
+  freq=  5  vocab_matches=6  : Voto basso per colpa della frattura con evidente colore rosa, altrimenti voto alto
+  freq=  4  vocab_matches=9  : Presenza di una potenziale macchia al centro NON CONSIDERATA NEL VOTO perché nascosta dal taglio a coltello
+  freq=  4  vocab_matches=6  : Immatricolata conferisce quasi un colore rosato, ma solo pochi cm dopo la crosta. L'amore è spostato verso uno dei due piatti
+  freq=  4  vocab_matches=5  : Occhiatura da 1 a 2,5mm nella parte centrale della forma Ma frattura di 4 cm
+  freq=  4  vocab_matches=5  : Non ho tenuto conto della macchia dovuta ad una "correzione" dello scalzo Se va considerato il difetto il voto è 5,0
+  freq=  4  vocab_matches=5  : A causa della frattura e del la pasta al centro con un aspetto bagnato pastoso non sono sicura delle macchie
+  freq=  4  vocab_matches=3  : Presenza di ingresso di muffa laterale
+  freq=  4  vocab_matches=3  : Grossa macchia di muffa
+  freq=  4  vocab_matches=3  : Grana fine frattura regolare
+  freq=  4  vocab_matches=3  : Acconciatura presente solo su un lato della forma circa 1mm
+  freq=  4  vocab_matches=2  : Un piccolo strappo
+  freq=  4  vocab_matches=2  : Struttura regolare
+  freq=  4  vocab_matches=2  : Sicura sotto piatto
+  freq=  4  vocab_matches=2  : Piccola rottura
+  freq=  4  vocab_matches=2  : Diversa fra i piatti
+  freq=  4  vocab_matches=2  : Disidratata solo da una parte
+  freq=  4  vocab_matches=1  : Taglio molto inregolare
+  freq=  4  vocab_matches=1  : Regolare
+  freq=  4  vocab_matches=1  : Poi scusa al centro trend è a chuaro
+  freq=  4  vocab_matches=1  : Piatto staccato
+  freq=  4  vocab_matches=1  : In corrispondenza dell'occhio con siero
+  freq=  4  vocab_matches=1  : Gessato
+  freq=  4  vocab_matches=1  : Frattura di 3,5cm
+  freq=  4  vocab_matches=1  : Ampio
+  freq=  4  vocab_matches=1  : Ad aree...
+  freq=  2  vocab_matches=2  : Struttura a tratti difettosa con stiratura
+
