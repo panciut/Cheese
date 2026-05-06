@@ -159,10 +159,30 @@ scheduler still works. On the 4060 Ti previously used in the v1
 project, m5/m6 fine-tunes triggered hardware-reboot crashes during
 backward pass on heavy encoders — those should go to Kaggle.
 
-### Path A on Kaggle in 3 sessions (recommended)
+### Recommended subset (6 trained + 4 baselines) — 2 Kaggle sessions
 
-All 12 trained models + 4 baselines, split into three balanced sessions
-under the 12-hour Kaggle session cap:
+m1, m3, m6 cover the three conceptual axes the brief asks for:
+
+| family | id | encoder | decoder | what it represents |
+|---|---|---|---|---|
+| A | **m1** | CNN-global | LSTM | classical RNN-based captioner |
+| A | **m3** | ViT | Transformer | transformer-everywhere |
+| B | **m6** | ViT | GePpeTto | pretrained-Italian-LM transfer |
+
+Both modes (frozen + fine-tuned) → 6 trained models + 4 baselines = 10 runs.
+
+| session | chunk | runs | est. time |
+|---|---|---|---:|
+| 1 | `S-1` | m1, m3, m6 frozen + 4 baselines | ~5.5 hr |
+| 2 | `S-2` | m1, m3, m6 fine-tuned | ~10 hr |
+| | | **total: 10 results** | **~15.5 hr** |
+
+If session 2 fails, session 1 alone gives a complete "frozen-only"
+story plus all baselines — minimum-viable result.
+
+### Full Path A — 12 trained + 4 baselines, 3 sessions (alternative)
+
+If you want the full ablation (all 6 architectures × frozen/ft):
 
 | session | chunk | runs | est. time |
 |---|---|---|---:|
@@ -171,12 +191,7 @@ under the 12-hour Kaggle session cap:
 | 3 | `A-3` | m5+m6 fine-tuned (heavy) | ~10 hr |
 | | | **total: 16 results** | **~30 hr** |
 
-Total fits within Kaggle's 30 hr/week GPU quota. If a session times out
-or crashes, the next session's chunk is fully independent.
-
-The local-4060-Ti split is still possible if you want to offload some
-of A-2 (small models) — see local-VRAM table below — but Kaggle-only
-is simpler for tracking.
+Fits within Kaggle's 30 hr/week GPU quota.
 
 ## Disk hygiene on Kaggle
 

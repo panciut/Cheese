@@ -23,7 +23,25 @@ early-stopping behaviour. Add a 10-20% safety margin.
 from __future__ import annotations
 
 CHUNKS: dict[str, dict] = {
-    # ---- Path A 3-session split (recommended) ----
+    # ---- Subset (6 trained + 4 baselines) — RECOMMENDED for the brief ----
+    # m1 / m3 / m6 cover the three conceptual axes (CNN+LSTM,
+    # ViT+from-scratch-Tr, ViT+pretrained-LM). Both modes (frozen + ft).
+    # Split into 2 sessions for error containment.
+    "S-1": {
+        "models": ["m1", "m3", "m6"],
+        "modes": ["frozen"],
+        "include_baselines": True,
+        "estimate_hr": 5.5,
+        "description": "Subset session 1: m1+m3+m6 frozen + 4 baselines.",
+    },
+    "S-2": {
+        "models": ["m1", "m3", "m6"],
+        "modes": ["ft"],
+        "estimate_hr": 10.0,
+        "description": "Subset session 2: m1+m3+m6 fine-tuned.",
+    },
+
+    # ---- Path A 3-session split (full 12 trained + 4 baselines) ----
     "A-1": {
         "models": ["m1", "m2", "m3", "m4", "m5", "m6"],
         "modes": ["frozen"],
@@ -124,9 +142,8 @@ CHUNKS: dict[str, dict] = {
 
 
 SUGGESTED_SCHEDULE = [
-    "A-1",   # session 1 (~10.5 hr): all 6 frozen + 4 baselines
-    "A-2",   # session 2 (~9.5 hr): m1+m2+m3+m4 fine-tuned
-    "A-3",   # session 3 (~10 hr): m5+m6 fine-tuned
+    "S-1",   # session 1 (~5.5 hr): m1+m3+m6 frozen + 4 baselines
+    "S-2",   # session 2 (~10 hr): m1+m3+m6 fine-tuned
 ]
 
 
