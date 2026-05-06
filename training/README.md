@@ -159,15 +159,24 @@ scheduler still works. On the 4060 Ti previously used in the v1
 project, m5/m6 fine-tunes triggered hardware-reboot crashes during
 backward pass on heavy encoders — those should go to Kaggle.
 
-### Suggested split for Path A
+### Path A on Kaggle in 3 sessions (recommended)
 
-| where | what | est. time |
-|---|---|---:|
-| local 4060 Ti | m1, m2, m3 frozen+ft (chunk `A-all`) | ~8 hr (overnight) |
-| Kaggle (T4) session 1 | `B-frozen` (m4, m5, m6 frozen) | ~7 hr |
-| Kaggle session 2 | `B-ft-light` (m4, m5 ft) | ~8 hr |
-| Kaggle session 3 | `B-ft-heavy` (m6 ft) | ~6 hr |
-| anywhere | `baselines` | ~30 min |
+All 12 trained models + 4 baselines, split into three balanced sessions
+under the 12-hour Kaggle session cap:
+
+| session | chunk | runs | est. time |
+|---|---|---|---:|
+| 1 | `A-1` | all 6 frozen + 4 baselines | ~10.5 hr |
+| 2 | `A-2` | m1+m2+m3+m4 fine-tuned | ~9.5 hr |
+| 3 | `A-3` | m5+m6 fine-tuned (heavy) | ~10 hr |
+| | | **total: 16 results** | **~30 hr** |
+
+Total fits within Kaggle's 30 hr/week GPU quota. If a session times out
+or crashes, the next session's chunk is fully independent.
+
+The local-4060-Ti split is still possible if you want to offload some
+of A-2 (small models) — see local-VRAM table below — but Kaggle-only
+is simpler for tracking.
 
 ## Disk hygiene on Kaggle
 

@@ -23,6 +23,27 @@ early-stopping behaviour. Add a 10-20% safety margin.
 from __future__ import annotations
 
 CHUNKS: dict[str, dict] = {
+    # ---- Path A 3-session split (recommended) ----
+    "A-1": {
+        "models": ["m1", "m2", "m3", "m4", "m5", "m6"],
+        "modes": ["frozen"],
+        "include_baselines": True,
+        "estimate_hr": 10.5,
+        "description": "Path A session 1: all 6 frozen + 4 baselines.",
+    },
+    "A-2": {
+        "models": ["m1", "m2", "m3", "m4"],
+        "modes": ["ft"],
+        "estimate_hr": 9.5,
+        "description": "Path A session 2: m1+m2+m3+m4 fine-tuned.",
+    },
+    "A-3": {
+        "models": ["m5", "m6"],
+        "modes": ["ft"],
+        "estimate_hr": 10.0,
+        "description": "Path A session 3: m5+m6 fine-tuned (heavy).",
+    },
+
     # ---- Family A — decoder from scratch ----
     "A-frozen": {
         "models": ["m1", "m2", "m3"],
@@ -103,11 +124,9 @@ CHUNKS: dict[str, dict] = {
 
 
 SUGGESTED_SCHEDULE = [
-    "A-all",      # session 1 (~8 hr): m1 m2 m3 frozen + ft
-    "B-frozen",   # session 2 (~7 hr): m4 m5 m6 frozen
-    "B-ft-light", # session 3 (~8 hr): m4 m5 ft
-    "B-ft-heavy", # session 4 (~6 hr): m6 ft
-    "baselines",  # session 5 (~30 min): all 4 baselines
+    "A-1",   # session 1 (~10.5 hr): all 6 frozen + 4 baselines
+    "A-2",   # session 2 (~9.5 hr): m1+m2+m3+m4 fine-tuned
+    "A-3",   # session 3 (~10 hr): m5+m6 fine-tuned
 ]
 
 

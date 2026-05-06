@@ -153,6 +153,8 @@ def main() -> None:
         if chunk.get("baselines_only"):
             args.baselines = ALL_BASELINES
             args.models = ["none"]
+        elif chunk.get("include_baselines"):
+            args.baselines = ALL_BASELINES
         else:
             args.baselines = ["none"]
         print(f"Running chunk: {args.chunk}  ({chunk['description']})  "
