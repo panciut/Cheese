@@ -6,3 +6,5 @@ __pycache__/
 .DS_Store
 .venv/
 .env
+kaggle_staging/
+kaggle_kernel_*/

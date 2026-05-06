@@ -62,14 +62,26 @@ def main() -> None:
         sys.exit("ERROR: missing dataset/splits — run training.prepare_data first.")
 
     print(f"Loading data...")
-    train_df = load_split("train").rename(columns={args.caption_column: "caption"}) \
-        if args.caption_column != "caption" else load_split("train")
-    test_df = load_split("test").rename(columns={args.caption_column: "caption"}) \
-        if args.caption_column != "caption" else load_split("test")
+
+    def _prep(name: str) -> pd.DataFrame:
+        df = load_split(name)
+        if args.caption_column != "caption":
+            # Drop the original short `caption` column to avoid duplicate-column
+            # collisions when renaming caption_sentence → caption.
+            if "caption" in df.columns:
+                df = df.drop(columns=["caption"])
+            df = df.rename(columns={args.caption_column: "caption"})
+        return df
+
+    train_df = _prep("train")
+    test_df = _prep("test")
     print(f"  train: {len(train_df)} rows  |  test: {len(test_df)} rows")
 
     print("Loading tokenizer...")
     tokenizer = ItalianTokenizer()
+
+    import torch
+    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
     attributo = None if args.attributo == "all" else args.attributo
     attr_dir = "global" if attributo is None else attributo.replace(" ", "_")
@@ -78,7 +90,7 @@ def main() -> None:
         "random": lambda: random_baseline(train_df, test_df, attributo, tokenizer, seed=args.seed),
         "most_frequent": lambda: most_frequent_baseline(train_df, test_df, attributo, tokenizer),
         "freq_weighted": lambda: frequency_weighted_baseline(train_df, test_df, attributo, tokenizer, seed=args.seed),
-        "retrieval": lambda: retrieval_baseline(train_df, test_df, attributo, tokenizer),
+        "retrieval": lambda: retrieval_baseline(train_df, test_df, attributo, tokenizer, device),
     }
 
     for name in args.baselines:
