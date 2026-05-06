@@ -50,14 +50,17 @@ dataset substitutes a zero tensor.
 
 ## Where this trains
 
-**Training runs on Kaggle, not locally.** Local install is not needed.
+The same code runs on **Kaggle GPU kernels** (T4) or **a local CUDA GPU**
+(e.g. RTX 4060 Ti 8 GB). `kaggle_run.py` auto-detects which environment
+it's in.
 
-The training code is fully relative-pathed so the same scripts work on
-any machine. On Kaggle, the typical setup is to clone this repo into
+- **Path A (just global, 12 + 4 baselines)**: split between local 4060 Ti
+  (small models) and Kaggle (large models). See "Suggested split" below.
+- **Path C (full all-in, 100 runs)**: not yet wired — planned later.
+
+For Kaggle, the typical setup is to clone this repo into
 `/kaggle/working/cheese/` and symlink `/kaggle/input/<dataset>/data`
-to `/kaggle/working/cheese/data`.
-
-`training/kaggle_run.py` automates that — see below.
+to `/kaggle/working/cheese/data`. `kaggle_run.py` handles that.
 
 ## Pipeline
 
@@ -132,6 +135,39 @@ Or run a custom subset (ignoring chunks):
 ```bash
 python -m training.kaggle_run --models m3 m6 --matrix frozen --baselines none
 ```
+
+## Local training on a 4060 Ti (8 GB VRAM)
+
+The same scripts run locally — `kaggle_run.py` auto-detects whether
+it's running on Kaggle or locally and uses the right paths. Just install
+deps (`pip install -r training/requirements.txt`) and launch the same
+chunks.
+
+### What fits on 8 GB VRAM
+
+| model | frozen | fine-tune |
+|---|---|---|
+| m1 (CNN+LSTM) | ✅ comfortable | ✅ comfortable |
+| m2 (CNN+Tr) | ✅ comfortable | ✅ comfortable |
+| m3 (ViT+Tr) | ✅ ok | ⚠️ tight — may need batch 2 |
+| m4 (CNN+GePpeTto) | ✅ ok | ⚠️ tight — may need batch 4 |
+| m5 (CNNspatial+GePpeTto) | ⚠️ tight | ❌ likely OOM, run on Kaggle |
+| m6 (ViT+GePpeTto) | ⚠️ tight | ❌ likely OOM, run on Kaggle |
+
+If a run OOMs, halve the batch size (`--batch-size 4`) and the LR
+scheduler still works. On the 4060 Ti previously used in the v1
+project, m5/m6 fine-tunes triggered hardware-reboot crashes during
+backward pass on heavy encoders — those should go to Kaggle.
+
+### Suggested split for Path A
+
+| where | what | est. time |
+|---|---|---:|
+| local 4060 Ti | m1, m2, m3 frozen+ft (chunk `A-all`) | ~8 hr (overnight) |
+| Kaggle (T4) session 1 | `B-frozen` (m4, m5, m6 frozen) | ~7 hr |
+| Kaggle session 2 | `B-ft-light` (m4, m5 ft) | ~8 hr |
+| Kaggle session 3 | `B-ft-heavy` (m6 ft) | ~6 hr |
+| anywhere | `baselines` | ~30 min |
 
 ## Disk hygiene on Kaggle
 
