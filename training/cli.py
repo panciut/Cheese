@@ -85,6 +85,9 @@ def parse_args():
     p.add_argument("--eval-only", action="store_true")
     p.add_argument("--finetune", action="store_true",
                    help="Unfreeze encoder for end-to-end fine-tuning with differential LR")
+    p.add_argument("--keep-last", action="store_true",
+                   help="Keep last.pt after a completed training (default: deleted to "
+                        "free Kaggle disk; resume still works mid-training)")
     return p.parse_args()
 
 
@@ -226,6 +229,7 @@ def main():
         early_stopping_patience=defaults["patience"],
         include_fetta_only=args.include_fetta_only,
         finetune=args.finetune, caption_column=args.caption_column,
+        keep_last=args.keep_last,
     )
 
     train_model(

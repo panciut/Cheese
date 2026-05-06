@@ -101,18 +101,56 @@ python -m training.run_baselines --attributo all
 python -m training.run_baselines --attributo Texture --baselines retrieval
 ```
 
-### 2c. Run the full matrix at once (recommended on Kaggle)
+### 2c. Run a named chunk on Kaggle
+
+`training/chunks.py` defines named chunks sized to fit one Kaggle GPU
+session (12 hours). See available chunks:
 
 ```bash
-# 12 models (6 archs × frozen/ft) + 4 baselines, attributo=all
-python -m training.kaggle_run --matrix both --attributo all
-
-# Just the frozen pass (6 models + 4 baselines)
-python -m training.kaggle_run --matrix frozen
-
-# Subset
-python -m training.kaggle_run --models m3 m6 --matrix both --baselines retrieval
+python -m training.kaggle_run --list-chunks
 ```
+
+Suggested 5-session schedule:
+
+| # | chunk | what it runs | est. hours |
+|---|---|---|---:|
+| 1 | `A-all` | m1, m2, m3 frozen + ft (6 runs) | ~8.3 |
+| 2 | `B-frozen` | m4, m5, m6 frozen (3 runs) | ~7.0 |
+| 3 | `B-ft-light` | m4, m5 fine-tuned (2 runs) | ~8.0 |
+| 4 | `B-ft-heavy` | m6 fine-tuned (1 run) | ~6.0 |
+| 5 | `baselines` | 4 baselines | ~0.5 |
+| | | **total: 16 comparison points** | **~30 hr** |
+
+Run a chunk:
+
+```bash
+python -m training.kaggle_run --chunk A-all --attributo all
+```
+
+Or run a custom subset (ignoring chunks):
+
+```bash
+python -m training.kaggle_run --models m3 m6 --matrix frozen --baselines none
+```
+
+## Disk hygiene on Kaggle
+
+Kaggle's `/kaggle/working/` is ~20 GB and the kernel output gets zipped
+from there. To stay under budget:
+
+- **`last.pt` is deleted by default after each successful run.** Only
+  `best.pt` is needed for evaluation; `last.pt` exists only for resuming
+  an *interrupted* training. Pass `--keep-last` to keep it (e.g. you
+  plan to resume in a later session).
+- Per-run checkpoint sizes (just `best.pt`):
+  - m1 ~30 MB
+  - m2 ~80 MB
+  - m3 ~360 MB
+  - m4 ~480 MB
+  - m5 ~480 MB
+  - m6 ~810 MB
+  - All 12 runs × 1 checkpoint ≈ 5 GB. Fits comfortably.
+- Predictions / logs / metrics are tiny (<1 MB per run).
 
 Output goes to `training/runs/<model_dir>/<attribute>/`:
 

@@ -69,6 +69,19 @@ def evaluate_epoch(
     return {"val_loss": total_loss / max(n_batches, 1)}
 
 
+def cleanup_checkpoints(run_dir: Path, keep_last: bool = False) -> None:
+    """Delete `last.pt` after a successful run unless asked to keep it.
+
+    `last.pt` is only needed for resuming an *interrupted* training. Once
+    training completes successfully, only `best.pt` is needed. Deleting
+    `last.pt` halves the per-run disk footprint — important on Kaggle's
+    ~20 GB /kaggle/working/ budget.
+    """
+    last = run_dir / "last.pt"
+    if not keep_last and last.exists():
+        last.unlink()
+
+
 def save_checkpoint(
     model: nn.Module,
     optimizer: torch.optim.Optimizer,
@@ -193,3 +206,8 @@ def train_model(
 
     print(f"Training completato. Best val_loss: {best_val_loss:.4f}")
     print(f"Pesi migliori: {run_dir / 'best.pt'}")
+
+    # Free disk on Kaggle: drop the per-epoch `last.pt` once training has
+    # successfully ended. `best.pt` is what eval/inference need.
+    if not config.get("keep_last", False):
+        cleanup_checkpoints(run_dir)

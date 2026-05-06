@@ -89,6 +89,8 @@ def run_one_model(here: Path, model: str, attributo: str, **overrides) -> None:
     subprocess.run(cmd, cwd=here, check=False)
 
 
+from training.chunks import CHUNKS, list_chunks
+
 ALL_MODELS = ["m1", "m2", "m3", "m4", "m5", "m6"]
 ALL_BASELINES = ["random", "most_frequent", "freq_weighted", "retrieval"]
 
@@ -96,18 +98,28 @@ ALL_BASELINES = ["random", "most_frequent", "freq_weighted", "retrieval"]
 def main() -> None:
     p = argparse.ArgumentParser()
     p.add_argument(
+        "--chunk", default=None,
+        help="Run a named chunk (preferred for Kaggle session planning). "
+             "Use --list-chunks to see options.",
+    )
+    p.add_argument(
+        "--list-chunks", action="store_true",
+        help="Print the predefined chunks and exit.",
+    )
+    p.add_argument(
         "--models", nargs="+", default=ALL_MODELS,
         choices=ALL_MODELS + ["none"],
-        help="Models to train (default: all 6). 'none' to skip training.",
+        help="Models to train. Ignored if --chunk is set.",
     )
     p.add_argument(
         "--baselines", nargs="*", default=ALL_BASELINES,
         choices=ALL_BASELINES + ["none"],
-        help="Baselines to evaluate (default: all 4). 'none' to skip.",
+        help="Baselines to evaluate. Default: all 4. Ignored if --chunk is set "
+             "(except for chunk='baselines').",
     )
     p.add_argument(
         "--matrix", choices=["frozen", "ft", "both"], default="both",
-        help="Train frozen-encoder, fine-tuned, or both passes.",
+        help="Train frozen-encoder, fine-tuned, or both. Ignored if --chunk is set.",
     )
     p.add_argument("--attributo", default="all")
     p.add_argument("--caption-column", default="caption_sentence",
@@ -115,7 +127,36 @@ def main() -> None:
     p.add_argument("--epochs", type=int, default=None)
     p.add_argument("--batch-size", type=int, default=None)
     p.add_argument("--lr", type=float, default=None)
+    p.add_argument("--keep-last", action="store_true",
+                   help="Keep last.pt checkpoints (default: deleted to save Kaggle disk)")
     args = p.parse_args()
+
+    if args.list_chunks:
+        print(list_chunks())
+        return
+
+    if args.chunk:
+        if args.chunk not in CHUNKS:
+            print(f"Unknown chunk: {args.chunk!r}. Available:")
+            print(list_chunks())
+            sys.exit(1)
+        chunk = CHUNKS[args.chunk]
+        args.models = chunk["models"] or ["none"]
+        if chunk["modes"] == ["frozen"]:
+            args.matrix = "frozen"
+        elif chunk["modes"] == ["ft"]:
+            args.matrix = "ft"
+        elif chunk["modes"] == ["frozen", "ft"]:
+            args.matrix = "both"
+        else:
+            args.matrix = "both"
+        if chunk.get("baselines_only"):
+            args.baselines = ALL_BASELINES
+            args.models = ["none"]
+        else:
+            args.baselines = ["none"]
+        print(f"Running chunk: {args.chunk}  ({chunk['description']})  "
+              f"~{chunk['estimate_hr']:.1f}h estimated")
 
     here, data_root = detect_paths()
     print(f"Project root: {here}")
@@ -137,6 +178,8 @@ def main() -> None:
         "batch_size": args.batch_size,
         "lr": args.lr,
     }
+    if args.keep_last:
+        base_overrides["keep_last"] = ""
     base_overrides = {k: v for k, v in base_overrides.items() if v is not None}
 
     # Determine which passes to run (frozen / fine-tuned / both)
