@@ -8,3 +8,7 @@ __pycache__/
 .env
 kaggle_staging/
 kaggle_kernel_*/
+training/runs/
+kaggle_staging_v2/
+kaggle_code_staging/
+/tmp_kaggle_outputs/

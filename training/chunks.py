@@ -32,13 +32,42 @@ CHUNKS: dict[str, dict] = {
         "modes": ["frozen"],
         "include_baselines": True,
         "estimate_hr": 5.5,
-        "description": "Subset session 1: m1+m3+m6 frozen + 4 baselines.",
+        "description": "Subset session 1 (legacy): m1+m3+m6 frozen + 4 baselines. "
+                       "TIMED OUT in practice; split into S-1a + S-1v2.",
+    },
+    # Actual split used after S-1 hit the 12h Kaggle cap with m6 mid-training.
+    "S-1a": {
+        "models": ["m1", "m3"],
+        "modes": ["frozen"],
+        "estimate_hr": 4.5,
+        "description": "Subset session 1a: m1+m3 frozen. (Already completed via S-1.)",
+    },
+    "S-1v2": {
+        "models": ["m6"],
+        "modes": ["frozen"],
+        "include_baselines": True,
+        "estimate_hr": 6.0,
+        "description": "Subset session 1v2: m6 frozen + 4 baselines. "
+                       "Re-run after S-1 timed out before m6 finished.",
     },
     "S-2": {
         "models": ["m1", "m3", "m6"],
         "modes": ["ft"],
         "estimate_hr": 10.0,
-        "description": "Subset session 2: m1+m3+m6 fine-tuned.",
+        "description": "Subset session 2 (legacy): m1+m3+m6 fine-tuned. "
+                       "Tight on 12h; split into S-2a + S-2b.",
+    },
+    "S-2a": {
+        "models": ["m1", "m3"],
+        "modes": ["ft"],
+        "estimate_hr": 4.0,
+        "description": "Subset session 2a: m1+m3 fine-tuned.",
+    },
+    "S-2b": {
+        "models": ["m6"],
+        "modes": ["ft"],
+        "estimate_hr": 7.0,
+        "description": "Subset session 2b: m6 fine-tuned (heavy).",
     },
 
     # ---- Path A 3-session split (full 12 trained + 4 baselines) ----
@@ -142,8 +171,10 @@ CHUNKS: dict[str, dict] = {
 
 
 SUGGESTED_SCHEDULE = [
-    "S-1",   # session 1 (~5.5 hr): m1+m3+m6 frozen + 4 baselines
-    "S-2",   # session 2 (~10 hr): m1+m3+m6 fine-tuned
+    "S-1a",  # session 1a (~4.5h): m1+m3 frozen — completed via S-1
+    "S-1v2", # session 1v2 (~6h): m6 frozen + 4 baselines — re-run after S-1 timeout
+    "S-2a",  # session 2a (~4h): m1+m3 fine-tuned
+    "S-2b",  # session 2b (~7h): m6 fine-tuned
 ]
 
 
