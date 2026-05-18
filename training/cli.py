@@ -129,7 +129,12 @@ def make_loader(split, tokenizer, attributo, caption_column, batch_size,
 
 def main():
     args = parse_args()
-    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+    if torch.cuda.is_available():
+        device = torch.device("cuda")
+    elif getattr(torch.backends, "mps", None) and torch.backends.mps.is_available():
+        device = torch.device("mps")
+    else:
+        device = torch.device("cpu")
     print(f"Device: {device}")
 
     if not DATASET_CSV.exists() or not SPLITS_JSON.exists():

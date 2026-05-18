@@ -24,7 +24,7 @@ import torch.nn.functional as F
 from PIL import Image
 from torchvision import models, transforms
 
-PROJECT_ROOT = Path(__file__).parents[2]
+PROJECT_ROOT = Path(__file__).parents[1]
 
 IMAGENET_TRANSFORM = transforms.Compose([
     transforms.Resize((224, 224)),
@@ -41,7 +41,8 @@ def _normalise_caption(text: str, tokenizer) -> str:
 
 def _filter_df(df: pd.DataFrame, attributo: str | None) -> pd.DataFrame:
     if attributo is not None:
-        df = df[df["attribute"] == attributo]
+        attr_norm = attributo.replace("_", " ")
+        df = df[df["attribute"] == attr_norm]
     return df.copy()
 
 
