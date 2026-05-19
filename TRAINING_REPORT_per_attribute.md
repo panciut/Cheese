@@ -681,13 +681,21 @@ sample predictions (§8): m6 reaches for rarer notes like "crauti",
 ## 11. Comparison to the global pooled model
 
 The earlier Path-A subset run trained m1, m3, m6 with all 7 attributes
-pooled into one global model. Headline numbers (from `TRAINING_REPORT.md`):
+pooled into one global model (test N = 2,751). Full numbers
+(in `TRAINING_REPORT.md`):
 
-| Model | Global BLEU-4 | Best per-attribute BLEU-4 |
-|---|---:|---:|
-| m1 | 0.1283 | 0.4737 (Aroma) |
-| m3 | 0.1237 | 0.4855 (Aroma) |
-| m6 | 0.1283 (m6 eval pending in original report) | 0.4830 (Aroma) |
+| Model | Global BLEU-4 | Global BLEU-1 | Global METEOR | Global ROUGE-L | Best per-attribute BLEU-4 |
+|---|---:|---:|---:|---:|---:|
+| m1 | 0.1283 | 0.3501 | **0.2938** | 0.2950 | 0.4737 (Aroma) |
+| m3 | 0.1237 | 0.3649 | 0.2875 | 0.2977 | 0.4855 (Aroma) |
+| m6 | **0.1307** | **0.3657** | 0.2928 | **0.3009** | 0.4830 (Aroma) |
+
+**m6 narrowly wins the global setting** on BLEU-4 (0.1307 vs 0.1283 m1
+vs 0.1237 m3), and also wins BLEU-1 and ROUGE-L. The three models
+cluster very tightly — the spread between best and worst is 0.007 BLEU-4,
+similar to the spread on per-attribute runs. This is consistent with the
+per-attribute story (§6.1) where m6 wins or ties on most attributes but
+by small margins.
 
 The per-attribute numbers look 3-4× higher. As discussed in §6.3, this
 reflects the narrower per-attribute scoring distribution, not better
@@ -700,6 +708,11 @@ global models for the comparison?", per-attribute is what the professor
 asked for and is what we provide. The global numbers are useful as a
 sanity check that the same training pipeline produces consistent results
 across both regimes.
+
+The m6 global eval was run separately via the
+`marcopanciera/cheese-trentingrana-m6-eval` Kaggle kernel (2026-05-18,
+nucleus sampling) because the original training kernel hit the 12h cap
+during eval.
 
 ---
 

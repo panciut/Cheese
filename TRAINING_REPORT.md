@@ -23,17 +23,26 @@ Plus four baselines:
 
 | System | BLEU-4 | BLEU-1 | METEOR | ROUGE-L |
 |---|---:|---:|---:|---:|
-| **m1** (CNN+LSTM) | **0.1283** | 0.3501 | **0.2938** | 0.2950 |
-| **m3** (ViT+Tr) | 0.1237 | 0.3649 | 0.2875 | **0.2977** |
-| **m6** (ViT+GePpeTto) | _pending_ | _pending_ | _pending_ | _pending_ |
+| **m1** (CNN+LSTM) | 0.1283 | 0.3501 | **0.2938** | 0.2950 |
+| **m3** (ViT+Tr) | 0.1237 | 0.3649 | 0.2875 | 0.2977 |
+| **m6** (ViT+GePpeTto) | **0.1307** | **0.3657** | 0.2928 | **0.3009** |
 | random | 0.1238 | 0.3467 | 0.2901 | 0.2910 |
 | most_frequent | 0.0782 | **0.4191** | 0.2361 | 0.2665 |
 | freq_weighted | 0.1207 | 0.3383 | 0.2814 | 0.2840 |
 | retrieval | _pending_ | _pending_ | _pending_ | _pending_ |
 
-m6 training completed cleanly (20/20 epochs, best val_loss=1.0629) but the
-Kaggle session hit the 12h cap during the final test-set eval. Re-running
-just the eval in a separate kernel (`marcopanciera/cheese-trentingrana-m6-eval`).
+m6 test eval completed 2026-05-18 via a separate Kaggle kernel
+(`marcopanciera/cheese-trentingrana-m6-eval`). The original training kernel
+hit the 12h cap during eval; the eval-only kernel uses nucleus sampling
+(top-p=0.9, temperature=0.7) — matching the per-attribute m6 runs for
+consistency. Beam search was tried first but stalled past the 30-60 min
+budget (likely no KV cache in the decoder), so was switched to nucleus.
+
+**m6 narrowly wins on BLEU-4** (0.1307 vs m1 0.1283 vs m3 0.1237) and on
+BLEU-1 and ROUGE-L. All three models cluster very tightly though — gap
+between best and worst is 0.007 BLEU-4. See `TRAINING_REPORT_per_attribute.md`
+for the per-attribute breakdown and the shuffle-test image-conditioning
+analysis.
 
 ## Key observations
 
@@ -137,5 +146,7 @@ visibly grounded to the specific cheese image.
 - Baselines: chunk `baselines` on Kaggle.
 - m6 eval-only: kernel `cheese-trentingrana-m6-eval` loads best.pt from
   the `cheese-trentingrana-m6-weights` dataset and re-runs the test eval.
-- Decoding: nucleus sampling (top_p=0.9, T=0.7) for the trained runs in
-  S-1 / S-1v2; beam-3 deterministic for the eval-only m6 kernel.
+- Decoding: nucleus sampling (top_p=0.9, T=0.7) for all trained runs
+  (S-1, S-1v2, and the m6 eval-only kernel after the beam-3 attempt
+  stalled past the 30-60 min budget — likely no KV cache in the
+  decoder).
