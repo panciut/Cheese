@@ -1,0 +1,69 @@
+{
+  "total_rows": 38437,
+  "stats": {
+    "total_rows": 38437,
+    "unique": {
+      "caption_raw": 7674,
+      "caption_pre": 7548,
+      "caption": 6840,
+      "caption_sentence": 6834
+    },
+    "empty": {
+      "caption_raw": 0,
+      "caption_pre": 0,
+      "caption": 0,
+      "caption_sentence": 0
+    },
+    "len_avg": {
+      "caption_raw": 34.3,
+      "caption_pre": 34.5,
+      "caption": 43.6,
+      "caption_sentence": 64.8
+    },
+    "len_max": {
+      "caption_raw": 200,
+      "caption_pre": 202,
+      "caption": 173,
+      "caption_sentence": 199
+    }
+  },
+  "digit_hits": {
+    "caption_raw": 3222,
+    "caption_pre": 2226,
+    "caption": 0,
+    "caption_sentence": 0
+  },
+  "unit_hits": {
+    "caption_raw": 2020,
+    "caption_pre": 1380,
+    "caption": 0,
+    "caption_sentence": 0
+  },
+  "colloquial": 370,
+  "dialect": 8,
+  "subjective_caption": 1519,
+  "subjective_sentence": 1517,
+  "short_caps": 0,
+  "inconsistent_sentence": 0,
+  "artifacts": 0,
+  "non_italian_chars": 0,
+  "unchanged_from_raw": 0,
+  "by_attribute": {
+    "Profumo": 5660,
+    "Sapore": 6244,
+    "Aroma": 4019,
+    "Texture": 5309,
+    "Spessore della Crosta": 3961,
+    "Struttura della Pasta": 7400,
+    "Colore della Pasta": 5844
+  },
+  "unique_per_attribute": {
+    "Profumo": 1071,
+    "Sapore": 954,
+    "Aroma": 713,
+    "Texture": 983,
+    "Spessore della Crosta": 494,
+    "Struttura della Pasta": 1566,
+    "Colore della Pasta": 1062
+  }
+}
