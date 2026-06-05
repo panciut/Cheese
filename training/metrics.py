@@ -157,7 +157,11 @@ def full_eval(
     top_p: float = 0.9,
     temperature: float = 0.7,
 ) -> dict[str, float]:
-    """BLEU-1/4, METEOR, ROUGE-L su tutto il loader. Salva predictions.csv."""
+    """BLEU-1/4, METEOR, ROUGE-L su tutto il loader. Salva predictions.csv.
+
+    Se il Dataset espone un attributo `df` con colonna `fetta_path`,
+    la salva nel CSV per abilitare CLIPScore offline.
+    """
     bleu_metric = hf_evaluate.load("bleu", module_type="metric")
     meteor_metric = hf_evaluate.load("meteor", module_type="metric")
     rouge_metric = hf_evaluate.load("rouge", module_type="metric")
@@ -165,9 +169,15 @@ def full_eval(
     preds, refs = [], []
     model.eval()
 
+    # Raccoglie i path delle immagini se disponibili nel dataset
+    _dataset_df = getattr(getattr(loader, "dataset", None), "df", None)
+    image_paths: list[str] = []
+
+    row_idx = 0
     for batch in loader:
         fetta, grana, caps, _weights = [b.to(device) for b in batch]
-        for i in range(fetta.size(0)):
+        batch_size = fetta.size(0)
+        for i in range(batch_size):
             pred = generate_caption(
                 model, fetta[i: i + 1], grana[i: i + 1], tokenizer, device,
                 beam_size=beam_size, max_len=50,
@@ -177,6 +187,9 @@ def full_eval(
             ref = tokenizer.decode(ref_ids, skip_special=True)
             preds.append(pred)
             refs.append(ref)
+            if _dataset_df is not None and row_idx < len(_dataset_df):
+                image_paths.append(str(_dataset_df.iloc[row_idx].get("fetta_path", "")))
+            row_idx += 1
 
     refs_for_bleu = [[r] for r in refs]
 
@@ -204,8 +217,9 @@ def full_eval(
     if predictions_path is not None:
         predictions_path = Path(predictions_path)
         predictions_path.parent.mkdir(parents=True, exist_ok=True)
-        pd.DataFrame({"caption_pred": preds, "caption_ref": refs}).to_csv(
-            predictions_path, index=False, encoding="utf-8"
-        )
+        csv_data: dict = {"caption_pred": preds, "caption_ref": refs}
+        if image_paths:
+            csv_data["image_path"] = image_paths
+        pd.DataFrame(csv_data).to_csv(predictions_path, index=False, encoding="utf-8")
 
     return results

@@ -1,395 +1,395 @@
-pred,ref
-"Il formaggio presenta una texture con poca grana.","Il formaggio presenta una texture leggermente asciutta o pastosa."
-"Il formaggio presenta una texture morbida che impasta la bocca, con qualche cristallo e solubile.","Il formaggio presenta una texture molto tenera."
-"Il formaggio presenta una texture abbastanza solubile.","Il formaggio presenta una texture leggermente asciutta."
-"Il formaggio presenta una texture molle e cedevole, privo di struttura.","Il formaggio presenta una texture leggermente dura."
-"Il formaggio presenta una texture molle e senza grana.","Il formaggio presenta una texture poco solubile e leggermente asciutta."
-"Il formaggio presenta una texture con cristalli presenti.","Il formaggio presenta una texture strana."
-"Il formaggio presenta una texture abbastanza dura, compatta ma friabile, con grana fine e solubile.","Il formaggio presenta una texture leggermente asciutta."
-"Il formaggio presenta una texture mediamente umida.","Il formaggio presenta una texture astringente."
-"Il formaggio presenta una texture asciutta, granulosa con cristalli e solubile.","Il formaggio presenta una texture molto solubile, tendente all'eccessivo."
-"Il formaggio presenta una texture poco solubile al finale.","Il formaggio presenta una texture pastosa e asciutta."
-"Il formaggio presenta una texture leggermente cedevole, poco solubile ma granulosa.","Il formaggio presenta una texture con cristalli grandi, poco cristallizzata e non scrocchiarella."
-"Il formaggio presenta una texture molto eterogenea.","Il formaggio presenta una texture con cristalli piuttosto duri."
-"Il formaggio presenta una texture granulosa, asciutta, solubile e dura, poco umida.","Il formaggio presenta una texture leggermente schioccante."
-"Il formaggio presenta una texture con cristalli abbondanti.","Il formaggio presenta una texture leggermente troppo umida."
-"Il formaggio presenta una texture molto adesiva.","Il formaggio presenta una texture con cristalli non molto grossi."
-"Il formaggio presenta una texture abbastanza pulita in bocca.","Il formaggio presenta una texture con cristalli non molto grossi."
-"Il formaggio presenta una texture compatta.","Il formaggio ha una texture che ingozza la bocca."
-"Il formaggio presenta una texture secca, con molti cristalli e buona solubilità.","Il formaggio presenta una texture compatta."
-"Il formaggio presenta una texture pastosa, poca grana.","Il formaggio presenta una texture farinosa."
-"Il formaggio presenta una texture leggermente umida, solubile, compatta e mediamente granulosa.","Il formaggio presenta una texture quasi gommosa, poco granulosa ma solubile."
-"Il formaggio presenta una texture friabile con cristalli.","Il formaggio ha una texture che lascia in bocca residui cremosi con presenza di cristalli."
-"Il formaggio presenta una texture friabile con microstruttura fine, microcristalli non grossi e tendente all'asciutto.","Il formaggio presenta una texture dura e compatta, poco solubile, senza grana."
-"Il formaggio presenta una texture pastosa con pochi cristalli.","Il formaggio presenta una texture morbida che impasta, con qualche cristallo e residuo in bocca."
-"Il formaggio presenta una texture con poca grana.","Il formaggio presenta una texture leggermente gommosa."
-"Il formaggio presenta una texture sabbioso-granulosa con cristalli.","Il formaggio presenta una texture morbida e cedevole, che impasta la bocca, con cristalli presenti."
-"Il formaggio presenta una texture pastosa, umida e poco granulosa.","Il formaggio presenta una texture compatta, adesiva, poco solubile e poco friabile, poco granulosa, con pochi cristalli."
-"Il formaggio presenta una texture con buon equilibrio tra umidità e friabilità.","Il formaggio presenta una texture tenerissima, priva di grana."
-"Il formaggio presenta una texture morbida, asciutta, con cristalli e poco solubile.","Il formaggio presenta una texture con cristalli presenti e buona solubilità."
-"Il formaggio presenta una texture con scarsa solubilità e friabilità.","Il formaggio presenta una texture con pochi cristalli e molto pastosa."
-"Il formaggio presenta una texture friabile, granulosa e discretamente solubile.","Il formaggio presenta una texture morbida, poco granulosa, poco solubile, con buona presenza di microcristalli e leggermente adesiva."
-"Il formaggio presenta una texture leggermente umida, solubile, compatta e mediamente granulosa.","Il formaggio ha una texture che si scioglie bene in bocca, lasciando granelli piccoli e percettibili."
-"Il formaggio presenta una texture con cristalli abbondanti.","Il formaggio presenta una texture dura, pasta compatta e poco friabile, grana molto fine, cristalli praticamente assenti, solubile."
-"Il formaggio presenta una texture adesiva.","Il formaggio presenta una texture granulosa pastosa, pochi cristalli, lascia residuo."
-"Il formaggio presenta una texture mediamente dura, granulosa e solubile.","Il formaggio presenta una texture poco granulosa e pastosa."
-"Il formaggio presenta una texture con molti granuli di tirosina.","Il formaggio presenta una texture con cristalli rari, tendente al morbido, umida e friabile."
-"Il formaggio presenta una texture con cristalli presenti e microstruttura poco sviluppata.","Il formaggio presenta una texture compatta, poco friabile, poco granulosa, adesiva e quasi senza cristalli."
-"Il formaggio presenta una texture dura e compatta con cristalli di tirosina presenti.","Il formaggio presenta una texture molto tenera, grana assente."
-"Il formaggio ha una texture che lascia granuli sabbiosi in bocca.","Il formaggio presenta una texture poco umida."
-"Il formaggio presenta una texture asciutta.","Il formaggio presenta una texture leggermente umida, mediamente granulosa e solubile, con pochi cristalli."
-"Il formaggio presenta una texture dura, asciutta e praticamente priva di grana.","Il formaggio ha una texture che lascia la bocca abbastanza pulita, con presenza di diversi cristalli."
-"Il formaggio presenta una texture pastosa con pochi cristalli.","Il formaggio presenta una texture abbastanza dura, compatta ma friabile, con grana fine e solubile."
-"Il formaggio presenta una texture con cristalli grossi e leggermente pastosa.","Il formaggio presenta una texture morbida con qualche cristallo, asciutta, tende ad impastare, poca grana e si scioglie in bocca."
-"Il formaggio presenta una texture umida, pastosa e quasi liquefabile.","Il formaggio presenta una texture poco pastosa."
-"Il formaggio ha una texture che si scioglie bene in bocca.","Il formaggio presenta una texture friabile con microstruttura non fine, cristalli numerosi di varie dimensioni, tende ad asciugare le fauci prima della deglutizione."
-"Il formaggio presenta una texture friabile, non asciutta, con microstruttura fine e assenza di cristalli.","Il formaggio presenta una texture poco friabile e poco solubile."
-"Il formaggio presenta una texture non friabile, non granulosa.","Il formaggio presenta una texture con poca grana."
-"Il formaggio presenta una texture con buon equilibrio tra microstruttura e cristalli.","Il formaggio presenta una texture con microstruttura assente."
-"Il formaggio presenta una texture con zone da pasta stirata.","Il formaggio presenta una texture pastosa."
-"Il formaggio presenta una texture friabile, leggermente asciutta.","Il formaggio presenta una texture cedevole, poco granulosa, umida e quasi adesiva."
-"Il formaggio ha una texture che tende a compattarsi, con piccoli cristalli poco solubili.","Il formaggio presenta una texture compatta, molto solubile ma poco friabile, con poca grana."
-"Il formaggio presenta una texture quasi priva di cristalli, troppo umida.","Il formaggio presenta una texture morbida, asciutta e poco granulosa."
-"Il formaggio presenta una texture compatta e asciutta, grana fine, cristalli assenti.","Il formaggio presenta una texture adesiva."
-"Il formaggio presenta una texture polverosa, poco solubile, con granuli di tirosina percettibili al residuo finale.","Il formaggio presenta una texture molto morbida, umida e pastosa, con pochi granuli."
-"Il formaggio presenta una texture morbida e pastosa, grana fine e solubile, pochi cristalli.","Il formaggio presenta una texture leggermente umida con cristalli percettibili."
-"Il formaggio presenta una texture con struttura grossolana e cristalli non percepibili.","Il formaggio presenta una texture umida, fondente a fine bocca."
-"Il formaggio ha una texture che ingozza la bocca.","Il formaggio presenta una texture umida, morbida e solubile."
-"Il formaggio presenta una texture plastica che ingozza.","Il formaggio presenta una texture umida, poco granulosa e poco solubile."
-"Il formaggio presenta una texture molle, con poca consistenza e che si sfalda.","Il formaggio presenta una texture con pochissimi granuli di tirosina."
-"Il formaggio presenta una texture granulosa, asciutta, con cristalli e solubile.","Il formaggio presenta una texture morbida con poca grana."
-"Il formaggio presenta una texture deformabile, compatta, poco friabile e poco granulosa.","Il formaggio presenta una texture leggermente granulosa."
-"Il formaggio presenta una texture leggermente sabbioso, lascia bocca poco pulita.","Il formaggio presenta una texture morbido pastoso, umidità media e granuli mediamente alti."
-"Il formaggio presenta una texture molto granulosa e persistente.","Il formaggio presenta una texture pastosa."
-"Il formaggio presenta una texture molle e cedevole, non granulosa.","Il formaggio presenta una texture morbida che impasta la bocca."
-"Il formaggio presenta una texture poco friabile e compatta.","Il formaggio presenta una texture morbida, umida, con cristalli."
-"Il formaggio presenta una texture asciutta, granulosa con piccoli cristalli e solubile.","Il formaggio presenta una texture umida, poco granulosa e poco solubile."
-"Il formaggio presenta una texture morbida, friabile con microstruttura non fine, umida e tendente al pastoso nel finale di bocca.","Il formaggio presenta una texture con pochissimi granuli di tirosina."
-"Il formaggio presenta una texture molto asciutta e dura.","Il formaggio presenta una texture morbida con poca grana."
-"Il formaggio presenta una texture friabile con microstruttura fine, microcristalli non grossi e tendente all'asciutto.","Il formaggio presenta una texture leggermente granulosa."
-"Il formaggio presenta una texture asciutta, granulosa e poco solubile, con residui in bocca.","Il formaggio presenta una texture morbido pastoso, umidità media e granuli mediamente alti."
-"Il formaggio presenta una texture con buona struttura e microcristalli.","Il formaggio presenta una texture pastosa."
-"Il formaggio presenta una texture poco granulosa, ancora umida, legata e poco solubile.","Il formaggio presenta una texture morbida che impasta la bocca."
-"Il formaggio presenta una texture morbida, pastosa e gommosa.","Il formaggio presenta una texture morbida, umida, con cristalli."
-"Il formaggio presenta una texture morbido a grana fine, leggermente pastoso e asciutto, con cristalli ben percepibili e piuttosto solubile.","Il formaggio presenta una texture con granuli di tirosina a intensità medio-alta, alta solubilità e media friabilità."
-"Il formaggio presenta una texture poco solubile.","Il formaggio presenta una texture morbido asciutto, granuloso con cristalli evidenti."
-"Il formaggio presenta una texture asciutta, poco solubile, lascia sensazione farinosa in bocca.","Il formaggio presenta una texture friabile e fine, con consistenza finale sabbiosa-farinosa, non asciutta."
-"Il formaggio presenta una texture con bei granuli, buon equilibrio tra umidità e friabilità, dura.","Il formaggio presenta una texture con cristalli presenti ma non abbondanti, buona friabilità e scarsa solubilità."
-"Il formaggio presenta una texture morbida e cedevole al dente, poco friabile, con cristalli quasi assenti.","Il formaggio presenta una texture leggermente molle e cedevole."
-"Il formaggio presenta una texture asciutta, granulosa, solubile e a tratti leggermente sabbiosa.","Il formaggio presenta una texture friabile, granulosa, abbastanza solubile e con cristalli percepibili."
-"Il formaggio presenta una texture abbastanza morbida, granulosa, con microstruttura grossolana e poco solubile.","Il formaggio presenta una texture con tirosina molto presente e buona solubilità."
-"Il formaggio presenta una texture friabile ma asciutta.","Il formaggio presenta una texture friabile, abbastanza solubile e granulosa."
-"Il formaggio presenta una texture priva di cristalli.","Il formaggio presenta una texture con molti cristalli, squilibrio tra umidità e pastosità."
-"Il formaggio presenta una texture friabile, non asciutta, con cristalli adeguati.","Il formaggio presenta una texture con pochi cristalli grossi e leggermente sabbioso."
-"Il formaggio presenta una texture con tirosina abbondante e adesiva.","Il formaggio presenta una texture con tirosina, solubilità e friabilità moderata."
-"Il formaggio presenta una texture abbastanza dura e granulosa, senza cristalli, poco solubile e che lascia residuo farinoso.","Il formaggio presenta una texture asciutta con pochi cristalli e tende ad impastare la bocca."
-"Il formaggio presenta una texture abbastanza adesiva.","Il formaggio presenta una texture morbida, poco strutturata e friabile."
-"Il formaggio presenta una texture cedevole e fondente.","Il formaggio presenta una texture con molti cristalli, decente microstruttura e abbastanza solubile."
-"Il formaggio presenta una texture compatta, molto solubile ma poco friabile, con poca grana.","Il formaggio presenta una texture pastosa, poco solubile."
-"Il formaggio presenta una texture compatta ma abbastanza cedevole, grana sottile, asciutta e abbastanza solubile.","Il formaggio presenta una texture morbida, pastosa e gommosa."
-"Il formaggio presenta una texture granulosa leggermente pastosa.","Il formaggio presenta una texture di media-bassa durezza, bella solubilità, leggermente asciutta con pochi cristalli medi."
-"Il formaggio ha una texture che lascia bocca non pulita.","Il formaggio presenta una texture con cristalli abbondanti."
-"Il formaggio presenta una texture granulosa, che si scioglie bene e lascia la bocca abbastanza pulita.","Il formaggio presenta una texture con tirosina, friabilità e solubilità marcate."
-"Il formaggio presenta una texture con buona grana e solubile.","Il formaggio presenta una texture asciutta, granulosa con cristalli e solubile."
-"Il formaggio presenta una texture granulosa con cristalli piccoli, solubile.","Il formaggio presenta una texture con cristalli radi e grossi, cedevole e friabile, tendente al sabbioso in finale."
-"Il formaggio presenta una texture tendenzialmente umida e cedevole, poco granulosa.","Il formaggio presenta una texture friabile con cristalli, ben bilanciato."
-"Il formaggio presenta una texture asciutta, farinosa e poco solubile.","Il formaggio presenta una texture morbido e cedevole, con cristalli ben percepibili, solubile e grana abbastanza fine."
-"Il formaggio presenta una texture molle.","Il formaggio presenta una texture poco solubile."
-"Il formaggio presenta una texture morbida.","Il formaggio presenta una texture leggermente asciutta con buona struttura."
-"Il formaggio presenta una texture secco e asciutto.","Il formaggio presenta una texture morbida, friabile con bella presenza di granuli e umidità equilibrata."
-"Il formaggio presenta una texture senza grana.","Il formaggio presenta una texture moderatamente dura, grana fine, solubile, con molti cristalli e asciutta."
-"Il formaggio presenta una texture morbida e friabile con microstruttura di discreta finezza, cristalli presenti e finale leggermente impastato in bocca.","Il formaggio presenta una texture leggermente asciutta."
-"Il formaggio presenta una texture abbastanza dura e granulosa, senza cristalli, poco solubile e che lascia residuo farinoso.","Il formaggio presenta una texture pastosa con cristalli abbondanti."
-"Il formaggio presenta una texture con bella solubilità ma durezza bassa.","Il formaggio presenta una texture adesiva."
-"Il formaggio presenta una texture con buona grana e solubile.","Il formaggio presenta una texture granulosa con bella presenza di granuli, struttura e umidità equilibrate."
-"Il formaggio ha una texture che ingozza nel finale.","Il formaggio presenta una texture morbida, granulometria media, umida e solubile."
-"Il formaggio presenta una texture con friabilità e solubilità medie, granuli di tirosina intensi.","Il formaggio presenta una texture cedevole."
-"Il formaggio presenta una texture asciutta, poco friabile, lascia residuo e poco solubile.","Il formaggio presenta una texture con differente solubilità tra le porzioni, una con struttura stirata."
-"Il formaggio presenta una texture friabile.","Il formaggio presenta una texture discretamente solubile."
-"Il formaggio presenta una texture asciutta, poco solubile, lascia sensazione farinosa in bocca.","Il formaggio presenta una texture compatta, poco solubile e pastosa."
-"Il formaggio presenta una texture morbida e poco friabile.","Il formaggio presenta una texture morbida, poca grana e che impasta la bocca."
-"Il formaggio presenta una texture umida, cedevole e pastosa, con poca struttura.","Il formaggio presenta una texture morbida, poco friabile e con poca microstruttura."
-"Il formaggio presenta una texture secco e asciutto.","Il formaggio presenta una texture con grana ben percettibile e cristalli presenti."
-"Il formaggio presenta una texture mediamente dura, friabile, solubile e granulosa, con pochi microcristalli.","Il formaggio presenta una texture gommosa."
-"Il formaggio presenta una texture morbida e asciutta, poco solubile, lascia residuo polveroso.","Il formaggio presenta una texture pastosa e persistente in bocca."
-"Il formaggio presenta una texture friabile, non asciutto, non impasta la bocca.","Il formaggio presenta una texture asciutta, poco solubile, lascia sensazione farinosa in bocca."
-"Il formaggio presenta una texture poco friabile, con grana fine ma percepibile, leggermente asciutta e cristalli sensibili.","Il formaggio presenta una texture con tirosina scarsa."
-"Il formaggio presenta una texture granulosa, solubile e asciutta.","Il formaggio presenta una texture friabile e morbido, pochi cristalli, impasta la bocca."
-"Il formaggio presenta una texture compatta.","Il formaggio presenta una texture con cristalli."
-"Il formaggio presenta una texture morbida e friabile con microstruttura di discreta finezza, cristalli presenti e finale leggermente impastato in bocca.","Il formaggio presenta una texture leggermente asciutta."
-"Il formaggio presenta una texture molto tenera con cristalli.","Il formaggio presenta una texture secca."
-"Il formaggio presenta una texture poco friabile, leggermente plastica e morbida.","Il formaggio presenta una texture poco friabile, compatta, poco granulosa e abbastanza solubile."
-"Il formaggio presenta una texture con cristalli di tirosina abbondanti, friabilità e solubilità medie.","Il formaggio presenta una texture con tirosina di forte intensità, solubilità e friabilità leggere."
-"Il formaggio presenta una texture poco friabile, compatta, poco granulosa e abbastanza solubile.","Il formaggio presenta una texture granulosa con cristalli abbastanza solubili."
-"Il formaggio presenta una texture abbastanza solubile.","Il formaggio presenta una texture consistente al molare, si frange in bella struttura, scioglie con residuo sabbioso, ben umida e con tanti microcristalli."
-"Il formaggio presenta una texture a grana fine, pastosa, asciutta, abbastanza solubile e piuttosto morbida.","Il formaggio presenta una texture friabile, leggermente secco, pochi cristalli."
-"Il formaggio presenta una texture con buona solubilità.","Il formaggio presenta una texture pastosa."
-"Il formaggio presenta una texture morbida, granulosa con cristalli evidenti.","Il formaggio presenta una texture cedevole, molto pastosa e asciutta, poco solubile, con microstruttura sottile e molti cristalli."
-"Il formaggio presenta una texture poco solubile.","Il formaggio presenta una texture abbastanza solubile."
-"Il formaggio presenta una texture inconsistente, senza cristalli.","Il formaggio presenta una texture friabile, solubilità intermedia, untuosità."
-"Il formaggio presenta una texture asciutta con cristalli evidenti, poco solubile, lascia residuo in bocca.","Il formaggio ha una texture che si scioglie bene in bocca."
-"Il formaggio presenta una texture poco granulosa in bocca.","Il formaggio presenta una texture solubile e friabile, con tirosina percepibile a intensità leggera."
-"Il formaggio presenta una texture morbida, granulosa con cristalli evidenti.","Il formaggio presenta una texture compatta, asciutta e granulosa con cristalli, poco solubile, lascia residuo sabbioso."
-"Il formaggio presenta una texture abbastanza cedevole, granulosa, con microstruttura grossolana e leggermente asciutta.","Il formaggio presenta una texture friabile con microstruttura fine e tendenza sabbiosa, lascia bocca pulita, microcristalli presenti in quantità moderata."
-"Il formaggio presenta una texture granulosa, umida ma poco solubile.","Il formaggio presenta una texture friabile, secco e asciutto, con microstruttura sufficiente."
-"Il formaggio presenta una texture morbida con cristalli fini, poco solubile e che lascia residuo sabbioso.","Il formaggio presenta una texture asciutta."
-"Il formaggio presenta una texture con poca grana e poca solubilità.","Il formaggio presenta una texture dura ma friabile, con microstruttura sottile, solubile ma asciutta."
-"Il formaggio presenta una texture con tirosina di forte intensità, solubilità e friabilità leggere.","Il formaggio presenta una texture granulosa."
-"Il formaggio presenta una texture con cristalli e consistenza gommosa.","Il formaggio presenta una texture friabile, asciutta e sabbioso al finale."
-"Il formaggio presenta una texture umida che lascia una bella bocca.","Il formaggio presenta una texture sabbioso con frammenti."
-"Il formaggio presenta una texture abbastanza solubile.","Il formaggio presenta una texture morbida e umida, poco granulosa con piccoli cristalli che lasciano residuo."
-"Il formaggio presenta una texture friabile, non asciutta, con cristalli adeguati.","Il formaggio presenta una texture morbida, friabile con microstruttura non fine, umida e tendente al pastoso nel finale di bocca."
-"Il formaggio presenta una texture con cristalli fastidiosi.","Il formaggio presenta una texture morbida, microstruttura assente, con qualche cristallo."
-"Il formaggio presenta una texture friabile con struttura netta, elastica al morso; finale leggermente asciutto.","Il formaggio presenta una texture gommosa."
-"Il formaggio presenta una texture asciutta.","Il formaggio presenta una texture poco friabile e tendente all'umido."
-"Il formaggio presenta una texture molto friabile, poco solubile al finale.","Il formaggio presenta una texture ancora umida, legata, poco granulosa e poco solubile."
-"Il formaggio presenta una texture granulosa con scagliette che rimangono in bocca.","Il formaggio presenta una texture asciutta, solubile, con cristalli di media grandezza."
-"Il formaggio presenta una texture friabile ma asciutta, ingozza alla deglutizione.","Il formaggio presenta una texture con cristalli medio-grossi, rimane granulosa e sabbiosa."
-"Il formaggio presenta una texture tenera.","Il formaggio presenta una texture morbida, asciutta, con cristalli abbondanti e solubile."
-"Il formaggio presenta una texture secca.","Il formaggio presenta una texture morbida, friabilità limitata, tende a sciogliersi in bocca con pochi cristalli."
-"Il formaggio presenta una texture non gommosa, con grana.","Il formaggio presenta una texture con pochi cristalli."
-"Il formaggio presenta una texture con cristalli presenti e buona solubilità.","Il formaggio presenta una texture pastosa e morbida, con molti cristalli."
-"Il formaggio presenta una texture abbastanza dura, asciutta, con cristalli fini e solubile.","Il formaggio presenta una texture umida e pastosa."
-"Il formaggio presenta una texture tendente al molliccio.","Il formaggio presenta una texture pastosa con poca grana."
-"Il formaggio presenta una texture leggermente asciutta.","Il formaggio presenta una texture poco granulosa."
-"Il formaggio presenta una texture morbida, granulosa, che tende a impastare con pochi cristalli.","Il formaggio presenta una texture cedevole, umida, quasi adesiva, poco solubile e poco granulosa."
-"Il formaggio presenta una texture piuttosto compatta, poco friabile e pastosa, con scarsa solubilità.","Il formaggio presenta una texture leggermente morbida, bella umidità e solubilità, cristalli adeguati."
-"Il formaggio presenta una texture compatta, poco solubile e pastosa.","Il formaggio presenta una texture molto tenera."
-"Il formaggio presenta una texture friabile con solubilità medio-alta e granuli di tirosina di media intensità.","Il formaggio presenta una texture con cristalli presenti."
-"Il formaggio presenta una texture morbido cedevole, senza struttura, molto fine.","Il formaggio presenta una texture asciutta con cristalli."
-"Il formaggio presenta una texture asciutta, granulosa, poco solubile, con pochi microcristalli.","Il formaggio presenta una texture poco friabile, troppo plastica al morso e morbida."
-"Il formaggio presenta una texture molto pastosa.","Il formaggio presenta una texture troppo pastosa."
-"Il formaggio presenta una texture asciutta.","Il formaggio presenta una texture friabile."
-"Il formaggio presenta una texture pastosa e persistente in bocca.","Il formaggio presenta una texture pastosa."
-"Il formaggio presenta una texture molto tenera, cristalli molto solubili.","Il formaggio presenta una texture compatta e adesiva."
-"Il formaggio presenta una texture molto pastosa.","Il formaggio presenta una texture molto asciutta."
-"Il formaggio presenta una texture friabile, solubile, con pochi cristalli.","Il formaggio presenta una texture granulosa con microcristalli presenti."
-"Il formaggio presenta una texture asciutta.","Il formaggio presenta una texture asciutta, granulosa con cristalli che lascia residuo in bocca."
-"Il formaggio presenta una texture friabile, microstruttura fine che tende al sabbioso nel finale di bocca.","Il formaggio presenta una texture con molti granuli, umidità giusta."
-"Il formaggio presenta una texture con tirosina presente, abbastanza solubile.","Il formaggio presenta una texture leggermente asciutta nel finale di bocca."
-"Il formaggio presenta una texture molto pastosa, non da grana.","Il formaggio presenta una texture sabbiosa."
-"Il formaggio presenta una texture discretamente solubile.","Il formaggio presenta una texture dura, poco solubile, moderatamente umida e microstruttura piuttosto grossolana."
-"Il formaggio presenta una texture granulosa, solubile, umidità giusta e leggermente sabbiosa in chiusura.","Il formaggio presenta una texture mediamente asciutta, granulosa e solubile."
-"Il formaggio presenta una texture pastosa.","Il formaggio presenta una texture asciutta, granulosa, con cristalli."
-"Il formaggio presenta una texture umida, cedevole e poco granulosa.","Il formaggio presenta una texture troppo morbida."
-"Il formaggio presenta una texture granulosa, poco asciutta, con cristalli chiari e poco solubile, lascia sabbia fine in bocca.","Il formaggio presenta una texture eccessivamente umida."
-"Il formaggio presenta una texture morbida, friabile, con pochi cristalli fini e leggermente asciutta.","Il formaggio presenta una texture friabile e umida, con struttura fine, morbida e non pastosa."
-"Il formaggio presenta una texture morbida, granulosa, con pochi cristalli.","Il formaggio presenta una texture con buona presenza di tirosina."
-"Il formaggio presenta una texture granulosa, solubile e mediamente asciutta.","Il formaggio presenta una texture solubile con sensazione sabbioso finale."
-"Il formaggio presenta una texture poco solubile.","Il formaggio presenta una texture morbida, abbastanza asciutta, a grana fine, solubile e cristalli percepibili."
-"Il formaggio presenta una texture friabile con cristalli abbondanti, lascia bocca farinosa e pulita.","Il formaggio presenta una texture umida, cedevole e poco solubile."
-"Il formaggio presenta una texture troppo tenera, cristalli presenti.","Il formaggio presenta una texture pastosa, poca grana e qualche cristallo."
-"Il formaggio presenta una texture solubile.","Il formaggio presenta una texture pastosa e untuosa, con bei granuli."
-"Il formaggio presenta una texture morbida, quasi molle.","Il formaggio presenta una texture morbida e leggermente friabile."
-"Il formaggio presenta una texture compatta, quasi gommosa e deformabile, non friabile.","Il formaggio presenta una texture compatta, poco friabile, con grana fresca."
-"Il formaggio presenta una texture torbida pastosa con cristalli, lascia sabbietta finale.","Il formaggio presenta una texture abbastanza morbida, sottile, leggermente asciutta e solubile."
-"Il formaggio presenta una texture granulosa, morbida, con cristalli evidenti.","Il formaggio presenta una texture poco dura e con scarsa tirosina."
-"Il formaggio presenta una texture granulosa, asciutta, con cristalli che lasciano un poco di residuo.","Il formaggio presenta una texture granulosa con cristalli poco solubili, lascia residuo farinoso."
-"Il formaggio presenta una texture compatta e poco granulare, abbastanza dura e asciutta, con pochi cristalli.","Il formaggio presenta una texture friabile con struttura grossolana, lascia bocca disidratata e cristalli grossi presenti."
-"Il formaggio presenta una texture poco friabile, non particolarmente umida e con microstruttura grossolana.","Il formaggio presenta una texture friabile, solubile, con pochi cristalli."
-"Il formaggio presenta una texture compatta e poco friabile.","Il formaggio presenta una texture morbido pastosa."
-"Il formaggio presenta una texture dura ma friabile, con microstruttura sottile, solubile ma asciutta.","Il formaggio presenta una texture con poca grana, abbastanza adesiva e pochi cristalli."
-"Il formaggio presenta una texture compatta, poco solubile e pastosa.","Il formaggio presenta una texture gommosa con cristalli."
-"Il formaggio presenta una texture inconsistente.","Il formaggio presenta una texture con cristalli fini che lascia bocca pulita."
-"Il formaggio presenta una texture con poca umidità e scarsa solubilità.","Il formaggio presenta una texture molto friabile e solubile, con cristalli di tirosina poco percettibili."
-"Il formaggio presenta una texture poco solubile.","Il formaggio presenta una texture asciutta, friabile e leggermente sabbioso."
-"Il formaggio presenta una texture senza grana.","Il formaggio presenta una texture friabile, non asciutta, con cristalli adeguati."
-"Il formaggio presenta una texture friabile con microstruttura non fine, cristalli numerosi di varie dimensioni, tende ad asciugare le fauci prima della deglutizione.","Il formaggio presenta una texture morbida e solubile."
-"Il formaggio presenta una texture discreta friabilità, assenza di cristalli.","Il formaggio presenta una texture molle e cedevole, poco solubile."
-"Il formaggio presenta una texture mediamente morbida e leggermente asciutta.","Il formaggio presenta una texture molle e cedevole, privo di struttura."
-"Il formaggio presenta una texture mediamente dura, poco granulosa, molto solubile con pochi microcristalli.","Il formaggio presenta una texture inizialmente sabbioso fine, lascia bocca abbastanza pulita."
-"Il formaggio presenta una texture senza grana.","Il formaggio presenta una texture elastica, granulosa, asciutta e poco solubile con pochi cristalli."
-"Il formaggio presenta una texture troppo pastosa.","Il formaggio presenta una texture asciutta nonostante l'umidità, con friabilità scarsa."
-"Il formaggio presenta una texture morbida con friabilità non perfetta, cristalli grossi e liquescente nel finale di bocca.","Il formaggio presenta una texture leggermente gommosa."
-"Il formaggio presenta una texture dura, compatta, poco friabile, con grana finissima e asciutta.","Il formaggio presenta una texture molle e senza grana."
-"Il formaggio presenta una texture granulosa, poco asciutta, con cristalli chiari e poco solubile, lascia sabbia fine in bocca.","Il formaggio presenta una texture abbastanza dura e compatta, grana molto fine, cristalli non percepibili, leggermente asciutta."
-"Il formaggio presenta una texture poco solubile.","Il formaggio presenta una texture piuttosto compatta, poco friabile e pastosa, con scarsa solubilità."
-"Il formaggio presenta una texture tendente al molliccio.","Il formaggio presenta una texture gommosa."
-"Il formaggio presenta una texture friabile, asciutta ma non eccessiva, con microstruttura abbastanza fine e cristalli presenti non abbondanti; impasta e ingozza nel finale.","Il formaggio presenta una texture granulosa, che si scioglie bene e lascia la bocca abbastanza pulita."
-"Il formaggio presenta una texture con pochi cristalli.","Il formaggio presenta una texture granulosa, solubile e abbastanza asciutta."
-"Il formaggio presenta una texture pastosa con cristalli abbondanti.","Il formaggio presenta una texture senza struttura e cristalli."
-"Il formaggio ha una texture che tende a compattarsi, con piccoli cristalli poco solubili.","Il formaggio ha una texture che impasta, asciutta, poco granulosa e poco solubile, con qualche cristallo."
-"Il formaggio presenta una texture discretamente solubile.","Il formaggio presenta una texture pastosa in bocca, poco solubile."
-"Il formaggio presenta una texture granulosa, solubile e mediamente asciutta.","Il formaggio presenta una texture compatta, leggermente adesiva, poco friabile e poco solubile."
-"Il formaggio presenta una texture poco friabile, tendente all'adesivo e poco solubile, cristalli assenti.","Il formaggio presenta una texture pastosa con cristalli."
-"Il formaggio presenta una texture con scarsa solubilità e cristalli di tirosina impercettibili.","Il formaggio presenta una texture a grana fine, asciutta e pastosa, morbida."
-"Il formaggio presenta una texture pastosa.","Il formaggio presenta una texture troppo morbida e poco strutturata."
-"Il formaggio presenta una texture morbida, cristalli percepibili, poco granulosa e molto solubile.","Il formaggio presenta una texture asciutta, troppo pastosa e poco friabile, con cristalli medi."
-"Il formaggio presenta una texture poco solubile.","Il formaggio presenta una texture dura ma cedevole."
-"Il formaggio presenta una texture cedevole, poco granulosa, umida e quasi adesiva.","Il formaggio presenta una texture granulosa, solubile e abbastanza asciutta."
-"Il formaggio presenta una texture poco solubile.","Il formaggio presenta una texture senza struttura e cristalli."
-"Il formaggio presenta una texture asciutta e poco solubile.","Il formaggio ha una texture che impasta, asciutta, poco granulosa e poco solubile, con qualche cristallo."
-"Il formaggio presenta una texture friabile con cristalli grossi, microstruttura fine e finale deliquescente e farinoso.","Il formaggio presenta una texture pastosa in bocca, poco solubile."
-"Il formaggio presenta una texture con buon equilibrio tra microstruttura e cristalli.","Il formaggio presenta una texture compatta, leggermente adesiva, poco friabile e poco solubile."
-"Il formaggio presenta una texture pastosa.","Il formaggio presenta una texture pastosa con cristalli."
-"Il formaggio presenta una texture friabile con cristalli, ben bilanciato.","Il formaggio presenta una texture a grana fine, asciutta e pastosa, morbida."
-"Il formaggio presenta una texture ancora leggermente umida ma solubile.","Il formaggio presenta una texture troppo morbida e poco strutturata."
-"Il formaggio presenta una texture pastosa.","Il formaggio presenta una texture asciutta, troppo pastosa e poco friabile, con cristalli medi."
-"Il formaggio presenta una texture friabile, buona microstruttura, umida, con cristalli presenti.","Il formaggio presenta una texture dura ma cedevole."
-"Il formaggio presenta una texture umida, morbida e friabile, con microcristalli fini presenti.","Il formaggio presenta una texture leggermente umida, solubile, compatta e mediamente granulosa."
-"Il formaggio presenta una texture poco friabile, molto morbido, senza cristalli e con microstruttura finissima.","Il formaggio presenta una texture con pochi microcristalli e granella."
-"Il formaggio presenta una texture piuttosto morbida con poca microstruttura.","Il formaggio presenta una texture pastosa, asciutta, poco solubile, con qualche cristallo."
-"Il formaggio presenta una texture morbida, umida e cedevole, con friabilità moderata e microstruttura media.","Il formaggio presenta una texture pastosa, poco solubile e molle sotto i denti."
-"Il formaggio presenta una texture asciutta, molti granuli e media durezza.","Il formaggio presenta una texture granulosa in finale."
-"Il formaggio presenta una texture astringente.","Il formaggio presenta una texture gommosa."
-"Il formaggio presenta una texture con cristalli grossi e leggermente pastosa.","Il formaggio presenta una texture moderatamente dura, pastosa e asciutta, granulosa."
-"Il formaggio presenta una texture compatta e poco friabile.","Il formaggio presenta una texture con microcristalli, leggermente morbida."
-"Il formaggio presenta una texture asciutta, granulosa con cristalli evidenti e solubile.","Il formaggio presenta una texture dura, buona presenza di granuli e umidità equilibrata."
-"Il formaggio presenta una texture morbida, poco friabile e con poca microstruttura.","Il formaggio presenta una texture cedevole, umida e poco granulosa."
-"Il formaggio presenta una texture leggermente gommosa.","Il formaggio presenta una texture dura, compatta, a grana fine, con pochi cristalli e abbastanza solubile."
-"Il formaggio ha una texture che si scioglie bene in bocca.","Il formaggio presenta una texture granulosa con cristalli evidenti e abbastanza solubile."
-"Il formaggio presenta una texture solubile e friabile, con tirosina non ben distribuita.","Il formaggio presenta una texture dura e poco friabile."
-"Il formaggio presenta una texture molto morbida, priva di microstruttura e cristalli.","Il formaggio presenta una texture con granuli di tirosina moderati, leggermente gommosa, friabilità e solubilità leggere."
-"Il formaggio presenta una texture molto asciutta.","Il formaggio presenta una texture compatta e poco friabile."
-"Il formaggio presenta una texture granulosa con cristalli, leggero residuo finale e sensazione sabbiosa.","Il formaggio presenta una texture friabile ma troppo morbida, con cristalli presenti."
-"Il formaggio presenta una texture inconsistente.","Il formaggio presenta una texture asciutta, farinosa, con buoni cristalli e media solubilità."
-"Il formaggio presenta una texture con cristalli consistenti, tenerissima.","Il formaggio presenta una texture asciutta, granulosa, poco solubile, con pochi microcristalli."
-"Il formaggio presenta una texture pastosa.","Il formaggio presenta una texture poco friabile, con grana fine ma percepibile, leggermente asciutta e cristalli sensibili."
-"Il formaggio presenta una texture umida, cedevole e poco granulosa.","Il formaggio presenta una texture morbida, asciutta, granulosa, tende a impastare e con cristalli evidenti."
-"Il formaggio presenta una texture sabbioso-granulosa con pochi cristalli.","Il formaggio presenta una texture con poca grana e poco solubile."
-"Il formaggio presenta una texture asciutta, poco friabile, lascia residuo e poco solubile.","Il formaggio presenta una texture moderatamente solubile e friabile."
-"Il formaggio presenta una texture leggermente asciutta.","Il formaggio presenta una texture pastosa con pochi cristalli."
-"Il formaggio presenta una texture senza grana.","Il formaggio presenta una texture friabile ma morbido al morso, tendente al plastico e che incolla ai denti."
-"Il formaggio presenta una texture asciutta, farinosa, con buoni cristalli e media solubilità.","Il formaggio presenta una texture molto solubile."
-"Il formaggio presenta una texture con molti cristalli, decente microstruttura e abbastanza solubile.","Il formaggio presenta una texture leggermente cedevole, mediamente granulosa e solubile, con pochi microcristalli."
-"Il formaggio presenta una texture morbida, asciutta, poco friabile e poco solubile.","Il formaggio presenta una texture dura, friabile, con grana grossolana, cristalli ben percepibili e abbastanza solubile."
-"Il formaggio presenta una texture asciutta.","Il formaggio presenta una texture granulosa che tende a impastare, lascia residuo polveroso e qualche cristallo."
-"Il formaggio presenta una texture sabbioso finissimo.","Il formaggio presenta una texture con qualche cristallo, positiva."
-"Il formaggio presenta una texture friabile, leggermente asciutta.","Il formaggio presenta una texture moderatamente friabile e solubile, con tirosina leggera."
-"Il formaggio presenta una texture mediamente morbida e leggermente asciutta.","Il formaggio presenta una texture compatta, umida, pastosa, poco granulosa, solubile con pochi cristalli."
-"Il formaggio presenta una texture morbida, umida, poco friabile, con cristalli presenti anche di buone dimensioni.","Il formaggio presenta una texture con pochi cristalli."
-"Il formaggio presenta una texture cedevole, morbida e che ingozza.","Il formaggio presenta una texture cedevole al dente, si frattura in microstruttura grossolana con cristalli presenti e impasta la bocca."
-"Il formaggio presenta una texture morbida, poco granulosa e poco solubile.","Il formaggio presenta una texture poco solubile e tendente al pastoso."
-"Il formaggio presenta una texture piuttosto morbida con poca microstruttura.","Il formaggio presenta una texture cedevole, poco granulosa, con pochi microcristalli."
-"Il formaggio presenta una texture friabile con microstruttura fine e tendenza sabbiosa, lascia bocca pulita, microcristalli presenti in quantità moderata.","Il formaggio presenta una texture dura, compatta, poco friabile, con grana finissima e asciutta."
-"Il formaggio presenta una texture deformabile.","Il formaggio presenta una texture granulosa, morbida, con cristalli evidenti."
-"Il formaggio presenta una texture irregolare.","Il formaggio presenta una texture poco friabile e solubile."
-"Il formaggio presenta una texture granulosa, asciutta e solubile.","Il formaggio presenta una texture senza tirosina, friabilità e solubilità moderata."
-"Il formaggio presenta una texture poco solubile.","Il formaggio presenta una texture compatta, quasi gommosa e deformabile, non friabile."
-"Il formaggio presenta una texture abbastanza morbido e pastoso, microstruttura assente, poco solubile.","Il formaggio presenta una texture con struttura grossolana e cristalli non percepibili."
-"Il formaggio presenta una texture morbida, solubile, con grana fine e qualche cristallo.","Il formaggio presenta una texture con microstruttura scarsa ma nel complesso solubile."
-"Il formaggio presenta una texture morbida e pastosa con cristalli evidenti.","Il formaggio presenta una texture con granuli di tirosina non percettibili in alcuni cubetti, friabilità e solubilità scarsa."
-"Il formaggio presenta una texture molle e pastosa.","Il formaggio presenta una texture morbida, asciutta e abbastanza granulosa, con pochi cristalli e abbastanza solubile."
-"Il formaggio presenta una texture discretamente solubile.","Il formaggio presenta una texture consistente e friabile, non asciutta, senza cristalli percepibili."
-"Il formaggio presenta una texture asciutta, granulosa, con qualche cristallo e poco solubile.","Il formaggio presenta una texture equilibrata ma scarsa solubilità."
-"Il formaggio presenta una texture senza cristalli.","Il formaggio presenta una texture abbastanza morbida, granulosa, con microstruttura grossolana e poco solubile."
-"Il formaggio presenta una texture friabile, solubile, con pochi cristalli.","Il formaggio presenta una texture mediamente dura, granulosa e solubile."
-"Il formaggio presenta una texture morbida e pastosa, grana fine e solubile, pochi cristalli.","Il formaggio presenta una texture asciutta, poco granulosa e pastosa, poco solubile."
-"Il formaggio presenta una texture morbida e pastosa, grana fine e solubile, pochi cristalli.","Il formaggio presenta una texture friabile con microstruttura fine, cristalli presenti, tende a liquefarsi nel finale di bocca."
-"Il formaggio presenta una texture morbida che impasta la bocca, con qualche cristallo e solubile.","Il formaggio presenta una texture friabile e bilanciata."
-"Il formaggio presenta una texture asciutta, granulosa e poco solubile.","Il formaggio presenta una texture morbida e cedevole, con microstruttura sottile e solubile."
-"Il formaggio presenta una texture umida e solubile.","Il formaggio presenta una texture cedevole, umida e poco granulosa."
-"Il formaggio presenta una texture friabile, leggermente asciutta.","Il formaggio presenta una texture granulosa con cristalli evidenti."
-"Il formaggio presenta una texture molto morbida.","Il formaggio presenta una texture dura, granulosa, leggermente asciutta, con cristalli."
-"Il formaggio presenta una texture con cristalli presenti.","Il formaggio presenta una texture friabile, non asciutta, con microcristalli e grossi cristalli presenti, che asciuga nel finale."
-"Il formaggio presenta una texture dura, compatta, a grana fine, con pochi cristalli e abbastanza solubile.","Il formaggio presenta una texture con cristalli abbondanti."
-"Il formaggio presenta una texture con cristalli grossi, umida e che impasta le fauci.","Il formaggio presenta una texture leggermente adesiva."
-"Il formaggio presenta una texture solubile.","Il formaggio presenta una texture con cristalli percettibili."
-"Il formaggio presenta una texture poco solubile.","Il formaggio presenta una texture friabile che lascia la bocca impastata."
-"Il formaggio presenta una texture molle e cedevole.","Il formaggio presenta una texture granulosa con pochi cristalli."
-"Il formaggio presenta una texture morbida con cristalli fini, poco solubile e che lascia residuo sabbioso.","Il formaggio presenta una texture leggermente cedevole, poco aggregata ma solubile."
-"Il formaggio presenta una texture con buona struttura e microcristalli.","Il formaggio presenta una texture adesiva."
-"Il formaggio ha una texture che lascia bocca pulita.","Il formaggio presenta una texture solubile."
-"Il formaggio presenta una texture con cristalli presenti.","Il formaggio presenta una texture pastosa."
-"Il formaggio presenta una texture non friabile, priva di cristalli.","Il formaggio presenta una texture asciutta, granulosa con cristalli e ben solubile."
-"Il formaggio presenta una texture friabile e solubile, con microstruttura buona e pochissimi cristalli.","Il formaggio presenta una texture umida, cedevole e pastosa, con poca struttura."
-"Il formaggio presenta una texture con scarsa solubilità e friabilità.","Il formaggio presenta una texture asciutta, pastosa e poco solubile."
-"Il formaggio presenta una texture pastosa, morbida, con qualche cristallo e poco solubile.","Il formaggio presenta una texture leggermente gommosa."
-"Il formaggio presenta una texture abbastanza solubile.","Il formaggio presenta una texture asciutta, morbida e poco solubile."
-"Il formaggio presenta una texture molle e cedevole, privo di struttura.","Il formaggio presenta una texture solubile e granulosa."
-"Il formaggio presenta una texture morbida, poca grana e che impasta la bocca.","Il formaggio presenta una texture compatta."
-"Il formaggio presenta una texture compatta.","Il formaggio presenta una texture granulosa, solubile, leggermente asciutta con zone più umide."
-"Il formaggio presenta una texture polverosa, poco solubile, con granuli di tirosina percettibili al residuo finale.","Il formaggio presenta una texture con cristalli presenti."
-"Il formaggio presenta una texture compatta, grana abbastanza fine, piuttosto solubile, con pochissimi cristalli.","Il formaggio presenta una texture asciutta, granulosa con cristalli e poco solubile."
-"Il formaggio presenta una texture con pochi cristalli.","Il formaggio presenta una texture leggermente asciutta."
-"Il formaggio presenta una texture morbida, granulosa con cristalli.","Il formaggio presenta una texture leggermente adesiva."
-"Il formaggio presenta una texture morbida che si frantuina, senza cristalli.","Il formaggio presenta una texture solubile, poca grana."
-"Il formaggio presenta una texture molto morbida, priva di microstruttura e cristalli.","Il formaggio presenta una texture leggermente cedevole, poco solubile ma granulosa."
-"Il formaggio presenta una texture granulosa.","Il formaggio presenta una texture tenerissima con cristalli."
-"Il formaggio presenta una texture abbastanza cedevole, granulosa, con microstruttura grossolana e leggermente asciutta.","Il formaggio presenta una texture con cristalli di tirosina, solubilità e friabilità medio-alta."
-"Il formaggio presenta una texture con cristalli presenti, taluni grossi, umida, certi bocconi troppo morbidi, friabile nella struttura grossa e sabbiosa in finale.","Il formaggio ha una texture che tende a compattarsi, con piccoli cristalli poco solubili."
-"Il formaggio presenta una texture umida e adesiva.","Il formaggio presenta una texture con cristalli grossi percepibili, buona friabilità e scarsa umidità."
-"Il formaggio presenta una texture friabile e morbido, pochi cristalli, impasta la bocca.","Il formaggio presenta una texture pastosa, poco solubile e adesiva."
-"Il formaggio presenta una texture granulosa, asciutta con cristalli percepibili.","Il formaggio presenta una texture friabile."
-"Il formaggio presenta una texture pressoché assente.","Il formaggio presenta una texture mediamente dura, friabile, solubile e granulosa, con pochi microcristalli."
-"Il formaggio presenta una texture tendente al molliccio.","Il formaggio presenta una texture sabbioso-granulosa con cristalli."
-"Il formaggio presenta una texture troppo asciutta.","Il formaggio presenta una texture molto friabile e solubile, con granuli di tirosina persistenti."
-"Il formaggio presenta una texture molto umida, solubile e poco granulosa.","Il formaggio presenta una texture friabile che si sgretola in bocca con cristalli."
-"Il formaggio presenta una texture poco friabile.","Il formaggio presenta una texture umida, friabile con microstruttura fine e sabbiosa, lascia bocca pulita, con cristalli presenti anche grossi."
-"Il formaggio presenta una texture granulosa, solubile, leggermente asciutta con zone più umide.","Il formaggio presenta una texture umida, friabile, con strana cedevolezza e assenza di cristalli."
-"Il formaggio presenta una texture poco granulosa e deformabile.","Il formaggio presenta una texture cedevole, poco consistente, disaggregata ma solubile."
-"Il formaggio presenta una texture poco friabile, cedevole al molare, morbida, con cristalli abbondanti e grossi.","Il formaggio presenta una texture con cristalli abbondanti, si scioglie rapidamente in bocca."
-"Il formaggio presenta una texture friabile con cristalli, lascia residuo sabbioso in finale.","Il formaggio presenta una texture morbida, asciutta, con cristalli e poco solubile."
-"Il formaggio presenta una texture pastosa e adesiva.","Il formaggio presenta una texture morbida al morso, con microgranuli pochi ma fini."
-"Il formaggio presenta una texture con numerosi cristalli di tirosina.","Il formaggio presenta una texture senza cristalli."
-"Il formaggio ha una texture che impasta, asciutta e poco solubile, con pochi cristalli.","Il formaggio presenta una texture friabile, microstruttura poco presente, cristalli adeguati."
-"Il formaggio presenta una texture asciutta.","Il formaggio presenta una texture asciutta."
-"Il formaggio presenta una texture molto compatta e poco friabile.","Il formaggio presenta una texture pastosa e poco solubile."
-"Il formaggio presenta una texture pastosa e poco solubile.","Il formaggio presenta una texture compatta, grana abbastanza fine, piuttosto solubile, con pochissimi cristalli."
-"Il formaggio presenta una texture compatta.","Il formaggio presenta una texture poco coesa, cedevole e solubile."
-"Il formaggio presenta una texture pastosa e compatta, non granulosa, asciutta e priva di cristalli percepibili.","Il formaggio ha una texture che lascia granuli sabbiosi in bocca."
-"Il formaggio presenta una texture moderatamente friabile, poco solubile e con microcristalli di tirosina scarsamente percettibili.","Il formaggio presenta una texture morbida, pastosa e asciutta."
-"Il formaggio presenta una texture poco friabile, molto morbido, senza cristalli e con microstruttura finissima.","Il formaggio presenta una texture con pochi cristalli e struttura presente."
-"Il formaggio presenta una texture friabile con microstruttura fine, microcristalli non grossi e tendente all'asciutto.","Il formaggio presenta una texture troppo asciutta e poco solubile."
-"Il formaggio presenta una texture umida, molle e poco friabile, tende ad impastare la bocca e ingozzare, con cristalli presenti.","Il formaggio presenta una texture morbida, poca grana, qualche cristallo e poco solubile."
-"Il formaggio presenta una texture piuttosto morbida, assenza di cristalli.","Il formaggio presenta una texture molle con qualche granello di tirosina."
-"Il formaggio presenta una texture con scarsa solubilità e cristalli di tirosina impercettibili.","Il formaggio presenta una texture tenera con cristalli."
-"Il formaggio presenta una texture friabile, buona microstruttura, umida, con cristalli presenti.","Il formaggio presenta una texture compatta, leggermente umida e adesiva."
-"Il formaggio presenta una texture priva di cristalli.","Il formaggio presenta una texture abbastanza solubile."
-"Il formaggio presenta una texture troppo cedevole e friabile.","Il formaggio presenta una texture morbida con molti cristalli."
-"Il formaggio presenta una texture friabile con cristalli, ben bilanciato.","Il formaggio presenta una texture con scarsa microstruttura e mancanza di cristalli."
-"Il formaggio presenta una texture compatta.","Il formaggio presenta una texture molto friabile e asciutta."
-"Il formaggio presenta una texture molto adesiva.","Il formaggio presenta una texture granulosa con cristalli evidenti e solubile."
-"Il formaggio presenta una texture leggermente granulosa.","Il formaggio presenta una texture leggermente asciutta."
-"Il formaggio presenta una texture morbida, asciutta e con qualche cristallo.","Il formaggio presenta una texture con molti granuli di tirosina."
-"Il formaggio presenta una texture cedevole, molle e pastosa.","Il formaggio presenta una texture molto friabile, struttura fine e quasi asciutta."
-"Il formaggio presenta una texture molto asciutta e dura.","Il formaggio presenta una texture con leggera sabbiosità finale."
-"Il formaggio presenta una texture granulosa, molto asciutta e poco solubile.","Il formaggio presenta una texture granulosa."
-"Il formaggio presenta una texture asciutta.","Il formaggio presenta una texture morbida, granulosa con cristalli."
-"Il formaggio presenta una texture non granulosa.","Il formaggio presenta una texture friabile con microstruttura buona, cristalli percepibili e giusta umidità."
-"Il formaggio presenta una texture poco friabile, molto solubile, con scarsi cristalli di tirosina.","Il formaggio presenta una texture con cristalli e buona solubilità."
-"Il formaggio presenta una texture troppo morbida, microstruttura media, poco friabile, cristalli scarsi.","Il formaggio presenta una texture asciutta."
-"Il formaggio presenta una texture molto solubile.","Il formaggio presenta una texture asciutta, farinosa e poco solubile."
-"Il formaggio ha una texture che ingozza la bocca.","Il formaggio presenta una texture poco solubile."
-"Il formaggio presenta una texture solubile e friabile, con tirosina percepibile a intensità leggera.","Il formaggio presenta una texture sabbioso con cristalli abbondanti."
-"Il formaggio presenta una texture granulosa, che si scioglie bene e lascia la bocca abbastanza pulita.","Il formaggio presenta una texture pastosa che impasta la bocca, con poca grana, cristalli evidenti ma scarsa solubilità e finale sabbioso."
-"Il formaggio presenta una texture con pochi cristalli.","Il formaggio presenta una texture umida, tenera e che impasta la bocca nel finale."
-"Il formaggio presenta una texture asciutta.","Il formaggio presenta una texture morbida e abbastanza pastosa."
-"Il formaggio presenta una texture asciutta, granulosa, con qualche cristallo e poco solubile.","Il formaggio presenta una texture morbida e pastosa."
-"Il formaggio presenta una texture leggermente asciutta e nel complesso ben strutturata.","Il formaggio presenta una texture poco cedevole, con tirosina presente."
-"Il formaggio presenta una texture granulosa, umida ma poco solubile.","Il formaggio ha una texture che lascia la bocca poco pulita, con frammenti poco solubili."
-"Il formaggio presenta una texture tenerissima con cristalli.","Il formaggio presenta una texture pastosa che impasta la bocca, con poca grana, cristalli evidenti ma scarsa solubilità e finale sabbioso."
-"Il formaggio presenta una texture non gommosa, con grana.","Il formaggio presenta una texture umida, tenera e che impasta la bocca nel finale."
-"Il formaggio presenta una texture con poca microstruttura e cristalli.","Il formaggio presenta una texture morbida e abbastanza pastosa."
-"Il formaggio presenta una texture compatta, dura, piuttosto pastosa e priva di grana.","Il formaggio presenta una texture morbida e pastosa."
-"Il formaggio presenta una texture molto pastosa.","Il formaggio presenta una texture poco cedevole, con tirosina presente."
-"Il formaggio presenta una texture poco solubile, leggermente sabbioso in alcune zone.","Il formaggio ha una texture che lascia la bocca poco pulita, con frammenti poco solubili."
-"Il formaggio presenta una texture solubile, poca grana.","Il formaggio presenta una texture compatta."
-"Il formaggio presenta una texture con buona struttura e microcristalli.","Il formaggio presenta una texture con pochi cristalli."
-"Il formaggio presenta una texture con cristalli presenti, taluni grossi, umida, certi bocconi troppo morbidi, friabile nella struttura grossa e sabbiosa in finale.","Il formaggio presenta una texture poco granulosa e deformabile."
-"Il formaggio presenta una texture adesiva.","Il formaggio presenta una texture senza cristalli e senza grana."
-"Il formaggio presenta una texture media con cristalli e umidità equilibrata.","Il formaggio presenta una texture non granulosa."
-"Il formaggio presenta una texture morbida, asciutta, poco friabile e poco solubile.","Il formaggio presenta una texture compatta, non granulosa, non friabile."
-"Il formaggio presenta una texture deformabile, compatta, poco friabile e poco granulosa.","Il formaggio presenta una texture poco friabile."
-"Il formaggio presenta una texture friabile e solubile con granuli di tirosina evidenti.","Il formaggio presenta una texture priva di cristalli."
-"Il formaggio presenta una texture adesiva e poco solubile.","Il formaggio presenta una texture priva di cristalli."
-"Il formaggio presenta una texture molto friabile e asciutta.","Il formaggio presenta una texture poco friabile."
-"Il formaggio presenta una texture poco solubile al finale.","Il formaggio presenta una texture priva di cristalli."
-"Il formaggio presenta una texture asciutta, poco solubile all'inizio con cristalli percepibili al finale.","Il formaggio presenta una texture priva di cristalli."
-"Il formaggio presenta una texture leggermente adesiva.","Il formaggio ha una texture che ingozza la bocca."
-"Il formaggio presenta una texture leggermente gommosa.","Il formaggio presenta una texture leggermente allappante."
-"Il formaggio presenta una texture moderatamente dura, grana fine, solubile, con molti cristalli e asciutta.","Il formaggio ha una texture che ingozza la bocca."
-"Il formaggio ha una texture che scricchiola, non per cristalli.","Il formaggio presenta una texture con pochi cristalli."
-"Il formaggio presenta una texture non granulosa e solubile.","Il formaggio presenta una texture poco granulosa."
-"Il formaggio presenta una texture poco friabile.","Il formaggio presenta una texture malleabile e deformabile."
-"Il formaggio presenta una texture pastosa e molle.","Il formaggio presenta una texture non granulosa."
-"Il formaggio presenta una texture tenera.","Il formaggio presenta una texture non granulosa."
-"Il formaggio presenta una texture leggermente molle e cedevole.","Il formaggio presenta una texture con cristalli percepibili."
-"Il formaggio presenta una texture friabile, non asciutta, con microstruttura fine e assenza di cristalli.","Il formaggio presenta una texture molto eterogenea."
-"Il formaggio presenta una texture morbida e poco strutturata.","Il formaggio presenta una texture asciutta."
-"Il formaggio presenta una texture asciutta, poco solubile, lascia residuo.","Il formaggio presenta una texture asciutta."
-"Il formaggio presenta una texture granulosa ma poco solubile.","Il formaggio presenta una texture asciutta."
-"Il formaggio presenta una texture leggermente adesiva.","Il formaggio presenta una texture molto asciutta."
-"Il formaggio presenta una texture senza grana.","Il formaggio ha una texture che ingozza la bocca."
-"Il formaggio presenta una texture poco solubile.","Il formaggio presenta una texture con struttura stirata."
-"Il formaggio presenta una texture morbida, grassa, con cristalli evidenti.","Il formaggio presenta una texture asciutta."
+pred,ref,image_path
+Il formaggio presenta una texture con poca grana.,Il formaggio presenta una texture leggermente asciutta o pastosa.,data/data/images_flat/2020-2021_Trentingrana__III bimestre__16°Seduta_18-12-2020__P4_TN323_813_FETTA_A.bmp
+"Il formaggio presenta una texture morbida che impasta la bocca, con qualche cristallo e solubile.",Il formaggio presenta una texture molto tenera.,data/data/images_flat/2020-2021_Trentingrana__III bimestre__14°Seduta_09-12-2020__P6_TN_330_435_FETTA_B.bmp
+Il formaggio presenta una texture abbastanza solubile.,Il formaggio presenta una texture leggermente asciutta.,data/data/images_flat/2020-2021_Trentingrana__III bimestre__11°Seduta_19-11-2020__P4_TN319_793b_fetta.bmp
+"Il formaggio presenta una texture molle e cedevole, privo di struttura.",Il formaggio presenta una texture leggermente dura.,data/data/images_flat/2020-2021_Trentingrana__III bimestre__12°Seduta_25-11-2020___P5_TN328_182_FETTA_B.bmp
+Il formaggio presenta una texture molle e senza grana.,Il formaggio presenta una texture poco solubile e leggermente asciutta.,data/data/images_flat/2020-2021_Trentingrana__III bimestre__12°Seduta_25-11-2020___P6_TN330_714_FETTA_A.bmp
+Il formaggio presenta una texture con cristalli presenti.,Il formaggio presenta una texture strana.,data/data/images_flat/2020-2021_Trentingrana__IV bimestre__21°Seduta_10-02-2021__P6_TN338_211_FETTA_B.bmp
+"Il formaggio presenta una texture abbastanza dura, compatta ma friabile, con grana fine e solubile.",Il formaggio presenta una texture leggermente asciutta.,data/data/images_flat/2020-2021_Trentingrana__IV bimestre__21°Seduta_10-02-2021__P2_TN306_938_FETTA_A.bmp
+Il formaggio presenta una texture mediamente umida.,Il formaggio presenta una texture astringente.,data/data/images_flat/2020-2021_Trentingrana__IV bimestre__17°Seduta_13-01-2021__P3_TN314_726_FETTA_A.bmp
+"Il formaggio presenta una texture asciutta, granulosa con cristalli e solubile.","Il formaggio presenta una texture molto solubile, tendente all'eccessivo.",data/data/images_flat/2020-2021_Trentingrana__II bimestre__09-10-2020_6°Seduta__P1B_TN305_584 FETTA.bmp
+Il formaggio presenta una texture poco solubile al finale.,Il formaggio presenta una texture pastosa e asciutta.,data/data/images_flat/2020-2021_Trentingrana__II bimestre__10°Seduta_04-11-2020__P2A_TN306_735_fetta.bmp
+"Il formaggio presenta una texture leggermente cedevole, poco solubile ma granulosa.","Il formaggio presenta una texture con cristalli grandi, poco cristallizzata e non scrocchiarella.",data/data/images_flat/2020-2021_Trentingrana__II bimestre__10°Seduta_04-11-2020__P3A_TN307_553_fetta.bmp
+Il formaggio presenta una texture molto eterogenea.,Il formaggio presenta una texture con cristalli piuttosto duri.,data/data/images_flat/2020-2021_Trentingrana__II bimestre__10°Seduta_04-11-2020__P3A_TN307_553_fetta.bmp
+"Il formaggio presenta una texture granulosa, asciutta, solubile e dura, poco umida.",Il formaggio presenta una texture leggermente schioccante.,data/data/images_flat/2020-2021_Trentingrana__II bimestre__10°Seduta_04-11-2020__P3A_TN307_553_fetta.bmp
+Il formaggio presenta una texture con cristalli abbondanti.,Il formaggio presenta una texture leggermente troppo umida.,data/data/images_flat/2020-2021_Trentingrana__II bimestre__10°Seduta_04-11-2020__P3A_TN307_553_fetta.bmp
+Il formaggio presenta una texture molto adesiva.,Il formaggio presenta una texture con cristalli non molto grossi.,data/data/images_flat/2020-2021_Trentingrana__II bimestre__21-10-2020_8°Seduta__P1B_TN302_546_FETTA.bmp
+Il formaggio presenta una texture abbastanza pulita in bocca.,Il formaggio presenta una texture con cristalli non molto grossi.,data/data/images_flat/2020-2021_Trentingrana__II bimestre__21-10-2020_8°Seduta__P1A_TN302_546_FETTA.bmp
+Il formaggio presenta una texture compatta.,Il formaggio ha una texture che ingozza la bocca.,data/data/images_flat/2020-2021_Trentingrana__II bimestre__21-10-2020_8°Seduta__P6B_TN330_165FETTA.bmp
+"Il formaggio presenta una texture secca, con molti cristalli e buona solubilità.",Il formaggio presenta una texture compatta.,data/data/images_flat/2020-2021_Trentingrana__II bimestre__21-10-2020_8°Seduta__P6B_TN330_165FETTA.bmp
+"Il formaggio presenta una texture pastosa, poca grana.",Il formaggio presenta una texture farinosa.,data/data/images_flat/2020-2021_Trentingrana__II bimestre__21-10-2020_8°Seduta__P5A_TN328_354FETTA.bmp
+"Il formaggio presenta una texture leggermente umida, solubile, compatta e mediamente granulosa.","Il formaggio presenta una texture quasi gommosa, poco granulosa ma solubile.",data/data/images_flat/2018-2019_Trentingrana__2019-01-16__P4a_319_fetta.bmp
+Il formaggio presenta una texture friabile con cristalli.,Il formaggio ha una texture che lascia in bocca residui cremosi con presenza di cristalli.,data/data/images_flat/2018-2019_Trentingrana__2019-01-16__P4a_319_fetta.bmp
+"Il formaggio presenta una texture friabile con microstruttura fine, microcristalli non grossi e tendente all'asciutto.","Il formaggio presenta una texture dura e compatta, poco solubile, senza grana.",data/data/images_flat/2018-2019_Trentingrana__2019-01-16__P4a_319_fetta.bmp
+Il formaggio presenta una texture pastosa con pochi cristalli.,"Il formaggio presenta una texture morbida che impasta, con qualche cristallo e residuo in bocca.",data/data/images_flat/2018-2019_Trentingrana__2019-01-16__P4a_319_fetta.bmp
+Il formaggio presenta una texture con poca grana.,Il formaggio presenta una texture leggermente gommosa.,data/data/images_flat/2018-2019_Trentingrana__2019-01-16__P4a_319_fetta.bmp
+Il formaggio presenta una texture sabbioso-granulosa con cristalli.,"Il formaggio presenta una texture morbida e cedevole, che impasta la bocca, con cristalli presenti.",data/data/images_flat/2018-2019_Trentingrana__2019-01-16__P4a_319_fetta.bmp
+"Il formaggio presenta una texture pastosa, umida e poco granulosa.","Il formaggio presenta una texture compatta, adesiva, poco solubile e poco friabile, poco granulosa, con pochi cristalli.",data/data/images_flat/2018-2019_Trentingrana__2019-01-16__P4a_319_fetta.bmp
+Il formaggio presenta una texture con buon equilibrio tra umidità e friabilità.,"Il formaggio presenta una texture tenerissima, priva di grana.",data/data/images_flat/2018-2019_Trentingrana__2019-01-16__P4a_319_fetta.bmp
+"Il formaggio presenta una texture morbida, asciutta, con cristalli e poco solubile.",Il formaggio presenta una texture con cristalli presenti e buona solubilità.,data/data/images_flat/2018-2019_Trentingrana__2019-01-16__P4a_319_fetta.bmp
+Il formaggio presenta una texture con scarsa solubilità e friabilità.,Il formaggio presenta una texture con pochi cristalli e molto pastosa.,data/data/images_flat/2018-2019_Trentingrana__2019-01-16__P4a_319_fetta.bmp
+"Il formaggio presenta una texture friabile, granulosa e discretamente solubile.","Il formaggio presenta una texture morbida, poco granulosa, poco solubile, con buona presenza di microcristalli e leggermente adesiva.",data/data/images_flat/2018-2019_Trentingrana__2019-01-16__P3a_316_fetta.bmp
+"Il formaggio presenta una texture leggermente umida, solubile, compatta e mediamente granulosa.","Il formaggio ha una texture che si scioglie bene in bocca, lasciando granelli piccoli e percettibili.",data/data/images_flat/2018-2019_Trentingrana__2019-01-16__P3a_316_fetta.bmp
+Il formaggio presenta una texture con cristalli abbondanti.,"Il formaggio presenta una texture dura, pasta compatta e poco friabile, grana molto fine, cristalli praticamente assenti, solubile.",data/data/images_flat/2018-2019_Trentingrana__2019-01-16__P3a_316_fetta.bmp
+Il formaggio presenta una texture adesiva.,"Il formaggio presenta una texture granulosa pastosa, pochi cristalli, lascia residuo.",data/data/images_flat/2018-2019_Trentingrana__2019-01-16__P3a_316_fetta.bmp
+"Il formaggio presenta una texture mediamente dura, granulosa e solubile.",Il formaggio presenta una texture poco granulosa e pastosa.,data/data/images_flat/2018-2019_Trentingrana__2019-01-16__P3a_316_fetta.bmp
+Il formaggio presenta una texture con molti granuli di tirosina.,"Il formaggio presenta una texture con cristalli rari, tendente al morbido, umida e friabile.",data/data/images_flat/2018-2019_Trentingrana__2019-01-16__P3a_316_fetta.bmp
+Il formaggio presenta una texture con cristalli presenti e microstruttura poco sviluppata.,"Il formaggio presenta una texture compatta, poco friabile, poco granulosa, adesiva e quasi senza cristalli.",data/data/images_flat/2018-2019_Trentingrana__2019-01-16__P3a_316_fetta.bmp
+Il formaggio presenta una texture dura e compatta con cristalli di tirosina presenti.,"Il formaggio presenta una texture molto tenera, grana assente.",data/data/images_flat/2018-2019_Trentingrana__2019-01-16__P3a_316_fetta.bmp
+Il formaggio ha una texture che lascia granuli sabbiosi in bocca.,Il formaggio presenta una texture poco umida.,data/data/images_flat/2018-2019_Trentingrana__2019-01-16__P3a_316_fetta.bmp
+Il formaggio presenta una texture asciutta.,"Il formaggio presenta una texture leggermente umida, mediamente granulosa e solubile, con pochi cristalli.",data/data/images_flat/2018-2019_Trentingrana__2019-01-16__P2b_313_fetta.bmp
+"Il formaggio presenta una texture dura, asciutta e praticamente priva di grana.","Il formaggio ha una texture che lascia la bocca abbastanza pulita, con presenza di diversi cristalli.",data/data/images_flat/2018-2019_Trentingrana__2019-01-16__P2b_313_fetta.bmp
+Il formaggio presenta una texture pastosa con pochi cristalli.,"Il formaggio presenta una texture abbastanza dura, compatta ma friabile, con grana fine e solubile.",data/data/images_flat/2018-2019_Trentingrana__2019-01-16__P2b_313_fetta.bmp
+Il formaggio presenta una texture con cristalli grossi e leggermente pastosa.,"Il formaggio presenta una texture morbida con qualche cristallo, asciutta, tende ad impastare, poca grana e si scioglie in bocca.",data/data/images_flat/2018-2019_Trentingrana__2019-01-16__P2b_313_fetta.bmp
+"Il formaggio presenta una texture umida, pastosa e quasi liquefabile.",Il formaggio presenta una texture poco pastosa.,data/data/images_flat/2018-2019_Trentingrana__2019-01-16__P2b_313_fetta.bmp
+Il formaggio ha una texture che si scioglie bene in bocca.,"Il formaggio presenta una texture friabile con microstruttura non fine, cristalli numerosi di varie dimensioni, tende ad asciugare le fauci prima della deglutizione.",data/data/images_flat/2018-2019_Trentingrana__2019-01-16__P2b_313_fetta.bmp
+"Il formaggio presenta una texture friabile, non asciutta, con microstruttura fine e assenza di cristalli.",Il formaggio presenta una texture poco friabile e poco solubile.,data/data/images_flat/2018-2019_Trentingrana__2019-01-16__P2b_313_fetta.bmp
+"Il formaggio presenta una texture non friabile, non granulosa.",Il formaggio presenta una texture con poca grana.,data/data/images_flat/2018-2019_Trentingrana__2019-01-16__P2b_313_fetta.bmp
+Il formaggio presenta una texture con buon equilibrio tra microstruttura e cristalli.,Il formaggio presenta una texture con microstruttura assente.,data/data/images_flat/2018-2019_Trentingrana__2019-01-16__P2b_313_fetta.bmp
+Il formaggio presenta una texture con zone da pasta stirata.,Il formaggio presenta una texture pastosa.,data/data/images_flat/2018-2019_Trentingrana__2019-01-16__P2b_313_fetta.bmp
+"Il formaggio presenta una texture friabile, leggermente asciutta.","Il formaggio presenta una texture cedevole, poco granulosa, umida e quasi adesiva.",data/data/images_flat/2018-2019_Trentingrana__2018-10-03__P6b_330_fetta.bmp
+"Il formaggio ha una texture che tende a compattarsi, con piccoli cristalli poco solubili.","Il formaggio presenta una texture compatta, molto solubile ma poco friabile, con poca grana.",data/data/images_flat/2018-2019_Trentingrana__2018-10-03__P6b_330_fetta.bmp
+"Il formaggio presenta una texture quasi priva di cristalli, troppo umida.","Il formaggio presenta una texture morbida, asciutta e poco granulosa.",data/data/images_flat/2018-2019_Trentingrana__2018-10-03__P6b_330_fetta.bmp
+"Il formaggio presenta una texture compatta e asciutta, grana fine, cristalli assenti.",Il formaggio presenta una texture adesiva.,data/data/images_flat/2018-2019_Trentingrana__2018-10-03__P6b_330_fetta.bmp
+"Il formaggio presenta una texture polverosa, poco solubile, con granuli di tirosina percettibili al residuo finale.","Il formaggio presenta una texture molto morbida, umida e pastosa, con pochi granuli.",data/data/images_flat/2018-2019_Trentingrana__2018-10-03__P6b_330_fetta.bmp
+"Il formaggio presenta una texture morbida e pastosa, grana fine e solubile, pochi cristalli.",Il formaggio presenta una texture leggermente umida con cristalli percettibili.,data/data/images_flat/2018-2019_Trentingrana__2018-10-03__P6b_330_fetta.bmp
+Il formaggio presenta una texture con struttura grossolana e cristalli non percepibili.,"Il formaggio presenta una texture umida, fondente a fine bocca.",data/data/images_flat/2018-2019_Trentingrana__2018-10-03__P6b_330_fetta.bmp
+Il formaggio ha una texture che ingozza la bocca.,"Il formaggio presenta una texture umida, morbida e solubile.",data/data/images_flat/2018-2019_Trentingrana__2018-10-03__P6b_330_fetta.bmp
+Il formaggio presenta una texture plastica che ingozza.,"Il formaggio presenta una texture umida, poco granulosa e poco solubile.",data/data/images_flat/2018-2019_Trentingrana__2018-10-03__P2b_305_fetta.bmp
+"Il formaggio presenta una texture molle, con poca consistenza e che si sfalda.",Il formaggio presenta una texture con pochissimi granuli di tirosina.,data/data/images_flat/2018-2019_Trentingrana__2018-10-03__P2b_305_fetta.bmp
+"Il formaggio presenta una texture granulosa, asciutta, con cristalli e solubile.",Il formaggio presenta una texture morbida con poca grana.,data/data/images_flat/2018-2019_Trentingrana__2018-10-03__P2b_305_fetta.bmp
+"Il formaggio presenta una texture deformabile, compatta, poco friabile e poco granulosa.",Il formaggio presenta una texture leggermente granulosa.,data/data/images_flat/2018-2019_Trentingrana__2018-10-03__P2b_305_fetta.bmp
+"Il formaggio presenta una texture leggermente sabbioso, lascia bocca poco pulita.","Il formaggio presenta una texture morbido pastoso, umidità media e granuli mediamente alti.",data/data/images_flat/2018-2019_Trentingrana__2018-10-03__P2b_305_fetta.bmp
+Il formaggio presenta una texture molto granulosa e persistente.,Il formaggio presenta una texture pastosa.,data/data/images_flat/2018-2019_Trentingrana__2018-10-03__P2b_305_fetta.bmp
+"Il formaggio presenta una texture molle e cedevole, non granulosa.",Il formaggio presenta una texture morbida che impasta la bocca.,data/data/images_flat/2018-2019_Trentingrana__2018-10-03__P2b_305_fetta.bmp
+Il formaggio presenta una texture poco friabile e compatta.,"Il formaggio presenta una texture morbida, umida, con cristalli.",data/data/images_flat/2018-2019_Trentingrana__2018-10-03__P2b_305_fetta.bmp
+"Il formaggio presenta una texture asciutta, granulosa con piccoli cristalli e solubile.","Il formaggio presenta una texture umida, poco granulosa e poco solubile.",data/data/images_flat/2018-2019_Trentingrana__2018-10-03__P2a_305_fetta.bmp
+"Il formaggio presenta una texture morbida, friabile con microstruttura non fine, umida e tendente al pastoso nel finale di bocca.",Il formaggio presenta una texture con pochissimi granuli di tirosina.,data/data/images_flat/2018-2019_Trentingrana__2018-10-03__P2a_305_fetta.bmp
+Il formaggio presenta una texture molto asciutta e dura.,Il formaggio presenta una texture morbida con poca grana.,data/data/images_flat/2018-2019_Trentingrana__2018-10-03__P2a_305_fetta.bmp
+"Il formaggio presenta una texture friabile con microstruttura fine, microcristalli non grossi e tendente all'asciutto.",Il formaggio presenta una texture leggermente granulosa.,data/data/images_flat/2018-2019_Trentingrana__2018-10-03__P2a_305_fetta.bmp
+"Il formaggio presenta una texture asciutta, granulosa e poco solubile, con residui in bocca.","Il formaggio presenta una texture morbido pastoso, umidità media e granuli mediamente alti.",data/data/images_flat/2018-2019_Trentingrana__2018-10-03__P2a_305_fetta.bmp
+Il formaggio presenta una texture con buona struttura e microcristalli.,Il formaggio presenta una texture pastosa.,data/data/images_flat/2018-2019_Trentingrana__2018-10-03__P2a_305_fetta.bmp
+"Il formaggio presenta una texture poco granulosa, ancora umida, legata e poco solubile.",Il formaggio presenta una texture morbida che impasta la bocca.,data/data/images_flat/2018-2019_Trentingrana__2018-10-03__P2a_305_fetta.bmp
+"Il formaggio presenta una texture morbida, pastosa e gommosa.","Il formaggio presenta una texture morbida, umida, con cristalli.",data/data/images_flat/2018-2019_Trentingrana__2018-10-03__P2a_305_fetta.bmp
+"Il formaggio presenta una texture morbido a grana fine, leggermente pastoso e asciutto, con cristalli ben percepibili e piuttosto solubile.","Il formaggio presenta una texture con granuli di tirosina a intensità medio-alta, alta solubilità e media friabilità.",data/data/images_flat/2018-2019_Trentingrana__2019-02-06__P3b_306_fetta.bmp
+Il formaggio presenta una texture poco solubile.,"Il formaggio presenta una texture morbido asciutto, granuloso con cristalli evidenti.",data/data/images_flat/2018-2019_Trentingrana__2019-02-06__P3b_306_fetta.bmp
+"Il formaggio presenta una texture asciutta, poco solubile, lascia sensazione farinosa in bocca.","Il formaggio presenta una texture friabile e fine, con consistenza finale sabbiosa-farinosa, non asciutta.",data/data/images_flat/2018-2019_Trentingrana__2019-02-06__P3b_306_fetta.bmp
+"Il formaggio presenta una texture con bei granuli, buon equilibrio tra umidità e friabilità, dura.","Il formaggio presenta una texture con cristalli presenti ma non abbondanti, buona friabilità e scarsa solubilità.",data/data/images_flat/2018-2019_Trentingrana__2019-02-06__P3b_306_fetta.bmp
+"Il formaggio presenta una texture morbida e cedevole al dente, poco friabile, con cristalli quasi assenti.",Il formaggio presenta una texture leggermente molle e cedevole.,data/data/images_flat/2018-2019_Trentingrana__2019-02-06__P3b_306_fetta.bmp
+"Il formaggio presenta una texture asciutta, granulosa, solubile e a tratti leggermente sabbiosa.","Il formaggio presenta una texture friabile, granulosa, abbastanza solubile e con cristalli percepibili.",data/data/images_flat/2018-2019_Trentingrana__2019-02-06__P3b_306_fetta.bmp
+"Il formaggio presenta una texture abbastanza morbida, granulosa, con microstruttura grossolana e poco solubile.",Il formaggio presenta una texture con tirosina molto presente e buona solubilità.,data/data/images_flat/2018-2019_Trentingrana__2019-02-06__P3b_306_fetta.bmp
+Il formaggio presenta una texture friabile ma asciutta.,"Il formaggio presenta una texture friabile, abbastanza solubile e granulosa.",data/data/images_flat/2018-2019_Trentingrana__2019-02-06__P3b_306_fetta.bmp
+Il formaggio presenta una texture priva di cristalli.,"Il formaggio presenta una texture con molti cristalli, squilibrio tra umidità e pastosità.",data/data/images_flat/2018-2019_Trentingrana__2019-02-06__P3b_306_fetta.bmp
+"Il formaggio presenta una texture friabile, non asciutta, con cristalli adeguati.",Il formaggio presenta una texture con pochi cristalli grossi e leggermente sabbioso.,data/data/images_flat/2018-2019_Trentingrana__2019-02-06__P3b_306_fetta.bmp
+Il formaggio presenta una texture con tirosina abbondante e adesiva.,"Il formaggio presenta una texture con tirosina, solubilità e friabilità moderata.",data/data/images_flat/2018-2019_Trentingrana__2019-03-06__P5a_319_fetta.bmp
+"Il formaggio presenta una texture abbastanza dura e granulosa, senza cristalli, poco solubile e che lascia residuo farinoso.",Il formaggio presenta una texture asciutta con pochi cristalli e tende ad impastare la bocca.,data/data/images_flat/2018-2019_Trentingrana__2019-03-06__P5a_319_fetta.bmp
+Il formaggio presenta una texture abbastanza adesiva.,"Il formaggio presenta una texture morbida, poco strutturata e friabile.",data/data/images_flat/2018-2019_Trentingrana__2019-03-06__P5a_319_fetta.bmp
+Il formaggio presenta una texture cedevole e fondente.,"Il formaggio presenta una texture con molti cristalli, decente microstruttura e abbastanza solubile.",data/data/images_flat/2018-2019_Trentingrana__2019-03-06__P5a_319_fetta.bmp
+"Il formaggio presenta una texture compatta, molto solubile ma poco friabile, con poca grana.","Il formaggio presenta una texture pastosa, poco solubile.",data/data/images_flat/2018-2019_Trentingrana__2019-03-06__P5a_319_fetta.bmp
+"Il formaggio presenta una texture compatta ma abbastanza cedevole, grana sottile, asciutta e abbastanza solubile.","Il formaggio presenta una texture morbida, pastosa e gommosa.",data/data/images_flat/2018-2019_Trentingrana__2019-03-06__P5a_319_fetta.bmp
+Il formaggio presenta una texture granulosa leggermente pastosa.,"Il formaggio presenta una texture di media-bassa durezza, bella solubilità, leggermente asciutta con pochi cristalli medi.",data/data/images_flat/2018-2019_Trentingrana__2019-03-06__P5a_319_fetta.bmp
+Il formaggio ha una texture che lascia bocca non pulita.,Il formaggio presenta una texture con cristalli abbondanti.,data/data/images_flat/2018-2019_Trentingrana__2019-03-06__P5a_319_fetta.bmp
+"Il formaggio presenta una texture granulosa, che si scioglie bene e lascia la bocca abbastanza pulita.","Il formaggio presenta una texture con tirosina, friabilità e solubilità marcate.",data/data/images_flat/2018-2019_Trentingrana__2019-03-06__P6b_323_fetta.bmp
+Il formaggio presenta una texture con buona grana e solubile.,"Il formaggio presenta una texture asciutta, granulosa con cristalli e solubile.",data/data/images_flat/2018-2019_Trentingrana__2019-03-06__P6b_323_fetta.bmp
+"Il formaggio presenta una texture granulosa con cristalli piccoli, solubile.","Il formaggio presenta una texture con cristalli radi e grossi, cedevole e friabile, tendente al sabbioso in finale.",data/data/images_flat/2018-2019_Trentingrana__2019-03-06__P6b_323_fetta.bmp
+"Il formaggio presenta una texture tendenzialmente umida e cedevole, poco granulosa.","Il formaggio presenta una texture friabile con cristalli, ben bilanciato.",data/data/images_flat/2018-2019_Trentingrana__2019-03-06__P6b_323_fetta.bmp
+"Il formaggio presenta una texture asciutta, farinosa e poco solubile.","Il formaggio presenta una texture morbido e cedevole, con cristalli ben percepibili, solubile e grana abbastanza fine.",data/data/images_flat/2018-2019_Trentingrana__2019-03-06__P6b_323_fetta.bmp
+Il formaggio presenta una texture molle.,Il formaggio presenta una texture poco solubile.,data/data/images_flat/2018-2019_Trentingrana__2019-03-06__P6b_323_fetta.bmp
+Il formaggio presenta una texture morbida.,Il formaggio presenta una texture leggermente asciutta con buona struttura.,data/data/images_flat/2018-2019_Trentingrana__2019-03-06__P6b_323_fetta.bmp
+Il formaggio presenta una texture secco e asciutto.,"Il formaggio presenta una texture morbida, friabile con bella presenza di granuli e umidità equilibrata.",data/data/images_flat/2018-2019_Trentingrana__2018-11-21__P1a_302_fetta.bmp
+Il formaggio presenta una texture senza grana.,"Il formaggio presenta una texture moderatamente dura, grana fine, solubile, con molti cristalli e asciutta.",data/data/images_flat/2018-2019_Trentingrana__2018-11-21__P1a_302_fetta.bmp
+"Il formaggio presenta una texture morbida e friabile con microstruttura di discreta finezza, cristalli presenti e finale leggermente impastato in bocca.",Il formaggio presenta una texture leggermente asciutta.,data/data/images_flat/2018-2019_Trentingrana__2018-11-21__P1a_302_fetta.bmp
+"Il formaggio presenta una texture abbastanza dura e granulosa, senza cristalli, poco solubile e che lascia residuo farinoso.",Il formaggio presenta una texture pastosa con cristalli abbondanti.,data/data/images_flat/2018-2019_Trentingrana__2018-11-21__P1a_302_fetta.bmp
+Il formaggio presenta una texture con bella solubilità ma durezza bassa.,Il formaggio presenta una texture adesiva.,data/data/images_flat/2018-2019_Trentingrana__2018-11-21__P1a_302_fetta.bmp
+Il formaggio presenta una texture con buona grana e solubile.,"Il formaggio presenta una texture granulosa con bella presenza di granuli, struttura e umidità equilibrate.",data/data/images_flat/2018-2019_Trentingrana__2018-11-21__P6a_323_fetta.bmp
+Il formaggio ha una texture che ingozza nel finale.,"Il formaggio presenta una texture morbida, granulometria media, umida e solubile.",data/data/images_flat/2018-2019_Trentingrana__2018-11-21__P6a_323_fetta.bmp
+"Il formaggio presenta una texture con friabilità e solubilità medie, granuli di tirosina intensi.",Il formaggio presenta una texture cedevole.,data/data/images_flat/2018-2019_Trentingrana__2018-11-21__P6a_323_fetta.bmp
+"Il formaggio presenta una texture asciutta, poco friabile, lascia residuo e poco solubile.","Il formaggio presenta una texture con differente solubilità tra le porzioni, una con struttura stirata.",data/data/images_flat/2018-2019_Trentingrana__2018-11-21__P6a_323_fetta.bmp
+Il formaggio presenta una texture friabile.,Il formaggio presenta una texture discretamente solubile.,data/data/images_flat/2018-2019_Trentingrana__2018-11-21__P6a_323_fetta.bmp
+"Il formaggio presenta una texture asciutta, poco solubile, lascia sensazione farinosa in bocca.","Il formaggio presenta una texture compatta, poco solubile e pastosa.",data/data/images_flat/2018-2019_Trentingrana__2018-09-12__P4b_314_fetta.bmp
+Il formaggio presenta una texture morbida e poco friabile.,"Il formaggio presenta una texture morbida, poca grana e che impasta la bocca.",data/data/images_flat/2018-2019_Trentingrana__2018-09-12__P4b_314_fetta.bmp
+"Il formaggio presenta una texture umida, cedevole e pastosa, con poca struttura.","Il formaggio presenta una texture morbida, poco friabile e con poca microstruttura.",data/data/images_flat/2018-2019_Trentingrana__2018-09-12__P4b_314_fetta.bmp
+Il formaggio presenta una texture secco e asciutto.,Il formaggio presenta una texture con grana ben percettibile e cristalli presenti.,data/data/images_flat/2018-2019_Trentingrana__2018-09-12__P4b_314_fetta.bmp
+"Il formaggio presenta una texture mediamente dura, friabile, solubile e granulosa, con pochi microcristalli.",Il formaggio presenta una texture gommosa.,data/data/images_flat/2018-2019_Trentingrana__2018-09-12__P4b_314_fetta.bmp
+"Il formaggio presenta una texture morbida e asciutta, poco solubile, lascia residuo polveroso.",Il formaggio presenta una texture pastosa e persistente in bocca.,data/data/images_flat/2018-2019_Trentingrana__2018-09-12__P1a_304_fetta.bmp
+"Il formaggio presenta una texture friabile, non asciutto, non impasta la bocca.","Il formaggio presenta una texture asciutta, poco solubile, lascia sensazione farinosa in bocca.",data/data/images_flat/2018-2019_Trentingrana__2018-09-12__P1a_304_fetta.bmp
+"Il formaggio presenta una texture poco friabile, con grana fine ma percepibile, leggermente asciutta e cristalli sensibili.",Il formaggio presenta una texture con tirosina scarsa.,data/data/images_flat/2018-2019_Trentingrana__2018-09-12__P1a_304_fetta.bmp
+"Il formaggio presenta una texture granulosa, solubile e asciutta.","Il formaggio presenta una texture friabile e morbido, pochi cristalli, impasta la bocca.",data/data/images_flat/2018-2019_Trentingrana__2018-09-12__P1a_304_fetta.bmp
+Il formaggio presenta una texture compatta.,Il formaggio presenta una texture con cristalli.,data/data/images_flat/2018-2019_Trentingrana__2018-09-12__P1a_304_fetta.bmp
+"Il formaggio presenta una texture morbida e friabile con microstruttura di discreta finezza, cristalli presenti e finale leggermente impastato in bocca.",Il formaggio presenta una texture leggermente asciutta.,data/data/images_flat/2018-2019_Trentingrana__2018-09-12__P1a_304_fetta.bmp
+Il formaggio presenta una texture molto tenera con cristalli.,Il formaggio presenta una texture secca.,data/data/images_flat/2018-2019_Trentingrana__2018-09-12__P1a_304_fetta.bmp
+"Il formaggio presenta una texture poco friabile, leggermente plastica e morbida.","Il formaggio presenta una texture poco friabile, compatta, poco granulosa e abbastanza solubile.",data/data/images_flat/2018-2019_Trentingrana__2018-09-12__P1a_304_fetta.bmp
+"Il formaggio presenta una texture con cristalli di tirosina abbondanti, friabilità e solubilità medie.","Il formaggio presenta una texture con tirosina di forte intensità, solubilità e friabilità leggere.",data/data/images_flat/2018-2019_Trentingrana__2019-04-03__P2b_314_fetta.bmp
+"Il formaggio presenta una texture poco friabile, compatta, poco granulosa e abbastanza solubile.",Il formaggio presenta una texture granulosa con cristalli abbastanza solubili.,data/data/images_flat/2018-2019_Trentingrana__2019-04-03__P2b_314_fetta.bmp
+Il formaggio presenta una texture abbastanza solubile.,"Il formaggio presenta una texture consistente al molare, si frange in bella struttura, scioglie con residuo sabbioso, ben umida e con tanti microcristalli.",data/data/images_flat/2018-2019_Trentingrana__2019-04-03__P2b_314_fetta.bmp
+"Il formaggio presenta una texture a grana fine, pastosa, asciutta, abbastanza solubile e piuttosto morbida.","Il formaggio presenta una texture friabile, leggermente secco, pochi cristalli.",data/data/images_flat/2018-2019_Trentingrana__2019-04-03__P2b_314_fetta.bmp
+Il formaggio presenta una texture con buona solubilità.,Il formaggio presenta una texture pastosa.,data/data/images_flat/2018-2019_Trentingrana__2019-04-03__P2b_314_fetta.bmp
+"Il formaggio presenta una texture morbida, granulosa con cristalli evidenti.","Il formaggio presenta una texture cedevole, molto pastosa e asciutta, poco solubile, con microstruttura sottile e molti cristalli.",data/data/images_flat/2018-2019_Trentingrana__2019-04-03__P2b_314_fetta.bmp
+Il formaggio presenta una texture poco solubile.,Il formaggio presenta una texture abbastanza solubile.,data/data/images_flat/2018-2019_Trentingrana__2019-04-03__P2b_314_fetta.bmp
+"Il formaggio presenta una texture inconsistente, senza cristalli.","Il formaggio presenta una texture friabile, solubilità intermedia, untuosità.",data/data/images_flat/2018-2019_Trentingrana__2019-04-03__P2b_314_fetta.bmp
+"Il formaggio presenta una texture asciutta con cristalli evidenti, poco solubile, lascia residuo in bocca.",Il formaggio ha una texture che si scioglie bene in bocca.,data/data/images_flat/2018-2019_Trentingrana__2019-04-03__P2b_314_fetta.bmp
+Il formaggio presenta una texture poco granulosa in bocca.,"Il formaggio presenta una texture solubile e friabile, con tirosina percepibile a intensità leggera.",data/data/images_flat/2018-2019_Trentingrana__2019-04-03__P4a_323_fetta.bmp
+"Il formaggio presenta una texture morbida, granulosa con cristalli evidenti.","Il formaggio presenta una texture compatta, asciutta e granulosa con cristalli, poco solubile, lascia residuo sabbioso.",data/data/images_flat/2018-2019_Trentingrana__2019-04-03__P4a_323_fetta.bmp
+"Il formaggio presenta una texture abbastanza cedevole, granulosa, con microstruttura grossolana e leggermente asciutta.","Il formaggio presenta una texture friabile con microstruttura fine e tendenza sabbiosa, lascia bocca pulita, microcristalli presenti in quantità moderata.",data/data/images_flat/2018-2019_Trentingrana__2019-04-03__P4a_323_fetta.bmp
+"Il formaggio presenta una texture granulosa, umida ma poco solubile.","Il formaggio presenta una texture friabile, secco e asciutto, con microstruttura sufficiente.",data/data/images_flat/2018-2019_Trentingrana__2019-04-03__P4a_323_fetta.bmp
+"Il formaggio presenta una texture morbida con cristalli fini, poco solubile e che lascia residuo sabbioso.",Il formaggio presenta una texture asciutta.,data/data/images_flat/2018-2019_Trentingrana__2019-04-03__P4a_323_fetta.bmp
+Il formaggio presenta una texture con poca grana e poca solubilità.,"Il formaggio presenta una texture dura ma friabile, con microstruttura sottile, solubile ma asciutta.",data/data/images_flat/2018-2019_Trentingrana__2019-04-03__P4a_323_fetta.bmp
+"Il formaggio presenta una texture con tirosina di forte intensità, solubilità e friabilità leggere.",Il formaggio presenta una texture granulosa.,data/data/images_flat/2018-2019_Trentingrana__2019-04-03__P4a_323_fetta.bmp
+Il formaggio presenta una texture con cristalli e consistenza gommosa.,"Il formaggio presenta una texture friabile, asciutta e sabbioso al finale.",data/data/images_flat/2018-2019_Trentingrana__2019-04-03__P4a_323_fetta.bmp
+Il formaggio presenta una texture umida che lascia una bella bocca.,Il formaggio presenta una texture sabbioso con frammenti.,data/data/images_flat/2018-2019_Trentingrana__2019-04-03__P4a_323_fetta.bmp
+Il formaggio presenta una texture abbastanza solubile.,"Il formaggio presenta una texture morbida e umida, poco granulosa con piccoli cristalli che lasciano residuo.",data/data/images_flat/2018-2019_Trentingrana__2019-03-13__P6a_330_fetta.bmp
+"Il formaggio presenta una texture friabile, non asciutta, con cristalli adeguati.","Il formaggio presenta una texture morbida, friabile con microstruttura non fine, umida e tendente al pastoso nel finale di bocca.",data/data/images_flat/2018-2019_Trentingrana__2019-03-13__P6a_330_fetta.bmp
+Il formaggio presenta una texture con cristalli fastidiosi.,"Il formaggio presenta una texture morbida, microstruttura assente, con qualche cristallo.",data/data/images_flat/2018-2019_Trentingrana__2019-03-13__P6a_330_fetta.bmp
+"Il formaggio presenta una texture friabile con struttura netta, elastica al morso; finale leggermente asciutto.",Il formaggio presenta una texture gommosa.,data/data/images_flat/2018-2019_Trentingrana__2019-03-13__P6a_330_fetta.bmp
+Il formaggio presenta una texture asciutta.,Il formaggio presenta una texture poco friabile e tendente all'umido.,data/data/images_flat/2018-2019_Trentingrana__2019-03-13__P6a_330_fetta.bmp
+"Il formaggio presenta una texture molto friabile, poco solubile al finale.","Il formaggio presenta una texture ancora umida, legata, poco granulosa e poco solubile.",data/data/images_flat/2018-2019_Trentingrana__2019-03-13__P6a_330_fetta.bmp
+Il formaggio presenta una texture granulosa con scagliette che rimangono in bocca.,"Il formaggio presenta una texture asciutta, solubile, con cristalli di media grandezza.",data/data/images_flat/2018-2019_Trentingrana__2019-03-13__P6a_330_fetta.bmp
+"Il formaggio presenta una texture friabile ma asciutta, ingozza alla deglutizione.","Il formaggio presenta una texture con cristalli medio-grossi, rimane granulosa e sabbiosa.",data/data/images_flat/2018-2019_Trentingrana__2019-03-13__P6a_330_fetta.bmp
+Il formaggio presenta una texture tenera.,"Il formaggio presenta una texture morbida, asciutta, con cristalli abbondanti e solubile.",data/data/images_flat/2018-2019_Trentingrana__2019-03-13__P3b_307_fetta.bmp
+Il formaggio presenta una texture secca.,"Il formaggio presenta una texture morbida, friabilità limitata, tende a sciogliersi in bocca con pochi cristalli.",data/data/images_flat/2018-2019_Trentingrana__2019-03-13__P3b_307_fetta.bmp
+"Il formaggio presenta una texture non gommosa, con grana.",Il formaggio presenta una texture con pochi cristalli.,data/data/images_flat/2018-2019_Trentingrana__2019-03-13__P3b_307_fetta.bmp
+Il formaggio presenta una texture con cristalli presenti e buona solubilità.,"Il formaggio presenta una texture pastosa e morbida, con molti cristalli.",data/data/images_flat/2018-2019_Trentingrana__2019-03-13__P3b_307_fetta.bmp
+"Il formaggio presenta una texture abbastanza dura, asciutta, con cristalli fini e solubile.",Il formaggio presenta una texture umida e pastosa.,data/data/images_flat/2018-2019_Trentingrana__2019-03-13__P3b_307_fetta.bmp
+Il formaggio presenta una texture tendente al molliccio.,Il formaggio presenta una texture pastosa con poca grana.,data/data/images_flat/2018-2019_Trentingrana__2019-03-13__P3b_307_fetta.bmp
+Il formaggio presenta una texture leggermente asciutta.,Il formaggio presenta una texture poco granulosa.,data/data/images_flat/2018-2019_Trentingrana__2019-03-13__P3b_307_fetta.bmp
+"Il formaggio presenta una texture morbida, granulosa, che tende a impastare con pochi cristalli.","Il formaggio presenta una texture cedevole, umida, quasi adesiva, poco solubile e poco granulosa.",data/data/images_flat/2018-2019_Trentingrana__2019-03-13__P3b_307_fetta.bmp
+"Il formaggio presenta una texture piuttosto compatta, poco friabile e pastosa, con scarsa solubilità.","Il formaggio presenta una texture leggermente morbida, bella umidità e solubilità, cristalli adeguati.",data/data/images_flat/2018-2019_Trentingrana__2019-03-13__P3b_307_fetta.bmp
+"Il formaggio presenta una texture compatta, poco solubile e pastosa.",Il formaggio presenta una texture molto tenera.,data/data/images_flat/2018-2019_Trentingrana__2019-03-13__P3b_307_fetta.bmp
+Il formaggio presenta una texture friabile con solubilità medio-alta e granuli di tirosina di media intensità.,Il formaggio presenta una texture con cristalli presenti.,data/data/images_flat/2018-2019_Trentingrana__2019-03-13__P3b_307_fetta.bmp
+"Il formaggio presenta una texture morbido cedevole, senza struttura, molto fine.",Il formaggio presenta una texture asciutta con cristalli.,data/data/images_flat/2018-2019_Trentingrana__2018-11-28__P1b_302_fetta.bmp
+"Il formaggio presenta una texture asciutta, granulosa, poco solubile, con pochi microcristalli.","Il formaggio presenta una texture poco friabile, troppo plastica al morso e morbida.",data/data/images_flat/2018-2019_Trentingrana__2018-11-28__P1b_302_fetta.bmp
+Il formaggio presenta una texture molto pastosa.,Il formaggio presenta una texture troppo pastosa.,data/data/images_flat/2018-2019_Trentingrana__2018-11-28__P1b_302_fetta.bmp
+Il formaggio presenta una texture asciutta.,Il formaggio presenta una texture friabile.,data/data/images_flat/2018-2019_Trentingrana__2018-11-28__P1b_302_fetta.bmp
+Il formaggio presenta una texture pastosa e persistente in bocca.,Il formaggio presenta una texture pastosa.,data/data/images_flat/2018-2019_Trentingrana__2018-11-28__P1b_302_fetta.bmp
+"Il formaggio presenta una texture molto tenera, cristalli molto solubili.",Il formaggio presenta una texture compatta e adesiva.,data/data/images_flat/2018-2019_Trentingrana__2018-11-28__P1b_302_fetta.bmp
+Il formaggio presenta una texture molto pastosa.,Il formaggio presenta una texture molto asciutta.,data/data/images_flat/2018-2019_Trentingrana__2018-10-10__P3b_310_fetta.bmp
+"Il formaggio presenta una texture friabile, solubile, con pochi cristalli.",Il formaggio presenta una texture granulosa con microcristalli presenti.,data/data/images_flat/2018-2019_Trentingrana__2018-10-10__P3b_310_fetta.bmp
+Il formaggio presenta una texture asciutta.,"Il formaggio presenta una texture asciutta, granulosa con cristalli che lascia residuo in bocca.",data/data/images_flat/2018-2019_Trentingrana__2018-10-10__P3b_310_fetta.bmp
+"Il formaggio presenta una texture friabile, microstruttura fine che tende al sabbioso nel finale di bocca.","Il formaggio presenta una texture con molti granuli, umidità giusta.",data/data/images_flat/2018-2019_Trentingrana__2018-10-10__P3b_310_fetta.bmp
+"Il formaggio presenta una texture con tirosina presente, abbastanza solubile.",Il formaggio presenta una texture leggermente asciutta nel finale di bocca.,data/data/images_flat/2018-2019_Trentingrana__2018-10-10__P3b_310_fetta.bmp
+"Il formaggio presenta una texture molto pastosa, non da grana.",Il formaggio presenta una texture sabbiosa.,data/data/images_flat/2018-2019_Trentingrana__2018-10-10__P3b_310_fetta.bmp
+Il formaggio presenta una texture discretamente solubile.,"Il formaggio presenta una texture dura, poco solubile, moderatamente umida e microstruttura piuttosto grossolana.",data/data/images_flat/2018-2019_Trentingrana__2018-10-10__P3b_310_fetta.bmp
+"Il formaggio presenta una texture granulosa, solubile, umidità giusta e leggermente sabbiosa in chiusura.","Il formaggio presenta una texture mediamente asciutta, granulosa e solubile.",data/data/images_flat/2018-2019_Trentingrana__2018-10-10__P6a_330_fetta.bmp
+Il formaggio presenta una texture pastosa.,"Il formaggio presenta una texture asciutta, granulosa, con cristalli.",data/data/images_flat/2018-2019_Trentingrana__2018-10-10__P6a_330_fetta.bmp
+"Il formaggio presenta una texture umida, cedevole e poco granulosa.",Il formaggio presenta una texture troppo morbida.,data/data/images_flat/2018-2019_Trentingrana__2018-10-10__P6a_330_fetta.bmp
+"Il formaggio presenta una texture granulosa, poco asciutta, con cristalli chiari e poco solubile, lascia sabbia fine in bocca.",Il formaggio presenta una texture eccessivamente umida.,data/data/images_flat/2018-2019_Trentingrana__2018-10-10__P6a_330_fetta.bmp
+"Il formaggio presenta una texture morbida, friabile, con pochi cristalli fini e leggermente asciutta.","Il formaggio presenta una texture friabile e umida, con struttura fine, morbida e non pastosa.",data/data/images_flat/2018-2019_Trentingrana__2018-10-10__P6a_330_fetta.bmp
+"Il formaggio presenta una texture morbida, granulosa, con pochi cristalli.",Il formaggio presenta una texture con buona presenza di tirosina.,data/data/images_flat/2018-2019_Trentingrana__2018-10-10__P6a_330_fetta.bmp
+"Il formaggio presenta una texture granulosa, solubile e mediamente asciutta.",Il formaggio presenta una texture solubile con sensazione sabbioso finale.,data/data/images_flat/2018-2019_Trentingrana__2018-10-10__P6a_330_fetta.bmp
+Il formaggio presenta una texture poco solubile.,"Il formaggio presenta una texture morbida, abbastanza asciutta, a grana fine, solubile e cristalli percepibili.",data/data/images_flat/2018-2019_Trentingrana__2018-10-10__P6a_330_fetta.bmp
+"Il formaggio presenta una texture friabile con cristalli abbondanti, lascia bocca farinosa e pulita.","Il formaggio presenta una texture umida, cedevole e poco solubile.",data/data/images_flat/2018-2019_Trentingrana__2018-10-10__P2a_307_fetta.bmp
+"Il formaggio presenta una texture troppo tenera, cristalli presenti.","Il formaggio presenta una texture pastosa, poca grana e qualche cristallo.",data/data/images_flat/2018-2019_Trentingrana__2018-10-10__P2a_307_fetta.bmp
+Il formaggio presenta una texture solubile.,"Il formaggio presenta una texture pastosa e untuosa, con bei granuli.",data/data/images_flat/2018-2019_Trentingrana__2018-10-10__P2a_307_fetta.bmp
+"Il formaggio presenta una texture morbida, quasi molle.",Il formaggio presenta una texture morbida e leggermente friabile.,data/data/images_flat/2018-2019_Trentingrana__2018-10-10__P2a_307_fetta.bmp
+"Il formaggio presenta una texture compatta, quasi gommosa e deformabile, non friabile.","Il formaggio presenta una texture compatta, poco friabile, con grana fresca.",data/data/images_flat/2018-2019_Trentingrana__2018-10-10__P2a_307_fetta.bmp
+"Il formaggio presenta una texture torbida pastosa con cristalli, lascia sabbietta finale.","Il formaggio presenta una texture abbastanza morbida, sottile, leggermente asciutta e solubile.",data/data/images_flat/2018-2019_Trentingrana__2018-10-10__P2a_307_fetta.bmp
+"Il formaggio presenta una texture granulosa, morbida, con cristalli evidenti.",Il formaggio presenta una texture poco dura e con scarsa tirosina.,data/data/images_flat/2018-2019_Trentingrana__2019-02-13__P6b_330_fetta.bmp
+"Il formaggio presenta una texture granulosa, asciutta, con cristalli che lasciano un poco di residuo.","Il formaggio presenta una texture granulosa con cristalli poco solubili, lascia residuo farinoso.",data/data/images_flat/2018-2019_Trentingrana__2019-02-13__P6b_330_fetta.bmp
+"Il formaggio presenta una texture compatta e poco granulare, abbastanza dura e asciutta, con pochi cristalli.","Il formaggio presenta una texture friabile con struttura grossolana, lascia bocca disidratata e cristalli grossi presenti.",data/data/images_flat/2018-2019_Trentingrana__2019-02-13__P6b_330_fetta.bmp
+"Il formaggio presenta una texture poco friabile, non particolarmente umida e con microstruttura grossolana.","Il formaggio presenta una texture friabile, solubile, con pochi cristalli.",data/data/images_flat/2018-2019_Trentingrana__2019-02-13__P6b_330_fetta.bmp
+Il formaggio presenta una texture compatta e poco friabile.,Il formaggio presenta una texture morbido pastosa.,data/data/images_flat/2018-2019_Trentingrana__2019-02-13__P6b_330_fetta.bmp
+"Il formaggio presenta una texture dura ma friabile, con microstruttura sottile, solubile ma asciutta.","Il formaggio presenta una texture con poca grana, abbastanza adesiva e pochi cristalli.",data/data/images_flat/2018-2019_Trentingrana__2019-02-13__P6b_330_fetta.bmp
+"Il formaggio presenta una texture compatta, poco solubile e pastosa.",Il formaggio presenta una texture gommosa con cristalli.,data/data/images_flat/2018-2019_Trentingrana__2019-02-13__P6b_330_fetta.bmp
+Il formaggio presenta una texture inconsistente.,Il formaggio presenta una texture con cristalli fini che lascia bocca pulita.,data/data/images_flat/2018-2019_Trentingrana__2019-02-13__P6b_330_fetta.bmp
+Il formaggio presenta una texture con poca umidità e scarsa solubilità.,"Il formaggio presenta una texture molto friabile e solubile, con cristalli di tirosina poco percettibili.",data/data/images_flat/2018-2019_Trentingrana__2019-02-13__P4a_311_fetta.bmp
+Il formaggio presenta una texture poco solubile.,"Il formaggio presenta una texture asciutta, friabile e leggermente sabbioso.",data/data/images_flat/2018-2019_Trentingrana__2019-02-13__P4a_311_fetta.bmp
+Il formaggio presenta una texture senza grana.,"Il formaggio presenta una texture friabile, non asciutta, con cristalli adeguati.",data/data/images_flat/2018-2019_Trentingrana__2019-02-13__P4a_311_fetta.bmp
+"Il formaggio presenta una texture friabile con microstruttura non fine, cristalli numerosi di varie dimensioni, tende ad asciugare le fauci prima della deglutizione.",Il formaggio presenta una texture morbida e solubile.,data/data/images_flat/2018-2019_Trentingrana__2019-02-13__P4a_311_fetta.bmp
+"Il formaggio presenta una texture discreta friabilità, assenza di cristalli.","Il formaggio presenta una texture molle e cedevole, poco solubile.",data/data/images_flat/2018-2019_Trentingrana__2019-02-13__P4a_311_fetta.bmp
+Il formaggio presenta una texture mediamente morbida e leggermente asciutta.,"Il formaggio presenta una texture molle e cedevole, privo di struttura.",data/data/images_flat/2018-2019_Trentingrana__2019-02-13__P4a_311_fetta.bmp
+"Il formaggio presenta una texture mediamente dura, poco granulosa, molto solubile con pochi microcristalli.","Il formaggio presenta una texture inizialmente sabbioso fine, lascia bocca abbastanza pulita.",data/data/images_flat/2018-2019_Trentingrana__2019-02-13__P4a_311_fetta.bmp
+Il formaggio presenta una texture senza grana.,"Il formaggio presenta una texture elastica, granulosa, asciutta e poco solubile con pochi cristalli.",data/data/images_flat/2018-2019_Trentingrana__2019-02-13__P2b_305_fetta.bmp
+Il formaggio presenta una texture troppo pastosa.,"Il formaggio presenta una texture asciutta nonostante l'umidità, con friabilità scarsa.",data/data/images_flat/2018-2019_Trentingrana__2019-02-13__P2b_305_fetta.bmp
+"Il formaggio presenta una texture morbida con friabilità non perfetta, cristalli grossi e liquescente nel finale di bocca.",Il formaggio presenta una texture leggermente gommosa.,data/data/images_flat/2018-2019_Trentingrana__2019-02-13__P2b_305_fetta.bmp
+"Il formaggio presenta una texture dura, compatta, poco friabile, con grana finissima e asciutta.",Il formaggio presenta una texture molle e senza grana.,data/data/images_flat/2018-2019_Trentingrana__2019-02-13__P2b_305_fetta.bmp
+"Il formaggio presenta una texture granulosa, poco asciutta, con cristalli chiari e poco solubile, lascia sabbia fine in bocca.","Il formaggio presenta una texture abbastanza dura e compatta, grana molto fine, cristalli non percepibili, leggermente asciutta.",data/data/images_flat/2018-2019_Trentingrana__2019-02-13__P2b_305_fetta.bmp
+Il formaggio presenta una texture poco solubile.,"Il formaggio presenta una texture piuttosto compatta, poco friabile e pastosa, con scarsa solubilità.",data/data/images_flat/2018-2019_Trentingrana__2019-02-13__P2b_305_fetta.bmp
+Il formaggio presenta una texture tendente al molliccio.,Il formaggio presenta una texture gommosa.,data/data/images_flat/2018-2019_Trentingrana__2019-02-13__P2b_305_fetta.bmp
+"Il formaggio presenta una texture friabile, asciutta ma non eccessiva, con microstruttura abbastanza fine e cristalli presenti non abbondanti; impasta e ingozza nel finale.","Il formaggio presenta una texture granulosa, che si scioglie bene e lascia la bocca abbastanza pulita.",data/data/images_flat/2018-2019_Trentingrana__2019-02-13__P2b_305_fetta.bmp
+Il formaggio presenta una texture con pochi cristalli.,"Il formaggio presenta una texture granulosa, solubile e abbastanza asciutta.",data/data/images_flat/2018-2019_Trentingrana__2018-10-31__P5a_323_fetta.bmp
+Il formaggio presenta una texture pastosa con cristalli abbondanti.,Il formaggio presenta una texture senza struttura e cristalli.,data/data/images_flat/2018-2019_Trentingrana__2018-10-31__P5a_323_fetta.bmp
+"Il formaggio ha una texture che tende a compattarsi, con piccoli cristalli poco solubili.","Il formaggio ha una texture che impasta, asciutta, poco granulosa e poco solubile, con qualche cristallo.",data/data/images_flat/2018-2019_Trentingrana__2018-10-31__P5a_323_fetta.bmp
+Il formaggio presenta una texture discretamente solubile.,"Il formaggio presenta una texture pastosa in bocca, poco solubile.",data/data/images_flat/2018-2019_Trentingrana__2018-10-31__P5a_323_fetta.bmp
+"Il formaggio presenta una texture granulosa, solubile e mediamente asciutta.","Il formaggio presenta una texture compatta, leggermente adesiva, poco friabile e poco solubile.",data/data/images_flat/2018-2019_Trentingrana__2018-10-31__P5a_323_fetta.bmp
+"Il formaggio presenta una texture poco friabile, tendente all'adesivo e poco solubile, cristalli assenti.",Il formaggio presenta una texture pastosa con cristalli.,data/data/images_flat/2018-2019_Trentingrana__2018-10-31__P5a_323_fetta.bmp
+Il formaggio presenta una texture con scarsa solubilità e cristalli di tirosina impercettibili.,"Il formaggio presenta una texture a grana fine, asciutta e pastosa, morbida.",data/data/images_flat/2018-2019_Trentingrana__2018-10-31__P5a_323_fetta.bmp
+Il formaggio presenta una texture pastosa.,Il formaggio presenta una texture troppo morbida e poco strutturata.,data/data/images_flat/2018-2019_Trentingrana__2018-10-31__P5a_323_fetta.bmp
+"Il formaggio presenta una texture morbida, cristalli percepibili, poco granulosa e molto solubile.","Il formaggio presenta una texture asciutta, troppo pastosa e poco friabile, con cristalli medi.",data/data/images_flat/2018-2019_Trentingrana__2018-10-31__P5a_323_fetta.bmp
+Il formaggio presenta una texture poco solubile.,Il formaggio presenta una texture dura ma cedevole.,data/data/images_flat/2018-2019_Trentingrana__2018-10-31__P5a_323_fetta.bmp
+"Il formaggio presenta una texture cedevole, poco granulosa, umida e quasi adesiva.","Il formaggio presenta una texture granulosa, solubile e abbastanza asciutta.",data/data/images_flat/2018-2019_Trentingrana__2018-10-31__P5b_323_fetta.bmp
+Il formaggio presenta una texture poco solubile.,Il formaggio presenta una texture senza struttura e cristalli.,data/data/images_flat/2018-2019_Trentingrana__2018-10-31__P5b_323_fetta.bmp
+Il formaggio presenta una texture asciutta e poco solubile.,"Il formaggio ha una texture che impasta, asciutta, poco granulosa e poco solubile, con qualche cristallo.",data/data/images_flat/2018-2019_Trentingrana__2018-10-31__P5b_323_fetta.bmp
+"Il formaggio presenta una texture friabile con cristalli grossi, microstruttura fine e finale deliquescente e farinoso.","Il formaggio presenta una texture pastosa in bocca, poco solubile.",data/data/images_flat/2018-2019_Trentingrana__2018-10-31__P5b_323_fetta.bmp
+Il formaggio presenta una texture con buon equilibrio tra microstruttura e cristalli.,"Il formaggio presenta una texture compatta, leggermente adesiva, poco friabile e poco solubile.",data/data/images_flat/2018-2019_Trentingrana__2018-10-31__P5b_323_fetta.bmp
+Il formaggio presenta una texture pastosa.,Il formaggio presenta una texture pastosa con cristalli.,data/data/images_flat/2018-2019_Trentingrana__2018-10-31__P5b_323_fetta.bmp
+"Il formaggio presenta una texture friabile con cristalli, ben bilanciato.","Il formaggio presenta una texture a grana fine, asciutta e pastosa, morbida.",data/data/images_flat/2018-2019_Trentingrana__2018-10-31__P5b_323_fetta.bmp
+Il formaggio presenta una texture ancora leggermente umida ma solubile.,Il formaggio presenta una texture troppo morbida e poco strutturata.,data/data/images_flat/2018-2019_Trentingrana__2018-10-31__P5b_323_fetta.bmp
+Il formaggio presenta una texture pastosa.,"Il formaggio presenta una texture asciutta, troppo pastosa e poco friabile, con cristalli medi.",data/data/images_flat/2018-2019_Trentingrana__2018-10-31__P5b_323_fetta.bmp
+"Il formaggio presenta una texture friabile, buona microstruttura, umida, con cristalli presenti.",Il formaggio presenta una texture dura ma cedevole.,data/data/images_flat/2018-2019_Trentingrana__2018-10-31__P5b_323_fetta.bmp
+"Il formaggio presenta una texture umida, morbida e friabile, con microcristalli fini presenti.","Il formaggio presenta una texture leggermente umida, solubile, compatta e mediamente granulosa.",data/data/images_flat/2018-2019_Trentingrana__2018-10-31__P6a_330_fetta.bmp
+"Il formaggio presenta una texture poco friabile, molto morbido, senza cristalli e con microstruttura finissima.",Il formaggio presenta una texture con pochi microcristalli e granella.,data/data/images_flat/2018-2019_Trentingrana__2018-10-31__P6a_330_fetta.bmp
+Il formaggio presenta una texture piuttosto morbida con poca microstruttura.,"Il formaggio presenta una texture pastosa, asciutta, poco solubile, con qualche cristallo.",data/data/images_flat/2018-2019_Trentingrana__2018-10-31__P6a_330_fetta.bmp
+"Il formaggio presenta una texture morbida, umida e cedevole, con friabilità moderata e microstruttura media.","Il formaggio presenta una texture pastosa, poco solubile e molle sotto i denti.",data/data/images_flat/2018-2019_Trentingrana__2018-10-31__P6a_330_fetta.bmp
+"Il formaggio presenta una texture asciutta, molti granuli e media durezza.",Il formaggio presenta una texture granulosa in finale.,data/data/images_flat/2018-2019_Trentingrana__2018-10-31__P6a_330_fetta.bmp
+Il formaggio presenta una texture astringente.,Il formaggio presenta una texture gommosa.,data/data/images_flat/2018-2019_Trentingrana__2018-10-31__P6a_330_fetta.bmp
+Il formaggio presenta una texture con cristalli grossi e leggermente pastosa.,"Il formaggio presenta una texture moderatamente dura, pastosa e asciutta, granulosa.",data/data/images_flat/2018-2019_Trentingrana__2018-10-31__P6a_330_fetta.bmp
+Il formaggio presenta una texture compatta e poco friabile.,"Il formaggio presenta una texture con microcristalli, leggermente morbida.",data/data/images_flat/2018-2019_Trentingrana__2018-10-31__P6a_330_fetta.bmp
+"Il formaggio presenta una texture asciutta, granulosa con cristalli evidenti e solubile.","Il formaggio presenta una texture dura, buona presenza di granuli e umidità equilibrata.",data/data/images_flat/2018-2019_Trentingrana__2018-10-31__P6a_330_fetta.bmp
+"Il formaggio presenta una texture morbida, poco friabile e con poca microstruttura.","Il formaggio presenta una texture cedevole, umida e poco granulosa.",data/data/images_flat/2018-2019_Trentingrana__2019-01-23__P3a_310_fetta.bmp
+Il formaggio presenta una texture leggermente gommosa.,"Il formaggio presenta una texture dura, compatta, a grana fine, con pochi cristalli e abbastanza solubile.",data/data/images_flat/2018-2019_Trentingrana__2019-01-23__P3a_310_fetta.bmp
+Il formaggio ha una texture che si scioglie bene in bocca.,Il formaggio presenta una texture granulosa con cristalli evidenti e abbastanza solubile.,data/data/images_flat/2018-2019_Trentingrana__2019-01-23__P3a_310_fetta.bmp
+"Il formaggio presenta una texture solubile e friabile, con tirosina non ben distribuita.",Il formaggio presenta una texture dura e poco friabile.,data/data/images_flat/2018-2019_Trentingrana__2019-01-23__P3a_310_fetta.bmp
+"Il formaggio presenta una texture molto morbida, priva di microstruttura e cristalli.","Il formaggio presenta una texture con granuli di tirosina moderati, leggermente gommosa, friabilità e solubilità leggere.",data/data/images_flat/2018-2019_Trentingrana__2019-01-23__P3a_310_fetta.bmp
+Il formaggio presenta una texture molto asciutta.,Il formaggio presenta una texture compatta e poco friabile.,data/data/images_flat/2018-2019_Trentingrana__2019-01-23__P3a_310_fetta.bmp
+"Il formaggio presenta una texture granulosa con cristalli, leggero residuo finale e sensazione sabbiosa.","Il formaggio presenta una texture friabile ma troppo morbida, con cristalli presenti.",data/data/images_flat/2018-2019_Trentingrana__2019-01-23__P3a_310_fetta.bmp
+Il formaggio presenta una texture inconsistente.,"Il formaggio presenta una texture asciutta, farinosa, con buoni cristalli e media solubilità.",data/data/images_flat/2018-2019_Trentingrana__2019-01-23__P3a_310_fetta.bmp
+"Il formaggio presenta una texture con cristalli consistenti, tenerissima.","Il formaggio presenta una texture asciutta, granulosa, poco solubile, con pochi microcristalli.",data/data/images_flat/2018-2019_Trentingrana__2019-01-23__P1a_302_fetta.bmp
+Il formaggio presenta una texture pastosa.,"Il formaggio presenta una texture poco friabile, con grana fine ma percepibile, leggermente asciutta e cristalli sensibili.",data/data/images_flat/2018-2019_Trentingrana__2019-01-23__P1a_302_fetta.bmp
+"Il formaggio presenta una texture umida, cedevole e poco granulosa.","Il formaggio presenta una texture morbida, asciutta, granulosa, tende a impastare e con cristalli evidenti.",data/data/images_flat/2018-2019_Trentingrana__2019-01-23__P1a_302_fetta.bmp
+Il formaggio presenta una texture sabbioso-granulosa con pochi cristalli.,Il formaggio presenta una texture con poca grana e poco solubile.,data/data/images_flat/2018-2019_Trentingrana__2019-01-23__P1a_302_fetta.bmp
+"Il formaggio presenta una texture asciutta, poco friabile, lascia residuo e poco solubile.",Il formaggio presenta una texture moderatamente solubile e friabile.,data/data/images_flat/2018-2019_Trentingrana__2019-01-23__P1a_302_fetta.bmp
+Il formaggio presenta una texture leggermente asciutta.,Il formaggio presenta una texture pastosa con pochi cristalli.,data/data/images_flat/2018-2019_Trentingrana__2019-01-23__P1a_302_fetta.bmp
+Il formaggio presenta una texture senza grana.,"Il formaggio presenta una texture friabile ma morbido al morso, tendente al plastico e che incolla ai denti.",data/data/images_flat/2018-2019_Trentingrana__2019-01-23__P1a_302_fetta.bmp
+"Il formaggio presenta una texture asciutta, farinosa, con buoni cristalli e media solubilità.",Il formaggio presenta una texture molto solubile.,data/data/images_flat/2018-2019_Trentingrana__2019-01-23__P1a_302_fetta.bmp
+"Il formaggio presenta una texture con molti cristalli, decente microstruttura e abbastanza solubile.","Il formaggio presenta una texture leggermente cedevole, mediamente granulosa e solubile, con pochi microcristalli.",data/data/images_flat/2018-2019_Trentingrana__2019-01-23__P2b_305_fetta.bmp
+"Il formaggio presenta una texture morbida, asciutta, poco friabile e poco solubile.","Il formaggio presenta una texture dura, friabile, con grana grossolana, cristalli ben percepibili e abbastanza solubile.",data/data/images_flat/2018-2019_Trentingrana__2019-01-23__P2b_305_fetta.bmp
+Il formaggio presenta una texture asciutta.,"Il formaggio presenta una texture granulosa che tende a impastare, lascia residuo polveroso e qualche cristallo.",data/data/images_flat/2018-2019_Trentingrana__2019-01-23__P2b_305_fetta.bmp
+Il formaggio presenta una texture sabbioso finissimo.,"Il formaggio presenta una texture con qualche cristallo, positiva.",data/data/images_flat/2018-2019_Trentingrana__2019-01-23__P2b_305_fetta.bmp
+"Il formaggio presenta una texture friabile, leggermente asciutta.","Il formaggio presenta una texture moderatamente friabile e solubile, con tirosina leggera.",data/data/images_flat/2018-2019_Trentingrana__2019-01-23__P2b_305_fetta.bmp
+Il formaggio presenta una texture mediamente morbida e leggermente asciutta.,"Il formaggio presenta una texture compatta, umida, pastosa, poco granulosa, solubile con pochi cristalli.",data/data/images_flat/2018-2019_Trentingrana__2019-01-23__P2b_305_fetta.bmp
+"Il formaggio presenta una texture morbida, umida, poco friabile, con cristalli presenti anche di buone dimensioni.",Il formaggio presenta una texture con pochi cristalli.,data/data/images_flat/2018-2019_Trentingrana__2019-01-23__P2b_305_fetta.bmp
+"Il formaggio presenta una texture cedevole, morbida e che ingozza.","Il formaggio presenta una texture cedevole al dente, si frattura in microstruttura grossolana con cristalli presenti e impasta la bocca.",data/data/images_flat/2018-2019_Trentingrana__2019-01-23__P2b_305_fetta.bmp
+"Il formaggio presenta una texture morbida, poco granulosa e poco solubile.",Il formaggio presenta una texture poco solubile e tendente al pastoso.,data/data/images_flat/2018-2019_Trentingrana__2019-01-23__P2b_305_fetta.bmp
+Il formaggio presenta una texture piuttosto morbida con poca microstruttura.,"Il formaggio presenta una texture cedevole, poco granulosa, con pochi microcristalli.",data/data/images_flat/2018-2019_Trentingrana__2019-01-23__P6b_323_fetta.bmp
+"Il formaggio presenta una texture friabile con microstruttura fine e tendenza sabbiosa, lascia bocca pulita, microcristalli presenti in quantità moderata.","Il formaggio presenta una texture dura, compatta, poco friabile, con grana finissima e asciutta.",data/data/images_flat/2018-2019_Trentingrana__2019-01-23__P6b_323_fetta.bmp
+Il formaggio presenta una texture deformabile.,"Il formaggio presenta una texture granulosa, morbida, con cristalli evidenti.",data/data/images_flat/2018-2019_Trentingrana__2019-01-23__P6b_323_fetta.bmp
+Il formaggio presenta una texture irregolare.,Il formaggio presenta una texture poco friabile e solubile.,data/data/images_flat/2018-2019_Trentingrana__2019-01-23__P6b_323_fetta.bmp
+"Il formaggio presenta una texture granulosa, asciutta e solubile.","Il formaggio presenta una texture senza tirosina, friabilità e solubilità moderata.",data/data/images_flat/2018-2019_Trentingrana__2019-01-23__P6b_323_fetta.bmp
+Il formaggio presenta una texture poco solubile.,"Il formaggio presenta una texture compatta, quasi gommosa e deformabile, non friabile.",data/data/images_flat/2018-2019_Trentingrana__2019-01-23__P6b_323_fetta.bmp
+"Il formaggio presenta una texture abbastanza morbido e pastoso, microstruttura assente, poco solubile.",Il formaggio presenta una texture con struttura grossolana e cristalli non percepibili.,data/data/images_flat/2018-2019_Trentingrana__2019-01-23__P6b_323_fetta.bmp
+"Il formaggio presenta una texture morbida, solubile, con grana fine e qualche cristallo.",Il formaggio presenta una texture con microstruttura scarsa ma nel complesso solubile.,data/data/images_flat/2018-2019_Trentingrana__2019-01-23__P6b_323_fetta.bmp
+Il formaggio presenta una texture morbida e pastosa con cristalli evidenti.,"Il formaggio presenta una texture con granuli di tirosina non percettibili in alcuni cubetti, friabilità e solubilità scarsa.",data/data/images_flat/2018-2019_Trentingrana__2019-03-26__P1a_302_fetta.bmp
+Il formaggio presenta una texture molle e pastosa.,"Il formaggio presenta una texture morbida, asciutta e abbastanza granulosa, con pochi cristalli e abbastanza solubile.",data/data/images_flat/2018-2019_Trentingrana__2019-03-26__P1a_302_fetta.bmp
+Il formaggio presenta una texture discretamente solubile.,"Il formaggio presenta una texture consistente e friabile, non asciutta, senza cristalli percepibili.",data/data/images_flat/2018-2019_Trentingrana__2019-03-26__P1a_302_fetta.bmp
+"Il formaggio presenta una texture asciutta, granulosa, con qualche cristallo e poco solubile.",Il formaggio presenta una texture equilibrata ma scarsa solubilità.,data/data/images_flat/2018-2019_Trentingrana__2019-03-26__P1a_302_fetta.bmp
+Il formaggio presenta una texture senza cristalli.,"Il formaggio presenta una texture abbastanza morbida, granulosa, con microstruttura grossolana e poco solubile.",data/data/images_flat/2018-2019_Trentingrana__2019-03-26__P1a_302_fetta.bmp
+"Il formaggio presenta una texture friabile, solubile, con pochi cristalli.","Il formaggio presenta una texture mediamente dura, granulosa e solubile.",data/data/images_flat/2018-2019_Trentingrana__2019-03-26__P1a_302_fetta.bmp
+"Il formaggio presenta una texture morbida e pastosa, grana fine e solubile, pochi cristalli.","Il formaggio presenta una texture asciutta, poco granulosa e pastosa, poco solubile.",data/data/images_flat/2018-2019_Trentingrana__2019-03-26__P3b_307_fetta.bmp
+"Il formaggio presenta una texture morbida e pastosa, grana fine e solubile, pochi cristalli.","Il formaggio presenta una texture friabile con microstruttura fine, cristalli presenti, tende a liquefarsi nel finale di bocca.",data/data/images_flat/2018-2019_Trentingrana__2019-03-26__P3b_307_fetta.bmp
+"Il formaggio presenta una texture morbida che impasta la bocca, con qualche cristallo e solubile.",Il formaggio presenta una texture friabile e bilanciata.,data/data/images_flat/2018-2019_Trentingrana__2019-03-26__P3b_307_fetta.bmp
+"Il formaggio presenta una texture asciutta, granulosa e poco solubile.","Il formaggio presenta una texture morbida e cedevole, con microstruttura sottile e solubile.",data/data/images_flat/2018-2019_Trentingrana__2019-03-26__P3b_307_fetta.bmp
+Il formaggio presenta una texture umida e solubile.,"Il formaggio presenta una texture cedevole, umida e poco granulosa.",data/data/images_flat/2018-2019_Trentingrana__2019-03-26__P3b_307_fetta.bmp
+"Il formaggio presenta una texture friabile, leggermente asciutta.",Il formaggio presenta una texture granulosa con cristalli evidenti.,data/data/images_flat/2018-2019_Trentingrana__2018-11-14__P3b_314_fetta.bmp
+Il formaggio presenta una texture molto morbida.,"Il formaggio presenta una texture dura, granulosa, leggermente asciutta, con cristalli.",data/data/images_flat/2018-2019_Trentingrana__2018-11-14__P3b_314_fetta.bmp
+Il formaggio presenta una texture con cristalli presenti.,"Il formaggio presenta una texture friabile, non asciutta, con microcristalli e grossi cristalli presenti, che asciuga nel finale.",data/data/images_flat/2018-2019_Trentingrana__2018-11-14__P3b_314_fetta.bmp
+"Il formaggio presenta una texture dura, compatta, a grana fine, con pochi cristalli e abbastanza solubile.",Il formaggio presenta una texture con cristalli abbondanti.,data/data/images_flat/2018-2019_Trentingrana__2018-11-14__P3b_314_fetta.bmp
+"Il formaggio presenta una texture con cristalli grossi, umida e che impasta le fauci.",Il formaggio presenta una texture leggermente adesiva.,data/data/images_flat/2018-2019_Trentingrana__2018-11-14__P3b_314_fetta.bmp
+Il formaggio presenta una texture solubile.,Il formaggio presenta una texture con cristalli percettibili.,data/data/images_flat/2018-2019_Trentingrana__2018-09-19__P5a_323_fetta.bmp
+Il formaggio presenta una texture poco solubile.,Il formaggio presenta una texture friabile che lascia la bocca impastata.,data/data/images_flat/2018-2019_Trentingrana__2018-09-19__P5a_323_fetta.bmp
+Il formaggio presenta una texture molle e cedevole.,Il formaggio presenta una texture granulosa con pochi cristalli.,data/data/images_flat/2018-2019_Trentingrana__2018-09-19__P5a_323_fetta.bmp
+"Il formaggio presenta una texture morbida con cristalli fini, poco solubile e che lascia residuo sabbioso.","Il formaggio presenta una texture leggermente cedevole, poco aggregata ma solubile.",data/data/images_flat/2018-2019_Trentingrana__2018-09-26__P1b_302_fetta.bmp
+Il formaggio presenta una texture con buona struttura e microcristalli.,Il formaggio presenta una texture adesiva.,data/data/images_flat/2018-2019_Trentingrana__2018-09-26__P1b_302_fetta.bmp
+Il formaggio ha una texture che lascia bocca pulita.,Il formaggio presenta una texture solubile.,data/data/images_flat/2018-2019_Trentingrana__2018-09-26__P1b_302_fetta.bmp
+Il formaggio presenta una texture con cristalli presenti.,Il formaggio presenta una texture pastosa.,data/data/images_flat/2018-2019_Trentingrana__2018-09-26__P1b_302_fetta.bmp
+"Il formaggio presenta una texture non friabile, priva di cristalli.","Il formaggio presenta una texture asciutta, granulosa con cristalli e ben solubile.",data/data/images_flat/2018-2019_Trentingrana__2018-09-26__P1b_302_fetta.bmp
+"Il formaggio presenta una texture friabile e solubile, con microstruttura buona e pochissimi cristalli.","Il formaggio presenta una texture umida, cedevole e pastosa, con poca struttura.",data/data/images_flat/2018-2019_Trentingrana__2018-09-26__P1b_302_fetta.bmp
+Il formaggio presenta una texture con scarsa solubilità e friabilità.,"Il formaggio presenta una texture asciutta, pastosa e poco solubile.",data/data/images_flat/2018-2019_Trentingrana__2018-09-26__P1b_302_fetta.bmp
+"Il formaggio presenta una texture pastosa, morbida, con qualche cristallo e poco solubile.",Il formaggio presenta una texture leggermente gommosa.,data/data/images_flat/2018-2019_Trentingrana__2018-09-26__P1b_302_fetta.bmp
+Il formaggio presenta una texture abbastanza solubile.,"Il formaggio presenta una texture asciutta, morbida e poco solubile.",data/data/images_flat/2018-2019_Trentingrana__2019-03-20__P5b_316_fetta.bmp
+"Il formaggio presenta una texture molle e cedevole, privo di struttura.",Il formaggio presenta una texture solubile e granulosa.,data/data/images_flat/2018-2019_Trentingrana__2019-03-20__P5b_316_fetta.bmp
+"Il formaggio presenta una texture morbida, poca grana e che impasta la bocca.",Il formaggio presenta una texture compatta.,data/data/images_flat/2018-2019_Trentingrana__2019-03-20__P5b_316_fetta.bmp
+Il formaggio presenta una texture compatta.,"Il formaggio presenta una texture granulosa, solubile, leggermente asciutta con zone più umide.",data/data/images_flat/2018-2019_Trentingrana__2019-03-20__P5b_316_fetta.bmp
+"Il formaggio presenta una texture polverosa, poco solubile, con granuli di tirosina percettibili al residuo finale.",Il formaggio presenta una texture con cristalli presenti.,data/data/images_flat/2018-2019_Trentingrana__2019-03-20__P5b_316_fetta.bmp
+"Il formaggio presenta una texture compatta, grana abbastanza fine, piuttosto solubile, con pochissimi cristalli.","Il formaggio presenta una texture asciutta, granulosa con cristalli e poco solubile.",data/data/images_flat/2018-2019_Trentingrana__2019-03-20__P1a_302_fetta.bmp
+Il formaggio presenta una texture con pochi cristalli.,Il formaggio presenta una texture leggermente asciutta.,data/data/images_flat/2018-2019_Trentingrana__2019-03-20__P1a_302_fetta.bmp
+"Il formaggio presenta una texture morbida, granulosa con cristalli.",Il formaggio presenta una texture leggermente adesiva.,data/data/images_flat/2018-2019_Trentingrana__2019-03-20__P1a_302_fetta.bmp
+"Il formaggio presenta una texture morbida che si frantuina, senza cristalli.","Il formaggio presenta una texture solubile, poca grana.",data/data/images_flat/2018-2019_Trentingrana__2019-03-20__P1a_302_fetta.bmp
+"Il formaggio presenta una texture molto morbida, priva di microstruttura e cristalli.","Il formaggio presenta una texture leggermente cedevole, poco solubile ma granulosa.",data/data/images_flat/2018-2019_Trentingrana__2019-03-20__P1a_302_fetta.bmp
+Il formaggio presenta una texture granulosa.,Il formaggio presenta una texture tenerissima con cristalli.,data/data/images_flat/2018-2019_Trentingrana__2019-03-20__P1a_302_fetta.bmp
+"Il formaggio presenta una texture abbastanza cedevole, granulosa, con microstruttura grossolana e leggermente asciutta.","Il formaggio presenta una texture con cristalli di tirosina, solubilità e friabilità medio-alta.",data/data/images_flat/2018-2019_Trentingrana__2019-02-27__P5a_319_fetta.bmp
+"Il formaggio presenta una texture con cristalli presenti, taluni grossi, umida, certi bocconi troppo morbidi, friabile nella struttura grossa e sabbiosa in finale.","Il formaggio ha una texture che tende a compattarsi, con piccoli cristalli poco solubili.",data/data/images_flat/2018-2019_Trentingrana__2019-02-27__P5a_319_fetta.bmp
+Il formaggio presenta una texture umida e adesiva.,"Il formaggio presenta una texture con cristalli grossi percepibili, buona friabilità e scarsa umidità.",data/data/images_flat/2018-2019_Trentingrana__2019-02-27__P5a_319_fetta.bmp
+"Il formaggio presenta una texture friabile e morbido, pochi cristalli, impasta la bocca.","Il formaggio presenta una texture pastosa, poco solubile e adesiva.",data/data/images_flat/2018-2019_Trentingrana__2019-02-27__P5a_319_fetta.bmp
+"Il formaggio presenta una texture granulosa, asciutta con cristalli percepibili.",Il formaggio presenta una texture friabile.,data/data/images_flat/2018-2019_Trentingrana__2019-02-27__P5a_319_fetta.bmp
+Il formaggio presenta una texture pressoché assente.,"Il formaggio presenta una texture mediamente dura, friabile, solubile e granulosa, con pochi microcristalli.",data/data/images_flat/2018-2019_Trentingrana__2019-02-27__P5a_319_fetta.bmp
+Il formaggio presenta una texture tendente al molliccio.,Il formaggio presenta una texture sabbioso-granulosa con cristalli.,data/data/images_flat/2018-2019_Trentingrana__2019-02-27__P5a_319_fetta.bmp
+Il formaggio presenta una texture troppo asciutta.,"Il formaggio presenta una texture molto friabile e solubile, con granuli di tirosina persistenti.",data/data/images_flat/2018-2019_Trentingrana__2019-02-27__P3a_307_fetta.bmp
+"Il formaggio presenta una texture molto umida, solubile e poco granulosa.",Il formaggio presenta una texture friabile che si sgretola in bocca con cristalli.,data/data/images_flat/2018-2019_Trentingrana__2019-02-27__P3a_307_fetta.bmp
+Il formaggio presenta una texture poco friabile.,"Il formaggio presenta una texture umida, friabile con microstruttura fine e sabbiosa, lascia bocca pulita, con cristalli presenti anche grossi.",data/data/images_flat/2018-2019_Trentingrana__2019-02-27__P3a_307_fetta.bmp
+"Il formaggio presenta una texture granulosa, solubile, leggermente asciutta con zone più umide.","Il formaggio presenta una texture umida, friabile, con strana cedevolezza e assenza di cristalli.",data/data/images_flat/2018-2019_Trentingrana__2019-02-27__P3a_307_fetta.bmp
+Il formaggio presenta una texture poco granulosa e deformabile.,"Il formaggio presenta una texture cedevole, poco consistente, disaggregata ma solubile.",data/data/images_flat/2018-2019_Trentingrana__2019-02-27__P3a_307_fetta.bmp
+"Il formaggio presenta una texture poco friabile, cedevole al molare, morbida, con cristalli abbondanti e grossi.","Il formaggio presenta una texture con cristalli abbondanti, si scioglie rapidamente in bocca.",data/data/images_flat/2018-2019_Trentingrana__2019-02-27__P3a_307_fetta.bmp
+"Il formaggio presenta una texture friabile con cristalli, lascia residuo sabbioso in finale.","Il formaggio presenta una texture morbida, asciutta, con cristalli e poco solubile.",data/data/images_flat/2018-2019_Trentingrana__2019-02-20__P1a_310_fetta.bmp
+Il formaggio presenta una texture pastosa e adesiva.,"Il formaggio presenta una texture morbida al morso, con microgranuli pochi ma fini.",data/data/images_flat/2018-2019_Trentingrana__2019-02-20__P1a_310_fetta.bmp
+Il formaggio presenta una texture con numerosi cristalli di tirosina.,Il formaggio presenta una texture senza cristalli.,data/data/images_flat/2018-2019_Trentingrana__2019-02-20__P1a_310_fetta.bmp
+"Il formaggio ha una texture che impasta, asciutta e poco solubile, con pochi cristalli.","Il formaggio presenta una texture friabile, microstruttura poco presente, cristalli adeguati.",data/data/images_flat/2018-2019_Trentingrana__2019-02-20__P1a_310_fetta.bmp
+Il formaggio presenta una texture asciutta.,Il formaggio presenta una texture asciutta.,data/data/images_flat/2018-2019_Trentingrana__2019-02-20__P1a_310_fetta.bmp
+Il formaggio presenta una texture molto compatta e poco friabile.,Il formaggio presenta una texture pastosa e poco solubile.,data/data/images_flat/2018-2019_Trentingrana__2019-02-20__P1a_310_fetta.bmp
+Il formaggio presenta una texture pastosa e poco solubile.,"Il formaggio presenta una texture compatta, grana abbastanza fine, piuttosto solubile, con pochissimi cristalli.",data/data/images_flat/2018-2019_Trentingrana__2019-02-20__P1a_310_fetta.bmp
+Il formaggio presenta una texture compatta.,"Il formaggio presenta una texture poco coesa, cedevole e solubile.",data/data/images_flat/2018-2019_Trentingrana__2019-02-20__P1a_310_fetta.bmp
+"Il formaggio presenta una texture pastosa e compatta, non granulosa, asciutta e priva di cristalli percepibili.",Il formaggio ha una texture che lascia granuli sabbiosi in bocca.,data/data/images_flat/2018-2019_Trentingrana__2019-02-20__P1a_310_fetta.bmp
+"Il formaggio presenta una texture moderatamente friabile, poco solubile e con microcristalli di tirosina scarsamente percettibili.","Il formaggio presenta una texture morbida, pastosa e asciutta.",data/data/images_flat/2018-2019_Trentingrana__2018-10-24__P5a_326_fetta.bmp
+"Il formaggio presenta una texture poco friabile, molto morbido, senza cristalli e con microstruttura finissima.",Il formaggio presenta una texture con pochi cristalli e struttura presente.,data/data/images_flat/2018-2019_Trentingrana__2018-10-24__P5a_326_fetta.bmp
+"Il formaggio presenta una texture friabile con microstruttura fine, microcristalli non grossi e tendente all'asciutto.",Il formaggio presenta una texture troppo asciutta e poco solubile.,data/data/images_flat/2018-2019_Trentingrana__2018-10-24__P5a_326_fetta.bmp
+"Il formaggio presenta una texture umida, molle e poco friabile, tende ad impastare la bocca e ingozzare, con cristalli presenti.","Il formaggio presenta una texture morbida, poca grana, qualche cristallo e poco solubile.",data/data/images_flat/2018-2019_Trentingrana__2018-10-24__P5a_326_fetta.bmp
+"Il formaggio presenta una texture piuttosto morbida, assenza di cristalli.",Il formaggio presenta una texture molle con qualche granello di tirosina.,data/data/images_flat/2018-2019_Trentingrana__2018-10-24__P5a_326_fetta.bmp
+Il formaggio presenta una texture con scarsa solubilità e cristalli di tirosina impercettibili.,Il formaggio presenta una texture tenera con cristalli.,data/data/images_flat/2018-2019_Trentingrana__2018-10-24__P5a_326_fetta.bmp
+"Il formaggio presenta una texture friabile, buona microstruttura, umida, con cristalli presenti.","Il formaggio presenta una texture compatta, leggermente umida e adesiva.",data/data/images_flat/2018-2019_Trentingrana__2018-10-24__P5a_326_fetta.bmp
+Il formaggio presenta una texture priva di cristalli.,Il formaggio presenta una texture abbastanza solubile.,data/data/images_flat/2018-2019_Trentingrana__2018-10-24__P5a_326_fetta.bmp
+Il formaggio presenta una texture troppo cedevole e friabile.,Il formaggio presenta una texture morbida con molti cristalli.,data/data/images_flat/2018-2019_Trentingrana__2018-10-24__P1a_304_fetta.bmp
+"Il formaggio presenta una texture friabile con cristalli, ben bilanciato.",Il formaggio presenta una texture con scarsa microstruttura e mancanza di cristalli.,data/data/images_flat/2018-2019_Trentingrana__2018-10-24__P1a_304_fetta.bmp
+Il formaggio presenta una texture compatta.,Il formaggio presenta una texture molto friabile e asciutta.,data/data/images_flat/2018-2019_Trentingrana__2018-10-24__P1a_304_fetta.bmp
+Il formaggio presenta una texture molto adesiva.,Il formaggio presenta una texture granulosa con cristalli evidenti e solubile.,data/data/images_flat/2018-2019_Trentingrana__2018-10-24__P1a_304_fetta.bmp
+Il formaggio presenta una texture leggermente granulosa.,Il formaggio presenta una texture leggermente asciutta.,data/data/images_flat/2018-2019_Trentingrana__2018-10-24__P1a_304_fetta.bmp
+"Il formaggio presenta una texture morbida, asciutta e con qualche cristallo.",Il formaggio presenta una texture con molti granuli di tirosina.,data/data/images_flat/2018-2019_Trentingrana__2018-10-24__P1a_304_fetta.bmp
+"Il formaggio presenta una texture cedevole, molle e pastosa.","Il formaggio presenta una texture molto friabile, struttura fine e quasi asciutta.",data/data/images_flat/2018-2019_Trentingrana__2018-10-24__P1a_304_fetta.bmp
+Il formaggio presenta una texture molto asciutta e dura.,Il formaggio presenta una texture con leggera sabbiosità finale.,data/data/images_flat/2018-2019_Trentingrana__2018-10-24__P1a_304_fetta.bmp
+"Il formaggio presenta una texture granulosa, molto asciutta e poco solubile.",Il formaggio presenta una texture granulosa.,data/data/images_flat/2018-2019_Trentingrana__2018-10-24__P1a_304_fetta.bmp
+Il formaggio presenta una texture asciutta.,"Il formaggio presenta una texture morbida, granulosa con cristalli.",data/data/images_flat/2018-2019_Trentingrana__2019-01-30__P6a_330_fetta.bmp
+Il formaggio presenta una texture non granulosa.,"Il formaggio presenta una texture friabile con microstruttura buona, cristalli percepibili e giusta umidità.",data/data/images_flat/2018-2019_Trentingrana__2019-01-30__P6a_330_fetta.bmp
+"Il formaggio presenta una texture poco friabile, molto solubile, con scarsi cristalli di tirosina.",Il formaggio presenta una texture con cristalli e buona solubilità.,data/data/images_flat/2018-2019_Trentingrana__2019-01-30__P6a_330_fetta.bmp
+"Il formaggio presenta una texture troppo morbida, microstruttura media, poco friabile, cristalli scarsi.",Il formaggio presenta una texture asciutta.,data/data/images_flat/2018-2019_Trentingrana__2019-01-30__P6a_330_fetta.bmp
+Il formaggio presenta una texture molto solubile.,"Il formaggio presenta una texture asciutta, farinosa e poco solubile.",data/data/images_flat/2018-2019_Trentingrana__2019-01-30__P6a_330_fetta.bmp
+Il formaggio ha una texture che ingozza la bocca.,Il formaggio presenta una texture poco solubile.,data/data/images_flat/2018-2019_Trentingrana__2019-01-30__P6a_330_fetta.bmp
+"Il formaggio presenta una texture solubile e friabile, con tirosina percepibile a intensità leggera.",Il formaggio presenta una texture sabbioso con cristalli abbondanti.,data/data/images_flat/2018-2019_Trentingrana__2019-01-30__P6a_330_fetta.bmp
+"Il formaggio presenta una texture granulosa, che si scioglie bene e lascia la bocca abbastanza pulita.","Il formaggio presenta una texture pastosa che impasta la bocca, con poca grana, cristalli evidenti ma scarsa solubilità e finale sabbioso.",data/data/images_flat/2018-2019_Trentingrana__2019-01-30__P4a_307_fetta.bmp
+Il formaggio presenta una texture con pochi cristalli.,"Il formaggio presenta una texture umida, tenera e che impasta la bocca nel finale.",data/data/images_flat/2018-2019_Trentingrana__2019-01-30__P4a_307_fetta.bmp
+Il formaggio presenta una texture asciutta.,Il formaggio presenta una texture morbida e abbastanza pastosa.,data/data/images_flat/2018-2019_Trentingrana__2019-01-30__P4a_307_fetta.bmp
+"Il formaggio presenta una texture asciutta, granulosa, con qualche cristallo e poco solubile.",Il formaggio presenta una texture morbida e pastosa.,data/data/images_flat/2018-2019_Trentingrana__2019-01-30__P4a_307_fetta.bmp
+Il formaggio presenta una texture leggermente asciutta e nel complesso ben strutturata.,"Il formaggio presenta una texture poco cedevole, con tirosina presente.",data/data/images_flat/2018-2019_Trentingrana__2019-01-30__P4a_307_fetta.bmp
+"Il formaggio presenta una texture granulosa, umida ma poco solubile.","Il formaggio ha una texture che lascia la bocca poco pulita, con frammenti poco solubili.",data/data/images_flat/2018-2019_Trentingrana__2019-01-30__P4a_307_fetta.bmp
+Il formaggio presenta una texture tenerissima con cristalli.,"Il formaggio presenta una texture pastosa che impasta la bocca, con poca grana, cristalli evidenti ma scarsa solubilità e finale sabbioso.",data/data/images_flat/2018-2019_Trentingrana__2019-01-30__P4b_307_fetta.bmp
+"Il formaggio presenta una texture non gommosa, con grana.","Il formaggio presenta una texture umida, tenera e che impasta la bocca nel finale.",data/data/images_flat/2018-2019_Trentingrana__2019-01-30__P4b_307_fetta.bmp
+Il formaggio presenta una texture con poca microstruttura e cristalli.,Il formaggio presenta una texture morbida e abbastanza pastosa.,data/data/images_flat/2018-2019_Trentingrana__2019-01-30__P4b_307_fetta.bmp
+"Il formaggio presenta una texture compatta, dura, piuttosto pastosa e priva di grana.",Il formaggio presenta una texture morbida e pastosa.,data/data/images_flat/2018-2019_Trentingrana__2019-01-30__P4b_307_fetta.bmp
+Il formaggio presenta una texture molto pastosa.,"Il formaggio presenta una texture poco cedevole, con tirosina presente.",data/data/images_flat/2018-2019_Trentingrana__2019-01-30__P4b_307_fetta.bmp
+"Il formaggio presenta una texture poco solubile, leggermente sabbioso in alcune zone.","Il formaggio ha una texture che lascia la bocca poco pulita, con frammenti poco solubili.",data/data/images_flat/2018-2019_Trentingrana__2019-01-30__P4b_307_fetta.bmp
+"Il formaggio presenta una texture solubile, poca grana.",Il formaggio presenta una texture compatta.,data/data/images_flat/2019-2020_Trentingrana__III bimestre__11-12-2019_16° Seduta__P4b_TN319_Fetta.bmp
+Il formaggio presenta una texture con buona struttura e microcristalli.,Il formaggio presenta una texture con pochi cristalli.,data/data/images_flat/2019-2020_Trentingrana__III bimestre__11-12-2019_16° Seduta__P4b_TN319_Fetta.bmp
+"Il formaggio presenta una texture con cristalli presenti, taluni grossi, umida, certi bocconi troppo morbidi, friabile nella struttura grossa e sabbiosa in finale.",Il formaggio presenta una texture poco granulosa e deformabile.,data/data/images_flat/2019-2020_Trentingrana__III bimestre__11-12-2019_16° Seduta__P1a_TN302_Fetta.bmp
+Il formaggio presenta una texture adesiva.,Il formaggio presenta una texture senza cristalli e senza grana.,data/data/images_flat/2019-2020_Trentingrana__III bimestre__11-12-2019_16° Seduta__P1a_TN302_Fetta.bmp
+Il formaggio presenta una texture media con cristalli e umidità equilibrata.,Il formaggio presenta una texture non granulosa.,data/data/images_flat/2019-2020_Trentingrana__III bimestre__11-12-2019_16° Seduta__P6b_TN326_Fetta.bmp
+"Il formaggio presenta una texture morbida, asciutta, poco friabile e poco solubile.","Il formaggio presenta una texture compatta, non granulosa, non friabile.",data/data/images_flat/2019-2020_Trentingrana__III bimestre__11-12-2019_16° Seduta__P6b_TN326_Fetta.bmp
+"Il formaggio presenta una texture deformabile, compatta, poco friabile e poco granulosa.",Il formaggio presenta una texture poco friabile.,data/data/images_flat/2019-2020_Trentingrana__IV bimestre__08-01-2020_18° Seduta__P4a_TN328_Fetta.bmp
+Il formaggio presenta una texture friabile e solubile con granuli di tirosina evidenti.,Il formaggio presenta una texture priva di cristalli.,data/data/images_flat/2019-2020_Trentingrana__IV bimestre__08-01-2020_18° Seduta__P4a_TN328_Fetta.bmp
+Il formaggio presenta una texture adesiva e poco solubile.,Il formaggio presenta una texture priva di cristalli.,data/data/images_flat/2019-2020_Trentingrana__IV bimestre__08-01-2020_18° Seduta__P2a_TN304_Fetta.bmp
+Il formaggio presenta una texture molto friabile e asciutta.,Il formaggio presenta una texture poco friabile.,data/data/images_flat/2019-2020_Trentingrana__IV bimestre__08-01-2020_18° Seduta__P4b_TN328_Fetta.bmp
+Il formaggio presenta una texture poco solubile al finale.,Il formaggio presenta una texture priva di cristalli.,data/data/images_flat/2019-2020_Trentingrana__IV bimestre__08-01-2020_18° Seduta__P4b_TN328_Fetta.bmp
+"Il formaggio presenta una texture asciutta, poco solubile all'inizio con cristalli percepibili al finale.",Il formaggio presenta una texture priva di cristalli.,data/data/images_flat/2019-2020_Trentingrana__IV bimestre__08-01-2020_18° Seduta__P6a_TN338_Fetta.bmp
+Il formaggio presenta una texture leggermente adesiva.,Il formaggio ha una texture che ingozza la bocca.,data/data/images_flat/2019-2020_Trentingrana__IV bimestre__19-02-2020_24° Seduta__P4a_TN307_Fetta.bmp
+Il formaggio presenta una texture leggermente gommosa.,Il formaggio presenta una texture leggermente allappante.,data/data/images_flat/2019-2020_Trentingrana__IV bimestre__05-02-2020_22° Seduta__P5a_TN323_Fetta.bmp
+"Il formaggio presenta una texture moderatamente dura, grana fine, solubile, con molti cristalli e asciutta.",Il formaggio ha una texture che ingozza la bocca.,data/data/images_flat/2019-2020_Trentingrana__IV bimestre__29-01-2020_21° Seduta__P5b_TN323_Fetta.bmp
+"Il formaggio ha una texture che scricchiola, non per cristalli.",Il formaggio presenta una texture con pochi cristalli.,data/data/images_flat/2019-2020_Trentingrana__I bimestre__02-10-2019_5°Seduta__P6a_TN326_Fetta.bmp
+Il formaggio presenta una texture non granulosa e solubile.,Il formaggio presenta una texture poco granulosa.,data/data/images_flat/2019-2020_Trentingrana__II bimestre__23-10-2019_8°Seduta__P5a_TN316_Fetta.bmp
+Il formaggio presenta una texture poco friabile.,Il formaggio presenta una texture malleabile e deformabile.,data/data/images_flat/2019-2020_Trentingrana__II bimestre__30-10-2019_9°Seduta__P5a_TN328_Fetta.bmp
+Il formaggio presenta una texture pastosa e molle.,Il formaggio presenta una texture non granulosa.,data/data/images_flat/2019-2020_Trentingrana__II bimestre__06-11-2019_10°Seduta__P3b_TN313_Fetta.bmp
+Il formaggio presenta una texture tenera.,Il formaggio presenta una texture non granulosa.,data/data/images_flat/2019-2020_Trentingrana__II bimestre__06-11-2019_10°Seduta__P3a_TN313_Fetta.bmp
+Il formaggio presenta una texture leggermente molle e cedevole.,Il formaggio presenta una texture con cristalli percepibili.,data/data/images_flat/2021-2022_Trentingrana__20° Seduta_16-03-2022__P2a_TN305_928_fetta.bmp
+"Il formaggio presenta una texture friabile, non asciutta, con microstruttura fine e assenza di cristalli.",Il formaggio presenta una texture molto eterogenea.,data/data/images_flat/2021-2022_Trentingrana__31° Seduta_29-06-2022__P4b_TN316_246_Fetta.bmp
+Il formaggio presenta una texture morbida e poco strutturata.,Il formaggio presenta una texture asciutta.,data/data/images_flat/2021-2022_Trentingrana__13° Seduta_19-01-2022__P4b_TN326_152_fetta.bmp
+"Il formaggio presenta una texture asciutta, poco solubile, lascia residuo.",Il formaggio presenta una texture asciutta.,data/data/images_flat/2021-2022_Trentingrana__13° Seduta_19-01-2022__P4a_TN326_152_fetta.bmp
+Il formaggio presenta una texture granulosa ma poco solubile.,Il formaggio presenta una texture asciutta.,data/data/images_flat/2021-2022_Trentingrana__27°Seduta_01-06-2022__P6b_TN326_534_Fetta.bmp
+Il formaggio presenta una texture leggermente adesiva.,Il formaggio presenta una texture molto asciutta.,data/data/images_flat/2021-2022_Trentingrana__26° Seduta_18-05-2022__P2a_TN304_234_fetta.bmp
+Il formaggio presenta una texture senza grana.,Il formaggio ha una texture che ingozza la bocca.,data/data/images_flat/2021-2022_Trentingrana__30° Seduta_22-06-2022__P2a_TN305_727_Fetta.bmp
+Il formaggio presenta una texture poco solubile.,Il formaggio presenta una texture con struttura stirata.,data/data/images_flat/2021-2022_Trentingrana__30° Seduta_22-06-2022__P1b_TN302_248_Fetta.bmp
+"Il formaggio presenta una texture morbida, grassa, con cristalli evidenti.",Il formaggio presenta una texture asciutta.,data/data/images_flat/2021-2022_Trentingrana__16° Seduta_09-02-2022__P1A_TN_302_210_FETTA.bmp

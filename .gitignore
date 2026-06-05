@@ -16,3 +16,4 @@ kaggle_m6_weights/
 .venv/
 /tmp_kaggle_outputs/
 kaggle_outputs/
+data/data/

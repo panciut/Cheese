@@ -1,0 +1,10 @@
+{
+  "title": "Cheese Trentingrana Captioning Dataset",
+  "id": "marcopanciera/cheese-trentingrana",
+  "licenses": [
+    {
+      "name": "CC0-1.0"
+    }
+  ],
+  "description": "Cleaned image-caption training data for Trentingrana cheese (AI4FQC project 07). Contains 2,273 BMP images (Fetta + Grana views), 38,437 (image, panelist, attribute, caption) training rows, and a 70/15/15 train/val/test split stratified by year. Captions cleaned from raw panelist Italian text via deterministic preprocessing + LLM rewrite + manual salvage. Companion code at github.com/panciut/Cheese."
+}

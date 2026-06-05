@@ -1,0 +1,412 @@
+\documentclass[11pt,a4paper]{article}
+
+% ---------- encoding & lingua ----------
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[italian]{babel}
+\usepackage{lmodern}
+
+% ---------- layout ----------
+\usepackage[a4paper,margin=2.4cm,headheight=14pt]{geometry}
+\usepackage{microtype}
+\usepackage{setspace}
+\onehalfspacing
+\usepackage{parskip}
+
+% ---------- grafica ----------
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{tikz}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{caption}
+\captionsetup{font=small,labelfont=bf,width=0.95\textwidth}
+\usepackage{enumitem}
+\setlist{itemsep=2pt,topsep=3pt}
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+% ---------- intestazioni ----------
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\small\itshape Metriche di valutazione --- Trentingrana Captioning}
+\fancyhead[R]{\small\thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+
+% ---------- titoli ----------
+\usepackage{titlesec}
+\definecolor{prim}{HTML}{2C5F8A}
+\definecolor{gold}{HTML}{E0A458}
+\definecolor{green}{HTML}{5B8C5A}
+\definecolor{red}{HTML}{C1492E}
+\definecolor{boxbg}{HTML}{F2F6FA}
+\definecolor{boxbd}{HTML}{C7D6E5}
+\titleformat{\section}{\Large\bfseries\color{prim}}{\thesection}{0.6em}{}
+\titleformat{\subsection}{\large\bfseries\color{prim!85!black}}{\thesubsection}{0.6em}{}
+\titlespacing*{\section}{0pt}{14pt}{6pt}
+
+% ---------- link ----------
+\usepackage[colorlinks=true,linkcolor=prim,citecolor=prim,urlcolor=prim]{hyperref}
+
+% ---------- box riassuntivo ----------
+\newcommand{\keybox}[2]{%
+\begin{center}
+\begin{tikzpicture}
+\node[draw=boxbd,fill=boxbg,rounded corners=4pt,inner sep=8pt,
+      text width=0.93\textwidth,align=left] {%
+\textbf{\color{prim}#1}\\[2pt]\small #2};
+\end{tikzpicture}
+\end{center}}
+
+% scorciatoia figure metriche
+\newcommand{\mfig}[1]{figures/metrics/#1}
+
+% ============================================================
+\begin{document}
+
+% ---------------- TITOLO ----------------
+\begin{center}
+{\color{prim}\rule{\textwidth}{1.5pt}}\\[0.5cm]
+{\LARGE\bfseries Metriche di valutazione per il captioning sensoriale}\\[0.3cm]
+{\large Oltre BLEU: CIDEr, BERTScore, conformità lessicale e CLIPScore}\\[0.4cm]
+{\color{prim}\rule{\textwidth}{1.5pt}}\\[0.6cm]
+{\small Progetto \textbf{AI4FQC} --- Project 07: \textit{GRANA Captioning} \quad$\bullet$\quad Relazione tecnica complementare}
+\end{center}
+
+\vspace{0.3cm}
+\keybox{In sintesi}{%
+Affianchiamo a BLEU sei metriche complementari. Tre risultati emergono dai dati:
+(1) \textbf{BLEU inganna} --- una baseline che ripete sempre la stessa frase
+ottiene il BLEU-1 più alto di tutti; (2) \textbf{CIDEr discrimina} i modelli là
+dove BLEU li appiattisce, e ordina correttamente \mbox{m1\,$<$\,m3\,$<$\,m6};
+(3) \textbf{CLIPScore} --- l'unica metrica che guarda l'immagine --- mostra che
+i modelli addestrati \emph{non} battono la baseline costante, confermando in modo
+indipendente che, con encoder congelato, l'immagine non viene davvero sfruttata.}
+
+% ============================================================
+\section{Perché non basta BLEU}
+
+Nel captioning esistono molti modi corretti di descrivere la stessa immagine, ma
+il dataset fornisce \textbf{un solo riferimento} per immagine (la frase del
+panelista). Una metrica che confronta parola per parola penalizza le
+riformulazioni corrette:
+
+\begin{center}
+\small
+\begin{tabular}{@{}p{3.2cm} p{10.5cm}@{}}
+\toprule
+Riferimento & \textit{``Il formaggio ha pasta compatta con occhiatura rada.''}\\
+Predizione & \textit{``Il formaggio ha pasta dura con piccola occhiatura.''}\\
+\midrule
+\multicolumn{2}{@{}p{13.7cm}@{}}{\small Stesso significato, parole diverse.
+BLEU-4 $\approx 0{,}1$ (nessuna sequenza di 4 parole condivisa), ma la
+descrizione è \textbf{corretta}.}\\
+\bottomrule
+\end{tabular}
+\end{center}
+
+Per questo usiamo sette metriche, divise in tre famiglie:
+\begin{itemize}
+\item \textbf{Basate sul testo} (predizione vs riferimento testuale):
+BLEU-1/4, METEOR, ROUGE-L, CIDEr, BERTScore.
+\item \textbf{Basata sull'immagine} (predizione vs immagine, ignora il
+riferimento): CLIPScore.
+\item \textbf{Specifica del dominio}: Conformità Vocabolario.
+\end{itemize}
+
+Tutti i numeri provengono da \texttt{eval\_metrics/metrics\_summary.csv}: 43 file
+di predizioni (4 baseline + 3 modelli), su 7 attributi per-attributo e 3 versioni
+\emph{global}.
+
+% ============================================================
+\section{Le sette metriche, una per una}
+
+\subsection{BLEU-1 e BLEU-4}
+\textbf{Cosa misura.} La precisione degli $n$-gram: quante sequenze di $n$ parole
+consecutive della predizione compaiono nel riferimento. BLEU-1 (singole parole)
+$\to$ ``ho usato le parole giuste?''; BLEU-4 (4 parole) $\to$ ``ho usato la
+fraseologia giusta, nell'ordine giusto?''.
+
+\textbf{Range e lettura.} Valore in $[0,1]$, più alto è meglio. Per questo
+dominio: BLEU-4 $>0{,}4$ ottimo; $0{,}2$--$0{,}4$ discreto; $<0{,}15$ scarso.
+
+\textbf{Risultati.} Modelli per-attributo BLEU-4 $\approx 0{,}30$--$0{,}45$;
+modelli \emph{global} $\approx 0{,}13$ (crollo netto). \emph{Il tranello:} la
+baseline \texttt{most\_frequent} emette \emph{sempre} la stessa caption e ottiene
+il BLEU-1 più alto di tutti ($0{,}84$--$0{,}90$). BLEU premia la ripetizione del
+template, non la comprensione.
+
+\subsection{METEOR}
+\textbf{Cosa misura.} Come BLEU-1 ma più indulgente: allinea le parole con
+\textbf{stemming} (\textit{compatto}\,$\approx$\,\textit{compatta}) e
+\textbf{sinonimi}, bilanciando precisione e recall.
+
+\textbf{Range e lettura.} $[0,1]$; tende a essere più alto di BLEU-4.
+$>0{,}6$ forte; $0{,}4$--$0{,}6$ parziale; $<0{,}35$ divergente.
+
+\textbf{Risultati.} Per-attributo $\approx 0{,}53$--$0{,}66$; global $\approx
+0{,}29$. Racconta la stessa storia di BLEU $\to$ buon segnale di robustezza.
+
+\subsection{ROUGE-L}
+\textbf{Cosa misura.} La più lunga sottosequenza comune (LCS): parole presenti in
+entrambe le frasi nello stesso ordine, non necessariamente consecutive. Premia il
+rispetto dell'ordine generale senza richiedere contiguità.
+
+\textbf{Range e lettura.} $[0,1]$; tipicamente tra BLEU-4 e METEOR.
+
+\textbf{Risultati.} Per-attributo $\approx 0{,}50$--$0{,}67$; global $\approx
+0{,}30$. Si muove in tandem con METEOR/BLEU.
+
+\subsection{CIDEr}
+\textbf{Cosa misura.} È la metrica pensata \emph{apposta} per il captioning. Usa
+$n$-gram pesati con \textbf{TF-IDF}: i termini rari e informativi
+(\textit{occhiatura}, \textit{piccante}) valgono molto, quelli comuni
+(\textit{il}, \textit{ha}) quasi nulla. Risponde a: ``il modello azzecca i
+termini sensoriali \textbf{salienti}, o riempie con parole generiche?''.
+
+\textbf{Range e lettura.} $\ge 0$, senza tetto fisso (scala $\times 10$). Va letto
+\textbf{in relazione tra modelli sullo stesso attributo}. Implementazione
+standalone a \emph{un} riferimento: confrontabile fra i nostri modelli, non con
+benchmark esterni a riferimenti multipli (es.\ COCO).
+
+\textbf{Risultati.} CIDEr aggiunge informazione vera: \emph{discrimina} dove BLEU
+appiattisce. La media per-attributo ordina i modelli correttamente
+($\text{random } 0{,}23 < \text{freq\_w } 0{,}37 < \text{m1 } 0{,}59 <
+\text{m3 } 0{,}65 < \text{m6 } 0{,}70$): i modelli addestrati battono nettamente
+le baseline casuali, e \mbox{m6} è il migliore. \texttt{most\_frequent} resta in
+testa ($0{,}79$) solo perché il riferimento \emph{è} spesso la frase frequente
+(Fig.~\ref{fig:cider}).
+
+\subsection{BERTScore}
+\textbf{Cosa misura.} La similarità \textbf{semantica} via embedding contestuali
+(BERT italiano): non le parole esatte, ma i significati. Riportiamo l'F1.
+Risponde a: ``il modello ha capito il \textbf{concetto}, anche riformulando?''.
+
+\textbf{Range e lettura.} Per l'italiano tipicamente $[0{,}7,\,1{,}0]$: lo ``zero''
+pratico è alto. Va letto in modo relativo: $>0{,}90$ forte; $0{,}84$--$0{,}90$
+buono; $<0{,}83$ distante.
+
+\textbf{Risultati.} Tutti i valori in $0{,}83$--$0{,}92$: poco discriminante,
+perché tutte le frasi parlano di formaggio con la stessa struttura. Utile come
+\emph{sanity check}, non per il ranking. I modelli global scendono a $\approx
+0{,}80$ (ancora i più deboli).
+
+\subsection{Conformità Vocabolario (metrica custom)}
+\textbf{Cosa misura.} La percentuale di parole della caption che appartengono al
+\textbf{vocabolario controllato} del progetto (1278 forme sensoriali attestate).
+Risponde a una domanda che nessuna metrica standard pone: ``il modello «parla
+formaggio» col registro certificato, o inventa termini?''.
+
+\textbf{Range e lettura.} $[0,1]$. Il vocabolario contiene solo lemmi sensoriali
+(non parole funzionali \textit{il/ha/di}), quindi anche una caption perfetta non
+raggiunge $1{,}0$: leggere in relazione. $>0{,}55$ forte; $0{,}45$--$0{,}55$
+moderato; $<0{,}45$ fuori registro.
+
+\textbf{Risultati.} Modelli addestrati $\approx 0{,}48$--$0{,}61$. Più alta sugli
+attributi descrittivi (Texture $\approx 0{,}60$--$0{,}67$, Struttura $\approx
+0{,}57$). I modelli global hanno conformità pari o superiore ai per-attributo, pur
+avendo BLEU/METEOR peggiori: frasi più ``lessicalmente corrette'' ma meno fedeli
+al riferimento specifico.
+
+\subsection{CLIPScore (la più importante per il captioning)}
+\textbf{Cosa misura.} L'\textbf{unica} metrica che guarda l'immagine. Proietta
+immagine e caption nello stesso spazio CLIP (versione multilingue per l'italiano)
+e ne calcola la similarità coseno:
+\[
+\text{CLIPScore} = \cos\!\big(\text{CLIP}_{\text{img}}(\text{fetta}),\;
+\text{CLIP}_{\text{txt}}(\text{caption})\big).
+\]
+\textbf{Ignora il riferimento del panelista.} Risponde alla domanda più onesta:
+``questa caption descrive bene \emph{questa immagine}?''. Aggira il problema del
+riferimento singolo.
+
+\textbf{Range e lettura.} Per CLIP multilingue la coseno grezza è bassa in
+assoluto ($\approx 0{,}15$--$0{,}30$ anche per coppie corrette): \textbf{non è una
+percentuale}. Conta il confronto relativo e la direzione. Sul nostro setup:
+$\approx 0{,}20$--$0{,}21$ attributo ben descrivibile; $\approx 0{,}18$ poco
+legato all'aspetto visivo.
+
+\textbf{Risultati.} Due esiti chiave, discussi nella sezione seguente.
+
+% ============================================================
+\section{Risultati trasversali}
+
+\subsection{CLIPScore: i modelli addestrati non battono la baseline costante}
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=0.82\textwidth]{\mfig{m_clip_models}}
+\caption{CLIPScore medio sui 7 attributi per-attributo. Gli scarti tra modelli
+addestrati e baseline costante sono dentro il rumore ($<0{,}004$).}
+\label{fig:clipmodels}
+\end{figure}
+
+La media CLIPScore è quasi identica per tutti (Tab.~\ref{tab:clipmodels}): i
+modelli addestrati (m1/m3/m6) \emph{non} superano \texttt{most\_frequent}, che
+spara sempre la stessa frase ignorando l'immagine. \textbf{Interpretazione:} con
+l'encoder congelato i modelli non àncorano la caption ai contenuti visivi --- fanno
+\emph{language modeling} sulla distribuzione delle caption. È la conferma
+quantitativa e indipendente del risultato dello \emph{shuffle test}: se i modelli
+usassero l'immagine, batterebbero la baseline costante. Non lo fanno.
+
+\begin{table}[ht]
+\centering
+\small
+\caption{Metriche medie per modello (7 attributi per-attributo). CIDEr ordina i
+modelli; CLIPScore resta piatto.}
+\label{tab:clipmodels}
+\begin{tabular}{@{}l c c c c@{}}
+\toprule
+Modello & BLEU-4 & CIDEr & Vocab & \textbf{CLIPScore}\\
+\midrule
+most\_frequent (costante) & 0,362 & 0,790 & 0,524 & \textbf{0,1902}\\
+freq\_weighted            & 0,362 & 0,370 & 0,529 & \textbf{0,1919}\\
+random                    & 0,358 & 0,234 & 0,527 & \textbf{0,1913}\\
+m1\_cnn\_lstm             & 0,384 & 0,586 & 0,535 & \textbf{0,1925}\\
+m3\_vit\_transformer      & 0,392 & 0,646 & 0,532 & \textbf{0,1921}\\
+m6\_vit\_gpt              & 0,398 & 0,704 & 0,538 & \textbf{0,1933}\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{CLIPScore distingue attributi visibili da non visibili}
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=0.82\textwidth]{\mfig{m_clip_attr}}
+\caption{CLIPScore medio per attributo. Gli attributi visivi (texture, colore,
+struttura) ottengono valori più alti; olfatto/gusto restano bassi per chiunque.}
+\label{fig:clipattr}
+\end{figure}
+
+La variazione vera è \textbf{per attributo}, non per modello. CLIP ``vede'' che
+texture ($0{,}208$), colore ($0{,}206$) e struttura ($0{,}197$) sono descrivibili
+dall'immagine, mentre aroma ($0{,}181$), sapore ($0{,}184$) e profumo ($0{,}185$)
+restano bassi: nessuna immagine può rivelare un sapore. È un controllo di sanità
+che \emph{valida} il comportamento della metrica. Eccezione istruttiva:
+\textbf{Spessore della Crosta} è fisicamente visibile ma basso ($0{,}184$), perché
+la crosta è una porzione piccola della fetta e CLIP la pesa poco.
+
+\subsection{CIDEr discrimina dove BLEU appiattisce}
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=0.92\textwidth]{\mfig{m_cider_attr}}
+\caption{CIDEr per attributo. A differenza di BLEU-4 (valori vicini fra i
+modelli), CIDEr separa i modelli e premia i termini sensoriali rari azzeccati.}
+\label{fig:cider}
+\end{figure}
+
+Su \emph{Spessore della Crosta}, BLEU-4 dà $0{,}39$--$0{,}44$ per tutti, mentre
+CIDEr va da $1{,}04$ (freq\_weighted) a $2{,}29$ (most\_frequent), con i modelli
+addestrati in mezzo ($1{,}55$--$1{,}76$): un ordinamento che BLEU non vedeva.
+
+\subsection{Il tranello di BLEU, visualizzato}
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=0.95\textwidth]{\mfig{m_bleu_trap}}
+\caption{Stessa coppia di modelli (\texttt{most\_frequent} vs m6) vista da due
+metriche. A sinistra BLEU-1: la caption costante \emph{vince}. A destra
+CLIPScore: i due sono praticamente uguali. BLEU-1 da solo è fuorviante.}
+\label{fig:trap}
+\end{figure}
+
+\texttt{most\_frequent} ha il BLEU-1 più alto (caption costante che combacia sul
+prefisso) ma CLIPScore identico a tutti. Una metrica da sola può mentire: serve
+leggerle insieme.
+
+\subsection{Profilo completo di un modello}
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=0.92\textwidth]{\mfig{m_heatmap}}
+\caption{Profilo di m6 (ViT+GePpeTto) per attributo: valori grezzi annotati,
+colore normalizzato per colonna (rende comparabili scale diverse). Si nota la
+correlazione tra CIDEr alto e gli attributi a caption dominante (Spessore), e la
+relativa uniformità di CLIP.}
+\label{fig:heatmap}
+\end{figure}
+
+% ============================================================
+\section{Come riprodurre}
+
+Ambiente isolato in \texttt{eval\_metrics/.venv} (non tocca le dipendenze del
+training).
+\begin{enumerate}
+\item \texttt{.\textbackslash eval\_metrics\textbackslash setup.ps1}
+ --- crea il venv e installa le dipendenze (una tantum).
+\item \texttt{python eval\_metrics\textbackslash add\_image\_paths.py}
+ --- aggiunge \texttt{image\_path} ai \texttt{predictions.csv} (per CLIPScore).
+\item \texttt{python eval\_metrics\textbackslash compute\_metrics.py predictions
+ -{}-images-root .} --- calcola tutte le metriche; scrive
+ \texttt{metrics\_summary.csv}.
+\end{enumerate}
+
+\begin{table}[ht]
+\centering
+\small
+\caption{Implementazione delle metriche.}
+\begin{tabular}{@{}l l l@{}}
+\toprule
+Metrica & Libreria / metodo & Tipo\\
+\midrule
+BLEU-1/4, METEOR, ROUGE-L & HuggingFace \texttt{evaluate} & testuale, 1 rif.\\
+CIDEr & implementazione standalone (TF-IDF $n$-gram) & testuale, 1 rif.\\
+BERTScore-F & \texttt{bert-score}, \texttt{lang="it"} & semantica\\
+Conformità Vocabolario & custom su \texttt{vocabulary.csv} & dominio\\
+CLIPScore & \texttt{open\_clip}, \texttt{xlm-roberta-base-ViT-B-32} (LAION-5B) & image-grounded\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+% ============================================================
+\section{Limiti e caveat}
+\begin{itemize}
+\item \textbf{Riferimento singolo}: tutte le metriche testuali confrontano contro
+una sola caption; CIDEr e BLEU ne soffrono strutturalmente. CLIPScore (che ignora
+il riferimento) è il complemento più prezioso.
+\item \textbf{CIDEr} qui è a un riferimento: confrontabile fra i nostri modelli,
+non con benchmark esterni.
+\item \textbf{BERTScore} è poco discriminante su questo dominio (frasi simili).
+\item \textbf{CLIPScore} usa CLIP generico (non fine-tuned sul formaggio): coglie
+tratti grossolani (colore, texture), non sfumature sensoriali fini; i valori
+assoluti bassi sono normali.
+\item \textbf{CLIPScore costante tra modelli} è esso stesso il risultato: il collo
+di bottiglia è l'\textbf{encoder congelato}. Il prossimo esperimento naturale è il
+\textbf{fine-tuning dell'encoder} e la ri-misura di CLIPScore: se i modelli si
+staccano dalla baseline, l'immagine viene finalmente sfruttata.
+\end{itemize}
+
+% ============================================================
+\appendix
+\section{Tabella completa per attributo}
+
+\begin{table}[ht]
+\centering
+\small
+\setlength{\tabcolsep}{4pt}
+\caption{BLEU-4 / CIDEr / CLIPScore per attributo, modelli addestrati vs
+\texttt{most\_frequent}. Dati da \texttt{metrics\_summary.csv}.}
+\begin{tabular}{@{}l ccc ccc ccc@{}}
+\toprule
+& \multicolumn{3}{c}{BLEU-4} & \multicolumn{3}{c}{CIDEr} & \multicolumn{3}{c}{CLIPScore}\\
+\cmidrule(lr){2-4}\cmidrule(lr){5-7}\cmidrule(lr){8-10}
+Attributo & m3 & m6 & m.f. & m3 & m6 & m.f. & m3 & m6 & m.f.\\
+\midrule
+Aroma     & 0,45 & 0,45 & 0,44 & 0,53 & 0,62 & 0,53 & 0,182 & 0,183 & 0,178\\
+Profumo   & 0,38 & 0,38 & 0,32 & 0,35 & 0,39 & 0,33 & 0,183 & 0,186 & 0,187\\
+Sapore    & 0,41 & 0,42 & 0,40 & 0,53 & 0,61 & 0,86 & 0,184 & 0,184 & 0,181\\
+Texture   & 0,34 & 0,35 & 0,29 & 0,34 & 0,42 & 0,42 & 0,208 & 0,210 & 0,204\\
+Spessore  & 0,40 & 0,42 & 0,44 & 1,55 & 1,76 & 2,29 & 0,184 & 0,185 & 0,184\\
+Struttura & 0,31 & 0,33 & 0,21 & 0,41 & 0,41 & 0,52 & 0,198 & 0,199 & 0,193\\
+Colore    & 0,45 & 0,44 & 0,42 & 0,81 & 0,73 & 0,59 & 0,205 & 0,207 & 0,205\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\noindent\textit{m.f.} = \texttt{most\_frequent}. La tabella completa con tutte le
+8 metriche per tutti i 43 file è in \texttt{eval\_metrics/metrics\_summary.csv}.
+
+\end{document}

@@ -1,0 +1,49 @@
+\babel@toc {italian}{}\relax 
+\babel@toc {italian}{}\relax 
+\contentsline {section}{Sommario}{1}{Doc-Start}%
+\contentsline {section}{\numberline {1}Introduzione e contesto}{3}{section.1}%
+\contentsline {subsection}{\numberline {1.1}I due passi della traccia}{3}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Struttura della relazione}{3}{subsection.1.2}%
+\contentsline {section}{Parte I --- Costruzione del dataset}{3}{part*.1}%
+\contentsline {section}{\numberline {2}I dati grezzi e il problema del join}{3}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Il disallineamento centrale}{4}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Decisione: broadcast a livello di caseificio}{4}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Anatomia di una difficolt\`a invisibile}{4}{subsection.2.3}%
+\contentsline {section}{\numberline {3}Architettura della pipeline}{5}{section.3}%
+\contentsline {section}{\numberline {4}Fase 1 --- Preparazione deterministica}{5}{section.4}%
+\contentsline {section}{\numberline {5}Fasi 2--3 --- Vocabolario controllato e audit}{6}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Perch\'e un lemmatizzatore custom}{7}{subsection.5.1}%
+\contentsline {section}{\numberline {6}Fase 4 --- Pulizia e qualitatizzazione delle misure}{7}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Da numeri a qualit\`a}{7}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Deduplicazione}{8}{subsection.6.2}%
+\contentsline {section}{\numberline {7}Fase 5 --- Drop conservativo del rumore}{8}{section.7}%
+\contentsline {section}{\numberline {8}Fasi 6--8 --- Riscrittura tramite LLM}{9}{section.8}%
+\contentsline {subsection}{\numberline {8.1}Design del prompt (Fase 6)}{9}{subsection.8.1}%
+\contentsline {subsection}{\numberline {8.2}Pilot run (Fase 7)}{9}{subsection.8.2}%
+\contentsline {subsection}{\numberline {8.3}Batch completo (Fase 8)}{9}{subsection.8.3}%
+\contentsline {subsection}{\numberline {8.4}Validazione programmatica dell'output}{10}{subsection.8.4}%
+\contentsline {section}{\numberline {9}Fase 9 --- Salvage manuale}{10}{section.9}%
+\contentsline {section}{\numberline {10}Fase 10 --- Broadcast finale e forma di frase}{11}{section.10}%
+\contentsline {subsection}{\numberline {10.1}Forma di frase (sentence form)}{11}{subsection.10.1}%
+\contentsline {section}{\numberline {11}Il dataset finale}{11}{section.11}%
+\contentsline {subsection}{\numberline {11.1}Schema del dataset consegnato}{12}{subsection.11.1}%
+\contentsline {subsection}{\numberline {11.2}Decisioni chiave e tradeoff}{12}{subsection.11.2}%
+\contentsline {section}{Parte II --- Selezione dei modelli e training}{13}{part*.12}%
+\contentsline {section}{\numberline {12}I tre metodi e gli assi di variazione}{13}{section.12}%
+\contentsline {section}{\numberline {13}Setup sperimentale}{13}{section.13}%
+\contentsline {subsection}{\numberline {13.1}Salute dell'addestramento}{14}{subsection.13.1}%
+\contentsline {section}{\numberline {14}Risultati: per-attributo e globale}{14}{section.14}%
+\contentsline {subsection}{\numberline {14.1}Quadro sintetico per attributo}{14}{subsection.14.1}%
+\contentsline {subsection}{\numberline {14.2}Perch\'e i numeri per-attributo sono molto pi\`u alti}{15}{subsection.14.2}%
+\contentsline {section}{\numberline {15}Lo shuffle test: il modello usa l'immagine?}{15}{section.15}%
+\contentsline {subsection}{\numberline {15.1}La conclusione architetturale}{16}{subsection.15.1}%
+\contentsline {section}{\numberline {16}Oltre BLEU: metriche complementari}{17}{section.16}%
+\contentsline {subsection}{\numberline {16.1}CLIPScore conferma lo shuffle test}{18}{subsection.16.1}%
+\contentsline {subsection}{\numberline {16.2}CIDEr discrimina dove BLEU appiattisce}{19}{subsection.16.2}%
+\contentsline {subsection}{\numberline {16.3}Il tranello di BLEU, visualizzato}{19}{subsection.16.3}%
+\contentsline {section}{\numberline {17}Esempi qualitativi}{19}{section.17}%
+\contentsline {section}{\numberline {18}Critica di BLEU e conclusioni}{20}{section.18}%
+\contentsline {subsection}{\numberline {18.1}Perch\'e BLEU \`e un cattivo giudice qui}{20}{subsection.18.1}%
+\contentsline {subsection}{\numberline {18.2}Conclusione generale}{21}{subsection.18.2}%
+\contentsline {subsection}{\numberline {18.3}Framing onesto}{21}{subsection.18.3}%
+\contentsline {subsection}{\numberline {18.4}Lavori futuri}{21}{subsection.18.4}%
