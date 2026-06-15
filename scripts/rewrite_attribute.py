@@ -27,7 +27,7 @@ import anthropic
 from pilot_rewrite import load_api_key, rewrite_one
 from rewrite_prompt import ATTRIBUTE_CONFIG
 
-ROOT = Path(__file__).resolve().parent
+ROOT = Path(__file__).resolve().parent.parent
 SRC = ROOT / "data" / "intermediate" / "captions_to_rewrite.csv"
 REWRITES_DIR = ROOT / "data" / "rewrites"
 

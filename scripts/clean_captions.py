@@ -27,7 +27,7 @@ from pathlib import Path
 
 from build_vocabulary import ABBREV_MAP, TYPO_MAP
 
-ROOT = Path(__file__).resolve().parent
+ROOT = Path(__file__).resolve().parent.parent
 SRC = ROOT / "data" / "intermediate" / "captions_prepared.csv"
 OUT_FULL = ROOT / "data" / "intermediate" / "captions_pre.csv"
 OUT_UNIQUE = ROOT / "data" / "intermediate" / "captions_unique.csv"

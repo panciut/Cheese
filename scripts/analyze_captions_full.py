@@ -10,7 +10,7 @@ from pathlib import Path
 
 csv.field_size_limit(min(sys.maxsize, 2**31 - 1))
 
-ROOT = Path(__file__).parent
+ROOT = Path(__file__).parent.parent
 SRC = ROOT / "data" / "final" / "captions_final.csv"
 OUT = ROOT / "reports" / "caption_quality_full.md"
 OUT.parent.mkdir(exist_ok=True)

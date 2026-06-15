@@ -31,7 +31,7 @@ def load_api_key() -> str:
     Accepts either CLAUDE_KEY or ANTHROPIC_API_KEY. .env is parsed with a
     minimal reader so we don't add a python-dotenv dependency.
     """
-    env_path = Path(__file__).resolve().parent / ".env"
+    env_path = Path(__file__).resolve().parent.parent / ".env"
     if env_path.exists():
         for raw in env_path.read_text().splitlines():
             line = raw.strip()
@@ -50,7 +50,7 @@ def load_api_key() -> str:
         )
     return key
 
-ROOT = Path(__file__).resolve().parent
+ROOT = Path(__file__).resolve().parent.parent
 SRC = ROOT / "data" / "intermediate" / "captions_to_rewrite.csv"
 OUT_CSV = ROOT / "data" / "reports" / "pilot_rewrites.csv"
 OUT_REVIEW = ROOT / "data" / "reports" / "pilot_review.txt"

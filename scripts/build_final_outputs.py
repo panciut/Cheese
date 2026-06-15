@@ -15,7 +15,7 @@ import shutil
 from collections import Counter, defaultdict
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parent / "data"
+ROOT = Path(__file__).resolve().parent.parent / "data"
 SRC = ROOT / "final" / "captions_final.csv"
 OUT_DIR = ROOT / "final"
 BY_ATTR_DIR = OUT_DIR / "by_attribute"

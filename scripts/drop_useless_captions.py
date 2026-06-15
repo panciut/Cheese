@@ -27,7 +27,7 @@ import re
 from collections import Counter
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parent
+ROOT = Path(__file__).resolve().parent.parent
 SRC_PRE = ROOT / "data" / "intermediate" / "captions_pre.csv"
 SRC_UNIQUE = ROOT / "data" / "intermediate" / "captions_unique.csv"
 OUT_REWRITE = ROOT / "data" / "intermediate" / "captions_to_rewrite.csv"

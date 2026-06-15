@@ -17,3 +17,6 @@ kaggle_m6_weights/
 /tmp_kaggle_outputs/
 kaggle_outputs/
 data/data/
+*.zip
+presentation/*/
+report_latex/

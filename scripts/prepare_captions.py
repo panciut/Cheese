@@ -23,7 +23,7 @@ import unicodedata
 from collections import Counter, defaultdict
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parent
+ROOT = Path(__file__).resolve().parent.parent
 SRC = ROOT / "data" / "intermediate" / "unified_dataset.csv"
 OUT_CSV = ROOT / "data" / "intermediate" / "captions_prepared.csv"
 OUT_REPORT = ROOT / "data" / "reports" / "captions_prep_report.txt"

@@ -14,7 +14,7 @@ from __future__ import annotations
 import csv
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parent / "data/rewrites"
+ROOT = Path(__file__).resolve().parent.parent / "data/rewrites"
 
 # ---------------------------------------------------------------------------
 # Manual salvage map.

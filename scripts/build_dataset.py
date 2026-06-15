@@ -19,7 +19,7 @@ from pathlib import Path
 
 import openpyxl
 
-ROOT = Path(__file__).resolve().parent / "data"
+ROOT = Path(__file__).resolve().parent.parent / "data"
 IMG_ROOT = ROOT / "TrentinGrana"
 COMM_DIR = ROOT / "GT commenti liberi"
 CODIF_DIR = COMM_DIR / "codifiche"

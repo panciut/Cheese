@@ -20,7 +20,7 @@ import csv
 from collections import Counter
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parent
+ROOT = Path(__file__).resolve().parent.parent
 SRC_FULL = ROOT / "data" / "intermediate" / "captions_pre_filtered.csv"
 REWRITES_DIR = ROOT / "data" / "rewrites"
 OUT_CSV = ROOT / "data" / "final" / "captions_final.csv"

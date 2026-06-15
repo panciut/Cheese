@@ -8,7 +8,7 @@ from pathlib import Path
 
 from rewrite_prompt import ATTRIBUTE_CONFIG, build_system_prompt, build_user_prompt
 
-OUT = Path(__file__).resolve().parent / "data/prompts"
+OUT = Path(__file__).resolve().parent.parent / "data/prompts"
 
 
 def main():

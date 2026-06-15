@@ -26,7 +26,7 @@ import re
 from collections import Counter
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parent / "data"
+ROOT = Path(__file__).resolve().parent.parent / "data"
 SRC = ROOT / "final" / "captions_final.csv"
 UNMATCHED = ROOT / "intermediate" / "sentence_form_unmatched.csv"
 
