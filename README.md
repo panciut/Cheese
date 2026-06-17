@@ -137,7 +137,8 @@ Key ideas:
   unique caption into a consistent, attribute-anchored sentence, with a hard
   *zero-invention* rule and a `NON_DESCRITTO` escape for info-free input. A
   **pilot run** validates the prompt before the **full batch** (Anthropic Batch
-  API, `claude-haiku-4-5`, ~$5.60 total, 50% batch discount). A short **manual
+  API, `claude-haiku-4-5`, 50% batch discount; ~$4.50 for the full batch,
+  ~$5.60 across all LLM steps). A short **manual
   salvage** pass recovers ~178 captions the model over-conservatively flagged.
 - **Phase 10 — finalize.** Rewritten captions are broadcast back to all matching
   rows; a deterministic regex transform adds a full-sentence form
@@ -189,8 +190,15 @@ Each architecture runs in two modes (`--finetune`):
 - **frozen encoder** (default) — only the decoder + projection train;
 - **end-to-end fine-tune** — encoder unfrozen with a differential learning rate.
 
-So **6 architectures × 2 modes = 12 model runs**. Models can also be trained
-**per-attribute** (`--attributo Texture`) or **global** (`--attributo all`).
+So **6 architectures × 2 modes = 12 model runs** are *possible*. Models can also
+be trained **per-attribute** (`--attributo Texture`) or **global**
+(`--attributo all`).
+
+> **Current eval scope.** The results below come from the subset actually
+> trained and scored so far: **m1, m3, m6 in frozen-encoder mode** (per-attribute
+> + global), plus **3 baselines** (`random`, `most_frequent`, `freq_weighted`).
+> The remaining architectures (m2, m4, m5), all fine-tune runs, and the
+> `retrieval` baseline are not yet scored.
 
 Training (`training/train.py`) uses teacher forcing with weighted
 cross-entropy, label smoothing (0.1), gradient clipping, an LR scheduler
@@ -205,7 +213,8 @@ Four non-trained baselines (`training/baselines.py`) provide a floor:
 2. `most_frequent` — always the most common training caption;
 3. `freq_weighted` — sample captions weighted by frequency;
 4. `retrieval` — nearest neighbor by ResNet-50 visual features (excludes the
-   same `sample_id` to avoid panelist leakage).
+   same `sample_id` to avoid panelist leakage). *Implemented in `baselines.py`
+   but not yet scored — its predictions are absent from the current eval run.*
 
 ---
 
