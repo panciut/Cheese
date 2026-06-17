@@ -19,4 +19,5 @@ kaggle_outputs/
 data/data/
 *.zip
 presentation/*/
+presentation/
 report_latex/
