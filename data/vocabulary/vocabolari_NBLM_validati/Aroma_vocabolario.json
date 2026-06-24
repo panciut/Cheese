@@ -1,0 +1,358 @@
+{
+  "attributo": "Aroma",
+  "versione": "1.0",
+  "data_validazione": "2026-04-10",
+  "validato_da": "",
+  "note_generali": "",
+  "termini_tecnici_invariabili": [
+    "grana",
+    "nostrano",
+    "insilato",
+    "cristalli",
+    "tirosina",
+    "solubile",
+    "solubilità",
+    "friabile",
+    "friabilità",
+    "compatto",
+    "compattezza",
+    "cedevole",
+    "stirata",
+    "scalzo",
+    "scalzi",
+    "piatti",
+    "piatto",
+    "sottocrosta",
+    "angoli",
+    "spigoli",
+    "microocchiatura",
+    "occhiatura"
+  ],
+  "cluster": [
+    {
+      "nome_cluster": "latte_cotto",
+      "forma_canonica": "latte cotto",
+      "varianti": [
+        "cotto",
+        "formaggio cotto",
+        "lattici cotti",
+        "latte bollito",
+        "formaggio fuso"
+      ],
+      "frequenza_stimata": 150
+    },
+    {
+      "nome_cluster": "burro",
+      "forma_canonica": "burro",
+      "varianti": [
+        "burro fuso",
+        "burro cotto",
+        "burroso",
+        "burro fresco",
+        "burro sciolto"
+      ],
+      "frequenza_stimata": 120
+    },
+    {
+      "nome_cluster": "brodo_umami",
+      "forma_canonica": "brodo",
+      "varianti": [
+        "brodo di carne",
+        "dado",
+        "glutammato",
+        "umami",
+        "carne lessa",
+        "sentore di ragù",
+        "acciuga e salamoia"
+      ],
+      "frequenza_stimata": 100
+    },
+    {
+      "nome_cluster": "panna",
+      "forma_canonica": "panna",
+      "varianti": [
+        "panna fresca",
+        "latte",
+        "lattico fresco",
+        "latte UHT"
+      ],
+      "frequenza_stimata": 80
+    },
+    {
+      "nome_cluster": "crosta",
+      "forma_canonica": "crosta",
+      "varianti": [
+        "crosta di formaggio",
+        "crosta pulita"
+      ],
+      "frequenza_stimata": 80
+    },
+    {
+      "nome_cluster": "tostato",
+      "forma_canonica": "tostato",
+      "varianti": [
+        "bruciato",
+        "latte bruciato",
+        "crosta di pane",
+        "fumo",
+        "affumicato",
+        "legna secca",
+        "formaggio fritto"
+      ],
+      "frequenza_stimata": 50
+    },
+    {
+      "nome_cluster": "ossidato",
+      "forma_canonica": "ossidato",
+      "varianti": [
+        "stantio",
+        "vecchio",
+        "passato",
+        "rancido",
+        "armadio della nonna"
+      ],
+      "frequenza_stimata": 50
+    },
+    {
+      "nome_cluster": "animale",
+      "forma_canonica": "stalla",
+      "varianti": [
+        "animale",
+        "stallatico",
+        "vacca",
+        "letame",
+        "lettiera"
+      ],
+      "frequenza_stimata": 40
+    },
+    {
+      "nome_cluster": "vegetale_fieno",
+      "forma_canonica": "fieno",
+      "varianti": [
+        "erba",
+        "erbaceo",
+        "erbe amare",
+        "vegetale",
+        "paglia"
+      ],
+      "frequenza_stimata": 40
+    },
+    {
+      "nome_cluster": "fermentato",
+      "forma_canonica": "fermentato",
+      "varianti": [
+        "frutta fermentata",
+        "vegetale fermentata",
+        "latte acido",
+        "panna acida",
+        "yogurt"
+      ],
+      "frequenza_stimata": 40
+    },
+    {
+      "nome_cluster": "verdure_lesse",
+      "forma_canonica": "verdure lesse",
+      "varianti": [
+        "minestrone",
+        "cipolla",
+        "sedano",
+        "cavolfiore"
+      ],
+      "frequenza_stimata": 30
+    },
+    {
+      "nome_cluster": "fruttato",
+      "forma_canonica": "fruttato",
+      "varianti": [
+        "frutta matura",
+        "ananas",
+        "mela",
+        "banana",
+        "pera",
+        "frutta tropicale"
+      ],
+      "frequenza_stimata": 30
+    },
+    {
+      "nome_cluster": "frutta_secca",
+      "forma_canonica": "frutta secca",
+      "varianti": [
+        "nocciola",
+        "mandorla amara",
+        "castagne",
+        "noce"
+      ],
+      "frequenza_stimata": 20
+    },
+    {
+      "nome_cluster": "caramello",
+      "forma_canonica": "caramello",
+      "varianti": [
+        "mou",
+        "cacao",
+        "cacao amaro",
+        "liquirizia",
+        "miele",
+        "biscotto"
+      ],
+      "frequenza_stimata": 15
+    },
+    {
+      "nome_cluster": "difetto_chimico",
+      "forma_canonica": "chimico",
+      "varianti": [
+        "sapone",
+        "saponoso",
+        "farmaco",
+        "medicinale",
+        "metallico",
+        "plastica",
+        "idrocarburi",
+        "putrido",
+        "marcio"
+      ],
+      "frequenza_stimata": 30
+    },
+    {
+      "nome_cluster": "altro_formaggio",
+      "forma_canonica": "altro formaggio",
+      "varianti": [
+        "provolone",
+        "emmenthal",
+        "taleggio",
+        "gorgonzola",
+        "sbrinz",
+        "formaggino",
+        "malga"
+      ],
+      "frequenza_stimata": 25
+    },
+    {
+      "nome_cluster": "grana",
+      "forma_canonica": "grana",
+      "varianti": [],
+      "frequenza_stimata": 40
+    },
+    {
+      "nome_cluster": "nostrano",
+      "forma_canonica": "nostrano",
+      "varianti": [],
+      "frequenza_stimata": 15
+    },
+    {
+      "nome_cluster": "insilato",
+      "forma_canonica": "insilato",
+      "varianti": [],
+      "frequenza_stimata": 2
+    }
+  ],
+  "sinonimi_diretti": [
+    {
+      "da": "legg.",
+      "a": "leggermente",
+      "tipo": "abbreviazione"
+    },
+    {
+      "da": "mediam.",
+      "a": "mediamente",
+      "tipo": "abbreviazione"
+    },
+    {
+      "da": "retroolfatt",
+      "a": "retrolfattivo",
+      "tipo": "abbreviazione"
+    },
+    {
+      "da": "quanta stalla, signora mia!",
+      "a": "stalla",
+      "tipo": "sinonimo"
+    },
+    {
+      "da": "desaparecido",
+      "a": "assente",
+      "tipo": "sinonimo"
+    },
+    {
+      "da": "passato",
+      "a": "ossidato",
+      "tipo": "sinonimo"
+    },
+    {
+      "da": "scarico",
+      "a": "poco intenso",
+      "tipo": "sinonimo"
+    },
+    {
+      "da": "talla",
+      "a": "stalla",
+      "tipo": "typo"
+    },
+    {
+      "da": "trentunenne",
+      "a": "trentingrana",
+      "tipo": "typo"
+    },
+    {
+      "da": "emmethal",
+      "a": "emmenthal",
+      "tipo": "typo"
+    },
+    {
+      "da": "ossiadto",
+      "a": "ossidato",
+      "tipo": "typo"
+    },
+    {
+      "da": "fermantato",
+      "a": "fermentato",
+      "tipo": "typo"
+    },
+    {
+      "da": "sangue,,,",
+      "a": "metallico",
+      "tipo": "dubbio_risolto"
+    },
+    {
+      "da": "armadio della nonna",
+      "a": "polvere",
+      "tipo": "dubbio_risolto"
+    },
+    {
+      "da": "pratomagno",
+      "a": "fieno",
+      "tipo": "dubbio_risolto"
+    },
+    {
+      "da": "vinavil",
+      "a": "difetto chimico",
+      "tipo": "dubbio_risolto"
+    },
+    {
+      "da": "bitter",
+      "a": "erbe amare",
+      "tipo": "dubbio_risolto"
+    },
+    {
+      "da": "zafferano",
+      "a": "atipico",
+      "tipo": "dubbio_risolto"
+    },
+    {
+      "da": "acqua di fogna",
+      "a": "putrido",
+      "tipo": "dubbio_risolto"
+    },
+    {
+      "da": "vomitevole",
+      "a": "putrido",
+      "tipo": "dubbio_risolto"
+    },
+    {
+      "da": "formaggio con presunta struttura stirata",
+      "a": "fuori contesto",
+      "tipo": "dubbio_risolto"
+    }
+  ],
+  "conversioni_quantitative": [],
+  "dubbi_non_risolti": []
+}

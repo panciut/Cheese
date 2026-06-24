@@ -1,0 +1,340 @@
+{
+  "attributo": "Texture",
+  "versione": "1.0",
+  "data_validazione": "2026-04-10",
+  "validato_da": "",
+  "note_generali": "",
+  "termini_tecnici_invariabili": [
+    "cristalli",
+    "tirosina",
+    "solubile",
+    "solubilità",
+    "friabile",
+    "friabilità",
+    "compatto",
+    "compattezza",
+    "cedevole",
+    "grana",
+    "nostrano",
+    "stirata",
+    "scalzo",
+    "scalzi",
+    "piatti",
+    "piatto",
+    "sottocrosta",
+    "angoli",
+    "spigoli",
+    "microocchiatura",
+    "occhiatura",
+    "insilato"
+  ],
+  "cluster": [
+    {
+      "nome_cluster": "cristalli_tirosina",
+      "forma_canonica": "cristalli",
+      "varianti": [
+        "microcristalli",
+        "tirosina",
+        "schioccante",
+        "scricchiola",
+        "scrocchiarelli"
+      ],
+      "frequenza_stimata": 315
+    },
+    {
+      "nome_cluster": "solubilità",
+      "forma_canonica": "solubile",
+      "varianti": [
+        "solubilità",
+        "si scioglie",
+        "fondente",
+        "si liquefa",
+        "liquescente"
+      ],
+      "frequenza_stimata": 255
+    },
+    {
+      "nome_cluster": "asciutto",
+      "forma_canonica": "asciutto",
+      "varianti": [
+        "secco",
+        "disidratata",
+        "asciuga le fauci",
+        "secchezza"
+      ],
+      "frequenza_stimata": 202
+    },
+    {
+      "nome_cluster": "friabilità",
+      "forma_canonica": "friabile",
+      "varianti": [
+        "friabilità",
+        "frantuma",
+        "sbriciola",
+        "franabile"
+      ],
+      "frequenza_stimata": 151
+    },
+    {
+      "nome_cluster": "morbidezza",
+      "forma_canonica": "morbido",
+      "varianti": [
+        "molle",
+        "tenero",
+        "molliccio"
+      ],
+      "frequenza_stimata": 152
+    },
+    {
+      "nome_cluster": "pastosità",
+      "forma_canonica": "pastoso",
+      "varianti": [
+        "pastosità",
+        "pongo",
+        "crema"
+      ],
+      "frequenza_stimata": 124
+    },
+    {
+      "nome_cluster": "granulosità",
+      "forma_canonica": "granuloso",
+      "varianti": [
+        "granulosità",
+        "granuli"
+      ],
+      "frequenza_stimata": 100
+    },
+    {
+      "nome_cluster": "umidità",
+      "forma_canonica": "umido",
+      "varianti": [
+        "umidità"
+      ],
+      "frequenza_stimata": 80
+    },
+    {
+      "nome_cluster": "compattezza",
+      "forma_canonica": "compatto",
+      "varianti": [
+        "compattezza"
+      ],
+      "frequenza_stimata": 80
+    },
+    {
+      "nome_cluster": "struttura",
+      "forma_canonica": "struttura",
+      "varianti": [
+        "microstruttura"
+      ],
+      "frequenza_stimata": 60
+    },
+    {
+      "nome_cluster": "cedevolezza",
+      "forma_canonica": "cedevole",
+      "varianti": [
+        "cedevolezza"
+      ],
+      "frequenza_stimata": 40
+    },
+    {
+      "nome_cluster": "sabbioso_farinoso",
+      "forma_canonica": "sabbioso",
+      "varianti": [
+        "sabbiosità",
+        "sabbietta",
+        "farinoso",
+        "sensazione di farina",
+        "polveroso",
+        "residuo"
+      ],
+      "frequenza_stimata": 60
+    },
+    {
+      "nome_cluster": "adesività",
+      "forma_canonica": "adesivo",
+      "varianti": [
+        "adesività",
+        "impasta",
+        "incolla la bocca",
+        "colloso"
+      ],
+      "frequenza_stimata": 52
+    },
+    {
+      "nome_cluster": "plasticità",
+      "forma_canonica": "plastico",
+      "varianti": [
+        "gommoso",
+        "elastico",
+        "indeformabile",
+        "deformabile",
+        "malleabile"
+      ],
+      "frequenza_stimata": 29
+    },
+    {
+      "nome_cluster": "astringenza_ingozza",
+      "forma_canonica": "astringente",
+      "varianti": [
+        "allappante",
+        "lega la bocca",
+        "legato"
+      ],
+      "frequenza_stimata": 28
+    },
+    {
+      "nome_cluster": "durezza",
+      "forma_canonica": "duro",
+      "varianti": [
+        "durezza"
+      ],
+      "frequenza_stimata": 20
+    },
+    {
+      "nome_cluster": "giovane",
+      "forma_canonica": "giovane",
+      "varianti": [
+        "immaturo",
+        "non pronto",
+        "fresco"
+      ],
+      "frequenza_stimata": 6
+    },
+    {
+      "nome_cluster": "si_sfalda",
+      "forma_canonica": "si sfalda",
+      "varianti": [
+        "si spappola"
+      ],
+      "frequenza_stimata": 3
+    },
+    {
+      "nome_cluster": "burroso",
+      "forma_canonica": "burroso",
+      "varianti": [
+        "unto",
+        "untuosità"
+      ],
+      "frequenza_stimata": 3
+    },
+    {
+      "nome_cluster": "nostrano_stirata",
+      "forma_canonica": "nostrano",
+      "varianti": [
+        "stirata",
+        "pasta stirata",
+        "struttura stirata"
+      ],
+      "frequenza_stimata": 11
+    }
+  ],
+  "sinonimi_diretti": [
+    {
+      "da": "sol.",
+      "a": "solubile",
+      "tipo": "abbreviazione"
+    },
+    {
+      "da": "solub.",
+      "a": "solubile",
+      "tipo": "abbreviazione"
+    },
+    {
+      "da": "legg.",
+      "a": "leggermente",
+      "tipo": "abbreviazione"
+    },
+    {
+      "da": "cris.",
+      "a": "cristalli",
+      "tipo": "abbreviazione"
+    },
+    {
+      "da": "crist.",
+      "a": "cristalli",
+      "tipo": "abbreviazione"
+    },
+    {
+      "da": "un po-",
+      "a": "un po'",
+      "tipo": "typo"
+    },
+    {
+      "da": "a gogo",
+      "a": "molti",
+      "tipo": "sinonimo"
+    },
+    {
+      "da": "granuolo",
+      "a": "granuloso",
+      "tipo": "typo"
+    },
+    {
+      "da": "unidita",
+      "a": "umidità",
+      "tipo": "typo"
+    },
+    {
+      "da": "aciutto",
+      "a": "asciutto",
+      "tipo": "typo"
+    },
+    {
+      "da": "firabile",
+      "a": "friabile",
+      "tipo": "typo"
+    },
+    {
+      "da": "rfiabile",
+      "a": "friabile",
+      "tipo": "typo"
+    },
+    {
+      "da": "alleabile",
+      "a": "malleabile",
+      "tipo": "dubbio_risolto"
+    },
+    {
+      "da": "ingrossa un pochetto",
+      "a": "impasta",
+      "tipo": "dubbio_risolto"
+    },
+    {
+      "da": "gestire mediocre",
+      "a": "texture mediocre",
+      "tipo": "dubbio_risolto"
+    },
+    {
+      "da": "perle",
+      "a": "perle",
+      "tipo": "dubbio_risolto"
+    },
+    {
+      "da": "patatoso",
+      "a": "pastoso",
+      "tipo": "dubbio_risolto"
+    },
+    {
+      "da": "faticoso?",
+      "a": "duro",
+      "tipo": "dubbio_risolto"
+    },
+    {
+      "da": "immagiabile",
+      "a": "immasticabile",
+      "tipo": "dubbio_risolto"
+    },
+    {
+      "da": "(1)",
+      "a": "intensità assente",
+      "tipo": "dubbio_risolto"
+    },
+    {
+      "da": "farino",
+      "a": "farinoso",
+      "tipo": "dubbio_risolto"
+    }
+  ],
+  "conversioni_quantitative": [],
+  "dubbi_non_risolti": []
+}

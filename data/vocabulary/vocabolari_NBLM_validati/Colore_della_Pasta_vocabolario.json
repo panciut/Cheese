@@ -1,0 +1,385 @@
+{
+  "attributo": "Colore della Pasta",
+  "versione": "1.0",
+  "data_validazione": "2026-04-10",
+  "validato_da": "",
+  "note_generali": "",
+  "termini_tecnici_invariabili": [
+    "piatto",
+    "piatti",
+    "scalzo",
+    "scalzi",
+    "sottocrosta",
+    "angoli",
+    "frattura",
+    "occhiatura",
+    "microocchiatura",
+    "cristalli",
+    "tirosina",
+    "stirata"
+  ],
+  "cluster": [
+    {
+      "nome_cluster": "giallo_paglierino",
+      "forma_canonica": "giallo paglierino",
+      "varianti": [
+        "giallo",
+        "dorato",
+        "ambrato"
+      ],
+      "frequenza_stimata": 253
+    },
+    {
+      "nome_cluster": "carico",
+      "forma_canonica": "carico",
+      "varianti": [
+        "carica",
+        "saturo",
+        "intenso",
+        "marcato",
+        "accentuato"
+      ],
+      "frequenza_stimata": 170
+    },
+    {
+      "nome_cluster": "chiaro",
+      "forma_canonica": "chiaro",
+      "varianti": [
+        "chiara",
+        "scarico"
+      ],
+      "frequenza_stimata": 157
+    },
+    {
+      "nome_cluster": "omogeneo",
+      "forma_canonica": "omogeneo",
+      "varianti": [
+        "omogenea",
+        "uniforme"
+      ],
+      "frequenza_stimata": 155
+    },
+    {
+      "nome_cluster": "alone",
+      "forma_canonica": "alone",
+      "varianti": [],
+      "frequenza_stimata": 151
+    },
+    {
+      "nome_cluster": "centrale",
+      "forma_canonica": "centrale",
+      "varianti": [
+        "centro"
+      ],
+      "frequenza_stimata": 150
+    },
+    {
+      "nome_cluster": "rosato",
+      "forma_canonica": "rosato",
+      "varianti": [
+        "rosa",
+        "rosata",
+        "rossastro",
+        "rossiccio",
+        "rosso",
+        "salmone",
+        "salmonato",
+        "pompelmo"
+      ],
+      "frequenza_stimata": 112
+    },
+    {
+      "nome_cluster": "scuro",
+      "forma_canonica": "scuro",
+      "varianti": [
+        "scura",
+        "marrone",
+        "bruno",
+        "bruna",
+        "imbrunito"
+      ],
+      "frequenza_stimata": 111
+    },
+    {
+      "nome_cluster": "macchiato",
+      "forma_canonica": "macchiato",
+      "varianti": [
+        "macchia",
+        "macchie",
+        "macchioline",
+        "chiazza",
+        "chiazze",
+        "puntini neri"
+      ],
+      "frequenza_stimata": 91
+    },
+    {
+      "nome_cluster": "esterno",
+      "forma_canonica": "esterno",
+      "varianti": [
+        "verso",
+        "sotto",
+        "vicino",
+        "bordo",
+        "bordi",
+        "lateralmente"
+      ],
+      "frequenza_stimata": 90
+    },
+    {
+      "nome_cluster": "lieve",
+      "forma_canonica": "lieve",
+      "varianti": [
+        "leggero",
+        "appena",
+        "lievemente",
+        "sfumatura",
+        "sfumato",
+        "sfumature"
+      ],
+      "frequenza_stimata": 65
+    },
+    {
+      "nome_cluster": "disomogeneo",
+      "forma_canonica": "disomogeneo",
+      "varianti": [
+        "non omogeneo",
+        "disomogeneità",
+        "eterogeneo",
+        "zona",
+        "zone",
+        "area",
+        "aree"
+      ],
+      "frequenza_stimata": 58
+    },
+    {
+      "nome_cluster": "grigio_verdastro",
+      "forma_canonica": "grigio-verdastro",
+      "varianti": [
+        "grigio",
+        "grigiastro",
+        "grigetta",
+        "verde",
+        "verdastro",
+        "verdognolo",
+        "verdolino"
+      ],
+      "frequenza_stimata": 46
+    },
+    {
+      "nome_cluster": "aranciato_nocciola",
+      "forma_canonica": "aranciato",
+      "varianti": [
+        "arancio",
+        "arancione",
+        "nocciola"
+      ],
+      "frequenza_stimata": 43
+    },
+    {
+      "nome_cluster": "a_strisce",
+      "forma_canonica": "a strisce",
+      "varianti": [
+        "fascia",
+        "fasce",
+        "striscia",
+        "strisce",
+        "striature"
+      ],
+      "frequenza_stimata": 40
+    },
+    {
+      "nome_cluster": "bianco",
+      "forma_canonica": "bianco",
+      "varianti": [
+        "biancastro",
+        "candido",
+        "cipria"
+      ],
+      "frequenza_stimata": 11
+    },
+    {
+      "nome_cluster": "anomalo_difetto",
+      "forma_canonica": "anomalo per difetto strutturale",
+      "varianti": [
+        "ossidato",
+        "ossidazione",
+        "disidratato",
+        "spugnosa",
+        "gessato",
+        "bagnato",
+        "pastoso",
+        "muffa"
+      ],
+      "frequenza_stimata": 18
+    },
+    {
+      "nome_cluster": "piatto_piatti",
+      "forma_canonica": "piatto",
+      "varianti": [],
+      "frequenza_stimata": 100
+    },
+    {
+      "nome_cluster": "scalzo_scalzi",
+      "forma_canonica": "scalzo",
+      "varianti": [
+        "scalzi"
+      ],
+      "frequenza_stimata": 30
+    },
+    {
+      "nome_cluster": "sottocrosta",
+      "forma_canonica": "sottocrosta",
+      "varianti": [],
+      "frequenza_stimata": 10
+    },
+    {
+      "nome_cluster": "cristalli_tirosina",
+      "forma_canonica": "cristalli",
+      "varianti": [
+        "tirosina"
+      ],
+      "frequenza_stimata": 6
+    }
+  ],
+  "sinonimi_diretti": [
+    {
+      "da": "abb.",
+      "a": "abbastanza",
+      "tipo": "abbreviazione"
+    },
+    {
+      "da": "legg.",
+      "a": "leggermente",
+      "tipo": "abbreviazione"
+    },
+    {
+      "da": "unif",
+      "a": "uniforme",
+      "tipo": "abbreviazione"
+    },
+    {
+      "da": "vs",
+      "a": "verso",
+      "tipo": "abbreviazione"
+    },
+    {
+      "da": "gonfalone",
+      "a": "alone centrale ampio",
+      "tipo": "sinonimo"
+    },
+    {
+      "da": "bi color",
+      "a": "disomogeneo a fasce",
+      "tipo": "sinonimo"
+    },
+    {
+      "da": "pochetto",
+      "a": "leggermente",
+      "tipo": "sinonimo"
+    },
+    {
+      "da": "hiroshima",
+      "a": "tirosina",
+      "tipo": "typo"
+    },
+    {
+      "da": "risata",
+      "a": "rosata",
+      "tipo": "typo"
+    },
+    {
+      "da": "rodata",
+      "a": "rosata",
+      "tipo": "typo"
+    },
+    {
+      "da": "vergognose",
+      "a": "verdognole",
+      "tipo": "typo"
+    },
+    {
+      "da": "L'amore",
+      "a": "l'alone",
+      "tipo": "typo"
+    },
+    {
+      "da": "acconciatura",
+      "a": "occhiatura",
+      "tipo": "typo"
+    },
+    {
+      "da": "arrangiato",
+      "a": "aranciato",
+      "tipo": "typo"
+    },
+    {
+      "da": "tranciato",
+      "a": "aranciato",
+      "tipo": "typo"
+    },
+    {
+      "da": "sottoposta",
+      "a": "sottocrosta",
+      "tipo": "typo"
+    },
+    {
+      "da": "chuaro",
+      "a": "chiaro",
+      "tipo": "typo"
+    },
+    {
+      "da": "giallo gonfalone centrale",
+      "a": "alone ampio",
+      "tipo": "dubbio_risolto"
+    },
+    {
+      "da": "sganciato / sganciato carico",
+      "a": "netto evidente",
+      "tipo": "dubbio_risolto"
+    },
+    {
+      "da": "immatricolata",
+      "a": "marchiatura",
+      "tipo": "dubbio_risolto"
+    },
+    {
+      "da": "L'amore",
+      "a": "l'alone",
+      "tipo": "dubbio_risolto"
+    },
+    {
+      "da": "bocciature",
+      "a": "occhiature",
+      "tipo": "dubbio_risolto"
+    },
+    {
+      "da": "ragionevoli scuro",
+      "a": "ragionevolmente scuro",
+      "tipo": "dubbio_risolto"
+    },
+    {
+      "da": "concezione",
+      "a": "al centro",
+      "tipo": "dubbio_risolto"
+    },
+    {
+      "da": "vasca",
+      "a": "tasca",
+      "tipo": "dubbio_risolto"
+    },
+    {
+      "da": "originale",
+      "a": "anomala",
+      "tipo": "dubbio_risolto"
+    },
+    {
+      "da": "tranciato",
+      "a": "tagliato",
+      "tipo": "dubbio_risolto"
+    }
+  ],
+  "conversioni_quantitative": [],
+  "dubbi_non_risolti": []
+}

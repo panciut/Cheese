@@ -1,0 +1,297 @@
+{
+  "attributo": "Spessore della Crosta",
+  "versione": "1.0",
+  "data_validazione": "2026-04-10",
+  "validato_da": "",
+  "note_generali": "",
+  "termini_tecnici_invariabili": [
+    "piatto",
+    "piatti",
+    "scalzo",
+    "scalzi",
+    "angoli",
+    "spigoli",
+    "sottocrosta",
+    "occhiatura",
+    "microocchiatura",
+    "grana",
+    "frattura"
+  ],
+  "cluster": [
+    {
+      "nome_cluster": "misura_quantitativa",
+      "forma_canonica": "misura in mm",
+      "varianti": [],
+      "frequenza_stimata": 500
+    },
+    {
+      "nome_cluster": "sottile",
+      "forma_canonica": "sottile",
+      "varianti": [
+        "molto sottile",
+        "finissima",
+        "fine",
+        "bassa"
+      ],
+      "frequenza_stimata": 240
+    },
+    {
+      "nome_cluster": "spessa",
+      "forma_canonica": "spessa",
+      "varianti": [
+        "molto spessa",
+        "grossa",
+        "grossolana",
+        "alta",
+        "elevata"
+      ],
+      "frequenza_stimata": 172
+    },
+    {
+      "nome_cluster": "limite_netto",
+      "forma_canonica": "limite netto",
+      "varianti": [
+        "netta",
+        "ben visibile",
+        "evidente",
+        "pronunciati",
+        "accentuati",
+        "stacco"
+      ],
+      "frequenza_stimata": 132
+    },
+    {
+      "nome_cluster": "regolare",
+      "forma_canonica": "regolare",
+      "varianti": [
+        "omogenea",
+        "omogeneo",
+        "bella",
+        "belli",
+        "buona",
+        "buoni",
+        "ottimi"
+      ],
+      "frequenza_stimata": 125
+    },
+    {
+      "nome_cluster": "limite_sfumato",
+      "forma_canonica": "limite sfumato",
+      "varianti": [
+        "sfumata",
+        "poco evidente",
+        "indefinita",
+        "difficile da misurare"
+      ],
+      "frequenza_stimata": 105
+    },
+    {
+      "nome_cluster": "irregolare",
+      "forma_canonica": "irregolare",
+      "varianti": [
+        "disomogenea",
+        "difforme",
+        "poco regolare",
+        "orrendo",
+        "disastroso"
+      ],
+      "frequenza_stimata": 65
+    },
+    {
+      "nome_cluster": "pigmentazione_anomala",
+      "forma_canonica": "pigmentazione anomala",
+      "varianti": [
+        "colore carico",
+        "sfondo scuro",
+        "grigiastro",
+        "aranciato",
+        "verde",
+        "rossastro",
+        "ocra",
+        "macchia scura"
+      ],
+      "frequenza_stimata": 52
+    },
+    {
+      "nome_cluster": "nella_media",
+      "forma_canonica": "nella media",
+      "varianti": [
+        "media"
+      ],
+      "frequenza_stimata": 50
+    },
+    {
+      "nome_cluster": "unghia_evidente",
+      "forma_canonica": "unghia evidente",
+      "varianti": [
+        "tanta unghia",
+        "unghia marcata",
+        "unghia spessa",
+        "unghia ampia"
+      ],
+      "frequenza_stimata": 30
+    },
+    {
+      "nome_cluster": "colore_chiaro",
+      "forma_canonica": "colore chiaro",
+      "varianti": [
+        "chiaro",
+        "chiara",
+        "pulita"
+      ],
+      "frequenza_stimata": 17
+    },
+    {
+      "nome_cluster": "difetto_crosta",
+      "forma_canonica": "difetto della crosta",
+      "varianti": [
+        "disidratato",
+        "secco",
+        "secchezza",
+        "muffa",
+        "ammuffita",
+        "marciume"
+      ],
+      "frequenza_stimata": 11
+    }
+  ],
+  "sinonimi_diretti": [
+    {
+      "da": "diff",
+      "a": "differenza",
+      "tipo": "abbreviazione"
+    },
+    {
+      "da": "x",
+      "a": "per",
+      "tipo": "abbreviazione"
+    },
+    {
+      "da": "sottoc",
+      "a": "sottocrosta",
+      "tipo": "abbreviazione"
+    },
+    {
+      "da": "crostone",
+      "a": "crosta molto spessa",
+      "tipo": "sinonimo"
+    },
+    {
+      "da": "tanta unghia",
+      "a": "unghia evidente",
+      "tipo": "sinonimo"
+    },
+    {
+      "da": "orrendo",
+      "a": "irregolare",
+      "tipo": "sinonimo"
+    },
+    {
+      "da": "un po",
+      "a": "leggermente",
+      "tipo": "sinonimo"
+    },
+    {
+      "da": "km",
+      "a": "mm",
+      "tipo": "typo"
+    },
+    {
+      "da": "kmm",
+      "a": "mm",
+      "tipo": "typo"
+    },
+    {
+      "da": "sottoscritta",
+      "a": "sottocrosta",
+      "tipo": "typo"
+    },
+    {
+      "da": "sittocrosta",
+      "a": "sottocrosta",
+      "tipo": "typo"
+    },
+    {
+      "da": "sganciato",
+      "a": "aranciato",
+      "tipo": "typo"
+    },
+    {
+      "da": "tranciato",
+      "a": "aranciato",
+      "tipo": "typo"
+    },
+    {
+      "da": "Christine",
+      "a": "crosta",
+      "tipo": "typo"
+    },
+    {
+      "da": "N9n",
+      "a": "non",
+      "tipo": "typo"
+    },
+    {
+      "da": "Christine sugli scalzi",
+      "a": "crosta sugli scalzi",
+      "tipo": "dubbio_risolto"
+    },
+    {
+      "da": "colore sottoscritta sganciato / colore tranciato sottocrosta",
+      "a": "aranciato",
+      "tipo": "dubbio_risolto"
+    },
+    {
+      "da": "carolata",
+      "a": "screpolata",
+      "tipo": "dubbio_risolto"
+    },
+    {
+      "da": "spessore dispari",
+      "a": "irregolare",
+      "tipo": "dubbio_risolto"
+    },
+    {
+      "da": "crostone",
+      "a": "molto spessa",
+      "tipo": "dubbio_risolto"
+    },
+    {
+      "da": "sotto ac1 / media 1",
+      "a": "scala interna",
+      "tipo": "dubbio_risolto"
+    },
+    {
+      "da": "rosure / tare",
+      "a": "difetto della crosta",
+      "tipo": "dubbio_risolto"
+    }
+  ],
+  "conversioni_quantitative": [
+    {
+      "pattern_regex": "^[0-5](,\\d+)?\\s*(mm|cm)",
+      "range_min_mm": 0,
+      "range_max_mm": 6,
+      "forma_canonica": "molto sottile"
+    },
+    {
+      "pattern_regex": "^[6-9]|^1[0-2]",
+      "range_min_mm": 6,
+      "range_max_mm": 12,
+      "forma_canonica": "nella norma"
+    },
+    {
+      "pattern_regex": "^1[3-7]",
+      "range_min_mm": 13,
+      "range_max_mm": 17,
+      "forma_canonica": "spessa"
+    },
+    {
+      "pattern_regex": "^(1[89]|[2-9]\\d)",
+      "range_min_mm": 18,
+      "range_max_mm": 999,
+      "forma_canonica": "molto spessa"
+    }
+  ],
+  "dubbi_non_risolti": []
+}

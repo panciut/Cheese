@@ -1,0 +1,331 @@
+{
+  "attributo": "Sapore",
+  "versione": "1.0",
+  "data_validazione": "2026-04-10",
+  "validato_da": "",
+  "note_generali": "",
+  "termini_tecnici_invariabili": [
+    "grana",
+    "nostrano",
+    "piatto",
+    "piatti",
+    "scalzo",
+    "scalzi",
+    "sottocrosta",
+    "angoli",
+    "spigoli"
+  ],
+  "cluster": [
+    {
+      "nome_cluster": "piccantezza",
+      "forma_canonica": "piccante",
+      "varianti": [
+        "piccantezza",
+        "piccantino",
+        "pizzica"
+      ],
+      "frequenza_stimata": 350
+    },
+    {
+      "nome_cluster": "sapidità",
+      "forma_canonica": "salato",
+      "varianti": [
+        "sapido",
+        "sale",
+        "sapidità",
+        "salatino"
+      ],
+      "frequenza_stimata": 350
+    },
+    {
+      "nome_cluster": "amarezza",
+      "forma_canonica": "amaro",
+      "varianti": [
+        "amarognolo",
+        "amarezza"
+      ],
+      "frequenza_stimata": 200
+    },
+    {
+      "nome_cluster": "dolcezza",
+      "forma_canonica": "dolce",
+      "varianti": [
+        "dolcezza",
+        "dolciastro"
+      ],
+      "frequenza_stimata": 200
+    },
+    {
+      "nome_cluster": "acidità",
+      "forma_canonica": "acido",
+      "varianti": [
+        "acidità",
+        "acidulo",
+        "acre",
+        "acidino"
+      ],
+      "frequenza_stimata": 100
+    },
+    {
+      "nome_cluster": "umami",
+      "forma_canonica": "umami",
+      "varianti": [
+        "glutammato"
+      ],
+      "frequenza_stimata": 125
+    },
+    {
+      "nome_cluster": "equilibrato",
+      "forma_canonica": "equilibrato",
+      "varianti": [
+        "equilibrio",
+        "armonico",
+        "bilanciato"
+      ],
+      "frequenza_stimata": 130
+    },
+    {
+      "nome_cluster": "squilibrato",
+      "forma_canonica": "squilibrato",
+      "varianti": [
+        "disarmonico",
+        "sbilanciato",
+        "slegato",
+        "sgraziato"
+      ],
+      "frequenza_stimata": 25
+    },
+    {
+      "nome_cluster": "pungente",
+      "forma_canonica": "pungente",
+      "varianti": [
+        "bruciante",
+        "brucia",
+        "irrita",
+        "pungenza",
+        "raschia in gola"
+      ],
+      "frequenza_stimata": 55
+    },
+    {
+      "nome_cluster": "sciapo",
+      "forma_canonica": "sciapo",
+      "varianti": [
+        "insipido",
+        "carente di sale",
+        "manca sale",
+        "poco salato"
+      ],
+      "frequenza_stimata": 15
+    },
+    {
+      "nome_cluster": "neutro",
+      "forma_canonica": "neutro",
+      "varianti": [
+        "blando",
+        "anonimo",
+        "insapore",
+        "scarno",
+        "povero",
+        "manca pienezza",
+        "incompleto"
+      ],
+      "frequenza_stimata": 50
+    },
+    {
+      "nome_cluster": "pieno",
+      "forma_canonica": "pieno",
+      "varianti": [
+        "rotondo",
+        "complesso",
+        "completo"
+      ],
+      "frequenza_stimata": 15
+    },
+    {
+      "nome_cluster": "astringente",
+      "forma_canonica": "astringente",
+      "varianti": [
+        "allappante",
+        "asciuga"
+      ],
+      "frequenza_stimata": 15
+    },
+    {
+      "nome_cluster": "persistente",
+      "forma_canonica": "persistente",
+      "varianti": [
+        "persistenza",
+        "evanescente"
+      ],
+      "frequenza_stimata": 20
+    },
+    {
+      "nome_cluster": "lattico",
+      "forma_canonica": "lattico",
+      "varianti": [
+        "grasso",
+        "unto",
+        "burroso",
+        "latte fresco",
+        "panna",
+        "burro"
+      ],
+      "frequenza_stimata": 13
+    },
+    {
+      "nome_cluster": "tostato_cotto",
+      "forma_canonica": "tostato",
+      "varianti": [
+        "cotto",
+        "formaggio cotto",
+        "latte cotto",
+        "crosta",
+        "sapore di crosta",
+        "bruciato",
+        "pane tostato"
+      ],
+      "frequenza_stimata": 18
+    },
+    {
+      "nome_cluster": "sovramaturo",
+      "forma_canonica": "sovramaturo",
+      "varianti": [
+        "vecchio",
+        "maturo",
+        "passato",
+        "sovramaturazione"
+      ],
+      "frequenza_stimata": 10
+    },
+    {
+      "nome_cluster": "off_flavor",
+      "forma_canonica": "off-flavor",
+      "varianti": [
+        "metallico",
+        "gorgonzola",
+        "stalla",
+        "tossico",
+        "sapone"
+      ],
+      "frequenza_stimata": 11
+    },
+    {
+      "nome_cluster": "piatto",
+      "forma_canonica": "piatto",
+      "varianti": [],
+      "frequenza_stimata": 10
+    },
+    {
+      "nome_cluster": "nostrano",
+      "forma_canonica": "nostrano",
+      "varianti": [],
+      "frequenza_stimata": 6
+    },
+    {
+      "nome_cluster": "grana",
+      "forma_canonica": "grana",
+      "varianti": [],
+      "frequenza_stimata": 6
+    }
+  ],
+  "sinonimi_diretti": [
+    {
+      "da": "legg.",
+      "a": "leggermente",
+      "tipo": "abbreviazione"
+    },
+    {
+      "da": "abb.",
+      "a": "abbastanza",
+      "tipo": "abbreviazione"
+    },
+    {
+      "da": "pic",
+      "a": "piccante",
+      "tipo": "abbreviazione"
+    },
+    {
+      "da": "equilib",
+      "a": "equilibrato",
+      "tipo": "abbreviazione"
+    },
+    {
+      "da": "ghe ne'",
+      "a": "presente",
+      "tipo": "dialetto"
+    },
+    {
+      "da": "sciapotto",
+      "a": "sciapo",
+      "tipo": "sinonimo"
+    },
+    {
+      "da": "da passeggio",
+      "a": "formaggio giovane",
+      "tipo": "sinonimo"
+    },
+    {
+      "da": "umano",
+      "a": "umami",
+      "tipo": "typo"
+    },
+    {
+      "da": "miami",
+      "a": "umami",
+      "tipo": "typo"
+    },
+    {
+      "da": "pi fante",
+      "a": "piccante",
+      "tipo": "typo"
+    },
+    {
+      "da": "ecquilibrato",
+      "a": "equilibrato",
+      "tipo": "typo"
+    },
+    {
+      "da": "brodo",
+      "a": "umami",
+      "tipo": "dubbio_risolto"
+    },
+    {
+      "da": "dolce come i Bresso!",
+      "a": "dolce",
+      "tipo": "dubbio_risolto"
+    },
+    {
+      "da": "leggero umani respiro...",
+      "a": "umami retronasale",
+      "tipo": "dubbio_risolto"
+    },
+    {
+      "da": "polvere",
+      "a": "astringente",
+      "tipo": "dubbio_risolto"
+    },
+    {
+      "da": "ddpiccante",
+      "a": "piccante",
+      "tipo": "dubbio_risolto"
+    },
+    {
+      "da": "unto / grasso",
+      "a": "lattico",
+      "tipo": "dubbio_risolto"
+    },
+    {
+      "da": "mentolato!",
+      "a": "off-flavor balsamico",
+      "tipo": "dubbio_risolto"
+    },
+    {
+      "da": "sa di vecchio / crosta di formaggio",
+      "a": "tostato",
+      "tipo": "dubbio_risolto"
+    }
+  ],
+  "conversioni_quantitative": [],
+  "dubbi_non_risolti": []
+}

@@ -1,0 +1,380 @@
+{
+  "attributo": "Profumo",
+  "versione": "1.0",
+  "data_validazione": "2026-04-10",
+  "validato_da": "",
+  "note_generali": "",
+  "termini_tecnici_invariabili": [
+    "grana",
+    "nostrano",
+    "insilato",
+    "microocchiatura",
+    "occhiatura",
+    "frattura",
+    "stirata",
+    "cristalli",
+    "tirosina",
+    "scalzo",
+    "scalzi",
+    "piatti",
+    "piatto",
+    "sottocrosta",
+    "angoli",
+    "spigoli",
+    "solubile",
+    "solubilità",
+    "friabile",
+    "friabilità",
+    "compatto",
+    "compattezza",
+    "cedevole"
+  ],
+  "cluster": [
+    {
+      "nome_cluster": "lattico_fresco",
+      "forma_canonica": "panna",
+      "varianti": [
+        "pannoso",
+        "burro fresco",
+        "burro crudo",
+        "latte fresco",
+        "latte crudo",
+        "latte intero"
+      ],
+      "frequenza_stimata": 130
+    },
+    {
+      "nome_cluster": "lattico_cotto",
+      "forma_canonica": "latte cotto",
+      "varianti": [
+        "burro fuso",
+        "burro sciolto",
+        "burro cotto",
+        "formaggio cotto",
+        "formaggio fuso",
+        "latte caramellato",
+        "latte UHT"
+      ],
+      "frequenza_stimata": 130
+    },
+    {
+      "nome_cluster": "lattico_acido",
+      "forma_canonica": "latte acido",
+      "varianti": [
+        "panna acida",
+        "yogurt",
+        "kefir",
+        "siero acido"
+      ],
+      "frequenza_stimata": 17
+    },
+    {
+      "nome_cluster": "fruttato",
+      "forma_canonica": "fruttato",
+      "varianti": [
+        "frutta matura",
+        "frutta esotica",
+        "ananas",
+        "kiwi",
+        "mela",
+        "banana",
+        "agrumi",
+        "pompelmo",
+        "limone ammuffito"
+      ],
+      "frequenza_stimata": 55
+    },
+    {
+      "nome_cluster": "tostato_frutta_secca",
+      "forma_canonica": "tostato",
+      "varianti": [
+        "tostatura",
+        "pane tostato",
+        "pane",
+        "lievito",
+        "biscotto",
+        "mollica",
+        "nocciola",
+        "frutta secca"
+      ],
+      "frequenza_stimata": 80
+    },
+    {
+      "nome_cluster": "note_dolci_scure",
+      "forma_canonica": "caramello",
+      "varianti": [
+        "mou",
+        "vaniglia",
+        "miele",
+        "caffè",
+        "cacao",
+        "cioccolato",
+        "liquirizia",
+        "radice"
+      ],
+      "frequenza_stimata": 45
+    },
+    {
+      "nome_cluster": "brodo_vegetale",
+      "forma_canonica": "brodo vegetale",
+      "varianti": [
+        "verdura lessa",
+        "verdura cotta",
+        "minestrone",
+        "cipolla",
+        "cavolfiore",
+        "cavolo",
+        "sedano"
+      ],
+      "frequenza_stimata": 61
+    },
+    {
+      "nome_cluster": "erbaceo_fieno",
+      "forma_canonica": "fieno",
+      "varianti": [
+        "vegetale",
+        "erbaceo",
+        "erba tagliata",
+        "erbe balsamiche",
+        "eucalipto"
+      ],
+      "frequenza_stimata": 53
+    },
+    {
+      "nome_cluster": "floreale",
+      "forma_canonica": "floreale",
+      "varianti": [
+        "fiori"
+      ],
+      "frequenza_stimata": 15
+    },
+    {
+      "nome_cluster": "brodo_carne",
+      "forma_canonica": "brodo di carne",
+      "varianti": [
+        "dado",
+        "glutammato"
+      ],
+      "frequenza_stimata": 23
+    },
+    {
+      "nome_cluster": "animale_stalla",
+      "forma_canonica": "animale",
+      "varianti": [
+        "stalla",
+        "letame",
+        "cavallo"
+      ],
+      "frequenza_stimata": 45
+    },
+    {
+      "nome_cluster": "fermentato_ossidato",
+      "forma_canonica": "fermentato",
+      "varianti": [
+        "frutta fermentata",
+        "erba fermentata",
+        "ossidato",
+        "rancido",
+        "stantio"
+      ],
+      "frequenza_stimata": 65
+    },
+    {
+      "nome_cluster": "putrido",
+      "forma_canonica": "putrido",
+      "varianti": [
+        "marcio",
+        "marcito",
+        "pozzo di scarico",
+        "acqua stagnante",
+        "fogna",
+        "topo morto",
+        "pesce",
+        "urina"
+      ],
+      "frequenza_stimata": 28
+    },
+    {
+      "nome_cluster": "chimico_bruciato",
+      "forma_canonica": "chimico",
+      "varianti": [
+        "bruciato",
+        "strinato",
+        "fumo",
+        "affumicato",
+        "solvente",
+        "acetone",
+        "alcol",
+        "gomma bruciata",
+        "plastica",
+        "vinilico",
+        "suola di scarpe",
+        "pomata",
+        "zolfo",
+        "uovo sodo",
+        "ammoniaca"
+      ],
+      "frequenza_stimata": 45
+    },
+    {
+      "nome_cluster": "terra_sporco",
+      "forma_canonica": "terra",
+      "varianti": [
+        "polvere",
+        "polveroso",
+        "roccia",
+        "pezze sporche",
+        "stracci sporchi",
+        "teli sporchi",
+        "sottobosco",
+        "muschio",
+        "fungo",
+        "tartufo"
+      ],
+      "frequenza_stimata": 24
+    },
+    {
+      "nome_cluster": "crosta_di_formaggio",
+      "forma_canonica": "crosta di formaggio",
+      "varianti": [
+        "crosta di grana",
+        "crosta"
+      ],
+      "frequenza_stimata": 30
+    },
+    {
+      "nome_cluster": "altri_formaggi",
+      "forma_canonica": "altro formaggio",
+      "varianti": [
+        "emmenthal",
+        "sbrinz",
+        "svizzera",
+        "camembert",
+        "pecorino",
+        "gorgonzola",
+        "taleggio"
+      ],
+      "frequenza_stimata": 12
+    },
+    {
+      "nome_cluster": "grana",
+      "forma_canonica": "grana",
+      "varianti": [],
+      "frequenza_stimata": 45
+    }
+  ],
+  "sinonimi_diretti": [
+    {
+      "da": "legg.",
+      "a": "leggermente",
+      "tipo": "abbreviazione"
+    },
+    {
+      "da": "ins",
+      "a": "insilato",
+      "tipo": "abbreviazione"
+    },
+    {
+      "da": "form.",
+      "a": "formaggio",
+      "tipo": "abbreviazione"
+    },
+    {
+      "da": "veg",
+      "a": "vegetale",
+      "tipo": "abbreviazione"
+    },
+    {
+      "da": "strinato",
+      "a": "bruciato",
+      "tipo": "dialetto"
+    },
+    {
+      "da": "una botta di",
+      "a": "intenso",
+      "tipo": "sinonimo"
+    },
+    {
+      "da": "come un presidente di Fondazione",
+      "a": "impercettibile",
+      "tipo": "sinonimo"
+    },
+    {
+      "da": "paana",
+      "a": "panna",
+      "tipo": "typo"
+    },
+    {
+      "da": "nanna",
+      "a": "panna",
+      "tipo": "typo"
+    },
+    {
+      "da": "congetto",
+      "a": "confetto",
+      "tipo": "typo"
+    },
+    {
+      "da": "carcne",
+      "a": "carne",
+      "tipo": "typo"
+    },
+    {
+      "da": "sooidato",
+      "a": "ossidato",
+      "tipo": "typo"
+    },
+    {
+      "da": "odore chimico tipo colpa",
+      "a": "colla",
+      "tipo": "dubbio_risolto"
+    },
+    {
+      "da": "tanta nanna e latte",
+      "a": "panna",
+      "tipo": "dubbio_risolto"
+    },
+    {
+      "da": "congetto, lieve nota ossidata e pungente",
+      "a": "confetto",
+      "tipo": "dubbio_risolto"
+    },
+    {
+      "da": "nostrano come difetto",
+      "a": "nostrano atipico",
+      "tipo": "dubbio_risolto"
+    },
+    {
+      "da": "cuoio vs stalla/letame",
+      "a": "animale stalla",
+      "tipo": "dubbio_risolto"
+    },
+    {
+      "da": "grasso di prosciutto crudo / salame invecchiato",
+      "a": "brodo di carne",
+      "tipo": "dubbio_risolto"
+    },
+    {
+      "da": "formaggio fritto",
+      "a": "chimico bruciato",
+      "tipo": "dubbio_risolto"
+    },
+    {
+      "da": "leggermente propionico",
+      "a": "altro formaggio",
+      "tipo": "dubbio_risolto"
+    },
+    {
+      "da": "crauti / salamoia crauti",
+      "a": "fermentato",
+      "tipo": "dubbio_risolto"
+    },
+    {
+      "da": "balsamico liquirizia / erbe balsamiche",
+      "a": "cluster balsamico separato",
+      "tipo": "dubbio_risolto"
+    }
+  ],
+  "conversioni_quantitative": [],
+  "dubbi_non_risolti": []
+}

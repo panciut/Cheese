@@ -1,0 +1,376 @@
+{
+  "attributo": "Struttura della Pasta",
+  "versione": "1.0",
+  "data_validazione": "2026-04-10",
+  "validato_da": "",
+  "note_generali": "",
+  "termini_tecnici_invariabili": [
+    "grana",
+    "frattura",
+    "microocchiatura",
+    "occhiatura",
+    "stirata",
+    "cristalli",
+    "tirosina",
+    "scalzo",
+    "scalzi",
+    "piatti",
+    "piatto",
+    "sottocrosta",
+    "angoli",
+    "spigoli",
+    "compatto",
+    "compattezza",
+    "friabile",
+    "friabilità",
+    "solubile",
+    "solubilità",
+    "cedevole"
+  ],
+  "cluster": [
+    {
+      "nome_cluster": "grana",
+      "forma_canonica": "grana",
+      "varianti": [],
+      "frequenza_stimata": 200
+    },
+    {
+      "nome_cluster": "frattura",
+      "forma_canonica": "frattura",
+      "varianti": [],
+      "frequenza_stimata": 200
+    },
+    {
+      "nome_cluster": "microocchiatura",
+      "forma_canonica": "microocchiatura",
+      "varianti": [
+        "microcchiatura"
+      ],
+      "frequenza_stimata": 150
+    },
+    {
+      "nome_cluster": "stirata",
+      "forma_canonica": "stirata",
+      "varianti": [
+        "stiratura",
+        "tendente allo stirato"
+      ],
+      "frequenza_stimata": 100
+    },
+    {
+      "nome_cluster": "omogeneità",
+      "forma_canonica": "omogenea",
+      "varianti": [
+        "regolare",
+        "non regolare"
+      ],
+      "frequenza_stimata": 180
+    },
+    {
+      "nome_cluster": "occhiatura",
+      "forma_canonica": "occhiatura",
+      "varianti": [
+        "occhi",
+        "occhio"
+      ],
+      "frequenza_stimata": 95
+    },
+    {
+      "nome_cluster": "fessurazioni",
+      "forma_canonica": "fessurazione",
+      "varianti": [
+        "fessura",
+        "fessure",
+        "spacco",
+        "spacchi",
+        "spaccatura",
+        "crepa",
+        "crepe"
+      ],
+      "frequenza_stimata": 110
+    },
+    {
+      "nome_cluster": "granulosità",
+      "forma_canonica": "granulosa",
+      "varianti": [
+        "granulosità",
+        "grano di riso"
+      ],
+      "frequenza_stimata": 50
+    },
+    {
+      "nome_cluster": "spugnosa",
+      "forma_canonica": "spugnosa",
+      "varianti": [
+        "spugna",
+        "spugnatura",
+        "spugnosità"
+      ],
+      "frequenza_stimata": 45
+    },
+    {
+      "nome_cluster": "strappi",
+      "forma_canonica": "strappo",
+      "varianti": [
+        "strappi",
+        "strappetto"
+      ],
+      "frequenza_stimata": 40
+    },
+    {
+      "nome_cluster": "sfogliatura",
+      "forma_canonica": "sfoglia",
+      "varianti": [
+        "sfogliata",
+        "fogliata",
+        "scaglie",
+        "scagliosa"
+      ],
+      "frequenza_stimata": 40
+    },
+    {
+      "nome_cluster": "cristalli_struttura",
+      "forma_canonica": "cristalli",
+      "varianti": [
+        "tirosina"
+      ],
+      "frequenza_stimata": 25
+    },
+    {
+      "nome_cluster": "ruvida_sabbiosa",
+      "forma_canonica": "ruvida",
+      "varianti": [
+        "sabbiosa",
+        "sabbia"
+      ],
+      "frequenza_stimata": 17
+    },
+    {
+      "nome_cluster": "disidratata",
+      "forma_canonica": "disidratata",
+      "varianti": [
+        "asciutta",
+        "secca"
+      ],
+      "frequenza_stimata": 17
+    },
+    {
+      "nome_cluster": "gessata",
+      "forma_canonica": "gessata",
+      "varianti": [
+        "gessato"
+      ],
+      "frequenza_stimata": 11
+    },
+    {
+      "nome_cluster": "compattezza",
+      "forma_canonica": "compatto",
+      "varianti": [
+        "compattata",
+        "plastica"
+      ],
+      "frequenza_stimata": 10
+    },
+    {
+      "nome_cluster": "friabilità",
+      "forma_canonica": "friabile",
+      "varianti": [
+        "friabilità"
+      ],
+      "frequenza_stimata": 10
+    },
+    {
+      "nome_cluster": "solubilità",
+      "forma_canonica": "solubile",
+      "varianti": [
+        "solubilità"
+      ],
+      "frequenza_stimata": 10
+    },
+    {
+      "nome_cluster": "slegata",
+      "forma_canonica": "slegata",
+      "varianti": [
+        "slegato",
+        "disunita",
+        "scollata"
+      ],
+      "frequenza_stimata": 6
+    },
+    {
+      "nome_cluster": "pastosa",
+      "forma_canonica": "pastosa",
+      "varianti": [
+        "impasta",
+        "pastoso",
+        "gommoso"
+      ],
+      "frequenza_stimata": 6
+    },
+    {
+      "nome_cluster": "cedevole",
+      "forma_canonica": "cedevole",
+      "varianti": [],
+      "frequenza_stimata": 4
+    },
+    {
+      "nome_cluster": "macrocavità",
+      "forma_canonica": "caverna",
+      "varianti": [
+        "cavernosa",
+        "vasca",
+        "cratere"
+      ],
+      "frequenza_stimata": 5
+    }
+  ],
+  "sinonimi_diretti": [
+    {
+      "da": "legg.",
+      "a": "leggermente",
+      "tipo": "abbreviazione"
+    },
+    {
+      "da": "mic",
+      "a": "microocchiatura",
+      "tipo": "abbreviazione"
+    },
+    {
+      "da": "microocch.",
+      "a": "microocchiatura",
+      "tipo": "abbreviazione"
+    },
+    {
+      "da": "st",
+      "a": "stirata",
+      "tipo": "abbreviazione"
+    },
+    {
+      "da": "tipo carta vetro",
+      "a": "ruvida",
+      "tipo": "sinonimo"
+    },
+    {
+      "da": "da bombardamento",
+      "a": "frattura irregolare",
+      "tipo": "sinonimo"
+    },
+    {
+      "da": "grana grassa",
+      "a": "pasta pastosa",
+      "tipo": "sinonimo"
+    },
+    {
+      "da": "grandiosa",
+      "a": "granulosa",
+      "tipo": "typo"
+    },
+    {
+      "da": "Microsoft",
+      "a": "microocchiatura",
+      "tipo": "typo"
+    },
+    {
+      "da": "bocciatura",
+      "a": "occhiatura",
+      "tipo": "typo"
+    },
+    {
+      "da": "dittatura",
+      "a": "occhiatura",
+      "tipo": "typo"
+    },
+    {
+      "da": "spagnola",
+      "a": "spugnosa",
+      "tipo": "typo"
+    },
+    {
+      "da": "spinosa",
+      "a": "spugnosa",
+      "tipo": "typo"
+    },
+    {
+      "da": "impugnatura",
+      "a": "spugnatura",
+      "tipo": "typo"
+    },
+    {
+      "da": "demoralizzato",
+      "a": "disidratato",
+      "tipo": "typo"
+    },
+    {
+      "da": "anna",
+      "a": "grana",
+      "tipo": "typo"
+    },
+    {
+      "da": "cessata",
+      "a": "gessata",
+      "tipo": "typo"
+    },
+    {
+      "da": "stririta",
+      "a": "stirata",
+      "tipo": "typo"
+    },
+    {
+      "da": "ideologizzata",
+      "a": "occhiatura",
+      "tipo": "dubbio_risolto"
+    },
+    {
+      "da": "stamattina",
+      "a": "stirata",
+      "tipo": "dubbio_risolto"
+    },
+    {
+      "da": "degustazioni",
+      "a": "fessurazioni",
+      "tipo": "dubbio_risolto"
+    },
+    {
+      "da": "discrezionalità",
+      "a": "disomogeneità",
+      "tipo": "dubbio_risolto"
+    },
+    {
+      "da": "perla di Roma",
+      "a": "perla rotonda",
+      "tipo": "dubbio_risolto"
+    },
+    {
+      "da": "Trans evidenti te",
+      "a": "tracce evidenti",
+      "tipo": "dubbio_risolto"
+    },
+    {
+      "da": "rigeneratrice",
+      "a": "rigatura",
+      "tipo": "dubbio_risolto"
+    },
+    {
+      "da": "realizzata",
+      "a": "sfilacciata",
+      "tipo": "dubbio_risolto"
+    },
+    {
+      "da": "amore",
+      "a": "alcune",
+      "tipo": "dubbio_risolto"
+    },
+    {
+      "da": "congelata",
+      "a": "compatta",
+      "tipo": "dubbio_risolto"
+    },
+    {
+      "da": "versata",
+      "a": "gessata",
+      "tipo": "dubbio_risolto"
+    }
+  ],
+  "conversioni_quantitative": [],
+  "dubbi_non_risolti": []
+}
