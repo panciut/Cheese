@@ -1,0 +1,276 @@
+===== SLIDE 1 =====
+[TXT] AI4FQC · PROJECT 07
+[TXT] Sensory captioning | of Trentingrana cheese
+[TXT] From dataset construction to comparing three encoder–decoder methods
+[TXT] Technical report  ·  38,437 image–caption pairs  ·  3 models  ·  7 attributes
+[NOTES] 'Good morning everyone, and welcome. Today I\'m presenting our project on the sensory captioning of Trentingrana cheese.\x0b\nThe starting idea was to automatically generate sensory descriptions, in Italian, from images of grana cheese cross-sections.\xa0\n\nIn other words, teach a model to "describe" a cheese by looking at a slice of it.\x0b\nWe\'ll look at concrete numbers: 38 thousand image-caption pairs, three models, seven sensory attributes, and above all a clear scientific result about what truly drives a model to actually use the image.\x0b\nLet\'s start with the context.\n\x0b'
+===== SLIDE 2 =====
+[TXT] AI4FQC · Project 07: GRANA Captioning
+[TXT] 02
+[TXT] THE CONTEXT
+[TXT] Why an AI that describes cheese
+[TXT] Sensory quality control | Every wheel of grana is assessed by a panel of expert tasters. It is precious work, but it is slow, subjective and hard to scale across thousands of wheels.
+[TXT] The idea | ● Input: IRIS images of cross-sections (controlled lighting) | ● Output: a sensory description in Italian, per attribute | ● Value: objective, reproducible support to the human panel
+[TXT] Close-up of the grain - IRIS electronic visual analyzer
+[NOTES] "Let's begin with the real problem.\n\xa0\nGrana quality is certified by tasting panels which are experts who smell, taste and observe each wheel, describing aroma, flavor, structure and so on.\xa0\x0b\nThis approach has three limits: it is slow, it is subjective, two panelists describe the same wheel with different words, and it is hard to scale when there are thousands of wheels.\n\nThe project's idea is to support this work with an automatic system.\n\nWe feed the model an image captured with the IRIS electronic visual analyzer, like the one you see on the right, and we ask it to produce a sensory description in Italian for each attribute\n\x0b"
+===== SLIDE 3 =====
+[TXT] AI4FQC · Project 07: GRANA Captioning
+[TXT] 03
+[TXT] THE SUBJECT
+[TXT] Seven sensory attributes
+[TXT] For each wheel the panel describes seven dimensions. Three are visible in the image, four are not, a distinction that returns in the results.
+[TXT] Colore della pasta | VISUAL
+[TXT] Texture | VISUAL
+[TXT] Struttura della pasta | VISUAL
+[TXT] Spessore della crosta | VISUAL*
+[TXT] Odore | OLFACTORY
+[TXT] Aroma | OLFACTORY
+[TXT] Sapore | GUSTATIVE
+[TXT] * visible but small | The rind is a small area: CLIP weights it little.
+[NOTES] 'These are the seven sensory dimensions the panel rates for each wheel: paste colour, texture, paste structure, rind thickness, smell, aroma and taste.\n\nPlease keep in mind a distinction that will become central in the second part.\xa0\nThree attributes, paste colour, texture and paste structure, are intrinsically visual: they can be read from the image.\xa0\n\nSmell, aroma and taste, belong to olfaction and gustation: no photograph can reveal a taste.\x0b\nAnd then there is an instructive case, rind thickness: it is physically visible, yet the rind occupies a small portion of the slice, and we\'ll see that the model struggles to "weight" it.\n\nThis taxonomy is not decorative: when we measure whether the model truly uses the image, we’ll find it succeeds exactly on the visible attributes and fails on the olfactory and gustatory ones.\n\nIt is a sanity check that validates the whole approach.\n\x0b'
+===== SLIDE 4 =====
+[TXT] AI4FQC · Project 07: GRANA Captioning
+[TXT] 04
+[TXT] THE BRIEF
+[TXT] Two steps, one comparison goal
+[TXT] Step 1 · Text pre-processing |  | ● Clean and normalize telegraphic, dialectal, inconsistent descriptions | ● Replace quantitative measures (mm/cm) with qualitative descriptions | ● Produce captions as complete Italian sentences | ● ≈ 70% of the project's overall effort
+[TXT] Step 2 · Three captioning methods | ● Apply three «as conceptually different as possible»    encoder–decoders | ● Focus on comparing methods, not on the single «best» model | ● Multi-metric evaluation beyond BLEU alone | ● ≈ 30% of the project's overall effort
+[NOTES] 'The first step is text pre-processing: take the tasters\' descriptions, often telegraphic, sometimes in dialect, occasionally inconsistent , and turn them into clean, normalised captions in the form of Italian sentences.\xa0\n\nA specific, recurring requirement is to replace quantitative measures, the rind\'s millimetres and centimetres, with qualitative descriptions.\xa0\n\nThis step, as you see, accounts for about 70% of the work: it is the most original part.\x0b\nThe second step is to apply and compare three encoder-decoder methods that are "as conceptually different as possible".\n\nConsistently with these weights, I\'ll devote the first and larger part of the talk to building the dataset, and the second to the models. \n\nLet\'s start with the data.\n'
+===== SLIDE 5 =====
+[TXT] PART I
+[TXT] Building the dataset
+[TXT] From 51,988 raw, dialectal rows to 38,437 clean image–caption pairs
+[NOTES] "Let's enter the first part: building the dataset.\n\nHere's the journey in one line: we start from nearly 52 thousand raw, heterogeneous and at times dialectal rows, and we arrive at 38 thousand clean, normalised image-caption pairs in sentence form.\xa0\n\nIn between there's an eleven-stage pipeline and a precise strategy that let us do all this for an AI cost of just 5 dollars and 60 cents.\n\nThis, in my view, is the most interesting part of the project from an engineering standpoint, because the raw data was deceptively rich but deeply misaligned. \n\nLet's see why.\n\x0b"
+===== SLIDE 6 =====
+[TXT] AI4FQC · Project 07: GRANA Captioning
+[TXT] 06
+[TXT] THE STARTING POINT
+[TXT] Rich data, but misaligned
+[TXT] What we had | 2,745 BMP photos of sections (Slice / Grain) | 4 Excel workbooks (2018-2021), one sheet per attribute | 1 codebook: dairy ↔ product ↔ letter (16 dairies)
+[TXT] The join problem |  | Images and comments «spoke different languages». The filename identifies the single wheel; the comment only the taster's tray. No row-level join, only a dairy-level join, via the codebook.
+[TXT] Invisible obstacles | Triple dairy indexing: TN_306 / TN306 / 306 | Inconsistent headers across years | Italian decimal comma ('7,48') | Provenance propagated downstream → traceability
+[NOTES] 'The starting material looked rich: nearly 2,750 high-resolution BMP photos of cheese sections, in two views: the whole slice and a close-up of the grain; four Excel workbooks, one per year from 2018 to 2021, with one sheet per attribute; and a codebook mapping the sixteen dairies.\n\nThe problem, however, was not quantity but alignment.\nImages and comments, in practice, spoke different languages. The photo filename identifies the single wheel a precise sample ID, while the taster\'s comment identifies only the tray, the "product". So there was no row-by-row join between a photo and its comment: there was only a dairy-level join, going through the codebook.\x0b\nOn top of that, three concrete obstacles that cost real time: the same dairy appears written three different ways; the Excel headers change from year to year; and the numeric scores use the Italian decimal comma.\xa0\x0b\nEvery provenance field is propagated downstream, so each final row stays traceable back to the original comment.'
+===== SLIDE 7 =====
+[TXT] AI4FQC · Project 07: GRANA Captioning
+[TXT] 07
+[TXT] THE JOIN SOLUTION
+[TXT] Dairy-level broadcast
+[TXT] Each comment is propagated to all coherent images of that dairy in that session: up to 4 rows from a single comment.
+[TXT] Panel comment | «Sauerkraut» | (Smell · TN_306)
+[TXT] P3a - Slice
+[TXT] P3a - Grain
+[TXT] P3b - Slice
+[TXT] P3b - Grain
+[TXT] 4 image-caption rows | (same caption)
+[NOTES] 'How do we solve the lack of a wheel-level join?\n\xa0With what we called a dairy-level broadcast.\xa0\n\nThe idea is to propagate each taster\'s comment to all coherent images of that dairy in that session. Look at the example.\xa0\x0b\nA single comment about smell, the word "Sauerkraut", for dairy TN_306, becomes the caption of four different images: replicas a and b, each in the two views, slice and grain.\xa0\n\nFrom one comment we get up to four image-caption rows, with the same caption.\n\nThe net effect of the join is nearly 52 thousand rows, obtained as image times panelist times attribute, of which about 39,500 have a non-empty comment: a pairing rate around 76%, lower in the 2021 sessions where some fields were left blank. From here the pipeline begins.\n\x0b'
+===== SLIDE 8 =====
+[TXT] AI4FQC · Project 07: GRANA Captioning
+[TXT] 08
+[TXT] THE ARCHITECTURE
+[TXT] An eleven-stage pipeline
+[TXT] Guiding principle: deterministic-before-the-LLM, everything that can be done with reproducible, free code is done before calling the model.
+[TXT] 0
+[TXT] Unified table | 51,988
+[TXT] 1
+[TXT] Deterministic prep | 39,356
+[TXT] 2–3
+[TXT] Vocabulary + audit | 7 attr.
+[TXT] 4
+[TXT] Cleanup + qualitative | 7,705 unique
+[TXT] 5
+[TXT] Noise drop | 7,689
+[TXT] 6–7
+[TXT] Prompt + pilot | 105
+[TXT] 8
+[TXT] LLM batch | 7,689
+[TXT] 9
+[TXT] Manual salvage | +916
+[TXT] 10
+[TXT] Broadcast + sentence | 38,437
+[TXT] ■ deterministic (free)    ■ with LLM    ■ final assembly
+[NOTES] 'Here\'s the full map: eleven stages, numbered zero to ten, each with its own Python script, explicit inputs and outputs.\x0b\nThe guiding principle, and this is the most important architectural decision of the first part\xa0is "deterministic before the LLM".\xa0\n\x0bIt means: everything that can be done with reproducible, verifiable, free code, we do before calling the language model.\n\nIn blue you see the deterministic stages: from the unified table, to text preparation, to building the vocabulary, to cleanup and deduplication. \n\nIn gold the stages that involve the LLM: prompt\ndesign, the pilot and the full batch. In green the final assembly.\n\nFollow the numbers along the stages: 52 thousand initial rows, reduced and normalised, then compressed to about 7,700 unique captions; and only this subset reaches the paid model.\xa0\x0b\nIt is exactly this compression that keeps the cost to a few dollars. Let\'s look at the key stages one by one.\n\x0b'
+===== SLIDE 9 =====
+[TXT] AI4FQC · Project 07: GRANA Captioning
+[TXT] 09
+[TXT] THE DATA FLOW
+[TXT] The funnel: where rows are lost (and kept)
+[TXT] Reading | ● -12,632 rows in deterministic prep | ● 12,478 empty / null | ● 86 meta-comments  ·  68 near-empty | ● 75.7% retention after stage 1
+[NOTES] "This is the same story, seen as a funnel. The axis shows the number of training rows as they movethrough the pipeline.\n\nThe biggest drop, over 12,600 rows, happens entirely in the deterministic preparation of stage 1.\n\nBut watch what we discard: the vast majority, nearly 12,500 rows, are empty or null values.\xa0\x0b\nOnly 86 are meta-comments and 68 are near-empty fragments. In other words, we are not discarding sensory content: we are removing certain noise.\n\nThe retention rate after stage 1 is 75.7%. And here's a deliberate choice I want to stress: at this stage, drops must be certain.\n\nThe deterministic blacklist is therefore small and conservative by design.\n"
+===== SLIDE 10 =====
+[TXT] AI4FQC · Project 07: GRANA Captioning
+[TXT] 10
+[TXT] STAGE 1
+[TXT] Deterministic prep: clean without rewriting
+[TXT] Operations | ● Filter empties/N-A + Unicode normalization (NFC) | ● Remove non-breaking spaces, zero-width, tabs, newlines | ● Drop meta-comments (small, conservative blacklist) | ● Drop near-empty noise (< 2 alphanumeric characters) | ● Dual column raw / norm → reversibility and audit
+[TXT] Philosophy | «Drops must be certain». The LLM will handle ambiguity better: a negation with a descriptor: «I don't penalize it, but it smells of barn»  carries real information and is kept. |  | Result: 39,356 rows (75.7% retention), 12,632 drops, of which 12,478 empty, 86 meta, 68 near-empty.
+[NOTES] "Let's enter stage 1, the deterministic preparation.\xa0\n\nThe golden rule here is: clean without rewriting. We don't change the taster's words, we only clean them.\xa0\x0b\nThe operations are all mechanical and verifiable: we filter empties and N/A, normalise Unicode to NFC form, remove non-breaking spaces, zero-width characters, tabs and newlines.\xa0\n\nThen we remove meta-comments with a deliberately small blacklist, and near-empty fragments, those with fewer than two alphanumeric characters after cleaning.\xa0\n\nWe always keep two columns, raw text and normalised text, so every transformation is reversible and auditable.\n\nThe philosophy, on the right, is the key: drops must be certain. Anything ambiguous passes through, because the LLM will handle it better than any fixed rule.\xa0\n\nThe net result is 39,356 rows, with the drops that, I repeat because it matters, are 99% simply empties.\n\x0b"
+===== SLIDE 11 =====
+[TXT] AI4FQC · Project 07: GRANA Captioning
+[TXT] 11
+[TXT] STAGES 2–3
+[TXT] A controlled vocabulary, tailor-made
+[TXT] Why custom | ● Italian NLP tools err: panna→panno, latte→latto. Our stoplist keeps the intensifiers that matter: «molto», «poco», «leggermente» | ● Deterministic normalization: abbreviation + typo maps, accent restoration, measurement units dropped | ● Singular↔plural merge only when both forms are attested → antonyms stay split (carico ≠ scarico) | ● Top-200 lemmas + top-80 bigrams per attribute (freq ≥ 3): audit basis + style anchor in the prompt, never a closed dictionary
+[NOTES] 'Stages 2 and 3 build one controlled vocabulary for each of the seven\n\xa0 attributes: the most frequent lemmas and the most frequent bigrams,\n\xa0 obtained with a tailor-made Italian lemmatisation.\n\x0b\n\xa0 Why not a standard NLP library? Because on the sensory lexicon they err\n\xa0 systematically — "panna" (cream) becomes "panno" (cloth), "latte" (milk)\n\xa0 becomes "latto" — and, worse, they treat as stopwords the very words that\n\xa0 carry meaning here: "molto", "poco", "leggermente" — very, little, slightly\n\xa0 — are sensory intensifiers, not noise. So the pipeline is fully\n\xa0 deterministic and reproducible: an accent-aware tokeniser, hand-built maps\n\xa0 that expand abbreviations and fix audit-found typos, removal of pure\n\xa0 measurement tokens (mm, cm, %), and accent restoration applied only when the\n\xa0 accented form already exists in the corpus, to avoid false positives.\n\x0b\n\xa0 Lemmatisation deliberately avoids generic suffix-stripping. A curated\n\xa0 dictionary handles the ambiguous cases, and singular-plural / gender\n\xa0 variants are merged only when both forms are actually attested in the\n\xa0 corpus, with the more frequent form winning. This single rule is what keeps\n\xa0 antonyms apart — "carico" is never merged with "scarico", "equilibrato"\n\xa0 never with "squilibrato" — while still collapsing "cotto/cotta/cotti/cotte"\n\xa0 into one lemma. Adverbs in -mente are kept whole, since they are meaningful.\n\x0b\n\xa0 The chart shows the vocabulary breadth per attribute: paste structure is the\n\xa0 richest, with around 780 lemmas over more than 40,000 tokens; rind thickness\n\xa0 is the poorest, around 250 lemmas, consistent with its narrower descriptive\n\xa0 range. Each vocabulary keeps the top-200 lemmas (frequency ≥ 3) and top-80\n\xa0 bigrams. It serves two purposes: a quantitative basis for the audit, and a\n\xa0 stylistic anchor in the LLM prompt — the top-60 lemmas per attribute — used\n\xa0 to suggest the panel\'s real wording, not as a closed dictionary, since the\n\xa0 model already speaks Italian.'
+===== SLIDE 12 =====
+[TXT] AI4FQC · Project 07: GRANA Captioning
+[TXT] 12
+[TXT] STAGE 4 · KEY REQUIREMENT
+[TXT] From numbers to quality: the rind
+[TXT] Hundreds of captions were just measures («10», «1 cm», «8-10 mm»). A deterministic function converts everything to mm and assigns a bucket.
+[NOTES] 'Stage 4 tackles head-on the brief\'s explicit requirement: replacing quantitative descriptions with qualitative ones.\xa0\nThe emblematic case is rind thickness, where hundreds of captions were plain numbers: "10", "1 cm", "on average 9 mm", "8-10 mm".\n\nThe solution is a deterministic function that recognises fully numeric captions, converts everything to millimetres, with a heuristic reading values below 5 as centimetres, and assigns a qualitative bucket per the table you see: below 8 millimetres "very thin", up to 10 "thin", and so on up to "very thick" beyond 18.\x0b\nWhy do it deterministically and not with the LLM? Because it eliminates at the root the model\'s main source of inconsistency, which otherwise bucketed "1 cm" and "10 mm", the exact same physical measure differently.\xa0\x0b\nIn the chart on the right you see the result: 424 numeric rows neatly collapsed into five buckets.\xa0\n\nMixed captions, those blending numbers and description, are instead left to the LLM because they require contextual reasoning.\n\x0b'
+===== SLIDE 13 =====
+[TXT] AI4FQC · Project 07: GRANA Captioning
+[TXT] 13
+[TXT] STAGE 4 · THE DECISIVE TRICK
+[TXT] Deduplication: 5.1× compression
+[TXT] Why it matters | ● The broadcast replicates the same text many times | ● 39,356 rows → 7,705 unique captions | ● 5.1× compression by (caption, attribute) key | ● Dominant 4× pattern: 6,595 captions exactly 4 times | ● → cuts the LLM cost ~5×
+[NOTES] 'This is the single most important trick for the project\'s economics: deduplication.\n\nRemember the broadcast? By replicating each comment across four images, the exact same text would have been sent to the LLM many times, paying for it each time.\xa0\n\nThat makes no sense. So, before calling the model, we deduplicate by key: the caption-plus-attribute pair.\xa0\n\nThe result is sharp: over 39 thousand rows compress into 7,705 unique captions, a 5.1-fold compression. The chart shows, per attribute, prepared rows versus unique captions.\nThe dominant pattern is exactly the broadcast\'s factor of four: nearly 6,600 captions appear precisely four times.\n\nThe practical consequence is enormous: we send the LLM only the unique captions, cutting the cost by about five times.\xa0\x0b\nIt\'s the perfect illustration of the "deterministic before the LLM" principle: a simple deduplication, for free, cuts the paid component\'s cost by a factor of five.\n\x0b'
+===== SLIDE 14 =====
+[TXT] AI4FQC · Project 07: GRANA Captioning
+[TXT] 14
+[TXT] STAGES 6–8
+[TXT] LLM rewriting: the genuinely hard work
+[TXT] 6 · Prompt design | ● Per-attribute system prompt  | ● 11 rules : | Faithfulness: zero invention | Normalization: numbers→quality, synonyms→controlled lexicon | Cleanup: remove pure meta comments | Safety: NON_DESCRITTO escape when no descriptor is present | ● Top-60 lemmas as a style anchor | ● 6 real few-shot examples
+[NOTES] 'We reach the "smart" core of the pipeline: LLM rewriting, stages 6, 7 and 8.\xa0\n\nHere the LLM does the work no regex could do faithfully: expanding "Sauerkraut" into "Smell of sauerkraut", normalising dialect, removing meta-comments while preserving the descriptor, turning questions into statements.\xa0\x0b\nStage 6 is prompt design: a system prompt for each attribute, about 5 kilobytes, with eleven rules including a "zero invention" rule and an escape, NON_DESCRITTO, for contentless inputs.\xa0 \nThe sixty most frequent lemmas as a stylistic anchor, and six real few-shot examples.\n\nStage 7, the pilot on 105 captions, served to discover two failure modes before spending: the centimetre-millimetre inconsistency and some format violations. Both fixed in the prompt. A concrete\noperational lesson: three parallel workers were optimal, eight triggered rate-limit storms.\n\nStage 8, the full batch: all 7,689 unique captions sent as a single job. \n\nResult: 7,689 out of 7,689 completed, zero errors, in half an hour, for about four and a half dollars.\xa0\n\nWhich brings us to the question: why Haiku?\n\x0b'
+===== SLIDE 15 =====
+[TXT] AI4FQC · Project 07: GRANA Captioning
+[TXT] 15
+[TXT] MODEL CHOICE
+[TXT] Why Haiku 4.5: same job, a fraction of the cost
+[TXT] The pilot's verdict | ● 2.4× cheaper than Sonnet | ● 12× cheaper than Opus | ● On the verified task, bigger models gave no measurable extra quality | ● $5.60 total LLM cost of the project
+[NOTES] 'One of the project\'s most pragmatic decisions. For a well-bounded rewriting task, already verified on the pilot, which is the right model?\n \nThe chart answers. The same work would cost about 5 dollars 60 with Haiku 4.5, versus about 13.50 with Sonnet and over 67 with Opus.\xa0\n\nHaiku is 2.4 times cheaper than Sonnet and twelve times cheaper than Opus.\n\x0bThe real question, though, is not "which is cheapest" but "is the cheap model good enough?".\xa0\n\nThis is where the pilot comes in: having tested it on a stratified sample, we verified that for this narrow task the more expensive models offered no measurable quality gain. Spending more would have been throwing money away.\xa0\n\nThe total LLM cost of the entire project, pilot plus batch, was 5 dollars and 60 cents. \nIt is concrete proof that good upstream data engineering is worth more than an expensive downstream model.\n'
+===== SLIDE 16 =====
+[TXT] AI4FQC · Project 07: GRANA Captioning
+[TXT] 16
+[TXT] PROGRAMMATIC VALIDATION
+[TXT] Step 1 is satisfied 100%
+[TXT] Zero numbers, | zero units |  | The quantitative → qualitative conversion succeeded 100%: the main requirement of Step 1 is fully met. |  | * the only «violation» is an alternative, still-valid prefix.
+[NOTES] 'How do we know Step 1 is truly satisfied? Not by impression, but with programmatic validation on all 7,689 model outputs.\n\x0bThe table summarises the checks. The output always starts with the expected attribute prefix with a single "violation" that is actually a valid alternative prefix.\xa0\n\nAbove all, look at the numbers that matter for the brief: zero outputs with digits, zero outputs with units like millimetres or centimetres, zero overly long outputs, zero empty outputs, zero outputs with markup. All zeros.\n\nThis means the conversion from quantitative to qualitative, the core requirement of the first step, succeeded one hundred percent: in the final captions there remains no number and no unit of measure. It\'s a clean, verifiable fulfilment of the deliverable, not a promise.\xa0\n\nAnd when a reviewer asks "but are you sure you removed all the measures?", the answer is a table, not an opinion.'
+===== SLIDE 17 =====
+[TXT] AI4FQC · Project 07: GRANA Captioning
+[TXT] 17
+[TXT] STAGE 9
+[TXT] Manual salvage: cleaning ≠ throwing away
+[TXT] Hand-curation | ● 291/362 NON_DESCRITTO had a vocabulary lemma → LLM too cautious | ● 178 captions salvaged by hand | ● «marcio, putrido,» → «Smell of rot and putridity.» | ● 362 → 184 unique NON_DESCRITTO | ● +916 training rows recovered
+[NOTES] 'Stage 9 is one of those that separate a curated dataset from a merely "cleaned" one.\n\xa0\nAfter the batch, a scan revealed something interesting: 291 of the 362 captions the LLM had labelled NON_DESCRITTO, i.e. "there\'s no description here", actually contained at least one lemma from the controlled vocabulary.\xa0\n\nA sign the model had been overly cautious with the escape rule on borderline inputs, those mixing a judgement and a descriptor.\xa0\n\nSo we hand-curated a salvage map of 178 captions where the descriptor was real and faithful.\n\nExamples: "marcio, putrido," becomes "Smell of rot and putridity"; "Sangue,,," becomes "Aroma of blood".\n\nThe effect, in the chart: unique NON_DESCRITTO drop from 362 to 184, and this recovers 916 training rows we would otherwise have lost. The message is simple: cleaning data does not mean throwing it away.\xa0\n\nA little manual care, on a targeted subset, cost less than another LLM round and returned nearly a thousand valid examples.'
+===== SLIDE 18 =====
+[TXT] AI4FQC · Project 07: GRANA Captioning
+[TXT] 18
+[TXT] STAGE 10 · THE DELIVERABLE
+[TXT] The final dataset
+[TXT] 38,437 | final rows
+[TXT] 1,497 | unique images
+[TXT] 2 | caption forms
+[TXT] Delivered schema | ● captions_final.csv — 38,437 × 18 col. (provenance) | ● image_caption_attribute.csv — 4-column view | ● by_attribute/<Attr>.csv — 7 per-attribute splits | ● caption (compact, ~4–8 words) | ● caption_sentence (Italian sentence, ~7–15 words) | ● Deterministic sentence form: 100% template, 0 extra LLM round-trips
+[NOTES] 'Here we are at the first part\'s deliverable. Stage 10 reconnects the clean captions to the broadcast table and produces the final dataset: 38,437 training rows over 1,497 unique images.\n\nThe chart shows the row distribution per attribute, and note there\'s significant variance.\xa0\nThe paste structure has nearly double the rows of rind thickness. This imbalance will matter in the cross-attribute comparison of the second part.\nOn the format side, we made a flexibility choice: each row carries two caption forms. A compact one, four to eight words, anchored to the attribute, like "Smell of cream". And a complete declarative Italian sentence, "The cheese has a smell of cream", better suited to encoder-decoders and to captioning metrics.\xa0\n\x0bThis sentence transformation is fully deterministic, with no further LLM round.\n\x0bThe dataset is delivered in several forms: full table with all provenance, simplified four-column\nview, and seven per-attribute splits to serve any downstream architecture.\xa0\n\x0bWith this we close the data part and move on to the models.\n'
+===== SLIDE 19 =====
+[TXT] PART II
+[TXT] Model selection and training
+[TXT] Three encoder–decoder methods, one determinant: the visual encoder
+[NOTES] "Second part: the models.\nHere the brief's goal is the comparison of methods, and let me give you the conclusion upfront, so\nyou can follow the data with the right key. Among everything we could change — the decoder, the\namount of data, the hyperparameters — the single factor that decides whether the model truly uses\nthe image is one: the visual encoder.\nWe'll build this conclusion step by step, and verify it with two independent tools: the shuffle test\nand the CLIPScore. Let's start with the three architectures."
+===== SLIDE 20 =====
+[TXT] AI4FQC · Project 07: GRANA Captioning
+[TXT] 20
+[TXT] THE ARCHITECTURES
+[TXT] Three methods, two axes of variation
+[TXT] m1
+[TXT] ENCODER | ResNet-50 | (CNN, frozen)
+[TXT] DECODER | LSTM | from scratch
+[TXT] m3
+[TXT] ENCODER | ViT-B/16 | (frozen)
+[TXT] DECODER | Transformer | from scratch
+[TXT] m6
+[TXT] ENCODER | ViT-B/16 | (frozen)
+[TXT] DECODER | GePpeTto | pretrained Italian GPT-2
+[TXT] ↔ m1 vs m3 isolates the ENCODER        ↔ m3 vs m6 isolates the DECODER
+[TXT] All encoders are frozen: only decoder and cross-attention projection are trained → fair comparison.
+[NOTES] 'The brief asks for three methods "as conceptually different as possible". We chose them to isolate\nthe three main axes of variation in captioning.\nm1 is the classic: a convolutional encoder, ResNet-50, with an LSTM decoder trained from scratch.\nm3 changes the encoder: a Vision Transformer, ViT-B/16, with a Transformer decoder, still from\nscratch. m6 changes the decoder: the same ViT, but the decoder is GePpeTto, an already-pretrained\nItalian GPT-2.\nThe beauty of this design is in the axes, at the bottom. Comparing m1 with m3 isolates the encoder\'s\neffect, because the decoder stays the same "from scratch" type. Comparing m3 with m6 isolates the\ndecoder\'s effect, because the encoder is identical. It\'s a small controlled experiment.\nA crucial choice for fairness: all encoders are frozen. We train only the decoder and the\ncross-attention projection. So each decoder receives exactly the same visual features, and the\ndifferences we observe are attributable to architecture, not to a lucky encoder. This, we\'ll see,\nis also the main limitation, and the main pointer to future work.'
+===== SLIDE 21 =====
+[TXT] AI4FQC · Project 07: GRANA Captioning
+[TXT] 21
+[TXT] EXPERIMENTAL SETUP
+[TXT] Training on Kaggle, fair comparison
+[TXT] Fair-evaluation choices | ● Sample-disjoint split: 674 train / 143 val / 147 test, no leak | ● Nucleus sampling (top-p 0.9, T 0.7): beam collapses to the modal caption | ● Healthy curves: no overfitting, NaN or collapse
+[NOTES] "The experimental setup, briefly. All training ran on Kaggle's free GPU tier, with T4 or P100. The\nhyperparameters in the table are reasonable defaults for each architecture, not the fruit of an\nexhaustive search: m1 more epochs and a higher learning rate, m6 few epochs and a small learning\nrate, as is natural for a pretrained model that only needs fine-tuning.\nTwo choices ensure a fair comparison. First, the split is sample-disjoint: the same cheese never\nappears both in training and in test, so we avoid leakage. Second, at inference we use nucleus\nsampling instead of beam search, because on small datasets beam collapses to the most frequent\ncaption, artificially inflating BLEU but reducing diversity.\nThe training curves are healthy across all three models, no overfitting, no NaN, no collapse, so\nthe differences in results are not due to training pathologies.\nOn the right, a Kaggle lesson learned the hard way, for anyone wanting to reproduce: the enable_gpu\nflag in the metadata is not enough, and the preinstalled PyTorch on P100s must be reinstalled.\nDetails, but the kind that cost you an afternoon."
+===== SLIDE 22 =====
+[TXT] AI4FQC · Project 07: GRANA Captioning
+[TXT] 22
+[TXT] RESULTS · PER-ATTRIBUTE
+[TXT] BLEU-4: models win where captions are diverse
+[TXT] Reading | ● Win: Struttura (+0.128), Profumo, Texture, Colore | ● Tie/lose: Aroma, Sapore, Spessore | ● Not from weakness: BLEU rewards the modal predictor on low-diversity captions | ● 4 / 7 attributes beat the constant baseline
+[NOTES] 'Let\'s see the first results, in the per-attribute regime: seven separate models, one per sensory\ndimension. The chart shows BLEU-4 per attribute, compared with the most_frequent baseline, the one\nthat always emits the most frequent caption.\nThe picture is sharp and two-sided. The trained models clearly beat the constant baseline on four\nattributes: paste structure, with a notable margin of over 0.12 points, then smell, texture and\ncolour. On the other three, aroma, taste and rind thickness, they tie or lose.\nBe careful not to misread this "lose". It does not mean the models are poor on those attributes. It\nmeans that there the reference captions are not very diverse, very template-heavy, and under those\nconditions BLEU rewards whoever always predicts the majority. It\'s a flaw of the metric, not of the\nmodel, and we\'ll prove it shortly with the shuffle test, which on thickness confirms m3 and m6 do\nuse the image.\nIn short: 4 of 7 attributes beat the baseline, and the 3 "lost" ones are a BLEU artifact.'
+===== SLIDE 23 =====
+[TXT] AI4FQC · Project 07: GRANA Captioning
+[TXT] 23
+[TXT] RESULTS · GLOBAL MODEL
+[TXT] A single model across all attributes
+[TXT] m6 wins narrowly | ● m6 first on BLEU-1/4, ROUGE-L, METEOR≈ | ● m3 first on CIDEr | ● 0.007 BLEU-4 spread: a very tight cluster | ● ⚠ most_frequent has the highest BLEU-1 but worst BLEU-4: degenerate
+[NOTES] 'Let\'s move to the global regime: a single model trained across all attributes together. It\'s an\nintrinsically harder task, because the model must also choose which sensory dimension to describe,\nand it works with a much larger vocabulary.\nThe chart compares the three models on five metrics. Two observations. First, m6, the ViT with\nGePpeTto, wins narrowly almost everywhere: it\'s first on BLEU-1, BLEU-4 and ROUGE-L, and\nessentially tied on METEOR; m3 only beats it on CIDEr. Second, and equally important, the three\nmodels are in a very tight cluster: the BLEU-4 spread is just seven thousandths. They are very close.\nA note on the baseline, which I left out of the chart for readability but is crucial: most_frequent,\nthe constant sentence, would have the highest BLEU-1 of all but the worst BLEU-4. It\'s the\ndegenerate behaviour of "always predict the majority": you guess many single words, but you never\ncompose a correct four-word sequence different from the template. Keep this anomaly in mind: it\'s\nthe first clue that BLEU, on its own, is misleading us.'
+===== SLIDE 24 =====
+[TXT] AI4FQC · Project 07: GRANA Captioning
+[TXT] 24
+[TXT] MIND THE INTERPRETATION
+[TXT] Per-attribute vs global: two different rulers
+[TXT] Why the 3–4× jump | ● Does NOT mean per-attribute models learn better | ● Per-attribute evaluation runs on a narrower distribution | ● ~80-140 vocabulary words vs ~600+ | ● Shared scaffolding: ~5 words of constant 4-gram | ● → they measure performance on different distributions
+[NOTES] 'A slide of methodological caution, because it\'s easy to draw the wrong conclusion.\nYou\'ll have noticed that the per-attribute numbers, BLEU-4 from 0.33 to 0.47, are much higher than\nthe global BLEU-4, around 0.13. A three- or four-fold jump. The temptation is to say: "so the\nper-attribute models are much better". Wrong.\nThat jump doesn\'t reflect better learning, but the fact that per-attribute evaluation runs on a much\nnarrower distribution. When you focus on a single attribute, the vocabulary collapses from over 600\nwords to about 80-140, and the shared scaffolding — "the cheese has a such-and-such attribute of..."\n— alone contributes five words of constant 4-gram that send BLEU soaring.\nThey are two different rulers measuring performance on different distributions. The global model is\nintrinsically harder because it must also choose which dimension to describe. Comparing the two\nnumbers as if on the same scale would be a mistake, and it\'s the kind of subtlety that separates an\nhonest analysis from one that fools itself.'
+===== SLIDE 25 =====
+[TXT] AI4FQC · Project 07: GRANA Captioning
+[TXT] 25
+[TXT] THE KEY RESULT
+[TXT] The shuffle test: does the model use the image?
+[TXT] How it works | Predictions are shuffled across test rows, breaking the prediction ↔ image alignment.  | Recompute 100 times → null distribution → z-score. z > 3 ⟺ p < 0.001: strong evidence of image-conditioning.
+[TXT] What it says | ● m1 (ResNet): z≈0 everywhere → pure language model | ● m3 / m6 (ViT): use the image on 4/7 attributes | ● Odore, Spessore, Colore, Struttura → succeed | ● Aroma → no model uses the image
+[NOTES] "We're at the most important result of the whole project. The question is as simple as it is\nfundamental: is the model actually using the image, or just mimicking the caption distribution?\nThe tool is the shuffle test. The idea: if a model is truly conditioned on the image, its prediction\nfor image i must match the reference of i better than a randomly picked prediction. So we shuffle the\npredictions across test rows, breaking the alignment, recompute the overlap a hundred times to get a\nnull distribution, and measure the z-score. A z above 3 corresponds to p below 0.001: strong\nevidence.\nThe verdict, in the chart, is crystal clear. m1, the ResNet model, has z near zero everywhere: it\nnever uses the image, it's effectively a pure language model guessing from the distribution. m3 and\nm6, the ViT models, clearly use the image on four attributes out of seven: smell, thickness, colour\nand structure. The only one where no model uses the image is aroma.\nKeep this chart in mind: the next slide draws the architectural conclusion."
+===== SLIDE 26 =====
+[TXT] AI4FQC · Project 07: GRANA Captioning
+[TXT] 26
+[TXT] THE INTERPRETATION
+[TXT] The encoder matters, not the decoder
+[TXT] m1 vs m3: isolates the encoder |  | m1 (ResNet) NEVER conditions on the image. | m3 (ViT) does on most attributes. |  | → A frozen ResNet-50's features aren't enough at this data scale; a frozen ViT-B/16's are.
+[TXT] m3 vs m6: isolates the decoder |  | They produce different outputs (never the same caption), but have the SAME image-conditioning profile: the same attributes succeed, the same fail. |  | → The decoder changes the style, not whether the image is used.
+[TXT] The «binary gate» of image-conditioning is the visual encoder — not the decoder, not data scale, not hyperparameters.
+[NOTES] "Put the shuffle test together with the two-axis design from the architectures slide, and the\nconclusion writes itself.\nComparing m1 with m3, which isolates the encoder: m1 with ResNet never conditions on the image, m3\nwith ViT does on most attributes. By changing only the encoder, image use switches on. The reading\nis that a frozen ResNet-50's features aren't informative enough at this data scale, while a frozen\nViT-B/16's are.\nComparing m3 with m6, which isolates the decoder: they produce different outputs, they never give\nthe same caption for the same image, yet they have exactly the same image-conditioning profile. The\nsame attributes succeed, the same fail. Changing the decoder changes the sentence's style, not\nwhether the image is used.\nThe synthesis is at the bottom: the binary gate of image-conditioning, on this dataset, is the\nvisual encoder. Not the decoder, not the amount of data, not the hyperparameters. It's a clean\nresult, and it also tells us where to act in future: on the encoder. Now let's reinforce this\nconclusion with the complementary metrics."
+===== SLIDE 27 =====
+[TXT] AI4FQC · Project 07: GRANA Captioning
+[TXT] 27
+[TXT] HONEST EVALUATION
+[TXT] Beyond BLEU: seven complementary metrics
+[NOTES] 'We\'ve seen that BLEU, on its own, misleads: it rewards template repetition and never looks at the\nimage. To read the models more honestly, we paired BLEU with six complementary metrics, groupable\ninto three families.\nThe text metrics compare the prediction with the textual reference: besides BLEU, METEOR, which is\nmore lenient because it aligns with stemming and synonyms, ROUGE-L, which rewards word order, and\nCIDEr, designed specifically for captioning, which weights n-grams with TF-IDF and so rewards rare,\ninformative sensory terms like "eyes" (occhiatura) over common words.\nThen a semantic metric, BERTScore, measuring meaning similarity via embeddings. A domain metric,\nvocabulary conformity, which asks: does the model "speak cheese" in the certified register?\nAnd finally, highlighted at the bottom, the most important for captioning: CLIPScore, the only one\nthat truly looks at the image. It compares the caption with the slice in CLIP space, ignoring the\npanel reference. The next two slides show what CIDEr and CLIPScore add.'
+===== SLIDE 28 =====
+[TXT] AI4FQC · Project 07: GRANA Captioning
+[TXT] 28
+[TXT] CIDER
+[TXT] Discriminates where BLEU flattens
+[TXT] Reading | ● Orders the models: random < freq < m1 < m3 < m6 | ● Trained models clearly beat the random baselines | ● m6 is the best among the models | ● most_frequent (0.79) leads only because the reference IS often the frequent sentence: artifact, not quality
+[NOTES] "Let's start with CIDEr, the metric designed specifically for captioning. Unlike BLEU, which\nflattened the models onto close values, CIDEr weights rare terms with TF-IDF and so separates them.\nLook at the ordering in the chart, on the seven-attribute means: random 0.23, then freq_weighted\n0.37, then the trained models rising clearly: m1 at 0.59, m3 at 0.65, m6 at 0.70. CIDEr orders the\nmodels correctly, and confirms m6 is the best. It's exactly the information BLEU couldn't give us: a\nclean ranking.\nThere's one column taller than all, in gold: most_frequent, at 0.79. Don't be fooled: the constant\nbaseline leads only because, on this dataset, the panel reference is often the frequent sentence\nitself. It's an artifact of the single reference, not real quality. On an extreme case like rind\nthickness, where BLEU gave 0.39 for everyone, CIDEr ranges from 1.04 to 2.29: a rich ordering BLEU\nsimply did not see.\nConclusion: CIDEr adds real information and separates the trained models from the noise."
+===== SLIDE 29 =====
+[TXT] AI4FQC · Project 07: GRANA Captioning
+[TXT] 29
+[TXT] CLIPSCORE
+[TXT] Independent confirmation of the shuffle test
+[TXT] By MODEL → all equal (gap < 0.004)
+[TXT] By ATTRIBUTE → visual high, smell/taste low
+[TXT] With a frozen encoder the image isn't exploited: the models do language modeling. The real variation is per attribute.
+[NOTES] 'Now CLIPScore, the only metric that looks at the image, and the independent confirmation of the\nshuffle test. Two charts, two messages.\nOn the left, mean CLIPScore by model. Note the axis: I deliberately zoomed in, and despite the zoom\nthe bars are practically identical. The trained models m1, m3, m6 do not beat the constant baseline\nmost_frequent, the one that always fires the same sentence ignoring the image. The gap is below\n0.004, within the noise. It\'s the quantitative, independent confirmation of what the shuffle test\nalready told us: with a frozen encoder, the models don\'t anchor the caption to the visual content,\nthey do language modeling on the caption distribution.\nOn the right, the real variation: it\'s per attribute, not per model. CLIP "sees" that texture,\ncolour and structure, the visual attributes, get higher scores, while aroma, taste and smell stay\nlow for everyone, because no image can reveal a taste. It\'s a sanity check that validates the metric.\nAnd remember the exception: rind thickness is visible but low, because the rind is a small portion\nof the slice and CLIP weights it little. Everything fits.'
+===== SLIDE 30 =====
+[TXT] AI4FQC · Project 07: GRANA Captioning
+[TXT] 31
+[TXT] QUALITATIVE EXAMPLES
+[TXT] What m6 actually generates
+[TXT] Four recurring patterns: (1) the scaffolding is always correct and worth ~50% of BLEU-4; (2) the language is fluent thanks to the pretrained LM; (3) the descriptor is often valid but for another cheese; (4) references vary enormously across tasters → a ceiling on BLEU.
+[NOTES] 'The numbers tell half the story; the generated captions tell the other half. Here you see real\npredictions from m6 alongside the panel reference, on test-set samples.\nSometimes it\'s an exact match: on the aroma of cream, prediction and reference coincide word for\nword. On thickness, "the rind is medium-thick", again perfect. But look at the other cases: on taste\nthe model says "slightly salty and spicy" where the panel said just "salty"; on structure it\nproposes "irregular fracture and fine grain" while the reference talks about stretched paste.\nFrom these examples four patterns emerge, summarised at the bottom. First: the scaffolding, "the\ncheese has a...", is always correct and alone worth about half the BLEU-4, which is why the numbers\naren\'t tiny. Second: the language is fluent and grammatical, thanks to the pretrained model. Third,\nand most telling: the descriptor is often plausible but refers to another cheese, exactly what we\nexpect from a model only partially conditioned on the image. Fourth: the variability across tasters\nis enormous and puts a ceiling on what any model can achieve with a single-reference BLEU.'
+===== SLIDE 31 =====
+[TXT] Conclusions & future work
+[TXT] Scientific result | ● The encoder matters: ResNet ignores the image, ViT uses it on 4/7 | ● Independent of decoder, data scale, hyperparameters | ● Confirmed by shuffle test + CLIPScore
+[TXT] Practical result | ● 4/7 attributes beat the baseline (max Structure +0.128) | ● m6 (ViT+GePpeTto) wins narrowly almost everywhere | ● $5.60 data cost · 38,437 pairs delivered
+[TXT] Future work | ● Fine-tune the encoder and re-measure CLIPScore | ● k-NN retrieval baseline as an image-aware «floor» | ● If models pull away from the baseline → image exploited
+[TXT] Honest framing:  no model would replace a taster. They learned the vocabulary and a partial image → descriptor map, consistent with the data scale and the noise of multi-taster annotation.
+[TXT] Thank you. Questions?
+[NOTES] "Let's wrap up. The project delivers two results and one promise for the future.\nThe scientific result is the most solid: on this dataset, the determinant of image use is the visual\nencoder. ResNet ignores the image on all seven attributes, ViT uses it on four out of seven,\nindependent of the decoder, the data scale and the hyperparameters. And it's not an isolated claim:\ntwo independent tools, the shuffle test and CLIPScore, converge on the same conclusion.\nThe practical result: the trained models beat the constant baseline on four attributes out of seven,\nwith the maximum on structure. m6, the ViT with GePpeTto, wins narrowly almost everywhere. And all\nthis rests on a 38-thousand-pair dataset built with just 5 dollars and 60 cents of LLM cost.\nFuture work follows directly from the diagnosis: since the bottleneck is the frozen encoder, the\nnatural next experiment is fine-tuning the encoder and re-measuring CLIPScore. If the models start\npulling away from the constant baseline, we'll have direct proof that the image is finally being\nexploited.\nI'll close with an honest framing: none of these models would replace a taster today. They learned\nthe sensory vocabulary and a partial map from image to descriptor, a result consistent with the\ndata scale and the intrinsic noise of multi-taster annotation. But the path is mapped, and we know\nexactly where to act.\nThank you for your attention. I'm happy to take questions."
+===== SLIDE 32 =====
+[TXT] AI4FQC · Project 07: GRANA Captioning
+[TXT] 30
+[TXT] THE METHODOLOGICAL MORAL
+[TXT] The BLEU trap, visualized
+[TXT] A metric lies | Left, BLEU-1: the constant caption most_frequent WINS. |  | Right, CLIPScore: the two models are practically equal. |  | → BLEU-1 alone is misleading. Metrics must be read together.
+[NOTES] "This slide is the methodological moral of the whole evaluation, condensed into one image.\nLook at the same pair of models, the constant baseline most_frequent against m6, seen by two\ndifferent metrics. On the left, with BLEU-1, the constant caption wins: it always emits the same\nsentence and matches on the prefix. On the right, with CLIPScore, the two are practically\nindistinguishable.\nThe exact same comparison, two opposite verdicts. This vividly demonstrates that a single metric, on\nits own, can lie. Had we looked only at BLEU-1, we'd have concluded that a constant sentence beats a\ntrained model: an absurd conclusion. This is exactly why we built a battery of metrics and read\nthem together: BLEU for phrasing, CIDEr for salient terms, BERTScore for meaning, and CLIPScore for\nimage grounding.\nBERTScore, for completeness, is poorly discriminating here: all values fall between 0.83 and 0.92,\nbecause all sentences talk about cheese with the same structure. It's useful as a sanity check, not\nfor ranking. The lesson stands: never trust a single metric."
