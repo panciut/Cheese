@@ -236,7 +236,13 @@ non un difetto.}
 L'effetto netto del join: \textbf{51.988 righe} (immagine $\times$ panelista
 $\times$ attributo) su 2.745 immagini, di cui \textbf{39.510} con commento non
 vuoto (tasso di pairing $\sim 76\%$, pi\`u basso nelle sedute 2021 dove alcuni
-campi attributo erano lasciati vuoti).
+campi attributo erano lasciati vuoti). Delle 2.745 immagini, \textbf{460 sono
+\emph{orfane}} (nessun commento accoppiabile per quella seduta/caseificio): un
+\emph{left join} le conserva con i campi commento vuoti invece di scartarle in
+silenzio, cos\`i da distinguere le vere orfane dai fallimenti del parser. Il
+join \`e \emph{strict} su \texttt{(data, codice prodotto)}, cosicch\'e un
+commento del 2018 non possa mai finire su un'immagine del 2021 anche per lo
+stesso caseificio.
 
 \subsection{Anatomia di una difficolt\`a invisibile}
 Tre ostacoli concreti, ognuno costato tempo reale, hanno reso il join non
@@ -349,6 +355,33 @@ quasi-vuoti. Una scelta chiave \`e stata mantenere una blacklist
 l'LLM gestir\`a meglio le ambiguit\`a (es. ``non penalizzo, ma sa di stalla''
 contiene un descrittore reale e non va scartato).
 
+Le 39.356 righe non sono uniformemente distribuite fra i sette attributi: la
+\emph{Struttura della Pasta} domina (i panelisti la descrivono pi\`u
+diffusamente), lo \emph{Spessore della Crosta} \`e il pi\`u scarno.
+
+\begin{center}\small
+\begin{tabular}{@{}lr@{}}
+\toprule
+\textbf{Attributo} & \textbf{Righe preparate} \\
+\midrule
+Struttura della Pasta & 7.546 \\
+Sapore & 6.350 \\
+Colore della Pasta & 5.947 \\
+Profumo & 5.798 \\
+Texture & 5.431 \\
+Aroma & 4.213 \\
+Spessore della Crosta & 4.071 \\
+\midrule
+\textbf{Totale} & \textbf{39.356} \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+Le caption grezze sono telegrafiche: mediana di 3--6 token, spesso una sola
+parola (\texttt{Crauti}, \texttt{Forte}, \texttt{Yogurt}), con $\sim 25\%$ di
+lunghezza $\leq 2$ token e casing incoerente --- esattamente il rumore che
+questa fase normalizza \emph{senza} riformulare.
+
 \section{Fasi 2--3 --- Vocabolario controllato e audit}
 
 Per ciascuno dei 7 attributi viene estratto un \textbf{vocabolario controllato}
@@ -383,6 +416,37 @@ audit (\texttt{audit\_vocabulary.py}) ha segnalato token quantitativi, stem
 spezzati e refusi tramite distanza di Levenshtein, in tre round di correzioni.}
 \label{fig:vocab}
 \end{figure}
+
+\subsection{L'audit del vocabolario in tre round}
+Il vocabolario non \`e stato accettato al primo colpo. Uno script di audit
+\emph{non distruttivo} segnala sette categorie di problemi --- token
+quantitativi o con cifre sopravvissuti, token troppo corti (abbreviazioni
+residue come \texttt{leg}, \texttt{po}), coppie di flessione non collassate,
+coppie a distanza di Levenshtein $\leq 1$ (probabili refusi o sinonimi), lemmi
+cross-attributo, e i top-30 per attributo per ispezione del registro --- senza
+modificare nulla: ogni correzione \`e decisa a mano, perch\'e i flag richiedono
+giudizio (\texttt{carico} e \texttt{scarico} sono antonimi, non un merge
+mancato). Una distanza di Levenshtein con \emph{early-exit} su
+$|\,\text{len}_a - \text{len}_b\,| > 2$ taglia oltre il 90\% delle
+$\sim$1,1 milioni di coppie senza falsi negativi rilevanti.
+
+Il ciclo audit$\rightarrow$fix \`e convergiuto in \textbf{tre round}, ognuno
+rivelando pattern che il precedente mascherava: \textbf{(1)} avverbi in
+\texttt{-mente} spezzati (\texttt{leggermente}$\rightarrow$\texttt{legger});
+\textbf{(2)} accenti finali persi (\texttt{intensita} vs \texttt{intensit\`a})
+e participi non uniti (\texttt{fermentato}/\texttt{fermentata});
+\textbf{(3)} sostantivi maschili in \texttt{-io} (\texttt{taglio}/\texttt{tagli}),
+forme apocopate (\texttt{buon} da \texttt{buono}) e preposizioni articolate
+(\texttt{dagli}, \texttt{sugli}) da aggiungere alla stoplist. Ogni round ha
+richiesto di estendere le mappe \texttt{SPECIAL}, \texttt{TYPO\_MAP},
+\texttt{STOP} e la logica di \texttt{merge\_inflections} della fase precedente.
+
+A convergenza resta un solo falso positivo (\texttt{latte}/\texttt{lattee},
+correttamente \emph{non} uniti: il nome \texttt{latte} vs l'aggettivo
+\texttt{latteo} declinato) e tutte le near-duplicate residue sono coppie
+antonimiche o omografe legittime (\texttt{equilibrato}/\texttt{squilibrato},
+\texttt{gradevole}/\texttt{sgradevole}, \texttt{bella}/\texttt{bolla}). Solo
+allora il vocabolario \`e dichiarato \emph{prompt-ready}.
 
 \section{Fase 4 --- Pulizia e qualitatizzazione delle misure}
 
@@ -453,6 +517,34 @@ ispezionabile. Solo successivamente uno script di \emph{drop attivo} elimina
 le 3 categorie \emph{certe} (valutazioni pure come ``Buono''/``Ok'', soli
 numeri fuori-Spessore, meta di sistema).
 
+La tassonomia del survey ha sette categorie, ma solo tre attivano un drop:
+
+\begin{center}\small
+\begin{tabular}{@{}llc@{}}
+\toprule
+\textbf{Categoria} & \textbf{Esempio} & \textbf{Drop?} \\
+\midrule
+\texttt{META} & ``non valuto'', ``voto'', ``peccato.'' & \checkmark \\
+\texttt{PURE\_EVAL} & ``buono'', ``ok'', ``mah'' & \checkmark \\
+\texttt{NUMBER\_ONLY} & soli numeri (fuori-Spessore) & \checkmark \\
+\texttt{EMPTY\_AFTER\_TOKENIZE} & nessun token alfanumerico & \checkmark \\
+\texttt{PURE\_INTENSIFIER} & ``leggero'', ``intenso'' & --- \\
+\texttt{UNCERTAINTY} & ``forse pochi cristalli'' & --- \\
+\texttt{INTERROGATIVE} & ``Eucalipto?'' & --- \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+Le tre categorie ``non droppate'' sono il cuore della filosofia conservativa:
+un intensificatore \`e informazione, un'incertezza nasconde spesso un
+descrittore (\texttt{forse pochi cristalli} $\rightarrow$ \texttt{pochi
+cristalli}), e un interrogativo \`e un frammento descrittivo che la regola 8
+del prompt trasforma in affermazione. Un pattern \texttt{non so} con lookahead
+negativi (\texttt{non so come/cosa/se}) distingue l'abbandono valutativo dalla
+continuazione descrittiva; \texttt{regolare}, \texttt{tipico} e
+\texttt{normale} sono esclusi da \texttt{PURE\_EVAL} perch\'e descrittori
+sensoriali validi.
+
 Il drop \`e deliberatamente conservativo: \textbf{16 caption uniche / 76 righe
 broadcast (0,2\%)}. Le caption che mescolano meta e descrittore vengono
 \emph{mantenute} --- l'LLM far\`a quella ``chirurgia'' meglio di una regex.
@@ -481,8 +573,11 @@ controllato come ancora stilistica, idiomi multi-parola curati a mano, e
 
 \subsection{Pilot run (Fase 7)}
 Un campione stratificato di 105 caption (15 per attributo) \`e passato per
-primo attraverso Haiku 4.5 in modalit\`a sincrona. Il pilot ha rivelato due
-modi di fallimento, entrambi corretti nel prompt: (1) l'incoerenza
+primo attraverso Haiku 4.5 in modalit\`a sincrona. Il campionamento \`e
+deliberatamente misto --- 5 caption ad alta frequenza di broadcast (dove un
+errore si propaga a molte righe) pi\`u 10 dalla coda casuale (sonda sui registri
+rari, dialettali ed ellittici), con \texttt{seed} fissato per riproducibilit\`a.
+Il pilot ha rivelato due modi di fallimento, entrambi corretti nel prompt: (1) l'incoerenza
 \texttt{1 cm} vs \texttt{10 mm}, risolta con la tabella di conversione
 esplicita; (2) violazioni di formato sugli input senza contenuto, risolte con
 l'escape \texttt{NON\_DESCRITTO}. Lezione operativa: 3 worker in parallelo
@@ -490,10 +585,14 @@ erano l'ottimo, 8 worker scatenavano tempeste di rate-limit (429).
 
 \subsection{Batch completo (Fase 8)}
 Tutte le 7.689 caption uniche sono state inviate come un singolo job Anthropic
-Batch API: \textbf{7.689/7.689 completate, 0 errori}, $\sim$25--30 minuti,
-$\sim\$4{,}50$. La Figura~\ref{fig:cost} motiva la scelta di Haiku 4.5: per
-questo compito di riscrittura ben delimitato, verificato sul pilot, modelli
-pi\`u costosi non offrivano alcun guadagno di qualit\`a misurabile.
+Batch API (\texttt{msgbatch\_01Bv99Z88dFdZ6PJ6FdjRxoA}, sconto del 50\%,
+asincrono, senza rate-limit): \textbf{7.689/7.689 completate, 0 errori},
+$\sim$25--30 minuti, $\sim\$4{,}50$. Il mapping \texttt{custom\_id}$\rightarrow$
+\texttt{dedup\_key} \`e salvato \emph{prima} della sottomissione, cos\`i un
+crash fra submit e fetch \`e recuperabile con \texttt{-{}-resume <batch\_id>}
+senza riprocessare nulla. La Figura~\ref{fig:cost} motiva la scelta di Haiku
+4.5: per questo compito di riscrittura ben delimitato, verificato sul pilot,
+modelli pi\`u costosi non offrivano alcun guadagno di qualit\`a misurabile.
 
 \begin{figure}[h]
 \centering
@@ -527,6 +626,31 @@ Output multi-riga o con markup & \textbf{0} \\
 La conversione quantitativo$\rightarrow$qualitativo \`e riuscita al 100\%, una
 soddisfazione pulita del requisito principale del Passo 1: \emph{zero numeri e
 zero unit\`a di misura residue} nelle caption finali.
+
+\subsection{NON\_DESCRITTO per attributo}
+Il batch ha prodotto \textbf{360 \texttt{NON\_DESCRITTO}} (4,7\% delle uniche),
+il segnale d'escape della regola 11. La loro distribuzione non \`e uniforme: lo
+\emph{Spessore della Crosta} ne ha la quota pi\`u alta (10,4\%), perch\'e molte
+annotazioni originali sono pure misure senza descrittore qualitativo --- ed \`e
+proprio questo insieme a diventare l'input della fase di salvage.
+
+\begin{center}\small
+\begin{tabular}{@{}lrrr@{}}
+\toprule
+\textbf{Attributo} & \textbf{Uniche} & \textbf{NON\_D} & \textbf{\%} \\
+\midrule
+Profumo & 1.178 & 64 & 5,4 \\
+Aroma & 805 & 56 & 7,0 \\
+Sapore & 1.127 & 58 & 5,1 \\
+Texture & 1.088 & 30 & 2,8 \\
+Spessore della Crosta & 637 & 66 & 10,4 \\
+Struttura della Pasta & 1.674 & 54 & 3,2 \\
+Colore della Pasta & 1.180 & 32 & 2,7 \\
+\midrule
+\textbf{Totale} & \textbf{7.689} & \textbf{360} & \textbf{4,7} \\
+\bottomrule
+\end{tabular}
+\end{center}
 
 \section{Fase 9 --- Salvage manuale}
 
@@ -581,8 +705,12 @@ metriche di captioning (BLEU, METEOR). La trasformazione \`e puramente
 deterministica (nessun LLM): canonicalizzazione dei prefissi, sostituzione di
 template, e un \emph{polish pass} che corregge le imperfezioni grammaticali
 (iniezione dell'articolo dopo ``presenta'', consapevolezza dei plurali,
-elisione \texttt{una}$\rightarrow$\texttt{un'}). Copertura template del 100\%,
-zero round-trip LLM aggiuntivi.
+elisione \texttt{una}$\rightarrow$\texttt{un'}). Copertura template del 100\%
+(94 righe prima ricanonicalizzate sui prefissi alternativi, $\sim$5.000 righe
+ritoccate dal \emph{polish pass}), zero round-trip LLM aggiuntivi. Un controllo
+di qualit\`a finale sulle 6.834 frasi uniche --- assenza di articolo dopo
+\texttt{presenta}, elisioni mancanti, forme awkward \texttt{\`e dalla},
+raddoppi d'articolo, doppi spazi --- non rileva \textbf{alcuna} violazione.
 
 Entrambe le forme sono presenti in ogni riga; \textbf{tutto l'addestramento
 del Passo 2 usa la forma di frase} (\texttt{caption\_sentence}) perch\'e
@@ -603,6 +731,30 @@ Parte~II.
 totali). Ogni immagine contribuisce con una riga per attributo coperto.}
 \label{fig:finalrows}
 \end{figure}
+
+La tabella seguente riporta, accanto alle righe, le \emph{immagini uniche}
+coperte per attributo. La somma delle immagini per-attributo eccede le 1.497
+totali perch\'e la stessa immagine compare sotto pi\`u attributi: non tutte le
+immagini hanno per\`o tutti e sette gli attributi annotati, da cui la copertura
+disomogenea (lo Spessore della Crosta copre 1.021 immagini, il Sapore 1.494).
+
+\begin{center}\small
+\begin{tabular}{@{}lrr@{}}
+\toprule
+\textbf{Attributo} & \textbf{Righe} & \textbf{Immagini uniche} \\
+\midrule
+Struttura della Pasta & 7.400 & 1.626 \\
+Sapore & 6.244 & 1.494 \\
+Colore della Pasta & 5.844 & 1.274 \\
+Profumo & 5.660 & 1.622 \\
+Texture & 5.309 & 1.299 \\
+Aroma & 4.019 & 1.215 \\
+Spessore della Crosta & 3.961 & 1.021 \\
+\midrule
+\textbf{Totale} & \textbf{38.437} & \textbf{1.497} \\
+\bottomrule
+\end{tabular}
+\end{center}
 
 \subsection{Schema del dataset consegnato}
 Il deliverable del Passo~1 \`e fornito in pi\`u forme, per servire qualsiasi
